@@ -1,0 +1,15 @@
+{
+  "injector": {
+    "enable": true,
+    "print_loaded_modules": false
+  },
+  "allocate_console": false,
+  "locale_emulator": {
+    "charset": 128,
+    "codepage": 932,
+    "enable": true,
+    "locale": 1041,
+    "timezone": "Tokyo Standard Time",
+    "wait_for_exit": false
+}
+}
