@@ -25,3 +25,5 @@ https://github.com/jyxjyx1234/misc_game-chs/
 点击原exe进行启动即可，无需手动转区。
 
 使用了Garbro进行解、封包，sextractor进行文本提取和导入，galtransl进行批量翻译，UniversalInjectorFramework和Locale-Emulator进行转区。
+
+#### 

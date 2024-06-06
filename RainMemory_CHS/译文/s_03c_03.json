@@ -1,0 +1,212 @@
+[
+    {
+        "index": 1,
+        "name": "真",
+        "pre_jp": "「……きみのことはどうなんだい？」",
+        "post_jp": "……きみのことはどうなんだい？",
+        "pre_zh": "……那你呢？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……那你呢？」"
+    },
+    {
+        "index": 2,
+        "name": "玲音",
+        "pre_jp": "「わ、わたし？　わたしは……いたってフツーだよ？」",
+        "post_jp": "わ、わたし？　わたしは……いたってフツーだよ？",
+        "pre_zh": "我、我？我……很普通啊",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「我、我？我……很普通啊」"
+    },
+    {
+        "index": 3,
+        "name": "真",
+        "pre_jp": "「……ひょっとして、家出とかそういうんじゃないだろうね」",
+        "post_jp": "……とっとして、家出とかそういうんじゃないだろうね",
+        "pre_zh": "……你没有离家出走之类的吧",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……你没有离家出走之类的吧」"
+    },
+    {
+        "index": 4,
+        "name": "玲音",
+        "pre_jp": "「失礼ねぇ……。わたしはちゃんと今の学園生活も楽しんでるし、部活動もがんばってんだから」",
+        "post_jp": "失礼ねぇ……。わたしはちゃんと今の学園生活も楽しんでるし、部活動もがんばってんだから",
+        "pre_zh": "真没礼貌……我现在很享受校园生活，社团活动也很努力",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「真没礼貌……我现在很享受校园生活，社团活动也很努力」"
+    },
+    {
+        "index": 5,
+        "name": "真",
+        "pre_jp": "「……部活」",
+        "post_jp": "……部活",
+        "pre_zh": "……社团活动",
+        "proofread_zh": "",
+        "problem": "比日文长1.3倍",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……社团活动」"
+    },
+    {
+        "index": 6,
+        "name": "玲音",
+        "pre_jp": "「へへ〜。チア部！　チアガールってヤツなの、わたし」",
+        "post_jp": "へへ〜。チア部！　チアガールってヤツなの、わたし",
+        "pre_zh": "嘿嘿～啦啦队！我就是所谓的啦啦队女孩",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「嘿嘿～啦啦队！我就是所谓的啦啦队女孩」"
+    },
+    {
+        "index": 7,
+        "name": "玲音",
+        "pre_jp": "「それより……おにいさん、誤魔化しても無駄なんだから。おにーさん……お医者さん志望とかでしょ？」",
+        "post_jp": "それより……おにいさん、誤魔化しても無駄なんだから。おにーさん……お医者さん志望とかでしょ？",
+        "pre_zh": "话说回来……小哥，你就算想蒙混过关也没用。小哥……你的目标是当医生吧？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「话说回来……小哥，你就算想蒙混过关也没用。小哥……你的目标是当医生吧？」"
+    },
+    {
+        "index": 8,
+        "name": "玲音",
+        "pre_jp": "「ちょっとだけど……なんか、お薬っぽい匂いがするもん」",
+        "post_jp": "ちょっとだけど……なんか、お薬っぽい匂いがするもん",
+        "pre_zh": "虽然只有一点点……但我闻到了类似药物的味道",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「虽然只有一点点……但我闻到了类似药物的味道」"
+    },
+    {
+        "index": 9,
+        "name": "真",
+        "pre_jp": "「……そうかな」",
+        "post_jp": "……そうかな",
+        "pre_zh": "……是吗",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……是吗」"
+    },
+    {
+        "index": 10,
+        "name": "玲音",
+        "pre_jp": "「わたし、そういうの敏感なの。子供の頃……体弱くて、病院に通ってたから」",
+        "post_jp": "わたし、そういうの敏感なの。子供の頃……体弱くて、病院に通ってたから",
+        "pre_zh": "我对这种东西很敏感。小时候……我身体很虚弱，经常去医院",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「我对这种东西很敏感。小时候……我身体很虚弱，经常去医院」"
+    },
+    {
+        "index": 11,
+        "name": "真",
+        "pre_jp": "「……それじゃ、乗せてあげて正解だったね」",
+        "post_jp": "……それじゃ、乗せてあげて正解だったね",
+        "pre_zh": "……那我载你过来是正确的",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……那我载你过来是正确的」"
+    },
+    {
+        "index": 12,
+        "name": "玲音",
+        "pre_jp": "「あはは。今は全然、健康なんだってば。ちっちゃい頃のハナシ。まぁ……助かったのは事実だけどね」",
+        "post_jp": "あはは。今は全然、健康なんだってば。ちっちゃい頃のハナシ。まぁ……助かったのは事実だけどね",
+        "pre_zh": "啊哈哈，我现在很健康啦。那是小时候的事了。不过……你救了我也是事实",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「啊哈哈，我现在很健康啦。那是小时候的事了。不过……你救了我也是事实」"
+    },
+    {
+        "index": 13,
+        "name": "玲音",
+        "pre_jp": "「子供の頃、病院の待合室の絵本が好きだったんだ。『ラプンツェル』って知ってる？」",
+        "post_jp": "子供の頃、病院の待合室の絵本が好きだったんだ。『ラプンツェル』って知ってる？",
+        "pre_zh": "小时候，我很喜欢医院候诊室的绘本。你知道《长发公主》吗？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「小时候，我很喜欢医院候诊室的绘本。你知道『长发公主』吗？」"
+    },
+    {
+        "index": 14,
+        "name": "真",
+        "pre_jp": "「……髪長姫ってやつだ？」",
+        "post_jp": "……髪長姫ってやつだ？",
+        "pre_zh": "……就是那个头发很长的公主？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……就是那个头发很长的公主？」"
+    },
+    {
+        "index": 15,
+        "name": "玲音",
+        "pre_jp": "「うん。あんまり好きで、通院の日じゃない時まで待合室に来ちゃったりして」",
+        "post_jp": "うん。あんまり好きで、通院の日じゃない時まで待合室に来ちゃったりして",
+        "pre_zh": "嗯。我太喜欢那个故事了，有时候甚至会跑到候诊室，哪怕不是去医院的日子",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「嗯。我太喜欢那个故事了，有时候甚至会跑到候诊室，哪怕不是去医院的日子」"
+    },
+    {
+        "index": 16,
+        "name": "真",
+        "pre_jp": "「……病院の先生も大変だったかもね」",
+        "post_jp": "……病院の先生も大変だったかもね",
+        "pre_zh": "……医院的医生可能也很辛苦",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……医院的医生可能也很辛苦」"
+    },
+    {
+        "index": 17,
+        "name": "玲音",
+        "pre_jp": "「そんなことないよ、わたしお行儀良かったもん！」",
+        "post_jp": "そんなことないよ、わたしお行儀良かったもん！",
+        "pre_zh": "没那回事啦，我很守规矩的！",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「没那回事啦，我很守规矩的！」"
+    },
+    {
+        "index": 18,
+        "name": "真",
+        "pre_jp": "「……それはどうだったろうね」",
+        "post_jp": "……それはどうだったろうね",
+        "pre_zh": "……这可不好说",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……这可不好说」"
+    },
+    {
+        "index": 19,
+        "name": "玲音",
+        "pre_jp": "「えー？　それってどういうイミぃ？」",
+        "post_jp": "えー？　それってどういうイミぃ？",
+        "pre_zh": "哎？你这话什么意思？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「哎？你这话什么意思？」"
+    }
+]

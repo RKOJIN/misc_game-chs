@@ -1,0 +1,68 @@
+[
+    {
+        "index": 1,
+        "name": "玲音",
+        "pre_jp": "「なんだか……いろいろ思い出しちゃったなぁ」",
+        "post_jp": "なんだか……いろいろ思い出しちゃったなぁ",
+        "pre_zh": "感觉……想起了好多事",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「感觉……想起了好多事」"
+    },
+    {
+        "index": 2,
+        "name": "玲音",
+        "pre_jp": "「おにいさんが、自分の昔のこと、あんなに楽しそうに話すから……」",
+        "post_jp": "おにいさんが、自分の昔のこと、あんなに楽しそうに話すから……",
+        "pre_zh": "因为哥哥……那么开心地说着自己的往事……",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「因为哥哥……那么开心地说着自己的往事……」"
+    },
+    {
+        "index": 3,
+        "name": "真",
+        "pre_jp": "「……僕が」",
+        "post_jp": "……僕が",
+        "pre_zh": "……我吗？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……我吗？」"
+    },
+    {
+        "index": 4,
+        "name": "",
+        "pre_jp": "ぼんやりとした僕の受け答えにも、玲音は律儀に頷いてから続ける。",
+        "post_jp": "ぼんやりとした僕の受け答えにも、玲音は律儀に頷いてから続ける。",
+        "pre_zh": "我含糊地应了一声，玲音也认真地点了点头。",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "我含糊地应了一声，玲音也认真地点了点头。"
+    },
+    {
+        "index": 5,
+        "name": "玲音",
+        "pre_jp": "「わたしも……自分のこと、ちょっと思い出しちゃった」",
+        "post_jp": "わたしも……自分のこと、ちょっと思い出しちゃった",
+        "pre_zh": "我也……想起了自己的一些事",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「我也……想起了自己的一些事」"
+    },
+    {
+        "index": 6,
+        "name": "真",
+        "pre_jp": "「それって――」",
+        "post_jp": "それって――",
+        "pre_zh": "也就是说——",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「也就是说——」"
+    }
+]

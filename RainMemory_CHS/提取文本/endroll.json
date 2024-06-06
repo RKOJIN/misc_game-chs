@@ -1,0 +1,53 @@
+[
+    {
+        "message": "tf.effectconfig = sf.config.transEffect;"
+    },
+    {
+        "message": "tf.skip = sf.config.kidokuSkip;"
+    },
+    {
+        "message": "sf.config.transEffect = 'on';"
+    },
+    {
+        "message": "sf.config.kidokuSkip = true;"
+    },
+    {
+        "message": "if (sf.end == true) {"
+    },
+    {
+        "message": "kag.onClick = function()"
+    },
+    {
+        "message": "{"
+    },
+    {
+        "message": "process('', '*exit');"
+    },
+    {
+        "message": "} incontextof kag;"
+    },
+    {
+        "message": "}"
+    },
+    {
+        "message": "@staffrollinit"
+    },
+    {
+        "message": "@staffrolltext x=100 y=550 text=\"\""
+    },
+    {
+        "message": "@staffrollstart height=5950 time=220000"
+    },
+    {
+        "message": "@staffrolluninit"
+    },
+    {
+        "message": "kag.onClick = global.KAGWindow.onClick;"
+    },
+    {
+        "message": "sf.config.transEffect = tf.effectconfig;"
+    },
+    {
+        "message": "sf.config.kidokuSkip = tf.skip;"
+    }
+]

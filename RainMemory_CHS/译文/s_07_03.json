@@ -1,0 +1,68 @@
+[
+    {
+        "index": 1,
+        "name": "真",
+        "pre_jp": "「……どこまで行けばいいんだい？」",
+        "post_jp": "……どこまで行けばいいんだい？",
+        "pre_zh": "……要走到哪里才行？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「……要走到哪里才行？」"
+    },
+    {
+        "index": 2,
+        "name": "",
+        "pre_jp": "今日は――という言葉は飲み込んだ。",
+        "post_jp": "今日は――という言葉は飲み込んだ。",
+        "pre_zh": "今天——我把这句话咽了回去。",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "今天——我把这句话咽了回去。"
+    },
+    {
+        "index": 3,
+        "name": "",
+        "pre_jp": "それを聞くのは無意味、だ。",
+        "post_jp": "それを聞くのは無意味、だ。",
+        "pre_zh": "因为问了也没有意义。",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "因为问了也没有意义。"
+    },
+    {
+        "index": 4,
+        "name": "玲音",
+        "pre_jp": "「えー？　もしかして、忘れちゃってたのぉ？」",
+        "post_jp": "えー？　もしかして、忘れちゃってたのぉ？",
+        "pre_zh": "哎？难道说，你忘了吗？",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "「哎？难道说，你忘了吗？」"
+    },
+    {
+        "index": 5,
+        "name": "",
+        "pre_jp": "そう――。",
+        "post_jp": "そう――。",
+        "pre_zh": "没错——",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "没错——"
+    },
+    {
+        "index": 6,
+        "name": "",
+        "pre_jp": "それは……僕が決めなければいけないのが、ルールなんだ。",
+        "post_jp": "それは……僕が決めなければいけないのが、ルールなんだ。",
+        "pre_zh": "这件事……必须由我自己来决定。",
+        "proofread_zh": "",
+        "trans_by": "sakura-009",
+        "proofread_by": "",
+        "post_zh_preview": "这件事……必须由我自己来决定。"
+    }
+]
