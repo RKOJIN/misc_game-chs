@@ -8,7 +8,9 @@ https://github.com/jyxjyx1234/misc_game-chs/
 
 ### 目录
 
-- お姉ちゃんは串刺し公 使用[Sakura](https://github.com/SakuraLLM/Sakura-13B-Galgame) v0.10进行翻译。
+- お姉ちゃんは串刺し公
+- なつくもゆるる＿Ｈシーン追加ディスク＿紫穂
+- Rain memory
 
 ### 说明
 
@@ -26,4 +28,18 @@ https://github.com/jyxjyx1234/misc_game-chs/
 
 使用了Garbro进行解、封包，sextractor进行文本提取和导入，galtransl进行批量翻译，UniversalInjectorFramework和Locale-Emulator进行转区。
 
-#### 
+#### なつくもゆるる＿Ｈシーン追加ディスク＿紫穂
+
+这是游戏なつくもゆるる的softmap特典：Ｈシーン追加ディスク＿紫穂的AI翻译补丁。
+
+将本补丁中的所有文件（在 `补丁`文件夹中）复制到特典安装目录即可，首次启动时会要求验证游戏本体（なつくもゆるる）安装目录。
+
+配置了自动转区，无需手动转区。
+
+#### Rain memory
+
+将本补丁中所有文件复制到游戏本体安装目录即可。会覆盖 `script.xp3`这个文件，建议先备份。
+
+安装提供的字体可以得到更好的游戏体验（不确定这个字体其他电脑上有没有所以附带上了）。
+
+配置了自动转区，无需手动转区。
