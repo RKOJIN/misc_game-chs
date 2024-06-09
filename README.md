@@ -11,6 +11,8 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - お姉ちゃんは串刺し公
 - なつくもゆるる＿Ｈシーン追加ディスク＿紫穂
 - Rain memory
+- LOVELAB
+- こいなか
 
 ### 说明
 
