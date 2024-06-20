@@ -31,7 +31,7 @@
         },
         "spoof_creation": {
             "enable": true,
-            "override_face": "",
+            "override_face": "FZFangJunHeiS Bold",
             "override_charset": 134
         }
     }

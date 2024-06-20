@@ -13,6 +13,7 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - Rain memory
 - LOVELAB
 - こいなか
+- 露出人形～恥ずかしさに震える少女～
 
 ### 说明
 
@@ -50,7 +51,7 @@ https://github.com/jyxjyx1234/misc_game-chs/
 
 这个游戏使用了签名验证防止篡改，直接打patch会因为没有签名导致游戏无法启动。
 
-从`script.xp3`中的`release.ks`文件中找到了以下代码：
+从 `script.xp3`中的 `release.ks`文件中找到了以下代码：
 
 ```
 
