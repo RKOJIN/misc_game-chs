@@ -14,6 +14,10 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - LOVELAB
 - こいなか
 - 露出人形～恥ずかしさに震える少女～
+- One☆らばー!!～ミクちゃんの恋人
+- 愛玩隷嬢 ～Doll～
+- 麗佳牝犬調教
+- 魔法の守護姫アルテミナ(in processing……)
 
 ### 说明
 

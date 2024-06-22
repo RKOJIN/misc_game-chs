@@ -39,7 +39,7 @@ class DXLibScrFile(object):
         self.head1=len(self.data).to_bytes(4,'little')
         return self.head1+self.head2+self.head3
     
-    def get_str_list(self):
+    def _get_str_list(self):
         #以bytes形式存储，以保证兼容性
         self.str_start=int.from_bytes(self.head2,byteorder='little')
         strs_=self.data[self.str_start:].split(b'\x00')
@@ -49,7 +49,7 @@ class DXLibScrFile(object):
         self.str_list=strs
         self.str_num=len(strs)
 
-    def classify_str(self):
+    def _classify_str(self):
         for i in range(self.str_num):
             if self.str_list[i][0]==b'':
                 continue
@@ -77,8 +77,8 @@ class DXLibScrFile(object):
                         j-=1
 
     def dump_str(self,path:str)->None:
-        self.get_str_list()
-        self.classify_str()
+        self._get_str_list()
+        self._classify_str()
         out=[]
         dic={}
         self.nameset=set()
@@ -93,7 +93,7 @@ class DXLibScrFile(object):
         save_json(path=path,data=out[1:])
 
     def trans(self,transdict:dict,hanzidict:dict):
-        self.get_str_list()
+        self._get_str_list()
         for i in range(self.str_num):
             if self.str_list[i][1]=='message':
                 ori_str=self.str_list[i][0].decode(encoding='sjis')
