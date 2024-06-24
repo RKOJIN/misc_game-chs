@@ -94,10 +94,24 @@ class DXLibScrFile(object):
 
     def trans(self,transdict:dict,hanzidict:dict):
         self._get_str_list()
+        self._classify_str()
         for i in range(self.str_num):
             if self.str_list[i][1]=='message':
                 ori_str=self.str_list[i][0].decode(encoding='sjis')
                 self.str_list[i][0]=hanzitihuan(transdict.get(ori_str,ori_str),hanzidict).encode(encoding='sjis')
+        new_str_data=b'\x00'.join([i[0] for i in self.str_list])
+        self.data=self.data[0:self.str_start]+new_str_data
+
+    def trans_gbk(self,transdict:dict):
+        self._get_str_list()
+        self._classify_str()
+        for i in range(self.str_num):
+            if self.str_list[i][1]=='message':
+                ori_str=self.str_list[i][0].decode(encoding='sjis')
+                try:
+                    self.str_list[i][0]=transdict.get(ori_str,ori_str).replace('・','·').encode(encoding='gbk')
+                except:
+                    print(transdict.get(ori_str,ori_str))
         new_str_data=b'\x00'.join([i[0] for i in self.str_list])
         self.data=self.data[0:self.str_start]+new_str_data
 

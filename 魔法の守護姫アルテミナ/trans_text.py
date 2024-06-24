@@ -12,7 +12,7 @@ replacement_dict={}
 for file in filelist:
     trans=open_json(transed_folder+file)
     for dic in trans:
-        replacement_dict[dic['pre_jp']]=dic['pre_zh']
+        replacement_dict[dic['pre_jp']]=dic['post_zh_preview']
 
 nameset={'有紗', '篠原', 'リョウ', 'プリティナイト', 'キャスター', '女子', 'まりあ', 'ゴブリンウィップ', 'マグナス', 'アナウンス', 'ゴードン', '魔物', '男子', 'オルトロス', '図書委員', '刑事', 'カメロメオ', '椿', '裕翔', 'クラリオン', 'ザクール', '美鈴', 'レポーター', 'ドグマス', 'ライピス', 'ゴブリンナイト', 'マスター', 'ユーリ', '警備員', 'ディモン', 'アルテミナ', 'バトルライダー', 'ウエイトレス', 'オメガ', '陽子', 'クラビリオ', '？？？', '女性', '男性', 'ゴブリン', '透磨', 'アポローグ', '警官', '優花', 'ヒプノテック', 'セラ'}
 
@@ -22,10 +22,17 @@ for i in nameset:
     tempdict,charlist=GetInvalidChars(i,tempdict,charlist)
 hanzidict,target_chars,source_chars=Createhanzidict(tempdict,charlist)
 
-ChangeUFIConfig('/release/uif_congfig.json',source_chars,target_chars)
+#ChangeUFIConfig('release\\uif_config.json',source_chars,target_chars)
+
+with open('subs_cn_jp.json','w',encoding='utf8') as rlist:
+    f={}
+    for i in range(len(source_chars)):
+        f[target_chars[i]]=source_chars[i]
+    json.dump(f,rlist,indent=4,ensure_ascii=False)
 
 for file in filelist:
-    f=open_file_b(ori_folder+file)
+    f=open_file_b(ori_folder+file.replace('.json',''))
     f=DXLibScrFile(f,nameset=nameset)
     f.trans(replacement_dict,hanzidict)
-    f.write_to_file(out_folder+file)
+    #f.trans_gbk(replacement_dict)
+    f.write_to_file(out_folder+file.replace('.json',''))
