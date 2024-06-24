@@ -10,6 +10,7 @@ https://github.com/jyxjyx1234/misc_game-chs/
 
 - お姉ちゃんは串刺し公
 - なつくもゆるる＿Ｈシーン追加ディスク＿紫穂
+- なつくもゆるる＿Ｈシーン追加ディスク＿姬佳
 - Rain memory
 - LOVELAB
 - こいなか
@@ -17,7 +18,7 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - One☆らばー!!～ミクちゃんの恋人
 - 愛玩隷嬢 ～Doll～
 - 麗佳牝犬調教
-- 魔法の守護姫アルテミナ(in processing……)
+- 魔法の守護姫アルテミナ
 
 ### 说明
 
