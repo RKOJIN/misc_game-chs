@@ -177,16 +177,22 @@ class MEDFile(object):
             name_list.append(file_name)
         
         if len(self.key)==1:
-            _view=open(output+'_VIEW','rb')
-            sec=_view[16:40]
-            ori=b'\x00\x23\x52\x55\x4C\x45\x5F\x56\x49\x45\x57\x45\x52\x00\x3A\x56\x49\x45\x57\x5F\x30\x00\x7B\x00'
-            f_key=[]
-            for i in range(24):
-                k=sec[i]-ori[i]
-                if k < 0:
-                    k+=256
-                f_key.append(k)
-            print(f_key)
+            l=os.listdir(output)
+            for i in l:
+                if i[:5]=='_VIEW':
+                    _view=open(output+i,'rb')
+            try:
+                sec=_view[16:40]
+                ori=b'\x00\x23\x52\x55\x4C\x45\x5F\x56\x49\x45\x57\x45\x52\x00\x3A\x56\x49\x45\x57\x5F\x30\x00\x7B\x00'
+                f_key=[]
+                for i in range(24):
+                    k=sec[i]-ori[i]
+                    if k < 0:
+                        k+=256
+                    f_key.append(k)
+                print(f_key)
+            except:
+                pass
             
         return name_list
 
