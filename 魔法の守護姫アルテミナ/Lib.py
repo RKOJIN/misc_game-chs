@@ -196,7 +196,7 @@ class MEDFile(object):
             
         return name_list
 
-    def repack(self,path):
+    def repack(self,path,outpath='md_scr.med.chs'):
         name_list = self.name_list
         entry_length = 0x17
         header = b'MDE0\x17\x00'
@@ -222,4 +222,4 @@ class MEDFile(object):
             file_data.append(_file_data)
             offset += len(_file_data)
         
-        save_file_b('md_scr.med.chs', header + b''.join(entry_all) + b''.join(file_data))
+        save_file_b(outpath, header + b''.join(entry_all) + b''.join(file_data))

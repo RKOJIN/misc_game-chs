@@ -8,5 +8,5 @@ f=MEDFile("md_scr.med",key)
 repack=True
 
 if repack:
-    f.repack('md_scr_chs\\')
+    f.repack('md_scr_chs\\',"md_scr.med.Tra_chs")
     

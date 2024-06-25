@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="windows-1252"?>
 <>
-  <InputFile>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\なつくもゆるる__Ｈシーン追加ディスク_姫佳.exe</InputFile>
-  <OutputFile>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\なつくもゆるる__Ｈシーン追加ディスク_姫佳_chs.exe</OutputFile>
+  <InputFile>D:\game\魔法の守護姫アルテミナ\No_DVD.exe</InputFile>
+  <OutputFile>D:\game\魔法の守護姫アルテミナ\artemina_chs3.exe</OutputFile>
   <Files>
     <Enabled>True</Enabled>
     <DeleteExtractedOnExit>False</DeleteExtractedOnExit>
@@ -17,20 +17,8 @@
         <Files>
           <File>
             <Type>2</Type>
-            <Name>LocaleEmulator.dll</Name>
-            <File>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\LocaleEmulator.dll</File>
-            <ActiveX>False</ActiveX>
-            <ActiveXInstall>False</ActiveXInstall>
-            <Action>0</Action>
-            <OverwriteDateTime>False</OverwriteDateTime>
-            <OverwriteAttributes>False</OverwriteAttributes>
-            <PassCommandLine>False</PassCommandLine>
-            <HideFromDialogs>0</HideFromDialogs>
-          </File>
-          <File>
-            <Type>2</Type>
-            <Name>patch.xp3</Name>
-            <File>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\patch.xp3</File>
+            <Name>md_scr.med</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\md_scr.med</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>
@@ -42,7 +30,7 @@
           <File>
             <Type>2</Type>
             <Name>uif_config.json</Name>
-            <File>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\uif_config.json</File>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\uif_config.json</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>
@@ -53,8 +41,8 @@
           </File>
           <File>
             <Type>2</Type>
-            <Name>version.dll</Name>
-            <File>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\version.dll</File>
+            <Name>winmm.dll</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\winmm.dll</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>
@@ -66,7 +54,19 @@
           <File>
             <Type>2</Type>
             <Name>LoaderDll.dll</Name>
-            <File>D:\game\すみっこ\なつくもゆるる＿Ｈシーン追加ディスク＿姫佳\LoaderDll.dll</File>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\LoaderDll.dll</File>
+            <ActiveX>False</ActiveX>
+            <ActiveXInstall>False</ActiveXInstall>
+            <Action>0</Action>
+            <OverwriteDateTime>False</OverwriteDateTime>
+            <OverwriteAttributes>False</OverwriteAttributes>
+            <PassCommandLine>False</PassCommandLine>
+            <HideFromDialogs>0</HideFromDialogs>
+          </File>
+          <File>
+            <Type>2</Type>
+            <Name>LocaleEmulator.dll</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\LocaleEmulator.dll</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>
