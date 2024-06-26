@@ -36,7 +36,7 @@ class DXLibScrFile(object):
         self.giving_nameset=nameset
 
     def head(self)->bytes:
-        self.head1=len(self.data).to_bytes(4,'little')
+        #self.head1=len(self.data).to_bytes(4,'little')
         return self.head1+self.head2+self.head3
     
     def _get_str_list(self):
@@ -72,8 +72,7 @@ class DXLibScrFile(object):
                     j=i-1
                     while True:
                         if self.str_list[j][1]=='message':
-                            if len(self.str_list[j][0])<10:
-                                self.str_list[j][1]='name'
+                            self.str_list[j][1]='name'
                             break
                         j-=1
 
@@ -93,13 +92,13 @@ class DXLibScrFile(object):
                 self.nameset.add(dic['name'])
         save_json(path=path,data=out[1:])
 
-    def trans(self,transdict:dict,hanzidict:dict):
+    def trans(self,transdict:dict,hanzireplacer:HanziReplacer):
         self._get_str_list()
         self._classify_str()
         for i in range(self.str_num):
             if self.str_list[i][1]=='message':
                 ori_str=self.str_list[i][0].decode(encoding='sjis')
-                self.str_list[i][0]=hanzitihuan(transdict.get(ori_str,ori_str),hanzidict).encode(encoding='sjis')
+                self.str_list[i][0]=hanzireplacer.hanzitihuan(transdict.get(ori_str,ori_str)).encode(encoding='sjis')
         new_str_data=b'\x00'.join([i[0] for i in self.str_list])
         self.data=self.data[0:self.str_start]+new_str_data
 
@@ -182,18 +181,15 @@ class MEDFile(object):
             for i in l:
                 if i[:5]=='_VIEW':
                     _view=open(output+i,'rb').read()
-            try:
-                sec=_view[16:40]
-                ori=b'\x00\x23\x52\x55\x4C\x45\x5F\x56\x49\x45\x57\x45\x52\x00\x3A\x56\x49\x45\x57\x5F\x30\x00\x7B\x00'
-                f_key=[]
-                for i in range(24):
-                    k=sec[i]-ori[i]
-                    if k < 0:
-                        k+=256
-                    f_key.append(k)
-                print(f_key)
-            except:
-                pass
+            sec=_view[16:40]
+            ori=b'\x00\x23\x52\x55\x4C\x45\x5F\x56\x49\x45\x57\x45\x52\x00\x3A\x56\x49\x45\x57\x5F\x30\x00\x7B\x00'
+            f_key=[]
+            for i in range(24):
+                k=sec[i]-ori[i]
+                if k < 0:
+                    k+=256
+                f_key.append(k)
+            print(f_key)
             
         return name_list
 

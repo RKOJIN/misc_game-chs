@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="windows-1252"?>
 <>
-  <InputFile>D:\game\魔法の守護姫アルテミナ\No_DVD.exe</InputFile>
-  <OutputFile>D:\game\魔法の守護姫アルテミナ\artemina_chs3.exe</OutputFile>
+  <InputFile>D:\game\魔法の守護姫アルテミナ\artermina_NoDVD.exe</InputFile>
+  <OutputFile>D:\game\魔法の守護姫アルテミナ\artemina_chs2.exe</OutputFile>
   <Files>
     <Enabled>True</Enabled>
     <DeleteExtractedOnExit>False</DeleteExtractedOnExit>
@@ -15,6 +15,18 @@
         <OverwriteAttributes>False</OverwriteAttributes>
         <HideFromDialogs>0</HideFromDialogs>
         <Files>
+          <File>
+            <Type>2</Type>
+            <Name>LocaleEmulator.dll</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\LocaleEmulator.dll</File>
+            <ActiveX>False</ActiveX>
+            <ActiveXInstall>False</ActiveXInstall>
+            <Action>0</Action>
+            <OverwriteDateTime>False</OverwriteDateTime>
+            <OverwriteAttributes>False</OverwriteAttributes>
+            <PassCommandLine>False</PassCommandLine>
+            <HideFromDialogs>0</HideFromDialogs>
+          </File>
           <File>
             <Type>2</Type>
             <Name>md_scr.med</Name>
@@ -55,18 +67,6 @@
             <Type>2</Type>
             <Name>LoaderDll.dll</Name>
             <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\LoaderDll.dll</File>
-            <ActiveX>False</ActiveX>
-            <ActiveXInstall>False</ActiveXInstall>
-            <Action>0</Action>
-            <OverwriteDateTime>False</OverwriteDateTime>
-            <OverwriteAttributes>False</OverwriteAttributes>
-            <PassCommandLine>False</PassCommandLine>
-            <HideFromDialogs>0</HideFromDialogs>
-          </File>
-          <File>
-            <Type>2</Type>
-            <Name>LocaleEmulator.dll</Name>
-            <File>D:\misc_game-chs\魔法の守護姫アルテミナ\release\LocaleEmulator.dll</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>
@@ -125,7 +125,7 @@
     </Registries>
   </Registries>
   <Packaging>
-    <Enabled>True</Enabled>
+    <Enabled>False</Enabled>
   </Packaging>
   <Options>
     <ShareVirtualSystem>False</ShareVirtualSystem>

@@ -2,11 +2,9 @@ import json
 import subprocess
 import sys
 
-FontSrc = 'WenQuanYi.ttf'
-SubsJson = 'subs_cn_jp.json'
 Reverse = True #字典键值交换位置
 
-def main():
+def main(FontSrc,SubsJson,outpath):
     if len(sys.argv) >= 2:
         fnt = sys.argv[1]
     else:
@@ -38,9 +36,6 @@ def main():
         #更改定义
         #changeDef(obj)
     
-    subprocess.run(['otfccbuild.exe', '-O3', '-o', '%s_CNJP_Traditional.ttf' % fnt[0:fnt.rfind('.')]], input=json.dumps(obj), encoding='utf-8')
+    subprocess.run(['otfccbuild.exe', '-O3', '-o', outpath], input=json.dumps(obj), encoding='utf-8')
     print('Done.')
 
-
-if __name__ == '__main__':
-    main()
