@@ -1,0 +1,394 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #26
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #27
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #28
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #30
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は偽名で無料登録のメールサービスでアドレスを取得すると愛梨の携帯へメールした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L2} ; "愛梨の学校名、学年、クラス、フルネームと電車で目撃した痴漢のこと、そして痴漢に感じて肉体を預けていたこと、日時と路線名を明確に記して送った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L3} ; "この内容なら簡単には無視できるはずがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L4} ; "きっとなんかしらの回答を思案していることだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L5} ; "夕実、お前の無念はもうすぐ晴らされるぞ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L6} ; "俺は期待に胸を膨らまして、プレゼントを持ち帰る父を待つ子供のように返信を待ち焦がれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L7} ; "やがてメール到着をつげる着信音が鳴り響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L8} ; "愛梨からの回答は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L9} ; "『あの……お金が目的でしょうか？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L10} ; "短くそう記されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L11} ; "金で解決か……つくづくふざけた女だ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L12} ; "俺は怒りに打ち震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L13} ; "自分の立場を全く理解せず、短絡的な解決方法ですませようとはつくづく性根の腐った奴だ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L14} ; "脅迫メールだけではどうやら物足りないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L15} ; "こうなれば徹底的に追い込んでやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L16} ; "こちらが本気だということを教えてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #57
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #58
+  ldstr         "ev15a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #59
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #62
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L17} ; "愛梨が通学に使う満員電車。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L18} ; "今回も同じように愛梨は複数の痴漢者達に身を任せている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L19} ; "肢体に潜り込む欲望の魔手。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L20} ; "その淫らな動きに頬を赤らめては官能的な吐息を漏らす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L21} ; "清楚なお嬢様の外見の裏に潜むメスとしての陰鬱な肉欲。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L22} ; "痴漢の指技に仮面は剥がれ落ち、愛梨は快感に酔いしれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L23} ; "その破廉恥な姿を俺はデジタルカメラに余すところなく撮影していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L24} ; "電車の振動か痴漢の巧みな技か、愛梨の肉体は混雑した雑踏の中で小刻みに震え、卑猥な音と匂いが濃度をあげていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L25} ; "愛梨の口から熱い吐息がこぼれるほどに男たちの欲望はさらに高まり、行為はエスカレートした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldc.i         700
+  ldstr         "ev15b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #79
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L26} ; "やがて全身を大きく仰け反らすと愛梨は絶頂をむかえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L27} ; "痴漢の指技に酔いしれて肉体を預ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L28} ; "おおよそまともな女としては恥ずべき行為。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L29} ; "だが愛梨は肉体が奏でる快楽の音色に屈していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L30} ; "快楽の誘惑に負け、自らその身を捧げているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L31} ; "薄汚れた淫乱のメス豚。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L32} ; "それが大野愛梨の本性なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L33} ; "体裁の為の偽りの仮面。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L34} ; "俺がそれを引き剥がし、愛梨の本性をさらけ出させてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L35} ; "メス豚であることを徹底的に認識させてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #95
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #97
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L36} ; "首尾は上々、証拠は押さえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L37} ; "俺は早速それを携帯端末用サイトにアップロードした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L38} ; "アドレスをメールに載せて愛梨へ送りつける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L39} ; "『これをばら撒かれたくなければ俺の指示に従え。今夜２３時公園広場で待つ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L40} ; "完璧な脅迫メールだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L41} ; "これならもはや『金ですか？』などとふざけた回答もできまい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L42} ; "予測通り、メールは５分と待たずに返信された。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L43} ; "了承を告げるその内容に俺は満面の笑みをうかべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L44} ; "俺が用意した復讐という名の罠に、愛梨は完全に落ちたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L45} ; "蜘蛛の糸に絡み取られる蝶同様に愛梨の命運は決まった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #113
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #114
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #116
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L46} ; "俺は予定時刻より早めに公園の茂みに身を隠して愛梨の到着を待った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L47} ; "時計が指定時刻を告げる頃、暗闇の中に人影が浮かび上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #122
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L48} ; "大野愛梨の登場だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  text          %{L49} ; "不安げに周囲を見回しては憂鬱そうな溜息をこぼす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L50} ; "日頃の破廉恥な自分の姿を晒されて脅されているのだから無理も無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L51} ; "だが全てはこれからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L52} ; "一生心の闇に焼きつく忌まわしい体験を味わうのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L53} ; "それが俺のかけがえの無い夕実を貶めた償いなのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L54} ; "俺は携帯を取り出すと、非通知で愛梨の番号を押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  ldstr         "a0014"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #136
+  text          %{L55} ; "【愛梨】「はい……大野です」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L56} ; "【貴城】「約束通り来てくれて嬉しいよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  ldstr         "a0015"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #141
+  text          %{L57} ; "【愛梨】「何でもします……だから、おねがい、誰にも……あのことは誰にも……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L58} ; "【貴城】「それはなんとも言えないな。俺が保証するのはただ一つ。何も保証しないということだけだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  ldstr         "a0016"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #146
+  text          %{L59} ; "【愛梨】「そんな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L60} ; "【貴城】「酷いか？　嫌なら今すぐ帰ってもいいんだぞ。そのかわり明日には……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  ldstr         "a0017"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #151
+  text          %{L61} ; "【愛梨】「わ、わかりました……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L62} ; "【貴城】「いい答えだ。じゃあまずは……公園のトイレへと向かって歩け」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L63} ; "薄暗い街灯の下、愛梨は指示に従って歩き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L64} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #163
+  ldc.i         0
+  ret          
+}

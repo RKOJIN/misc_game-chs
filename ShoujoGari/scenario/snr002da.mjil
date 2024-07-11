@@ -1,0 +1,656 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #8
+  argcheck      []
+  alloca        []
+  line          #36
+  ctrl          "w"
+  line          #37
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #38
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #40
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "【貴城】「これで準備はＯＫだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L2} ; "ディスプレイに映し出された登録完了の文字を見ながら、俺は呟いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L3} ; "無料のメールサービスに偽名を使って登録をしたのには理由がある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L4} ; "夕実の残したアドレス帳の桜井衣澄のページには『パソコンだから文字数制限無し！』とのコメントが書かれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L5} ; "ちまちまと、文字数を気にしながら文字を打つのも億劫だし、携帯からもメールは出来るが足がつきやすい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L6} ; "そんなメリットを考えて、俺はパソコンからメールを送ることにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L7} ; "疑われずに話を続けて、最終的に呼び出す方向へ持っていかないとな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L8} ; "【貴城】「衣澄は夕実が死んだことまでは知らないようだ。だったら、どれだけ知っているのかを試してみるか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L9} ; "キーボードに向き合って、夕実の名前を使ってメールを打つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L10} ; "『桜井さん、こんにちは。久しぶりだけど、最近調子はどうですか？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L11} ; "礼儀正しい夕実なら挨拶から始めそうだし、こんなところだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L12} ; "送信タブをクリックして、目を閉じて嘆息する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L13} ; "【貴城】「あとは返信が来るのを待つだけか……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #67
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #68
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #69
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L14} ; "………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L15} ; "………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L16} ; "………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L17} ; "小さな電子音がメールの到着を知らせてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L18} ; "【貴城】「なんて書いてあるんだろう？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L19} ; "はやる手でマウスを動かしながら、新着メールを開く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L20} ; "『お久しぶりです、長瀬夕実さん。私は元気でやっています』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L21} ; "『ところで、長瀬さん、前にパソコン持ってないって言ってたよね。パソコン、買ったの？　引っ越したとは聞いたけど、今はどこに住んでるの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L22} ; "よし、疑われてはいないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L23} ; "しかし、パソコンか……夕実は衣澄とこんな話をしていたのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L24} ; "そうか、夕実はパソコンをほしがっていたのか……俺が使っているのを見てほしくなったのかもしれないな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L25} ; "言ってくれれば、俺のお古を譲ってやってもよかったのに……おや？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L26} ; "なんだろう、何かがおかしい……夕実は自分のパソコンを持っていなかったか？　俺は夕実のためにセットアップしてやったことがなかったか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L27} ; "それに俺の家は引越しなんてしただろうか？　俺は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L28} ; "と、突然頭痛が襲ってきて、俺は顔を歪める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L29} ; "……いや、それは俺の勘違いだろう。衣澄だってこう言っているのだし、夕実はパソコンなんて触れたこともなかったはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L30} ; "そう思うと、頭痛は嘘のようにすっと楽になった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L31} ; "俺は再び衣澄のメールに注意を戻す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L32} ; "パソコンの話を衣澄としていた夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L33} ; "俺の知らなかった夕実がメールの文面から見えてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L34} ; "他にどんなことを話していたのだろう。俺のことが話題になった時もあるのだとうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L35} ; "夕実の日常のほとんどを知らなかったことに気がついて、胸が締め付けられてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L36} ; "もし夕実が生きていたらどんな返事をしただろうか。俺は夕実になったつもりで考えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L37} ; "パソコンは……そうだな、引っ越した時に思い切って買ったことにしよう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L38} ; "こういったデジタルな物には慣れていないから、夕実はきっかけがないと買いそうにないしな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L39} ; "引越し先は……夕実が行きたがっていた彩文市にしておこう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L40} ; "彩文市はそれなりに遠いし、夕実は自然の豊かな所が好きで、動植物が大好きだったよな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L41} ; "メールの返信内容を考えるうちに、まるで夕実がそこで生きているような錯覚、いや願望を覚えてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L42} ; "緑豊かな彩文市の一角で慣れないパソコンに四苦八苦しながらメールする夕実の姿を思い浮かべてみる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L43} ; "その姿は実に幸せそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L44} ; "……そうだ、それはあいつらが夕実を死に追い込まなければ、いつか起こりえた未来。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L45} ; "夕実の幸せな人生を考えるだけで心が温かくなってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L46} ; "『パソコンは引っ越した時に、思い切って買っちゃいました。まだ慣れてなくて上手く使えないけど、それはこれから頑張る予定です』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L47} ; "『引っ越したのは彩文市です。緑の多い良い場所で、今ではすっかり気に入ってます。機会があれば桜井さんも一度遊びに来てください。――――長瀬夕実』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L48} ; "俺の夕実は彩文市で幸せに暮らしているんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L49} ; "そう思いながらメールを送信する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #123
+  ldc.i         1500
+  ldstr         "bg09"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #125
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L50} ; "………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L51} ; "………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L52} ; "………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L53} ; "メールの到着を知らせるアラーム音に、いそいそとメーラーを開いた俺は、折り返し衣澄から返ってきたメールの内容を見て驚愕した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L54} ; "『長瀬夕実さんの名を騙るあなたは誰？　長瀬さんは彩文市には住んでいない。あなたも彩文市以外の場所からアクセスしてるじゃない』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L55} ; "【貴城】「何故だ、どうしてバレたんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L56} ; "いや、それよりも夕実を、俺の夕実を騙りと言うな！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L57} ; "証拠も無いのに偽者扱いされるだなんて、なんて可哀想な夕実……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #142
+  text          %{L58} ; "【貴城】「くそ、なんだって俺の夕実を……あぁ、判ったぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L59} ; "真相を察した俺の脳裏を、鈍器で殴られたような衝撃が走る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L60} ; "今までのことから考えられること……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L61} ; "衣澄が俺の夕実を偽者扱いしたのは、夕実が死んだことを知っているからに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L62} ; "夕実が生きているようにふるまっていたのは、自らの犯した殺人の罪を隠匿するため。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L63} ; "友人を心配する優等生のふりをして俺に近付いたのは、悲しみに暮れる俺を内心では嘲笑うためだったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L64} ; "【貴城】「この人殺しめ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L65} ; "感情が昂ぶるまま声を上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L66} ; "そうでもしないと、まんまと騙されていた自分にやり切れなくなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L67} ; "善人ぶりやがって。お前の本性は薄汚く穢れているに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L68} ; "希更達にネットを見せたのも、全てこの女の策略だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L69} ; "そして馬鹿な希更達は策略通りに動き、夕実を死に追いやったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L70} ; "そこへ衣澄から新たなメールが届く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L71} ; "本文には簡素な一文。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L72} ; "『あなたが住んでいるのは彩文なんかじゃなくて、岩波なんでしょ？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L73} ; "岩波。俺が今住んでいる叔父の家がある地名だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L74} ; "どうやったのか、俺の住所まで調べたらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L75} ; "お前なんかいつでも消せるぞ……そういう意味のメッセージか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L76} ; "【貴城】「ふざけるな！　俺の夕実を殺しておきながら、まだ居直るのか！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L77} ; "視界が赤く染まりそうな程頭に血が昇る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L78} ; "俺の細胞の全てがこの女に怒りを覚えている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #181
+  text          %{L79} ; "【貴城】「くそっ！　くそっ！　くそおぉっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L80} ; "こんな糞のような女をこれ以上のさばらせてたまるか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L81} ; "今すぐにでも鉄槌を下さなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L82} ; "【貴城】「そう。今すぐ復讐しなければ夕実の魂は救われない。なぁ、夕実……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L83} ; "こうなったら今からでも衣澄の家に乗り込んでいってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #191
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #192
+  ldstr         "bg10"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #193
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #196
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L84} ; "【貴城】「はぁ、はぁ、はぁ……ここか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L85} ; "ようやく衣澄の家の前に到着した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  ldstr         "se0131b"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #201
+  text          %{L86} ; "どこにでもあるような一戸建ての民家の玄関先に立ち、呼び鈴を鳴らす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #203
+  text          %{L87} ; "反応がない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  ldstr         "se0131"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #208
+  text          %{L88} ; "苛立ちに任せて呼び鈴を連打しても、家の中で何かが動く気配すらしなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L89} ; "【貴城】「チッ、無駄足だったか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #212
+  text          %{L90} ; "そうとなるとこんな所に用は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L91} ; "誰かに見られても厄介だしな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  text          %{L92} ; "さっさとここから離れてしまおう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #217
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #218
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #219
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #222
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L93} ; "『私が偽者だなんて、どうしてそんなこと言うの？　これから会って話をすれば、そんな誤解も解けると思うから。今、桜井さんはどこにいるの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  text          %{L94} ; "家に戻ってすぐにメールを送信する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  text          %{L95} ; "文体を変えてしまえば、俺自身が夕実を偽者と認めてしまうことになるから、それだけはできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L96} ; "【貴城】「俺の夕実が偽者な訳があるか。そうだよな、夕実……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  text          %{L97} ; "天国にいる夕実に向かってそっと呼びかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  text          %{L98} ; "そうだ、俺の夕実が偽者だなんてあの女の身勝手な言い掛かりにしかすぎない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #234
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #235
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #236
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #238
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L99} ; "…………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L100} ; "……………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #240
+  text          %{L101} ; "…………………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #242
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #243
+  text          %{L102} ; "『不審者にお答えする事はありません』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #245
+  text          %{L103} ; "衣澄から送られてきたメールには素っ気無い一文が書かれているだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L104} ; "不審者。誰のことだ？　まさか俺の夕実のことか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  text          %{L105} ; "この女は俺の夕実を偽者呼ばわりした上に今度は不審者扱いするのか！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #251
+  text          %{L106} ; "【貴城】「ぐっ……こ、このぉ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #253
+  text          %{L107} ; "怒りのあまり、俺は無意識に歯を食いしばっていて、それだけを声に出すのがやっとだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  text          %{L108} ; "握りしめたマウスがぎしぎしと音を立てる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  text          %{L109} ; "桜井衣澄という人間は何処まで俺の夕実を辱めれば気が済むのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L110} ; "やはりこの女は今すぐにでも陵辱してなければならない。自分の罪の重さを教えてやらなくてはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  text          %{L111} ; "【貴城】「だが、家に行ってもいなかった。今度はやり方を変えるか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #263
+  text          %{L112} ; "もうとうに沸点を超えた脳は逆に驚くほど冷静になり、この後取るべき行動をはじき出していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #265
+  text          %{L113} ; "どうやって接触するか……"
+  proc         
+  ctrl          "p"
+  line          #271
+  ldc.i         0
+  ret          
+}

@@ -1,0 +1,425 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #12
+  argcheck      []
+  alloca        []
+  line          #24
+  callp         $cbfb6fab (0)
+  line          #25
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #26
+  ldc.i         -114
+  ldstr         "bg06y"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #29
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "se0001"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #30
+  text          %{L1} ; "終業のチャイムが鳴り響き、夕暮れの日差しに照り返されて校舎が朱色に染まると、静寂に支配されていた北斗学園は息吹を取り戻したかのようにざわめきに包まれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L2} ; "放課後のクラブ活動へと向かう学生達。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L3} ; "足早に帰路につく学生達。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L4} ; "それぞれが楽しげに言葉を交わしながら、それぞれの目的へと向けて行き交う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #38
+  ldstr         "bg05y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #39
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #40
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #41
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #43
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L5} ; "そんな人込みに混じりながら、校門を潜る愛梨と未夏の表情は少し曇っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L6} ; "いつも下校を共にする相葉希更が居ないからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  ldstr         "a0162"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #47
+  text          %{L7} ; "【愛梨】「希更が休むなんて珍しいですわね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  ldstr         "d0125"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #50
+  text          %{L8} ; "【未夏】「だよね。少しぐらいの熱があっても平気で学校くるし、カラオケとかも行っちゃうくらいだもん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "a0163"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #53
+  text          %{L9} ; "【愛梨】「相当具合が悪いのかしら？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  ldstr         "d0126"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #56
+  text          %{L10} ; "【未夏】「どーだろ。とりあえずさ、行ってみようよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldstr         "a0164"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #59
+  text          %{L11} ; "【愛梨】「そうですわね。お見舞いに行きましょう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L12} ; "普段から風邪程度では周りが止めるのも聞かずに無理をする希更が学校を休んだだけに、２人の心配も募る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L13} ; "とはいえ、あれこれと予創造していても埒があくものでもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L14} ; "２人はお見舞いに行くことに決めて、希更の家へと向かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  ldstr         "bg24"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #68
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #69
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #71
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L15} ; "閑静な住宅街の一角にあるマンションの一室。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L16} ; "相葉の表札の出ている部屋の前に着くと、愛梨はインターフォンを細くマニキュアで彩られた人差し指で押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L17} ; "数秒待つとガチャリという音ともに扉が開いて、希更の母親が出てきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #77
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0165"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #78
+  text          %{L18} ; "【愛梨】「こんにちは」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  ldstr         "BUP05Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #81
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0127"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #82
+  text          %{L19} ; "【未夏】「こんにちは～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L20} ; "【母親】「あら、大野と二宮さん、来てくれたのね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L21} ; "カメラ付きのインターフォンで２人の姿を確認していた母親は笑顔で迎えてくれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #89
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0166"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #90
+  text          %{L22} ; "【愛梨】「はい。希更が休むなんて、めったなことではないし……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #92
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0128"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #93
+  text          %{L23} ; "【未夏】「ちょっとあたしたち心配でぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L24} ; "【母親】「そうなのよね。風邪くらいじゃ私が寝て居るように言っても効かずに遊びに行くような娘だしね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L25} ; "しかし、歓迎的な態度と裏腹に、なぜか母親は室内へと２人を招く素振りを見せない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L26} ; "普段なら、まずは中へと誘ってくれるはずだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L27} ; "それを不審に感じて、愛梨が切り出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  ldstr         "a0167"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #103
+  text          %{L28} ; "【愛梨】「あの、希更に……会えますか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L29} ; "【母親】「ごめんなさいね。それがいまちょっと寝込んでしまっていて……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #108
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0129"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #109
+  text          %{L30} ; "【未夏】「そんな悪いんですか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L31} ; "【母親】「うーん、ちょっとねぇ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  ldstr         "a0168"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #114
+  text          %{L32} ; "【愛梨】「なにか重い病気なんですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L33} ; "思いがけない返答に慌てる２人。それをなだめるように母親はすまなそうに答えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L34} ; "【母親】「そんな大袈裟なことではないと思うわ。ただ、今は眠っているし……わざわざ来てくれたのに本当にごめんなさいね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  ldstr         "a0169"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #121
+  text          %{L35} ; "【愛梨】「は、はい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #124
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0130"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #125
+  text          %{L36} ; "【未夏】「じゃあ……またにしますね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L37} ; "【母親】「本当にごめんなさいね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  ldstr         "a0170"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #130
+  text          %{L38} ; "【愛梨】「いえ、それでは失礼します」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L39} ; "結局ろくな答えも出ないまま、二人は諦めて帰ることになった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #135
+  ldstr         "bg12n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #136
+  ldstr         "BUP03D"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #137
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #140
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L40} ; "トゥルルルル、トゥルルルル……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L41} ; "もう……、また出ないわ――大野愛梨はそっと溜め息をつき、爪の先で携帯電話のボタンを押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L42} ; "呼び出し音が止まる。発信を切ったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L43} ; "【愛梨】「（出られないのかしら……仕方がないわね……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L44} ; "そう思いながらも、愛梨の細く長い指は電話機のリダイヤルボタンを押していた。再び呼び出し音。これで出なかったら、もう電話するのをやめよう――そう思いながら。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L45} ; "……そう思いながらリダイヤルボタンを押したのは、決してこれ一度だけではないのだが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L46} ; "【愛梨】「（だって……、わたしが電話をかけるのをやめた途端に、希更が戻ってくるかもしれませんもの）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L47} ; "しかしいくら待っても、希更が電話に出る気配は見られない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L48} ; "【愛梨】「（……こんなに電話をしてるのに希更が出ないなんて、変なの）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L49} ; "【愛梨】「（そうだわ、未夏に聞いてみようかしら。未夏なら、希更と電話で話すことができたかもしれないもの）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L50} ; "そう、快活で笑みを絶やさず、誰とでも分け隔てなく接することができる未夏ならば――根拠はその程度のものでしかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L51} ; "愛梨は親指だけを動かして、携帯電話のボタンを何度か押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L52} ; "ややあって、呼び出し音が聞こえてくる。今日はこの音は聞き飽きた。耳にしていると何故か憂鬱になってきて、自然と溜め息が漏れてしまうのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L53} ; "しかし今度ばかりは、愛梨は溜め息をつかずに済んだ。呼び出し音が二、三度流れたかと思うと、未夏の声が耳に飛び込んできたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L54} ; "二人は希更の現状について、ああでもない、こうでもないと予測しあう。その会話の大半は、帰り道に二人で話し合ったことの繰り返しに過ぎない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L55} ; "しかし結論が出るか否か、それが真実か否かなどは、二人にとって実はさほど重要ではないのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L56} ; "気心の知れた者同士で同じ話題を共有し合い、不可解な現状について少しでも分かったような気分になって安心することこそが、このお喋りの目的なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L57} ; "やがて二人の会話は脱線に脱線を繰り返し、希更のこととは何の関係もない内容になってゆく……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #160
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #162
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}

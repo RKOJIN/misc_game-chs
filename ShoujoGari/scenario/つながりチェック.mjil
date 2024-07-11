@@ -1,0 +1,61 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #11
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #12
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #13
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #14
+  ldstr         "bg07y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #15
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #17
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "さっそく今撮影したばかりの画像を確認する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #18
+  text          %{L2} ; "問題は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L3} ; "撮影したての画像を確認できるのがデジカメの利点だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L4} ; "残った身支度を済ませてから、のろのろと身支度を整えている衣澄に声をかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L5} ; "【貴城】「この写真をばら撒かれたくなかったら、これからも言うことを聞けよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #26
+  ldc.i         2061741513
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #40
+  ldc.i         0
+  ret          
+}

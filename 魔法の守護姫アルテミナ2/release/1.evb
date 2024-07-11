@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="windows-1252"?>
 <>
-  <InputFile>D:\game\アルテミナ2\アルテミナ２ 戦え！アポローグ\ARTM2.EXE</InputFile>
+  <InputFile>D:\game\アルテミナ2DL版\アルテミナ２ 戦え！アポローグ\ARTM2.EXE</InputFile>
   <OutputFile>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\release\简中\ARTM2_chs.EXE</OutputFile>
   <Files>
     <Enabled>True</Enabled>
@@ -15,6 +15,30 @@
         <OverwriteAttributes>False</OverwriteAttributes>
         <HideFromDialogs>0</HideFromDialogs>
         <Files>
+          <File>
+            <Type>2</Type>
+            <Name>LoaderDll.dll</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\LoaderDll.dll</File>
+            <ActiveX>False</ActiveX>
+            <ActiveXInstall>False</ActiveXInstall>
+            <Action>0</Action>
+            <OverwriteDateTime>False</OverwriteDateTime>
+            <OverwriteAttributes>False</OverwriteAttributes>
+            <PassCommandLine>False</PassCommandLine>
+            <HideFromDialogs>0</HideFromDialogs>
+          </File>
+          <File>
+            <Type>2</Type>
+            <Name>LocaleEmulator.dll</Name>
+            <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\LocaleEmulator.dll</File>
+            <ActiveX>False</ActiveX>
+            <ActiveXInstall>False</ActiveXInstall>
+            <Action>0</Action>
+            <OverwriteDateTime>False</OverwriteDateTime>
+            <OverwriteAttributes>False</OverwriteAttributes>
+            <PassCommandLine>False</PassCommandLine>
+            <HideFromDialogs>0</HideFromDialogs>
+          </File>
           <File>
             <Type>2</Type>
             <Name>md_scr.med</Name>
@@ -43,42 +67,6 @@
             <Type>2</Type>
             <Name>winmm.dll</Name>
             <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\winmm.dll</File>
-            <ActiveX>False</ActiveX>
-            <ActiveXInstall>False</ActiveXInstall>
-            <Action>0</Action>
-            <OverwriteDateTime>False</OverwriteDateTime>
-            <OverwriteAttributes>False</OverwriteAttributes>
-            <PassCommandLine>False</PassCommandLine>
-            <HideFromDialogs>0</HideFromDialogs>
-          </File>
-          <File>
-            <Type>2</Type>
-            <Name>_FONTSET.MED</Name>
-            <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\_FONTSET.MED</File>
-            <ActiveX>False</ActiveX>
-            <ActiveXInstall>False</ActiveXInstall>
-            <Action>0</Action>
-            <OverwriteDateTime>False</OverwriteDateTime>
-            <OverwriteAttributes>False</OverwriteAttributes>
-            <PassCommandLine>False</PassCommandLine>
-            <HideFromDialogs>0</HideFromDialogs>
-          </File>
-          <File>
-            <Type>2</Type>
-            <Name>LoaderDll.dll</Name>
-            <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\LoaderDll.dll</File>
-            <ActiveX>False</ActiveX>
-            <ActiveXInstall>False</ActiveXInstall>
-            <Action>0</Action>
-            <OverwriteDateTime>False</OverwriteDateTime>
-            <OverwriteAttributes>False</OverwriteAttributes>
-            <PassCommandLine>False</PassCommandLine>
-            <HideFromDialogs>0</HideFromDialogs>
-          </File>
-          <File>
-            <Type>2</Type>
-            <Name>LocaleEmulator.dll</Name>
-            <File>D:\misc_game-chs\魔法の守護姫アルテミナ2\release\LocaleEmulator.dll</File>
             <ActiveX>False</ActiveX>
             <ActiveXInstall>False</ActiveXInstall>
             <Action>0</Action>

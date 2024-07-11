@@ -1,0 +1,64 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #12
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #13
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #14
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #15
+  ldstr         "bg03n2"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #16
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #18
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "ひとまず計画は完了だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L2} ; "無残な姿は徹底的にデジカメに記録した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L3} ; "今夜の出来事は未夏の心に一生巣食う悪夢となるだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L4} ; "そしてこのまま放置すれば誰かに発見されて晒し者になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L5} ; "理想的な展開じゃないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L6} ; "俺は無言のまま荷物を片付けると部屋を後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #29
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}

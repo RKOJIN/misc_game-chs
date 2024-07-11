@@ -1,0 +1,69 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #17
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #19
+  ldstr         "bg02n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #20
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #22
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "【貴城】「実にいい光景だ。この写真をばら撒かれたくなかったら、これからも言うことを聞けよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  ldstr         "d0101"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #25
+  text          %{L2} ; "【未夏】「はぁ、はぁ、ひぃぁっはぁ、へぇぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L3} ; "完全に意識が崩壊している未夏は、ただ力なく呆然と俺の言葉に頷くだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L4} ; "快感と恥辱と刺激と……現実と妄想と……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L5} ; "今、未夏の意識は人生の中ではじめて味わう異常事態に対応できず、混沌の坩堝と化しているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L6} ; "だが今日の出来事は忌まわしい記憶として、トラウマになるほどしっかりと焼きついているはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L7} ; "これから毎夜俺の言葉と今夜の出来事を思い出して、恐怖と屈辱に苛まれて暮らすのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L8} ; "俺は計画の成功に満面の笑みを浮かべて公衆便所を後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #42
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}

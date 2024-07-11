@@ -1,0 +1,1305 @@
+readmark enable
+
+func $18366439() {
+ entry:
+  line          #14
+  argcheck      []
+  alloca        []
+  line          #17
+  callp         $cbfb6fab (0)
+  line          #18
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #19
+  ldc.i         -114
+  ldstr         "bg04n"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #20
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L1} ; "　私はあの男に呼び出され、指定された公園へ行きました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #21
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L2} ; "　痴漢の証拠と前にレイプされた時の写真を握られている私に、逆らうことなんてできるでしょうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #22
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L3} ; "　行けばまた同じような目に遭う……それはわかっていましたが、私は応じるしかありませんでした。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #23
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L4} ; "　呼び出されたのは夜も遅い時間……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #24
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L5} ; "　昼間はそれなりに人が憩う公園でしたが、広大すぎて逆に夜は恐ろしい雰囲気に包まれ、人の気配などまったくありません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #25
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L6} ; "　その中を私は重い足取りで歩き、待ち構えていた男の前へたどり着きました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #27
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L7} ; "　『よく来てくれた。うれしいぜ』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #29
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L8} ; "　私が逆らえないことを知っているくせに、男は笑いながら言いました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #30
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L9} ; "　私はわざととぼけてみましたが、男は私に私の恥ずかしい写真を突きつけてきたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #31
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L10} ; "　恥ずかしさで顔が真っ赤に染まっていくのが、自分でもわかりました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #33
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L11} ; "　けれどもう二度と男の好きにさせまいと、私を淫乱女と決めてかかる男に勘違いだと、単なる誤解だと言いました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #34
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L12} ; "　そしてそういう女性が好みなら、お仕事でされている方をお呼びになればいいとまで言いました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #35
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L13} ; "　けれどそれは逆に男の怒りを誘ったようです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #36
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #38
+  argcheck      []
+  alloca        []
+  line          #41
+  callp         $cbfb6fab (0)
+  line          #42
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #43
+  ldc.i         -114
+  ldstr         "ev22a"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #44
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L14} ; "　私はあの男にいつもの公園に呼び出され、着くとすぐに公園のトイレに連れて行かれ、犯されました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #46
+  ldc.i         0
+  ret          
+}
+
+func $7d9570af() {
+ entry:
+  line          #48
+  argcheck      []
+  alloca        []
+  line          #51
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L15} ; "　男は私を膝の上に乗せ、思いっきり突いてきましたが、私は何も感じることが出来ませんでした。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #52
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L16} ; "　男は私に感じることを要求してきましたが、どうして好きでもない男に抱かれて感じることが出来るでしょうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #53
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L17} ; "　それでも胸をもまれながら刺激されればそれなりには反応できますが、男は満足しなかったようです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #54
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L18} ; "　私を感じさせようと躍起になって、激しく腰を動かしてきます。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #55
+  ldc.i         1500
+  ldstr         "ev22c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #56
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L19} ; "　だんだん男が勝手に高まっていき、私の中でイクのを私はうつろな気持ちで受け止めました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #57
+  ldc.i         0
+  ret          
+}
+
+func $7daa5d3c() {
+ entry:
+  line          #59
+  argcheck      []
+  alloca        []
+  line          #62
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L20} ; "　もう私の体は男が与える快感に支配されているのでしょうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #63
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L21} ; "　何も前戯もなく男の膝に腰掛けるように座らされ……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #65
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L22} ; "　ただそれだけなのに、私の体は一番奥まで男に貫かれてしまいました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #66
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L23} ; "　そして腰を両手でつかみ、力任せにゆすられただけで、そこから快感が全身に広がっていくのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #67
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L24} ; "　いいえ、それだけでは飽き足らず、もっと強い刺激が欲しいと求めてしまいます。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #68
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L25} ; "　男が胸を揉みながら私を揶揄した言葉に、私は必死になって否定を口にしましたが……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #69
+  ldc.i         1500
+  ldstr         "ev22b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #70
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L26} ; "　男がグイッと突き上げたとたん、それが嘘であると誰が見たってわかるような反応をしてしまいました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #71
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L27} ; "　それほど気持ちいいのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #72
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L28} ; "　いいえ、揶揄された言葉さえも私の快感になってると言ったほうが、合ってるかもしれません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #73
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L29} ; "　私の体はいつしか自ら刺激を求めて、腰を振っていました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #74
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L30} ; "　どんどんと体の中に溜まるように高まってくる快感。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #75
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L31} ; "　それが男の肉棒を締め上げて、男も限界が近いのか私の中でより太く大きくなっていきます。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #76
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L32} ; "　そして私の腰の動きにあわせるように、激しく突き上げてくれました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #77
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L33} ; "　そして……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #78
+  ldc.i         1500
+  ldstr         "ev22d"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #79
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L34} ; "　私が絶頂を迎えたその瞬間、私の中に暖かい物が広がっていきます。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #80
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L35} ; "　同時に男がイッてくれたということが、私には何故か嬉しく感じました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #81
+  ldc.i         0
+  ret          
+}
+
+func $39e74944() {
+ entry:
+  line          #83
+  argcheck      []
+  alloca        []
+  line          #86
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L36} ; "　けれど、男はまだ私に何か怒りを感じているようでした。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #87
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #89
+  argcheck      []
+  alloca        []
+  line          #92
+  ldc.i         1500
+  ldstr         "bg02n"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #93
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L37} ; "　怒りを抑え付けた低い声で、男は『どうやらお前にはお仕置きが必要だな』と宣告してきました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #94
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L38} ; "　そしてナイフを私に突きつけて、信じられないことを言ってきたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #95
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L39} ; "　すなわち、『下着を脱いでノーパンで電車に乗るんだ』と。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #96
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L40} ; "　私はそんなことは出来ないと言いかけましたが、元々拒否権などない私です。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #97
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L41} ; "　しかもナイフを突きつけられては、イヤだなどと口が裂けても言えるわけがありません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #98
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L42} ; "　私は小さく頷くと、下着を自ら脱ぐしかありませんでした。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #99
+  ldc.i         1500
+  ldstr         "bg20n"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #100
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L43} ; "　駅に向かう間、短いスカートが気になりましたが、これからのことを考えると余計憂鬱でしかありません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #101
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L44} ; "　けれど男はそんな私の気持ちもわからず、駅に着くとさっさと切符を買ってホームへ向かいます。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #102
+  ldc.i         1500
+  ldstr         "bg21n"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #103
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L45} ; "　私は遅れずについていくのが精一杯で、この時間が通勤ラッシュの時間帯にあたることをすっかり忘れていました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #104
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L46} ; "　思い出したのは、ホームに滑り込んできた電車が満員電車であったこと。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #105
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L47} ; "　しかも朝とは違い、満員ながらも適度にすいていて、痴漢行為を働くとしたら充分なゆとりがあることが一目で見てとれました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #106
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #107
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L48} ; "　男に促されるようにイヤイヤ乗り込み、できるだけ奥には行かないようにしたかったのですが、男は私を見るからにスケベそうなおじさんが座った座席の前まで誘導しました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #108
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L49} ; "　そのことだけでも私には充分戸惑うことだったのに、私の両手をつり革に絡めるようにして私を拘束したのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #110
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L50} ; "　『お前の大好きな痴漢電車をたっぷりと堪能させてやるよ』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #112
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L51} ; "　そう私の耳元で囁かれ、私の顔は羞恥と緊張で真赤に染まりました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #113
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L52} ; "　そして次の瞬間、男はそっとスカートを捲り上げたのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #115
+  ldc.i         1500
+  ldstr         "ev21a"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #116
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L53} ; "　思わず小さく声をあげてしまいましたが、誰も気づかないで済んでくれたようです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #117
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L54} ; "　でも男はそれだけではもちろん、済ませてくれませんでした。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #118
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L55} ; "　私の懇願の声も聞こえないフリをしてお尻をゆっくりと撫で上げただけに留まらず、私のお尻の穴にまで指で触れてきたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #119
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L56} ; "　そしてその指はじくりと私のお尻の穴の入り口を擦りあげると、とうとう中にまで入り込んできました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #121
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L57} ; "　『お、お願いです……お願いですから、ゆ、指を差し込まないで……』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #123
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L58} ; "　私は必死に許しを請いました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #124
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L59} ; "　けれど男は逆にその言葉がおねだりの言葉であったかのように、お尻の穴の中を激しく弄り始めたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #125
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L60} ; "　なんともいえない感覚が私の体の中を走りました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #126
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L61} ; "　堪えきれずに声を出してしまい、周りの人たちが私たちの……私が何をされているのか気づいてしまったようです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #127
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L62} ; "　それを男はからかってきましたが、指を止めてくれることはありません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #128
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L63} ; "　それどころか言葉で私の恥辱を煽りながら、指の動きを激しくしていきます。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #129
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L64} ; "　私はそのなんとも言えない感覚に酔いそうになりながらも、何度か許しを請う言葉を口にして、そしてとうとう男が望むとおりはっきりとお願いしました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #131
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L65} ; "　『私の汚い尻穴を攻めないでください！』と。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #133
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L66} ; "　そのとたん、自分でもわからないゾクゾクとした感覚が走りました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #134
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L67} ; "　男は私の言葉に満足して指を抜いてくれたのに……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #135
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L68} ; "　いいえ、私がゾクゾクしてしまったのは、自分が屈辱的で卑猥な言葉を口にしたからです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #136
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L69} ; "　そのゾクゾクした感覚がまだ体から抜け切らないうちに、今度は男は私の秘部に触れてきました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #137
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L70} ; "　自分が言ってしまった卑猥な言葉。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #138
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L71} ; "　そして男の指によるお尻の穴への攻撃が、私のそこをすでに濡らしていました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #139
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L72} ; "　それに気がついた男は今度は逆に焦らすように私の恥ずかしい部分を苛め始めたのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #140
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L73} ; "　私の体はガクガクと震え始めました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #141
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L74} ; "　もう何とかして欲しい……そう思った時、男の腕が増えました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #142
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L75} ; "　いいえ、男の腕ではありません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #143
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L76} ; "　私たちの行為に気づいた見知らぬ誰かが便乗して参加してきたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #144
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L77} ; "　もう私には誰がどこを触っているのかもわかりませんでした。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #145
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L78} ; "　けれど私の胸を両手でもみしだく者もいれば、膣の中に指を差し込んでその中を擦りあげる者。そして秘部をこねるように弄る者もいたことは確かです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #146
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L79} ; "　声を出したら余計気づかれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #147
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L80} ; "　幸い前の座席に座ってるおじさんは新聞を読んでいたり、眠っている乗客がほとんどでしたが、彼らの目線から見れば私が何をされているかなど一目瞭然でしょう。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #148
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L81} ; "　それだけは避けなければいけない。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #149
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L82} ; "　そう思うのに、私を官能の海に押し流そうとする痴漢たちの指は止まりません。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #150
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L83} ; "　そして……スカートの前も持ち上げられ、私の下半身は完全にさらけ出されてしまいました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #151
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L84} ; "　そのとたん、新聞を読んでいたと思っていたおじさんの指が、私の恥ずかしい部分に触れてきたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #152
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L85} ; "　父と同世代と思われるおじさん。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #153
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L86} ; "　新聞を読んでいると思っていたのに、実はもうすでに私がされていたことに気づいていたのです。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #154
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L87} ; "　ならばもう私のことは、この車両にいる人全てに知られてる。そう思いました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #155
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L88} ; "　その瞬間、もう何もかもわからなくなりました。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #156
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L89} ; "　ただもう気づかれないようにと、快感をムリに我慢する必要はなくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #157
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L90} ; "　そう安堵したことだけは覚えています。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #158
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L91} ; "　いったい自分が何人の男の集団痴漢にあっているのかもわからないまま、私は大きな声をあげてイッてしまいました。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #159
+  ldc.i         1500
+  ldstr         "ev21b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #160
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L92} ; "　そして駅に着くまで、私は痴漢たちのおもちゃになり続けたのです。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #161
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #163
+  argcheck      []
+  alloca        []
+  line          #164
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #166
+  callp         $18366439 (0)
+  line          #167
+  callp         $96b963da (0)
+  line          #168
+  callp         $7d9570af (0)
+  line          #169
+  callp         $7daa5d3c (0)
+  line          #170
+  callp         $39e74944 (0)
+  line          #171
+  callp         $5a136344 (0)
+  line          #173
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #174
+  argcheck      []
+  alloca        []
+  line          #175
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #176
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L93} ; "　パターンを選択してください。\n"
+  line          #177
+  ldstr         "３度目の陵辱で選択"
+  ldstr         "２度目の陵辱で選択"
+  call          $$novel_select@MENU (2) ; $novel_select@MENU
+  br.case       @block_3560
+
+ block_3560:
+  line          #178
+  ldc.i         1
+  bne.case      @block_35a0
+
+ block_3570:
+  line          #179
+  ctrl          "w"
+  line          #180
+  callp         $18366439 (0)
+  line          #181
+  callp         $5a136344 (0)
+  br            @block_374a
+
+ block_35a0:
+  line          #182
+  ldc.i         2
+  bne.case      @block_374a
+
+ block_35b0:
+  line          #183
+  ctrl          "w"
+  line          #184
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L94} ; "　パターンを選択してください。\n"
+  line          #185
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L95} ; "　３度目の陵辱で選択\n"
+  line          #186
+  ldstr         "調教度高い"
+  ldstr         "調教度低い"
+  call          $$novel_select@MENU (2) ; $novel_select@MENU
+  br.case       @block_3688
+
+ block_3688:
+  line          #187
+  ldc.i         1
+  bne.case      @block_36e8
+
+ block_3698:
+  line          #188
+  ctrl          "w"
+  line          #189
+  callp         $96b963da (0)
+  line          #190
+  callp         $7d9570af (0)
+  line          #191
+  callp         $39e74944 (0)
+  line          #192
+  callp         $5a136344 (0)
+  br            @block_3746
+
+ block_36e8:
+  line          #193
+  ldc.i         2
+  bne.case      @block_3746
+
+ block_36f8:
+  line          #194
+  ctrl          "w"
+  line          #195
+  callp         $96b963da (0)
+  line          #196
+  callp         $7daa5d3c (0)
+  line          #197
+  callp         $39e74944 (0)
+  line          #198
+  callp         $5a136344 (0)
+  line          #199
+
+ block_3746:
+  line          #200
+
+ block_374a:
+  line          #201
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #202
+  ldc.i         0
+  ret          
+}

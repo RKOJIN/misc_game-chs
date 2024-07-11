@@ -1,0 +1,1166 @@
+readmark disable
+
+func $55c7d973(int, int) {
+ entry:
+  line          #30
+  argcheck      [int, int]
+  alloca        [int, int]
+  line          #31
+  ld            savefile string $7fddd49f 
+  brfalse       @block_01a4
+
+ block_0024:
+  line          #33
+  ld            savefile string $7fddd49f 
+  syscall       $sprite_create_file (1)
+  st.i          savefile int $bf06deac 
+  pop          
+  line          #35
+  ldc.i         255
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_alfa_set (2)
+  line          #36
+  ldc.i         100
+  ldc.i         0
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_alfa_set (3)
+  line          #38
+  ld            savefile int $bf06deac 
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  st.i          local int $75a7a48f 0
+  pop          
+  line          #39
+  ld            savefile int $bf06deac 
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  st.i          local int $6cbc95ce 1
+  pop          
+  line          #40
+  ld            local int $108033b0 -3
+  ld            savefile int $def32418 
+  add.i        
+  ld            local int $6cbc95ce 1
+  add.i        
+  ld            local int $099b02f1 -2
+  ld            savefile int $45566877 
+  add.i        
+  ld            local int $75a7a48f 0
+  add.i        
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_move (3)
+  line          #41
+  ldc.i         -1
+  ldc.r         1
+  ldc.i         100
+  ldc.r         1
+  ldc.i         100
+  ldc.r         0.85
+  ldc.i         100
+  ldc.r         1
+  ldc.i         100
+  ldc.r         0.7
+  ldc.i         0
+  ldc.r         1
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_ymodify_define (13)
+  line          #42
+
+ block_01a4:
+  line          #43
+  ldc.i         0
+  ret          
+}
+
+func $57e33b02() {
+ entry:
+  line          #44
+  argcheck      []
+  alloca        []
+  line          #45
+  ld            savefile int $bf06deac 
+  brfalse       @block_0200
+
+ block_01d0:
+  line          #46
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_release (1)
+  line          #47
+  ldc.i         0
+  st.i          savefile int $bf06deac 
+  pop          
+  line          #48
+
+ block_0200:
+  line          #49
+  ldc.i         0
+  ret          
+}
+
+func $f34c632b(int, int, int, int, int) {
+ entry:
+  line          #51
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #52
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $d37bcef2 
+  syscallp      $grp_swap (8)
+  line          #53
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  callp         $55c7d973 (2)
+  line          #55
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_ON"
+  syscallp      $do_event (6)
+  line          #56
+  ldc.i         0
+  ret          
+}
+
+func $84655e71(int, int, int, int, int) {
+ entry:
+  line          #57
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #58
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $d37bcef2 
+  syscallp      $grp_swap (8)
+  line          #59
+  callp         $57e33b02 (0)
+  line          #61
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_OFF"
+  syscallp      $do_event (6)
+  line          #62
+  ldc.i         0
+  ret          
+}
+
+func $af9c1cc9(int, int, int, int, int) {
+ entry:
+  line          #63
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #64
+  ld            savefile int $a1bd7f98 
+  brfalse       @block_040a
+
+ block_03f8:
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_release (1)
+
+ block_040a:
+  line          #65
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $d37bcef2 
+  syscall       $sprite_create (5)
+  st.i          savefile int $a1bd7f98 
+  pop          
+  line          #66
+  ld            savefile int $1541fee6 
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_priority_high (2)
+  line          #67
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_move (3)
+  line          #68
+  ld            savefile int $54ec2567 
+  ldc.i         0
+  cgt.i        
+  brfalse       @block_0530
+
+ block_04ba:
+  line          #69
+  ld            savefile int $54ec2567 
+  ldc.i         1
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.i         192
+  ld            savefile int $54ec2567 
+  ldc.i         255
+  ld            savefile int $54ec2567 
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.i         0
+  ldc.i         0
+  ldc.i         192
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_alfa_define (9)
+  line          #70
+
+ block_0530:
+  line          #72
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  callp         $55c7d973 (2)
+  line          #74
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_ON"
+  syscallp      $do_event (6)
+  line          #75
+  ldc.i         0
+  ret          
+}
+
+func $adb8feb8(int, int, int, int, int) {
+ entry:
+  line          #76
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #77
+  ld            savefile int $a1bd7f98 
+  brfalse       @block_05e7
+
+ block_05d5:
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_release (1)
+
+ block_05e7:
+  line          #78
+  ldc.i         0
+  st.i          savefile int $a1bd7f98 
+  pop          
+  line          #80
+  callp         $57e33b02 (0)
+  line          #82
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_OFF"
+  syscallp      $do_event (6)
+  line          #83
+  ldc.i         0
+  ret          
+}
+
+func $4a0e8629(int, int, int, int, int) {
+ entry:
+  line          #84
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #85
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $b521dbf4 
+  syscallp      $grp_swap (8)
+  line          #86
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  callp         $55c7d973 (2)
+  line          #88
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_ON"
+  syscallp      $do_event (6)
+  line          #89
+  ldc.i         0
+  ret          
+}
+
+func $c1c717fe(int, int, int, int, int) {
+ entry:
+  line          #90
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #91
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $b521dbf4 
+  syscallp      $grp_swap (8)
+  line          #92
+  callp         $57e33b02 (0)
+  line          #94
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_OFF"
+  syscallp      $do_event (6)
+  line          #95
+  ldc.i         0
+  ret          
+}
+
+func $0456d502(int, int, int, int, int) {
+ entry:
+  line          #96
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #97
+  ld            savefile int $a1bd7f98 
+  brfalse       @block_0868
+
+ block_0856:
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_release (1)
+
+ block_0868:
+  line          #98
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $b521dbf4 
+  syscall       $sprite_create (5)
+  st.i          savefile int $a1bd7f98 
+  pop          
+  line          #99
+  ld            savefile int $1541fee6 
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_priority_high (2)
+  line          #100
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_move (3)
+  line          #101
+  ld            savefile int $54ec2567 
+  ldc.i         0
+  cgt.i        
+  brfalse       @block_098e
+
+ block_0918:
+  line          #102
+  ld            savefile int $54ec2567 
+  ldc.i         1
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.i         192
+  ld            savefile int $54ec2567 
+  ldc.i         255
+  ld            savefile int $54ec2567 
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.i         0
+  ldc.i         0
+  ldc.i         192
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_alfa_define (9)
+  line          #103
+
+ block_098e:
+  line          #105
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  callp         $55c7d973 (2)
+  line          #107
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_ON"
+  syscallp      $do_event (6)
+  line          #108
+  ldc.i         0
+  ret          
+}
+
+func $2356b04a(int, int, int, int, int) {
+ entry:
+  line          #109
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #110
+  ld            savefile int $a1bd7f98 
+  brfalse       @block_0a45
+
+ block_0a33:
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_release (1)
+
+ block_0a45:
+  line          #111
+  ldc.i         0
+  st.i          savefile int $a1bd7f98 
+  pop          
+  line          #113
+  callp         $57e33b02 (0)
+  line          #115
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_OFF"
+  syscallp      $do_event (6)
+  line          #116
+  ldc.i         0
+  ret          
+}
+
+func $a81a788e(int, int, int, int, int) {
+ entry:
+  line          #117
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #118
+  ld            savefile int $cddd6329 
+  brfalse       @block_0b4d
+
+ block_0aed:
+  line          #119
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $cddd6329 
+  syscallp      $grp_copy (8)
+  line          #120
+
+ block_0b4d:
+  line          #121
+  ldc.i         1
+  st.i          savefile int $d4d6e4c2 
+  pop          
+  line          #122
+  ld            local int $1503b726 -2
+  st.i          savefile int $633b371d 
+  pop          
+  line          #124
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_CLICK"
+  syscallp      $do_event (6)
+  line          #125
+  ldc.i         0
+  ret          
+}
+
+func $ece98755(int, int, int, int, int) {
+ entry:
+  line          #126
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #127
+  ld            savefile int $a43e7605 
+  brfalse       @block_0c61
+
+ block_0c01:
+  line          #128
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $a43e7605 
+  syscallp      $grp_copy (8)
+  line          #129
+
+ block_0c61:
+  line          #130
+  ldc.i         1
+  st.i          savefile int $d4d6e4c2 
+  pop          
+  line          #131
+  ld            local int $1503b726 -2
+  st.i          savefile int $633b371d 
+  pop          
+  line          #133
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldstr         "BUTTONMENU_CLICK"
+  syscallp      $do_event (6)
+  line          #134
+  ldc.i         0
+  ret          
+}
+
+func $4b2d76d3(int, int) {
+ entry:
+  line          #135
+  argcheck      [int, int]
+  alloca        []
+  line          #136
+  ld            savefile int $9fb7c7fa 
+  brfalse       @block_0d46
+
+ block_0d12:
+  line          #137
+  ldc.i         1
+  st.i          savefile int $d4d6e4c2 
+  pop          
+  line          #138
+  ld            savefile int $9fb7c7fa 
+  st.i          savefile int $633b371d 
+  pop          
+  line          #139
+
+ block_0d46:
+  line          #140
+  ldc.i         0
+  ret          
+}
+
+func $95fa22df(int, int) {
+ entry:
+  line          #141
+  argcheck      [int, int]
+  alloca        []
+  line          #142
+  ldc.i         0
+  ret          
+}
+
+func $4552ea68(string, int, int) { ; $buttonmenu_extspr_set@BUTONMENU
+ entry:
+  line          #146
+  argcheck      [string, int, int]
+  alloca        []
+  line          #147
+  ld            local string $a75141c4 -2
+  st.s          savefile string $7fddd49f 
+  pop          
+  line          #148
+  ld            local int $7c71cff8 -3
+  st.i          savefile int $45566877 
+  pop          
+  line          #149
+  ld            local int $7db3a5cf -4
+  st.i          savefile int $def32418 
+  pop          
+  line          #150
+  ldc.i         0
+  ret          
+}
+
+func $1fbc7927(string) { ; $buttonmenu_file_set@BUTONMENU
+ entry:
+  line          #154
+  argcheck      [string]
+  alloca        []
+  line          #155
+  ld            savefile int $d37bcef2 
+  brfalse       @block_0e08
+
+ block_0df6:
+  ld            savefile int $d37bcef2 
+  syscallp      $page_release (1)
+
+ block_0e08:
+  line          #156
+  ld            local string $a75141c4 -2
+  syscall       $page_create_file (1)
+  st.i          savefile int $d37bcef2 
+  pop          
+  line          #157
+  syscallp      $areaevent_reset (0)
+  line          #158
+  ld            savefile int $d37bcef2 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $43543a18(string) { ; $buttonmenu_file_set2@BUTONMENU
+ entry:
+  line          #160
+  argcheck      [string]
+  alloca        []
+  line          #161
+  ld            savefile int $b521dbf4 
+  brfalse       @block_0e81
+
+ block_0e6f:
+  ld            savefile int $b521dbf4 
+  syscallp      $page_release (1)
+
+ block_0e81:
+  line          #162
+  ld            local string $a75141c4 -2
+  syscall       $page_create_file (1)
+  st.i          savefile int $b521dbf4 
+  pop          
+  line          #163
+  syscallp      $areaevent_reset (0)
+  line          #164
+  ld            savefile int $b521dbf4 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $0b4e9599(int) { ; $buttonmenu_area_set@BUTONMENU
+ entry:
+  line          #166
+  argcheck      [int]
+  alloca        []
+  line          #167
+  ld            local int $6d583fd6 -2
+  st.i          savefile int $d37bcef2 
+  pop          
+  line          #168
+  syscallp      $areaevent_reset (0)
+  line          #169
+  ld            savefile int $d37bcef2 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $6f99567f(int) { ; $buttonmenu_area_set2@BUTONMENU
+ entry:
+  line          #171
+  argcheck      [int]
+  alloca        []
+  line          #172
+  ld            local int $6d583fd6 -2
+  st.i          savefile int $b521dbf4 
+  pop          
+  line          #173
+  syscallp      $areaevent_reset (0)
+  line          #174
+  ld            savefile int $b521dbf4 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $f2a3008d(string) { ; $buttonmenu_file_push_set@BUTONMENU
+ entry:
+  line          #176
+  argcheck      [string]
+  alloca        []
+  line          #177
+  ld            savefile int $cddd6329 
+  brfalse       @block_0f90
+
+ block_0f7e:
+  ld            savefile int $cddd6329 
+  syscallp      $page_release (1)
+
+ block_0f90:
+  line          #178
+  ld            local string $a75141c4 -2
+  syscall       $page_create_file (1)
+  st.i          savefile int $cddd6329 
+  pop          
+  line          #179
+  ld            savefile int $cddd6329 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $75ba6f97(string) {
+ entry:
+  line          #181
+  argcheck      [string]
+  alloca        []
+  line          #182
+  ld            savefile int $a43e7605 
+  brfalse       @block_0ffd
+
+ block_0feb:
+  ld            savefile int $a43e7605 
+  syscallp      $page_release (1)
+
+ block_0ffd:
+  line          #183
+  ld            local string $a75141c4 -2
+  syscall       $page_create_file (1)
+  st.i          savefile int $a43e7605 
+  pop          
+  line          #184
+  ld            savefile int $a43e7605 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $feb4e212(string, int, int) { ; $buttonmenu_file_add@BUTONMENU
+ entry:
+  line          #186
+  argcheck      [string, int, int]
+  alloca        []
+  line          #187
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local string $a75141c4 -2
+  ld            savefile int $d37bcef2 
+  syscallp      $pic_unpack (4)
+  line          #188
+  ldc.i         0
+  ret          
+}
+
+func $1506f6a0(string, int, int) { ; $buttonmenu_file_add2@BUTONMENU
+ entry:
+  line          #189
+  argcheck      [string, int, int]
+  alloca        []
+  line          #190
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local string $a75141c4 -2
+  ld            savefile int $b521dbf4 
+  syscallp      $pic_unpack (4)
+  line          #191
+  ldc.i         0
+  ret          
+}
+
+func $13ab9bb8(string, int, int) { ; $buttonmenu_file_push_add@BUTONMENU
+ entry:
+  line          #192
+  argcheck      [string, int, int]
+  alloca        []
+  line          #193
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local string $a75141c4 -2
+  ld            savefile int $cddd6329 
+  syscallp      $pic_unpack (4)
+  line          #194
+  ldc.i         0
+  ret          
+}
+
+func $23e8a32f(string, int, int) {
+ entry:
+  line          #195
+  argcheck      [string, int, int]
+  alloca        []
+  line          #196
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local string $a75141c4 -2
+  ld            savefile int $a43e7605 
+  syscallp      $pic_unpack (4)
+  line          #197
+  ldc.i         0
+  ret          
+}
+
+func $ffc5bc91(int, int, int, int, int) { ; $buttonmenu_set@BUTONMENU
+ entry:
+  line          #198
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #199
+  ld            savefile int $54ec2567 
+  brfalse       @block_11f2
+
+ block_1198:
+  line          #200
+  ldc.i         -1474660210
+  ldc.i         -1380385096
+  ldc.i         -1348723511
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  syscallp      $areaevent_set (8)
+  line          #201
+  br            @block_1246
+
+ block_11f2:
+  line          #202
+  ldc.i         -1474660210
+  ldc.i         -2073731471
+  ldc.i         -213097685
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  syscallp      $areaevent_set (8)
+  line          #203
+
+ block_1246:
+  line          #204
+  ldc.i         0
+  ret          
+}
+
+func $61b65564(int, int, int, int, int) { ; $buttonmenu_set2@BUTONMENU
+ entry:
+  line          #205
+  argcheck      [int, int, int, int, int]
+  alloca        []
+  line          #206
+  ld            savefile int $54ec2567 
+  brfalse       @block_12d1
+
+ block_1277:
+  line          #207
+  ldc.i         -320239787
+  ldc.i         592883786
+  ldc.i         72799490
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  syscallp      $areaevent_set (8)
+  line          #208
+  br            @block_1325
+
+ block_12d1:
+  line          #209
+  ldc.i         -320239787
+  ldc.i         -1043916802
+  ldc.i         1242465833
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  syscallp      $areaevent_set (8)
+  line          #210
+
+ block_1325:
+  line          #211
+  ldc.i         0
+  ret          
+}
+
+func $a53e5f81(int, int) { ; $buttonmenu_set_timeout@BUTONMENU
+ entry:
+  line          #215
+  argcheck      [int, int]
+  alloca        []
+  line          #216
+  ld            local int $cec433b9 -2
+  st.i          savefile int $cea3215f 
+  pop          
+  line          #217
+  ld            local int $283f6306 -3
+  st.i          savefile int $94549110 
+  pop          
+  line          #218
+  ldc.i         0
+  ret          
+}
+
+func $aa17a4f9(int) { ; $buttonmenu_set_musicout@BUTONMENU
+ entry:
+  line          #222
+  argcheck      [int]
+  alloca        []
+  line          #223
+  ld            local int $cec433b9 -2
+  st.i          savefile int $a4a8d72a 
+  pop          
+  line          #224
+  ldc.i         1
+  st.i          savefile int $2d2e6de5 
+  pop          
+  line          #225
+  ldc.i         0
+  ret          
+}
+
+func $8b171887(int) { ; $button_menu@BUTONMENU
+ entry:
+  line          #230
+  argcheck      [int]
+  alloca        [int, int, int, int]
+  line          #232
+  syscallp      $mk_unwait (0)
+  line          #234
+  ldc.i         0
+  st.i          savefile int $d4d6e4c2 
+  pop          
+  line          #235
+  ldc.i         0
+  st.i          savefile int $633b371d 
+  pop          
+  line          #236
+  ld            local int $0cdcf336 -2
+  st.i          savefile int $9fb7c7fa 
+  pop          
+  line          #238
+  syscallp      $b7e3e81c (0)
+  line          #239
+  ldc.i         1261270739
+  ldc.i         -1778769185
+  syscallp      $areaevent_setdefault (2)
+  line          #241
+  syscallp      $reset_fast_mode (0)
+  line          #242
+  callp         $$reset_fast_disp@CONSOLE (0) ; $reset_fast_disp@CONSOLE
+  line          #244
+  syscall       $timer (0)
+  st.i          local int $89ef2795 0
+  pop          
+  line          #245
+
+ block_1487:
+  line          #246
+  ld            savefile int $94549110 
+  brfalse       @block_14e9
+
+ block_149b:
+  line          #247
+  syscall       $timer (0)
+  ld            local int $89ef2795 0
+  sub.i        
+  st.i          local int $db5455da 1
+  pop          
+  line          #248
+  ld            local int $db5455da 1
+  ld            savefile int $94549110 
+  cge.i        
+  brfalse       @block_14e5
+
+ block_14df:
+  br            @block_1593
+
+ block_14e5:
+  line          #249
+
+ block_14e9:
+  line          #250
+  ld            savefile int $2d2e6de5 
+  brfalse       @block_1559
+
+ block_14fd:
+  line          #251
+  syscall       $music_stat (0)
+  st.i          local int $db5455da 1
+  pop          
+  line          #252
+  ld            local int $db5455da 1
+  ldc.i         1
+  cne.i        
+  brfalse       @block_1555
+
+ block_1531:
+  line          #253
+  ldc.i         -4545
+  st.i          savefile int $d4d6e4c2 
+  pop          
+  line          #254
+  br            @block_1593
+
+ block_1551:
+  line          #255
+
+ block_1555:
+  line          #256
+
+ block_1559:
+  line          #257
+  syscallp      $areaevent_check (0)
+  line          #258
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #259
+  ld            savefile int $d4d6e4c2 
+  ldc.i         0
+  ceq.i        
+  brtrue        @block_1487
+
+ block_1593:
+  line          #261
+  ld            savefile int $a1bd7f98 
+  brfalse       @block_15b9
+
+ block_15a7:
+  ld            savefile int $a1bd7f98 
+  syscallp      $sprite_release (1)
+
+ block_15b9:
+  line          #262
+  ld            savefile int $d37bcef2 
+  syscallp      $page_release (1)
+  line          #263
+  ld            savefile int $b521dbf4 
+  brfalse       @block_15f5
+
+ block_15e3:
+  ld            savefile int $b521dbf4 
+  syscallp      $page_release (1)
+
+ block_15f5:
+  line          #264
+  ld            savefile int $cddd6329 
+  brfalse       @block_161b
+
+ block_1609:
+  ld            savefile int $cddd6329 
+  syscallp      $page_release (1)
+
+ block_161b:
+  line          #266
+  ldc.i         0
+  st.i          savefile int $d37bcef2 
+  pop          
+  line          #267
+  ldc.i         0
+  st.i          savefile int $b521dbf4 
+  pop          
+  line          #268
+  ldc.i         0
+  st.i          savefile int $cddd6329 
+  pop          
+  line          #270
+  ldc.i         0
+  st.i          savefile int $a1bd7f98 
+  pop          
+  line          #271
+  ldc.i         0
+  st.i          savefile int $54ec2567 
+  pop          
+  line          #273
+  ld            savefile int $cea3215f 
+  st.i          local int $8a075a80 2
+  pop          
+  line          #274
+  ldc.i         0
+  st.i          savefile int $cea3215f 
+  pop          
+  line          #275
+  ldc.i         0
+  st.i          savefile int $94549110 
+  pop          
+  line          #277
+  ld            savefile int $a4a8d72a 
+  st.i          local int $99f0c27f 3
+  pop          
+  line          #278
+  ldc.i         0
+  st.i          savefile int $2d2e6de5 
+  pop          
+  line          #279
+  ld            savefile int $bf06deac 
+  brfalse       @block_1743
+
+ block_1713:
+  line          #280
+  ld            savefile int $bf06deac 
+  syscallp      $sprite_release (1)
+  line          #281
+  ldc.i         0
+  st.i          savefile int $bf06deac 
+  pop          
+  line          #282
+
+ block_1743:
+  line          #283
+  ldstr         ""
+  st.s          savefile string $7fddd49f 
+  pop          
+  line          #285
+  ld            savefile int $d4d6e4c2 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_1780
+
+ block_1774:
+  ld            local int $8a075a80 2
+  ret          
+
+ block_1780:
+  line          #286
+  ld            savefile int $d4d6e4c2 
+  ldc.i         -4545
+  ceq.i        
+  brfalse       @block_17a8
+
+ block_179c:
+  ld            local int $99f0c27f 3
+  ret          
+
+ block_17a8:
+  line          #287
+  ld            savefile int $633b371d 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $8d982efa(int) { ; $button_menu_setsprite@BUTONMENU
+ entry:
+  line          #292
+  argcheck      [int]
+  alloca        []
+  line          #293
+  ld            local int $283f6306 -2
+  st.i          savefile int $54ec2567 
+  pop          
+  line          #294
+  ldc.i         0
+  ret          
+}
+
+func $5dea0599() entrypoint { ; $main@BUTONMENU
+ entry:
+  line          #298
+  argcheck      []
+  alloca        []
+  line          #301
+  ldc.i         0
+  ret          
+}

@@ -1,0 +1,1064 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #54
+  ldstr         ""
+  callp         $$pic_top@PIC (1) ; $pic_top@PIC
+  line          #56
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は、立ち去っていく未夏の背中を呆然と見送ることしかできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #59
+  text          %{L2} ; "分からない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L3} ; "どうしても分からない……俺は確かに未夏を陵辱した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L4} ; "肉体を徹底的に蹂躙した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L5} ; "未夏は俺によって屈辱と恥辱を味わったはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L6} ; "心にはその記憶が楔となって打ち込まれているはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L7} ; "それなのに、どうして未夏はこうも平然と振舞うのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L8} ; "演技とは思えない。あまりにも自然で、明るい立ち振る舞いすぎる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L9} ; "もしくは、生来の淫乱女で、未夏にとっては陵辱も日常のありふれた一コマにすぎないのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L10} ; "いや、それはありえない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L11} ; "未夏を調べている時に、生活実態はある程度調べたが未夏の部屋に派手な男出入りは無かった。彼氏もいないようだったし、乱れた性生活を送っている気配は全く無かったはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L12} ; "１人残された俺は、自分の存在が急に希薄になっていくのを感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L13} ; "俺の努力は全くの無駄だったのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L14} ; "俺の存在は全くの無駄だったのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L15} ; "俺はとっくの昔に狂ってしまっているのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L16} ; "俺は夕実を失ったショックで正気を無くしているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L17} ; "夢と現実の区別が出来ない、妄想世界の住人なのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L18} ; "しかし、俺は確かに未夏を陵辱した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L19} ; "その証拠に画像データがあるじゃないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L20} ; "俺には合成なんて出来る器用な技術はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L21} ; "これはまごうことなき証拠であり、真実である証明のはず。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L22} ; "いまさら後戻りは出来ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L23} ; "戻るところなんて無いんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L24} ; "唯一無二の存在……夕実亡き今、俺は歩みを止めるわけにはいかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L25} ; "とにかく落ち着こう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L26} ; "落ち着いて、再確認しよう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L27} ; "裏付けを取ってやる！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L28} ; "俺はいったん帰宅することにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #97
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #98
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #99
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #100
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #102
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L29} ; "自宅へ戻ると、俺は再びアドレス帳を再確認した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L30} ; "念のためにネット検索で住所を調べてから、マンションを確認する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  ldstr         "bg29n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #106
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #108
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L31} ; "間違いは無い。絶対に間違いは無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L32} ; "このマンションのあの部屋に二宮未夏は存在する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L33} ; "そしてあの陵辱は、確実に起こった事実だ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L34} ; "だとしたら……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L35} ; "侵入する時にベランダを間違えたのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L36} ; "いやいや、それはありえない。顔はしっかり確認した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L37} ; "あれは二宮未夏本人だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L38} ; "人違いの線はまずありえない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L39} ; "だしたら、到底信じがたいが……やはりあれは演技なのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L40} ; "オスカー賞ばりの演技で、俺を欺くつもりか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L41} ; "しらを切っていれば、嵐が過ぎ去るのを待っていれば、全てはセピア色の記憶として葬れると思っているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L42} ; "夕実を汚した罪を……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L43} ; "犯した罪を認めることなく、誤魔化すつもりなのか！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L44} ; "許さない……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #128
+  text          %{L45} ; "許さない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L46} ; "それだけは絶対に許さない！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L47} ; "俺は怒りに駆られながら未夏の部屋のベランダ側へとまわった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L48} ; "薄暗い路地から様子を伺う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #136
+  ldstr         "ev37"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #137
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #139
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L49} ; "そこに俺が見たのは、全く予想外の、信じられないような光景だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L50} ; "ベランダには見知らぬ若い男に犯されている少女の姿があった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L51} ; "少女は二宮未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L52} ; "一糸まとわぬ全裸でベランダに立ち、背後から男に貫かれている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L53} ; "男の動きにあわせて、夜目にも白く見える乳房が揺れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L54} ; "それはレイプという雰囲気ではなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L55} ; "未夏はうっとりとした表情で、懸命に腰を振っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L56} ; "ベランダの窓は開いていて、部屋の中からも複数の男らしき気配がしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L57} ; "絡み合う肉体が熱い宴を繰り広げている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L58} ; "俺はしばしの間、状況を把握することが出来ずに、呆然とその光景に見入っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L59} ; "やがて少女は昇り詰めていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L60} ; "表情は快楽の色に染まり、全身を仰け反らせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L61} ; "そして迎える絶頂。大きく仰け反る上体から快感に酔いしれる少女の視線が俺と交錯した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L62} ; "俺はしまったと思ったが……未夏は俺を見つめてにっこりと微笑んだのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L63} ; "それは間違いなく……二宮未夏ではあったのだが、全く印象が異なっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #157
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L64} ; "はっと気がつくと、ベランダから少女と男の姿は消えていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L65} ; "窓の閉まる音がするのを聞いて、俺はベランダによじ登る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L66} ; "どういうことだ？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L67} ; "いったい、あの部屋で何が起こっているんだ？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L68} ; "気持ちがはやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L69} ; "ベランダに降り立つと、窓に手をかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  ldstr         "se0115"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #166
+  text          %{L70} ; "施錠はされていなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  ldstr         "bg03n2"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #169
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #171
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L71} ; "無言のまま室内へ入る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L72} ; "狭いワンルームの中には複数の若い男達がいて、欲望の宴が続いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L73} ; "未夏が俺の姿を見て、うれしそうに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L74} ; "誰も俺の乱入に驚く様子はなく、それどころか親しげに話しかけてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L75} ; "【男Ａ】「よう。あんたもあのメールを見てきたのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L76} ; "【貴城】「あ、ああ……そうだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L77} ; "【男Ｂ】「やっぱ、そうだよな。あんなの受け取ったら来るっきゃねえよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L78} ; "【男Ｃ】「こいつは自分のま○こ写真メールする変態女だ。一緒に楽しもうぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L79} ; "俺は宴の新たなゲストとして迎え入れられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L80} ; "【男Ｄ】「さあ、新規ゲストに奉仕しろよ、メス豚！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  ldstr         "ev38a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #189
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #190
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L81} ; "命令されるままに未夏は四つん這いで俺に近づいてきて、嬉しそうに股間をまさぐった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L82} ; "少女の細くしなやかな指が俺の肉棒を引っ張り出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #192
+  text          %{L83} ; "そそり勃つそれを未夏は非常に嬉しそうに、愛しそうに撫でると、小ぶりな口を大きく開けてほお張った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L84} ; "それにしても、この未夏の変貌ぶりはいったいどういうことなのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L85} ; "俺のことがわからないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  ldc.i         700
+  ldstr         "ev38b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #197
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #199
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L86} ; "生暖かい口内の感触が肉棒全体に広がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  text          %{L87} ; "竿に絡みつく舌の感触。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L88} ; "先端に絡みつく唾液の温もり。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #203
+  text          %{L89} ; "未夏の奉仕は徐々に勢いを増していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L90} ; "巧みな舌使いに俺の射精欲は一気に高まった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L91} ; "肉棒は発射に向けてビクビクと躍動する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L92} ; "未夏はそれにあわせて首を動かして、懸命に奉仕をつづけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  text          %{L93} ; "口内で俺の精液を受け止めるつもりなのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L94} ; "細い指が袋を下から掴んで転がすと、俺は一気に限界を迎えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  ldstr         "ev38c"
+  callp         $3706a555 (1)
+  line          #214
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #215
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L95} ; "白液が未夏の口内で炸裂する。欲望を俺はたっぷりと放出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L96} ; "未夏はそれを嬉しそうに受け止める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #217
+  text          %{L97} ; "舌で精液の全てを舐め取り、飲み干していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  ldstr         "ev39a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #221
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #223
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L98} ; "それを合図に男達の輪姦の宴がはじまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  text          %{L99} ; "未夏の胸に、尻に、秘所に群がる男達。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L100} ; "指が、舌が、少女の全身を蹂躙し、穴という穴へと侵入していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  ldstr         "d0246"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #228
+  text          %{L101} ; "【未夏】「あっ、ふぅ、うっんくぅ、もっと、もっと掘ってぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  text          %{L102} ; "未夏は歓喜の声をあげて、自身の肉体へと侵入する欲望の尖兵を受け入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  text          %{L103} ; "全ての穴は貪欲な意識を具現化して、差し込まれる指を咥え込んでいく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  ldstr         "d0247"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #234
+  text          %{L104} ; "【未夏】「いい、いいいっ、うはぁぁ、いっ、もっとおぉ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #236
+  text          %{L105} ; "懸命に尻を振り、えぐるように動いていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  text          %{L106} ; "秘所から零れ落ちる精液と愛液は尽きることなく、太股を伝って流れ落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L107} ; "やがて快楽は極限まで高まり、新たな絶頂を迎える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #240
+  text          %{L108} ; "未夏は全身を震わせて快感に陶酔した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #242
+  text          %{L109} ; "しかし、それでも男達は許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #244
+  text          %{L110} ; "両手に握られた肉棒は新たな奉仕を求め、膣に差し込まれた肉棒が収縮する膣壁をこすりあげて、子宮を突き上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #246
+  ldstr         "d0248"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #247
+  text          %{L111} ; "【未夏】「ひぃぁぁあっひぃぃぃぃっいっぃっぃぃぁぁあ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  text          %{L112} ; "快楽に次ぐ快楽と、絶頂から迎える絶頂。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #250
+  text          %{L113} ; "未夏の全身は欲望の白い白濁液に染まっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #252
+  text          %{L114} ; "【男Ｄ】「さあ、あんたも入れるといいよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #254
+  text          %{L115} ; "男の言葉に甘えて、俺も精液の滴る膣へと肉棒を差し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  text          %{L116} ; "膣壁を擦ると、簡単に未夏は絶頂を迎える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  ldstr         "d0249"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #258
+  text          %{L117} ; "【未夏】「ふぅくぅ、うっふぅぁぁぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #260
+  text          %{L118} ; "膣壁が収縮して肉棒を締め上げ、肉体が快感に躍動する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  text          %{L119} ; "俺は捻るように力を加えて腰を動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #263
+  ldstr         "d0250"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #264
+  text          %{L120} ; "【未夏】「あっふぇ、ふぅっあっあっあひぃ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #266
+  text          %{L121} ; "絶頂の余韻を与えない容赦の無い突き上げに未夏は絶叫する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #268
+  text          %{L122} ; "それはもはや嫌悪なのか歓喜なのかさえ分からない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #269
+  text          %{L123} ; "尻を握りしめて、俺は徹底的に突き上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L124} ; "そんな姿に、回復した男の１人が未夏の口へと肉棒を向ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #272
+  text          %{L125} ; "俺は……"
+  proc         
+  ctrl          "p"
+  line          #273
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #274
+  argcheck      []
+  alloca        []
+  line          #277
+  text          %{L126} ; "それを無言で見守った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #279
+  ldc.i         700
+  ldstr         "ev39b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #281
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0251"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #282
+  text          %{L127} ; "【未夏】「ふぅごぉ、ふぅむぅぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #284
+  text          %{L128} ; "上の口と下の口を同時に支配され、未夏はくぐもった悲鳴をあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #285
+  text          %{L129} ; "俺達はそれでも容赦なく腰を振った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #287
+  text          %{L130} ; "上下で起こる激しい振動が未夏の肉体を揺さぶる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #288
+  text          %{L131} ; "膣は天井知らずに収縮して肉棒を締め上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #290
+  ldstr         "d0252"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #291
+  text          %{L132} ; "【未夏】「ふっんぐう、ちゅっうるぅっぢゅばぁ、ふんぁぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  text          %{L133} ; "肉欲に支配された未夏はメスの本能だけで快楽を貪っていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #294
+  text          %{L134} ; "絶頂を通り越した快感に酔いしれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #295
+  text          %{L135} ; "そして俺は未夏の子宮に熱いたぎりをぶちまけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #297
+  text          %{L136} ; "愛液と精液の交じり合う官能の坩堝へと注がれる、新たな欲望のエキス。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #298
+  text          %{L137} ; "ドクドクと注ぎこまれる精液の感触。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #300
+  text          %{L138} ; "続いて未夏の口内でもそれは炸裂した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #302
+  ldstr         "ev39d"
+  callp         $3706a555 (1)
+  line          #304
+  ldstr         "d0253"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #305
+  text          %{L139} ; "【未夏】「ふぐぅえっおっぇぇっんぐぅむぅんっぐぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #307
+  text          %{L140} ; "喉に放出された精液を苦しそうに受け止める未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #308
+  text          %{L141} ; "それでも男は許さず、全てを嚥下するように求める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #310
+  text          %{L142} ; "口元から精液が零れ落ちつつも、未夏は懸命にそれを飲みほすのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #312
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #314
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #315
+  argcheck      []
+  alloca        []
+  line          #317
+  text          %{L143} ; "【貴城】「悪いが今は独占させてくれ。こいつをいい声で鳴かせたいんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #319
+  text          %{L144} ; "俺がそう告げると、男は黙って引き下がった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #321
+  ldstr         "d0254"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #322
+  text          %{L145} ; "【未夏】「ひっいっ、あっひいっ、ひぃっぐぅぅぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #324
+  text          %{L146} ; "突き上げる度に未夏は官能的な叫びをあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #325
+  text          %{L147} ; "膣は激しく収縮と痙攣を繰り返した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #326
+  text          %{L148} ; "絶頂を通り越した絶頂に肉体が限界を告げている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #328
+  text          %{L149} ; "それでも俺は容赦しない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #329
+  text          %{L150} ; "胸と尻を掴んでこねるように、捻るように激しく突き入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #331
+  ldstr         "d0255"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #332
+  text          %{L151} ; "【未夏】「ひぐっぅ、しっ、死ぬぅ、こわぇるぅぅぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #334
+  text          %{L152} ; "【貴城】「いいぜ、このまま壊れちまえよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #336
+  ldstr         "d0256"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #337
+  text          %{L153} ; "【未夏】「ひぃぃ、いっひぃ、ひっぐぅぁぁっひぃっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #338
+  text          %{L154} ; "ついに未夏は白目を剥いて身体を大きく仰け反らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #339
+  text          %{L155} ; "膣壁が肉棒をがっちりと固定する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #340
+  text          %{L156} ; "その刺激に触発されて俺は射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #342
+  ldstr         "ev39c"
+  callp         $3706a555 (1)
+  line          #344
+  text          %{L157} ; "子宮に流し込まれる熱い感触に未夏は身体を震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #346
+  ldstr         "d0257"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #347
+  text          %{L158} ; "【未夏】「はぁふぅ、ふぅぁっふぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #349
+  text          %{L159} ; "発射の余韻をたっぷりと楽しんでから俺は肉棒を引き抜いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #350
+  text          %{L160} ; "愛液と精液がどろどろと流れ落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #351
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #352
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #355
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #358
+  argcheck      []
+  alloca        []
+  line          #359
+  callp         $c2a71eff (0)
+  line          #360
+  ldstr         "つかわせない"
+  ldstr         "使わせる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_30f6
+
+ block_30f6:
+  line          #361
+  ldc.i         1
+  bne.case      @block_311c
+
+ block_3106:
+  line          #362
+  callp         $96b963da (0)
+  br            @block_3140
+
+ block_311c:
+  line          #363
+  ldc.i         2
+  bne.case      @block_3140
+
+ block_312c:
+  line          #364
+  callp         $5a136344 (0)
+  line          #365
+
+ block_3140:
+  line          #366
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #368
+  argcheck      []
+  alloca        []
+  line          #369
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #370
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #371
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $c2a71eff (0)
+  line          #372
+  ldstr         "使わせない"
+  ldstr         "使わせる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_31d6
+
+ block_31d6:
+  line          #373
+  ldc.i         1
+  bne.case      @block_31fc
+
+ block_31e6:
+  line          #374
+  callp         $96b963da (0)
+  br            @block_3220
+
+ block_31fc:
+  line          #375
+  ldc.i         2
+  bne.case      @block_3220
+
+ block_320c:
+  line          #376
+  callp         $5a136344 (0)
+  line          #377
+
+ block_3220:
+  line          #378
+  ldc.i         0
+  ret          
+}

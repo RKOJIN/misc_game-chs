@@ -1,0 +1,148 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #20
+  callp         $cbfb6fab (0)
+  line          #21
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #22
+  ldc.i         -114
+  ldstr         "bg10y"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #23
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #25
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "通学のために借りているワンルームマンションへと戻る道。視界に入る町並みは、未夏にとって見慣れた景色ばかりだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L2} ; "【未夏】「（明日ここを通るときには、みんなでおしゃべりできればいいのに……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L3} ; "ふとそう思った未夏は、昨日もそう思いながら歩いていたことを思い出し、そっと溜め息をついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L4} ; "いつもは希更や愛梨と行動を共にしていたのだが、最近は一人でいることが多くなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L5} ; "ここのところ、希更はずっと学校を休んでいる。自宅を訪れ容態を尋ねても、希更の母は言葉を濁すばかりで希更本人とは会わせてくれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L6} ; "もしかして、希更がわたしたちに会いたくないと言っているのかしら――そんな考えすら浮かんでくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L7} ; "一方の愛梨は学校に登校こそしてくるものの、体調が優れないのか、何を話しても上の空だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L8} ; "自分自身も認めるほどの能天気。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L9} ; "超ポジティブ思考と自負してきた自分がこれほどまでの窮地に立たされるとは……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L10} ; "【未夏】｛（もしかして、私、避けられてるのかも。知らず知らずのうちに、友達を傷つけるようなことをしてたのかな。思い出すと自己嫌悪だよぉ）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L11} ; "【未夏】｛（でも、嫌なことがあるなら、はっきりと言ってくれればいいのに。ちゃんと指摘してくれれば、私だって気をつけるのに。それとも、私達って上辺だけの友達だったの？）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L12} ; "思考が加速する。知らず知らずのうちに、未夏の歩幅は大きくなっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  ldc.i         2
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #40
+  text          %{L13} ; "考え事に没頭していた未夏は、向こうから歩いてきた男とぶつかってしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  ldstr         "d0135"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #43
+  text          %{L14} ; "【未夏】「ご、ごめんなさい！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L15} ; "【男】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L16} ; "上の空で歩いている自分の不注意だと思い、反射的に頭を下げて謝る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L17} ; "しかし、未夏は頭を上げて相手の顔を見てぎょっとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L18} ; "男の表情は常軌を逸した憎悪に満ちていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "d0136"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #53
+  text          %{L19} ; "【未夏】「（やだ……なにこの人）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L20} ; "手入れを怠った頭髪と顔を覆う無精髭が男を老けて見せているが、見掛けほど年は取っていないようだ。目許が誰かに似ていると感じたが、それが誰なのか、未夏には思い出すことができなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L21} ; "男はやがてふっと目をそらすと、口の中でぶつぶつと呟きながら、その場をあとにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L22} ; "背を曲げた男の後ろ姿が徐々に小さくなってゆく。男は時折足を止めては振り返り、未夏をねめつけると再び歩き出す。その姿が家屋の影に消え失せるまで、未夏はその場に立ち尽くしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L23} ; "特に怪我をさせたわけでもないのに……どうしてこんなに不運が、不幸が続くのだろうと、未夏は天を仰いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  ldc.i         0
+  ret          
+}

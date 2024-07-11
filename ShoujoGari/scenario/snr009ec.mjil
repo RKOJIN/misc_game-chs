@@ -1,0 +1,892 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #25
+  argcheck      []
+  alloca        []
+  line          #27
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #28
+  ldstr         "bg08"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #29
+  ldstr         "BUP06C"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #30
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #32
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は璃乃を連れて家の裏の雑木林にきていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L2} ; "ここなら道路とも離れているから大声を出しても聞かれないし、他人の目に付く心配も無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L3} ; "【貴城】「さぁ、折角の自然の中に来たからには、着ている物を脱ぎ捨てて自然に還るんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  ldstr         "f0230"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #38
+  text          %{L4} ; "【璃乃】「お兄ちゃん、自然の中ってここ、お兄ちゃんの家の裏だよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L5} ; "傍らに立つ璃乃は、俺の言うことに納得していない様子だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L6} ; "まぁ、こんな戯言を信じるほどバカではないってことか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L7} ; "【貴城】「それとも、璃乃は俺の言うことなんか聞きたくもないのかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  ldstr         "f0231"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #47
+  text          %{L8} ; "【璃乃】「ううん！　あたしそんなつもりじゃ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L9} ; "悲しげにそう言うと、璃乃は大きな反応を見せて否定してくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L10} ; "そして慌てて、といった感じで服を脱ぎ捨てていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "BUP06Gz"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #53
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0232"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #54
+  text          %{L11} ; "【璃乃】「ぬ、脱ぎ終えたよお兄ちゃん。こ、これでいいの……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L12} ; "ほんの数十秒後、俺の目の前には一糸まとわぬ姿になった璃乃が立っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L13} ; "さすがに胸や秘所は手で隠しているが、こんなにあっさり全裸になるとは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L14} ; "今まで酷い目に遭わせてきたのに、璃乃はまだ俺を慕っているのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L15} ; "まったく……………………懲りない奴だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L16} ; "【貴城】「じゃあ璃乃、こっちへ来るんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L17} ; "手頃な大きさの木のそばに璃乃を呼び寄せる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L18} ; "【貴城】「少しじっとしていてくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L19} ; "璃乃の両手を素早く、持参してきたロープで縛りつけていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  ldstr         "BUP06Ez"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #71
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0233"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #72
+  text          %{L20} ; "【璃乃】「つっ、お、お兄ちゃん、何するの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L21} ; "璃乃が驚いたように自分を縛るロープを見つめてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L22} ; "しかし、すでに両手を縛って自由を奪ったため、何も出来ないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #78
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L23} ; "【貴城】「あとはヒザをこうして……っと、出来たぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L24} ; "片足のヒザにロープを通し、吊り上げるように縛っておく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L25} ; "これで璃乃は足を閉じたくても、閉じられないようになった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #84
+  ldstr         "f0234"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #85
+  text          %{L26} ; "【璃乃】「いやっ、やめて……お兄ちゃん、見ないで……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L27} ; "俺の目線が秘所に集中していることに気付き、璃乃は真っ赤になってお願いしてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L28} ; "だが、その表情こそが、俺の嗜虐心を燃え上がらせていることに璃乃は気付くはずが無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L29} ; "【貴城】「見ないでというなら、こういう手もあるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L30} ; "ポケットから取り出した布で、璃乃に目隠しをしてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L31} ; "光を通しにくい厚手の布をさらに幾重にも折り畳んである。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L32} ; "これなら布越しに光を感じることもできないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  ldstr         "f0235"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #98
+  text          %{L33} ; "【璃乃】「お兄ちゃん！　やだやだやだ！　真っ暗だよ！　これ外してよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L34} ; "突然視界を遮られて、璃乃がパニックになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L35} ; "俺はその間にローターを取り出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  ldstr         "ev67a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #104
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #106
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "se0244"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #107
+  text          %{L36} ; "スイッチを入れると、ウィーーンといった機械の作動音が響きだす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L37} ; "【貴城】「ほら、これ何か判るか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L38} ; "璃乃の耳元にローターを近づける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  ldstr         "f0236"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #115
+  text          %{L39} ; "【璃乃】「……？　こ、この音って、もしかして……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L40} ; "駆動音から音の正体が判ったようで、璃乃は顔を赤くしている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L41} ; "【貴城】「そう、璃乃の大好きなローターだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L42} ; "乳首をローターでくすぐってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  ldstr         "f0237"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #124
+  text          %{L43} ; "【璃乃】「ひゃんっ！　あっ、んんっ、だめぇ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L44} ; "【貴城】「こんなに気持ち良さそうに震えておいて、駄目じゃないだろ、イイんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L45} ; "璃乃は、ローターの振動が身体中に伝わっているかのように快感に震えている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  ldstr         "f0238"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #131
+  text          %{L46} ; "【璃乃】「あっ、やぁっ、んぅっ、おっぱい、いじめないでぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L47} ; "乳輪をなぞるようにしながら乳首をこね回していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L48} ; "すると乳房と同様に小さい乳首が、自己主張をはじめて硬く尖りだしてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L49} ; "【貴城】「いじめてなんかないさ。璃乃を可愛がってあげてるんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L50} ; "ローターを乳首から腹へゆっくりと滑らせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  ldstr         "f0239"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #141
+  text          %{L51} ; "【璃乃】「あんっ、やあぁぁっ、あっ、んんっ！　くぅっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L52} ; "ヘソにローターを擦り付けると璃乃は大仰に反応し、身をよじろうとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L53} ; "しかしヒザを固定されていて、思うように身体を動かせないでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L54} ; "さらにローターを下げていき、うっすらとした茂みを越えて秘所へ到達させる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L55} ; "すると、そこはもう愛液でビショビショに濡れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L56} ; "【貴城】「なんだ、もう濡れてるのか、それとも璃乃はまたお漏らししちゃったのかな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  ldstr         "f0240"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #152
+  text          %{L57} ; "【璃乃】「ち、ちがうもん。あたしお漏らしなんかしてないよぉっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L58} ; "いやいやとかぶりを振る璃乃を見るうちに、俺の中で良い考えが天啓の如く閃いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L59} ; "【貴城】「あぁ、璃乃、気をつけてね。足元に蛇がいるから」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  ldc.i         700
+  ldstr         "ev67b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #159
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #161
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0241"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #162
+  text          %{L60} ; "【璃乃】「へ、へび！？　いやぁっ！　お兄ちゃんどこかへやってよぉっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L61} ; "よほど蛇が怖いのか、璃乃は脅えた表情でジタバタと動き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L62} ; "【貴城】「蛇は穴に入っていく習性があるからね。気を付けないと入られちゃうよ……こんな風にね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L63} ; "ずぶりとローターを璃乃の膣内に潜りこませる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  ldstr         "f0242"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #171
+  text          %{L64} ; "【璃乃】「やあぁぁっ！？　んんっ、これ、ろーたー？　あうっ、やんっ、はあっ、抜いてよぉっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L65} ; "璃乃は蛇だと思って泣きそうになったものの、すぐにローターと気がつき、その振動に感じているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L66} ; "【貴城】「驚いた？　でも蛇がいるのは本当だよ……ほら、璃乃の足を登ろうとしてるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L67} ; "身をかがめて璃乃のふくらはぎに指をあてると、ゆっくりと上に向かって這わせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  ldstr         "f0243"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #180
+  text          %{L68} ; "【璃乃】「ひぃっ！　た、たすけてっ！　やあっ！　いやだよぉっ！　んあぁぁぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L69} ; "指が這い上がる感触を本当に蛇だと思ったのか、璃乃は泣きそうになっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  ldstr         "f0244"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #185
+  text          %{L70} ; "【璃乃】「ひっ、やぁ、くぅっ、た、助けてぇ……お兄ちゃん助けてよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L71} ; "恐怖で身体を強張らせてしまい、余計にローターを締め付けているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L72} ; "璃乃はおびえながらも、明らかに感じてしまっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  ldstr         "f0245"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #191
+  text          %{L73} ; "【璃乃】「お兄ちゃん……？　んんっ、ねぇ、お兄ちゃん、返事してよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L74} ; "不安げに問いかけてくる璃乃には答えず、指を動かしていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L75} ; "指はもうヒザを越え、太股を進ませていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  ldstr         "f0246"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #197
+  text          %{L76} ; "【璃乃】「やぁっ、お兄ちゃん居ないの？　ひっくひっく……もうやだぁ……怖いよ、助けてお兄ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L77} ; "俺に置き去りにされたと思ったのか、璃乃はとうとう泣き出してしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L78} ; "その間にも俺の指は秘所に辿り着いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  ldstr         "f0247"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #203
+  text          %{L79} ; "【璃乃】「いやぁ……んぅっ、あぁっ、やだっ、だめ、入っちゃやだよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L80} ; "ここからどうしようかと考えながら、焦らすように秘所を撫でていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L81} ; "いい加減指だと気付いても良さそうなものだが、恐怖に震える璃乃に冷静な判断はできないのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L82} ; "ぷっくりと充血したクリトリスに狙いを定める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  text          %{L83} ; "まるで噛み付くように爪を立てて抓ってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  ldc.i         700
+  ldstr         "ev67c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #212
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #214
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0248"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #215
+  text          %{L84} ; "【璃乃】「ひぎいいぃぃぃぃぃぃっ！　あっ、あっ、ああああぁぁぁぁぁぁああぁあぁぁぁぁっっっ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L85} ; "璃乃の口から耳をつんざくような悲鳴が上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #217
+  text          %{L86} ; "敏感なクリトリスを抓られた刺激が、限界に達した恐怖とともに璃乃を絶頂へ追いやったようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #219
+  ldstr         "f0249"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #220
+  text          %{L87} ; "【璃乃】「あ……ああ……で、出ちゃう……よぉ……だめぇ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L88} ; "クリトリスを抓ったままの手に熱い液体がかかる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  text          %{L89} ; "最初璃乃が潮でも吹いたのかと思ったが、潮吹きではない証拠にアンモニア臭が漂ってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L90} ; "【貴城】「やれやれ、璃乃はまたお漏らしか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  text          %{L91} ; "黄金色をした噴水が璃乃の股間から流れ出していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #230
+  ldstr         "f0250"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #231
+  text          %{L92} ; "【璃乃】「……ぁぁ……み、見ちゃいやぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  text          %{L93} ; "絶頂の余韻と放尿とで頭が回っていないのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #234
+  text          %{L94} ; "蛇のことも俺がいなかったことも気にせず、俺に見られているということだけが気になるらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #236
+  text          %{L95} ; "縛られたままおしっこを漏らし続ける璃乃の姿に、俺の復讐心は満たされていくのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #238
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #239
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #240
+  argcheck      []
+  alloca        []
+  line          #243
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #244
+  ldstr         "bg08"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #245
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #247
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L96} ; "すっかり放尿を終え、脱力している璃乃から目隠しを外す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #248
+  text          %{L97} ; "璃乃の目はうつろで、焦点を結ぶことなく宙を彷徨っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #250
+  text          %{L98} ; "【貴城】「璃乃……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #252
+  text          %{L99} ; "声を掛けてみるが返事は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #253
+  text          %{L100} ; "璃乃を木に縛りつけていたロープを解くが、璃乃はそのまま崩れ落ちるように根元に座り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  text          %{L101} ; "まさか……死んでる……？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  text          %{L102} ; "夕実と同じような目に遭って死んでしまえばいいと思っていたが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #258
+  text          %{L103} ; "いざこうして目の前で死なれると焦ってしまうのは何故だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #260
+  text          %{L104} ; "【貴城】「おい、璃乃！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #263
+  ldstr         "se0203"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #264
+  text          %{L105} ; "２，３回軽く頬を張ってから、口元に耳を近づける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #265
+  text          %{L106} ; "呼吸音が聞こえてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #267
+  ldstr         "f0251"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #268
+  text          %{L107} ; "【璃乃】「……ん……ぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #270
+  text          %{L108} ; "もう一度頬を張ると、かすかにだが璃乃が反応を見せた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #272
+  text          %{L109} ; "間違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #273
+  text          %{L110} ; "璃乃は生きている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #275
+  text          %{L111} ; "そのことにほっと安堵する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #276
+  text          %{L112} ; "だが、心のどこかでは同時に残念がる自分がいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #278
+  text          %{L113} ; "俺は璃乃に生きていて欲しいのか……それとも殺したいのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #280
+  text          %{L114} ; "自分で自分が判らなくなる感覚。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  text          %{L115} ; "自分自身が揺らいでいるのに、俺は夕実の復讐を遂げられるのだろうか……？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #283
+  ldstr         "BUP06Fz"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #284
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0252"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #285
+  text          %{L116} ; "【璃乃】「……ぉ、おにいちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #287
+  text          %{L117} ; "璃乃の声に思考が現実に引き戻される。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #288
+  text          %{L118} ; "何か言いたいのかと思って璃乃の顔を見るが、そうではないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #290
+  ldstr         "f0253"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #291
+  text          %{L119} ; "【璃乃】「ほら、あたし、こんなにじょうずにできるよ……だから、やさしくして……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  text          %{L120} ; "まるで言葉を覚えたての子供のようにたどたどしく話す璃乃。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #294
+  text          %{L121} ; "だが、話しているのは意味の判らない内容だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #296
+  text          %{L122} ; "【貴城】「くくくっ、遂に狂ったか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #298
+  text          %{L123} ; "俺の心がドス黒い歓喜に満たされ、雄叫びを上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #300
+  text          %{L124} ; "そうだ、俺は夕実を陥れたやつらを皆こうして壊してやりたいんだ……！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #301
+  text          %{L125} ; "俺から夕実を奪った報いをやつらにも思い知らせてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #303
+  text          %{L126} ; "だが、昏い悦びに震える一方で、俺の心はどうしようもない苛立ちに駆り立てられてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #305
+  text          %{L127} ; "『いい加減に現実を認めろよ。夕実はもういないんだ……だから俺もあの頃のままじゃいられないんだ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #307
+  text          %{L128} ; "かつて、璃乃に言い放った言葉が、俺の中で響きわたる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #309
+  text          %{L129} ; "理由は判らないが、俺の胸中に悲しみが波紋の如く広がっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  text          %{L130} ; "あぁそうか――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #313
+  text          %{L131} ; "その時、俺に電流が走ったかのように、唐突に悟る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #315
+  text          %{L132} ; "俺がそんなことを口にすること、それ自体が滑稽だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #316
+  text          %{L133} ; "俺にそれを言う資格なんて無かったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #318
+  text          %{L134} ; "そのことに俺は……心のどこかでとっくに気付いていたのかもしれない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #319
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #320
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #322
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #324
+  argcheck      []
+  alloca        []
+  line          #325
+  text          %{L135} ; "調教度"
+  proc         
+  ctrl          "p"
+  line          #326
+  ldstr         "たりない"
+  ldstr         "足りてる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_2fa9
+
+ block_2fa9:
+  line          #327
+  ldc.i         1
+  bne.case      @block_2fcf
+
+ block_2fb9:
+  line          #328
+  callp         $c2a71eff (0)
+  br            @block_3003
+
+ block_2fcf:
+  line          #329
+  ldc.i         2
+  bne.case      @block_3003
+
+ block_2fdf:
+  line          #330
+  callp         $c2a71eff (0)
+  line          #331
+  callp         $4c28191c (0)
+  line          #332
+
+ block_3003:
+  line          #333
+  ldc.i         0
+  ret          
+}

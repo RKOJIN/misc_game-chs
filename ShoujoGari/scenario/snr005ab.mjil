@@ -1,0 +1,556 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #24
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #25
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #26
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #28
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "トイレで存分に犯した後、俺は半裸の姿のままの希更を児童遊具施設がある場所まで無理やり連れていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L2} ; "希更を犯した公衆トイレからは少し距離があり、しかも犯したままの姿とあっては当然抵抗すると思ったが、意外にも黙って俺に引きずられてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L3} ; "もっとも、そんな気も失せるほど、何度も犯してやった後だったし、犯す時に後ろ手に拘束した手錠もそのままだったが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L4} ; "しかし、手錠を片方だけ外し、ジャングルジムに繋いでやったとたん、自分が置かれようとしてる立場に気づいたのか、希更は俺をにらみつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  ldstr         "c0426"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #37
+  text          %{L5} ; "【希更】「どっ、どういうつもりよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L6} ; "【貴城】「ジャングルジムにお前を拘束してる以外の何に見えるんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L7} ; "とぼけたように言いながら、俺は念のために持ってきておいたもう一つの手錠で自由になっているもう片方の手も繋ぐ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  ldstr         "c0427"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #44
+  text          %{L8} ; "【希更】「ふざっ！　ふざけないでよ。ここ、不良の溜まり場なのよ。こんな所にこんな格好で放置されたら……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L9} ; "【貴城】「お前の大好物がいっぱい食えるぞ。俺のだけじゃ物足りなかったろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "c0428"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L10} ; "【希更】「だっ、大好物って……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L11} ; "【貴城】「ち○ぽ、大好きだろ？　よかったなぁ、腹いっぱい食わせてもらえて」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L12} ; "嘲るように言いながらズボンの後ろポケットから大き目のハンカチを取り出すと、今度は足を拘束するために左足を抱えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  ldstr         "ev06a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #56
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #59
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0429"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #60
+  text          %{L13} ; "【希更】「イヤッ！　やだ……馬鹿じゃないの？！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L14} ; "俺がしようとしていることに気づいてか、抱えた足で蹴りそうな勢いで希更は暴れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L15} ; "しかし俺は慌てずに力づくで押さえつけ、適当な段に希更の足をハンカチでくくりつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L16} ; "事前にたっぷりと中に注ぎ込んでやっておいたものだから、俺の精液と希更の愛液が混ざったものが希更の内部から零れ落ち、太ももを伝い、街灯の光に光っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L17} ; "そんな恥ずかしい、本来なら隠されるべき所が丸見えになるような形で拘束されているために、希更の体は紅く上気していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L18} ; "まだ俺との情事の余韻が残っているのか。それとも恐怖にこわばっているのか、はだけたままのブラウスから垣間見える乳首がピンと立っているのもそそる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L19} ; "【貴城】「いい格好じゃないか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  ldstr         "c0430"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #75
+  text          %{L20} ; "【希更】「どこがいい格好なのよ！　解いて……解いてよ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L21} ; "【貴城】「そう大声を出さないほうが……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L22} ; "俺が忠告を口にしようとした時、遠くから数人のしゃべり声が聞こえてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L23} ; "【貴城】「ほら、お客さんが来たみたいだぜ。俺は終わるまでずっと見させてもらってるからさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  ldstr         "c0431"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #84
+  text          %{L24} ; "【希更】「こっ、この変態！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L25} ; "【不良　１】「今の……女の声じゃねぇの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L26} ; "【不良　２】「どっかのバカップルのケンカかぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L27} ; "たまらず希更が叫んだ時、今度ははっきりと声が聞こえる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L28} ; "希更の声におびき寄せられるように、こちらに向かってきているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L29} ; "【貴城】「たっぷり楽しめよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L30} ; "俺は嘲りの笑いと共に、ジャングルジムの様子がよく見える位置の植え込みの中に身を隠した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L31} ; "それとほぼ同時だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L32} ; "５人程のいかにも頭が悪そうな不良どもが現れ、ジャングルジムに拘束された希更の姿を発見したのは。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L33} ; "【不良　３】「ちょっ！　あれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L34} ; "【不良　１】「うわっ、これマジかよ？！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L35} ; "【不良　４】「ＡＶ？　って、カメラねえよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L36} ; "【不良　５】「スッゲー丸見えだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  ldstr         "c0432"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #110
+  text          %{L37} ; "【希更】「くぅううう……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L38} ; "不良どもの影に隠れてはっきりとはわからなかったが、希更は悔しげにうつむくばかりで男たちの誰とも視線を合わそうとしない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  text          %{L39} ; "いつもの状態であったのならば、気の強い希更のことだ。不良に囲まれたとしても、口だけで撃退するくらいのことはやってのけるだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L40} ; "しかし、半裸の状態で拘束され体の自由を奪われたうえ、たった今俺に犯されていましたという証の精液が足を伝っていては何も言い返すことなどできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L41} ; "【不良　３】「おい。この制服って、北斗学園だろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L42} ; "【不良　１】「なんでこんなとこにつながれてんの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L43} ; "【不良　２】「そんなの、俺に判るかよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L44} ; "【不良　４】「あぁ！　もう俺、ガマンできねぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L45} ; "はじめて見る状態に引き気味であった不良どもだったが、中でもお調子者っぽい奴が恐る恐る希更の乳首に触れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  ldstr         "c0433"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #129
+  text          %{L46} ; "【希更】「うぅっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L47} ; "【不良　３】「ちょっ、ちょっと、やめとけよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L48} ; "【不良　１】「ヤバくねぇ？　こんなトコに繋がれてる女だぜ。もしヤクザの女だったらどうすんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L49} ; "【不良　３】「そうだよ。シャレになんねぇぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L50} ; "【不良　４】「大丈夫だよ。それより、スッゲーやーらけぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L51} ; "一度希更の乳首に触れたことでたがが外れたのか、不良は大胆に希更の胸を揉み始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L52} ; "【不良　４】「ヤバくねえよ。自分の女が他の男にやられてるところが見たくて、こういう風に放置してるんだって」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L53} ; "【不良　５】「そ、そうだよな。もし違ってたら、胸触った時点で来るよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L54} ; "【不良　４】「ＳＭでそういうプレイがあるんだって。本でも読んだし、ＡＶでもあったぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L55} ; "【不良　２】「さすが、エロキング！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L56} ; "その言葉がまるで合図であったかのように、一人を除いて及び腰だった不良どもの雰囲気が変わった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  ldstr         "c0434"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #152
+  text          %{L57} ; "【希更】「いやっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L58} ; "希更が初めて悲鳴をあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L59} ; "しかしそれは燃え盛る火に油を注ぐようなものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  ldc.i         700
+  ldstr         "ev06b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #159
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #162
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L60} ; "【不良　１】「スゲー、ぐっしょりだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  ldstr         "c0435"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #165
+  text          %{L61} ; "【希更】「馬鹿じゃないの？　やめ……やめなさいよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L62} ; "太股に触れてくる不良の手から逃れようと、希更は足を閉じようとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L63} ; "だが、いくらハンカチで拘束したといっても、希更が多少暴れたくらいで解けるような結び方はしてない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L64} ; "もう一人の不良が大胆にも希更の秘所に指を差し入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L65} ; "【不良　２】「やめなさいよ、だって？　こんなぐっしょりさせておいて、そりゃあねぇよなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L66} ; "【不良　３】「あぁ、乳首だってビンビンだぜ。もっと触ってくれってよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  ldstr         "c0436"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #178
+  text          %{L67} ; "【希更】「嫌だって言ってるでしょ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L68} ; "【不良　５】「中からどんどん汁が出てくるぜ。スゲー淫乱ま○こだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L69} ; "【不良　４】「自分ひとりで満足させられねぇから、ご自由にお使いくださいってトコじゃねぇの」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  ldstr         "c0437"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #185
+  text          %{L70} ; "【希更】「やだ……はうぅううっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L71} ; "太ももを伝う希更の愛液を潤滑油にして、不良の一人の指が希更のアナルにまで入り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L72} ; "両胸、膣、アナルの同時攻撃は希更にとっては初めてのことだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L73} ; "その口から初めて嬌声めいたものが発せられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L74} ; "【不良　１】「悦んでるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L75} ; "【不良　４】「だから淫乱ま○こなんだって。クリトリスだってこんなにデカクなって……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  ldstr         "c0438"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #198
+  text          %{L76} ; "【希更】「ひやぁああんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L77} ; "【不良　４】「気持ちいいってさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L78} ; "【不良　２】「おっ、おい。コイツばっか悦ばせてないでさ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L79} ; "【不良　３】「兄弟になるかぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L80} ; "【不良　５】「スケベま○こでなるってぇのも、オツだよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  ldstr         "c0439"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #209
+  text          %{L81} ; "【希更】「ふざ、ふざけないでよ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L82} ; "【不良　３】「こんなによだれ垂らして言ってちゃ、説得力ねぇよなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L83} ; "ゲラゲラと笑いあう不良たち。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #214
+  text          %{L84} ; "片手で希更を苛むことをやめようともせずに、開いた片手でじゃんけんを始める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L85} ; "誰が一番か、を決めるものだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L86} ; "【不良　５】「じゃ、一番、イカせていただきます！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L87} ; "【不良　２】「なんだよ、俺が一番最後かよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #222
+  text          %{L88} ; "【不良　１】「後がつかえてるんだから、さっさとしろよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  ldstr         "c0441"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #226
+  text          %{L89} ; "【希更】「いや……やめてよ。こんなの、イヤァアアア！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  text          %{L90} ; "断末魔の悲鳴のように叫ぶ希更の声は、もはや誰の耳にも入らない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #230
+  text          %{L91} ; "不良たちによる陵辱は、希更が気を失い、いつしか足を拘束していたハンカチが地に落ちても終わることはなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #232
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #233
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #235
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #237
+  argcheck      []
+  alloca        []
+  line          #238
+  callp         $$main@GLOBAL (0) ; $main@GLOBAL
+  line          #239
+  ldc.i         0
+  ret          
+}

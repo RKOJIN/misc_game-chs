@@ -1,0 +1,247 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #25
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #26
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #27
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #30
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は未夏を呼び出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L2} ; "写真の痴態を認めさせて、互いの立場を再確認させるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L3} ; "その事実を認めさせることで、未夏の心に巣食う闇はより一層強く毒を放つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L4} ; "この儀式は俺の復讐計画には絶対に欠かせないものだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L5} ; "未夏の身も心も闇の記憶が放つ毒で染め上げてやる！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #39
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L6} ; "予定時刻より少し早く、俺の到着と同時に未夏は現れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L7} ; "だが予想とは裏腹に、今回もまた未夏の態度は平静そのものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L8} ; "こんなはずは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L9} ; "支配する側であるはずの俺の心に動揺が走る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L10} ; "それをこらえて、俺は注意深く相手の態度を観察した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "しかし、未夏は俺の顔を見ても、全く動じる気配は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L12} ; "退屈な用事に付き合わされて迷惑している、といわんばかりの態度だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "d0241"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L13} ; "【未夏】「私も暇じゃないし。用件があるなら早く済ませてくれる？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L14} ; "上等だ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L15} ; "そっちがそう来るなら……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L16} ; "俺は無言のまま、単刀直入に撮影した画像を突きつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L17} ; "未夏はそれをちらりと見て、大きなため息をつく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         "d0242"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #58
+  text          %{L18} ; "【未夏】「よくある悪戯ね。最近の合成はホントよく出来てるわ。ねぇ、それだけ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L19} ; "馬鹿な……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L20} ; "ありえない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L21} ; "こんな……こんなことがあってたまるか！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L22} ; "ブラフだ！　ハッタリだ！　イカサマだ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L23} ; "こいつはあえて動揺を隠して平静を装い、俺を欺いているんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L24} ; "【貴城】「よく見るんだ！　こいつは正真正銘おまえ自身だ。チープな悪戯とは違う！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #70
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0243"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #71
+  text          %{L25} ; "【未夏】「ホンット、くっだらないよね。それで私を脅迫しているつもり？　ちょっと古いんじゃない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L26} ; "俺は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L27} ; "俺は夢を見ているのだろうか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L28} ; "夕実を失った悲しみから夢を？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L29} ; "復讐したいと願う心が都合の良い幻想を作り出しているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #81
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0244"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #82
+  text          %{L30} ; "【未夏】「ぶっちゃけ、そういう悪い夢とか見ることあるけど、夢のことなんていちいち覚えてないしぃ。どうでもいいんだよね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L31} ; "困惑する俺に追い討ちを掛けるような未夏の言葉。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L32} ; "いったい何が現実なのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L33} ; "夕実を失ったショックで俺は夢を見ているのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L34} ; "理性を失い、判断力を失い、そして……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L35} ; "俺は狂ってしまったのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  ldstr         "d0245"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #91
+  text          %{L36} ; "【未夏】「まぁ、折角作ってくれて悪いんだけどー。今度はもう少し工夫して、趣味のいいのにしてね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L37} ; "呆然と立ち尽くす俺を尻目に、未夏はそう告げるとその場から去ろうとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L38} ; "どうする？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L39} ; "このままでは……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #97
+  text          %{L40} ; "このままでは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  ldc.i         0
+  ret          
+}

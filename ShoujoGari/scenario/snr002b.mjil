@@ -1,0 +1,324 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #30
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #31
+  ldstr         "bg05y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #32
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #35
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "夕実の遺品……システム手帳。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L2} ; "俺はそれを食い入るように見つめていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L3} ; "大野愛梨の住所・氏名・携帯番号・携帯メールアドレス。その全ては既に俺の頭の中に叩き込まれている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L4} ; "校門前でみかけた愛梨はいかにもお嬢様といった風体だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L5} ; "優しげでおっとりとした雰囲気、それでいて大きくグラマラスな胸が目を引く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #43
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L6} ; "目的の愛梨を視界にとらえ、俺はそっと後をつけはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  ldstr         "bg10y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #46
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #47
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #49
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L7} ; "夕実を死に追いやった憎い女、大野愛梨に対する尾行を開始してから、かれこれ一週間が過ぎようとしている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L8} ; "愛梨は電車を使って通学していたので、毎日尾行を続けた俺は予想外の出費を余儀なくされた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L9} ; "しかし、その甲斐もあって、ある事実が判明した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L10} ; "巧く利用すれば、あの憎いメス豚を地獄に叩き落すことができるようなお嬢様のトップシークレットを、俺は掴むことができたのだ。数千円の出費など、安いものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  ldstr         "bg20y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #55
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #57
+  ldstr         "bg21y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #58
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #60
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L11} ; "駅に着いた愛梨は、ホームのベンチに腰を下ろしてカバンの中から取り出した文庫本を読んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L12} ; "列車が到着しても立ち上がろうとはせず、周囲の様子を気にする素振りも見せない。待ち人が居るわけでもなさそうだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L13} ; "一体、何本の電車を見送ったことだろう。最初は『キリの良いところまで読み進めるまで、動かないつもりなのだろう』と思い、納得していた俺だったが、時が経つにつれ不審感が芽生え始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L14} ; "このまま読書を続ければ、ラッシュアワーに巻き込まれて窮屈な思いをすることになりかねない。何故、不快な場所に身を置くことを厭わずに読書を続けるのか、俺には解せなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L15} ; "結局、愛梨が立ち上がったのは、帰宅ラッシュのさなかになってからだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L16} ; "列車がホームに到着し、愛梨の姿が人ごみに紛れる。慌てて後を追うが、行き交う人々がまるで動く壁のようで、幾度も目標を見失いかけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L17} ; "俺の尾行に気付いて撒こうとしたのか――そんな考えが頭を過ぎり、否応なしに焦燥感が呼び起こされる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L18} ; "幸い、愛梨の乗車位置は扉のすぐそばだったため、さほど離れずに済んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L19} ; "車内はすし詰め状態で、思うように身動きは取れなかったが、ターゲットを視野に収める位置を確保することができたので文句はなかった。むしろ、首尾は上々だと言っていいだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L20} ; "そしてその後すぐに、俺は予想以上の収穫を得ることことができた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #72
+  ldstr         "ev15a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #73
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #75
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L21} ; "……最初に耳についたのは、荒い息遣いだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L22} ; "確かに電車は揺れるし、車内は混雑している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L23} ; "しかし、暑さや疲労が原因で呼吸を荒げているなどとは思えなかった。体調の悪い人がいるのかとも思ったが、どうやらそういうわけでもなさそうだとすぐに気付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L24} ; "何故なら、卑猥な匂いが漂ってきたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L25} ; "荒い息遣いには、時折、押し殺した悲鳴のような声が混じるようになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L26} ; "痴漢なのか、それを模したプレイなのかは分からない。ただ、この満員電車の中で……しかも俺のすぐ近くで、Ｈな気分になっている女が居ることは明らかだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L27} ; "そして、俺の視界の隅に見える愛梨の頭は、さっきからひどく落ち着きがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L28} ; "うつむいていたかと思えば突然上を向いてみたり、背伸びをしてみたり、体をゆすってみたり、まるで『今、痴漢に触られて私は感じています』と言わんばかりなのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L29} ; "扉のそばに立っている愛梨は三方を男に囲まれており、彼らの体は皆愛梨の方を向いている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L30} ; "もし彼らが痴漢だとしたら、壁際に追い込まれた格好になっている愛梨には逃げることも助けを求めることもできないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L31} ; "もっとも、本当に助けが現れたとしても、愛梨が本心から感謝するなどとはとても思えなかったのだが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L32} ; "愛梨の額には汗がにじみ、柔らかそうな前髪は肌にはり付いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L33} ; "宙を彷徨う瞳は潤み、ぷるんとした唇は半開きになっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L34} ; "車内には、息遣いだけではなく小さな水の音が響き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L35} ; "愛梨の頭の動きが激しくなり、荒れた息遣いには押し殺した喘ぎが混じり始める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L36} ; "クチュ、クチュ、クチュ、クチュ、クチュ、クチュ……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L37} ; "背後から自分を責めている男の胸に、愛梨が頭を預けた。感じすぎて腰が立たなくなったに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L38} ; "……それにしても、満員電車の中で何十人もの人間にいやらしいマ○コの匂いをかがせるわ、マン汁の音を聞かせるわ、大野愛梨は予想をはるかに上回る変態のメス豚だったようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L39} ; "このまま車内で周囲の男たちに穴という穴を犯され、ザーメンまみれにされたとしても、腰を振って喜ぶに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  ldc.i         700
+  ldstr         "ev15b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #98
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L40} ; "押し殺した喘ぎと共に、愛梨の身体がびくびくと痙攣した。どうやらイッたらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L41} ; "愛梨は男に背をもたせかけたまま、恥ずかしそうにうつむいている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L42} ; "満員電車の中で人目をはばからずに腰を振り、いやらしい顔をし、マン汁を溢れさせ、声を出してイッたことを恥じているのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L43} ; "匂い、音、表情、声……周囲にバレる要素は全て揃っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L44} ; "今更恥ずかしそうなツラをしてみたところで、周囲の人間に蔑まれ、或いは妄想の中で臭いチ○ポを突っ込まれてザーメンまみれにされていることに変わりはないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L45} ; "そんなことを考えながら、俺はあることに思い至った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L46} ; "もしかすると、愛梨はこうして痴漢されるためにわざわざ満員電車に乗ったのではないだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L47} ; "俺の中の慎重かつ冷静な部分は、『そんな官能小説のような話があるものか』と否定していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L48} ; "しかし、大野愛梨が不特定多数の男に痴漢行為を働かれ、満員電車の中で人目もはばからずにイッたという事実には変わりない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L49} ; "そして俺には、愛梨がみずから進んで痴漢行為を受け入れていたように見えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L50} ; "いくら愛梨が人の姿をした豚だからといって、見ず知らずの男の犯罪行為に対して警戒心を抱かずに受け入れるというのは不自然な話だ。そうとも、豚にも警戒心はあるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L51} ; "となると、やはりわざと痴漢の出没する時間帯を狙っていたのか、それとも、性犯罪行為を喜んで受け入れざるを得ない重大な精神疾患を抱えているのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L52} ; "どちらにせよ、校門前で見かけた時のお嬢様的女子校生の印象とはまったく異なる顔を愛梨が持っていることには変わりはなさそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L53} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #118
+  ldc.i         0
+  ret          
+}

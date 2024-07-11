@@ -1,0 +1,274 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #20
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #21
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #22
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #24
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は二度目の屈辱を愛梨に与える為に彼女を呼び出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L2} ; "痴漢で感じる淫乱女だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L3} ; "徹底的に貶めてやらなければ、半年と経たずに恥辱の記憶は色あせてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L4} ; "大切な夕実を愚弄した償いは簡単には終らない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L5} ; "残りの人生を死よりも辛いと感じられる物にしてやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L6} ; "幸い手元には痴漢電車のデジカメ画像と前回の陵辱画像。２枚のカードが揃っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L7} ; "こいつを使えば愛梨は俺の思うがまま、奴隷と同じだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L8} ; "予想通り、愛梨は電話の呼び出しに簡単に応じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L9} ; "指定したのはあの広い公園。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L10} ; "滑り台と砂場と……といった月並みなお子様向けの公園ではない。並木通りに広場に噴水に公衆トイレに児童館と多種多様の施設が揃っている広大な敷地の公園だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L11} ; "朝や夕方には学生達の通学路にもなっているし、昼下がりともなればカップルや家族連れで賑わう、"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L12} ; "街の憩いの空間だが、深夜となれば人影はほとんど無くなり、少女の悲鳴も誰にも届かない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L13} ; "俺の計画には絶好のロケーションだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L14} ; "指定時刻を時計の針が回る頃、暗い公園の敷地にうっすらと少女の姿が浮かび上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #48
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L15} ; "沈んだ面持ちで力なく歩く愛梨だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L16} ; "【貴城】「よく来てくれたな。うれしいぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "a0244"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #53
+  text          %{L17} ; "【愛梨】「こんな時間に……一体なんの御用ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L18} ; "【貴城】「だいたいは察しがついてるだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         "a0245"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #59
+  text          %{L19} ; "【愛梨】「いえ……私にはなんのことかさっぱり見当が」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L20} ; "【貴城】「白々しいやつだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L21} ; "俺は得意げな笑みを浮かべてそう言うと、証拠画像を取り出して愛梨の眼前に突きつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L22} ; "一目それを視界にいれるやいなや、弾かれたように目を逸らす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L23} ; "自分の恥辱画像を目の前にして、愛梨の顔に羞恥の紅がさす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L24} ; "本人にとっては忘れたい、消し去りたい記憶であり、事実であろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L25} ; "だが、風化させることは俺が許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L26} ; "【貴城】「淫乱女のイカレた性癖についてじっくりと話し合いたいと思ってさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  ldstr         "a0246"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #74
+  text          %{L27} ; "【愛梨】「そ、そんな……私は……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L28} ; "【貴城】「そんな女ではありません……ってか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  ldstr         "BUP03Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #79
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0247"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #80
+  text          %{L29} ; "【愛梨】「誤解……そう、全ては誤解なんです！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L30} ; "羞恥に頬を染めつつ、懸命に否定する愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L31} ; "そんな彼女を俺は怒鳴りつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L32} ; "【貴城】「誤解じゃねぇだろ！　この画像をよく見てみろ！！　お前は触わられて、犯されてよがってんだよ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  ldstr         "a0248"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #88
+  text          %{L33} ; "【愛梨】「違う！　違います！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L34} ; "【貴城】「快感に酔ってる顔をしてるくせして、誤魔化せると思ってるのか？　それとももう一度ここでその身体で証明するか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  ldstr         "a0249"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #93
+  text          %{L35} ; "【愛梨】「と、とにかく……議論するつもりはありませんが、私はそういう女じゃないんです」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  ldstr         "a0250"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #96
+  text          %{L36} ; "【愛梨】「もしそういうのをお望みなら、お仕事でなさっている方にご自宅までお越しいただければよろしいのに……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldstr         "a0251"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #101
+  text          %{L37} ; "【愛梨】「お仕事でなさっている方のほうが、私などよりもずっとお上手なのではないのかしら」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L38} ; "【貴城】「お前、俺に風俗で遊べと言ってるのか？　欲求不満の寂しい男だと思ってるのか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  ldstr         "a0252"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #108
+  text          %{L39} ; "【愛梨】「あっ、いえ、そういうわけではないんですが……ただ、私みたいな素人なんかで……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L40} ; "つくづくふざけた女だ。この期に及んでまだ俺にこんな口を利くとは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L41} ; "自分の立場が理解出来ていないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L42} ; "それとも俺をおちょくっているのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L43} ; "どちらにしてもわからせてやらなければいけないな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L44} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #125
+  ldc.i         0
+  ret          
+}

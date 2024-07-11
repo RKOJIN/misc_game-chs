@@ -1,0 +1,314 @@
+readmark enable
+
+func $18366439() {
+ entry:
+  line          #22
+  argcheck      []
+  alloca        []
+  line          #24
+  text          %{L1} ; "相葉希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L2} ; "そう、最初のターゲットとしてふさわしいのはこいつしかいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #28
+  argcheck      []
+  alloca        []
+  line          #30
+  text          %{L3} ; "相葉希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L4} ; "こいつだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #35
+  argcheck      []
+  alloca        []
+  line          #37
+  text          %{L5} ; "俺はまるで儀式のように夕実のシステム手帳を見つめ、最後のターゲットである相葉希更の写真シールに笑いかけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L6} ; "貴城「ふふふ……待たせたな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L7} ; "周りの奴らが次々に陵辱されていく中、自分一人が残された気分はどうだ？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L8} ; "おまえは仲間たちと面白半分にやっただけ、と言うかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L9} ; "だが、お前のひどい仕打ちが夕実を死に追いやったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L10} ; "今更、悔いてももう遅い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "おまえにできるのは罰を受けることだけだ。夕実の兄である俺の手によって。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #49
+  argcheck      []
+  alloca        []
+  line          #53
+  ldstr         "c0012b"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #54
+  text          %{L12} ; "【希更】「頭がおかしいとしか思えないじゃない。というか、100パー頭がおかしいこと、確定よね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         "c0021"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #58
+  text          %{L13} ; "【希更】「男なら見境なしに誘ってるもんねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L14} ; "俺のかわいい夕実への許すまじきあの暴言を思い返すたびに、はらわたが煮え繰り返ってくるような思いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L15} ; "夕実が残してくれた希更のパーソナルデータが、俺へ復讐しろと囁く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L16} ; "そう、夕実は……かわいそうな夕実は俺に復讐して欲しいんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L17} ; "そうでなければ、携帯に登録するだけでいい携帯番号や携帯のメールアドレスまで、几帳面にアドレス張に書いているはずもなく、また俺に残して逝くはずもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L18} ; "相葉希更……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L19} ; "下校途中で見かけたあいつは、ひどく気の強そうな顔をしていたが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L20} ; "陵辱されたとき、その顔はどんな風に歪むのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L21} ; "その顔を想像するだけで、俺はゾクゾクとした喜びを感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L22} ; "だが……衝動的に行動してしまっては、希更に罰を与える前に、逃げられてしまう可能性があるのは理解していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L23} ; "獲物はじっくりと追い詰めて、逃げられないようにしてから仕留めるべきだと、俺の男としての狩りの本能がささやく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L24} ; "【貴城】「待っているがいい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L25} ; "シール写真の中で笑っている希更を見つめながら、俺は冷たい笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  ldc.i         1200
+  syscallp      $music_fadeout (1)
+  line          #82
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #85
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L26} ; "………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L27} ; "………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L28} ; "………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #90
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #92
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #94
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L29} ; "俺はじっくりと一週間ほどかけて、希更を尾行し、周辺調査をして過ごした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  ldstr         "e0001"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #97
+  text          %{L30} ; "【夕実】「早くあいつに思い知らせて」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L31} ; "そう天国から急かしてくる夕実の声をなだめすかしながら、じっくりと時間をかけた成果は出たと思う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L32} ; "俺は希更の生活の基本パターンを把握することができた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L33} ; "すなわち……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L34} ; "何部とはっきり判ったわけではないが、週に数日は体育会系の部活に顔を出していること。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L35} ; "その時には初めて見かけた時のように愛梨や未夏と一緒に帰るわけではなく、校門ですぐに後輩たちと別れて一人になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L36} ; "週に３～４日はコンビニでバイトをしていること。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L37} ; "バイト帰りは帰宅が遅くなり、人通りが少ない閑静な住宅街を徒歩で帰宅している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L38} ; "自分が襲われることなど夢にも思っていないのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L39} ; "あまりにも無防備なその行動。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L40} ; "俺がその気になれば、いつでも襲える状況にあるというわけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  text          %{L41} ; "だが、人通りが少ないとはいえ、場所は住宅街だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L42} ; "ヘタに気づかれて大きな声を出され、不審に思った誰かに見つかってしまう可能性がある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L43} ; "幸いメールアドレスがわかっていることだし、呼び出したほうが安全と言えば安全だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L44} ; "とはいえ、いくら馬鹿でも呼び出されたからと言ってのこのこやってくるとは限らない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L45} ; "希更の帰宅時間が多少遅くなっても、部活やバイトのおかげで親が心配しないであろうことはラッキーだが……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L46} ; "さて、どうするべきか。"
+  proc         
+  ctrl          "p"
+  line          #133
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #135
+  argcheck      []
+  alloca        []
+  line          #136
+  callp         $18366439 (0)
+  line          #137
+  callp         $96b963da (0)
+  line          #138
+  callp         $5a136344 (0)
+  line          #139
+  callp         $4c28191c (0)
+  line          #140
+  ldc.i         0
+  ret          
+}

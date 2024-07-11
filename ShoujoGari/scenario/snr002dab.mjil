@@ -1,0 +1,694 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #8
+  argcheck      []
+  alloca        []
+  line          #24
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #26
+  ldstr         "bg05y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #27
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #29
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "【貴城】「さて、こうして学園まで来たものの、どうするかな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L2} ; "目の前にそびえる北斗学園の校舎を見つめる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L3} ; "時折下校する学生が好奇の目線を送ってくるが、すぐに興味をなくしたように通り過ぎていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L4} ; "自分の格好を見下ろす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L5} ; "怪しく見えないように叔父のスーツを勝手に借りて着てきたが、制服姿の学生たちの中に入ってしまうと少々浮いて見えるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L6} ; "【貴城】「教師に見つかったところで、妹のことで図書室に用があってきたと言えばいいか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L7} ; "嘘を言っているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L8} ; "衣澄に夕実の借りている本の返却を頼まれているのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L9} ; "一応本も持ってきてある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L10} ; "実際に夕実が借りていた本ではないが……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L11} ; "意を決して俺は来賓用の玄関から校舎内へ進入していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #48
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L12} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L13} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L14} ; "……………………………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "bg07y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #53
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #55
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L15} ; "まいった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L16} ; "図書委員をしていると言っていたから、図書室に来ればいると思っていたのだが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L17} ; "図書カウンター内では、衣澄ではなく違う女子学生が座って本を読んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L18} ; "図書室内を回ってみても、衣澄はおろか一般利用の学生の姿すら見えない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L19} ; "この図書室、利用者が全然いないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L20} ; "【貴城】「ちょっと君、桜井さんは今日は来ていないのかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L21} ; "俺が図書室に入っても本から目を離さない、カウンターの中の当番らしい女子学生に話しかけてみる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L22} ; "それほど本に集中しているのなら、こちらのことには興味を示さないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L23} ; "【図書委員】「桜井さんなら、今日はもう帰ったわよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L24} ; "女子学生は一瞬俺のことを怪訝そうな目で見てそう答えると、すぐにまた手元のハードカバーに視線を移す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L25} ; "まいったな。そんなに何度も図書室に来ていたら怪しまれてしまいそうだし。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L26} ; "仕方がない。家に電話をかけて呼び出そう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L27} ; "図書室の奥の本棚の間に移動する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L28} ; "ここなら電話を掛けても話し声がカウンターまで届きはしないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L29} ; "夕実の手帳を見ながら、衣澄の自宅電話番号をコールする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L30} ; "【？？？】（衣澄の母）「はい、もしもし。桜井ですが」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L31} ; "電話に出たのは年配の女性の声。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L32} ; "恐らく衣澄の母親だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L33} ; "【貴城】「あの、衣澄さんはご在宅ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L34} ; "【衣澄の母？】「はい、おりますが……どちら様ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L35} ; "まずい。名前を聞かれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L36} ; "正直に名乗るわけにはいかないし、偽名を使えば衣澄に偽者とばれる可能性が高い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L37} ; "【貴城】「えっと、図書委員会のことで打ち合わせがあるので、至急学校まで来てくださいとお伝えください。では失礼します」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L38} ; "急いでる風を装い、名乗らずに用件だけ告げて電話を切る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L39} ; "律儀そうな衣澄のことだ。急いでやってくるに違いない"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L40} ; "さて、後は衣澄が来るまで、本でも読んで時間を潰すか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #103
+  ldstr         "bg07y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #104
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #106
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L41} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L42} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L43} ; "……………………………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L44} ; "【図書委員】「あら、桜井さん今日はもう帰ったんじゃ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L45} ; "本棚に並んでいた無免許医師の漫画を読みふけっていると、当番の女子学生と誰かの話す声が聞こえてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L46} ; "漫画を本棚に戻して死角になる本棚の陰から覗いて見ると、カウンターで女子学生と衣澄が話していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L47} ; "【図書委員】「変ねぇ、そんな話は誰からも聞いてないわよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #124
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0079"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #125
+  text          %{L48} ; "【衣澄】「そ、そう……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L49} ; "すっかり困惑した様子の衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L50} ; "まぁ、頃合かな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L51} ; "衣澄の視界に入るよう本棚の陰から歩き出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  ldstr         "BUP04Bu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #134
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0080"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #135
+  text          %{L52} ; "【衣澄】「あ……長瀬さんのお兄さん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L53} ; "こちらに気付いた衣澄が軽く頭を下げて会釈してくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L54} ; "【貴城】「ちょうど良かった。実は夕実と本の事で、桜井さんに話したいことがあるんだ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L55} ; "深刻な表情で衣澄に話しかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L56} ; "表情を作る必要は無い。夕実のことを考えれば、自然と深刻な表情になってしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L57} ; "むしろ憎しみや敵意を表に出さないように注意しなければ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  ldstr         "b0081"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #146
+  text          %{L58} ; "【衣澄】「はい、私で良ければうかがいますが」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L59} ; "【貴城】「それが、その、ちょっと……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L60} ; "ちら、と横目で女子学生に目を向ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L61} ; "女子学生本人はというと、もう我関せずといった様子で本を読んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  ldstr         "b0082"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #154
+  text          %{L62} ; "【衣澄】「あぁ……大山さん。当番は私がやっておくので、悪いけど先に帰ってもらえませんか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L63} ; "俺の目配せの意味を察した衣澄が、大山と呼ばれた女子学生に話しかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L64} ; "【図書委員】「当番代わってもらえるんなら、全然悪くなんかないわよ。それじゃ、お先～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L65} ; "女子学生は鞄に読んでいたハードカバーを仕舞うと、さっさと図書室を出ていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L66} ; "これで邪魔者はいなくなったか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  ldstr         "BUP04Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #164
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0083"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #165
+  text          %{L67} ; "【衣澄】「あの、それで、長瀬さんと本の事でのお話とは？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L68} ; "深刻な話の予感に、衣澄は少し緊張した面持ちになっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L69} ; "さっさとこの女をどうにかしたいところだが、その前にもう一つ確認したいことがある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L70} ; "【貴城】「その前に、気になったんだけど、この学校の図書室っていつもこんなに人が少ないのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #174
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0084"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #175
+  text          %{L71} ; "【衣澄】「は、はい。この時間はいつもこんな感じで、閉室時間まで人が来ないことがほとんどですね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L72} ; "予想してないことを聞かれて一瞬戸惑った衣澄だが、律儀に質問の答えを教えてくれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L73} ; "人が来ないとなると好都合だな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L74} ; "どこかへ連れ出す手間が省けて助かる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L75} ; "あぁ、夕実待ってろ。少しだが、今お前の無念を晴らしてやるぞ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L76} ; "お前の受けた屈辱と恥辱をこの女にも味あわせてやるからな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #185
+  text          %{L77} ; "今はもういない愛しい夕実に向かって心の中で密かに呼びかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L78} ; "夕実を陥れ辱めた連中は誰一人許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  ldstr         "b0085"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #189
+  text          %{L79} ; "【衣澄】「あの……気分でも悪いのですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L80} ; "黙り込んだ俺を心配してか、衣澄がそんな的外れなことを口にしながら俺の顔を覗きこむ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #192
+  text          %{L81} ; "俺は別に気分は悪くない。それどころか復讐を目前にしてとても良いくらいだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #195
+  text          %{L82} ; "【貴城】「あぁ、悪いのは……お前だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  text          %{L83} ; "もう猫を被っている必要は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L84} ; "俺はさっきまで押さえ込んでいた感情を露にする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L85} ; "夕実を陥れたこの女が幸福そうに日常を過ごしていることが、俺にはひどく腹立たしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L86} ; "いや許せない。いっそ憎いと言ってもいいだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L87} ; "何故……お前はのうのうと暮らしているんだ。愛しい夕実を殺したお前が。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  ldstr         "BUP04Fu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #207
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0086"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #208
+  text          %{L88} ; "【衣澄】「……え？　な、何？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L89} ; "突然向けられた悪意に衣澄は混乱しているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L90} ; "感情が人に物理的影響を与えるとしたら、これだけの悪意をぶつけられている衣澄は間違いなく即死だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L91} ; "【貴城】「お前は汚れなければいけないんだ。俺のためにも、夕実のためにも」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  text          %{L92} ; "衣澄を押し倒そうと近付くが、手が衣澄を捕らえるより先に、さっと一歩離れられてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #217
+  ldstr         "b0087"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #218
+  text          %{L93} ; "【衣澄】「や、やめてください。人を呼びますよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L94} ; "まだこの女は自分が何をしたのか判っていないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #221
+  text          %{L95} ; "それとも、自らの罪を自覚しているからこそ、シラを切ろうとしているのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L96} ; "どちらにせよ、許せない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  text          %{L97} ; "気が付けば衣澄に向かって手を伸ばしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L98} ; "今度は掴もうとせずに、伸ばす勢いそのままに衣澄を突き飛ばす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  ldstr         "b0088"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #229
+  text          %{L99} ; "【衣澄】「きゃっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  text          %{L100} ; "反射的に突き飛ばしていたので、さほど力を込められず、衣澄は後ろによろめくだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  ldstr         "b0089"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #234
+  text          %{L101} ; "【衣澄】「きゅ、急に何を……私が何をしたというんですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #236
+  text          %{L102} ; "もう我慢ならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  text          %{L103} ; "頭の中で何かが外れる音がした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L104} ; "【貴城】「黙れ。この人殺し！　お前のせいで夕実は死んだんだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  text          %{L105} ; "血を吐くような思いでの弾劾。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #242
+  text          %{L106} ; "衣澄を殺人者として告発することは、否応無しに夕実が死んだという現実を再認識させられる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #244
+  ldstr         "b0090"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #245
+  text          %{L107} ; "【衣澄】「…………っ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L108} ; "【貴城】「そうだ！　お前があいつらにあんな物を見せるから！　あいつらに辱められ、絶望した夕実は自ら命を絶ったんだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  text          %{L109} ; "声にならない悲鳴をあげて、瞳孔が縮まるぐらい目を見開かせて驚愕する衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #250
+  text          %{L110} ; "だがそんなことにはお構い無しに、俺はさらに言葉を衣澄へぶつける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #252
+  ldstr         "b0091"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #253
+  text          %{L111} ; "【衣澄】「………………っっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  text          %{L112} ; "口元を手で覆い、呆けたように言葉も無くふらふらと後ずさる衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #256
+  text          %{L113} ; "その体が図書室の長机にぶつかったところで止まるが、そのことに本人が気付いた様子はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #258
+  text          %{L114} ; "ショックを受けているように見えるものの、どこまでが演技でどこからが本心なのかは判らない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L115} ; "しかし、衣澄が棒立ちになっているこの時間はチャンスだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  text          %{L116} ; "【貴城】「もう逃げられないぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #263
+  text          %{L117} ; "いまだ立ち尽くす衣澄に近付いてその腕を掴む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #265
+  text          %{L118} ; "さぁ、どうするか？"
+  proc         
+  ctrl          "p"
+  line          #271
+  ldc.i         0
+  ret          
+}

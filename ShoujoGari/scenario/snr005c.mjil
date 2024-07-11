@@ -1,0 +1,518 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #31
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #32
+  ldstr         "bg04"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #33
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #38
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は公園に二宮未夏を呼び出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L2} ; "例の写真を見せることで、事実を再認識させてやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L3} ; "未夏を徹底的に貶める為には不可欠な通過儀礼である。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L4} ; "待つこと５分。予定時刻ちょうどを時計の針が指し示した時、未夏が姿を現した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  ldstr         "BUP05A"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #45
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0190"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #46
+  text          %{L5} ; "【未夏】「一体何の用事ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L6} ; "特に俺に対して避けるようなそぶりも、脅えた気配も無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L7} ; "平然とした未夏の表情を見つめながら、俺は訝しく思う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L8} ; "平静を装っているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L9} ; "いや、俺の知る限りそんな駆け引きが出来るような人間ではないし、そんな誤魔化しが通用するような立場でもないはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L10} ; "ではこの未夏の平然とした態度は一体……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L11} ; "脅迫者の立場であるはずの俺のほうがかえってリアクションに戸惑ってしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L12} ; "ここで気後れしてどうする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L13} ; "イニシアチブは俺が掌握しているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L14} ; "愛する夕実のため、俺は復讐鬼とならなければいけない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L15} ; "この程度の想定外で動揺してたまるか！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L16} ; "俺は未夏と同じく冷静に、そしてできるだけ冷酷に、プリントアウトしたデジカメの画像を取り出すと手渡した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  ldstr         "d0191"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #66
+  text          %{L17} ; "【未夏】「んん？　なにこれ……趣味の悪い悪戯ね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L18} ; "【貴城】「悪戯……だと！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  ldstr         "d0192"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #71
+  text          %{L19} ; "【未夏】「私の顔写真を盗み撮りして、それをパソコンで他のエロ画像と合成したんでしょ。よくある手口よね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L20} ; "【貴城】「本気でそう思ってるのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L21} ; "決定的な証拠を突きつけているというのに、それでも未夏は平然ととぼけるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L22} ; "ありえない。この画像は間違いなく未夏本人で、俺が実行して撮影した物だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L23} ; "捏造でも合成でもなく、紛れもない未夏本人の痴態なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  ldstr         "d0193"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #81
+  text          %{L24} ; "【未夏】「本気も何も……こんな低レベルな悪戯でいまどき驚く子が居ると思ってる？　ちょっとセンス古くない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L25} ; "【貴城】「馬鹿を言うな。こいつはそんな陳腐な代物じゃない。お前の肉体と記憶に刻まれた真実の証明さ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L26} ; "俺は凄みを効かした声で続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L27} ; "【貴城】「低レベルなごまかしで通そうとしても通用しないぞ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L28} ; "それでも未夏の表情は一切変化しない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L29} ; "くだらないものでも見るような冷淡な態度のままだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L30} ; "呼吸も乱れていないし、顔色も変化は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L31} ; "平静そのもの……目先の嘘で誤魔化そうとしている態度ではないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  ldstr         "d0194"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #95
+  text          %{L32} ; "【未夏】「それで用件てこれだけ？　悪いけどこんな低レベルな合成写真の悪戯じゃ、これ以上コメントしようがないわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  ldstr         "d0195"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #98
+  text          %{L33} ; "【未夏】「ばら撒きたければばら撒けばいいし、新しいのを作るのもあなたの自由だけど……これも立派な犯罪だから覚悟はしてね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  ldstr         "BUP05B"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #101
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0196"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #102
+  text          %{L34} ; "【未夏】「じゃぁ私帰るねー」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L35} ; "【貴城】「おい、ちょっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #107
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L36} ; "俺は呼び止めようとしたが、未夏は振り返りもせず、そのまま歩み去った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L37} ; "結局写真も俺の言葉も気にとめる素振りすら示さずに……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #112
+  text          %{L38} ; "なんてことだ……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L39} ; "未夏に屈辱と恥辱を再認識させる為の通過儀礼は完全失敗だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L40} ; "あれは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L41} ; "あの夜のことは……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L42} ; "この画像は………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L43} ; "俺の錯覚なのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L44} ; "俺はひょっとして人違いをしたのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L45} ; "ありえない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  text          %{L46} ; "ありえない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L47} ; "仮に人違いとして、近所にこれだけそっくりな人間が住んでいるというのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L48} ; "ありえない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L49} ; "ありえない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L50} ; "あの夜のことは俺の夢？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L51} ; "俺の願望が作り出した妄想？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L52} ; "ではこの画像は？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L53} ; "落ち着かなくては……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L54} ; "こういう時こそ冷静な判断力が必要なんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L55} ; "こういう時こそ慎重に事態を分析しなくてはいけないんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L56} ; "俺は１人空を見上げて、静かにそして深く息を吸いこんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L57} ; "新鮮な空気が肺に染み込んで酸素が脳へと伝わると、心なしか意識が明確になった気がした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L58} ; "こうなったらひとつひとつ裏づけを取りながら事実の再確認をしよう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L59} ; "ここでいくら推測していても真実の探求は出来ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L60} ; "推論に基づいた裏づけを取れば、全てが明らかになるはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #147
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #148
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #150
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L61} ; "俺は家へ戻ると、アドレス帳を開いて未夏の住所を再確認した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L62} ; "夕実の記録を元に住所をネットで検索する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  ldstr         "bg10"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #154
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #156
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L63} ; "続いて所在地を確認してから、自らの足でマンションを訪れ、自らの目でマンション名から部屋番号に至るまで間違いが無いことを徹底的に確認した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L64} ; "どうやらミスは無いようだ……間違いなくここに住んでいるのは二宮未夏だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L65} ; "夕実がアドレスを書き間違えたとしても、同姓同名のそっくりさんが偶然住んでいるなんてことはあるはずが無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L66} ; "ならば、あの未夏の態度は一体なんだったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L67} ; "動揺のかけらも無く、平然として俺の見せた画像を合成と言い放った。とぼけているにしては、その態度はあまりにも自然すぎた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #167
+  text          %{L68} ; "こうなったら最後の手段だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L69} ; "未夏の部屋へ侵入して再確認するしかない！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L70} ; "俺は日が落ちて人目が減るのを待って、未夏の部屋のベランダへと侵入して帰宅を待つことにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #173
+  ldstr         "bg10n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #174
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #176
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L71} ; "あたりは完全に闇に包まれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L72} ; "街灯の光もまったく差さない暗がりで息を殺して待つこと数時間。部屋の明りが未夏の帰宅を告げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L73} ; "ガラス戸に歩み寄る人影。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L74} ; "換気の為かカギを開ける音が聞こえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  ldstr         "se0115"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #184
+  text          %{L75} ; "そこで俺は一気に戸を開けると、室内へと飛び込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  ldstr         "bg03n2"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #187
+  ldstr         "BUP05D"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #188
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #190
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0197"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #191
+  text          %{L76} ; "【未夏】「ひっぃ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L77} ; "突然の事態に悲鳴をあげようとする未夏の口を、俺は素早く押さえつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L78} ; "口元を手でふさいだまま、傍らの壁へ身体を押し付ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L79} ; "ポケットから取り出したナイフを眼前に突きつけて警告した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  text          %{L80} ; "【貴城】「騒ぐな！　声を出すと……後悔する事になるぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L81} ; "恐怖にひきつる、顔を青ざめさせた少女。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L82} ; "室内の灯りの下、１０センチの距離にあるその顔は……紛れも無く二宮未夏本人だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L83} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #209
+  ldc.i         0
+  ret          
+}

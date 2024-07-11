@@ -1,0 +1,278 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #22
+  callp         $cbfb6fab (0)
+  line          #23
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #24
+  ldc.i         -114
+  ldstr         "bg06"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #27
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "校舎の窓から校庭を眺めつつ、本来なら初夏の日差しに心躍らされるはずなのに、希更は苛立ちを募らせていくばかりだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L2} ; "もうじき楽しい夏休みだというのに……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L3} ; "最近、何をしても面白くない。それというのも、これまでは何をするにも一緒だった筈の二人の友人が、希更の前から姿を消したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L4} ; "たまに登校してくるものの、気分が優れないのか、何を話しても上の空といった風情だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L5} ; "問題はそれだけではない。快活で人当たりの良かった未夏が、別人のように取り乱すことが多くなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L6} ; "何が未夏の心をそこまで煩わせているのか、希更に知る由はない。ただ、そんな未夏の姿を目の当たりにする度に、『もしや愛梨も……』と不安にならずにはいられなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L7} ; "旅行パンフレット片手にサマーバケーションの予定でも相談したいところだが、最近の２人の様子だと夏期講習の日々になるのが関の山だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L8} ; "２人とも一体どうしたのだろう？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L9} ; "特にこれと言って思い当たる節はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L10} ; "喧嘩はおろか言い争いすらした覚えはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L11} ; "それに希更に対してなにか思うところがあるというよりは２人共になにか深刻な悩みがあるように見える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L12} ; "授業の説明に励む教師の言葉を聞き流しながら希更は思案に明け暮れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L13} ; "快適で楽しい学園生活を取り戻すべく、予測と記憶が交互に入り乱れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L14} ; "やがて記憶の糸が一つの答えを導き出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  ldstr         "c0297"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #44
+  text          %{L15} ; "【希更】「（そういえば、最初に不登校になったのは長瀬夕実！）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  ldstr         "c0298"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #47
+  text          %{L16} ; "【希更】「（あいつの不登校から全ては始まってるんじゃ？）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L17} ; "勿論、これがただの憶測に過ぎないことは、希更とて理解している。しかし、根拠のない妄想の一言で片付けるには、彼女たち三人はあまりにも深く夕実に関わりすぎていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  ldstr         "c0299"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #52
+  text          %{L18} ; "【希更】「（もしかして……長瀬夕実が変な病気でも撒き散らしてる？）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L19} ; "その淫乱で非常識極まりない言動をもって、憧れの愛梨を深く傷つけた夕実。憧れの存在を傷つけられることは、自身の理想の姿を否定されることに等しい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L20} ; "目指すべき道を否定した夕実は誰よりも憎く、受け容れ難い存在に感じられるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L21} ; "劣等感が、憎悪が、希更を狂信的にさせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldstr         "c0300"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #59
+  text          %{L22} ; "【希更】「（原因がわからない以上、捨てきれない）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L23} ; "そうだ……学校に行く間も惜しんで夕実が二人に嫌がらせをしていると考えたほうが、辻褄が合う！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L24} ; "夕実のやつ……よくも！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L25} ; "シャーペンを握る希更の手は怒りに震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #69
+  ldstr         "bg10y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #70
+  ldstr         "BUP02Bu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #71
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #73
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L26} ; "希更は夕実の自宅の前に立っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L27} ; "既に表札は取り払われており、窓から漏れる明りもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L28} ; "ここにはもう誰も住んでいないのだろうか。夕実はどこかに隠れて、復讐しようとしているのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L29} ; "そう考えれば、すべての辻褄が合うのだ。学校を休みがちになった未夏は精神に異常をきたし、愛梨もその兆しを見せている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L30} ; "その次は――希更は身を震わせた。しかしすぐに顔を上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L31} ; "あの馬鹿女のやることだ。今はうまくやっているかもしれないけれど、すぐに尻尾を出すに決まっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L32} ; "そうしたらあたしたち三人で取り押さえて、半殺しにしてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L33} ; "あいつなんて所詮は男に媚びることしか能がないヤリマンブスだもの、女の集団リンチから逃れる方法なんて思いつく筈がないわ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L34} ; "希更の唇の両端がつり上がってゆく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L35} ; "……それに、別の場所に潜伏したと判断するのもまだ早いわ。ただ出かけているだけなのかもしれないもの。そう、あいつはただのヤリマンブスなのよ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L36} ; "毎晩遅くまで外で男を漁っていたとしても不思議じゃないわ。そうよ、長瀬なんて――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L37} ; "腰を屈め、足元に転がっていた石をつかむ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L38} ; "希更は立ち上がり、大きく振りかぶって石を投げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L39} ; "放たれた石が風を切り、諸悪の権化を育んだ場所に吸い込まれてゆく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  ldstr         "se0828"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #89
+  text          %{L40} ; "ガラスの割れる音が、宵闇の静寂をかき乱した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L41} ; "具体的な解決ではないものの、その音に希更は心が晴れる思いがした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  ldstr         "c0301"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #93
+  text          %{L42} ; "【希更】「（疫病神め、ざまあ見なさい。愛梨の男を寝取ったりするからよ！　その報いだ！！）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L43} ; "希更はきびすを返し、元来た道を駆けてゆく。身体の疼きは一向に治まる気配を見せなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L44} ; "そうだ……憎い憎いと思いつつも物理的な傷は何一つ負わせることのできなかった相手、その夕実の大切なものを今日初めて破壊したのだ。この興奮は、今夜は収まりそうにない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L45} ; "こんなに急いで一体どこに行こうとしているのか……それは希更自身ですら解らなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  ldc.i         0
+  ret          
+}

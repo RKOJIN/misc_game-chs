@@ -1,0 +1,811 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #11
+  argcheck      []
+  alloca        []
+  line          #14
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #15
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #16
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #18
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "例えば、酷く疼く虫歯をわざと噛み締めて痛みを確認するようなものだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L2} ; "夕実のことを思い出すのは辛いのだが、昼も夜も心を占めるのは夕実のことばかり。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L3} ; "すべては終わったことだ。俺は夕実を救えなかった無能な役立たず、それが唯一の結果だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L4} ; "現実から目を背け、過去を掘り返し、検証したところで何になる？　負け犬の脳内箱庭遊戯など、惨めなだけではないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L5} ; "……そう自分に言い聞かせてみても、次の瞬間には夕実との日々を思い返している自分と、それを容認している自分に気付く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L6} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L7} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L8} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L9} ; "もう夜も遅い。寝るとしよう……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L10} ; "そう思ってベッドにもぐりこんだときだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  ldc.i         1
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (2) ; $user_sound@KOEKOE
+  line          #31
+  text          %{L11} ; "電話の呼出音がけたたましく鳴り響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L12} ; "クソ、ふざけた奴だ。こんな時間に電話をかけてくるなど、常識知らずにも程がある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L13} ; "電話に出てやる義理などあるものか――しかしそんな思いとは裏腹に、俺は布団を押しのけ、起き上がっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L14} ; "……電話の相手が何者なのか、本当は分かっていたのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L15} ; "呼出音を数えながら、俺が電話に出るまでどうか鳴り止まないでくれとすら思っていたほどだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L16} ; "俺は使命感に衝き動かされていた。選民意識すら芽生えていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L17} ; "そう、悪は絶やさねばならない。俺の夕実を汚す悪人どもは、根絶やしにしなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L18} ; "この音は、悪の所在を告げる音だ。俺は電話に出なければならない。法の目をかいくぐってのさばる人殺しのクソガキどもを引きずり出し、処刑してやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #40
+  text          %{L19} ; "受話器を取る。掌ににじんだ汗のせいで、危うく落としそうになった。慌てて受話器を耳に当てる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L20} ; "何も聞こえなかった。息を殺し、耳を澄ます。憎き犯罪者の立てる物音を、犯人に結びつく手掛かりとなる筈の音を、何一つとして聞き逃すまいと思いながら。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #44
+  ldstr         "e0014"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #45
+  text          %{L21} ; "【？？？】（夕実）「はぁ、はぁ、はぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L22} ; "受話器の向こうから聞こえてきたのは、年齢も性別すらも定かでない何者かの息遣いだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L23} ; "姿は見えなくとも、その息がひどく乱れているのが分かる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L24} ; "もしかして、俺もこんな風に息を荒げているのか？　そうだとすれば、俺の緊張も筒抜けだ――不意にそんな考えが脳裏をよぎり、俺はそっと受話器を口元から離した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L25} ; "俺に関する情報を敵に握らせるわけにはいかない……そう思ったとき。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  ldstr         "e0015"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #53
+  text          %{L26} ; "【？？？】（夕実）「あっ、ふぅ……んっ、はぁああっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L27} ; "　甲高い女の喘ぎ声が耳を突いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         "e0016"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #58
+  text          %{L28} ; "【？？？】（夕実）「あっ……はぁ、はっふぅ。ふぅっんくぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L29} ; "……このような声を聞かされて、普通の男なら興奮していたかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L30} ; "しかし俺は違った。最初に感じたのは喪失感だった。俺の夕実はもういない。どんなに魅力的な女でも、決して夕実の代わりにはなれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L31} ; "どんなセックスでも決して満たされることはない――そう思い、虚しくなった。しかしすぐに怒りが悲しみに取って代わった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L32} ; "ふざけるな。無神経にも程がある。愛する者を永遠に失った人間がこのような声を聞かされればどのように思うのか、こいつには考えられないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  ldstr         "e0017"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #66
+  text          %{L33} ; "【？？？】（夕実）「んっ、あっ、あっあっふぅんぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L34} ; "俺の気持ちなんざ知ったこっちゃないとでも言わんばかりだった。目先の快感のためだけに出された、考え無しの媚びた声には吐き気を催した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  ldstr         "e0018"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #71
+  text          %{L35} ; "【？？？】（夕実）「あふ、ふっああっふ、んっあ、あっひぃっああっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L36} ; "喘ぎ声が遠のき、がさごそというノイズが割って入る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L37} ; "最初は何が起きたのか判らなかった。相手は子機か携帯からかけており、電波の状態が悪くなったのかと合点しそうになった。しかし、すぐにそれが間違いだと気付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L38} ; "耳障りなノイズと、雑音にかき消えそうな喘ぎ声に混じって、ぴちゃぴちゃという水音がはっきりと聞こえてきたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  ldstr         "e0019"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #79
+  text          %{L39} ; "【？？？】（夕実）「あっ……はぁ、はっふぅ。ふぅっんくぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L40} ; "水音と連動するように、声が跳ね上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L41} ; "間違いない。この女、受話器をま○こに擦りつけてやがる――俺は確信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  ldstr         "e0020"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #85
+  text          %{L42} ; "【？？？】（夕実）「あっ、あっあっひぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L43} ; "女はよがっている。心臓が早鐘を打つ。俺は怒りのあまり声を出すこともできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L44} ; "自分の胸の鼓動の音で頭が割れそうだった。あの日、夕実の死の真相を知った日のことを、まるで昨日のことのようにはっきりと思い出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L45} ; "あの時と同じように、俺はただ立ち尽くしたまま、抗議の声を上げることもできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L46} ; "今は耐えろ。キレたところで、自分の首を絞めるだけだ……そう言い聞かせ、無力な自分を正当化した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L47} ; "そんな俺の内心を知ってか知らずか、受話器の向こうの女はよがり続けている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  ldstr         "e0020b"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #95
+  text          %{L48} ; "【？？？】（夕実）「ふぅ……はぁ、はっはっ、はあ……ふぅ……はぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L49} ; "女は絶頂を迎えたらしい。おめでたい奴だ。そして、憎い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L50} ; "俺をコケにしながらのオナニーでイクことができて、心身共に満足したのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L51} ; "受話器からは、激しい運動を終えた人間特有の荒くも安らいだ息遣いの他は、何も聞こえてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L52} ; "俺は電話を叩き切ってやろうかと思った。しかし、そうはできなかった。何故なら、最後まで聞き届けなければならないからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L53} ; "聴覚からしか得られない限られた情報だけを頼りに、無神経極まりないこのいたずら電話の犯人を割り出すためには、いかなる物音も聞き逃すことはできないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L54} ; "女の呼吸は、次第に穏やかなものになっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L55} ; "静寂が訪れる。自分の吐息すらうるさく感じるほどだった。一秒が長い。女が口を開く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  ldstr         "e0021"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #107
+  text          %{L56} ; "【？？？】（夕実）「わ、私に……はぁ、はぁ……あんなことをして……ゆ、はぁ、はぁ、ゆるさないから……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L57} ; "その声からは、さっきまでの媚びはまったく感じられなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L58} ; "同時に、俺は確信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L59} ; "この電話の犯人は、俺が始末した奴らの中の一人だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  text          %{L60} ; "そこで電話は途切れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #120
+  text          %{L61} ; "何故、奴らがこの家の電話番号を知っているのか、不思議でならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L62} ; "何故、奴らが俺の住処を知っているのか、不思議でならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L63} ; "しかし、奴らのうち少なくとも一人は知っている。これは事実だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  text          %{L64} ; "そしてその事実は、人殺しの豚どもに俺の素性が割れたことを意味している。この俺が脅迫されていることを示唆している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #133
+  argcheck      []
+  alloca        []
+  line          #135
+  text          %{L65} ; "考えろ！　考えるんだ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L66} ; "俺の素性を知りうる可能性のある奴は誰だ！？　それがこの電話の相手のはずだ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L67} ; "俺の素性……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L68} ; "俺の素性を……知っているのは……………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L69} ; "…………松本璃乃！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L70} ; "クソ！　璃乃め……俺を裏切りやがったのか……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  ldc.i         0
+  ret          
+}
+
+func $80821982() {
+ entry:
+  line          #149
+  argcheck      []
+  alloca        []
+  line          #151
+  text          %{L71} ; "だが、何故俺を脅迫できる？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L72} ; "たとえ俺の素性を知ったところで、奴らは俺に弱みを握られているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L73} ; "奥まで見えそうなほど大きく広げられたま○この写真も撮影してやった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L74} ; "もし誰かに話したり、俺に逆らう素振りを見せれば、住所や本名、電話番号を書き添えた上でその写真をばら撒いてやると、釘を刺した筈だ。なのに……！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L75} ; "それとも、犯罪者の分際で、警察に逃げ込むつもりか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L76} ; "そのようなことをすれば、ザーメンまみれの恥ずかしい写真が“証拠”として押収されることになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L77} ; "それは覚悟の上なのか？　恥を捨てるのか？　人殺しの分際で、居直るつもりか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L78} ; "奴らにそんなことができる筈がない。そんなことは絶対にさせない――そう思いたかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L79} ; "しかし、俺はそう信じたいだけであって、事実には反していると、現実は告げている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L80} ; "そう、恥を捨てることや居直ることは、実はとても簡単なのだ。物の見方を少し変えてやるだけで、恥は恥でなくなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L81} ; "そしてあの狡猾にして冷酷な人殺しの雌豚どもがそのことに気付かないとは、とてもじゃないが言い切れない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L82} ; "奴らなら、すぐに気付くだろう。そしてその知識と情報を最大限に利用し、俺を貶めにかかるに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L83} ; "開き直った雌豚の姿を想像すると、俺は急に恐ろしくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L84} ; "レイプした後のま○この写真を撮ったくらいで勝ち誇っていた自分が、無知で幼稚で視野の狭い、救い難い馬鹿のように思えてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L85} ; "俺が『救い難い馬鹿』であることは、奴らとて知っている筈だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L86} ; "何故なら、俺は最愛の妹一人救えなかった情けない男だからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L87} ; "夕実を死に追いやったあいつらは、夕実を愛していながら救うことができなかった無力で無様な俺を笑っていたに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L88} ; "そう、奴らは俺を笑っていた。奴らは最初から知っていたのだ。いる筈のない夕実を求めて毎日学校を訪れていた俺の姿にも、奴らは気付いていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L89} ; "気付いていたからこそ、平気であのようなことができたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L90} ; "優等生気取りの馬鹿女は俺がどんな気分になるかを計算に入れた上でわざと夕実が生きているかのような話をし、雌豚三人組は俺に聞かせるためにわざと大声であのような話をしていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L91} ; "俺は奴らにハメられた。俺はまんまと奴らに踊らされてしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L92} ; "俺は奴らを一人一人凌辱していくことで復讐しているつもりになっていた。しかしそれが『復讐』だと思い込んでいたのは俺だけで、奴らはそういうプレイを楽しんでいただけなのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L93} ; "俺はどうしようもない馬鹿だった。振り回されたのは自業自得だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L94} ; "しかしたとえ俺を釣るための“手段”だったとしても、事実無根の妄想で俺の夕実を汚したことは許せない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L95} ; "しかも、卑猥極まりないいたずら電話で俺の夕実を騙るなど……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L96} ; "淫乱性悪女が夕実を真似たところで、本物の持つ優しさや可憐さなどは微塵も表現することができない。しかしだからこそ、悪意や下劣さが際立つのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L97} ; "俺はノートパソコンを起動し、奴らの写真を収納したフォルダを開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L98} ; "今ではその根拠すら定かではなくなった俺の戦績を、一枚一枚確認していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L99} ; "……こんな写真を撮られれば、俺の言いなりにならざるを得ないと思っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L100} ; "生まれてきたことを後悔するほどの恥辱を味あわせ、社会的に抹殺することすらできると思っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #181
+  text          %{L101} ; "しかし実際は、いいように遊ばれていたのは、どうやら俺の方だったらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L102} ; "これまで俺がしてきたことは、一体何だったのだろう……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L103} ; "俺は考えることを放棄し、無力感と喪失感を埋めるものを求めて、ネットの世界を徘徊した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L104} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #185
+  text          %{L105} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L106} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L107} ; "そうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L108} ; "あいつらも夕実と同じ目にあわせてやればいいのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L109} ; "あいつらが夕実の画像を見て夕実を追い詰めたように、あいつらも画像を見られて追い詰められればいい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  text          %{L110} ; "そうなれば、夕実も喜んでくれることだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L111} ; "くくく………さて、誰のにするか………"
+  proc         
+  ctrl          "p"
+  line          #192
+  ldc.i         0
+  ret          
+}
+
+func $52a12176() {
+ entry:
+  line          #193
+  argcheck      []
+  alloca        []
+  line          #194
+  text          %{L112} ; "そして、誰のものとも知れない、まして何のために存在しているのかすら分からない行きずりの掲示板に、希更の顔やま○この写った画像ファイルをアップした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  text          %{L113} ; "題名：私を犯しに来て………　投稿者：希更\n私はレイプじゃないと感じない変態女子校生です。別の掲示板で会った人と、こんなことをしちゃいました………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L114} ; "今度はもっといやらしく犯されたい………。Ｋ市の北斗学園に通ってます。早く………誰か犯しに来て！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  ldc.i         0
+  ret          
+}
+
+func $dc2e2695() {
+ entry:
+  line          #201
+  argcheck      []
+  alloca        []
+  line          #202
+  text          %{L115} ; "そして、誰のものとも知れない、まして何のために存在しているのかすら分からない行きずりの掲示板に、愛梨の顔やま○この写った画像ファイルをアップした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L116} ; "題名：私を犯しに来て………　投稿者：愛梨\n私はレイプじゃないと感じない変態女子校生です。別の掲示板で会った人と、こんなことをしちゃいました………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L117} ; "今度はもっといやらしく犯されたい………。Ｋ市の北斗学園に通ってます。早く………誰か犯しに来て！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  ldc.i         0
+  ret          
+}
+
+func $1084260b() {
+ entry:
+  line          #208
+  argcheck      []
+  alloca        []
+  line          #209
+  text          %{L118} ; "そして、誰のものとも知れない、まして何のために存在しているのかすら分からない行きずりの掲示板に、未夏の顔やま○この写った画像ファイルをアップした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L119} ; "題名：私を犯しに来て………　投稿者：未夏\n私はレイプじゃないと感じない変態女子校生です。別の掲示板で会った人と、こんなことをしちゃいました………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L120} ; "今度はもっといやらしく犯されたい………。Ｋ市の北斗学園に通ってます。早く………誰か犯しに来て！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #214
+  ldc.i         0
+  ret          
+}
+
+func $1a412f12() {
+ entry:
+  line          #215
+  argcheck      []
+  alloca        []
+  line          #216
+  text          %{L121} ; "そして、誰のものとも知れない、まして何のために存在しているのかすら分からない行きずりの掲示板に、衣澄の顔やま○この写った画像ファイルをアップした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L122} ; "題名：私を犯しに来て………　投稿者：衣澄\n私はレイプじゃないと感じない変態女子校生です。別の掲示板で会った人と、こんなことをしちゃいました………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L123} ; "今度はもっといやらしく犯されたい………。Ｋ市の北斗学園に通ってます。早く………誰か犯しに来て！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #221
+  ldc.i         0
+  ret          
+}
+
+func $d6eb2f8c() {
+ entry:
+  line          #222
+  argcheck      []
+  alloca        []
+  line          #223
+  text          %{L124} ; "そして、誰のものとも知れない、まして何のために存在しているのかすら分からない行きずりの掲示板に、璃乃の顔やま○この写った画像ファイルをアップした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  text          %{L125} ; "題名：私を犯しに来て………　投稿者：璃乃\n私はレイプじゃないと感じない変態女子校生です。別の掲示板で会った人と、こんなことをしちゃいました………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L126} ; "今度はもっといやらしく犯されたい………。Ｋ市の北斗学園に通ってます。早く………誰か犯しに来て！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  ldc.i         0
+  ret          
+}
+
+func $46ed1005() {
+ entry:
+  line          #231
+  argcheck      []
+  alloca        []
+  line          #232
+  text          %{L127} ; "ネットの最下層に巣食うキモい連中が、臭いチ○ポをおっ勃てながらよってたかって輪姦する様を想像すると、胸のすく思いがした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  text          %{L128} ; "崇高な使命に生きる俺を愚弄した罰だ。みんな、こうしてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #234
+  text          %{L129} ; "次のターゲットは誰にする？"
+  proc         
+  ctrl          "p"
+  line          #245
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #247
+  argcheck      []
+  alloca        []
+  line          #249
+  callp         $c2a71eff (0)
+  line          #250
+  callp         $4c28191c (0)
+  line          #251
+  callp         $80821982 (0)
+  line          #252
+  callp         $52a12176 (0)
+  line          #253
+  callp         $dc2e2695 (0)
+  line          #254
+  callp         $1084260b (0)
+  line          #255
+  callp         $1a412f12 (0)
+  line          #256
+  callp         $d6eb2f8c (0)
+  line          #257
+  callp         $46ed1005 (0)
+  line          #258
+  ldc.i         0
+  ret          
+}

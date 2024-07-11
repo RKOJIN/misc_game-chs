@@ -1,0 +1,515 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #24
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #25
+  ldstr         "bg29"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #26
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #28
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は計画実行の為、未夏のマンションを再び訪れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L2} ; "オートロックのマンションと聞くと防犯性がすぐれていそうに思えるが、実は意外に穴のある構造なことが多い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L3} ; "未夏のマンションもそうだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L4} ; "ちょっと運動神経がすぐれている人間なら簡単に乗り越えられそうな通路の壁や、よじのぼれそうなベランダを見て、俺は笑いを浮かべる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L5} ; "しかも、未夏の部屋は一階の１０３号室。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L6} ; "まるで侵入してくださいと言わんばかりじゃないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L7} ; "俺はいったん帰宅して、深夜を待つことにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #38
+  ldstr         "bg10n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #39
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #41
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L8} ; "再びやってきた俺は、マンションの裏手に通じる細い道を通り、植え込みの中に転がり込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L9} ; "時の流れが遅かった。一分一秒が、永遠に続くかのように感じられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L10} ; "一歩一歩慎重に歩を進めると、１０３号室のベランダから数歩の位置に辿り着いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L11} ; "１０３号室の窓は暗かったが、まだ明かりの漏れている部屋も多い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L12} ; "もし、俺が侵入を試みる途中でどこかの部屋の窓が開いたら――動悸が激しさを増す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L13} ; "しかし、すりガラスの向こうをよく見てみると、どの部屋もカーテンが閉ざされていることに気付いた。向かいの住宅にいたっては、雨戸まで閉ざされている始末。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L14} ; "外の様子に注意を払う者など、ここにはいないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L15} ; "物音がしてから隠れても、充分間に合うのだと気付くと、力が全身にみなぎった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L16} ; "指紋が残らないよう軍手をはめると、こぶし大の石を拾い上げ、柵の間から慎重に差し入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L17} ; "ことりという音が、やけに大きく聞こえる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L18} ; "俺は両手で柵を掴み、ベランダの端に右足をかけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L19} ; "手元が安定していることを確認し、そのまま一気に身体を引き上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L20} ; "まるで鉄棒で遊ぶかのように易々と、俺はベランダに侵入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L21} ; "ベランダにあるのは、エアコンの室外機だけ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L22} ; "このガラス戸の向こうでは、夕実を死に追いやった憎き女が何事もなかったかのように生きている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L23} ; "俺はガラス戸に手を触れた。もう片方の手には、先程拾い上げた石。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L24} ; "鍵近くの部分を叩き割り、進入しようという算段だ。俺は両腕に力を込めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L25} ; "ガラス戸に添えた手が滑る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L26} ; "何かが擦れるような、小さく甲高い音。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L27} ; "俺は前のめりに倒れそうになり、身体を支えようと慌てて手を差し出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L28} ; "顔を上げたとき、俺は信じられないものを目撃した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L29} ; "ガラスが消えていた。カーテンが、俺の目の前で音もなく揺れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L30} ; "ガラス戸が開いたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L31} ; "どうやらこのガラス戸には、鍵がかけられていなかったらしい。戸締りを忘れるとは、何と愚かな女だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L32} ; "声を出して笑い、存分に未夏を罵倒してやりたかった。しかし俺は必死でその衝動を抑え込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L33} ; "今はまだその時ではない。息を殺してカーテンに手をかける。その向こうには、漆黒の闇。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #69
+  ldstr         "bg03n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #70
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #72
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L34} ; "僅かな隙間から室内に潜り込むと、少女特有の青臭い体臭が鼻を突いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L35} ; "室内特有の暗闇に目が慣れておらず、おぼろな輪郭しか把握することができない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L36} ; "規則正しく穏やかな息遣いが、どこからともなく聞こえてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L37} ; "俺の立っている場所から数メートルも離れていない所に、無防備な姿の未夏がいるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L38} ; "血が騒ぐ。愚鈍な殺人者に制裁を下すときが、遂に訪れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L39} ; "あの日の光景がフラッシュバックする。夕実の人格を、その行動を、悪意たっぷりに捏造して吹聴し、笑っていた未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L40} ; "しかし今や、俺を苛み続けたその記憶は、俺にエネルギーを与えていた。あの日の溜飲を下せるのだと思うと、狂おしいまでの力と興奮が全身にみなぎった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L41} ; "俺の夕実を死に至らしめ、醜い妄想でその全てを貶めておきながら、平然と生きる憎い女。こんな奴が許されるはずがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L42} ; "こいつは生きていることを後悔すべきだ恥じるべきだ己の無力を思い知るべきだ己の無価値を思い知るべきだ――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #82
+  text          %{L43} ; "不意に、背後に人の気配を感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L44} ; "振り返ろうとする俺の頬に、鋭く冷たいものが当たる。刃物だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L45} ; "『はい、そこまでよ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #86
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L46} ; "聞き覚えのある若い女の声。冷や水のような言葉。目の眩むような光が辺りを照らす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L47} ; "『ほら、言った通りでしょ。やっぱり来たわ。こんなに都合良く窓が開いてたりするわけがないのにね。こいつ、馬鹿じゃないの』――ヒステリックに笑う少女たち。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L48} ; "あの性悪女たちが、罠にはまった俺を嘲笑っていた。あの日のように、俺の大切なものを笑いながら踏みにじり、当然のような顔で奪い去っていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  syscallp      $music_stop (0)
+  line          #91
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #92
+  ldstr         "bg03n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #93
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #95
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L49} ; "……はっと我に返る。全ては俺の妄想だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L50} ; "俺が立っているのは、暗く静まり返った未夏の部屋。闇に慣れた目に見えるのは、ベッドに横たわる少女の人影。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L51} ; "未夏が寝返りをうつ。友達とじゃれあっている夢でも見ているのか、口元には笑みが浮かんでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #99
+  text          %{L52} ; "まったく、いい気なものだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L53} ; "狭いワンルームの部屋の中に他に人が居る気配は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L54} ; "未夏の悲鳴さえ封じてしまえば、あとは思うがままだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L55} ; "タオルを取り出すとそっと未夏の口にまきつけて猿轡にする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L56} ; "未夏は相変わらず笑みを浮かべたまま、起きる気配は無い。熟睡しきっているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L57} ; "あざ笑いながら、俺は未夏の衣服を一枚ずつ剥ぎ取っていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #107
+  argcheck      []
+  alloca        []
+  line          #108
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #109
+  ldstr         "bg03n2"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #110
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #112
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L58} ; "さあ、ショータイムだ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L59} ; "俺は乱暴に未夏の両手をベッドの支柱に大の字に縛りつけ、部屋の電気をつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  ldstr         "ev34a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #116
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #118
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0102"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #119
+  text          %{L60} ; "【未夏】「うぐぅんんんんぅぅぅぅぅぅぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L61} ; "流石に目を覚まして、大騒ぎする未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L62} ; "突然の事態にパニック寸前だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  text          %{L63} ; "しかし、事前にかませておいた猿轡のおかげで悲鳴をあげることができない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  ldstr         "d0103"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #126
+  text          %{L64} ; "【未夏】「ふぅんんんんぅぅぅんんぁんんんん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L65} ; "懸命に身体をよじり、首を振って抵抗を示すが、こうなってしまえば全てはこちらの思うがままだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L66} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #138
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #139
+  argcheck      []
+  alloca        []
+  line          #140
+  callp         $c2a71eff (0)
+  line          #141
+  callp         $4c28191c (0)
+  line          #142
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #143
+  argcheck      []
+  alloca        []
+  line          #144
+  callp         $4c28191c (0)
+  line          #145
+  ld            persistent int $b2ddb5e8 
+  ldstr         "恥ずかしい姿を撮影してから"
+  ld            persistent int $3c52b20b 
+  ldstr         "このまま犯す"
+  call          $$select_ex@MENU (4) ; $select_ex@MENU
+  br.case       @block_1a94
+
+ block_1a94:
+  line          #146
+  ldc.i         1
+  bne.case      @block_1ac4
+
+ block_1aa4:
+  line          #147
+  ldstr         "snr002cba"
+  syscallp      $call (1)
+  br            @block_1bac
+
+ block_1ac4:
+  line          #148
+  ldc.i         2
+  bne.case      @block_1bac
+
+ block_1ad4:
+  line          #149
+  ldstr         "snr002cbb"
+  syscallp      $call (1)
+  line          #150
+  ldstr         "誰かに発見されるまでこのままでいろ"
+  ldstr         "縛めくらいは解いてやろう"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1b48
+
+ block_1b48:
+  line          #151
+  ldc.i         1
+  bne.case      @block_1b79
+
+ block_1b58:
+  line          #152
+  ldstr         "snr002cbba"
+  syscallp      $call (1)
+  br            @block_1ba8
+
+ block_1b79:
+  line          #153
+  ldc.i         2
+  bne.case      @block_1ba8
+
+ block_1b89:
+  line          #154
+  ldstr         "snr002cbbb"
+  syscallp      $call (1)
+  line          #155
+
+ block_1ba8:
+  line          #156
+
+ block_1bac:
+  line          #157
+  ldc.i         0
+  ret          
+}

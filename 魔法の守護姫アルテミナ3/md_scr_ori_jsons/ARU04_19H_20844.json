@@ -562,5 +562,9 @@
     },
     {
         "message": "_START"
+    },
+    {
+        "name": "業者",
+        "message": "「どうぞ」"
     }
 ]

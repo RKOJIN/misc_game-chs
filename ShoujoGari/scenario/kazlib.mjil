@@ -1,0 +1,1207 @@
+readmark disable
+
+func $c2bea783() { ; $next_extra_disp@GLOBAL
+ entry:
+  line          #46
+  argcheck      []
+  alloca        []
+  line          #47
+  callp         $$trans_ahead@PIC (0) ; $trans_ahead@PIC
+  line          #48
+  ldc.i         0
+  ret          
+}
+
+func $e76e81c6(int) {
+ entry:
+  line          #61
+  argcheck      [int]
+  alloca        []
+  line          #63
+  ld            local int $532dd1f6 -2
+  br.case       @block_0049
+
+ block_0049:
+  line          #64
+  ldc.i         -10010
+  bne.case      @block_005f
+
+ block_0059:
+  br            @block_006f
+
+ block_005f:
+  line          #65
+  ldc.i         -10011
+  bne.case      @block_0075
+
+ block_006f:
+  br            @block_0085
+
+ block_0075:
+  line          #66
+  ldc.i         -10012
+  bne.case      @block_008b
+
+ block_0085:
+  br            @block_009b
+
+ block_008b:
+  line          #67
+  ldc.i         -10013
+  bne.case      @block_00a1
+
+ block_009b:
+  br            @block_00b1
+
+ block_00a1:
+  line          #68
+  ldc.i         -10014
+  bne.case      @block_00b7
+
+ block_00b1:
+  br            @block_00c7
+
+ block_00b7:
+  line          #69
+  ldc.i         -10015
+  bne.case      @block_00cd
+
+ block_00c7:
+  br            @block_00dd
+
+ block_00cd:
+  line          #70
+  ldc.i         -10016
+  bne.case      @block_00e3
+
+ block_00dd:
+  br            @block_00f3
+
+ block_00e3:
+  line          #71
+  ldc.i         -10017
+  bne.case      @block_00f9
+
+ block_00f3:
+  br            @block_0109
+
+ block_00f9:
+  line          #72
+  ldc.i         -10018
+  bne.case      @block_010f
+
+ block_0109:
+  br            @block_011f
+
+ block_010f:
+  line          #73
+  ldc.i         -10019
+  bne.case      @block_0125
+
+ block_011f:
+  br            @block_0135
+
+ block_0125:
+  line          #74
+  ldc.i         -10020
+  bne.case      @block_013b
+
+ block_0135:
+  br            @block_014b
+
+ block_013b:
+  line          #75
+  ldc.i         -10021
+  bne.case      @block_0181
+
+ block_014b:
+  line          #76
+  ldstr         "nf1"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_0181:
+  line          #77
+  ldc.i         -10022
+  bne.case      @block_01c7
+
+ block_0191:
+  line          #78
+  ldstr         "nf2"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_01c7:
+  line          #79
+  ldc.i         -10023
+  bne.case      @block_020d
+
+ block_01d7:
+  line          #80
+  ldstr         "nf4"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_020d:
+  line          #81
+  ldc.i         -10024
+  bne.case      @block_0253
+
+ block_021d:
+  line          #82
+  ldstr         "nf5"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_0253:
+  line          #83
+  ldc.i         -10025
+  bne.case      @block_0299
+
+ block_0263:
+  line          #84
+  ldstr         "nf6"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_0299:
+  line          #85
+  ldc.i         -10026
+  bne.case      @block_02df
+
+ block_02a9:
+  line          #86
+  ldstr         "nf6"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_02df:
+  line          #87
+  ldc.i         -10027
+  bne.case      @block_0325
+
+ block_02ef:
+  line          #88
+  ldstr         "nf7"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_0325:
+  line          #89
+  ldc.i         -10028
+  bne.case      @block_0380
+
+ block_0335:
+  line          #90
+  callp         $785d103f (0)
+  line          #91
+  ldstr         "思い出し"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -5
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_03d9
+
+ block_0380:
+  line          #92
+  ldc.i         -10029
+  bne.case      @block_03d9
+
+ block_0390:
+  line          #93
+  callp         $5667eb20 (0)
+  line          #94
+  ldstr         "思い出し"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -4
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  line          #95
+
+ block_03d9:
+  line          #96
+  ldc.i         0
+  ret          
+}
+
+func $f8231979() {
+ entry:
+  line          #98
+  argcheck      []
+  alloca        [int]
+  line          #102
+  ldstr         "white"
+  syscall       $sprite_create_file (1)
+  st.i          local int $c14288f9 0
+  pop          
+  bsel.1        @block_0490
+
+ block_041a:
+  bsel.2        @block_0492
+
+ block_0420:
+  line          #104
+  ldc.i         0
+  ldc.i         0
+  ld            local int $c14288f9 0
+  syscallp      $sprite_move (3)
+  line          #105
+  ldc.i         40
+  syscallp      $wait (1)
+  line          #106
+  ldc.i         500
+  ldc.i         255
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_set (3)
+  line          #107
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_wait (1)
+  line          #108
+
+ block_0490:
+  bsel.clr     
+
+ block_0492:
+  bsel.clr     
+  line          #109
+  ld            local int $c14288f9 0
+  syscallp      $sprite_release (1)
+  line          #110
+  ldc.i         0
+  ret          
+}
+
+func $413b2f3a() {
+ entry:
+  line          #111
+  argcheck      []
+  alloca        [int]
+  line          #114
+  ldstr         "white"
+  syscall       $sprite_create_file (1)
+  st.i          local int $c14288f9 0
+  pop          
+  bsel.1        @block_0561
+
+ block_04eb:
+  bsel.2        @block_0563
+
+ block_04f1:
+  line          #116
+  ldc.i         0
+  ldc.i         0
+  ld            local int $c14288f9 0
+  syscallp      $sprite_move (3)
+  line          #117
+  ldc.i         40
+  syscallp      $wait (1)
+  line          #118
+  ldc.i         500
+  ldc.i         255
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_set (3)
+  line          #119
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_wait (1)
+  line          #120
+
+ block_0561:
+  bsel.clr     
+
+ block_0563:
+  bsel.clr     
+  line          #121
+  ld            local int $c14288f9 0
+  syscallp      $sprite_release (1)
+  line          #122
+  ldc.i         0
+  ret          
+}
+
+func $8d912fa4() {
+ entry:
+  line          #123
+  argcheck      []
+  alloca        [int]
+  line          #126
+  ldstr         "red"
+  syscall       $sprite_create_file (1)
+  st.i          local int $c14288f9 0
+  pop          
+  bsel.1        @block_0630
+
+ block_05ba:
+  bsel.2        @block_0632
+
+ block_05c0:
+  line          #129
+  ldc.i         0
+  ldc.i         0
+  ld            local int $c14288f9 0
+  syscallp      $sprite_move (3)
+  line          #130
+  ldc.i         40
+  syscallp      $wait (1)
+  line          #131
+  ldc.i         500
+  ldc.i         255
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_set (3)
+  line          #132
+  ld            local int $c14288f9 0
+  syscallp      $sprite_alfa_wait (1)
+  line          #133
+
+ block_0630:
+  bsel.clr     
+
+ block_0632:
+  bsel.clr     
+  line          #134
+  ld            local int $c14288f9 0
+  syscallp      $sprite_release (1)
+  line          #135
+  ldc.i         0
+  ret          
+}
+
+func $785d103f() {
+ entry:
+  line          #144
+  argcheck      []
+  alloca        []
+  line          #145
+  ld            savefile int $398c05c2 
+  brfalse       @block_067e
+
+ block_0676:
+  ldc.i         0
+  ret          
+
+ block_067e:
+  line          #147
+  ldstr         "思い出し枠"
+  syscall       $sprite_create_file (1)
+  st.i          savefile int $398c05c2 
+  pop          
+  line          #148
+  ld            persistent int $e611b961  ; #spr@CONSOLE
+  ld            savefile int $398c05c2 
+  syscallp      $sprite_priority_low (2)
+  line          #149
+  ldc.i         255
+  ld            savefile int $398c05c2 
+  syscallp      $sprite_alfa_set (2)
+  line          #150
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $398c05c2 
+  syscallp      $sprite_move (3)
+  line          #151
+  syscall       $is_fast_mode (0)
+  brfalse       @block_0721
+
+ block_0715:
+  ldc.i         0
+  br            @block_0727
+
+ block_0721:
+  ldc.i         4000
+
+ block_0727:
+  ldc.i         0
+  ld            savefile int $398c05c2 
+  syscallp      $sprite_alfa_set (3)
+  line          #152
+  ldc.i         0
+  ret          
+}
+
+func $5725c58d(int) {
+ entry:
+  line          #153
+  argcheck      [int]
+  alloca        []
+  line          #154
+  syscall       $is_fast_mode (0)
+  brfalse       @block_0776
+
+ block_076a:
+  ldc.i         0
+  br            @block_077c
+
+ block_0776:
+  ldc.i         4000
+
+ block_077c:
+  ldc.i         255
+  ld            local int $64da103a -2
+  syscallp      $sprite_alfa_set (3)
+  line          #155
+  ld            local int $64da103a -2
+  syscallp      $sprite_alfa_wait (1)
+  line          #156
+  ld            local int $64da103a -2
+  syscallp      $sprite_release (1)
+  line          #157
+  ldc.i         0
+  ret          
+}
+
+func $5667eb20() {
+ entry:
+  line          #158
+  argcheck      []
+  alloca        []
+  line          #159
+  ld            savefile int $398c05c2 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_07fc
+
+ block_07f4:
+  ldc.i         0
+  ret          
+
+ block_07fc:
+  line          #161
+  ld            savefile int $398c05c2 
+  ldc.i         1462093197
+  syscallp      $thread_begin (2)
+  line          #162
+  ldc.i         0
+  st.i          savefile int $398c05c2 
+  pop          
+  line          #163
+  ldc.i         0
+  ret          
+}
+
+func $e406dbc4() {
+ entry:
+  line          #164
+  argcheck      []
+  alloca        []
+  line          #165
+  ld            savefile int $398c05c2 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_086a
+
+ block_0862:
+  ldc.i         0
+  ret          
+
+ block_086a:
+  line          #167
+  ldc.i         0
+  st.i          savefile int $398c05c2 
+  pop          
+  line          #168
+  callp         $785d103f (0)
+  line          #169
+  ldc.i         0
+  ret          
+}
+
+func $6f32292d() {
+ entry:
+  line          #176
+  argcheck      []
+  alloca        []
+  line          #177
+  ld            savefile int $3432599a 
+  brfalse       @block_08c4
+
+ block_08bc:
+  ldc.i         0
+  ret          
+
+ block_08c4:
+  line          #179
+  ldstr         "pants"
+  syscall       $sprite_create_file (1)
+  st.i          savefile int $3432599a 
+  pop          
+  line          #180
+  ld            persistent int $e611b961  ; #spr@CONSOLE
+  ld            savefile int $3432599a 
+  syscallp      $sprite_priority_low_single (2)
+  line          #182
+  ldc.i         255
+  ld            savefile int $3432599a 
+  syscallp      $sprite_alfa_set (2)
+  line          #183
+  syscall       $client_height (0)
+  ldstr         "pants"
+  syscall       $pic_len_y (1)
+  sub.i        
+  ldc.i         2
+  div.i        
+  syscall       $client_width (0)
+  ldstr         "pants"
+  syscall       $pic_len_x (1)
+  sub.i        
+  ldc.i         2
+  div.i        
+  ld            savefile int $3432599a 
+  syscallp      $sprite_move (3)
+  line          #184
+  ldc.i         500
+  ldc.i         0
+  ld            savefile int $3432599a 
+  syscallp      $sprite_alfa_set (3)
+  line          #185
+  ldc.i         0
+  ret          
+}
+
+func $c15be9f7() {
+ entry:
+  line          #187
+  argcheck      []
+  alloca        []
+  line          #188
+  ld            savefile int $3432599a 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_09de
+
+ block_09d6:
+  ldc.i         0
+  ret          
+
+ block_09de:
+  line          #190
+  ldc.i         500
+  ldc.i         255
+  ld            savefile int $3432599a 
+  syscallp      $sprite_alfa_set (3)
+  line          #191
+  ldc.i         500
+  syscallp      $wait (1)
+  line          #192
+  ld            savefile int $3432599a 
+  syscallp      $sprite_release (1)
+  line          #193
+  ldc.i         0
+  st.i          savefile int $3432599a 
+  pop          
+  line          #194
+  ldc.i         0
+  ret          
+}
+
+func $18a34b30() {
+ entry:
+  line          #195
+  argcheck      []
+  alloca        []
+  line          #196
+  ld            savefile int $3432599a 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_0a7a
+
+ block_0a72:
+  ldc.i         0
+  ret          
+
+ block_0a7a:
+  line          #198
+  ldc.i         0
+  st.i          savefile int $3432599a 
+  pop          
+  line          #199
+  callp         $6f32292d (0)
+  line          #200
+  ldc.i         0
+  ret          
+}
+
+func $92ae8068() {
+ entry:
+  line          #210
+  argcheck      []
+  alloca        []
+  line          #211
+  ld            savefile int $1b7b3b26 
+  brfalse       @block_0ad4
+
+ block_0acc:
+  ldc.i         0
+  ret          
+
+ block_0ad4:
+  line          #212
+  ldc.i         1
+  st.i          savefile int $1b7b3b26 
+  pop          
+  line          #213
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  ldc.i         0
+  ldc.i         0
+  ldstr         "ame01"
+  syscall       $sprite_create_file (5)
+  st.i          savefile int $a2ff6693 
+  pop          
+  line          #214
+  ldc.i         100
+  ldc.i         3
+  ldc.i         100
+  ldc.i         2
+  ldc.i         100
+  ldc.i         1
+  ldc.i         100
+  ldc.i         0
+  ld            savefile int $a2ff6693 
+  syscallp      $sprite_animate_define (9)
+  line          #215
+  ld            persistent int $e611b961  ; #spr@CONSOLE
+  ld            savefile int $a2ff6693 
+  syscallp      $sprite_priority_low_single (2)
+  line          #216
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $a2ff6693 
+  syscallp      $sprite_move (3)
+  line          #217
+  ldc.i         1
+  ldstr         "se0401"
+  callp         $$user_sound@KOEKOE (2) ; $user_sound@KOEKOE
+  line          #218
+  ldc.i         0
+  ret          
+}
+
+func $cc2a1d03() {
+ entry:
+  line          #219
+  argcheck      []
+  alloca        []
+  line          #220
+  ld            savefile int $1b7b3b26 
+  brfalse       @block_0c3d
+
+ block_0bfd:
+  line          #221
+  ld            savefile int $a2ff6693 
+  syscallp      $sprite_release (1)
+  line          #222
+  ldc.i         0
+  st.i          savefile int $1b7b3b26 
+  pop          
+  line          #223
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #224
+
+ block_0c3d:
+  line          #225
+  ldc.i         0
+  ret          
+}
+
+func $8ff0b2af() {
+ entry:
+  line          #226
+  argcheck      []
+  alloca        []
+  line          #227
+  ld            savefile int $1b7b3b26 
+  brfalse       @block_0c93
+
+ block_0c69:
+  line          #228
+  ldc.i         0
+  st.i          savefile int $1b7b3b26 
+  pop          
+  line          #229
+  callp         $92ae8068 (0)
+  line          #230
+
+ block_0c93:
+  line          #231
+  ldc.i         0
+  ret          
+}
+
+func $dc5438f0() {
+ entry:
+  line          #233
+  argcheck      []
+  alloca        []
+  line          #234
+  ld            savefile int $4bc44f50 
+  brfalse       @block_0cc7
+
+ block_0cbf:
+  ldc.i         0
+  ret          
+
+ block_0cc7:
+  line          #235
+  ldc.i         1
+  st.i          savefile int $4bc44f50 
+  pop          
+  line          #236
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  ldc.i         0
+  ldc.i         0
+  ldstr         "sepia01"
+  syscall       $sprite_create_file (5)
+  st.i          savefile int $f24012e5 
+  pop          
+  line          #237
+  ld            persistent int $e611b961  ; #spr@CONSOLE
+  ld            savefile int $f24012e5 
+  syscallp      $sprite_priority_low_single (2)
+  line          #238
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $f24012e5 
+  syscallp      $sprite_move (3)
+  line          #239
+  ldc.i         0
+  ret          
+}
+
+func $3211d1e1() {
+ entry:
+  line          #240
+  argcheck      []
+  alloca        []
+  line          #241
+  ld            savefile int $4bc44f50 
+  brfalse       @block_0dbb
+
+ block_0d8b:
+  line          #242
+  ld            savefile int $f24012e5 
+  syscallp      $sprite_release (1)
+  line          #243
+  ldc.i         0
+  st.i          savefile int $4bc44f50 
+  pop          
+  line          #244
+
+ block_0dbb:
+  line          #245
+  ldc.i         0
+  ret          
+}
+
+func $0d84641b() {
+ entry:
+  line          #246
+  argcheck      []
+  alloca        []
+  line          #247
+  ld            savefile int $4bc44f50 
+  brfalse       @block_0e11
+
+ block_0de7:
+  line          #248
+  ldc.i         0
+  st.i          savefile int $4bc44f50 
+  pop          
+  line          #249
+  callp         $dc5438f0 (0)
+  line          #250
+
+ block_0e11:
+  line          #251
+  ldc.i         0
+  ret          
+}
+
+func $3706a555(string) {
+ entry:
+  line          #256
+  argcheck      [string]
+  alloca        [string]
+  line          #260
+  ld            local int $a704bdbd -1
+  ldc.i         2
+  cge.i        
+  brfalse       @block_0e57
+
+ block_0e47:
+  ld            local string $c13ad4f9 -3
+  br            @block_0e62
+
+ block_0e57:
+  ldstr         "se0214"
+
+ block_0e62:
+  st.s          local string $429c0c19 0
+  pop          
+  line          #263
+  ld            local string $429c0c19 0
+  ldstr         ""
+  cne.s        
+  ld            local string $429c0c19 0
+  ldstr         "none"
+  cne.s        
+  andl         
+  ld            local string $429c0c19 0
+  ldstr         "音なし"
+  cne.s        
+  andl         
+  brfalse       @block_0ed7
+
+ block_0eb9:
+  line          #264
+  ld            local string $429c0c19 0
+  callp         $$user_sound3@KOEKOE (1) ; $user_sound3@KOEKOE
+  line          #265
+
+ block_0ed7:
+  line          #268
+  callp         $413b2f3a (0)
+  line          #269
+  callp         $413b2f3a (0)
+  line          #270
+  ldc.i         10
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #271
+  callp         $$trans@PIC (0) ; $trans@PIC
+  line          #272
+  ldc.i         700
+  ld            local string $096e33a6 -2
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #273
+  callp         $$trans@PIC (0) ; $trans@PIC
+  line          #274
+  ldc.i         0
+  ret          
+}
+
+func $79e8960c(int) {
+ entry:
+  line          #275
+  argcheck      [int]
+  alloca        []
+  line          #277
+  ld            local int $40e260e0 -2
+  ldstr         "black"
+  callp         $$ext_disp_back@PIC (2) ; $ext_disp_back@PIC
+  line          #278
+  ld            local int $40e260e0 -2
+  syscallp      $music_fadeout (1)
+  line          #282
+  ld            local int $40e260e0 -2
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #283
+  ldc.i         0
+  ret          
+}
+
+func $3570ae46(string) {
+ entry:
+  line          #284
+  argcheck      [string]
+  alloca        []
+  line          #285
+  ldc.i         -103
+  ld            local string $775786f4 -2
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #286
+  callp         $$trans@PIC (0) ; $trans@PIC
+  line          #287
+  callp         $$trans_wait@PIC (0) ; $trans_wait@PIC
+  line          #288
+  ldstr         "Aosumesu1"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #289
+  callp         $$sound_wait_skip@KOEKOE (0) ; $sound_wait_skip@KOEKOE
+  line          #290
+  ldc.i         0
+  ret          
+}
+
+func $1945adb8() {
+ entry:
+  line          #293
+  argcheck      []
+  alloca        []
+  line          #295
+  ld            savefile int $3fad885a 
+  br.case       @block_1077
+
+ block_1077:
+  line          #296
+  ldc.i         10
+  bne.case      @block_10ac
+
+ block_1087:
+  line          #297
+  ldstr         "７月１０日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_10ac:
+  line          #298
+  ldc.i         11
+  bne.case      @block_10e1
+
+ block_10bc:
+  line          #299
+  ldstr         "７月１１日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_10e1:
+  line          #300
+  ldc.i         12
+  bne.case      @block_1116
+
+ block_10f1:
+  line          #301
+  ldstr         "７月１２日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1116:
+  line          #302
+  ldc.i         13
+  bne.case      @block_114b
+
+ block_1126:
+  line          #303
+  ldstr         "７月１３日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_114b:
+  line          #304
+  ldc.i         14
+  bne.case      @block_1180
+
+ block_115b:
+  line          #305
+  ldstr         "７月１４日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1180:
+  line          #306
+  ldc.i         15
+  bne.case      @block_11b5
+
+ block_1190:
+  line          #307
+  ldstr         "７月１５日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_11b5:
+  line          #308
+  ldc.i         16
+  bne.case      @block_11ea
+
+ block_11c5:
+  line          #309
+  ldstr         "７月１６日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_11ea:
+  line          #310
+  ldc.i         17
+  bne.case      @block_121f
+
+ block_11fa:
+  line          #311
+  ldstr         "７月１７日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_121f:
+  line          #312
+  ldc.i         18
+  bne.case      @block_1254
+
+ block_122f:
+  line          #313
+  ldstr         "７月１８日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1254:
+  line          #314
+  ldc.i         19
+  bne.case      @block_1289
+
+ block_1264:
+  line          #315
+  ldstr         "７月１９日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1289:
+  line          #316
+  ldc.i         20
+  bne.case      @block_12be
+
+ block_1299:
+  line          #317
+  ldstr         "７月２０日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_12be:
+  line          #318
+  ldc.i         21
+  bne.case      @block_12f3
+
+ block_12ce:
+  line          #319
+  ldstr         "７月２１日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_12f3:
+  line          #320
+  ldc.i         22
+  bne.case      @block_1328
+
+ block_1303:
+  line          #321
+  ldstr         "７月２２日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1328:
+  line          #322
+  ldc.i         23
+  bne.case      @block_135d
+
+ block_1338:
+  line          #323
+  ldstr         "７月２３日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_135d:
+  line          #324
+  ldc.i         24
+  bne.case      @block_1392
+
+ block_136d:
+  line          #325
+  ldstr         "７月２４日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_1392:
+  line          #326
+  ldc.i         25
+  bne.case      @block_13c7
+
+ block_13a2:
+  line          #327
+  ldstr         "７月２５日"
+  callp         $3570ae46 (1)
+  br            @block_13fa
+
+ block_13c7:
+  line          #328
+  ldc.i         30
+  bne.case      @block_13fa
+
+ block_13d7:
+  line          #329
+  ldstr         "８月２５日"
+  callp         $3570ae46 (1)
+  line          #330
+
+ block_13fa:
+  line          #332
+  ldc.i         0
+  ret          
+}
+
+func $cbfb6fab() {
+ entry:
+  line          #334
+  argcheck      []
+  alloca        []
+  line          #335
+  syscallp      $console_off (0)
+  line          #336
+  ldc.i         1200
+  syscallp      $music_fadeout (1)
+  line          #337
+  ldc.i         1200
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #338
+  ldc.i         1200
+  syscallp      $wait (1)
+  line          #340
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #346
+  argcheck      []
+  alloca        []
+  line          #348
+  ldc.i         -1880051025
+  ldstr         "HOT_RESET"
+  syscallp      $event_hook_after (2)
+  line          #349
+  ldc.i         226780187
+  ldstr         "HOT_RESET"
+  syscallp      $event_hook_after (2)
+  line          #350
+  ldc.i         -469312572
+  ldstr         "HOT_RESET"
+  syscallp      $event_hook_after (2)
+  line          #351
+  ldc.i         413354800
+  ldstr         "HOT_RESET"
+  syscallp      $event_hook_after (2)
+  line          #353
+  ldc.i         -412188218
+  ldstr         "USER_TRANS"
+  syscallp      $event_hook (2)
+  line          #354
+  ldc.i         0
+  ret          
+}

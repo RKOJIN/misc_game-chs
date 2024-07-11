@@ -1,0 +1,157 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #18
+  text          %{L1} ; "俺が物陰に隠れたとほぼ同時に、俺が壊したフェンスの穴の方角から二人の酔っ払いが放置された建築資材を千鳥足でまたぎながら、希更のほうへ近づいてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L2} ; "【酔っ払い　２】「おいおい、そんな奥にまで行かんでもいいだろうが」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L3} ; "【酔っ払い　１】「けっ。このマンションが完成してみろ。うちから朝日が拝めなくなるんだぞ。ど真ん中でやってやらなきゃ気が収まるかってぇんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L4} ; "【酔っ払い　２】「ったく、しょうがねぇな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L5} ; "後から追いかけてきたほうはどんどん奥へ入っていく相方をよそに、その場で立ち止まる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L6} ; "【酔っ払い　２】「ヒィック……はぁあああ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L7} ; "大きなため息と共に放尿の音がし始めたのを見ると、どうやらその場で立ちションを始めたらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L8} ; "こちらに気づいている様子はないな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L9} ; "もう一人の奥へ行った男が気になるが……長居は無用だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L10} ; "そう思って俺が隠れた物陰からフェンスのほうへ歩き出そうとしたその時、奥へ行った酔っ払いが慌てたように戻ってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L11} ; "【酔っ払い　１】「おい、ちょっとこいよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L12} ; "【酔っ払い　２】「なんだよ、お前のションベンなんか見たかねぇぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L13} ; "【酔っ払い　１】「違うよ。女がいるんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L14} ; "【酔っ払い　２】「女ぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L15} ; "【酔っ払い　１】「たった今ヤられましたってカンジの女だよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L16} ; "【酔っ払い　２】「えっ？　そりゃあ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L17} ; "ゴクリと男の飲んだ生唾の音が俺が隠れている物陰にまで聞こえてくるような気がする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L18} ; "二人は目配せをするようにうなずきあうと、希更がいるほうへと脚を忍ばせて向かっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L19} ; "希更を助けようとしているのならば、足音など忍ばせる必要などないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L20} ; "ややして。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L21} ; "【酔っ払い　１】「姉ちゃん、いいもの拝ませてもらって、おじさんたちガマンできんわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  ldstr         "c0269"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #61
+  text          %{L22} ; "【希更】「えっ？　ヤダッ！　何するのっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L23} ; "【酔っ払い　２】「今楽しんだばっかりなんだろ？　おじさんたちにも楽しませてくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  ldstr         "c0270"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #66
+  text          %{L24} ; "【希更】「いっ、いやっ！　やめて。ヤメ……モゴモゴモゴモゴ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L25} ; "酔っ払いと希更の問答。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L26} ; "だがすぐに希更の声は男のどちらかに口をふさがれたのか、くぐもって聞こえなくなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L27} ; "それからペチャペチャと犬が嘗め回すような湿った音。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L28} ; "希更の状態を想像しながら、俺は男たちが希更の体に夢中になっている間に、気づかれないように工事現場を後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldc.i         0
+  ret          
+}

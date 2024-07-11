@@ -1,0 +1,510 @@
+readmark disable
+
+func $97fc7f9b(int) {
+ entry:
+  line          #23
+  argcheck      [int]
+  alloca        []
+  line          #24
+  ld            local int $532dd1f6 -2
+  br.case       @block_0021
+
+ block_0021:
+  line          #25
+  ldc.i         -10030
+  bne.case      @block_006a
+
+ block_0031:
+  line          #26
+  ldstr         "RULE01"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_006a:
+  line          #27
+  ldc.i         -10031
+  bne.case      @block_00b3
+
+ block_007a:
+  line          #28
+  ldstr         "RULE01"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_00b3:
+  line          #29
+  ldc.i         -10032
+  bne.case      @block_00fc
+
+ block_00c3:
+  line          #30
+  ldstr         "RULE02"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_00fc:
+  line          #31
+  ldc.i         -10033
+  bne.case      @block_0145
+
+ block_010c:
+  line          #32
+  ldstr         "RULE02"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0145:
+  line          #33
+  ldc.i         -10034
+  bne.case      @block_018e
+
+ block_0155:
+  line          #34
+  ldstr         "RULE03"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_018e:
+  line          #35
+  ldc.i         -10035
+  bne.case      @block_01d7
+
+ block_019e:
+  line          #36
+  ldstr         "RULE03"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_01d7:
+  line          #37
+  ldc.i         -10036
+  bne.case      @block_0220
+
+ block_01e7:
+  line          #38
+  ldstr         "RULE04"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0220:
+  line          #39
+  ldc.i         -10037
+  bne.case      @block_0269
+
+ block_0230:
+  line          #40
+  ldstr         "RULE04"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0269:
+  line          #41
+  ldc.i         -10038
+  bne.case      @block_02b2
+
+ block_0279:
+  line          #42
+  ldstr         "RULE05"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_02b2:
+  line          #43
+  ldc.i         -10039
+  bne.case      @block_02fb
+
+ block_02c2:
+  line          #44
+  ldstr         "RULE05"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_02fb:
+  line          #45
+  ldc.i         -10040
+  bne.case      @block_0344
+
+ block_030b:
+  line          #46
+  ldstr         "RULE06"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0344:
+  line          #47
+  ldc.i         -10041
+  bne.case      @block_038d
+
+ block_0354:
+  line          #48
+  ldstr         "RULE06"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_038d:
+  line          #49
+  ldc.i         -10042
+  bne.case      @block_03d6
+
+ block_039d:
+  line          #50
+  ldstr         "RULE07"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_03d6:
+  line          #51
+  ldc.i         -10043
+  bne.case      @block_041f
+
+ block_03e6:
+  line          #52
+  ldstr         "RULE07"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_041f:
+  line          #53
+  ldc.i         -10044
+  bne.case      @block_0468
+
+ block_042f:
+  line          #54
+  ldstr         "RULE08"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0468:
+  line          #55
+  ldc.i         -10045
+  bne.case      @block_04b1
+
+ block_0478:
+  line          #56
+  ldstr         "RULE08"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_04b1:
+  line          #57
+  ldc.i         -10046
+  bne.case      @block_04fa
+
+ block_04c1:
+  line          #58
+  ldstr         "RULE09"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_04fa:
+  line          #59
+  ldc.i         -10047
+  bne.case      @block_0543
+
+ block_050a:
+  line          #60
+  ldstr         "RULE09"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0543:
+  line          #61
+  ldc.i         -10048
+  bne.case      @block_058c
+
+ block_0553:
+  line          #62
+  ldstr         "RULE10"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_058c:
+  line          #63
+  ldc.i         -10049
+  bne.case      @block_05d5
+
+ block_059c:
+  line          #64
+  ldstr         "RULE10"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_05d5:
+  line          #65
+  ldc.i         -10050
+  bne.case      @block_061e
+
+ block_05e5:
+  line          #66
+  ldstr         "RULE11"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_061e:
+  line          #67
+  ldc.i         -10051
+  bne.case      @block_0667
+
+ block_062e:
+  line          #68
+  ldstr         "RULE11"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0667:
+  line          #69
+  ldc.i         -10052
+  bne.case      @block_06b0
+
+ block_0677:
+  line          #70
+  ldstr         "RULE12"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_06b0:
+  line          #71
+  ldc.i         -10053
+  bne.case      @block_06f9
+
+ block_06c0:
+  line          #72
+  ldstr         "RULE12"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_06f9:
+  line          #73
+  ldc.i         -10054
+  bne.case      @block_0742
+
+ block_0709:
+  line          #74
+  ldstr         "RULE13"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0742:
+  line          #75
+  ldc.i         -10055
+  bne.case      @block_078b
+
+ block_0752:
+  line          #76
+  ldstr         "RULE13"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_078b:
+  line          #77
+  ldc.i         -10056
+  bne.case      @block_07d4
+
+ block_079b:
+  line          #78
+  ldstr         "RULE14"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_07d4:
+  line          #79
+  ldc.i         -10057
+  bne.case      @block_081d
+
+ block_07e4:
+  line          #80
+  ldstr         "RULE14"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_081d:
+  line          #81
+  ldc.i         -10058
+  bne.case      @block_0866
+
+ block_082d:
+  line          #82
+  ldstr         "RULE15"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_0866:
+  line          #83
+  ldc.i         -10059
+  bne.case      @block_08af
+
+ block_0876:
+  line          #84
+  ldstr         "RULE15"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_08af:
+  line          #85
+  ldc.i         -10060
+  bne.case      @block_08f8
+
+ block_08bf:
+  line          #86
+  ldstr         "RULE16"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -3
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  br            @block_093f
+
+ block_08f8:
+  line          #87
+  ldc.i         -10061
+  bne.case      @block_093f
+
+ block_0908:
+  line          #88
+  ldstr         "RULE16"
+  ldc.i         0
+  ldc.i         600
+  ldc.i         1500
+  ldc.i         -2
+  callp         $$trans_only@PIC (5) ; $trans_only@PIC
+  line          #89
+
+ block_093f:
+  line          #90
+  ldc.i         0
+  ret          
+}
+
+func $e185609a() entrypoint { ; $main@USERTRANS
+ entry:
+  line          #95
+  argcheck      []
+  alloca        []
+  line          #98
+  ldc.i         -1745059941
+  ldstr         "USER_TRANS"
+  syscallp      $event_hook (2)
+  line          #99
+  ldc.i         0
+  ret          
+}

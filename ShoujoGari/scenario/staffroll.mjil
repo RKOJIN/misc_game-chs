@@ -1,0 +1,395 @@
+readmark disable
+
+func $7cd983dc() {
+ entry:
+  line          #21
+  argcheck      []
+  alloca        [int, int, int, int, int, float]
+  line          #26
+  ldc.i         600
+  ldc.i         800
+  syscall       $page_create (2)
+  st.i          local int $159c68ff 1
+  pop          
+  line          #27
+  ld            local int $159c68ff 1
+  syscall       $sprite_create (1)
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #28
+  ldc.i         3000
+  ldc.i         255
+  ldc.i         1000
+  ldc.i         255
+  ldc.i         1000
+  ldc.i         64
+  ldc.i         1000
+  ldc.i         64
+  ldc.i         1000
+  ldc.i         255
+  ldc.i         0
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_define (13)
+  line          #29
+  ldc.i         0
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #30
+  bsel.5        @block_00e8
+
+ block_00e2:
+  br            @block_0122
+
+ block_00e8:
+  bsel.clr     
+  line          #32
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #33
+  ld            local int $159c68ff 1
+  syscallp      $page_release (1)
+  line          #34
+  ldc.i         0
+  ret          
+
+ block_0122:
+  line          #36
+  syscall       $timer (0)
+  st.i          local int $283f6306 2
+  pop          
+  line          #37
+
+ block_013e:
+  ldc.i         -1
+  brfalse       @block_0292
+
+ block_014a:
+  br            @block_0156
+
+ block_0150:
+  br            @block_013e
+
+ block_0156:
+  line          #38
+  ld            local int $283f6306 2
+  ldc.i         6400
+  rem          
+  conv.r       
+  st.r          local float $7ffd9113 5
+  pop          
+  line          #39
+  ldc.r         360
+  ld            local float $7ffd9113 5
+  mul.r        
+  ldc.r         6400
+  div.r        
+  syscall       $sin% (1)
+  ldc.r         2
+  mul.r        
+  conv.i       
+  st.i          local int $099b02f1 3
+  pop          
+  line          #40
+  ld            local int $283f6306 2
+  ldc.i         3800
+  rem          
+  conv.r       
+  st.r          local float $7ffd9113 5
+  pop          
+  line          #41
+  ldc.r         360
+  ld            local float $7ffd9113 5
+  mul.r        
+  ldc.r         3800
+  div.r        
+  syscall       $cos% (1)
+  ldc.r         2
+  mul.r        
+  conv.i       
+  st.i          local int $108033b0 4
+  pop          
+  line          #43
+  ldc.i         0
+  ldc.i         0
+  ld            local int $159c68ff 1
+  ldc.i         600
+  ldc.i         800
+  ld            local int $108033b0 4
+  ld            local int $099b02f1 3
+  syscall       $get_frontbuffer (0)
+  syscallp      $grp_copy (8)
+  line          #45
+  ldc.i         50
+  ld            local int $283f6306 2
+  syscall       $timer_sync (2)
+  st.i          local int $283f6306 2
+  pop          
+  line          #46
+  br            @block_0150
+
+ block_0292:
+  line          #47
+  ldc.i         0
+  ret          
+}
+
+func $c83ce4e0() {
+ entry:
+  line          #52
+  argcheck      []
+  alloca        [int, int]
+  line          #55
+  syscallp      $mk_unwait (0)
+  line          #56
+  syscallp      $mouse_disable (0)
+  line          #58
+  ldc.i         1000
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #59
+  callp         $$trans@PIC (0) ; $trans@PIC
+  line          #61
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  syscallp      $save_menu_disable (0)
+  line          #62
+  syscallp      $reset_fast_mode (0)
+  line          #63
+  callp         $$reset_fast_disp@CONSOLE (0) ; $reset_fast_disp@CONSOLE
+  line          #64
+  syscallp      $fast_mode_disable (0)
+  line          #67
+  syscallp      $console_off (0)
+  line          #68
+  syscallp      $draw_wait (0)
+  line          #70
+  syscallp      $mk_unwait (0)
+  line          #71
+  syscallp      $b7e3e81c (0)
+  line          #73
+  ldstr         "staff01"
+  syscall       $sprite_create_file (1)
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #75
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #76
+  ldc.i         4000
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #77
+  ldc.i         0
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #78
+  ldc.i         120000
+  ldc.i         600
+  ldstr         "staff01"
+  syscall       $pic_len_y (1)
+  sub.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #80
+  ldc.i         2094629852
+  syscall       $thread_begin (1)
+  st.i          local int $3a2aa05b 1
+  pop          
+  line          #83
+  ldc.i         4000
+  syscallp      $wait (1)
+  line          #86
+  ld            persistent int $f648d61a 
+  brfalse       @block_049c
+
+ block_046a:
+  line          #87
+  syscallp      $mk_unwait (0)
+  line          #88
+  syscallp      $b7e3e81c (0)
+  line          #89
+  syscallp      $mouse_enable (0)
+  line          #90
+  bsel.x        @block_04b2
+
+ block_0498:
+  line          #91
+
+ block_049c:
+  line          #94
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+
+ block_04b2:
+  bsel.clr     
+  line          #97
+  ld            local int $3acf92c1 0
+  brfalse       @block_0502
+
+ block_04c8:
+  line          #98
+  ld            savefile int $9c805929  ; @page_back@PIC
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_paste (2)
+  line          #99
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #100
+
+ block_0502:
+  line          #102
+  syscallp      $mk_read (0)
+  line          #103
+  syscallp      $mk_unwait (0)
+  line          #105
+  ldc.i         -103
+  ldstr         "staff02"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #106
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #107
+  ldc.i         800
+  ldstr         "staff03"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #108
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #109
+  ldc.i         -103
+  ldstr         "staff04"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #110
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #111
+  ldc.i         800
+  ldstr         "staff05"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #112
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #113
+  ldc.i         -103
+  ldstr         "staff06"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #114
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #115
+  ldc.i         800
+  ldstr         "staff07"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #116
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #117
+  ldc.i         -103
+  ldstr         "staff08"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #118
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #119
+  ldc.i         800
+  ldstr         "staff09"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #120
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #121
+  ldc.i         -103
+  ldstr         "staff10"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #122
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #123
+  ldc.i         800
+  ldstr         "staff11"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #124
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #125
+  ldc.i         -103
+  ldstr         "staff12"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #126
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #127
+  ldc.i         800
+  ldstr         "staff13"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #128
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #129
+  ldc.i         -103
+  ldstr         "staff14"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #130
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         500
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #131
+  ldc.i         5002
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #133
+  ldc.i         1
+  st.i          persistent int $f648d61a 
+  pop          
+  line          #135
+  syscallp      $mk_unwait (0)
+  line          #136
+  syscallp      $mouse_disable (0)
+  line          #138
+  ldc.i         1000
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #139
+  callp         $$trans@PIC (0) ; $trans@PIC
+  line          #141
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ld            local int $3a2aa05b 1
+  syscallp      $thread_end (1)
+  line          #143
+  syscallp      $fast_mode_enable (0)
+  line          #144
+  syscallp      $mouse_enable (0)
+  line          #145
+  syscallp      $save_menu_enable (0)
+  line          #146
+  ldc.i         0
+  ret          
+}
+
+func $e104d0fc() entrypoint { ; $main@ENDING
+ entry:
+  line          #148
+  argcheck      []
+  alloca        []
+  line          #149
+  callp         $c83ce4e0 (0)
+  line          #150
+  ldc.i         0
+  ret          
+}

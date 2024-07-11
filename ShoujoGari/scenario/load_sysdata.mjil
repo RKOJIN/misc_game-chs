@@ -1,0 +1,1564 @@
+readmark disable
+
+func $3c5a1538() entrypoint { ; $main@SYSTEM
+ entry:
+  line          #13
+  argcheck      []
+  alloca        [int, string, int]
+  line          #18
+  ldstr         "sysdata.cfg"
+  syscall       $file_open (1)
+  st.i          local int $a7934f1c 0
+  pop          
+  line          #20
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $349648ae  ; #console_file_off$@SYSTEM
+  pop          
+  line          #21
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $a060182b  ; #console_file_on$@SYSTEM
+  pop          
+  line          #22
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  syscall       $strupr$ (1)
+  st.s          persistent string $fadac8dc  ; #console_file_push$@SYSTEM
+  pop          
+  line          #24
+  ld            persistent string $391053c5  ; #confont_name$@SYSTEM
+  ldstr         ""
+  ceq.s        
+  brfalse       @block_00ec
+
+ block_00c0:
+  line          #25
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $391053c5  ; #confont_name$@SYSTEM
+  pop          
+  line          #26
+  br            @block_0106
+
+ block_00ec:
+  line          #27
+  ld            local int $a7934f1c 0
+  syscallp      $file_read$ (1)
+  line          #28
+
+ block_0106:
+  line          #29
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b5788291  ; #confont_isproportional@SYSTEM
+  pop          
+  line          #30
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $65615b45  ; #confont_yl@SYSTEM
+  pop          
+  line          #31
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $bddd7da2  ; #confont_ystep@SYSTEM
+  pop          
+  line          #33
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $7e47d89c  ; #namefont_name$@SYSTEM
+  pop          
+  line          #34
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $91f701dd  ; #namefont_isproportional@SYSTEM
+  pop          
+  line          #35
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $99ee010b  ; #namefont_yl@SYSTEM
+  pop          
+  line          #37
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $93938042  ; #conall_x@SYSTEM
+  pop          
+  line          #38
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5f3980dc  ; #conall_y@SYSTEM
+  pop          
+  line          #39
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1900d0e7  ; #conall_xl@SYSTEM
+  pop          
+  line          #40
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $0e7bc4a4  ; #conall_yl@SYSTEM
+  pop          
+  line          #42
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ef3fb2b0  ; #conarea_x@SYSTEM
+  pop          
+  line          #43
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $2395b22e  ; #conarea_y@SYSTEM
+  pop          
+  line          #44
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $4acfefe5  ; #conarea_xl@SYSTEM
+  pop          
+  line          #45
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5db4fba6  ; #conarea_yl@SYSTEM
+  pop          
+  line          #47
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $255eb23b  ; #conarea_all_x@SYSTEM
+  pop          
+  line          #48
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $e9f4b2a5  ; #conarea_all_y@SYSTEM
+  pop          
+  line          #49
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $306fd44d  ; #conarea_all_xl@SYSTEM
+  pop          
+  line          #50
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $2714c00e  ; #conarea_all_yl@SYSTEM
+  pop          
+  line          #52
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1644bf89  ; #fullmode_alfa@SYSTEM
+  pop          
+  line          #54
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $42eb2de8  ; #nameall_x@SYSTEM
+  pop          
+  line          #55
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $8e412d76  ; #nameall_y@SYSTEM
+  pop          
+  line          #56
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $2fd2e2bc  ; #nameall_xl@SYSTEM
+  pop          
+  line          #57
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $38a9f6ff  ; #nameall_yl@SYSTEM
+  pop          
+  line          #59
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $d9ed80eb  ; #namearea_x@SYSTEM
+  pop          
+  line          #60
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $15478075  ; #namearea_y@SYSTEM
+  pop          
+  line          #61
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b640b5ab  ; #namearea_xl@SYSTEM
+  pop          
+  line          #62
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a13ba1e8  ; #namearea_yl@SYSTEM
+  pop          
+  line          #64
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $b20cbf53  ; #wink_file$@SYSTEM
+  pop          
+  line          #65
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $e843e5b3  ; #winkpos_x@SYSTEM
+  pop          
+  line          #66
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $24e9e52d  ; #winkpos_y@SYSTEM
+  pop          
+  line          #67
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6c9e718a  ; #wink_koma@SYSTEM
+  pop          
+  line          #68
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $268436d6  ; #wink_speed@SYSTEM
+  pop          
+  line          #69
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $716c4593  ; #wink_usehalf@SYSTEM
+  pop          
+  line          #71
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $56338d89  ; #wink_file2$@SYSTEM
+  pop          
+  line          #72
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $e9b99d73  ; #winkpos2_x@SYSTEM
+  pop          
+  line          #73
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $25139ded  ; #winkpos2_y@SYSTEM
+  pop          
+  line          #74
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ccec7660  ; #wink_koma2@SYSTEM
+  pop          
+  line          #75
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ae7b71f8  ; #wink_speed2@SYSTEM
+  pop          
+  line          #76
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a89a2c94  ; #wink_usehalf2@SYSTEM
+  pop          
+  line          #78
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $414899ca  ; #wink_file3$@SYSTEM
+  pop          
+  line          #79
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $067bf64d  ; #winkpos3_x@SYSTEM
+  pop          
+  line          #80
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $cad1f6d3  ; #winkpos3_y@SYSTEM
+  pop          
+  line          #81
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $004676fe  ; #wink_koma3@SYSTEM
+  pop          
+  line          #82
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $62d17166  ; #wink_speed3@SYSTEM
+  pop          
+  line          #83
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $64302c0a  ; #wink_usehalf3@SYSTEM
+  pop          
+  line          #85
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5f4a9dea  ; #winkpos_off_x@SYSTEM
+  pop          
+  line          #86
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $93e09d74  ; #winkpos_off_y@SYSTEM
+  pop          
+  line          #88
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $073f8bd5  ; #setumei_file$@SYSTEM
+  pop          
+  line          #89
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $c377e9fa  ; #setumei_x@SYSTEM
+  pop          
+  line          #90
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $0fdde964  ; #setumei_y@SYSTEM
+  pop          
+  line          #92
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $10b57da1  ; #butall_x@SYSTEM
+  pop          
+  line          #93
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $dc1f7d3f  ; #butall_y@SYSTEM
+  pop          
+  line          #94
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $208045d8  ; #butall_xl@SYSTEM
+  pop          
+  line          #95
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $37fb519b  ; #butall_yl@SYSTEM
+  pop          
+  line          #97
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $479d09a2  ; #butsave_x@SYSTEM
+  pop          
+  line          #98
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $8b37093c  ; #butsave_y@SYSTEM
+  pop          
+  line          #99
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b9de3c16  ; #butsave_xl@SYSTEM
+  pop          
+  line          #100
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $aea52855  ; #butsave_yl@SYSTEM
+  pop          
+  line          #102
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $55d41325  ; #butload_x@SYSTEM
+  pop          
+  line          #103
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $997e13bb  ; #butload_y@SYSTEM
+  pop          
+  line          #104
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ca10638f  ; #butload_xl@SYSTEM
+  pop          
+  line          #105
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $dd6b77cc  ; #butload_yl@SYSTEM
+  pop          
+  line          #107
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ef642ec7  ; #butback_x@SYSTEM
+  pop          
+  line          #108
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $23ce2e59  ; #butback_y@SYSTEM
+  pop          
+  line          #109
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $84ae50e6  ; #butback_xl@SYSTEM
+  pop          
+  line          #110
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $93d544a5  ; #butback_yl@SYSTEM
+  pop          
+  line          #112
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $51239b62  ; #butskip_x@SYSTEM
+  pop          
+  line          #113
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $9d899bfc  ; #butskip_y@SYSTEM
+  pop          
+  line          #114
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $22ac4034  ; #butskip_xl@SYSTEM
+  pop          
+  line          #115
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $35d75477  ; #butskip_yl@SYSTEM
+  pop          
+  line          #117
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $d396e5b8  ; #butauto_x@SYSTEM
+  pop          
+  line          #118
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1f3ce526  ; #butauto_y@SYSTEM
+  pop          
+  line          #119
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $4428ce80  ; #butauto_xl@SYSTEM
+  pop          
+  line          #120
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5353dac3  ; #butauto_yl@SYSTEM
+  pop          
+  line          #122
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $4e5aa29e  ; #butsystem_x@SYSTEM
+  pop          
+  line          #123
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $82f0a200  ; #butsystem_y@SYSTEM
+  pop          
+  line          #124
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $96b8873a  ; #butsystem_xl@SYSTEM
+  pop          
+  line          #125
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $81c39379  ; #butsystem_yl@SYSTEM
+  pop          
+  line          #127
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $71104969  ; #buterase_x@SYSTEM
+  pop          
+  line          #128
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $bdba49f7  ; #buterase_y@SYSTEM
+  pop          
+  line          #129
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b55eaa6e  ; #buterase_xl@SYSTEM
+  pop          
+  line          #130
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a225be2d  ; #buterase_yl@SYSTEM
+  pop          
+  line          #132
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $9a78fdc2  ; #butconfig_x@SYSTEM
+  pop          
+  line          #133
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $56d2fd5c  ; #butconfig_y@SYSTEM
+  pop          
+  line          #134
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $f4b1b8ba  ; #butconfig_xl@SYSTEM
+  pop          
+  line          #135
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $e3caacf9  ; #butconfig_yl@SYSTEM
+  pop          
+  line          #137
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a2cf8fd9  ; #butqsave_x@SYSTEM
+  pop          
+  line          #138
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6e658f47  ; #butqsave_y@SYSTEM
+  pop          
+  line          #139
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $7eecc624  ; #butqsave_xl@SYSTEM
+  pop          
+  line          #140
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6997d267  ; #butqsave_yl@SYSTEM
+  pop          
+  line          #142
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b086955e  ; #butqload_x@SYSTEM
+  pop          
+  line          #143
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $7c2c95c0  ; #butqload_y@SYSTEM
+  pop          
+  line          #144
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $0d2299bd  ; #butqload_xl@SYSTEM
+  pop          
+  line          #145
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1a598dfe  ; #butqload_yl@SYSTEM
+  pop          
+  line          #150
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $45f029eb  ; #skipmode@SYSTEM
+  pop          
+  line          #152
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $c130c59b  ; #autoskip_pos_x@SYSTEM
+  pop          
+  line          #153
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $0d9ac505  ; #autoskip_pos_y@SYSTEM
+  pop          
+  line          #155
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          local string $a75141c4 1
+  pop          
+  line          #156
+  ld            persistent int $45f029eb  ; #skipmode@SYSTEM
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_0e4c
+
+ block_0e26:
+  line          #157
+  ld            local string $a75141c4 1
+  syscall       $sprite_create_file (1)
+  st.i          persistent int $8f36911f  ; #skip_spr@SYSTEM
+  pop          
+  line          #158
+
+ block_0e4c:
+  line          #159
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          local string $a75141c4 1
+  pop          
+  line          #160
+  ld            persistent int $45f029eb  ; #skipmode@SYSTEM
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_0eb0
+
+ block_0e8a:
+  line          #161
+  ld            local string $a75141c4 1
+  syscall       $sprite_create_file (1)
+  st.i          persistent int $435c6204  ; #auto_spr@SYSTEM
+  pop          
+  line          #162
+
+ block_0eb0:
+  line          #164
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          local string $a75141c4 1
+  pop          
+  line          #165
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5e39ec0c  ; #num_auto_parts@SYSTEM
+  pop          
+  line          #166
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  pop          
+  line          #168
+  ld            persistent int $45f029eb  ; #skipmode@SYSTEM
+  ldc.i         2
+  ceq.i        
+  brfalse       @block_1a90
+
+ block_0f32:
+  line          #169
+  ld            local string $a75141c4 1
+  syscall       $pic_len_x (1)
+  ld            persistent int $5e39ec0c  ; #num_auto_parts@SYSTEM
+  div.i        
+  st.i          local int $4791c60d 2
+  pop          
+  line          #170
+  ld            local string $a75141c4 1
+  syscall       $pic_len_y (1)
+  ld            local int $4791c60d 2
+  syscall       $abs (1)
+  ldc.i         0
+  ldc.i         0
+  ld            local string $a75141c4 1
+  syscall       $sprite_create_file (5)
+  st.i          persistent int $435c6204  ; #auto_spr@SYSTEM
+  pop          
+  line          #171
+  ld            persistent int $5e39ec0c  ; #num_auto_parts@SYSTEM
+  br.case       @block_0fc6
+
+ block_0fc6:
+  line          #172
+  ldc.i         2
+  bne.case      @block_100e
+
+ block_0fd6:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (5)
+  br            @block_1a8c
+
+ block_100e:
+  line          #173
+  ldc.i         3
+  bne.case      @block_1066
+
+ block_101e:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (7)
+  br            @block_1a8c
+
+ block_1066:
+  line          #174
+  ldc.i         4
+  bne.case      @block_10ce
+
+ block_1076:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (9)
+  br            @block_1a8c
+
+ block_10ce:
+  line          #175
+  ldc.i         5
+  bne.case      @block_1146
+
+ block_10de:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (11)
+  br            @block_1a8c
+
+ block_1146:
+  line          #177
+  ldc.i         6
+  bne.case      @block_11ce
+
+ block_1156:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (13)
+  br            @block_1a8c
+
+ block_11ce:
+  line          #180
+  ldc.i         7
+  bne.case      @block_1266
+
+ block_11de:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (15)
+  br            @block_1a8c
+
+ block_1266:
+  line          #183
+  ldc.i         8
+  bne.case      @block_130e
+
+ block_1276:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (17)
+  br            @block_1a8c
+
+ block_130e:
+  line          #186
+  ldc.i         9
+  bne.case      @block_13c6
+
+ block_131e:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (19)
+  br            @block_1a8c
+
+ block_13c6:
+  line          #189
+  ldc.i         10
+  bne.case      @block_148e
+
+ block_13d6:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (21)
+  br            @block_1a8c
+
+ block_148e:
+  line          #192
+  ldc.i         11
+  bne.case      @block_1566
+
+ block_149e:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (23)
+  br            @block_1a8c
+
+ block_1566:
+  line          #196
+  ldc.i         12
+  bne.case      @block_164e
+
+ block_1576:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (25)
+  br            @block_1a8c
+
+ block_164e:
+  line          #200
+  ldc.i         13
+  bne.case      @block_1746
+
+ block_165e:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (27)
+  br            @block_1a8c
+
+ block_1746:
+  line          #204
+  ldc.i         14
+  bne.case      @block_184e
+
+ block_1756:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (29)
+  br            @block_1a8c
+
+ block_184e:
+  line          #208
+  ldc.i         15
+  bne.case      @block_1966
+
+ block_185e:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         14
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (31)
+  br            @block_1a8c
+
+ block_1966:
+  line          #212
+  ldc.i         16
+  bne.case      @block_1a8c
+
+ block_1976:
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         15
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         14
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $eb8bfd81  ; #time_auto_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $435c6204  ; #auto_spr@SYSTEM
+  syscallp      $sprite_animate_define (33)
+  line          #217
+
+ block_1a8c:
+  line          #218
+
+ block_1a90:
+  line          #220
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          local string $a75141c4 1
+  pop          
+  line          #221
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $d3bb485a  ; #num_skip_parts@SYSTEM
+  pop          
+  line          #222
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  pop          
+  line          #224
+  ld            persistent int $45f029eb  ; #skipmode@SYSTEM
+  ldc.i         2
+  ceq.i        
+  brfalse       @block_2670
+
+ block_1b12:
+  line          #225
+  ld            local string $a75141c4 1
+  syscall       $pic_len_x (1)
+  ld            persistent int $d3bb485a  ; #num_skip_parts@SYSTEM
+  div.i        
+  st.i          local int $4791c60d 2
+  pop          
+  line          #226
+  ld            local string $a75141c4 1
+  syscall       $pic_len_y (1)
+  ld            local int $4791c60d 2
+  syscall       $abs (1)
+  ldc.i         0
+  ldc.i         0
+  ld            local string $a75141c4 1
+  syscall       $sprite_create_file (5)
+  st.i          persistent int $8f36911f  ; #skip_spr@SYSTEM
+  pop          
+  line          #227
+  ld            persistent int $d3bb485a  ; #num_skip_parts@SYSTEM
+  br.case       @block_1ba6
+
+ block_1ba6:
+  line          #228
+  ldc.i         2
+  bne.case      @block_1bee
+
+ block_1bb6:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (5)
+  br            @block_266c
+
+ block_1bee:
+  line          #229
+  ldc.i         3
+  bne.case      @block_1c46
+
+ block_1bfe:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (7)
+  br            @block_266c
+
+ block_1c46:
+  line          #230
+  ldc.i         4
+  bne.case      @block_1cae
+
+ block_1c56:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (9)
+  br            @block_266c
+
+ block_1cae:
+  line          #231
+  ldc.i         5
+  bne.case      @block_1d26
+
+ block_1cbe:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (11)
+  br            @block_266c
+
+ block_1d26:
+  line          #233
+  ldc.i         6
+  bne.case      @block_1dae
+
+ block_1d36:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (13)
+  br            @block_266c
+
+ block_1dae:
+  line          #236
+  ldc.i         7
+  bne.case      @block_1e46
+
+ block_1dbe:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (15)
+  br            @block_266c
+
+ block_1e46:
+  line          #239
+  ldc.i         8
+  bne.case      @block_1eee
+
+ block_1e56:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (17)
+  br            @block_266c
+
+ block_1eee:
+  line          #242
+  ldc.i         9
+  bne.case      @block_1fa6
+
+ block_1efe:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (19)
+  br            @block_266c
+
+ block_1fa6:
+  line          #245
+  ldc.i         10
+  bne.case      @block_206e
+
+ block_1fb6:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (21)
+  br            @block_266c
+
+ block_206e:
+  line          #248
+  ldc.i         11
+  bne.case      @block_2146
+
+ block_207e:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (23)
+  br            @block_266c
+
+ block_2146:
+  line          #252
+  ldc.i         12
+  bne.case      @block_222e
+
+ block_2156:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (25)
+  br            @block_266c
+
+ block_222e:
+  line          #256
+  ldc.i         13
+  bne.case      @block_2326
+
+ block_223e:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (27)
+  br            @block_266c
+
+ block_2326:
+  line          #260
+  ldc.i         14
+  bne.case      @block_242e
+
+ block_2336:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (29)
+  br            @block_266c
+
+ block_242e:
+  line          #264
+  ldc.i         15
+  bne.case      @block_2546
+
+ block_243e:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         14
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (31)
+  br            @block_266c
+
+ block_2546:
+  line          #268
+  ldc.i         16
+  bne.case      @block_266c
+
+ block_2556:
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         15
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         14
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         13
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         12
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         11
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         10
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         9
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         8
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         7
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         6
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         5
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         4
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         3
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         2
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         1
+  ld            persistent int $660959d7  ; #time_skip_parts@SYSTEM
+  ldc.i         0
+  ld            persistent int $8f36911f  ; #skip_spr@SYSTEM
+  syscallp      $sprite_animate_define (33)
+  line          #273
+
+ block_266c:
+  line          #274
+
+ block_2670:
+  line          #276
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  ldstr         "CHECK_END"
+  cne.s        
+  brfalse       @block_26f8
+
+ block_269c:
+  line          #277
+  ldstr         "[ sysdata.cfg ] CHECK_ENDの時点でパラメータ数が合いません。"
+  syscallp      $dialog_error_ok (1)
+  line          #278
+  syscallp      $system_end (0)
+  line          #279
+
+ block_26f8:
+  line          #281
+  ld            local int $a7934f1c 0
+  syscallp      $file_close (1)
+  line          #283
+  ld            persistent int $b5788291  ; #confont_isproportional@SYSTEM
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2766
+
+ block_272a:
+  line          #284
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ldc.i         2
+  div.i        
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ld            persistent string $391053c5  ; #confont_name$@SYSTEM
+  syscallp      $set_font_cache (3)
+  line          #285
+  br            @block_27a4
+
+ block_2766:
+  line          #286
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ldc.i         9
+  mul.i        
+  ldc.i         20
+  div.i        
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ld            persistent string $391053c5  ; #confont_name$@SYSTEM
+  syscallp      $set_font_cache (3)
+  line          #287
+
+ block_27a4:
+  line          #288
+  ldc.i         0
+  ret          
+}

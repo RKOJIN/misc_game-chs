@@ -1,5 +1,5 @@
 cd patch
-sec5_pack.exe erondo01.sec5
-move erondo01.sec5.new release\
-del release\\erondo01.sec5
-ren release\\erondo01.sec5.new erondo01.sec5
+sec5_pack.exe "D:\misc_game-chs\koinaka_fd_chs\patch\erondo01fd.sec5"
+move erondo01fd.sec5.new release\
+del release\\erondo01fd.sec5
+ren release\\erondo01fd.sec5.new erondo01fd.sec5

@@ -8,9 +8,16 @@ with open('CODE', 'rb') as f:
     data = f.read()
 
 #这里导入galtransl生成的译文。
+
+
+
 trans_file=json.load(open("译文.json","r",encoding='utf8'))
+retrans_file=json.load(open("retrans.json","r",encoding='utf8'))
 replacement_dict={}
 for dic in trans_file:
+    replacement_dict[dic["pre_jp"]]=dic["pre_zh"]
+
+for dic in retrans_file:
     replacement_dict[dic["pre_jp"]]=dic["pre_zh"]
 
 for i in replacement_dict:#生成sjis编码不支持的汉字的替换规则
@@ -31,7 +38,11 @@ def get_plane_text(text:bytes)->bytes:
     text=re.sub(b'\xFF\x02[\x00-\xff]*?\xFF\xFF',b'',text)
     return text
 
+longerlist=[]
+id=0
+
 def dengchang(trans:bytes,ori_length:int)->bytes:
+    global id
     '''
     用于维持文本长度不变。暴力提取时文本长度改变后会闪退。
     '''
@@ -60,10 +71,12 @@ def dengchang(trans:bytes,ori_length:int)->bytes:
         while len(trans)>ori_length:
             text=text[0:-1]
             trans=text.encode(encoding='sjis')
+        longerlist.append(str(id))
     
     while len(trans)<ori_length:
         trans+=b'\x00'
     
+    id+=1
     return trans
 
 #正则匹配规则
@@ -105,3 +118,5 @@ result = re.sub(name_and_message, replace_match, data,count=0)
 with open('patch/SEC5/CODE','wb') as f:
     f.write(result)
     #之后运行bat文件完成sec5文件的封包，在release文件夹中
+
+print(','.join(longerlist))

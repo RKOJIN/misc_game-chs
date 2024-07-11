@@ -1,0 +1,232 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #19
+  text          %{L1} ; "このまま徹底的にレイプしてやる！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L2} ; "恐怖に脅える未夏の目の前で俺は得意げに笑いながら頬に口付けした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  ldc.i         700
+  ldstr         "ev34b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #23
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #25
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L3} ; "【貴城】「楽しい夜にしてやるよ。お前もたっぷりと楽しめよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  ldstr         "d0104"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #27
+  text          %{L4} ; "【未夏】「うんぐぅぅぅぅぅぅぅぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L5} ; "これから我が身に降りかかるであろう惨事に驚愕して顔面が蒼白となる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  ldc.i         700
+  ldstr         "ev34c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #32
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #34
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L6} ; "と、未夏は身体を震わせて、恐怖の余り失神してしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L7} ; "【貴城】「生のダッチワイフか！　それも悪くない。徹底的にやってやる！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L8} ; "意識の有無などもはや無関係。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L9} ; "とにかく犯して犯して犯しまくってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L10} ; "肉棒を取り出して、未夏の秘裂にあてがう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L11} ; "肉と肉が擦れる乾いた感触。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L12} ; "それでも構わずに腰に力をこめて一気に差し入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L13} ; "メリメリと膣壁と肉棒が擦れて肉を押し広げていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L14} ; "根元まで差し込むと、未夏の膣の奥にある子宮に亀頭が突き当たった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L15} ; "膣壁が激しく肉棒を擦りあげて締め付けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L16} ; "腰をゆっくりと引いてスライドさせては、もう一度突き入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L17} ; "やがて膣壁が俺の肉棒の形に広がり、馴染みだす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L18} ; "それに応じて俺のピストンは激しさを増していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L19} ; "尻を両手で抑えて無我夢中で突き上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L20} ; "ぶるんぷるんと揺れる胸にしゃぶりつきながら、俺は獣のように犯しつづけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L21} ; "擦れる膣壁の感触が俺の射精欲を刺激し始める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  ldstr         "ev34d"
+  callp         $3706a555 (1)
+  line          #61
+  text          %{L22} ; "未夏の柔らかい尻の肉を指がめり込むほど握り締めて、俺は未夏の子宮の中に精液を流し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L23} ; "流し込む精液の躍動に合わせて、未夏の肉体がビクビクと波打つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L24} ; "欲望を徹底的に注ぎ込んで、俺は余韻を楽しみながら挿入した状態で回復を待った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L25} ; "やがて肉棒が硬さを取り戻すと、また腰を動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L26} ; "放出した白濁液のおかげで今度はスムーズにピストン運動ができた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L27} ; "両手で胸をこねるように揉みしだく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L28} ; "乳首を転がして下から持ち上げるように力を加えると、意識のない未夏の肉体が反応して見るまに乳首が硬直した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L29} ; "両胸を握り締めて何度も腰を打ち付けているとまた快感が高まっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L30} ; "今度は肉棒を引き抜いて未夏の顔面を汚してやった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  ldstr         "ev34h"
+  callp         $3706a555 (1)
+  line          #78
+  text          %{L31} ; "未夏の体内と顔はこれで俺の汚液の洗礼を受けたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L32} ; "それでも俺はまだ満足することなく再度挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L33} ; "今度は全身を汚してやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L34} ; "未夏の肉体はダッチワイフというわけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L35} ; "膣を利用して快感を高めると、俺は肉棒を引き抜いて胸元に放出する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  ldstr         "ev34i"
+  callp         $3706a555 (1)
+  line          #87
+  text          %{L36} ; "飛び散る白濁液に未夏の全身が染まった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L37} ; "それは俺にとって最高の瞬間だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #91
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #93
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}

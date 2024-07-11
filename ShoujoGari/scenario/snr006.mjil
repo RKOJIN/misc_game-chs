@@ -1,0 +1,5023 @@
+readmark enable
+
+func $37345064() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #11
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #12
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #13
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #15
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "男に陵辱され、休んだ次の日からは、相葉希更は半ば意地のようにクラスに通っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #16
+  text          %{L2} ; "誰も希更の身に何かあったことなど気づきもしない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #18
+  text          %{L3} ; "そして今日も廊下にまで、いつもと変わりない明るい雰囲気が漂っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L4} ; "きっと昨日のドラマの話や、教師やクラスメートの他愛のない噂話で盛り上がっているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L5} ; "自分にはもう二度と同じには入れない世界。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L6} ; "けれどいつもと変わりない風を装うことで、何とか受け入れてもらっている世界だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L7} ; "そして希更はそれにすがっている自分を知っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L8} ; "なのに……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #29
+  ldstr         "BUP02DBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #30
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #32
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L9} ; "その日、教室に足を一歩踏み入れただけで、言い知れぬ違和感を感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L10} ; "自分が初めて左手首に包帯を巻いて登校した時よりも、激しい違和感。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L11} ; "自分が踏み入れたその一歩が、まるで何かのスイッチか何かを踏んでしまったかのように、空気が一変したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L12} ; "他愛のないクラスメート達の朝の雑談がピタリとやんで、静寂と重い空気が教室を支配していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L13} ; "影でコソコソとこちらを見ながら会話する者もいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L14} ; "それは決して好意的ではなく、侮蔑や嘲笑を混めた負の感情を持った視線だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L15} ; "『まさか……まさかあのことがみんなにばれた？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L16} ; "希更の脳裏に、葬り去りたくても葬り去ることが出来ない忌まわしい記憶が蘇る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L17} ; "もしやあの日、犯人に口止めの証拠として撮られたあの不本意極まりないセックスの写真がばら撒かれ、周知の事実としてみなに知られているのか！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L18} ; "そう考えると今にも教室から走り去り、左手首を掻き切りたい気分に陥った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L19} ; "だがそうすれば、あの日から一生懸命平然を装っていた自分がただの愚か者になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L20} ; "教室の中を進むたびに、皆の視線が、知っているぞとでも言っているかのように感じられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L21} ; "お前の秘密は全てわかっているのだ、と。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #59
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L22} ; "激しい頭痛と眩暈を覚えつつ、希更は夢遊病者のようにフラフラと自分の席に座り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  ldstr         "a0179"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #64
+  text          %{L23} ; "【愛梨】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  ldstr         "d0018x"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #70
+  text          %{L24} ; "【未夏】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L25} ; "仲のいい愛梨と未夏が何かを話しかけてきようだったが、その声は遥か遠くから聞こえてくるように感じられて、希更には何を言っているのかさえわからなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #76
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #77
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #79
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L26} ; "そして放課後。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L27} ; "希更は廊下で松岡に呼び止められた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L28} ; "陰湿ないじめと素行不良で知られる、いわゆる不良グループのリーダー的な存在で、一時期愛梨の恋人であったこともある男だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L29} ; "だが、普段の希更ならば松岡など歯牙にもかけない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L30} ; "呼び止められたところでジロリと睨みつけて、それで終了だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L31} ; "しかし……今日は勝手が違っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L32} ; "一日中針のむしろのような好奇の視線に曝され続けていた希更の態度も、勝ち誇ったような松岡の態度も。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  ldstr         "BUP02DBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #92
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0490"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #93
+  text          %{L33} ; "【希更】「あたしに……何か用？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L34} ; "精気の抜けた声でやっとの思いで応えると、松岡はその性格を現したような陰湿かつ邪悪な笑みを浮かべて１通の封筒を差し出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldstr         "c0331"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #99
+  text          %{L35} ; "【希更】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L36} ; "希更はそれが自分への死刑宣告書なのではないかと、直感した。けれど、だからといって強気な態度を崩したら最後、松岡がどのような態度に出るか簡単に予想がつく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L37} ; "お前から物を受け取ること自体汚らわしいとでも言うように、勝気な態度を崩さずに封筒を受け取ると、希更は中味を取り出して愕然とした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #108
+  ldstr         "BUP02CBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #109
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L38} ; "そこにはデジタルの画像をプリントアウトしたらしき、荒く小さな画像が何枚も納められていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L39} ; "【松岡】「いやぁ、驚いたよ。あの相葉希更がよ、ハメ撮りとかしてるんだぜ。すげぇじゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L40} ; "なんとそれは、あの男に希更のあの忌まわしい体験への口止めとして撮られた写真だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L41} ; "荒いプリント画像ではあるものの、局部から顔に到るまで、知り合いが見れば明らかに誰であるかを判別できるレベルだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  ldstr         "c0491"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #119
+  text          %{L42} ; "【希更】「な、なんであんたがこれを！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L43} ; "顔面蒼白で叫びに近い声をあげる希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L44} ; "しかし、松岡は追い討ちをかけるように得意げに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L45} ; "【松岡】「へっへっへっ、そんなことはどうだっていいだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L46} ; "【松岡】「それよりもさぁ、そんなに好き者だったんなら、俺達も楽しませてくれたっていいんじゃないかぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  ldstr         "c0492"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #129
+  text          %{L47} ; "【希更】「ば、馬鹿な……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L48} ; "【松岡】「その可愛いお口やオッパイで奉仕してくれよ。男の精液に体中どろどろにされるのが好きなんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  ldstr         "c0493"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #134
+  text          %{L49} ; "【希更】「絶対に嫌！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L50} ; "【松岡】「おいおい、希更、お前なんか勘違いしてねーか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L51} ; "決定的な証拠を突きつけられても、内心はどうあれ、強気な態度を一向に崩そうとしない希更に業を煮やしたように、松岡の決定的な一言が止めを刺す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L52} ; "【松岡】「こんなエロ写真撮るような女が、そういう態度に出れると思っちゃってるわけ？　これは命令なんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  ldstr         "BUP02DBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #143
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0494"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #144
+  text          %{L53} ; "【希更】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L54} ; "その言葉が希更にとっての死刑宣告となった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L55} ; "【松岡】「頭の悪い希更にも、やっと自分の立場が理解できたようだな。じゃ、相葉希更の楽しい奉仕タイムと洒落込もうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L56} ; "必死にすがり付くようにとっていた強気な態度を崩され、さらに写真という決定的弱みを握られた希更に、もはや選択の余地はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L57} ; "松岡に促されるままに、希更は体育倉庫へとついていくのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #155
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #156
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #158
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L58} ; "無人の体育倉庫。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L59} ; "この時間なら例え大声で叫んでも悲鳴を聞きつけられる可能性は低い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L60} ; "それは部活動でたまにここを利用している希更自身もわかっていたし、松岡自身も十二分に理解しているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L61} ; "松岡はその場の支配者の如く勝ち誇った笑みを浮かべ、希更を奴隷か何かを見るような目つきで見下ろした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L62} ; "おまけに松岡の取り巻き連中も数人居る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L63} ; "これでは希更に抵抗の余地は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L64} ; "【松岡】「ほらほら、もう逃げ場はないぜ。覚悟を決めてお前も楽しんでくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  ldstr         "BUP02BBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #171
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0495"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #172
+  text          %{L65} ; "【希更】「最低！　そんなことばっかしてるから、愛梨にふられるのよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L66} ; "希更は怒りを露にして怒鳴り返した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L67} ; "それが今彼女に出来る精一杯の反撃だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L68} ; "希更は松岡と愛梨が別れることになった原因が、松岡が夕実と浮気したことが愛梨にバレたせいだということを知っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L69} ; "そしてその為に愛梨が怒って、松岡をふる形で別れたのだということを。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L70} ; "その情報を使って少しでも動揺を誘えればと……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L71} ; "だが、松岡はまったく動じる気配はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L72} ; "【松岡】「へぇ、よく知ってるな。でもよ、捨てたのは俺だよ。愛梨の奴もそう思ってるはずだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  ldstr         "c0496"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #187
+  text          %{L73} ; "【希更】「よくもそんな嘘をぬけぬけと！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L74} ; "【松岡】「嘘なもんか、本人に聞いてみな。それよりお前、あんなに男好きならよ、なんなら俺の女にならないか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  ldstr         "c0497"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #192
+  text          %{L75} ; "【希更】「ふざけないで！　だれがあんたなんかと！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L76} ; "【松岡】「ふざけてなんかいないさ、俺はマジだぜ。まぁ、恋人付き合いが嫌なら、肉奴隷として可愛がってやるさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #198
+  ldc.i         0
+  ret          
+}
+
+func $f191ba58() {
+ entry:
+  line          #199
+  argcheck      []
+  alloca        []
+  line          #201
+  text          %{L77} ; "松岡はそう言うと、希更を体育マットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #204
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0498"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #205
+  text          %{L78} ; "【希更】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L79} ; "必死に抵抗する希更。しかし、男の力にかなうはずもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L80} ; "さらにそれが合図のように取り巻き連中も一斉に希更に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  ldstr         "c0499"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #211
+  text          %{L81} ; "【希更】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L82} ; "【松岡】「ここまで来て無駄な抵抗するなよ！　楽しんだ方が得だぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  ldstr         "c0500"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #216
+  text          %{L83} ; "【希更】「こんな、こんなことして、許されるとでも思ってるの！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L84} ; "希更は懸命に強気な態度を崩さずに声を荒げたが、連中の勢いは止まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  ldstr         "ev10b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #221
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #223
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L85} ; "松岡の手下達にあっと言う間に両手を押さえ込まれたかと思うと、両足をあられもないほど思いっきり広げられ、胸に、股間に、下着の隙間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  ldstr         "c0501"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #226
+  text          %{L86} ; "【希更】「さ、触わらないで！　あっ、嫌ぁっ、ひっ、いゃぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  text          %{L87} ; "【松岡】「口じゃそんなこと言ってるけど、乳首はもう硬くなってるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #230
+  text          %{L88} ; "【男子Ａ】「やっぱあんな変態写真を撮らせるだけあって、感じやすい身体なんだなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #232
+  text          %{L89} ; "【男子Ｂ】「へへへ……上の口は強気だけど、下の口はずいぶんと泣き虫だな。もう湿ってやがる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #234
+  ldstr         "c0502"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #235
+  text          %{L90} ; "【希更】「ひっいぃぃぃ！！！　ゆ、指ぃ、ど、どけてぇぇぇ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  text          %{L91} ; "パンティの隙間から秘部を弄る指の感触に耐え切れず、希更は激しく身体をよじった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L92} ; "だが、両足はがっちりと固定されているために、まるで淫らに男を誘っているかのように腰を動かすのが精一杯だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  text          %{L93} ; "次第にヌメヌメとした感触が股間に広がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #243
+  ldstr         "c0503"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #244
+  text          %{L94} ; "【希更】「あっ、んっあああっ、駄目、さ、触わらないで！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #246
+  text          %{L95} ; "男達の指が全身を這いまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L96} ; "頭では拒絶しても身体がそれに反応しはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  text          %{L97} ; "【松岡】「口じゃなんだかんだ言いながら、やっぱりスゲー男好きなんじゃねぇかよ。無茶苦茶感じはじめたぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #251
+  ldstr         "c0504"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #252
+  text          %{L98} ; "【希更】「ひっい、いっあ、あっあっあっふぅ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #254
+  text          %{L99} ; "抵抗を示すはずの身体の動きもいつしか愛撫の動きに合わせはじめ、秘部とアナルは男達の指を強く締め付けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #256
+  ldstr         "c0505"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #257
+  text          %{L100} ; "【希更】「ぅう……あ、あぁっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L101} ; "それでもなお、松岡は指先を駆使して希更を……希更のクリトリスを責め立て、愛液を溢れさせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  ldstr         "c0506"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #262
+  text          %{L102} ; "【希更】「こ、こん、なっ……くう！　んんんんん！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #264
+  text          %{L103} ; "舌を大きく伸ばし、わざと音を立てて乳首を舐め回しながら、松岡が希更の膣へと肉棒を挿入すると、完全に希更の理性は失われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #266
+  ldstr         "c0507"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #267
+  text          %{L104} ; "【希更】「くあっ！？　ぁああ、あう……っ、ぅぅ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #269
+  text          %{L105} ; "誰かに写真を見られたのではないかという不安定な精神状態が、輪姦されるしかない状況という結果を身をもって知ったことで、逆に安定してしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L106} ; "そしてそれは、穢れた自分を罰してくれる神の代理人であるかのようにさえ思われるようになった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #274
+  ldstr         "c0509"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #275
+  text          %{L107} ; "【希更】「ふぐぅっ、くぅ……！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #277
+  text          %{L108} ; "【男子Ｃ】「やっべ……こんなん見せ付けられたら、たまんねぇよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #279
+  text          %{L109} ; "【男子Ｄ】「おっ、俺も！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  text          %{L110} ; "今までの強気な態度を崩して、急に快楽を貪るように乱れ始めた希更に、順番待ちをしていた連中も待ちきれずアナルや口に挿入し、手にも握らせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #283
+  text          %{L111} ; "全身で、全ての穴で、希更は男達の欲望を受け止めるしかなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #285
+  ldstr         "c0510"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #286
+  text          %{L112} ; "【希更】「ふぐぅ、んっぐぁ、あっあんっぐぁ、ああああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #288
+  text          %{L113} ; "【男子Ａ】「すっげ、こんなんＡＶでも見たことないぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #290
+  text          %{L114} ; "【男子Ｂ】「これが相葉希更の……本当の姿……くぅう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #292
+  text          %{L115} ; "【松岡】「スゲー締まりもいいし、カズノコ天井って奴だぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #295
+  ldstr         "c0111"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #296
+  text          %{L116} ; "【希更】「あぁあああ……いっ、イキたい。イクゥ……イッちゃうっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  text          %{L117} ; "理性を失った肉体は貪欲に快感だけを求め、そして全ての穴を塞がれたまま、希更は全身を震わせて絶頂した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #300
+  ldc.i         0
+  ret          
+}
+
+func $3d3bbac6() {
+ entry:
+  line          #301
+  argcheck      []
+  alloca        []
+  line          #302
+  text          %{L118} ; "松岡はそう言うと、希更を体育マットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #303
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #306
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0511"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #307
+  text          %{L119} ; "【希更】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #309
+  text          %{L120} ; "希更は部活動で鍛えた並の女子以上の力で持って、必死に抵抗してみせた。しかし、いくら鍛えているところで、所詮は女の力。男の力にかなうはずもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  text          %{L121} ; "さらにそれが合図のように取り巻き連中もいっせいに希更に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #313
+  ldstr         "c0512"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #314
+  text          %{L122} ; "【希更】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #316
+  text          %{L123} ; "【松岡】「おいおい、ここまで来ておいて無駄な抵抗するなよ！　なぁ、かわいい肉奴隷ちゃん♪」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #318
+  ldstr         "c0513"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #319
+  text          %{L124} ; "【希更】「こんな、こんなことして、許されるとでも思ってるの！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #321
+  text          %{L125} ; "懸命にいつもの強気を保って声を荒立てたが、連中の勢いは止まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #323
+  ldstr         "ev10a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #324
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #326
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L126} ; "あっという間に両手を押さえ込まれ、両足はあられもないほど大きく広げられ、胸に、股間に、下着の隙間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #328
+  ldstr         "c0514"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #329
+  text          %{L127} ; "【希更】「さ、触らないで！　あっ、嫌ぁっ、ひっ、いゃぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #331
+  text          %{L128} ; "しかし、その感触は希更に忌まわしい記憶を思い出させるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #333
+  text          %{L129} ; "セックス＝罰であり、穢れ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #334
+  text          %{L130} ; "それが現在のセックスへの認識だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #336
+  text          %{L131} ; "いつもの強気な態度も消えうせて、激しい恐怖の為に希更は、まともにしゃべることも出来なくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #338
+  text          %{L132} ; "面白半分に全身をまさぐる松岡だが、希更は身体をガタガタと震わせているだけで、濡れる気配すらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #340
+  text          %{L133} ; "【松岡】「おいおい、あんな写真を撮らせた肉奴隷が、感じないっていうのか？　冗談だろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #342
+  ldstr         "c0515"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #343
+  text          %{L134} ; "【希更】「や、やめて……もう、許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #345
+  text          %{L135} ; "【松岡】「誰がやめるかよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #347
+  text          %{L136} ; "松岡は自分の肉棒を取り出すと、希更の秘部に当てて一気に押し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #349
+  ldstr         "c0516"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #350
+  text          %{L137} ; "【希更】「ひぅんっぐぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #352
+  text          %{L138} ; "だが、恐怖に支配されてまったく濡れていない秘部への挿入は、松岡にも激しい苦痛をもたらした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #354
+  text          %{L139} ; "希更は何かがプツンと切れる音を感じる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #355
+  text          %{L140} ; "それは希更の膣内が傷つけられた音だったのか、それともかろうじて保っていた意識の糸だったのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #357
+  text          %{L141} ; "結局希更は感じることもなく、かといって松岡達に抵抗するわけでもなく、機械的に反応するだけの状態と化した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #359
+  text          %{L142} ; "【松岡】「ちっ、なんだよ。あんな淫乱写真を撮らせるような淫乱女のクセに……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #361
+  text          %{L143} ; "【男子Ｃ】「ＡＶの輪姦物と違うよなぁ。つまんねぇよ、これ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #363
+  text          %{L144} ; "【男子Ａ】「やり方がまずかったんじゃねぇの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #365
+  text          %{L145} ; "【松岡】「俺のテクニック不足だとでも言うのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #367
+  text          %{L146} ; "【男子Ａ】「えっ？　いや、そんなことは言ってないけどよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #369
+  text          %{L147} ; "【男子Ｂ】「だけどこのまんまだと、ホントどうしようもないぜ。なんか人形とやってるみたいで薄気味悪いじゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #371
+  text          %{L148} ; "【松岡】「とにかくここまできたら、最後までやるしかないだろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #373
+  text          %{L149} ; "【男子Ｂ】「わかったよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #375
+  text          %{L150} ; "松岡に叱咤され、男達はしぶしぶ希更の身体に覆い被さる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #376
+  text          %{L151} ; "胸を揉み、首筋に舌を這わせ、アナルを舐めまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #378
+  text          %{L152} ; "希更は何処も見ていない虚ろな目をしたまま、それを人形のようにただひたすら無反応に受け止めるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #380
+  ldc.i         0
+  ret          
+}
+
+func $62331420() {
+ entry:
+  line          #384
+  argcheck      []
+  alloca        []
+  line          #386
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #387
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #388
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #390
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L153} ; "一歩足を踏み入れた途端、いつもと異なる教室の空気に愛梨は戸惑いを感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #392
+  text          %{L154} ; "上流階級の育ちであり、元々同級生とは多少異なる環境に身を置く彼女。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #394
+  text          %{L155} ; "だが、今まではそれでも同じクラスメイトとして校内では上手く溶け込んでやってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #396
+  text          %{L156} ; "それなりに友人もつくり、学生生活を楽しんでいたはずだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #398
+  text          %{L157} ; "しかし、今朝のこの空気はなんだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #400
+  text          %{L158} ; "まるで自分が招かれざる客のように……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #401
+  text          %{L159} ; "自分の存在で空気が変異していく感覚。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #403
+  text          %{L160} ; "好意ではなく、侮蔑や嘲笑を混めた負の感情を持つ視線。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #405
+  text          %{L161} ; "今すぐ頭を抱えてうずくまりたい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #406
+  text          %{L162} ; "そんな衝動に駆られるほど、それは熾烈なものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #408
+  text          %{L163} ; "『まさかあのことがみんなにばれた？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #410
+  text          %{L164} ; "同時に愛梨の脳裏に忌まわしい記憶が蘇る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #411
+  text          %{L165} ; "不安と恐怖に全身が小刻みに震えて総毛立つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #413
+  text          %{L166} ; "恥辱にまみれたあの不本意極まりないセックスの写真がばら撒かれ、周知の事実となっているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #415
+  text          %{L167} ; "もし、そうだとしたら……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #416
+  text          %{L168} ; "だが、それだからこそ、気丈に耐えなければならなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #418
+  text          %{L169} ; "注がれた視線に耐えて毅然とした態度でふるまわなければそれこそ事実を受け入れてしまう事になるから……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #420
+  text          %{L170} ; "それが愛梨の出来る、今精一杯の抵抗だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #422
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #423
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #424
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #426
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L171} ; "そして放課後。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #427
+  text          %{L172} ; "愛梨は廊下で松岡に呼び止められた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #429
+  text          %{L173} ; "不良グループのリーダー的な存在で、そのワイルドな雰囲気に一時期好意を抱き、交際していた事もある男だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #431
+  text          %{L174} ; "上辺だけのくだらない魅力に釣られた若気の至り。愛梨にとっては消してしまいたい過去の一つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #433
+  ldstr         "BUP03Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #435
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0403"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #436
+  text          %{L175} ; "【愛梨】「私に……何か用？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #438
+  text          %{L176} ; "だからこそ弱みを見せまいと精一杯の勇気をだして答えてみせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #440
+  text          %{L177} ; "しかし、松岡はその性格を現したような陰湿かつ邪悪な笑みを浮かべて１通の封筒を差し出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #441
+  text          %{L178} ; "そこにはデジタルの画像をプリントした荒く小さな画像が何枚も納められていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #443
+  text          %{L179} ; "【松岡】「おまえがそんな大胆な女だとは知らなかったぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #445
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #446
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0404"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #447
+  text          %{L180} ; "【愛梨】「な、なんであんたがこれを！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #449
+  text          %{L181} ; "顔面蒼白で叫びに近い声をあげる愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #450
+  text          %{L182} ; "しかし、松岡は追い討ちをかけるように得意げに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #452
+  text          %{L183} ; "【松岡】「おまえなぁ、こんな変態丸出しのことをしてるのに俺のこと、浮気を理由に責められるようなタマかぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #454
+  ldstr         "BUP03Bu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #455
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0405"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #456
+  text          %{L184} ; "【愛梨】「あなたのお粗末なモノじゃ、物足りなかったのよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #458
+  text          %{L185} ; "愛梨のささやかな抵抗の一言。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #459
+  text          %{L186} ; "そんな彼女にネズミをいたぶるネコのように松岡は追い討ちをかけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #461
+  text          %{L187} ; "【松岡】「俺がお粗末なんじゃなくて、おまえがガバガバ過ぎるんだよ。一本じゃ物足りないだろ？　俺たちの肉棒全部くれてやるよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #463
+  ldstr         "a0406"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #464
+  text          %{L188} ; "【愛梨】「絶対に嫌！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #466
+  text          %{L189} ; "【松岡】「おいおい、なんか勘違いしてねーか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #468
+  text          %{L190} ; "【松岡】「俺はお願いしてるんじゃないぜ。これは命令だよ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #470
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #471
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0407"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #472
+  text          %{L191} ; "【愛梨】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #474
+  text          %{L192} ; "その言葉が愛梨にとっての死刑宣告となった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #476
+  text          %{L193} ; "【松岡】「やっと立場が理解できたようだな。じゃ大野愛梨の楽しい奉仕タイムと洒落込もうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #478
+  text          %{L194} ; "抵抗する気力も失せた愛梨は松岡に促されるままに、体育倉庫へとついていくのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #480
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #481
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #482
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #484
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L195} ; "放課後の体育倉庫。人気の途絶えたこの場所は悲鳴さえ誰にも届かない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #486
+  text          %{L196} ; "取り巻き連中を引き連れた松岡は皇帝のような態度で勝ち誇った笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #488
+  text          %{L197} ; "気の迷いとはいえ、こんな男と一時交際したなんて……自分の愚かさをひたすらに呪う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #490
+  text          %{L198} ; "【松岡】「さあ、楽しくやろうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #492
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #494
+  ldc.i         0
+  ret          
+}
+
+func $80753895() {
+ entry:
+  line          #495
+  argcheck      []
+  alloca        []
+  line          #497
+  text          %{L199} ; "愛梨の葛藤を無視してそう言うと、獣のような本性を剥き出しにして松岡は彼女を押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #499
+  ldstr         "a0408"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #500
+  text          %{L200} ; "【愛梨】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #502
+  text          %{L201} ; "【松岡】「いまさら知らない仲でもないだろう。思いっきり楽しめよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #504
+  text          %{L202} ; "さらにそれが合図のように取り巻き連中も一斉に愛梨の身体に群がった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #506
+  ldstr         "a0409"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #507
+  text          %{L203} ; "【愛梨】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #509
+  text          %{L204} ; "懸命な抵抗も空しく、愛梨は簡単に組み伏せられてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #510
+  text          %{L205} ; "餓えた獣のような連中にとってお嬢様育ちの清楚な雰囲気と豊満な肉体は格好の獲物だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #512
+  ldstr         "ev24b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #513
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #515
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L206} ; "【松岡】「諦めろよ。叫んだって誰もこないぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #516
+  ldstr         "a0410"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #517
+  text          %{L207} ; "【愛梨】「こんな、こんなことして、許されるとでも思ってるの！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #519
+  text          %{L208} ; "背後にまわった男の両手が乱暴に左右の胸を鷲掴みにする。つづけて下着の隙間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #521
+  ldstr         "a0411"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #522
+  text          %{L209} ; "【愛梨】「さ、触らないで！　あっ、嫌ぁっ、ひっ、いゃぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #524
+  text          %{L210} ; "上着をめくられ、ブラを剥ぎ取られると剥き出しになった胸がぷるぷると揺れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #526
+  text          %{L211} ; "それを松岡は両手で揉みしだきながら、大きめな乳輪に舌を這わせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #528
+  text          %{L212} ; "【松岡】「おやおや、乳首はもう硬くなってるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #530
+  text          %{L213} ; "【男子Ａ】「すげー柔らかい胸だぜ。まるでマシュマロだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #532
+  text          %{L214} ; "ぬるりとした感触が乳首と乳輪を這い回る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #533
+  text          %{L215} ; "痺れたような感覚に愛梨の身体が震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #536
+  ldstr         "a0065"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #537
+  text          %{L216} ; "【愛梨】「うっくぅ、ふぅっあっぁっぁぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #540
+  text          %{L217} ; "【男子Ｂ】「おっ、下のお口が湿ってきたぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #542
+  ldstr         "a0412"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #543
+  text          %{L218} ; "【愛梨】「ひっいぃぃぃ！！！　ゆ、指ぃ、ど、どけてぇぇぇ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #545
+  text          %{L219} ; "パンティの隙間から秘部を弄る指の感触に耐え切れず、愛梨は激しく身体をよじった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #547
+  text          %{L220} ; "本人の意思とは裏腹にヌメヌメとした感触が股間に広がっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #549
+  ldstr         "a0413"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #550
+  text          %{L221} ; "【愛梨】「あっ、んっあああっ、駄目、さ、さわらないで！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #552
+  text          %{L222} ; "男達の指が全身を這いまわる感触に、頭では拒絶しても身体が顕著に反応を示す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #554
+  text          %{L223} ; "【松岡】「とんでもない変態だな。めちゃくちゃ感じまくってるぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #556
+  ldstr         "a0414"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #557
+  text          %{L224} ; "【愛梨】「ひっい、いっあ、あっあっあっふぅ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #559
+  text          %{L225} ; "気がつけば下着を剥ぎ取られ、秘裂にも男たちの指が深く食い込んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #561
+  ldstr         "a0415"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #562
+  text          %{L226} ; "【愛梨】「ぅう……あ、あぁっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #564
+  text          %{L227} ; "それが動けば動くほどに敏感に反応して締め付けていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #566
+  text          %{L228} ; "それでもなお、松岡は指先を駆使して愛梨を責め立て、愛液を溢れさせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #568
+  ldstr         "a0416"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #569
+  text          %{L229} ; "【愛梨】「こ、こん、なっ……くう！　んんんんん！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #571
+  text          %{L230} ; "犯されていく快感に愛梨の理性は完全に失われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #573
+  ldstr         "a0417"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #574
+  text          %{L231} ; "【愛梨】「くあっ！？　ぁああ、あう……っ、ぅぅ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #578
+  ldstr         "a0418"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #579
+  text          %{L232} ; "【愛梨】「ふぐぅっ、くぅ……！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #581
+  text          %{L233} ; "順番を待つ連中も我慢しきれなくなってついにはアナルや口に肉棒を挿入し、手にも握らせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #582
+  text          %{L234} ; "愛梨はそれを受け入れ、胸の谷間にはさみこみ、自ら奉仕を行い始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #585
+  ldstr         "a0074"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #586
+  text          %{L235} ; "【愛梨】「ひぃっいいい、あっひぃ、いいっ、ああっいいいっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #589
+  text          %{L236} ; "全身全霊で男たちの欲望を受け止め、夢中で身体を動かしつづける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #591
+  text          %{L237} ; "【男子Ｂ】「すげぇ、吸い付いてきやがるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #593
+  text          %{L238} ; "【男子Ｃ】「アナルもすげぇ締め付けだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #596
+  ldstr         "a0076"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #597
+  text          %{L239} ; "【愛梨】「ふぅっあ、あっぁぁぁっあああ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #599
+  text          %{L240} ; "膣を突き上げられるとそれにあわせて肛門が締まり、肛門をねじ広げられると今度は膣壁が激しく痙攣する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #601
+  text          %{L241} ; "刺激と快感に連鎖して愛梨の快感は無尽蔵に増幅した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #603
+  text          %{L242} ; "【松岡】「最高にエロイ身体だな。何発でもブチかませそうだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #605
+  text          %{L243} ; "快感の高まった松岡が愛梨の膣内へと精液を放出する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #607
+  text          %{L244} ; "子宮に注がれた熱い感触に愛梨は身体をゆすって反応した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #610
+  ldstr         "a0078"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #611
+  text          %{L245} ; "【愛梨】「ふぅっぁぁぁっぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #614
+  text          %{L246} ; "【男子Ｃ】「俺も、限界だぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #616
+  text          %{L247} ; "続いて尻を征服していた男が直腸へと精液を流し込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #619
+  ldstr         "a0071"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #620
+  text          %{L248} ; "【愛梨】「うっ、うっくぅ、んっぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #623
+  text          %{L249} ; "肛門に広がる熱い感触を愛梨は腸内へと吸い上げるように受け止めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #626
+  ldstr         "a0061"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #627
+  text          %{L250} ; "【愛梨】「うっくぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #630
+  text          %{L251} ; "すかさず今度は両手に握られた肉棒が限界へと達して、愛梨の顔面へ白液を放出する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #632
+  text          %{L252} ; "それでもなお絶え間なく続く欲望の攻めに愛梨の意識は朦朧となる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #635
+  ldstr         "a0066"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #636
+  text          %{L253} ; "【愛梨】「はぁっあっ、あっふぅ、んっぁっあああ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #639
+  text          %{L254} ; "【松岡】「おら、二発めいくぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #641
+  text          %{L255} ; "それでも松岡は容赦なく肉棒を突き入れると乱暴に愛梨の膣壁を擦り上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #644
+  ldstr         "a0419"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #645
+  text          %{L256} ; "【愛梨】「ふぐぅ、んっぐぁ、あっあんっぐぁ、ああああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #647
+  text          %{L257} ; "愛梨は理性を失ったまま、肉体の作り出す快感に酔いしれて、全ての穴を塞がれたまま、絶頂を繰り返し続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #649
+  ldc.i         0
+  ret          
+}
+
+func $4cdf380b() {
+ entry:
+  line          #652
+  argcheck      []
+  alloca        []
+  line          #653
+  text          %{L258} ; "愛梨の葛藤を無視してそう言うと、獣のような本性を剥き出しにして松岡は彼女を押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #656
+  ldstr         "a0420"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #657
+  text          %{L259} ; "【愛梨】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #659
+  text          %{L260} ; "懸命な抵抗も空しく簡単に組み敷かれていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #661
+  ldstr         "ev24a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #662
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #664
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0421"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #665
+  text          %{L261} ; "【愛梨】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #667
+  text          %{L262} ; "【松岡】「叫んだところで誰もきやしないぜ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #668
+  ldstr         "a0422"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #669
+  text          %{L263} ; "【愛梨】「こんな、こんなことして、許されるとでも思ってるの！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #671
+  text          %{L264} ; "懸命に声を荒立てたが、連中の勢いは止まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #672
+  text          %{L265} ; "背後にまわった男の両手が乱暴に左右の胸を鷲掴みにする。つづけて下着の隙間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #674
+  text          %{L266} ; "恐怖の為に愛梨はまともにしゃべることも出来なくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #676
+  text          %{L267} ; "面白半分に全身をまさぐる松岡だが、愛梨は無言のまま身体を震わせているだけで、濡れる気配すらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #678
+  text          %{L268} ; "【松岡】「なんだよ、感じないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #681
+  ldstr         "a0420"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #682
+  text          %{L269} ; "【愛梨】「や、やめて……もう、許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #684
+  text          %{L270} ; "【松岡】「誰がやめるかよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #686
+  text          %{L271} ; "松岡は自分の肉棒を取り出すと、愛梨の秘部に当てて一気に押し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #689
+  ldstr         "a0425"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #690
+  text          %{L272} ; "【愛梨】「ひぅんっぐぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #692
+  text          %{L273} ; "だが、まったくぬれていない秘部への挿入は松岡にも苦痛をもたらした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #695
+  ldstr         "a0425"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #696
+  text          %{L274} ; "【愛梨】「ぃっぎぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #699
+  text          %{L275} ; "松岡が乱暴に腰を打ち付けると苦しそうに顔を歪める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #701
+  text          %{L276} ; "他の男たちも懸命に胸を揉んで肛門に指を差し込んだが、反応に変化はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #704
+  ldstr         "a0027"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #705
+  text          %{L277} ; "【愛梨】「ひぃぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #708
+  text          %{L278} ; "結局愛梨は感じることもなく、かといって抵抗するわけでもなく、機械的な反応を示すだけの状態と化した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #710
+  text          %{L279} ; "【松岡】「ちっ、ＡＶと違うなぁ。つまんねぇよこれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #712
+  text          %{L280} ; "【男子Ａ】「やり方がまずかったんじゃねぇの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #714
+  text          %{L281} ; "【松岡】「俺のテクニック不足だとでも言うのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #716
+  text          %{L282} ; "【男子Ｂ】「いや、そうじゃねぇけどさぁ、このまんまだとどうしようもないぜ。」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #718
+  text          %{L283} ; "【松岡】「とにかくここまできたらやるしかないだろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #720
+  text          %{L284} ; "【男子Ｂ】「判ったよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #722
+  text          %{L285} ; "松岡に叱咤され、男達はしぶしぶ愛梨の身体に覆い被さる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #723
+  text          %{L286} ; "胸を揉み、首筋に舌を這わせ、アナルを舐めまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #726
+  ldstr         "a0030"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #727
+  text          %{L287} ; "【愛梨】「ひっいっ、いぃっぃぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #730
+  text          %{L288} ; "しかしそれでも男たちを喜ばすような変化は無い。肉棒を突き入れている松岡も快感よりは乾いた肉の擦れる痛みのほうが強いほどだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #733
+  ldstr         "a0031"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #734
+  text          %{L289} ; "【愛梨】「ひっぐぅ、ひっぐっうぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #737
+  text          %{L290} ; "【松岡】「クソ、全然もりあがらねーな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #739
+  text          %{L291} ; "【男子Ａ】「なんかやるだけ無駄な気がするぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #740
+  text          %{L292} ; "人形のようにただひたすら無反応のまま受け止める愛梨に松岡たちは苛立だちを募らせていくだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #743
+  ldc.i         0
+  ret          
+}
+
+func $3ee51761() {
+ entry:
+  line          #747
+  argcheck      []
+  alloca        []
+  line          #749
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #750
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #751
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #754
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L293} ; "いつもと違う教室の雰囲気は一歩足を踏み入れた途端、肌でヒシヒシと感じ取れるほど顕著なものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #756
+  text          %{L294} ; "明るく能天気な彼女でも、さすがにこの教室の雰囲気だけは容認しがたいものがあった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #758
+  text          %{L295} ; "互いに声を潜め、冷たい侮蔑や嘲笑をこめた負の視線が注がれていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #760
+  text          %{L296} ; "『皆どうしたんだろう？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #767
+  text          %{L297} ; "不思議に思いながら、未夏は静かに自分の席へとついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #769
+  text          %{L298} ; "周囲を取り巻く全てから取り残されたような疎外感に未夏は呆然としていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #771
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #772
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #773
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #775
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L299} ; "そして放課後。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #776
+  text          %{L300} ; "フラフラと教室を出た未夏は廊下で松岡に呼び止められた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #778
+  text          %{L301} ; "友人の愛梨と以前交際していた不良グループのリーダー格の男である。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #780
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #782
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0213"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #783
+  text          %{L302} ; "【未夏】「私に……何か用？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #785
+  text          %{L303} ; "気の抜けた声で応えると、松岡は残忍な笑みを浮かべて１通の封筒を差し出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #787
+  text          %{L304} ; "未夏はそれを夢うつつのように力なく受け取ると、中味を見て愕然とした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #789
+  text          %{L305} ; "全く心当たりはないのだが、どう見ても自分としか思えない人物が写っている淫らな写真だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #790
+  text          %{L306} ; "それは悪戯にしても出来が良さすぎた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #791
+  text          %{L307} ; "これを見て、でっちあげだと信じてくれる人はいないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #794
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #795
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0214"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #796
+  text          %{L308} ; "【未夏】「な、なんであんたがこれを！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #798
+  text          %{L309} ; "悲鳴に近い声をあげる未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #799
+  text          %{L310} ; "それを松岡は鼻で笑い飛ばす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #801
+  text          %{L311} ; "【松岡】「フッ、そんなことは大して重要じゃないだろ？　それよりもさぁ、そんなに好き者だったらもっと早く俺達に言ってくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #803
+  text          %{L312} ; "こんなことを言うということは、松岡がこの合成写真を作ったわけではないのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #804
+  text          %{L313} ; "松岡もこれを本物だと信じているのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #805
+  text          %{L314} ; "未夏の頭は混乱する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #807
+  text          %{L315} ; "【松岡】「たっぷり可愛がってやるぜ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #809
+  ldstr         "d0215"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #810
+  text          %{L316} ; "【未夏】「ば、馬鹿な……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #812
+  text          %{L317} ; "【松岡】「その可愛いお口やオッパイで奉仕してくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #814
+  ldstr         "d0216"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #815
+  text          %{L318} ; "【未夏】「絶対に嫌！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #817
+  text          %{L319} ; "【松岡】「おいおい、俺は別にお前に頼んでいるわけじゃないんだぜ。この意味分かるよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #819
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #820
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0217"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #821
+  text          %{L320} ; "【未夏】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #823
+  text          %{L321} ; "松岡のその言葉に未夏は一切の反論を封じられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #825
+  text          %{L322} ; "【松岡】「やっと立場が理解できたようだな。じゃ二宮未夏の楽しい奉仕タイムと洒落込もうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #827
+  text          %{L323} ; "選択の余地を失った未夏は、松岡に促されるままに体育倉庫へと付いて行くのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #829
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #830
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #831
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #833
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L324} ; "放課後の体育倉庫に人影は無い。この時間なら例え大声で叫んでも悲鳴は誰にも届かないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #834
+  text          %{L325} ; "それを理解している松岡は得意げな面持ちで勝ち誇った笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #836
+  text          %{L326} ; "さらにそこには松岡の取り巻き連中も数人控えている。既に蜘蛛の糸に絡みとられた蝶同様に、逃げる事さえ許されない状況だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #838
+  text          %{L327} ; "【松岡】「さあリラックスして楽しもうぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #840
+  ldstr         "d0218"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #841
+  text          %{L328} ; "【未夏】「ふざけないで！　だれがあんたなんかと！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #843
+  text          %{L329} ; "【松岡】「ふざけてなんかいないさ、俺はマジだぜ。肉奴隷として可愛がってやるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #845
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #847
+  ldc.i         0
+  ret          
+}
+
+func $81f29f90() {
+ entry:
+  line          #848
+  argcheck      []
+  alloca        []
+  line          #850
+  text          %{L330} ; "松岡は未夏の細い肩を掴むと乱暴にマットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #852
+  ldstr         "d0219"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #853
+  text          %{L331} ; "【未夏】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #855
+  text          %{L332} ; "懸命に抵抗を示すものの背後から腕をつかまれうつぶせに組み敷かれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #856
+  text          %{L333} ; "さらにそれが合図のように取り巻き連中も一斉に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #858
+  ldstr         "d0220"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #859
+  text          %{L334} ; "【未夏】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #861
+  text          %{L335} ; "【松岡】「諦めの悪いやつだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #864
+  ldstr         "d0033"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #865
+  text          %{L336} ; "【未夏】「や、やめ……ひっ、いゃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #868
+  text          %{L337} ; "腕を抑えられ、スカートがまくられると、下着を乱暴にずり下ろされる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #870
+  text          %{L338} ; "露になった秘部に男たちの指が食い込んでいく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #871
+  ldstr         "d0034"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #872
+  text          %{L339} ; "【未夏】「ぁっ、ひっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #875
+  ldstr         "ev41b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #876
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #878
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L340} ; "上着をまくられ、ブラを剥ぎ取ると、松岡の手が乱暴に揉みしだきだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #881
+  ldstr         "d0222"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #882
+  text          %{L341} ; "【未夏】「さ、触らないで！　あっ、嫌ぁっ、ひっ、いゃぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #884
+  text          %{L342} ; "【松岡】「おやおや、乳首はもう硬くなってるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #887
+  ldstr         "d0049"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #888
+  text          %{L343} ; "【未夏】「や、やめて、さ、さわらなぃんんんん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #891
+  text          %{L344} ; "乳首を転がすように動く松岡の手の中で、中央の突起がみるみる硬さを帯びていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #893
+  text          %{L345} ; "【男子Ａ】「感じやすい身体なんじゃねーの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #894
+  text          %{L346} ; "さらに肛門に指をねじ込まれて、未夏は全身を仰け反らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #896
+  ldstr         "ev41c"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #897
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #900
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0052"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #901
+  text          %{L347} ; "【未夏】「あっ、やっぁ、やっぁっあああっひぃ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #904
+  text          %{L348} ; "肛門に侵入する指の感触に、未夏の意思を無視して秘部が熱く疼きだす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #906
+  text          %{L349} ; "【男子Ｂ】「下のお口が湿ってきたぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #908
+  text          %{L350} ; "ぬるりとした感触が広がって男の１人が面白半分に膣を乱暴に押し広げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #911
+  ldstr         "d0223"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #912
+  text          %{L351} ; "【未夏】「ひっいぃぃぃ！！！　ゆ、指ぃ、ど、どけてぇぇぇ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #914
+  text          %{L352} ; "前と後ろの穴に侵入する指の感触に未夏は身体を激しくよじる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #916
+  text          %{L353} ; "だが、全身を固定されているため腰を動かすのが精一杯のまま、快感だけが肉体に広がった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #918
+  text          %{L354} ; "【松岡】「ケツを弄られて感じてやがるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #920
+  text          %{L355} ; "【男子Ａ】「肛門が指をしめつけてくるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #922
+  text          %{L356} ; "【松岡】「本当は気持ちよくてたまらないんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #925
+  ldstr         "d0036"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #926
+  text          %{L357} ; "【未夏】「そ、そんな……こ、事………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #929
+  text          %{L358} ; "【男子Ｂ】「とぼけるなよ。もうマ○コがダラダラだぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #932
+  ldstr         "d0224"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #933
+  text          %{L359} ; "【未夏】「あっ、んっあああっ、駄目、さ、触らないで！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #935
+  text          %{L360} ; "秘部をかき回す指から逃れようと腰を引くと、後ろの指がより深く肛門へと侵入する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #938
+  ldstr         "d0039"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #939
+  text          %{L361} ; "【未夏】「いっ、んっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #942
+  text          %{L362} ; "それを逃れようと動くと今度は秘部の指がより深く膣内をかき回した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #945
+  ldstr         "d0041"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #946
+  text          %{L363} ; "【未夏】「ふっう、うっぅ、ひっぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #949
+  text          %{L364} ; "【男子Ｂ】「おら、口で奉仕しろよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #952
+  ldstr         "d0050"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #953
+  text          %{L365} ; "【未夏】「うんむぅ、うんふむぅぅぅぅぅぅっんっぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #956
+  text          %{L366} ; "さらに今度は口内に肉棒を差し込まれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #958
+  ldstr         "d0051"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #959
+  text          %{L367} ; "【未夏】「ふぅん、んっんっんっんんんっぱぁ、ふぁはぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #962
+  text          %{L368} ; "【男子Ｂ】「可愛いお口で咥えてやがるぜ。舌が絡みついてくるぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #965
+  ldstr         "d0057"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #966
+  text          %{L369} ; "【未夏】「ひんぅ、うんっぐぅうっんぐぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #969
+  text          %{L370} ; "【松岡】「俺はマ○コにいれてやるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #971
+  text          %{L371} ; "【男子Ａ】「じゃあおれはアナルだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #973
+  ldstr         "d0058"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #974
+  text          %{L372} ; "【未夏】「ふんごぉ、おっん、おっんあっえ、えっはぁっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #977
+  text          %{L373} ; "続けざまに３つの穴を支配され、未夏は狂ったように悶絶した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #979
+  text          %{L374} ; "【男子Ａ】「すげぇ、ぐいぐい締め付けてきやがる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #981
+  text          %{L375} ; "【松岡】「俺のほうも吸い付くみたいだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #983
+  ldstr         "d0059"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #984
+  text          %{L376} ; "【未夏】「しゅっは、はっむんちゅ、ちゅはぅ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #987
+  text          %{L377} ; "【男子Ｂ】「もうだめだ、我慢できねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #989
+  text          %{L378} ; "【松岡】「たっぷり御馳走してやれよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #992
+  ldstr         "d0076"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #993
+  text          %{L379} ; "【未夏】「むん、むっぅ、うっふぅ、ちゅうぱぁれぇれぇれぇえぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #996
+  text          %{L380} ; "【男子Ｂ】「全部飲み干せよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #998
+  text          %{L381} ; "我慢の限界に達した一人が口内に精液を注ぎ込む。未夏はそれを懸命に嚥下した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1000
+  ldstr         "d0077"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1001
+  text          %{L382} ; "【未夏】「うんぁんごぉうぇんぐぅ！！　うっんぷぱ、うんごんごぅんんんん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1004
+  text          %{L383} ; "口の中に溢れた白液を白く細い首が上下に動いて飲み下していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1005
+  text          %{L384} ; "その光景に興奮した松岡が乱暴に腰を突き動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1008
+  ldstr         "d0225"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1009
+  text          %{L385} ; "【未夏】「ひっい、いっあ、あっあっあっふぅ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1011
+  text          %{L386} ; "膣壁を擦り上げて広げる感触に呼応して未夏の肛門が激しく収縮する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1013
+  text          %{L387} ; "【男子Ａ】「こっちも締まってきやがったぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1015
+  text          %{L388} ; "肛門を突き上げると今度は膣が痙攣する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1018
+  ldstr         "d0063"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1019
+  text          %{L389} ; "【未夏】「ひぁ、ひいぁっ、ひぃぁぅんぐぅぅぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1022
+  text          %{L390} ; "繰り返される刺激に未夏の肉体は過敏に反応し、愛液は洪水のごとく溢れ出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1025
+  ldstr         "d0227"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1026
+  text          %{L391} ; "【未夏】「こ、こん、なっ……くう！　んんんんん！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1028
+  text          %{L392} ; "乳を握られ、子宮と肛門を同時に突かれると未夏の理性は完全に失われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1030
+  ldstr         "d0228"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1031
+  text          %{L393} ; "【未夏】「くあっ！？　ぁああ、あう……っ、ぅぅ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1036
+  ldstr         "d0230"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1037
+  text          %{L394} ; "【未夏】「ふぐぅ、んっぐぁ、あっあんっぐぁ、ああああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1039
+  text          %{L395} ; "そして全ての穴を肉棒でふさがれて悶絶したまま未夏は何度も絶頂を迎えるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1041
+  ldc.i         0
+  ret          
+}
+
+func $4d589f0e() {
+ entry:
+  line          #1042
+  argcheck      []
+  alloca        []
+  line          #1044
+  text          %{L396} ; "松岡は未夏の細い肩を掴むと乱暴にマットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1046
+  ldstr         "d0231"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1047
+  text          %{L397} ; "【未夏】「な、ちょっと、嫌、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1049
+  text          %{L398} ; "懸命に抵抗を示すものの、背後から腕をつかまれうつぶせに組み敷かれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1050
+  text          %{L399} ; "さらにそれが合図のように取り巻き連中も一斉に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1052
+  ldstr         "d0232"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1053
+  text          %{L400} ; "【未夏】「嫌ぁ！！！　やめて、はなしてぇぇぇぇぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1055
+  text          %{L401} ; "【松岡】「諦めの悪いやつだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1058
+  ldstr         "d0033"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1059
+  text          %{L402} ; "【未夏】「や、やめ……ひっ、いゃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1062
+  text          %{L403} ; "腕を押さえられ、スカートがまくられると、下着を乱暴にずり下ろされる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1064
+  text          %{L404} ; "露になった秘部に男たちの指が食い込んでいく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1065
+  ldstr         "d0034"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1066
+  text          %{L405} ; "【未夏】「ぁっ、ひっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1069
+  text          %{L406} ; "上着をまくられブラを剥ぎ取ると、松岡の手が乱暴に揉みしだきだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1071
+  ldstr         "ev41a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1072
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1075
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0234"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1076
+  text          %{L407} ; "【未夏】「さ、触らないで！　あっ、嫌ぁっ、ひっ、いゃぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1078
+  text          %{L408} ; "未夏の頭の中がぼんやりと霞んでいく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1079
+  text          %{L409} ; "自分が自分でなくなっていくような……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1083
+  text          %{L410} ; "【松岡】「なんだよ、感じないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1085
+  ldstr         "d0235"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1086
+  text          %{L411} ; "【未夏】「や、やめて……もう、許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1088
+  text          %{L412} ; "【松岡】「もう少し色っぽい反応しろよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1091
+  ldstr         "d0035"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1092
+  text          %{L413} ; "【未夏】「や、や……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1095
+  text          %{L414} ; "それでも松岡は自分の肉棒を取り出すと、未夏の秘部に当てて一気に押し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1097
+  ldstr         "ev41a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1098
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1101
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0236"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1102
+  text          %{L415} ; "【未夏】「ひぅんっぐぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1104
+  text          %{L416} ; "だが、恐怖に支配され、まったく濡れていない秘部への挿入は松岡に苦痛をもたらすだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1107
+  ldstr         "d0040"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1108
+  text          %{L417} ; "【未夏】「ぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1111
+  text          %{L418} ; "乱暴に腰を動かして突き上げてはみるものの、未夏は機械的に反応するだけで、変化はみられない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1113
+  text          %{L419} ; "【松岡】「なんだよこれ、ＡＶと全然違うじゃねーかよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1115
+  text          %{L420} ; "【男子Ａ】「やっぱりレイプで感じるやつなんていないんじゃないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1117
+  text          %{L421} ; "【松岡】「とにかくここまできたらやるしかないだろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1119
+  text          %{L422} ; "【男子Ｂ】「判ったよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1121
+  text          %{L423} ; "松岡の言葉に従って、男達はしぶしぶ未夏の身体に覆い被さると胸を揉み、首筋に舌を這わせ、アナルを舐めまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1124
+  ldstr         "d0041"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1125
+  text          %{L424} ; "【未夏】「ふっう、うっぅ、ひっぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1128
+  text          %{L425} ; "【松岡】「クソ、むしろ痛いくらいだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1130
+  text          %{L426} ; "【男子Ａ】「駄目だ、全然こいつ感じてねーよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1131
+  text          %{L427} ; "懸命な攻めにも全く反応しない未夏に苛立ちを募らせていく男たち。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1133
+  ldstr         "d0042"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1134
+  text          %{L428} ; "【未夏】「ひぃぁ、ぃ、ぃぃぃっぐ、ふっ、ひぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1137
+  text          %{L429} ; "リズムにあわせて苦しげなうめきを漏らすしつつ、未夏は人形のように受け止めるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1139
+  ldc.i         0
+  ret          
+}
+
+func $f7733b5e() {
+ entry:
+  line          #1143
+  argcheck      []
+  alloca        []
+  line          #1145
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1146
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1147
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1150
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L430} ; "その日は何かが違っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1151
+  text          %{L431} ; "毎日通っているいつもの教室……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1153
+  text          %{L432} ; "何の変化もないいつもと同じ朝。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1155
+  text          %{L433} ; "少なくとも桜井衣澄は教室に一歩足を踏み入れるまではそうだと信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1157
+  text          %{L434} ; "だが、自分の踏み入れた一歩が、まるでスイッチであったかのように教室の空気が変異したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1158
+  text          %{L435} ; "人一倍気遣いが上手く、他人の心情を繊細に感じ取れる衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1159
+  text          %{L436} ; "その取り柄から友人たちの信頼も厚い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1161
+  text          %{L437} ; "それだけに友人たち、クラスメイトたちの自分に向けられた視線に込められた負の感情を敏感に感じ取ってしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1163
+  text          %{L438} ; "そしてそれが彼女の記憶にある、あの忌まわしい体験をリフレインさせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1165
+  text          %{L439} ; "『あのことがみんなにばれた？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1167
+  text          %{L440} ; "真面目で清楚な優等生としての自分のイメージを地の底へと突き落としたあの体験。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1169
+  text          %{L441} ; "もしそれが周囲の人々に知られたら……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1171
+  text          %{L442} ; "そう考えただけで言い知れぬ不安に全身が小刻みに震えさせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1173
+  text          %{L443} ; "犯人に撮られたあの不本意極まりないセックスの写真がばら撒かれ、周知の事実としてみなに知られているのか！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1175
+  text          %{L444} ; "激しい眩暈を覚え、立っていることさえままならず、衣澄はフラフラと倒れるように自分の席に座り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1177
+  text          %{L445} ; "話し掛けてくる友人の声にも上の空のまま、精気の抜けた返事をするのがやっと。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1179
+  text          %{L446} ; "いつもは熱心にノートを取って聞き入っている授業も上の空のまま、ただ呆然と時間だけが過ぎ去っていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1181
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1182
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1183
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1185
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L447} ; "そして放課後。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1187
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1188
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L448} ; "出口のない悪夢という名の樹海を彷徨っているような衣澄はようやく席を立つと、夢遊病者のように廊下へと歩み出た。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1190
+  text          %{L449} ; "図書室に行かなくては……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1191
+  text          %{L450} ; "こんな時でも図書委員としての仕事は放棄する気にはなれなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1192
+  text          %{L451} ; "それに、人の少ない図書室に行けば、こんな不安感から逃れられるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1194
+  text          %{L452} ; "そんな気持ちが弱々しい足取りの衣澄を動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1196
+  text          %{L453} ; "だが、この悪夢は簡単に目覚める事を許しはしなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1198
+  text          %{L454} ; "教室から数歩も歩かないうちに、衣澄の前に１人の招かれざる客が立ちはだかる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1200
+  text          %{L455} ; "不良グループのリーダー的な存在、札付きのワルの松岡だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1202
+  text          %{L456} ; "熱血硬派なタイプとは異なり、弱いものに目をつけてはネチネチと陰湿なたかりや虐めを繰り返す卑劣漢である。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1204
+  text          %{L457} ; "衣澄の最も嫌いなタイプの人間だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1206
+  text          %{L458} ; "【松岡】「大人しい顔してるけどなかなか大胆なんだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1208
+  text          %{L459} ; "蛙を狙う蛇のような絡みつく視線を投げかけながら、松岡は口元を歪ませた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1211
+  ldstr         "b0013"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1212
+  text          %{L460} ; "【衣澄】「な、なんのことですか……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1215
+  text          %{L461} ; "そんな松岡に対して衣澄は精気の抜けた声で返事をするのがやっとだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1217
+  text          %{L462} ; "【松岡】「へっへっへ、こいつを見てみろよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1219
+  text          %{L463} ; "邪悪な笑みを浮かべて１通の封筒を差し出す。衣澄はそれを夢うつつのように力なく受け取ると、中味を取り出して愕然とした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1221
+  text          %{L464} ; "そこにはデジタルの画像をプリントした荒く小さな画像が何枚も納められていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1223
+  text          %{L465} ; "【松岡】「いやぁ、驚いたよ。ハメ撮りとかすげぇじゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1225
+  text          %{L466} ; "なんとそれは、衣澄のあの忌まわしい体験の時のあられもない姿が納められた写真だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1227
+  ldstr         "BUP04Fu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1229
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0045"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1230
+  text          %{L467} ; "【衣澄】「ち、ちがいます」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1233
+  text          %{L468} ; "顔面蒼白で叫びに近い声で否定する衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1234
+  text          %{L469} ; "しかし、松岡は追い討ちをかけるように得意げに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1236
+  text          %{L470} ; "【松岡】「なにもちがわねぇさ。それよりもさぁ、そんなに好き者だったら俺達も楽しませてくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1239
+  ldstr         "b0060"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1240
+  text          %{L471} ; "【衣澄】「そんな……わたし……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1243
+  text          %{L472} ; "【松岡】「その可愛いらしい身体で奉仕してくれよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1245
+  ldstr         "b0061"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1246
+  text          %{L473} ; "【衣澄】「やめてください……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1249
+  text          %{L474} ; "【松岡】「おいおい、なんか勘違いしてねーか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1251
+  text          %{L475} ; "困惑する衣澄に力関係を誇示する松岡の一言が止めを刺す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1253
+  text          %{L476} ; "【松岡】「俺はお願いしてるんじゃないぜ。頭のいいあんたなら、ちょっと考えれば想像はつくと思うけどな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1255
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1257
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0090"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1258
+  text          %{L477} ; "【衣澄】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1260
+  text          %{L478} ; "その言葉で衣澄は一切の反論を封じられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1262
+  text          %{L479} ; "【松岡】「やっと立場が理解できたようだな。じゃ桜井衣澄の楽しい奉仕タイムと洒落込もうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1264
+  text          %{L480} ; "写真という決定的弱みを握られた衣澄に、もはや選択の余地はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1265
+  text          %{L481} ; "松岡に促されるままに、体育倉庫へとついていくのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1267
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1268
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1269
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1271
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L482} ; "無人の体育倉庫。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1272
+  text          %{L483} ; "この時間なら例え大声で叫んでも悲鳴を聞きつけられる可能性は低い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1274
+  text          %{L484} ; "それを理解している松岡は支配者の如く勝ち誇った笑みを浮かべた。おまけに松岡の取り巻き連中も数人居る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1276
+  text          %{L485} ; "【松岡】「ほらほら、覚悟を決めてお前も楽しめよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1279
+  ldstr         "b0065"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1280
+  text          %{L486} ; "【衣澄】「いや……いやいや、やめてください……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1283
+  text          %{L487} ; "【松岡】「いまさら逃げられるわけないだろ？　たっぷりと可愛がってやるさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1285
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1287
+  ldc.i         0
+  ret          
+}
+
+func $375d2481() {
+ entry:
+  line          #1288
+  argcheck      []
+  alloca        []
+  line          #1290
+  text          %{L488} ; "松岡は衣澄の細い肩を掴むと乱暴にマットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1293
+  ldstr         "b0064"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1294
+  text          %{L489} ; "【衣澄】「ひっ……許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1297
+  text          %{L490} ; "懸命に抵抗を示す衣澄を男たちは強引に力でねじ伏せた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1299
+  text          %{L491} ; "【松岡】「ここまで来て無駄な抵抗するなよ！　楽しんだ方が得だぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1302
+  ldstr         "b0020"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1303
+  text          %{L492} ; "【衣澄】「こ、こんなこと、やめてください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1306
+  text          %{L493} ; "懸命に声をあげたが、悲鳴は誰にも届かない。あっという間に両手を押さえ込まれ、両足を広げられ、胸に、股間に、下着の隙間に男達の指が滑り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1308
+  ldstr         "ev55b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1309
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1311
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0068"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1312
+  text          %{L494} ; "【衣澄】「うぅ……くぅっ、い、いたぁぁぁぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1315
+  text          %{L495} ; "乱暴に身体をまさぐられて、痛みに衣澄は顔を歪ませる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1318
+  ldstr         "b0019"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1319
+  text          %{L496} ; "【衣澄】「ひぃ、い、いやぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1322
+  text          %{L497} ; "松岡が衣澄の形の良い胸に吸い付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1324
+  text          %{L498} ; "【男子Ａ】「感じやすい身体なんじゃねーの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1325
+  text          %{L499} ; "【男子Ｂ】「下のお口が湿ってきたぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1328
+  ldstr         "b0125"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1329
+  text          %{L500} ; "【衣澄】「んぅ……くぅん、や、やめてぇ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1332
+  text          %{L501} ; "乳首を吸い上げ舐めまわされる感覚に、衣澄は身体を仰け反らせる。それに呼応するかのように別の男が秘部に指を這わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1335
+  ldstr         "b0024"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1336
+  text          %{L502} ; "【衣澄】「あくぅ、んんっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1339
+  text          %{L503} ; "【松岡】「可愛い声で泣き出したぜ。優等生の淫らな放課後体験って感じだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1342
+  ldstr         "b0211"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1343
+  text          %{L504} ; "【衣澄】「あ……やぁ、ふあぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1346
+  text          %{L505} ; "【男子Ｂ】「うお、指に吸い付いてきやがるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1347
+  text          %{L506} ; "指が衣澄の秘部へと侵入していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1350
+  text          %{L507} ; "内部を擦られると秘肉が痙攣して、粘液質の液体が溢れ出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1352
+  text          %{L508} ; "【男子Ｂ】「すげぇ、濡れ濡れだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1355
+  ldstr         "b0213"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1356
+  text          %{L509} ; "【衣澄】「いやぁ、い、言わないでぇっ！　あっ！　やっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1359
+  text          %{L510} ; "秘部を弄る指の感触に耐え切れず衣澄は激しく身体をよじったが、両足を固定されているためにろくに動かすこともできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1361
+  text          %{L511} ; "【松岡】「清楚な顔して本性はとんだ淫乱だな。乳首もこんなに硬くなってるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1364
+  ldstr         "b0216"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1365
+  text          %{L512} ; "【衣澄】「やぁ、そ、そんなこと、い、言わな、はっ、やっ、あっ、あああぁぁぁぁああぁぁぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1368
+  text          %{L513} ; "全身に走る男達の刺激に頭では拒絶しても身体がそれに応えてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1370
+  text          %{L514} ; "【松岡】「とんでもない変態じゃねぇか。めちゃくちゃ感じまくってるぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1373
+  ldstr         "b0261"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1374
+  text          %{L515} ; "【衣澄】「はあぁんっ、ひぎっ、ゆ、ゆるしてっ、くださぃっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1377
+  text          %{L516} ; "抵抗を示す身体の動きもいつしか愛撫の動きに合わせはじめ、秘部とアナルは男達の指を強く締め付けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1379
+  text          %{L517} ; "秘部からアナルヘ舌を這わせ、両手で押し広げられた菊門を舌先で丹念に刺激する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1381
+  ldstr         "b0262"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1382
+  text          %{L518} ; "【衣澄】「ひゃんっ！　そ、それだけはっ！　そんな汚い場所っ！　だめっ！　イヤですっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1385
+  text          %{L519} ; "愛液を菊門に塗りつけると、男の１人が肉棒を突き入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1388
+  ldstr         "b0264"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1389
+  text          %{L520} ; "【衣澄】「はぁん、や、やあぁ……ぬ、抜いてくださいぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1392
+  text          %{L521} ; "肛門に侵入した肉棒の感触に耐え切れず悲痛な叫びをあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1393
+  text          %{L522} ; "松岡はそれを楽しそうにあざ笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1395
+  text          %{L523} ; "【松岡】「ケツにつっこまれて悶えてやがる。全身が開発されてるんだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1397
+  ldstr         "b0265"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1398
+  text          %{L524} ; "【衣澄】「やっ！　そんなことっ！　あ、ありませんんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1401
+  text          %{L525} ; "舌を大きく伸ばし、わざと音を立てて乳首を舐め回すと、完全に衣澄の理性は失われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1403
+  ldstr         "b0266"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1404
+  text          %{L526} ; "【衣澄】「あくぅっ！　ヤッ！　だめぇっ！　やああああぁぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1410
+  ldstr         "b0287"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1411
+  text          %{L527} ; "【衣澄】「んっく！　んむぅ！　くうぅ……っ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1414
+  text          %{L528} ; "順番待ちをしていた連中も待ちきれずアナルや口に挿入し、手にも握らせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1415
+  text          %{L529} ; "そして最後に松岡の肉棒が秘部へと差し込まれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1418
+  ldstr         "b0070"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1419
+  text          %{L530} ; "【衣澄】「んんっ、んくっ、んうぅっ、ぁんっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1422
+  ldc.i         700
+  ldstr         "ev55d"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1423
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1425
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L531} ; "全身で、全ての穴で衣澄は男達の欲望を受け止めるしかなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1428
+  ldstr         "b0288"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1429
+  text          %{L532} ; "【衣澄】「はぁっ！　イ、イク！　もうイクッ！　いやあああぁぁぁあああぁぁぁっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1432
+  text          %{L533} ; "理性を失った肉体は貪欲に快感だけを求め、そして全ての穴を塞がれたまま、衣澄は全身を震わせて絶頂に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1433
+  ldc.i         0
+  ret          
+}
+
+func $fbf7241f() {
+ entry:
+  line          #1434
+  argcheck      []
+  alloca        []
+  line          #1436
+  text          %{L534} ; "松岡は衣澄の細い肩を掴むと乱暴にマットに押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1439
+  ldstr         "b0064"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1440
+  text          %{L535} ; "【衣澄】「ひっ……許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1443
+  text          %{L536} ; "懸命に抵抗を示す衣澄を男たちは強引に力でねじ伏せた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1446
+  ldstr         "b0020"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1447
+  text          %{L537} ; "【衣澄】「こ、こんなこと、やめてください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1450
+  text          %{L538} ; "懸命に声をあげたが、悲鳴は誰にも届かない。あっという間に両手を押さえ込まれ、両足を広げられ、胸に、股間に、下着の隙間に男達の指が滑り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1453
+  ldstr         "b0032"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1454
+  text          %{L539} ; "【衣澄】「あぐぅぅぅぅぅぅぅぅっっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1457
+  text          %{L540} ; "【松岡】「ここまで来て無駄な抵抗するなよ！　楽しんだ方が得だぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1460
+  ldstr         "b0065"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1461
+  text          %{L541} ; "【衣澄】「いや……いやいや、やめてください……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1464
+  ldstr         "ev55a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1465
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1467
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L542} ; "あまりの恐怖に、衣澄はまともにしゃべることも出来なくなった。面白半分に全身をまさぐる松岡だが、衣澄は無言のまま身体を震わせているだけで、濡れる気配すらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1469
+  text          %{L543} ; "【松岡】「なんだよ、感じないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1472
+  ldstr         "b0047"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1473
+  text          %{L544} ; "【衣澄】「やぁっ、だめ、これ以上はもう、許してください……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1476
+  text          %{L545} ; "小さな声で必死に許しを乞うだけで、衣澄は全く反応を示さなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1478
+  text          %{L546} ; "それでも松岡は自分の肉棒を取り出すと、衣澄の秘部に当てて一気に押し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1481
+  ldstr         "b0252"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1482
+  text          %{L547} ; "【衣澄】「あっ……あぁっ……んんっ……んっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1485
+  text          %{L548} ; "恐怖に支配され、まったく濡れていない秘部への挿入は松岡にも苦痛をもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1487
+  text          %{L549} ; "【松岡】「くそ、少しは濡れろよな。こっちが痛いぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1489
+  ldstr         "b0253"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1490
+  text          %{L550} ; "【衣澄】「んん……んくっ！　つぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1493
+  text          %{L551} ; "取り巻き連中が胸に吸い付いて、乳首を舐めまわし、尻に指を突き入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1496
+  ldstr         "b0255"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1497
+  text          %{L552} ; "【衣澄】「んんっ……んぁ……ふぅ……うぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1500
+  text          %{L553} ; "【松岡】「出来そこないのダッチワイフだな。全然感じてねーよ、こいつ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1502
+  text          %{L554} ; "松岡は懸命に腰を動かして衣澄の子宮を突き上げたが、機械的に反応するだけの状態だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1504
+  text          %{L555} ; "【松岡】「ちっ、ＡＶと違うなぁ。つまんねぇよ、これ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1506
+  text          %{L556} ; "【男子Ａ】「やり方がまずかったんじゃねぇの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1508
+  text          %{L557} ; "【松岡】「俺のテクニック不足だとでも言うのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1510
+  text          %{L558} ; "【男子Ｂ】「いや、そうじゃねぇけどさぁ、このまんまだとどうしようもないぜ。」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1512
+  text          %{L559} ; "【松岡】「とにかくここまできたらやるしかないだろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1514
+  text          %{L560} ; "【男子Ｂ】「判ったよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1516
+  text          %{L561} ; "松岡に叱咤され、男達はしぶしぶ衣澄の身体に覆い被さると、再度胸を揉み、首筋に舌を這わせ、アナルを舐めまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1518
+  ldc.i         700
+  ldstr         "ev55c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1519
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1521
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L562} ; "しかしどれだけ肉体を蹂躙されても、衣澄はそれを人形のようにただひたすら無反応のまま受け止めるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1522
+  ldc.i         0
+  ret          
+}
+
+func $c20cf87f() {
+ entry:
+  line          #1526
+  argcheck      []
+  alloca        []
+  line          #1528
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1529
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1530
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1531
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L563} ; "その日は何かが違っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1532
+  text          %{L564} ; "毎日通っているいつもの教室……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1534
+  text          %{L565} ; "先に来ている友人たちが、昨日のドラマの話題や教師やクラスメートへの勝手な噂話といった他愛のない朝の雑談に盛り上がっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1536
+  text          %{L566} ; "しかし、松本璃乃はその教室に足を一歩踏み入れただけで、いつもとは違う言い知れぬ違和感を感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1538
+  text          %{L567} ; "貴城に陵辱されてからというもの、一生懸命にいつもと変わらぬ風を装って登校していたというのに……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1540
+  text          %{L568} ; "自分の踏み入れた一歩が、まるで何かのスイッチであったかのように、今までの空気が変異したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1542
+  text          %{L569} ; "他愛のない同級生同士による朝の雑談がピタリと止んで、静寂と重い空気が支配していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1543
+  text          %{L570} ; "互いに声を潜め、冷たい視線だけが全身に突き刺さる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1545
+  text          %{L571} ; "それは決して好意的ではなく、侮蔑や嘲笑をこめた負の感情を持った視線だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1547
+  text          %{L572} ; "そして何故かコソコソと小声で交わされる会話。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1549
+  text          %{L573} ; "その様子から廊下にまで聞こえてきていた、いつもと変わりない他愛のない朝の雑談だとばかり思っていた盛り上がりが、自分の噂話だったということを璃乃は察した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1551
+  text          %{L574} ; "それも、本人を前にすると話しにくいような類の、嫌な噂話だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1556
+  text          %{L575} ; "秘すべきことがクラスメート全員に知れ渡ってしまったのではないかという恐怖感が璃乃を襲った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1557
+  text          %{L576} ; "言い知れぬ不安に全身が小刻みに震えて総毛立つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1559
+  text          %{L577} ; "貴城に撮られたあの不本意極まりないセックスの写真がばら撒かれ、周知の事実として皆に知られているのか！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1561
+  text          %{L578} ; "でも、どうしてそんなことを貴城にされなければいけないのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1562
+  text          %{L579} ; "いや、貴城がそんなことをするわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1564
+  text          %{L580} ; "そう即座に璃乃は自分自身の疑いを否定した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1565
+  text          %{L581} ; "けれど、自分を見るクラスメートの視線は疑いを補強するものでしかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1567
+  text          %{L582} ; "璃乃は貴城に好意を抱いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1568
+  text          %{L583} ; "貴城の恋人になれたらいい。そう夢想したこともある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1570
+  text          %{L584} ; "けれど現実はあんなひどい、陵辱といったほうがふさわしい犯され方で……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1572
+  text          %{L585} ; "今の貴城ならやるかもしれない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1574
+  text          %{L586} ; "自分の中の貴城を信じたい気持ちと信じられない気持ちの葛藤に激しい眩暈を覚え、璃乃は糸の切れた凧のようにフラフラと自分の席に座り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1576
+  text          %{L587} ; "友人の中には、璃乃が貴城に淡い恋心を抱いていることを知ってる者もいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1578
+  text          %{L588} ; "もしもその友人がその恋心を尾鰭をつけて触れ回っていたら？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1580
+  text          %{L589} ; "あのセックスが自ら望んでしたこととして、受け止められているかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1582
+  text          %{L590} ; "そして更に、あの写真が出回ってることも自分が望んでやったことだと思われてるとしたら？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1584
+  text          %{L591} ; "どうしよう……不安が強くなっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1586
+  text          %{L592} ; "【クラスメート】「おはよう、璃乃ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1588
+  text          %{L593} ; "普段は絶対に話しかけてこない、クラスでもスケベで有名な男子が声をかけてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1591
+  ldstr         "f0026"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1592
+  text          %{L594} ; "【璃乃】「え……？　う、うん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1595
+  text          %{L595} ; "彼らに知れ渡っているのではないかという恐怖感が、璃乃の気持ちを支配し、璃乃からいつもの明るさを奪っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1603
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1604
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1605
+  ldstr         "BUP06Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1606
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1608
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L596} ; "そして放課後。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1609
+  text          %{L597} ; "美術部の部活がない日はいつも決まって仲のいい友達と連れ立って帰るのだが、今日の璃乃は到底そんな気にはなれなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1611
+  text          %{L598} ; "まるで針のむしろに座らされてるような、そんな気分で一日を過ごしたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1612
+  text          %{L599} ; "これ以上、好奇の目に曝されたくはなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1614
+  text          %{L600} ; "璃乃の意識はクラスメートだけではなく、もう学園全体に『自分が望んでしたこと』として知れ渡っているのではないか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1616
+  text          %{L601} ; "そんな恐怖感でいっぱいだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1618
+  text          %{L602} ; "そしてその恐怖感が現実のものであるというかのように、璃乃は廊下で誰かを待ち伏せするように立っている松岡に出会った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1620
+  text          %{L603} ; "陰湿ないじめと素行不良で知られる、いわゆる不良グループのリーダー的な存在の男だということは、学年の違う璃乃でも知っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1625
+  text          %{L604} ; "不良グループのリーダー的な存在なだけでなく、松岡は次々に彼女を代える女たらしとしても有名だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1627
+  text          %{L605} ; "もちろん、自分がそう吹聴しているだけ、ということも考えられるが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1629
+  text          %{L606} ; "こんな相手は自分に関係ないふりをして、さっさと通り過ぎるに限る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1631
+  text          %{L607} ; "璃乃は極力松岡と目を合わせないようにして、そそくさと横を通り過ぎようとした。が、松岡の足が璃乃の前を遮るように高々と上げられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1633
+  text          %{L608} ; "【松岡】「なんだよ、璃乃ちゃん。せっかく待ってたのに、素通りはないんじゃないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1636
+  ldstr         "f0118"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1637
+  text          %{L609} ; "【璃乃】「ご、ごめんなさい！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1640
+  text          %{L610} ; "体をビクリと反応させて、慌てて謝る璃乃。松岡はその性格を現したような陰湿かつ邪悪な笑みを浮かべて１通の封筒を差し出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1642
+  text          %{L611} ; "一瞬反射的に受け取りを拒否しそうになったが、執拗に自分に押し付けてくるそれをおどおどと仕方なく受け取ると、璃乃は中味を取り出して愕然とした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1644
+  text          %{L612} ; "そこにはデジタルの画像をプリントした荒く小さな画像が何枚も納められていたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1646
+  text          %{L613} ; "【松岡】「いやぁ、驚いたよ。こんなかわいい顔と体してんのに、ずいぶん大胆なことしてるんだねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1648
+  text          %{L614} ; "なんとそれは、璃乃が朝からずっと恐れていた通り、あの忌まわしい体験の時に写された写真だったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1650
+  text          %{L615} ; "確かに荒いプリント画像であるから、別人だと言い張ることもできたかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1652
+  text          %{L616} ; "しかし局部から顔に到るまで、写し出されているそれを目にした時の璃乃の反応が、それを別人だと言い張るにはもう充分に遅すぎた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1655
+  ldstr         "f0042"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1656
+  text          %{L617} ; "【璃乃】「うぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1659
+  text          %{L618} ; "自分の痴態を認められずに、璃乃は目をそらして小さく呻いた。いや、認められなかったのは、この写真をインターネットにアップした貴城の行為自体か。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1661
+  text          %{L619} ; "しかし、松岡は自分の痴態を認めたくないと思っていると受け取ったのか、まるで蛇のようにいやらしく、追い討ちをかけるように得意げに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1663
+  text          %{L620} ; "【松岡】「こんな写真を撮られても平気なくらい男好きの変態なら、俺たちに声をかけてくれたら良かったのによ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1665
+  ldstr         "BUP06Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1667
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0107"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1668
+  text          %{L621} ; "【璃乃】「そんな……あたし変態なんかじゃないもん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1671
+  text          %{L622} ; "【松岡】「写真をよく見ろよ？　これは間違いなくお前だよな？　男好きの淫乱ですって、正直に認めちまえよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1673
+  ldstr         "BUP06Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1675
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "f0032"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1676
+  text          %{L623} ; "【璃乃】「えっ！？　そ、そんな……こと……言えない……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1679
+  text          %{L624} ; "【松岡】「おいおい、お前、何か勘違いしてないか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1681
+  text          %{L625} ; "困惑する璃乃に、力関係を誇示する松岡の決定的な一言がとどめを刺す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1683
+  text          %{L626} ; "【松岡】「この俺がお願いしてるように見えるのか？　これは命令だよ。従わなければこれのカラーコピーが街中に貼られるかもなあ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1686
+  ldstr         "f0119"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1687
+  text          %{L627} ; "【璃乃】「うくっ……ぐすっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1690
+  text          %{L628} ; "その言葉が璃乃にとっての死刑宣告となった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1692
+  text          %{L629} ; "【松岡】「やっと立場が理解できたようだな。それじゃ松本璃乃の楽しい奉仕タイムと洒落込もうぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1694
+  text          %{L630} ; "写真という決定的弱みを握られた璃乃に、もはや選択の余地はない。松岡に促されるまま、璃乃は体育倉庫へとついていくのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1696
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1697
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1698
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1700
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L631} ; "無人の体育倉庫。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1701
+  text          %{L632} ; "この時間ならたとえ璃乃が大声で叫んでも、悲鳴を聞きつけられるような可能性は低い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1703
+  text          %{L633} ; "それを十二分に理解している松岡は、支配者の如く勝ち誇った笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1705
+  text          %{L634} ; "おまけに松岡の取り巻き連中も数人居る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1706
+  text          %{L635} ; "ただでさえ男女の力の差があるのに加えて、璃乃は女子の中でも小柄なほうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1708
+  text          %{L636} ; "そんな璃乃に抵抗の余地などひとかけらすら残っていない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1710
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1712
+  text          %{L637} ; "【松岡】「ほらほら、覚悟を決めてお前も楽しんだらどうだ？　スケベで男好きな淫乱なんだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1714
+  ldc.i         0
+  ret          
+}
+
+func $7b014b1c() {
+ entry:
+  line          #1715
+  argcheck      []
+  alloca        []
+  line          #1717
+  text          %{L638} ; "松岡はそう言うと、璃乃に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1720
+  ldstr         "f0127"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1721
+  text          %{L639} ; "【璃乃】「そ、んな……嘘だよね……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1724
+  text          %{L640} ; "必死に抵抗する璃乃。しかし、男の力にかなうはずもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1726
+  text          %{L641} ; "さらにそれが合図であったかのように、取り巻き連中も一斉に璃乃に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1728
+  ldstr         "ev68b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1729
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1732
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L642} ; "【松岡】「もうここまで来ちまってるんだ。無駄な抵抗なんかするなよ！　楽しんだ方がお前にとっても得だぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1735
+  ldstr         "f0014"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1736
+  text          %{L643} ; "【璃乃】「ひっ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1739
+  text          %{L644} ; "恐怖に身をすくめながらも璃乃はできるだけ抵抗したが、連中の勢いは止まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1741
+  text          %{L645} ; "すぐに服をはぎとられ、両手をつかまれ、両足を広げられ、胸に、股間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1744
+  ldstr         "f0129"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1745
+  text          %{L646} ; "【璃乃】「うぅ、見ないでぇ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1748
+  text          %{L647} ; "【松岡】「もう乳首はビンビンに硬くなってるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1750
+  text          %{L648} ; "【男子Ａ】「スゲー感じやすい身体じゃねぇ？　こんな女、今までで一番じゃねぇのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1752
+  text          %{L649} ; "【男子Ｂ】「こっちももうだいぶぬるぬるだぜ。早くち○ぽが欲しいって、涎を垂らしてやがる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1755
+  ldstr         "f0041"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1756
+  text          %{L650} ; "【璃乃】「はぅ、あっ！　や、だめぇ…！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1759
+  text          %{L651} ; "執拗にクリトリスを弄る指の感触に耐え切れず、璃乃は激しく身体をよじった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1761
+  text          %{L652} ; "だが、両足はがっちりと固定されているため腰を動かすのが精一杯だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1762
+  text          %{L653} ; "ヌメヌメとした感触が股間に広がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1765
+  ldstr         "f0039"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1766
+  text          %{L654} ; "【璃乃】「くぅ……はぁ、だめぇ……はぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1769
+  text          %{L655} ; "男達のいやらしい指が、璃乃の全身を這いまわる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1770
+  text          %{L656} ; "頭では完全に拒絶していても、貴城に快楽を覚えこまされた身体が次第にそれに反応しはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1772
+  text          %{L657} ; "【松岡】「なんだこいつ、やっぱりスゲー淫乱女なんじゃねぇか。めちゃくちゃ感じまくってるぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1775
+  ldstr         "f0143"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1776
+  text          %{L658} ; "【璃乃】「いやぁ、いやぁ……！　は、ふぅ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1779
+  text          %{L659} ; "抵抗を示す身体の動きもいつしか愛撫の動きに合わせはじめ、秘部とアナルは男達の指を強く締め付けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1782
+  ldstr         "f0145"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1783
+  text          %{L660} ; "【璃乃】「ひっく、うぅ、やだぁ……。もうやめてよぉ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1786
+  text          %{L661} ; "それでもなお、松岡は指先を駆使して璃乃を責め立て、愛液を溢れさせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1789
+  ldstr         "f0141"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1790
+  text          %{L662} ; "【璃乃】「あ、ふぁ、あぁ！？　ん、やぁ、止めてぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1793
+  text          %{L663} ; "【松岡】「もう準備は完全にいいようだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1795
+  text          %{L664} ; "もどかしげにズボンから自分の肉棒を取り出す松岡。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1797
+  text          %{L665} ; "【松岡】「ま○こが涎でベタベタだぜ。ほぉら、待ち望んでたち○ぽだぜ。じっくり味わいな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1800
+  ldstr         "f0147"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1801
+  text          %{L666} ; "【璃乃】「あ、だめ、そこだめぇ！！　う、あぁ、あぁぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1804
+  text          %{L667} ; "さんざん男達の指技に濡らされていた璃乃の秘部は、その外見の可憐さとは裏腹に凶悪な松岡の肉棒をたやすく呑み込んでいく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1806
+  text          %{L668} ; "【松岡】「くぅうう……体もちいせぇが、おま○この中も狭いぜ。すっげー締め付けだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1809
+  ldstr         "f0046"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1810
+  text          %{L669} ; "【璃乃】「はぁ、はぁ、うぅぅぅ……んんぁ、はああぁぁぁぁっっ……！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1813
+  text          %{L670} ; "完全に奥まで松岡を受け入れさせられ、璃乃は自分の心の中で何かがプツンと切れるのを感じた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1815
+  text          %{L671} ; "それがまるで合図であったかのように、璃乃の身体は積極的に快楽を貪り始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1820
+  ldstr         "f0161"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1821
+  text          %{L672} ; "【璃乃】「も……うだめぇ……はぁ、うぅ……はぁ、はぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1824
+  text          %{L673} ; "【男子Ｃ】「すっげぇ、この乱れ方、ハンパじゃないぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1826
+  text          %{L674} ; "【男子Ａ】「くぅうう……もうガマンできねぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1828
+  text          %{L675} ; "【男子Ｄ】「俺も！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1830
+  text          %{L676} ; "順番待ちをしていた連中も待ちきれず、アナルや口に挿入していく。出遅れた残りの二人は璃乃の両手に己の肉棒を握らせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1832
+  ldc.i         700
+  ldstr         "ev68d"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1833
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1834
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L677} ; "全身で、全ての穴で璃乃は男達の欲望を受け止めるしかなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1836
+  ldstr         "f0162"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1837
+  text          %{L678} ; "【璃乃】「ふ、あぁ！？　ぐぅ、はぁ、はぁ、はぁ、うくぅぅぅっっ……！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1840
+  text          %{L679} ; "理性を失った肉体は貪欲に快感だけを求め、璃乃は全身を震わせて男達の精液を浴びるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1841
+  ldc.i         0
+  ret          
+}
+
+func $b7ab4b82() {
+ entry:
+  line          #1842
+  argcheck      []
+  alloca        []
+  line          #1843
+  text          %{L680} ; "松岡はそう言うと、璃乃に襲いかかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1846
+  ldstr         "f0127"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1847
+  text          %{L681} ; "【璃乃】「そ、んな……嘘だよね……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1850
+  text          %{L682} ; "必死に抵抗する璃乃。しかし、男の力にかなうはずもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1851
+  text          %{L683} ; "さらにそれが合図のように取り巻き連中も一斉に璃乃に襲い掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1854
+  ldstr         "f0014"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1855
+  text          %{L684} ; "【璃乃】「ひっ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1858
+  text          %{L685} ; "【松岡】「おいおい、ここまで来ちまったんだ。楽しんだ方がお前にとっても得だぜ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1861
+  ldstr         "f0052"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1862
+  text          %{L686} ; "【璃乃】「うっ、くぅ……痛いぃぃ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1865
+  text          %{L687} ; "そうは言われても、璃乃にとってセックスとは忌まわしいものでしかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1867
+  text          %{L688} ; "それが自分が愛していた貴城にもたらされたという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1868
+  text          %{L689} ; "本来ならば幸せに感じるべきものなのに、結果は裏切りにも似た陵辱。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1870
+  text          %{L690} ; "懸命に抵抗してみせたが、そんなことくらいでは連中の勢いは止まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1872
+  ldstr         "ev68a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1873
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1875
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L691} ; "あっという間に服を剥ぎ取られ、両手をつかまれ、両足を大きく広げられて、胸に、股間に男達の指が滑り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1878
+  ldstr         "f0024"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1879
+  text          %{L692} ; "【璃乃】「あ……うぁ……ぁ……ぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1882
+  text          %{L693} ; "恐怖と絶望とで、璃乃はまともにしゃべることも出来なくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1884
+  text          %{L694} ; "松岡は面白半分に全身をまさぐっていたが、璃乃は無言のまま身体を震わせているだけで、濡れる気配すらないのに、逆に疑問を感じ始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1886
+  text          %{L695} ; "【松岡】「おいおい、あんな変態写真をばら撒いといて、まさか感じてないってことはないよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1889
+  ldstr         "f0023"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1890
+  text          %{L696} ; "【璃乃】「あ、ぐぁっ……！！　うぁ……ぁ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1893
+  text          %{L697} ; "【松岡】「まぁ、あんな写真をばら撒くような変態なんだ。入れちまえば変わるだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1895
+  text          %{L698} ; "それでも松岡は自分の肉棒を取り出すと、璃乃の秘部に当てて一気に押し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1898
+  ldstr         "f0019"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1899
+  text          %{L699} ; "【璃乃】「ぐうっ！？　あ゛あ゛あ゛あ゛あ゛あああああぁぁぁぁ！！！　いたいいたいいたいぃぃぃぃぃぃぃ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1902
+  text          %{L700} ; "だが、恐怖に支配され、まったく濡れていない秘部への挿入は松岡にも苦痛をもたらした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1904
+  text          %{L701} ; "【松岡】「いってぇ……マジで全然濡れてねぇじゃねぇか。本当にあの写真の女だよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1906
+  text          %{L702} ; "【男子Ｃ】「そっ、そんなこと言われても……確かにこの顔とこの体だぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1908
+  text          %{L703} ; "【男子Ｄ】「そうだよなぁ。けど、この反応って……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1911
+  ldstr         "f0024"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1912
+  text          %{L704} ; "【璃乃】「あ……うぁ……ぁ……ぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1915
+  text          %{L705} ; "痛みのあまり璃乃の意識はだんだんと朦朧となり、結局感じることもなく、かといって抵抗するわけでもなく、機械的に反応するだけの状態と化した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1917
+  text          %{L706} ; "【松岡】「ちっ、なんだよ、こいつ。こっちはダッチワイフ抱いてるんじゃねぇんだぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1919
+  text          %{L707} ; "【男子Ａ】「やり方がまずかったんじゃねぇの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1921
+  text          %{L708} ; "【松岡】「なんだよ。俺のテクニックが足りねェとでも言うのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1923
+  text          %{L709} ; "【男子Ａ】「そっ、そんなこと、言ってねぇよ。なぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1925
+  text          %{L710} ; "【男子Ｂ】「まぁ、その……あれだ。どっちみち、このまんまだと、どうしようもないぜ。マジで人形みたいになっちまってる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1927
+  text          %{L711} ; "【松岡】「とにかく、あの写真が人違いだったとしても、やっちまったんだ。最後までやって口止めするしかねぇだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1929
+  text          %{L712} ; "【男子Ｃ】「わかったよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1931
+  text          %{L713} ; "松岡に叱咤され、男達はしぶしぶ何も反応を返さない璃乃の身体に覆い被さる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1933
+  ldc.i         700
+  ldstr         "ev68c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1934
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1936
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L714} ; "肉棒を握らせ、胸を揉み、首筋に舌を這わせ、アナルを舐めまわす。精液を吐き出し、浴びせかける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1938
+  text          %{L715} ; "璃乃はそれを虚ろな目をしたまま、本当に松岡達が言うように生きている人形と化してしまったかのように、受け入れるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1940
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #1941
+  argcheck      []
+  alloca        []
+  line          #1943
+  text          %{L716} ; "最初に選んだキャラ"
+  proc         
+  ctrl          "p"
+  line          #1944
+  ldstr         "りの"
+  ldstr         "いずじ"
+  ldstr         "みか"
+  ldstr         "ありい"
+  ldstr         "きさま"
+  call          $$select@MENU (5) ; $select@MENU
+  br.case       @block_10d8e
+
+ block_10d8e:
+  line          #1945
+  ldc.i         1
+  bne.case      @block_10e3a
+
+ block_10d9e:
+  line          #1946
+  ldstr         "ひくい"
+  ldstr         "たかい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_10dca
+
+ block_10dca:
+  line          #1947
+  ldc.i         1
+  bne.case      @block_10e00
+
+ block_10dda:
+  line          #1948
+  callp         $37345064 (0)
+  line          #1949
+  callp         $f191ba58 (0)
+  br            @block_10e34
+
+ block_10e00:
+  line          #1950
+  ldc.i         2
+  bne.case      @block_10e34
+
+ block_10e10:
+  line          #1951
+  callp         $37345064 (0)
+  line          #1952
+  callp         $3d3bbac6 (0)
+  line          #1953
+
+ block_10e34:
+  br            @block_110e8
+
+ block_10e3a:
+  line          #1954
+  ldc.i         2
+  bne.case      @block_10ee6
+
+ block_10e4a:
+  line          #1955
+  ldstr         "ひくい"
+  ldstr         "たかい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_10e76
+
+ block_10e76:
+  line          #1956
+  ldc.i         1
+  bne.case      @block_10eac
+
+ block_10e86:
+  line          #1957
+  callp         $62331420 (0)
+  line          #1958
+  callp         $80753895 (0)
+  br            @block_10ee0
+
+ block_10eac:
+  line          #1959
+  ldc.i         2
+  bne.case      @block_10ee0
+
+ block_10ebc:
+  line          #1960
+  callp         $62331420 (0)
+  line          #1961
+  callp         $4cdf380b (0)
+  line          #1962
+
+ block_10ee0:
+  br            @block_110e8
+
+ block_10ee6:
+  line          #1963
+  ldc.i         3
+  bne.case      @block_10f92
+
+ block_10ef6:
+  line          #1964
+  ldstr         "ひくい"
+  ldstr         "たかい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_10f22
+
+ block_10f22:
+  line          #1965
+  ldc.i         1
+  bne.case      @block_10f58
+
+ block_10f32:
+  line          #1966
+  callp         $3ee51761 (0)
+  line          #1967
+  callp         $81f29f90 (0)
+  br            @block_10f8c
+
+ block_10f58:
+  line          #1968
+  ldc.i         2
+  bne.case      @block_10f8c
+
+ block_10f68:
+  line          #1969
+  callp         $3ee51761 (0)
+  line          #1970
+  callp         $4d589f0e (0)
+  line          #1971
+
+ block_10f8c:
+  br            @block_110e8
+
+ block_10f92:
+  line          #1972
+  ldc.i         4
+  bne.case      @block_1103e
+
+ block_10fa2:
+  line          #1973
+  ldstr         "ひくい"
+  ldstr         "たかい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_10fce
+
+ block_10fce:
+  line          #1974
+  ldc.i         1
+  bne.case      @block_11004
+
+ block_10fde:
+  line          #1975
+  callp         $f7733b5e (0)
+  line          #1976
+  callp         $375d2481 (0)
+  br            @block_11038
+
+ block_11004:
+  line          #1977
+  ldc.i         2
+  bne.case      @block_11038
+
+ block_11014:
+  line          #1978
+  callp         $f7733b5e (0)
+  line          #1979
+  callp         $fbf7241f (0)
+  line          #1980
+
+ block_11038:
+  br            @block_110e8
+
+ block_1103e:
+  line          #1981
+  ldc.i         5
+  bne.case      @block_110e8
+
+ block_1104e:
+  line          #1982
+  ldstr         "ひくい"
+  ldstr         "たかい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1107a
+
+ block_1107a:
+  line          #1983
+  ldc.i         1
+  bne.case      @block_110b0
+
+ block_1108a:
+  line          #1984
+  callp         $c20cf87f (0)
+  line          #1985
+  callp         $7b014b1c (0)
+  br            @block_110e4
+
+ block_110b0:
+  line          #1986
+  ldc.i         2
+  bne.case      @block_110e4
+
+ block_110c0:
+  line          #1987
+  callp         $c20cf87f (0)
+  line          #1988
+  callp         $b7ab4b82 (0)
+  line          #1989
+
+ block_110e4:
+  line          #1990
+
+ block_110e8:
+  line          #1992
+  ldc.i         0
+  ret          
+}
+
+func $7c7c6cf3() {
+ entry:
+  line          #1994
+  argcheck      []
+  alloca        []
+  line          #1995
+  text          %{L717} ; "パターンを選択してください。\n"
+  line          #1996
+  ldstr         "調教度低い"
+  ldstr         "調教度高い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_11161
+
+ block_11161:
+  line          #1997
+  ldc.i         1
+  bne.case      @block_11197
+
+ block_11171:
+  line          #1998
+  callp         $37345064 (0)
+  line          #1999
+  callp         $f191ba58 (0)
+  br            @block_111cb
+
+ block_11197:
+  line          #2000
+  ldc.i         2
+  bne.case      @block_111cb
+
+ block_111a7:
+  line          #2001
+  callp         $37345064 (0)
+  line          #2002
+  callp         $3d3bbac6 (0)
+  line          #2003
+
+ block_111cb:
+  line          #2004
+  ldc.i         0
+  ret          
+}
+
+func $f2f36b10() {
+ entry:
+  line          #2005
+  argcheck      []
+  alloca        []
+  line          #2006
+  text          %{L718} ; "パターンを選択してください。\n"
+  line          #2007
+  ldstr         "調教度低い"
+  ldstr         "調教度高い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_11244
+
+ block_11244:
+  line          #2008
+  ldc.i         1
+  bne.case      @block_1127a
+
+ block_11254:
+  line          #2009
+  callp         $62331420 (0)
+  line          #2010
+  callp         $80753895 (0)
+  br            @block_112ae
+
+ block_1127a:
+  line          #2011
+  ldc.i         2
+  bne.case      @block_112ae
+
+ block_1128a:
+  line          #2012
+  callp         $62331420 (0)
+  line          #2013
+  callp         $4cdf380b (0)
+  line          #2014
+
+ block_112ae:
+  line          #2015
+  ldc.i         0
+  ret          
+}
+
+func $3e596b8e() {
+ entry:
+  line          #2016
+  argcheck      []
+  alloca        []
+  line          #2017
+  text          %{L719} ; "パターンを選択してください。\n"
+  line          #2018
+  ldstr         "調教度低い"
+  ldstr         "調教度高い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_11327
+
+ block_11327:
+  line          #2019
+  ldc.i         1
+  bne.case      @block_1135d
+
+ block_11337:
+  line          #2020
+  callp         $3ee51761 (0)
+  line          #2021
+  callp         $81f29f90 (0)
+  br            @block_11391
+
+ block_1135d:
+  line          #2022
+  ldc.i         2
+  bne.case      @block_11391
+
+ block_1136d:
+  line          #2023
+  callp         $3ee51761 (0)
+  line          #2024
+  callp         $4d589f0e (0)
+  line          #2025
+
+ block_11391:
+  line          #2026
+  ldc.i         0
+  ret          
+}
+
+func $349c6297() {
+ entry:
+  line          #2027
+  argcheck      []
+  alloca        []
+  line          #2028
+  text          %{L720} ; "パターンを選択してください。\n"
+  line          #2029
+  ldstr         "調教度低い"
+  ldstr         "調教度高い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1140a
+
+ block_1140a:
+  line          #2030
+  ldc.i         1
+  bne.case      @block_11440
+
+ block_1141a:
+  line          #2031
+  callp         $f7733b5e (0)
+  line          #2032
+  callp         $375d2481 (0)
+  br            @block_11474
+
+ block_11440:
+  line          #2033
+  ldc.i         2
+  bne.case      @block_11474
+
+ block_11450:
+  line          #2034
+  callp         $f7733b5e (0)
+  line          #2035
+  callp         $fbf7241f (0)
+  line          #2036
+
+ block_11474:
+  line          #2037
+  ldc.i         0
+  ret          
+}
+
+func $f8366209() {
+ entry:
+  line          #2038
+  argcheck      []
+  alloca        []
+  line          #2039
+  text          %{L721} ; "パターンを選択してください。\n"
+  line          #2040
+  ldstr         "調教度低い"
+  ldstr         "調教度高い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_114ed
+
+ block_114ed:
+  line          #2041
+  ldc.i         1
+  bne.case      @block_11523
+
+ block_114fd:
+  line          #2042
+  callp         $c20cf87f (0)
+  line          #2043
+  callp         $7b014b1c (0)
+  br            @block_11557
+
+ block_11523:
+  line          #2044
+  ldc.i         2
+  bne.case      @block_11557
+
+ block_11533:
+  line          #2045
+  callp         $c20cf87f (0)
+  line          #2046
+  callp         $b7ab4b82 (0)
+  line          #2047
+
+ block_11557:
+  line          #2048
+  ldc.i         0
+  ret          
+}

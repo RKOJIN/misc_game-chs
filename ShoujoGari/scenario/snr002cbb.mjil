@@ -1,0 +1,546 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #23
+  text          %{L1} ; "まずは記録を残すことが大切だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L2} ; "俺は用意してきたデジタルカメラを取り出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L3} ; "未夏の屈辱的な画像を鮮明に保存して、未来永劫忘れることの出来ない最悪の記憶として焼き付けてやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  ldstr         "se0241"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #28
+  text          %{L4} ; "俺はさらにデジカメと一緒に用意してきたバイブを取り出すと、未夏の眼前に突きつけてスイッチを入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  ldstr         "d0105"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #32
+  text          %{L5} ; "【未夏】「うぐぅうううっんんんんんっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L6} ; "見せ付けられれば、これから起きるであろう事態はいくら馬鹿女でも簡単に想像が出来る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L7} ; "未夏は恐怖にひきつった表情で、声にならない叫びをあげた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #38
+  text          %{L8} ; "【貴城】「たっぷりと楽しませてやるぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L9} ; "俺はあらわになっている未夏の秘部に顔を近づけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  ldstr         "d0106"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #43
+  text          %{L10} ; "【未夏】「んっんっんんんっぅん！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "見知らぬ男にあられもない秘部をさらけ出した痴態に動転する未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L12} ; "俺は笑いながら、未夏の秘部をデジカメで撮影した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "d0107"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L13} ; "【未夏】「んぁんぁいんぇー」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L14} ; "懸命に膝を閉じようとしている両足を楽々と押さえつける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L15} ; "大股開きでご開帳だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L16} ; "膝を閉じようと力を込めれば込めるほどに秘裂がヒクヒクと動く。それを連続でカメラに収めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  ldstr         "d0108"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #57
+  text          %{L17} ; "【未夏】「ふぅんぁぁんんんんん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L18} ; "耐え切れず涙を流す未夏。だがショーは幕を開けたばかり。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L19} ; "地獄はこれからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  ldstr         "se0241"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #64
+  text          %{L20} ; "俺は手に持っていたバイブをわざとゆっくりと未夏の秘部へと近づけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L21} ; "先端だけを微かにあてるようにする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  ldstr         "d0109"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #68
+  text          %{L22} ; "【未夏】「んっんっんっんっんふぅん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L23} ; "バイブの振動が未夏の秘肉を小刻みに揺する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L24} ; "触れては離し、触れては離しを繰り返して徹底的に焦らしてやると、あっというまに秘部が湿りだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #75
+  text          %{L25} ; "【貴城】「ハッハッハッハ！！　もう感じてやがるぜ。お前は変態だな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldstr         "d0110"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #78
+  text          %{L26} ; "【未夏】「うん、うんぐぅ、んんっん！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L27} ; "首を横に振って否定しているようだが、俺は構わずに湿りだしたところを撮影した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L28} ; "【貴城】「さあいよいよ本番だぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  ldstr         "se0241"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #85
+  text          %{L29} ; "俺はバイブを未夏のクリトリスに当てた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  ldstr         "d0111"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #88
+  text          %{L30} ; "【未夏】「んっぁむんぐぅぁあっんんっんっんっんっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L31} ; "突然の強烈な刺激に、未夏は腰を浮かして全身を震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L32} ; "それに追い討ちをかけるように、俺は未夏の乳首を舐めあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #94
+  ldstr         "d0112"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #95
+  text          %{L33} ; "【未夏】「んっむぅぅぅぅっんんぐぅぅぅ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L34} ; "未夏の秘部はあっというまにぬるぬると粘液を垂れ流した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L35} ; "【貴城】「どろどろとだらしなく涎をたらして、しょうがない奴だな。罰として……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  ldc.i         700
+  ldstr         "ev34e"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #102
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #104
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0113"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #105
+  text          %{L36} ; "【未夏】「んがぁぁぁぁんぱぁぉぇぇぁぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L37} ; "【貴城】「根元まで挿入だ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  ldstr         "se0241"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #110
+  text          %{L38} ; "予告なしにバイブを根元まで一気に突き入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L39} ; "さらにそれをねじるように乱暴に動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L40} ; "未夏は腰をくねらせ、全身をバネのようにしてのた打ち回った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L41} ; "突き入れては引き抜き、また突き入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L42} ; "愛液が膣から勢いよく飛び散って、びしゃびしゃと卑猥な音と共にシーツを濡らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #119
+  ldstr         "d0114"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #120
+  text          %{L43} ; "【未夏】「んぅあ、んぅんぅんんんぁ、んぅんぅぅぅんんっん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L44} ; "絶え間なく続く激しい責めに、未夏の肉体は過敏に反応する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  callp         $413b2f3a (0)
+  line          #124
+  text          %{L45} ; "俺はカメラを構えてそれをすかさず撮影した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L46} ; "フラッシュの閃光が走る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  ldstr         "d0115"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #128
+  text          %{L47} ; "【未夏】「うんぁぁっあんっうんっんっんっんんん！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L48} ; "光に反応して大きく仰け反ると、まるで失禁したかのように愛液を噴出して、未夏は絶頂に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L49} ; "【貴城】「イッたか？　イッたのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  ldstr         "d0116"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #135
+  text          %{L50} ; "【未夏】「ふぅんんんっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L51} ; "懸命に首を振って否定しているが、疑う余地は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L52} ; "【貴城】「未夏がレイプされてバイブで感じた瞬間はしっかり撮影してやったぞ。決定的瞬間ってやつだ。いい記念になったな！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L53} ; "これ見よがしにカメラを未夏の眼前にちらつかせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  ldstr         "d0117"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #144
+  text          %{L54} ; "【未夏】「んっ……んんっんぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L55} ; "涙をこぼして未夏はそれを呆然と見つめていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L56} ; "しかし、これで終わりではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L57} ; "地獄の宴はまだまだ続くのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  ldc.i         700
+  ldstr         "ev34b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #151
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #153
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L58} ; "俺はバイブを抜き、自分の肉棒を取り出すと未夏の膣へと挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  ldstr         "d0118"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #156
+  text          %{L59} ; "【未夏】「んぅっんぁぁぁ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L60} ; "絶頂の余韻が醒める間もなく挿入されて、未夏は全身を震わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L61} ; "尻をつかんで一気に根元まで突き入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L62} ; "バイブで広げた膣壁が収縮して俺の肉棒を締め上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L63} ; "子宮を突き上げるように腰を打ち付ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  ldstr         "d0119"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #165
+  text          %{L64} ; "【未夏】「んっぅ、んっぅ、んっぅぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L65} ; "体内の奥深くを突く肉棒の感触に、未夏は官能的なうめき声を漏らして反応した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L66} ; "柔らかい胸を両手で下からこねるように揉みしだき、猿轡から涎を垂らしている顔を舐めまわす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L67} ; "未夏の唾液と俺の唾液が顔面をベトベトにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  ldstr         "d0120"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #173
+  text          %{L68} ; "【未夏】「うんぁんんっんぐぅぅむむぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L69} ; "顔に広がる感触に嫌悪する未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L70} ; "それでも俺は許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L71} ; "腰を動かしてピストンしながら未夏の顔を舐めまわした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  ldstr         "d0121"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #180
+  text          %{L72} ; "【未夏】「んっあっ、んっむぅ、んっぐぅ、んっふぅぅんっんっ！　んっふぅ、んっんっんっんっんんんっんぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L73} ; "次第に未夏の抵抗と拒絶が薄れて、快感に恍惚となる卑猥な色が広がっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L74} ; "突くほどに未夏の膣は収縮して、俺の肉棒を締め上げ、未夏は自ら腰を動かして求めはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  ldstr         "d0122"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #187
+  text          %{L75} ; "【未夏】「んっふぅ、んっんっんふぅ。んっくぅんっんんむぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L76} ; "突き上げる肉棒に未夏の快感が高まる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  text          %{L77} ; "俺の射精欲も同時に刺激された。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #192
+  text          %{L78} ; "手を胸から尻に移して、勢いよく突き入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L79} ; "ピストンの速度をあげていくと、未夏の子宮が激しく収縮して全身が震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  ldstr         "d0123"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #196
+  text          %{L80} ; "【未夏】「んっぁっうんむっんんんんっんぁぁぁぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L81} ; "身体が反り返って、膣が肉棒を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L82} ; "未夏の絶頂にあわせて、俺も中に放出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  ldstr         "ev34f"
+  callp         $3706a555 (1)
+  line          #204
+  ldstr         "d0124"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #205
+  text          %{L83} ; "【未夏】「んぅっ、うんっ、んっ、んっんん！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L84} ; "ドクドクと精液を子宮へ流し込むと、未夏の肉体がそれにあわせてビクビクと躍動した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L85} ; "体内に広がる熱い感触に打ち震えているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L86} ; "俺がゆっくりと肉棒を引き抜くと、膣から精液が溢れ出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #212
+  text          %{L87} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #220
+  ldc.i         0
+  ret          
+}

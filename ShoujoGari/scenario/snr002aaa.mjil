@@ -1,0 +1,858 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #15
+  argcheck      []
+  alloca        []
+  line          #20
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #22
+  text          %{L1} ; "【貴城】「おとなしくしないと、今度はザクリといくぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L2} ; "俺は希更をマットに押し倒すと、希更の喉にナイフを押し当てた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L3} ; "冷たい金属の感触に希更が息をのむ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L4} ; "希更は恐怖に顔をこわばらせたまま、ナイフを凝視していたが、俺が制服のリボンをむしりとったとたん、大きな悲鳴をあげた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  ldstr         "c0037"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #29
+  text          %{L5} ; "【希更】「いっ、いやぁああ！　なっ、何するのよ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L6} ; "【貴城】「何するだって？　判らないほどバカなのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L7} ; "ナイフで抵抗を封じながら、俺はブラウスのボタンを引きちぎるような勢いで前を開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L8} ; "すべすべとした肌とブラジャーに包まれた胸が俺の眼前にさらされる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  ldstr         "c0038"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #38
+  text          %{L9} ; "【希更】「はぅうっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L10} ; "【貴城】「ちいせぇ胸だな。揉みがいもへったくれもないな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L11} ; "ブラジャーに包まれた胸はプルンと俺を誘うように揺れていたが、俺はわざとそう言ってブラジャーの上から乳房をわしづかみにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  ldstr         "c0039"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #45
+  text          %{L12} ; "【希更】「いっ、痛いっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L13} ; "【貴城】「ふん。ブラジャーが邪魔だな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L14} ; "わざと言い捨てるようにそういうと、俺はブラジャーの肩紐をナイフで持ち上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L15} ; "【貴城】「こいつの切れ味を見せてやろうか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  ldstr         "c0040"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #54
+  text          %{L16} ; "【希更】「いっ、イヤ……きら、切らないで」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L17} ; "【貴城】「俺にお願いできるような立場だと思ってるのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L18} ; "冷たく言い放ち、俺は希更に見せ付けるようにナイフをスッと動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L19} ; "まるでそこに何もなかったかのように、何の抵抗も見せずに肩紐はナイフに切り裂かれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L20} ; "その切れ味に恐怖が限界に達したのか、希更は俺を跳ね除けるような勢いで暴れ始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L21} ; "だがいくら希更が体育系の部活で鍛えているといっても、ただでさえ男と女の力の差は歴然としているというのに加えて、体格の差というものがある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L22} ; "たまにバイトをするくらいでほとんど引きこもりのような生活をしているとはいえ、少女一人を押さえ込めないほど、俺も柔ではなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  ldstr         "c0041"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #68
+  text          %{L23} ; "【希更】「馬鹿！　ふざけんな！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L24} ; "どうにも逃げられないと観念したのか、希更はぎらぎらとした目で俺をにらみつけてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  ldstr         "c0042"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #73
+  text          %{L25} ; "【希更】「冗談も大概にして！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L26} ; "【貴城】「冗談か何かでこんなことをやってると思うのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldstr         "c0043"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #78
+  text          %{L27} ; "【希更】「なんであたしがこんな目にあわなきゃいけないのよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L28} ; "【貴城】「馬鹿だからだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L29} ; "そう言いながら、俺は暴れる希更を体で押さえつけて、もう片方の肩紐をまるで暖めたナイフでバターを切るかのように切り裂く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L30} ; "収縮性のある布は肩紐と言う抑制をはずされて、ぷるんとした希更の胸を隠すことをやめて、アンダーの部分でくしゃくしゃになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  ldstr         "c0044"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #86
+  text          %{L31} ; "【希更】「いやぁあああああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L32} ; "逃げられないと判っているくせに、希更は俺から逃げ出そうと暴れ始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L33} ; "短いスカートがまくれ上がり、パンティがあらわになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L34} ; "その暴れるのに乗じるように、俺はむき出しになった胸にむしゃぶりつきたい気持ちを抑えて、希更のパンティを無理やり剥ぎ取りにかかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  ldstr         "c0045"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #93
+  text          %{L35} ; "【希更】「馬鹿馬鹿！　やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L36} ; "俺の意図に気づいて、希更は懸命に手を伸ばして自分のパンティをつかみ、俺が剥ぎ取るのを阻止する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L37} ; "しかし俺はナイフをちらつかせて希更の抵抗を押さえつけると、スカートと一緒にパンティを剥ぎ取った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L38} ; "恐怖のあまりに少し失禁したのか、ションベンの臭いがほのかにする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L39} ; "いや、俺のかわいい夕実に理不尽な嫉妬で虐め、死に追い込んでも平然としてる女だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L40} ; "男に相手にされたこともないから、そこを清潔にしておくという配慮も何もないに決まってる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L41} ; "【貴城】「くくく……感謝しろよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  ldstr         "c0046"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #105
+  text          %{L42} ; "【希更】「なっ、何を感謝しろって言うのよ！　やめて……やめて！　変態！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L43} ; "【貴城】「男に見向きもされないような、ションベン臭いま○こに俺のものを今から突っ込んでやろうっていうんだ。感謝して当然だろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  ldstr         "c0047"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #110
+  text          %{L44} ; "【希更】「ふざ……ふざけないでよ！！　イヤッ！　やだ。やめて……やめてぇ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L45} ; "希更の悲鳴を心地よく聞きながら俺は両足を広げると、自分の体をそこへねじりこむようにして、ズボンの中でギンギンに昂ぶっていた欲棒を取り出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  ldstr         "ev01a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #115
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #117
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0048"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #118
+  text          %{L46} ; "【希更】「いやっ！　ヤダヤダ。冗談でしょ？！　イヤッ！　イヤァアアアア！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L47} ; "【貴城】「うるさい。おとなしくしろ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L48} ; "俺はナイフを再び希更の喉元にかざして、片手で希更の腰をつかむと、グイっと腰を押し進めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L49} ; "俺のガマン汁だけが潤滑油となったそこは、ギチギチと俺を拒んで、まるで鉄板でも張っているかのようだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L50} ; "だが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  ldstr         "c0049"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #129
+  text          %{L51} ; "【希更】「ひぐぅううう！　痛い。痛い、痛い、痛いっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L52} ; "プツンと何かが切れた感触と共に、俺は希更の内部に欲棒をつきたてる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L53} ; "膣壁は俺を包み込むというよりも、俺を完全に拒んで奥へ進むのが容易ではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L54} ; "しかし俺は破瓜の血を味方につけて、無理やり根本まで欲棒を押し込もうとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  ldstr         "c0050"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #138
+  text          %{L55} ; "【希更】「うごっ、動かないでっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L56} ; "【貴城】「何を言ってるんだ。こんなに濡らして……どうだ？　いいんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  ldstr         "c0051"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #143
+  text          %{L57} ; "【希更】「ひぃいいっ！　痛いっ！！　もうイヤァアア」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L58} ; "一気に奥へと入り込めないために、俺自身に慣れさせるように、カリが膣口を何度も出入りして、クチュクチュと淫猥な音が鳴り響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L59} ; "だが、それは希更が快楽によって愛液をにじませ始めたからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L60} ; "全然濡れていない場所に異物をねじり込まれたせいで、破瓜によるものだけではなく、膣自体が傷ついて流した血によるものだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L61} ; "俺はがむしゃらに腰を振り続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L62} ; "もっと傷つけたかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L63} ; "もっとぐちゃぐちゃにしてやりたかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L64} ; "快楽を感じていようといまいと関係ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L65} ; "俺は初めて女とやる童貞野郎のように、テクニックも何もなくずんずんと希更の体全体を揺さぶるように腰を打ち付ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  ldstr         "c0052"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #161
+  text          %{L66} ; "【希更】「ぐぅうう……もぉ……うっぐ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L67} ; "泣き叫んでいた希更は次第にぐったりして、ただ俺の律動に合わせるように声を上げるだけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L68} ; "しかし、その変化は急激にやってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  ldstr         "c0053"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #170
+  text          %{L69} ; "【希更】「ぎゃうぅううんっ！」"
+  line          #172
+  callp         $$voice_wait_skip@KOEKOE (0) ; $voice_wait_skip@KOEKOE
+  line          #173
+  ldc.i         700
+  ldstr         "ev01b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #174
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L70} ; "流れる血によってじょじょに滑りがよくなったことに気をよくして、俺が一気に根本まで欲棒を叩きつけたのと、希更が断末魔の悲鳴のような叫び声を上げたのはほぼ同時だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L71} ; "一瞬、白目をむかんばかりに体をのけぞらせたかと思うと、希更の体はぐったりとしてまるで人形のように無反応になった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L72} ; "どうやらあまりの痛みに気絶してしまったらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L73} ; "けれどそんなことなど俺には関係ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L74} ; "夕実も見知らぬ男どもに陵辱されたとき、同じように恐怖し、同じように痛み、同じように気絶したに違いないからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L75} ; "【貴城】「こいつめ、こいつめ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L76} ; "まるでダッチワイフか何かを抱いているような無反応さ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L77} ; "それでも痛みに反応して、膣壁が俺の進入を拒むために俺を締め付ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L78} ; "それがなんとも言えない快楽を俺に与えて……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L79} ; "急激に高まってくる欲望に、俺はラストスパートを目指すように楔を希更に打ち込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L80} ; "【貴城】「くふぅ、くぅうう……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  text          %{L81} ; "限界ギリギリまで欲望が高まってくるのを感じながら、俺は冷静にどこへぶっかけてやろうかと思いをめぐらせた。"
+  proc         
+  ctrl          "p"
+  line          #211
+  ldc.i         0
+  ret          
+}
+
+func $18366439() {
+ entry:
+  line          #212
+  argcheck      []
+  alloca        []
+  line          #217
+  text          %{L82} ; "【貴城】「やっぱり中だよな。子宮の中にまでたっぷり注ぎ込んでやる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #219
+  text          %{L83} ; "どこの誰とも判らない男の子を妊娠する恐怖を味あわせてやりたくて、俺はそのまま欲望を高め、希更の一番奥深くに思いっきり射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  ldstr         "se0214"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #224
+  ldc.i         700
+  ldstr         "ev01c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #226
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L84} ; "どくどくと大量のそれが何度も注ぎ込まれる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L85} ; "最後の一滴まで注ぎ込んでやろうと腰を動かすと、先に射精した精液が血と混ざり合ってピンク色に変色して出てくるほどだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  text          %{L86} ; "そのまま最後の一滴まで注ぎ込み、俺は希更から離れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #232
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #233
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #235
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L87} ; "気を失ったままの希更は自らの身に何が起きたのかも判らず、俺を受け入れたそのままの姿勢で転がっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  text          %{L88} ; "それはまるで何も知らない幼子が眠りについているかのように静かな光景。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #238
+  text          %{L89} ; "しかし、ぽっかりと俺のモノの形に押し広げられた膣口から流れ出る精液の名残が、淫靡なものに変えていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #240
+  text          %{L90} ; "だが、いつまでも反応がないのも面白くはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  text          %{L91} ; "俺は希更の頬を叩いてその意識を取り戻させることにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #244
+  ldstr         "c0054"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #245
+  text          %{L92} ; "【希更】「うっ……ううん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L93} ; "何度かその頬を叩いていると、やっと目覚め、希更はぼんやりとした顔で俺を見上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #248
+  text          %{L94} ; "と、しばらくしてやっと自分の状況に気がついたのか、その顔色をさっと青ざめさせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #251
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #252
+  argcheck      []
+  alloca        []
+  line          #255
+  text          %{L95} ; "【貴城】「ぶっかけてやる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  text          %{L96} ; "俺は希更をとことん汚したくて、すぐにも発射してしまいそうな欲望を無理やり押さえつけて希更の内部から欲棒を引き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #258
+  text          %{L97} ; "とたん。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  ldstr         "se0214"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #262
+  ldc.i         700
+  ldstr         "ev01d"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #264
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L98} ; "俺の欲望は希更の胸といわず、腹といわず、全身に浴びせかけるように飛び散る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #266
+  text          %{L99} ; "黄色みを帯びたそれはとろりと希更を汚し、その淫靡な光景に俺はゾクリとする喜びを感じながら、最後の一滴までかけてやろうと欲棒をしごき、希更の上に振りまいていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #268
+  text          %{L100} ; "希更が気を失ったままであることが残念だったが、全身俺の精に汚れた希更は妙に色めかしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #269
+  text          %{L101} ; "そんな姿を見下ろしながら、俺は暗い愉悦の笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L102} ; "だが、いつまでも反応がないのも面白くはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #272
+  text          %{L103} ; "俺は希更の頬を叩いてその意識を取り戻させることにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #274
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #275
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #276
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #278
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0055"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #279
+  text          %{L104} ; "【希更】「うっ……ううん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  text          %{L105} ; "何度かその頬を叩いていると、やっと目覚め、希更はぼんやりとした顔で俺を見上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #282
+  text          %{L106} ; "と、しばらくしてやっと自分の状況に気がついたのか、その顔色をさっと青ざめさせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #285
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #286
+  argcheck      []
+  alloca        []
+  line          #290
+  text          %{L107} ; "急激に高まってくる欲望を押さえ込んで内部から引き抜くと、俺は希更の顔めがけて思いっきり射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  ldstr         "se0214"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #294
+  ldc.i         700
+  ldstr         "ev01e"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #296
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L108} ; "まるで何も知らない幼子のように気を失ったままの希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #297
+  text          %{L109} ; "その顔に俺の黄色みを帯びた白い欲望が滴る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  text          %{L110} ; "その光景に興奮して、俺は希更の血で赤く染まった欲棒をしごき、最後の一滴までふりかけてやった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #301
+  text          %{L111} ; "濃度の濃いそれがうっすらと開いた口に滴り落ちる。と、反射のように喉が嚥下の動きを見せるのを見て、俺は深い満足に満たされた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #303
+  text          %{L112} ; "だが、いつまでも反応がないのも面白くはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #304
+  text          %{L113} ; "俺は希更の頬を叩いてその意識を取り戻させることにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #306
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #307
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #308
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #310
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "c0056"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #311
+  text          %{L114} ; "【希更】「うっ……ううん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #313
+  text          %{L115} ; "何度かその頬を叩いていると、やっと目覚め、希更はぼんやりとした顔で俺を見上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #314
+  text          %{L116} ; "と、しばらくしてやっと自分の状況に気がついたのか、その顔色をさっと青ざめさせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #317
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #318
+  argcheck      []
+  alloca        []
+  line          #320
+  callp         $c2a71eff (0)
+  line          #321
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_2ec7
+
+ block_2ec7:
+  line          #322
+  ldc.i         1
+  bne.case      @block_2eed
+
+ block_2ed7:
+  line          #323
+  callp         $18366439 (0)
+  br            @block_2f37
+
+ block_2eed:
+  line          #324
+  ldc.i         2
+  bne.case      @block_2f13
+
+ block_2efd:
+  line          #325
+  callp         $96b963da (0)
+  br            @block_2f37
+
+ block_2f13:
+  line          #326
+  ldc.i         3
+  bne.case      @block_2f37
+
+ block_2f23:
+  line          #327
+  callp         $5a136344 (0)
+  line          #328
+
+ block_2f37:
+  line          #329
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #331
+  argcheck      []
+  alloca        []
+  line          #333
+  ldstr         "bg01"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #334
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #335
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $c2a71eff (0)
+  line          #336
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_2fd5
+
+ block_2fd5:
+  line          #337
+  ldc.i         1
+  bne.case      @block_2ffb
+
+ block_2fe5:
+  line          #338
+  callp         $18366439 (0)
+  br            @block_3045
+
+ block_2ffb:
+  line          #339
+  ldc.i         2
+  bne.case      @block_3021
+
+ block_300b:
+  line          #340
+  callp         $96b963da (0)
+  br            @block_3045
+
+ block_3021:
+  line          #341
+  ldc.i         3
+  bne.case      @block_3045
+
+ block_3031:
+  line          #342
+  callp         $5a136344 (0)
+  line          #343
+
+ block_3045:
+  line          #344
+  ldc.i         0
+  ret          
+}

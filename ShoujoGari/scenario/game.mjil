@@ -1,0 +1,7305 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #41
+  argcheck      []
+  alloca        [int, int, int, int, int, int, int, int]
+  line          #48
+  ldc.i         0
+  st.i          local int $f0367ae6 4
+  pop          
+  line          #50
+  ldc.i         0
+  st.i          local int $2e957d55 5
+  pop          
+  line          #52
+  ldc.i         0
+  st.i          savefile int $dce0413f 
+  pop          
+  line          #53
+  ldc.i         0
+  st.i          savefile int $62cd6078 
+  pop          
+  line          #54
+  ldc.i         0
+  st.i          savefile int $07a425c3 
+  pop          
+  line          #55
+  ldc.i         0
+  st.i          savefile int $97a8c0bc 
+  pop          
+  line          #56
+  ldc.i         0
+  st.i          savefile int $57c34798 
+  pop          
+  line          #59
+  ldstr         "snr000"
+  syscallp      $call (1)
+  line          #62
+  ldstr         "snr001"
+  syscallp      $call (1)
+  line          #63
+  ldc.i         0
+  st.i          local int $611168d9 0
+  pop          
+  line          #65
+
+ block_00f6:
+  line          #66
+  ldc.i         2
+  ld            savefile int $822330f1 
+  sub.i        
+  ldstr         "松本璃乃"
+  ldc.i         2
+  ld            savefile int $4e89306f 
+  sub.i        
+  ldstr         "桜井衣澄"
+  ldc.i         2
+  ld            savefile int $444c3976 
+  sub.i        
+  ldstr         "二宮未夏"
+  ldc.i         2
+  ld            savefile int $88e639e8 
+  sub.i        
+  ldstr         "大野愛梨"
+  ldc.i         2
+  ld            savefile int $06693e0b 
+  sub.i        
+  ldstr         "相葉希更"
+  call          $$select_ex@MENU (10) ; $select_ex@MENU
+  br.case       @block_01a7
+
+ block_01a7:
+  line          #67
+  ldc.i         1
+  bne.case      @block_09d4
+
+ block_01b7:
+  line          #68
+  ld            local int $2e957d55 5
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_01e5
+
+ block_01d3:
+  ldc.i         1
+  st.i          local int $2e957d55 5
+  pop          
+
+ block_01e5:
+  line          #69
+  ldc.i         1
+  st.i          savefile int $06693e0b 
+  pop          
+  line          #70
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_023f
+
+ block_0217:
+  line          #71
+  ldc.i         406217785
+  ldstr         "snr002a"
+  syscallp      $call_sub (2)
+  line          #72
+  br            @block_02a1
+
+ block_023f:
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  brfalse       @block_027f
+
+ block_0257:
+  line          #73
+  ldc.i         -1766235174
+  ldstr         "snr002a"
+  syscallp      $call_sub (2)
+  line          #74
+  br            @block_02a1
+
+ block_027f:
+  line          #75
+  ldc.i         1511220036
+  ldstr         "snr002a"
+  syscallp      $call_sub (2)
+  line          #76
+
+ block_02a1:
+  line          #77
+  ldc.i         1277696284
+  ldstr         "snr002a"
+  syscallp      $call_sub (2)
+  line          #78
+  ldstr         "待ち伏せして襲う"
+  ldstr         "携帯メールを使う"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_02ff
+
+ block_02ff:
+  line          #79
+  ldc.i         1
+  bne.case      @block_065c
+
+ block_030f:
+  line          #80
+  ldc.i         1
+  st.i          savefile int $a2229c1c 
+  pop          
+  line          #81
+  ldstr         "snr002aa"
+  syscallp      $call (1)
+  line          #82
+  ldstr         "縛ってイタズラする"
+  ldstr         "このままレイプする"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0382
+
+ block_0382:
+  line          #83
+  ldc.i         1
+  bne.case      @block_04d5
+
+ block_0392:
+  line          #84
+  ldc.i         1
+  st.i          savefile int $21555279 
+  pop          
+  line          #85
+  ldc.i         -1029234945
+  ldstr         "snr002aaa"
+  syscallp      $call_sub (2)
+  line          #86
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_0403
+
+ block_0403:
+  line          #87
+  ldc.i         1
+  bne.case      @block_0439
+
+ block_0413:
+  line          #88
+  ldc.i         406217785
+  ldstr         "snr002aaa"
+  syscallp      $call_sub (2)
+  br            @block_04b9
+
+ block_0439:
+  line          #89
+  ldc.i         2
+  bne.case      @block_046f
+
+ block_0449:
+  line          #90
+  ldc.i         -1766235174
+  ldstr         "snr002aaa"
+  syscallp      $call_sub (2)
+  br            @block_04b9
+
+ block_046f:
+  line          #91
+  ldc.i         3
+  bne.case      @block_04b9
+
+ block_047f:
+  line          #92
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #93
+  ldc.i         1511220036
+  ldstr         "snr002aaa"
+  syscallp      $call_sub (2)
+  line          #94
+
+ block_04b9:
+  line          #95
+  ldc.i         1
+  st.i          persistent int $012a5ef3 
+  pop          
+  br            @block_063c
+
+ block_04d5:
+  line          #96
+  ldc.i         2
+  bne.case      @block_063c
+
+ block_04e5:
+  line          #97
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #98
+  ldc.i         1
+  st.i          savefile int $afda559a 
+  pop          
+  line          #99
+  ldc.i         -1029234945
+  ldstr         "snr002aab"
+  syscallp      $call_sub (2)
+  line          #100
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_056c
+
+ block_056c:
+  line          #101
+  ldc.i         1
+  bne.case      @block_05a2
+
+ block_057c:
+  line          #102
+  ldc.i         406217785
+  ldstr         "snr002aab"
+  syscallp      $call_sub (2)
+  br            @block_0622
+
+ block_05a2:
+  line          #103
+  ldc.i         2
+  bne.case      @block_05d8
+
+ block_05b2:
+  line          #104
+  ldc.i         -1766235174
+  ldstr         "snr002aab"
+  syscallp      $call_sub (2)
+  br            @block_0622
+
+ block_05d8:
+  line          #105
+  ldc.i         3
+  bne.case      @block_0622
+
+ block_05e8:
+  line          #106
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #107
+  ldc.i         1511220036
+  ldstr         "snr002aab"
+  syscallp      $call_sub (2)
+  line          #108
+
+ block_0622:
+  line          #109
+  ldc.i         1
+  st.i          persistent int $8fa55910 
+  pop          
+  line          #110
+
+ block_063c:
+  line          #111
+  ldstr         "snr002aaz"
+  syscallp      $call (1)
+  br            @block_09ce
+
+ block_065c:
+  line          #112
+  ldc.i         2
+  bne.case      @block_09ce
+
+ block_066c:
+  line          #113
+  ldc.i         1
+  st.i          savefile int $2cad9bff 
+  pop          
+  line          #114
+  ldstr         "snr002ab"
+  syscallp      $call (1)
+  line          #115
+  ldstr         "ロープで拘束する"
+  ldstr         "このままレイプする"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_06dd
+
+ block_06dd:
+  line          #116
+  ldc.i         1
+  bne.case      @block_0830
+
+ block_06ed:
+  line          #117
+  ldc.i         1
+  st.i          savefile int $18d86ebc 
+  pop          
+  line          #118
+  ldc.i         -1029234945
+  ldstr         "snr002aba"
+  syscallp      $call_sub (2)
+  line          #119
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_075e
+
+ block_075e:
+  line          #120
+  ldc.i         1
+  bne.case      @block_0794
+
+ block_076e:
+  line          #121
+  ldc.i         406217785
+  ldstr         "snr002aba"
+  syscallp      $call_sub (2)
+  br            @block_0814
+
+ block_0794:
+  line          #122
+  ldc.i         2
+  bne.case      @block_07ca
+
+ block_07a4:
+  line          #123
+  ldc.i         -1766235174
+  ldstr         "snr002aba"
+  syscallp      $call_sub (2)
+  br            @block_0814
+
+ block_07ca:
+  line          #124
+  ldc.i         3
+  bne.case      @block_0814
+
+ block_07da:
+  line          #125
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #126
+  ldc.i         1511220036
+  ldstr         "snr002aba"
+  syscallp      $call_sub (2)
+  line          #127
+
+ block_0814:
+  line          #128
+  ldc.i         1
+  st.i          persistent int $38a76236 
+  pop          
+  br            @block_09b1
+
+ block_0830:
+  line          #129
+  ldc.i         2
+  bne.case      @block_09b1
+
+ block_0840:
+  line          #130
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #131
+  ldc.i         1
+  st.i          savefile int $9657695f 
+  pop          
+  line          #132
+  ldc.i         -1029234945
+  ldstr         "snr002abb"
+  syscallp      $call_sub (2)
+  line          #133
+  ldstr         "顔にかける"
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_08c7
+
+ block_08c7:
+  line          #134
+  ldc.i         1
+  bne.case      @block_08fd
+
+ block_08d7:
+  line          #135
+  ldc.i         406217785
+  ldstr         "snr002abb"
+  syscallp      $call_sub (2)
+  br            @block_097d
+
+ block_08fd:
+  line          #136
+  ldc.i         2
+  bne.case      @block_0933
+
+ block_090d:
+  line          #137
+  ldc.i         -1766235174
+  ldstr         "snr002abb"
+  syscallp      $call_sub (2)
+  br            @block_097d
+
+ block_0933:
+  line          #138
+  ldc.i         3
+  bne.case      @block_097d
+
+ block_0943:
+  line          #139
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #140
+  ldc.i         1511220036
+  ldstr         "snr002abb"
+  syscallp      $call_sub (2)
+  line          #141
+
+ block_097d:
+  line          #142
+  ldstr         "snr002abz"
+  syscallp      $call (1)
+  line          #143
+  ldc.i         1
+  st.i          persistent int $b62865d5 
+  pop          
+  line          #144
+
+ block_09b1:
+  line          #145
+  ldstr         "snr002az"
+  syscallp      $call (1)
+  line          #147
+
+ block_09ce:
+  br            @block_21f2
+
+ block_09d4:
+  line          #148
+  ldc.i         2
+  bne.case      @block_1327
+
+ block_09e4:
+  line          #149
+  ld            local int $2e957d55 5
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_0a12
+
+ block_0a00:
+  ldc.i         2
+  st.i          local int $2e957d55 5
+  pop          
+
+ block_0a12:
+  line          #151
+  ldc.i         1
+  st.i          savefile int $88e639e8 
+  pop          
+  line          #152
+  ldstr         "snr002b"
+  syscallp      $call (1)
+  line          #153
+  ldstr         "このまま追跡する"
+  ldstr         "メールで脅迫する"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0a80
+
+ block_0a80:
+  line          #154
+  ldc.i         1
+  bne.case      @block_0e0d
+
+ block_0a90:
+  line          #155
+  ldc.i         1
+  st.i          savefile int $9bafa0d9 
+  pop          
+  line          #156
+  ldstr         "snr002ba"
+  syscallp      $call (1)
+  line          #157
+  ldstr         "そのままトイレの中へ誘導する"
+  ldstr         "ナイフを突きつけ、押し倒す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0b15
+
+ block_0b15:
+  line          #158
+  ldc.i         1
+  bne.case      @block_0c4f
+
+ block_0b25:
+  line          #159
+  ldc.i         1
+  st.i          savefile int $ca62e97a 
+  pop          
+  line          #160
+  ldc.i         -1029234945
+  ldstr         "snr002baa"
+  syscallp      $call_sub (2)
+  line          #161
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0b87
+
+ block_0b87:
+  line          #162
+  ldc.i         1
+  bne.case      @block_0be9
+
+ block_0b97:
+  line          #163
+  ldc.i         0
+  st.i          savefile int $7024f652 
+  pop          
+  line          #164
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #165
+  ldc.i         406217785
+  ldstr         "snr002baa"
+  syscallp      $call_sub (2)
+  br            @block_0c33
+
+ block_0be9:
+  line          #166
+  ldc.i         2
+  bne.case      @block_0c33
+
+ block_0bf9:
+  line          #167
+  ldc.i         1
+  st.i          savefile int $7024f652 
+  pop          
+  line          #168
+  ldc.i         -1766235174
+  ldstr         "snr002baa"
+  syscallp      $call_sub (2)
+  line          #169
+
+ block_0c33:
+  line          #170
+  ldc.i         1
+  st.i          persistent int $ea1de5f0 
+  pop          
+  br            @block_0e07
+
+ block_0c4f:
+  line          #171
+  ldc.i         2
+  bne.case      @block_0e07
+
+ block_0c5f:
+  line          #172
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #173
+  ldc.i         1
+  st.i          savefile int $44edee99 
+  pop          
+  line          #174
+  ldc.i         -1029234945
+  ldstr         "snr002bab"
+  syscallp      $call_sub (2)
+  line          #175
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0cd7
+
+ block_0cd7:
+  line          #176
+  ldc.i         1
+  bne.case      @block_0d39
+
+ block_0ce7:
+  line          #177
+  ldc.i         0
+  st.i          savefile int $7024f652 
+  pop          
+  line          #178
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #179
+  ldc.i         406217785
+  ldstr         "snr002bab"
+  syscallp      $call_sub (2)
+  br            @block_0d83
+
+ block_0d39:
+  line          #180
+  ldc.i         2
+  bne.case      @block_0d83
+
+ block_0d49:
+  line          #181
+  ldc.i         1
+  st.i          savefile int $7024f652 
+  pop          
+  line          #182
+  ldc.i         -1766235174
+  ldstr         "snr002bab"
+  syscallp      $call_sub (2)
+  line          #183
+
+ block_0d83:
+  line          #184
+  ldc.i         1
+  st.i          persistent int $6492e213 
+  pop          
+  line          #185
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_0ddf
+
+ block_0db5:
+  line          #186
+  ldc.i         406217785
+  ldstr         "snr002baz"
+  syscallp      $call_sub (2)
+  line          #187
+  br            @block_0e03
+
+ block_0ddf:
+  line          #188
+  ldc.i         -1766235174
+  ldstr         "snr002baz"
+  syscallp      $call_sub (2)
+  line          #189
+
+ block_0e03:
+  line          #190
+
+ block_0e07:
+  br            @block_1321
+
+ block_0e0d:
+  line          #191
+  ldc.i         2
+  bne.case      @block_1321
+
+ block_0e1d:
+  line          #192
+  ldc.i         1
+  st.i          savefile int $1520a73a 
+  pop          
+  line          #193
+  ldc.i         -1029234945
+  ldstr         "snr002bb"
+  syscallp      $call_sub (2)
+  line          #194
+  ldstr         "パンティを食い込ませて遊ぶ"
+  ldstr         "パンティの中に手を入れる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_0ea4
+
+ block_0ea4:
+  line          #195
+  ldc.i         1
+  bne.case      @block_0f1b
+
+ block_0eb4:
+  line          #197
+  ldc.i         0
+  st.i          savefile int $6b4acca1 
+  pop          
+  line          #198
+  ldc.i         2
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #199
+  ldc.i         406217785
+  ldstr         "snr002bb"
+  syscallp      $call_sub (2)
+  line          #200
+  ldc.i         1
+  st.i          persistent int $11c43926 
+  pop          
+  br            @block_0f90
+
+ block_0f1b:
+  line          #201
+  ldc.i         2
+  bne.case      @block_0f90
+
+ block_0f2b:
+  line          #202
+  ldc.i         1
+  st.i          savefile int $6b4acca1 
+  pop          
+  line          #203
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #204
+  ldc.i         -1766235174
+  ldstr         "snr002bb"
+  syscallp      $call_sub (2)
+  line          #205
+  ldc.i         1
+  st.i          persistent int $9f4b3ec5 
+  pop          
+  line          #206
+
+ block_0f90:
+  line          #207
+  ldc.i         1511220036
+  ldstr         "snr002bb"
+  syscallp      $call_sub (2)
+  line          #208
+  ldstr         "手のにおいを嗅がせてやろう"
+  ldstr         "ナイフで脅し、茂みの中に引きずり込む"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_100d
+
+ block_100d:
+  line          #209
+  ldc.i         1
+  bne.case      @block_114a
+
+ block_101d:
+  line          #210
+  ldc.i         1
+  st.i          savefile int $250410d1 
+  pop          
+  line          #211
+  ldc.i         -1029234945
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  line          #212
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1080
+
+ block_1080:
+  line          #213
+  ldc.i         1
+  bne.case      @block_10e3
+
+ block_1090:
+  line          #214
+  ldc.i         0
+  st.i          savefile int $7024f652 
+  pop          
+  line          #215
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #216
+  ldc.i         -1766235174
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  br            @block_112e
+
+ block_10e3:
+  line          #217
+  ldc.i         2
+  bne.case      @block_112e
+
+ block_10f3:
+  line          #218
+  ldc.i         1
+  st.i          savefile int $7024f652 
+  pop          
+  line          #219
+  ldc.i         1511220036
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  line          #220
+
+ block_112e:
+  line          #221
+  ldc.i         1
+  st.i          persistent int $284905e3 
+  pop          
+  br            @block_1307
+
+ block_114a:
+  line          #222
+  ldc.i         2
+  bne.case      @block_1307
+
+ block_115a:
+  line          #223
+  ldc.i         1
+  st.i          savefile int $ab8b1732 
+  pop          
+  line          #224
+  ldc.i         2
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #225
+  ldc.i         -1029234945
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  line          #226
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_11d3
+
+ block_11d3:
+  line          #227
+  ldc.i         1
+  bne.case      @block_1236
+
+ block_11e3:
+  line          #228
+  ldc.i         0
+  st.i          savefile int $7024f652 
+  pop          
+  line          #229
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #230
+  ldc.i         406217785
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  br            @block_1281
+
+ block_1236:
+  line          #231
+  ldc.i         2
+  bne.case      @block_1281
+
+ block_1246:
+  line          #232
+  ldc.i         1
+  st.i          savefile int $7024f652 
+  pop          
+  line          #233
+  ldc.i         -1766235174
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  line          #234
+
+ block_1281:
+  line          #235
+  ldc.i         1
+  st.i          persistent int $a6c60200 
+  pop          
+  line          #236
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_12de
+
+ block_12b3:
+  line          #237
+  ldc.i         406217785
+  ldstr         "snr002bb2z"
+  syscallp      $call_sub (2)
+  line          #238
+  br            @block_1303
+
+ block_12de:
+  line          #239
+  ldc.i         -1766235174
+  ldstr         "snr002bb2z"
+  syscallp      $call_sub (2)
+  line          #240
+
+ block_1303:
+  line          #241
+
+ block_1307:
+  line          #242
+  ldc.i         1
+  st.i          persistent int $05a99e4f 
+  pop          
+  line          #243
+
+ block_1321:
+  br            @block_21f2
+
+ block_1327:
+  line          #244
+  ldc.i         3
+  bne.case      @block_19d2
+
+ block_1337:
+  line          #245
+  ld            local int $2e957d55 5
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_1365
+
+ block_1353:
+  ldc.i         3
+  st.i          local int $2e957d55 5
+  pop          
+
+ block_1365:
+  line          #246
+  ldc.i         1
+  st.i          savefile int $444c3976 
+  pop          
+  line          #247
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_13bf
+
+ block_1397:
+  line          #248
+  ldc.i         406217785
+  ldstr         "snr002c"
+  syscallp      $call_sub (2)
+  line          #249
+  br            @block_1421
+
+ block_13bf:
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  brfalse       @block_13ff
+
+ block_13d7:
+  line          #250
+  ldc.i         -1766235174
+  ldstr         "snr002c"
+  syscallp      $call_sub (2)
+  line          #251
+  br            @block_1421
+
+ block_13ff:
+  line          #252
+  ldc.i         1511220036
+  ldstr         "snr002c"
+  syscallp      $call_sub (2)
+  line          #253
+
+ block_1421:
+  line          #254
+  ldc.i         1277696284
+  ldstr         "snr002c"
+  syscallp      $call_sub (2)
+  line          #255
+  ldstr         "未夏の部屋を訪ねる"
+  ldstr         "携帯メールを使う"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1481
+
+ block_1481:
+  line          #256
+  ldc.i         1
+  bne.case      @block_1765
+
+ block_1491:
+  line          #257
+  ldc.i         1
+  st.i          savefile int $8cd4b49a 
+  pop          
+  line          #258
+  ldstr         "snr002ca"
+  syscallp      $call (1)
+  line          #259
+  ldstr         "参加者を用意する"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_14fc
+
+ block_14fc:
+  line          #261
+  ldc.i         1
+  bne.case      @block_156e
+
+ block_150c:
+  line          #262
+  ldc.i         1
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #263
+  ldc.i         1
+  st.i          savefile int $25a08244 
+  pop          
+  line          #264
+  ldstr         "snr002caa"
+  syscallp      $call (1)
+  line          #265
+  ldc.i         1
+  st.i          persistent int $05df8ece 
+  pop          
+  br            @block_175f
+
+ block_156e:
+  line          #266
+  ldc.i         2
+  bne.case      @block_175f
+
+ block_157e:
+  line          #267
+  ldc.i         2
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #268
+  ldc.i         1
+  st.i          savefile int $ab2f85a7 
+  pop          
+  line          #269
+  ldstr         "snr002cab"
+  syscallp      $call (1)
+  line          #270
+  ldstr         "後ろの穴を使う"
+  ldstr         "精液の滴る穴に挿入"
+  ldstr         "上の口を使う"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_1615
+
+ block_1615:
+  line          #271
+  ldc.i         1
+  bne.case      @block_1672
+
+ block_1625:
+  line          #272
+  ldc.i         1
+  st.i          savefile int $7def3564 
+  pop          
+  line          #273
+  ldstr         "snr002caba"
+  syscallp      $call (1)
+  line          #274
+  ldc.i         1
+  st.i          persistent int $70a22056 
+  pop          
+  br            @block_172a
+
+ block_1672:
+  line          #275
+  ldc.i         2
+  bne.case      @block_16cf
+
+ block_1682:
+  line          #276
+  ldc.i         1
+  st.i          savefile int $f3603287 
+  pop          
+  line          #277
+  ldstr         "snr002cabb"
+  syscallp      $call (1)
+  line          #278
+  ldc.i         1
+  st.i          persistent int $fe2d27b5 
+  pop          
+  br            @block_172a
+
+ block_16cf:
+  line          #279
+  ldc.i         3
+  bne.case      @block_172a
+
+ block_16df:
+  line          #280
+  ldc.i         1
+  st.i          savefile int $3fca3219 
+  pop          
+  line          #281
+  ldstr         "snr002cabc"
+  syscallp      $call (1)
+  line          #282
+  ldc.i         1
+  st.i          persistent int $3287272b 
+  pop          
+  line          #283
+
+ block_172a:
+  line          #284
+  ldc.i         1
+  st.i          persistent int $8b50892d 
+  pop          
+  line          #285
+  ldstr         "snr002cabz"
+  syscallp      $call (1)
+  line          #286
+
+ block_175f:
+  br            @block_19cc
+
+ block_1765:
+  line          #287
+  ldc.i         2
+  bne.case      @block_19cc
+
+ block_1775:
+  line          #288
+  ldc.i         1
+  st.i          savefile int $025bb379 
+  pop          
+  line          #289
+  ldstr         "snr002cb"
+  syscallp      $call (1)
+  line          #290
+  ldstr         "恥ずかしい姿を撮影してから"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_17ea
+
+ block_17ea:
+  line          #291
+  ldc.i         1
+  bne.case      @block_1846
+
+ block_17fa:
+  line          #292
+  ldc.i         1
+  st.i          savefile int $1c2dbe81 
+  pop          
+  line          #293
+  ldstr         "snr002cba"
+  syscallp      $call (1)
+  line          #294
+  ldc.i         1
+  st.i          persistent int $3c52b20b 
+  pop          
+  br            @block_19b2
+
+ block_1846:
+  line          #295
+  ldc.i         2
+  bne.case      @block_19b2
+
+ block_1856:
+  line          #296
+  ldc.i         1
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #297
+  ldc.i         1
+  st.i          savefile int $92a2b962 
+  pop          
+  line          #298
+  ldstr         "snr002cbb"
+  syscallp      $call (1)
+  line          #299
+  ldstr         "誰かに発見されるまでこのままでいろ"
+  ldstr         "縛めくらいは解いてやろう"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_18f6
+
+ block_18f6:
+  line          #300
+  ldc.i         1
+  bne.case      @block_193d
+
+ block_1906:
+  line          #301
+  ldc.i         1
+  st.i          savefile int $96d88e67 
+  pop          
+  line          #302
+  ldstr         "snr002cbba"
+  syscallp      $call (1)
+  br            @block_1998
+
+ block_193d:
+  line          #303
+  ldc.i         2
+  bne.case      @block_1998
+
+ block_194d:
+  line          #304
+  ldc.i         3
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #305
+  ldc.i         1
+  st.i          savefile int $18578984 
+  pop          
+  line          #306
+  ldstr         "snr002cbbb"
+  syscallp      $call (1)
+  line          #307
+
+ block_1998:
+  line          #308
+  ldc.i         1
+  st.i          persistent int $b2ddb5e8 
+  pop          
+  line          #309
+
+ block_19b2:
+  line          #310
+  ldc.i         1
+  st.i          persistent int $12d28a0c 
+  pop          
+  line          #311
+
+ block_19cc:
+  br            @block_21f2
+
+ block_19d2:
+  line          #312
+  ldc.i         4
+  bne.case      @block_1fbc
+
+ block_19e2:
+  line          #313
+  ld            local int $2e957d55 5
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_1a10
+
+ block_19fe:
+  ldc.i         4
+  st.i          local int $2e957d55 5
+  pop          
+
+ block_1a10:
+  line          #314
+  ldc.i         1
+  st.i          savefile int $4e89306f 
+  pop          
+  line          #315
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_1a6a
+
+ block_1a42:
+  line          #316
+  ldc.i         406217785
+  ldstr         "snr002d"
+  syscallp      $call_sub (2)
+  line          #317
+  br            @block_1acc
+
+ block_1a6a:
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  brfalse       @block_1aaa
+
+ block_1a82:
+  line          #318
+  ldc.i         -1766235174
+  ldstr         "snr002d"
+  syscallp      $call_sub (2)
+  line          #319
+  br            @block_1acc
+
+ block_1aaa:
+  line          #320
+  ldc.i         1511220036
+  ldstr         "snr002d"
+  syscallp      $call_sub (2)
+  line          #321
+
+ block_1acc:
+  line          #322
+  ldc.i         1277696284
+  ldstr         "snr002d"
+  syscallp      $call_sub (2)
+  line          #323
+  ldstr         "図書室に出向く"
+  ldstr         "メールを使う"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1b24
+
+ block_1b24:
+  line          #324
+  ldc.i         1
+  bne.case      @block_1e69
+
+ block_1b34:
+  line          #325
+  ldc.i         1
+  st.i          savefile int $e8b5d953 
+  pop          
+  line          #326
+  ldstr         "snr002da"
+  syscallp      $call (1)
+  line          #327
+  ldstr         "学校へ乗り込む"
+  ldstr         "自宅近くで待ち伏せする"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1ba7
+
+ block_1ba7:
+  line          #328
+  ldc.i         1
+  bne.case      @block_1cff
+
+ block_1bb7:
+  line          #329
+  ldc.i         1
+  st.i          savefile int $c77c993d 
+  pop          
+  line          #330
+  ldstr         "snr002daa"
+  syscallp      $call (1)
+  line          #331
+  ldstr         "恥ずかしい姿を写真に撮る"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1c2b
+
+ block_1c2b:
+  line          #332
+  ldc.i         1
+  bne.case      @block_1c88
+
+ block_1c3b:
+  line          #333
+  ldc.i         1
+  st.i          savefile int $6d591c22 
+  pop          
+  line          #334
+  ldstr         "snr002daaa"
+  syscallp      $call (1)
+  line          #335
+  ldc.i         1
+  st.i          persistent int $60140910 
+  pop          
+  br            @block_1cf9
+
+ block_1c88:
+  line          #336
+  ldc.i         2
+  bne.case      @block_1cf9
+
+ block_1c98:
+  line          #337
+  ldc.i         1
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #338
+  ldc.i         1
+  st.i          savefile int $e3d61bc1 
+  pop          
+  line          #339
+  ldstr         "snr002daab"
+  syscallp      $call (1)
+  line          #340
+  ldc.i         1
+  st.i          persistent int $ee9b0ef3 
+  pop          
+  line          #341
+
+ block_1cf9:
+  br            @block_1e63
+
+ block_1cff:
+  line          #342
+  ldc.i         2
+  bne.case      @block_1e63
+
+ block_1d0f:
+  line          #343
+  ldc.i         3
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #344
+  ldc.i         1
+  st.i          savefile int $49f39ede 
+  pop          
+  line          #345
+  ldstr         "snr002dab"
+  syscallp      $call (1)
+  line          #346
+  ldstr         "窓際に連れて行く"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1d91
+
+ block_1d91:
+  line          #347
+  ldc.i         1
+  bne.case      @block_1dee
+
+ block_1da1:
+  line          #348
+  ldc.i         1
+  st.i          savefile int $54d420e7 
+  pop          
+  line          #349
+  ldstr         "snr002daba"
+  syscallp      $call (1)
+  line          #350
+  ldc.i         1
+  st.i          persistent int $599935d5 
+  pop          
+  br            @block_1e5f
+
+ block_1dee:
+  line          #351
+  ldc.i         2
+  bne.case      @block_1e5f
+
+ block_1dfe:
+  line          #352
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #353
+  ldc.i         1
+  st.i          savefile int $da5b2704 
+  pop          
+  line          #354
+  ldstr         "snr002dabb"
+  syscallp      $call (1)
+  line          #355
+  ldc.i         1
+  st.i          persistent int $d7163236 
+  pop          
+  line          #356
+
+ block_1e5f:
+  line          #357
+
+ block_1e63:
+  br            @block_1fb6
+
+ block_1e69:
+  line          #358
+  ldc.i         2
+  bne.case      @block_1fb6
+
+ block_1e79:
+  line          #359
+  ldc.i         1
+  st.i          savefile int $663adeb0 
+  pop          
+  line          #360
+  ldstr         "snr002db"
+  syscallp      $call (1)
+  line          #362
+  ldstr         "窓際に連れて行く"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1ee4
+
+ block_1ee4:
+  line          #363
+  ldc.i         1
+  bne.case      @block_1f41
+
+ block_1ef4:
+  line          #364
+  ldc.i         1
+  st.i          savefile int $54d420e7 
+  pop          
+  line          #365
+  ldstr         "snr002daba"
+  syscallp      $call (1)
+  line          #366
+  ldc.i         1
+  st.i          persistent int $599935d5 
+  pop          
+  br            @block_1fb2
+
+ block_1f41:
+  line          #367
+  ldc.i         2
+  bne.case      @block_1fb2
+
+ block_1f51:
+  line          #368
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #369
+  ldc.i         1
+  st.i          savefile int $da5b2704 
+  pop          
+  line          #370
+  ldstr         "snr002dabb"
+  syscallp      $call (1)
+  line          #371
+  ldc.i         1
+  st.i          persistent int $d7163236 
+  pop          
+  line          #372
+
+ block_1fb2:
+  line          #374
+
+ block_1fb6:
+  br            @block_21f2
+
+ block_1fbc:
+  line          #375
+  ldc.i         5
+  bne.case      @block_21f2
+
+ block_1fcc:
+  line          #376
+  ld            local int postinc $f0367ae6 4
+  pop          
+  line          #377
+  ld            local int $2e957d55 5
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_200a
+
+ block_1ff8:
+  ldc.i         5
+  st.i          local int $2e957d55 5
+  pop          
+
+ block_200a:
+  line          #378
+  ldc.i         1
+  st.i          savefile int $822330f1 
+  pop          
+  line          #379
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2064
+
+ block_203c:
+  line          #380
+  ldc.i         406217785
+  ldstr         "snr002e"
+  syscallp      $call_sub (2)
+  line          #381
+  br            @block_20c6
+
+ block_2064:
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  brfalse       @block_20a4
+
+ block_207c:
+  line          #382
+  ldc.i         -1766235174
+  ldstr         "snr002e"
+  syscallp      $call_sub (2)
+  line          #383
+  br            @block_20c6
+
+ block_20a4:
+  line          #384
+  ldc.i         1511220036
+  ldstr         "snr002e"
+  syscallp      $call_sub (2)
+  line          #385
+
+ block_20c6:
+  line          #386
+  ldc.i         1277696284
+  ldstr         "snr002e"
+  syscallp      $call_sub (2)
+  line          #387
+  ldstr         "その前にイタズラする"
+  ldstr         "無理矢理犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_2124
+
+ block_2124:
+  line          #388
+  ldc.i         1
+  bne.case      @block_217f
+
+ block_2134:
+  line          #389
+  ldc.i         1
+  st.i          savefile int $ffcecd10 
+  pop          
+  line          #390
+  ldstr         "snr002ea"
+  syscallp      $call (1)
+  line          #391
+  ldc.i         1
+  st.i          persistent int $ef47f465 
+  pop          
+  br            @block_21ee
+
+ block_217f:
+  line          #392
+  ldc.i         2
+  bne.case      @block_21ee
+
+ block_218f:
+  line          #393
+  ldc.i         3
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #394
+  ldc.i         1
+  st.i          savefile int $7141caf3 
+  pop          
+  line          #395
+  ldstr         "snr002eb"
+  syscallp      $call (1)
+  line          #396
+  ldc.i         1
+  st.i          persistent int $61c8f386 
+  pop          
+  line          #397
+
+ block_21ee:
+  line          #398
+
+ block_21f2:
+  line          #400
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #401
+  ld            savefile int $06693e0b 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_24d6
+
+ block_2224:
+  line          #403
+  ldc.i         2
+  st.i          savefile int $06693e0b 
+  pop          
+  line          #404
+  ld            savefile int $21555279 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_22d0
+
+ block_2256:
+  line          #405
+  ldc.i         1796269460
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #406
+  ldc.i         1909556001
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #407
+  ldc.i         -796110518
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #408
+  ldc.i         1
+  st.i          persistent int $dfee99bb 
+  pop          
+  line          #409
+
+ block_22d0:
+  line          #410
+  ld            savefile int $afda559a 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2366
+
+ block_22ec:
+  line          #411
+  ldc.i         1796269460
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #412
+  ldc.i         -1716702766
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #413
+  ldc.i         -796110518
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #414
+  ldc.i         1
+  st.i          persistent int $51619e58 
+  pop          
+  line          #415
+
+ block_2366:
+  line          #416
+  ld            savefile int $18d86ebc 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_241c
+
+ block_2382:
+  line          #417
+  ldc.i         -349647455
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #418
+  ldc.i         1819090789
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #419
+  ldc.i         -1591711649
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #420
+  ldc.i         1645207735
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #421
+  ldc.i         1
+  st.i          persistent int $e663a57e 
+  pop          
+  line          #422
+
+ block_241c:
+  line          #423
+  ld            savefile int $9657695f 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_24d2
+
+ block_2438:
+  line          #424
+  ldc.i         -349647455
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #425
+  ldc.i         -201230080
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #426
+  ldc.i         -1591711649
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #427
+  ldc.i         -327096492
+  ldstr         "snr002azz"
+  syscallp      $call_sub (2)
+  line          #428
+  ldc.i         1
+  st.i          persistent int $68eca29d 
+  pop          
+  line          #429
+
+ block_24d2:
+  line          #430
+
+ block_24d6:
+  line          #431
+  ld            savefile int $88e639e8 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2904
+
+ block_24f2:
+  line          #433
+  ldc.i         2
+  st.i          savefile int $88e639e8 
+  pop          
+  line          #434
+  ld            savefile int $9bafa0d9 
+  brfalse       @block_26e8
+
+ block_251c:
+  line          #435
+  ldc.i         1597474893
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #436
+  ld            savefile int $ca62e97a 
+  brfalse       @block_261a
+
+ block_2550:
+  line          #437
+  ldc.i         663044528
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #438
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_25b6
+
+ block_258c:
+  line          #439
+  ldc.i         -26125225
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #440
+  br            @block_25da
+
+ block_25b6:
+  line          #441
+  ldc.i         -138394523
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #442
+
+ block_25da:
+  line          #443
+  ldc.i         -1657604922
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #444
+  ldc.i         1
+  st.i          persistent int $07febee0 
+  pop          
+  line          #445
+  br            @block_26de
+
+ block_261a:
+  line          #446
+  ldc.i         508251517
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #447
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2680
+
+ block_2656:
+  line          #448
+  ldc.i         1682519984
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #449
+  br            @block_26a4
+
+ block_2680:
+  line          #450
+  ldc.i         -1158680237
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #451
+
+ block_26a4:
+  line          #452
+  ldc.i         -1664774658
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #453
+  ldc.i         1
+  st.i          persistent int $8971b903 
+  pop          
+  line          #454
+
+ block_26de:
+  line          #455
+  br            @block_2900
+
+ block_26e8:
+  line          #456
+  ldc.i         -1742652742
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #457
+  ld            savefile int $6b4acca1 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_274e
+
+ block_2724:
+  line          #458
+  ldc.i         -553828361
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #459
+  br            @block_2772
+
+ block_274e:
+  line          #460
+  ldc.i         -670400787
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #461
+
+ block_2772:
+  line          #462
+  ldc.i         573434188
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #463
+  ld            savefile int $250410d1 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2862
+
+ block_27ae:
+  line          #464
+  ldc.i         744503921
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #465
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2814
+
+ block_27ea:
+  line          #466
+  ldc.i         -1461504210
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #467
+  br            @block_2838
+
+ block_2814:
+  line          #468
+  ldc.i         1984295373
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #469
+
+ block_2838:
+  line          #470
+  ldc.i         1349487968
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #471
+  br            @block_28e6
+
+ block_2862:
+  line          #472
+  ldc.i         1104510128
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #473
+  ld            savefile int $7024f652 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_28c2
+
+ block_289e:
+  line          #474
+  ldc.i         -1574552009
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #475
+
+ block_28c2:
+  line          #476
+  ldc.i         1521124473
+  ldstr         "snr002bzz"
+  syscallp      $call_sub (2)
+  line          #477
+
+ block_28e6:
+  line          #478
+  ldc.i         1
+  st.i          persistent int $45dbb99d 
+  pop          
+  line          #479
+
+ block_2900:
+  line          #480
+
+ block_2904:
+  line          #481
+  ld            savefile int $444c3976 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2bb6
+
+ block_2920:
+  line          #483
+  ldc.i         2
+  st.i          savefile int $444c3976 
+  pop          
+  line          #484
+  ld            savefile int $8cd4b49a 
+  brfalse       @block_2a9e
+
+ block_294a:
+  line          #485
+  ldc.i         839099309
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #486
+  ld            savefile int $25a08244 
+  brfalse       @block_29be
+
+ block_297e:
+  line          #487
+  ldc.i         321714111
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #488
+  ldc.i         1
+  st.i          persistent int $5b28bda1 
+  pop          
+  line          #489
+  br            @block_2a94
+
+ block_29be:
+  line          #490
+  ldc.i         -544803039
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #491
+  ld            savefile int $7def3564 
+  brfalse       @block_2a1c
+
+ block_29f2:
+  line          #492
+  ldc.i         2034285059
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #493
+  br            @block_2a7a
+
+ block_2a1c:
+  ld            savefile int $f3603287 
+  brfalse       @block_2a56
+
+ block_2a2c:
+  line          #494
+  ldc.i         -137380384
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #495
+  br            @block_2a7a
+
+ block_2a56:
+  line          #496
+  ldc.i         996523390
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #497
+
+ block_2a7a:
+  line          #498
+  ldc.i         1
+  st.i          persistent int $d5a7ba42 
+  pop          
+  line          #499
+
+ block_2a94:
+  line          #500
+  br            @block_2bb2
+
+ block_2a9e:
+  line          #501
+  ldc.i         -1131633586
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #502
+  ld            savefile int $1c2dbe81 
+  brfalse       @block_2b12
+
+ block_2ad2:
+  line          #503
+  ldc.i         -1540436839
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #504
+  ldc.i         1
+  st.i          persistent int $190dbadc 
+  pop          
+  line          #505
+  br            @block_2bae
+
+ block_2b12:
+  line          #506
+  ldc.i         715246458
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #507
+  ld            savefile int $96d88e67 
+  brfalse       @block_2b70
+
+ block_2b46:
+  line          #508
+  ldc.i         -2062805693
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #509
+  br            @block_2b94
+
+ block_2b70:
+  line          #510
+  ldc.i         193139360
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #511
+
+ block_2b94:
+  line          #512
+  ldc.i         1
+  st.i          persistent int $13c8b3c5 
+  pop          
+  line          #513
+
+ block_2bae:
+  line          #514
+
+ block_2bb2:
+  line          #515
+
+ block_2bb6:
+  line          #516
+  ld            savefile int $4e89306f 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2dd2
+
+ block_2bd2:
+  line          #518
+  ldc.i         2
+  st.i          savefile int $4e89306f 
+  pop          
+  line          #519
+  ld            savefile int $663adeb0 
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2d3c
+
+ block_2c04:
+  line          #520
+  ld            savefile int $6d591c22 
+  brfalse       @block_2c58
+
+ block_2c18:
+  line          #521
+  ldc.i         839099309
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #522
+  ldc.i         1
+  st.i          persistent int $6c723444 
+  pop          
+  line          #523
+  br            @block_2d32
+
+ block_2c58:
+  ld            savefile int $e3d61bc1 
+  brfalse       @block_2ca8
+
+ block_2c68:
+  line          #524
+  ldc.i         -1131633586
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #525
+  ldc.i         1
+  st.i          persistent int $e2fd33a7 
+  pop          
+  line          #526
+  br            @block_2d32
+
+ block_2ca8:
+  ld            savefile int $54d420e7 
+  brfalse       @block_2cf8
+
+ block_2cb8:
+  line          #527
+  ldc.i         1881580752
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #528
+  ldc.i         1
+  st.i          persistent int $2e573339 
+  pop          
+  line          #529
+  br            @block_2d32
+
+ block_2cf8:
+  line          #530
+  ldc.i         2061741513
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #531
+  ldc.i         1
+  st.i          persistent int $24923a20 
+  pop          
+  line          #532
+
+ block_2d32:
+  line          #533
+  br            @block_2dce
+
+ block_2d3c:
+  line          #534
+  ld            savefile int $54d420e7 
+  brfalse       @block_2d90
+
+ block_2d50:
+  line          #535
+  ldc.i         -1236685481
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #536
+  ldc.i         1
+  st.i          persistent int $e8383abe 
+  pop          
+  line          #537
+  br            @block_2dca
+
+ block_2d90:
+  line          #538
+  ldc.i         952543924
+  ldstr         "snr002dzz"
+  syscallp      $call_sub (2)
+  line          #539
+  ldc.i         1
+  st.i          persistent int $66b73d5d 
+  pop          
+  line          #540
+
+ block_2dca:
+  line          #541
+
+ block_2dce:
+  line          #542
+
+ block_2dd2:
+  line          #543
+  ld            savefile int $822330f1 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_2eb6
+
+ block_2dee:
+  line          #545
+  ldc.i         2
+  st.i          savefile int $822330f1 
+  pop          
+  line          #546
+  ldc.i         839099309
+  ldstr         "snr002ezz"
+  syscallp      $call_sub (2)
+  line          #547
+  ld            savefile int $ffcecd10 
+  brfalse       @block_2e78
+
+ block_2e38:
+  line          #548
+  ldc.i         -1540436839
+  ldstr         "snr002ezz"
+  syscallp      $call_sub (2)
+  line          #549
+  ldc.i         1
+  st.i          persistent int $a7c152bf 
+  pop          
+  line          #550
+  br            @block_2eb2
+
+ block_2e78:
+  line          #551
+  ldc.i         715246458
+  ldstr         "snr002ezz"
+  syscallp      $call_sub (2)
+  line          #552
+  ldc.i         1
+  st.i          persistent int $294e555c 
+  pop          
+  line          #553
+
+ block_2eb2:
+  line          #554
+
+ block_2eb6:
+  line          #555
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #557
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_2f7f
+
+ block_2ee8:
+  line          #558
+  ld            savefile int $06693e0b 
+  brfalse       @block_2f19
+
+ block_2efc:
+  line          #559
+  ldstr         "snr002xa"
+  syscallp      $call (1)
+  line          #560
+
+ block_2f19:
+  line          #561
+  ld            savefile int $88e639e8 
+  brfalse       @block_2f4a
+
+ block_2f2d:
+  line          #562
+  ldstr         "snr002xb"
+  syscallp      $call (1)
+  line          #563
+
+ block_2f4a:
+  line          #564
+  ld            savefile int $444c3976 
+  brfalse       @block_2f7b
+
+ block_2f5e:
+  line          #565
+  ldstr         "snr002xc"
+  syscallp      $call (1)
+  line          #566
+
+ block_2f7b:
+  line          #567
+
+ block_2f7f:
+  line          #568
+  ld            savefile int $06693e0b 
+  ldc.i         0
+  ceq.i        
+  ld            savefile int $88e639e8 
+  ldc.i         2
+  ceq.i        
+  andl         
+  ld            savefile int $444c3976 
+  ldc.i         2
+  ceq.i        
+  andl         
+  brfalse       @block_2fd5
+
+ block_2fc3:
+  ldc.i         1
+  st.i          local int $6c252e04 1
+  pop          
+
+ block_2fd5:
+  line          #569
+  ld            savefile int $06693e0b 
+  ldc.i         2
+  ceq.i        
+  ld            savefile int $88e639e8 
+  ldc.i         0
+  ceq.i        
+  andl         
+  ld            savefile int $444c3976 
+  ldc.i         2
+  ceq.i        
+  andl         
+  brfalse       @block_302b
+
+ block_3019:
+  ldc.i         1
+  st.i          local int $b7adbe53 2
+  pop          
+
+ block_302b:
+  line          #570
+  ld            savefile int $06693e0b 
+  ldc.i         2
+  ceq.i        
+  ld            savefile int $88e639e8 
+  ldc.i         2
+  ceq.i        
+  andl         
+  ld            savefile int $444c3976 
+  ldc.i         0
+  ceq.i        
+  andl         
+  brfalse       @block_3081
+
+ block_306f:
+  ldc.i         1
+  st.i          local int $ce6574dd 3
+  pop          
+
+ block_3081:
+  line          #571
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  ld            local int $6c252e04 1
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $06693e0b 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_30f8
+
+ block_30c5:
+  line          #572
+  ldc.i         0
+  st.i          local int $6c252e04 1
+  pop          
+  line          #573
+  ldstr         "snr002ya"
+  syscallp      $call (1)
+  line          #574
+
+ block_30f8:
+  line          #575
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  ld            local int $b7adbe53 2
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $88e639e8 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_316f
+
+ block_313c:
+  line          #576
+  ldc.i         0
+  st.i          local int $b7adbe53 2
+  pop          
+  line          #577
+  ldstr         "snr002yb"
+  syscallp      $call (1)
+  line          #578
+
+ block_316f:
+  line          #579
+  ld            local int $611168d9 0
+  ldc.i         4
+  cne.i        
+  ld            local int $ce6574dd 3
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $444c3976 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_31e6
+
+ block_31b3:
+  line          #580
+  ldc.i         0
+  st.i          local int $ce6574dd 3
+  pop          
+  line          #581
+  ldstr         "snr002yc"
+  syscallp      $call (1)
+  line          #582
+
+ block_31e6:
+  line          #584
+  ld            local int $611168d9 0
+  ldc.i         0
+  ceq.i        
+  brfalse       @block_3217
+
+ block_3202:
+  ldstr         "snr003d1"
+  syscallp      $call (1)
+
+ block_3217:
+  line          #585
+  ld            local int $611168d9 0
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_3248
+
+ block_3233:
+  ldstr         "snr003d2"
+  syscallp      $call (1)
+
+ block_3248:
+  line          #586
+  ld            local int $611168d9 0
+  ldc.i         2
+  ceq.i        
+  brfalse       @block_34d6
+
+ block_3264:
+  line          #587
+  ldc.i         -1029234945
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  line          #588
+  ld            savefile int $822330f1 
+  ldc.i         0
+  cne.i        
+  brfalse       @block_32c2
+
+ block_329f:
+  line          #589
+  ldc.i         1277696284
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  line          #590
+
+ block_32c2:
+  line          #591
+  ldc.i         -2138957438
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  line          #592
+  ld            savefile int $822330f1 
+  ldc.i         0
+  cne.i        
+  ldstr         "松本璃乃"
+  ld            savefile int $4e89306f 
+  ldc.i         0
+  cne.i        
+  ldstr         "桜井衣澄"
+  ld            savefile int $444c3976 
+  ldc.i         0
+  cne.i        
+  ldstr         "二宮未夏"
+  ld            savefile int $88e639e8 
+  ldc.i         0
+  cne.i        
+  ldstr         "大野愛梨"
+  ld            savefile int $06693e0b 
+  ldc.i         0
+  cne.i        
+  ldstr         "相葉希更"
+  call          $$select_ex@MENU (10) ; $select_ex@MENU
+  st.i          savefile int $78906df5 
+  pop          
+  line          #593
+  ld            savefile int $78906df5 
+  br.case       @block_33ac
+
+ block_33ac:
+  line          #594
+  ldc.i         1
+  bne.case      @block_33e1
+
+ block_33bc:
+  line          #595
+  ldc.i         1386291574
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  br            @block_34b3
+
+ block_33e1:
+  line          #596
+  ldc.i         2
+  bne.case      @block_3416
+
+ block_33f1:
+  line          #597
+  ldc.i         -600955243
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  br            @block_34b3
+
+ block_3416:
+  line          #598
+  ldc.i         3
+  bne.case      @block_344b
+
+ block_3426:
+  line          #599
+  ldc.i         277095947
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  br            @block_34b3
+
+ block_344b:
+  line          #600
+  ldc.i         4
+  bne.case      @block_3480
+
+ block_345b:
+  line          #601
+  ldc.i         440479506
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  br            @block_34b3
+
+ block_3480:
+  line          #602
+  ldc.i         5
+  bne.case      @block_34b3
+
+ block_3490:
+  line          #603
+  ldc.i         -689229940
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  line          #604
+
+ block_34b3:
+  line          #605
+  ldc.i         1189941253
+  ldstr         "snr003d3"
+  syscallp      $call_sub (2)
+  line          #606
+
+ block_34d6:
+  line          #607
+  ld            local int $611168d9 0
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_364f
+
+ block_34f2:
+  line          #608
+  ldc.i         -1029234945
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  line          #609
+  ld            savefile int $78906df5 
+  br.case       @block_3525
+
+ block_3525:
+  line          #610
+  ldc.i         1
+  bne.case      @block_355a
+
+ block_3535:
+  line          #611
+  ldc.i         565926140
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  br            @block_362c
+
+ block_355a:
+  line          #612
+  ldc.i         2
+  bne.case      @block_358f
+
+ block_356a:
+  line          #613
+  ldc.i         -1355522273
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  br            @block_362c
+
+ block_358f:
+  line          #614
+  ldc.i         3
+  bne.case      @block_35c4
+
+ block_359f:
+  line          #615
+  ldc.i         1671323521
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  br            @block_362c
+
+ block_35c4:
+  line          #616
+  ldc.i         4
+  bne.case      @block_35f9
+
+ block_35d4:
+  line          #617
+  ldc.i         1767593624
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  br            @block_362c
+
+ block_35f9:
+  line          #618
+  ldc.i         5
+  bne.case      @block_362c
+
+ block_3609:
+  line          #619
+  ldc.i         -1510910458
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  line          #620
+
+ block_362c:
+  line          #621
+  ldc.i         -2138957438
+  ldstr         "snr003d4"
+  syscallp      $call_sub (2)
+  line          #622
+
+ block_364f:
+  line          #623
+  ld            local int $611168d9 0
+  ldc.i         4
+  ceq.i        
+  brfalse       @block_37a9
+
+ block_366b:
+  line          #624
+  ldc.i         -1029234945
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  line          #625
+  ld            savefile int $78906df5 
+  br.case       @block_369e
+
+ block_369e:
+  line          #626
+  ldc.i         1
+  bne.case      @block_36d3
+
+ block_36ae:
+  line          #627
+  ldc.i         565926140
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  br            @block_37a5
+
+ block_36d3:
+  line          #628
+  ldc.i         2
+  bne.case      @block_3708
+
+ block_36e3:
+  line          #629
+  ldc.i         -1355522273
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  br            @block_37a5
+
+ block_3708:
+  line          #630
+  ldc.i         3
+  bne.case      @block_373d
+
+ block_3718:
+  line          #631
+  ldc.i         1671323521
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  br            @block_37a5
+
+ block_373d:
+  line          #632
+  ldc.i         4
+  bne.case      @block_3772
+
+ block_374d:
+  line          #633
+  ldc.i         1767593624
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  br            @block_37a5
+
+ block_3772:
+  line          #634
+  ldc.i         5
+  bne.case      @block_37a5
+
+ block_3782:
+  line          #635
+  ldc.i         -1510910458
+  ldstr         "snr003d5"
+  syscallp      $call_sub (2)
+  line          #636
+
+ block_37a5:
+  line          #637
+
+ block_37a9:
+  line          #639
+  ld            local int $611168d9 0
+  ldc.i         4
+  ceq.i        
+  ld            local int $6c252e04 1
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $06693e0b 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_3820
+
+ block_37ed:
+  line          #640
+  ldc.i         0
+  st.i          local int $6c252e04 1
+  pop          
+  line          #641
+  ldstr         "snr002ya"
+  syscallp      $call (1)
+  line          #642
+
+ block_3820:
+  line          #643
+  ld            local int $611168d9 0
+  ldc.i         4
+  ceq.i        
+  ld            local int $b7adbe53 2
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $88e639e8 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_3897
+
+ block_3864:
+  line          #644
+  ldc.i         0
+  st.i          local int $b7adbe53 2
+  pop          
+  line          #645
+  ldstr         "snr002yb"
+  syscallp      $call (1)
+  line          #646
+
+ block_3897:
+  line          #647
+  ld            local int $611168d9 0
+  ldc.i         4
+  ceq.i        
+  ld            local int $ce6574dd 3
+  ldc.i         1
+  ceq.i        
+  andl         
+  ld            savefile int $444c3976 
+  ldc.i         1
+  ceq.i        
+  andl         
+  brfalse       @block_390e
+
+ block_38db:
+  line          #648
+  ldc.i         0
+  st.i          local int $ce6574dd 3
+  pop          
+  line          #649
+  ldstr         "snr002yc"
+  syscallp      $call (1)
+  line          #650
+
+ block_390e:
+  line          #652
+  ld            local int postinc $611168d9 0
+  pop          
+  line          #653
+  ld            savefile int $06693e0b 
+  ld            savefile int $88e639e8 
+  add.i        
+  ld            savefile int $444c3976 
+  add.i        
+  ld            savefile int $4e89306f 
+  add.i        
+  ld            savefile int $822330f1 
+  add.i        
+  ldc.i         10
+  cne.i        
+  brtrue        @block_00f6
+
+ block_396a:
+  line          #654
+  ldstr         "snr004"
+  syscallp      $call (1)
+  line          #657
+  ldstr         "松本璃乃"
+  ldstr         "桜井衣澄"
+  ldstr         "二宮未夏"
+  ldstr         "大野愛梨"
+  ldstr         "相葉希更"
+  call          $$select@MENU (5) ; $select@MENU
+  br.case       @block_39d8
+
+ block_39d8:
+  line          #658
+  ldc.i         1
+  bne.case      @block_3f22
+
+ block_39e8:
+  line          #659
+  ldc.i         1
+  st.i          savefile int $620853c2 
+  pop          
+  line          #660
+  ldstr         "snr005a"
+  syscallp      $call (1)
+  line          #661
+  ldstr         "電車にノーパンで乗車させる"
+  ldstr         "公園のジャングルジムに拘束する"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_3a81
+
+ block_3a81:
+  line          #662
+  ldc.i         1
+  bne.case      @block_3c8a
+
+ block_3a91:
+  line          #663
+  ldc.i         1
+  st.i          savefile int $40fe8765 
+  pop          
+  line          #664
+  ldc.i         -1029234945
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  line          #665
+  ldstr         "舐め方を指図する"
+  ldstr         "強引に喉の奥にねじ込む"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          savefile int $7024f652 
+  pop          
+  line          #666
+  ld            savefile int $7024f652 
+  br.case       @block_3b26
+
+ block_3b26:
+  line          #667
+  ldc.i         1
+  bne.case      @block_3b5b
+
+ block_3b36:
+  line          #668
+  ldc.i         -1355522273
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  br            @block_3b8e
+
+ block_3b5b:
+  line          #669
+  ldc.i         2
+  bne.case      @block_3b8e
+
+ block_3b6b:
+  line          #670
+  ldc.i         1671323521
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  line          #671
+
+ block_3b8e:
+  line          #672
+  ldc.i         1
+  st.i          persistent int $5077be10 
+  pop          
+  line          #673
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #674
+  ldc.i         -1029234945
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  line          #675
+  ld            savefile int $7024f652 
+  br.case       @block_3bee
+
+ block_3bee:
+  line          #676
+  ldc.i         1
+  bne.case      @block_3c24
+
+ block_3bfe:
+  line          #677
+  ldc.i         -1355522273
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  br            @block_3c58
+
+ block_3c24:
+  line          #678
+  ldc.i         2
+  bne.case      @block_3c58
+
+ block_3c34:
+  line          #679
+  ldc.i         1671323521
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  line          #680
+
+ block_3c58:
+  line          #681
+  ldc.i         1
+  st.i          persistent int $09c0660d 
+  pop          
+  line          #682
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_3f1c
+
+ block_3c8a:
+  line          #683
+  ldc.i         2
+  bne.case      @block_3de7
+
+ block_3c9a:
+  line          #684
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #685
+  ldc.i         1
+  st.i          savefile int $ce718086 
+  pop          
+  line          #686
+  ldstr         "snr005ab"
+  syscallp      $call (1)
+  line          #687
+  ldc.i         1
+  st.i          persistent int $def8b9f3 
+  pop          
+  line          #688
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #689
+  ldc.i         640789682
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #690
+  ld            savefile int $dce0413f 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_3d71
+
+ block_3d47:
+  line          #691
+  ldc.i         -693926550
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #692
+  br            @block_3d95
+
+ block_3d71:
+  line          #693
+  ldc.i         -1777377802
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #694
+
+ block_3d95:
+  line          #695
+  ldc.i         -1303432407
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #696
+  ldc.i         1
+  st.i          persistent int $304d5ac8 
+  pop          
+  line          #697
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_3f1c
+
+ block_3de7:
+  line          #698
+  ldc.i         3
+  bne.case      @block_3f1c
+
+ block_3df7:
+  line          #699
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #700
+  ldc.i         1
+  st.i          savefile int $02db8018 
+  pop          
+  line          #701
+  ldc.i         -1029234945
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #702
+  ldc.i         565926140
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #703
+  ldc.i         -2138957438
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #704
+  ldc.i         1
+  st.i          persistent int $1252b96d 
+  pop          
+  line          #705
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #706
+  ldc.i         -104319801
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #707
+  ldc.i         -965223762
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #708
+  ldc.i         1
+  st.i          persistent int $27364e8b 
+  pop          
+  line          #709
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #710
+
+ block_3f1c:
+  br            @block_5584
+
+ block_3f22:
+  line          #711
+  ldc.i         2
+  bne.case      @block_4531
+
+ block_3f32:
+  line          #712
+  ldc.i         1
+  st.i          savefile int $ec875421 
+  pop          
+  line          #713
+  ldstr         "snr005b"
+  syscallp      $call (1)
+  line          #714
+  ldstr         "電車にノーパンで乗車させる"
+  ldstr         "バイブをつけて散歩させる"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_3fc5
+
+ block_3fc5:
+  line          #715
+  ldc.i         1
+  bne.case      @block_4347
+
+ block_3fd5:
+  line          #718
+  ldc.i         1
+  st.i          savefile int $7973bba0 
+  pop          
+  line          #719
+  ldc.i         -1029234945
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #720
+  ldstr         "顔にかける"
+  ldstr         "口へ出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #721
+  ld            local int $555c3aaa 6
+  br.case       @block_4056
+
+ block_4056:
+  line          #722
+  ldc.i         1
+  bne.case      @block_408b
+
+ block_4066:
+  line          #723
+  ldc.i         565926140
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  br            @block_40be
+
+ block_408b:
+  line          #724
+  ldc.i         2
+  bne.case      @block_40be
+
+ block_409b:
+  line          #725
+  ldc.i         -1355522273
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #726
+
+ block_40be:
+  line          #727
+  ldc.i         -2138957438
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #728
+  ldstr         "後ろの穴"
+  ldstr         "前の穴"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #729
+  ld            local int $8f81a3a5 7
+  br.case       @block_4125
+
+ block_4125:
+  line          #730
+  ldc.i         1
+  bne.case      @block_415a
+
+ block_4135:
+  line          #731
+  ldc.i         1386291574
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  br            @block_418d
+
+ block_415a:
+  line          #732
+  ldc.i         2
+  bne.case      @block_418d
+
+ block_416a:
+  line          #733
+  ldc.i         -600955243
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #734
+
+ block_418d:
+  line          #735
+  ldc.i         1
+  st.i          persistent int $69fa82d5 
+  pop          
+  line          #736
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #737
+  ldc.i         406217785
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #738
+  ldc.i         1277696284
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #739
+  ld            local int $555c3aaa 6
+  br.case       @block_420d
+
+ block_420d:
+  line          #740
+  ldc.i         1
+  bne.case      @block_4243
+
+ block_421d:
+  line          #741
+  ldc.i         918572223
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  br            @block_4277
+
+ block_4243:
+  line          #742
+  ldc.i         2
+  bne.case      @block_4277
+
+ block_4253:
+  line          #743
+  ldc.i         -1202762916
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #744
+
+ block_4277:
+  line          #745
+  ldc.i         -1975054181
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #746
+  ld            local int $8f81a3a5 7
+  br.case       @block_42ab
+
+ block_42ab:
+  line          #747
+  ldc.i         1
+  bne.case      @block_42e1
+
+ block_42bb:
+  line          #748
+  ldc.i         1171928373
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  br            @block_4315
+
+ block_42e1:
+  line          #749
+  ldc.i         2
+  bne.case      @block_4315
+
+ block_42f1:
+  line          #750
+  ldc.i         -883608874
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #751
+
+ block_4315:
+  line          #752
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #753
+  ldc.i         1
+  st.i          persistent int $e2f7dd0e 
+  pop          
+  br            @block_452b
+
+ block_4347:
+  line          #754
+  ldc.i         2
+  bne.case      @block_443a
+
+ block_4357:
+  line          #755
+  ldc.i         3
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #756
+  ldc.i         1
+  st.i          savefile int $f7fcbc43 
+  pop          
+  line          #757
+  ldstr         "snr005bb"
+  syscallp      $call (1)
+  line          #758
+  ldc.i         1
+  st.i          persistent int $e7758536 
+  pop          
+  line          #759
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #760
+  ldc.i         406217785
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #761
+  ldc.i         1511220036
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #762
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #763
+  ldc.i         1
+  st.i          persistent int $db7ae1cb 
+  pop          
+  br            @block_452b
+
+ block_443a:
+  line          #764
+  ldc.i         3
+  bne.case      @block_452b
+
+ block_444a:
+  line          #765
+  ldc.i         2
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #766
+  ldc.i         1
+  st.i          savefile int $3b56bcdd 
+  pop          
+  line          #767
+  ldstr         "snr005bc"
+  syscallp      $call (1)
+  line          #768
+  ldc.i         1
+  st.i          persistent int $2bdf85a8 
+  pop          
+  line          #769
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #770
+  ldc.i         406217785
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #771
+  ldc.i         1511220036
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #772
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #773
+  ldc.i         1
+  st.i          persistent int $cc01f588 
+  pop          
+  line          #774
+
+ block_452b:
+  br            @block_5584
+
+ block_4531:
+  line          #775
+  ldc.i         3
+  bne.case      @block_4917
+
+ block_4541:
+  line          #776
+  ldc.i         1
+  st.i          savefile int $202d54bf 
+  pop          
+  line          #777
+  ldstr         "snr005c"
+  syscallp      $call (1)
+  line          #778
+  ldstr         "二宮未夏を犯すという証拠を残してから"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_45bf
+
+ block_45bf:
+  line          #779
+  ldc.i         1
+  bne.case      @block_4820
+
+ block_45cf:
+  line          #780
+  ldc.i         1
+  st.i          savefile int $6e08afe3 
+  pop          
+  line          #781
+  ldc.i         -1029234945
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #782
+  ldc.i         1
+  st.i          persistent int $7e819696 
+  pop          
+  line          #783
+  ldstr         "二宮未夏を犯したという証拠を残す"
+  ldstr         "このまま立ち去る"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #784
+  ld            local int $555c3aaa 6
+  br.case       @block_4684
+
+ block_4684:
+  line          #785
+  ldc.i         1
+  bne.case      @block_4745
+
+ block_4694:
+  line          #786
+  ldc.i         565926140
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #787
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #788
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #789
+  ldc.i         1037754169
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #790
+  ldc.i         1791917693
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #791
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_4804
+
+ block_4745:
+  line          #792
+  ldc.i         2
+  bne.case      @block_4804
+
+ block_4755:
+  line          #793
+  ldc.i         -1355522273
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #794
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #795
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #796
+  ldc.i         1037754169
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #797
+  ldc.i         -465471074
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #798
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #799
+
+ block_4804:
+  line          #800
+  ldc.i         1
+  st.i          persistent int $0d35b630 
+  pop          
+  br            @block_4911
+
+ block_4820:
+  line          #801
+  ldc.i         2
+  bne.case      @block_4911
+
+ block_4830:
+  line          #802
+  ldc.i         2
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #803
+  ldc.i         1
+  st.i          savefile int $e087a800 
+  pop          
+  line          #804
+  ldstr         "snr005cb"
+  syscallp      $call (1)
+  line          #805
+  ldc.i         1
+  st.i          persistent int $f00e9175 
+  pop          
+  line          #806
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #808
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #809
+  ldc.i         -244260953
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #810
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #811
+  ldc.i         1
+  st.i          persistent int $34b88af5 
+  pop          
+  line          #812
+
+ block_4911:
+  br            @block_5584
+
+ block_4917:
+  line          #813
+  ldc.i         4
+  bne.case      @block_4d53
+
+ block_4927:
+  line          #814
+  ldc.i         1
+  st.i          savefile int $2ae85da6 
+  pop          
+  line          #815
+  ldstr         "snr005d"
+  syscallp      $call (1)
+  line          #816
+  ldstr         "拘束してバイブで責める"
+  ldstr         "バイブを入れて校内を散歩"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_49b6
+
+ block_49b6:
+  line          #817
+  ldc.i         1
+  bne.case      @block_4bb5
+
+ block_49c6:
+  line          #818
+  ldc.i         1
+  st.i          savefile int $0a69c22a 
+  pop          
+  line          #819
+  ldc.i         -1029234945
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  line          #820
+  ldstr         "後の穴に挿れる"
+  ldstr         "前の穴に挿れる"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          savefile int $7024f652 
+  pop          
+  line          #821
+  ld            savefile int $7024f652 
+  br.case       @block_4a51
+
+ block_4a51:
+  line          #822
+  ldc.i         1
+  bne.case      @block_4a86
+
+ block_4a61:
+  line          #823
+  ldc.i         -1355522273
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  br            @block_4ab9
+
+ block_4a86:
+  line          #824
+  ldc.i         2
+  bne.case      @block_4ab9
+
+ block_4a96:
+  line          #825
+  ldc.i         1671323521
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  line          #826
+
+ block_4ab9:
+  line          #827
+  ldc.i         1
+  st.i          persistent int $1ae0fb5f 
+  pop          
+  line          #828
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #829
+  ldc.i         -1029234945
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  line          #830
+  ld            savefile int $7024f652 
+  br.case       @block_4b19
+
+ block_4b19:
+  line          #831
+  ldc.i         1
+  bne.case      @block_4b4f
+
+ block_4b29:
+  line          #832
+  ldc.i         -1355522273
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  br            @block_4b83
+
+ block_4b4f:
+  line          #833
+  ldc.i         2
+  bne.case      @block_4b83
+
+ block_4b5f:
+  line          #834
+  ldc.i         1671323521
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  line          #835
+
+ block_4b83:
+  line          #836
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #837
+  ldc.i         1
+  st.i          persistent int $efe9ad49 
+  pop          
+  br            @block_4d4d
+
+ block_4bb5:
+  line          #838
+  ldc.i         2
+  bne.case      @block_4c82
+
+ block_4bc5:
+  line          #839
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #840
+  ldc.i         1
+  st.i          savefile int $84e6c5c9 
+  pop          
+  line          #841
+  ldstr         "snr005db"
+  syscallp      $call (1)
+  line          #842
+  ldc.i         1
+  st.i          persistent int $946ffcbc 
+  pop          
+  line          #843
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #844
+  ldstr         "snr005dbz"
+  syscallp      $call (1)
+  line          #845
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #846
+  ldc.i         1
+  st.i          persistent int $d664918c 
+  pop          
+  br            @block_4d4d
+
+ block_4c82:
+  line          #847
+  ldc.i         3
+  bne.case      @block_4d4d
+
+ block_4c92:
+  line          #848
+  ldc.i         1
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #849
+  ldc.i         1
+  st.i          savefile int $484cc557 
+  pop          
+  line          #850
+  ldstr         "snr005dc"
+  syscallp      $call (1)
+  line          #851
+  ldc.i         1
+  st.i          persistent int $58c5fc22 
+  pop          
+  line          #852
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #853
+  ldstr         "snr005dcz"
+  syscallp      $call (1)
+  line          #854
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #855
+  ldc.i         1
+  st.i          persistent int $c11f85cf 
+  pop          
+  line          #856
+
+ block_4d4d:
+  br            @block_5584
+
+ block_4d53:
+  line          #857
+  ldc.i         5
+  bne.case      @block_5584
+
+ block_4d63:
+  line          #858
+  ld            local int postinc $f0367ae6 4
+  pop          
+  line          #859
+  ldc.i         1
+  st.i          savefile int $e6425d38 
+  pop          
+  line          #860
+  ldstr         "snr005e"
+  syscallp      $call (1)
+  line          #861
+  ldstr         "拘束してバイブで責める"
+  ldstr         "目の前でおしっこさせる"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_4e00
+
+ block_4e00:
+  line          #862
+  ldc.i         1
+  bne.case      @block_53e8
+
+ block_4e10:
+  line          #863
+  ldc.i         1
+  st.i          savefile int $1d12d669 
+  pop          
+  line          #864
+  ldc.i         -1029234945
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #865
+  ldstr         "舐め方を指図する"
+  ldstr         "強引に喉の奥にねじ込む"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #866
+  ld            local int $555c3aaa 6
+  br.case       @block_4ea5
+
+ block_4ea5:
+  line          #867
+  ldc.i         1
+  bne.case      @block_4f92
+
+ block_4eb5:
+  line          #868
+  ldc.i         565926140
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #869
+  ldstr         "顔にかける"
+  ldstr         "口の中に出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #870
+  ld            local int $8f81a3a5 7
+  br.case       @block_4f24
+
+ block_4f24:
+  line          #871
+  ldc.i         1
+  bne.case      @block_4f59
+
+ block_4f34:
+  line          #872
+  ldc.i         -2116277819
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  br            @block_4f8c
+
+ block_4f59:
+  line          #873
+  ldc.i         2
+  bne.case      @block_4f8c
+
+ block_4f69:
+  line          #874
+  ldc.i         257109542
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #875
+
+ block_4f8c:
+  br            @block_507d
+
+ block_4f92:
+  line          #876
+  ldc.i         2
+  bne.case      @block_507d
+
+ block_4fa2:
+  line          #877
+  ldc.i         -1355522273
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #878
+  ldstr         "顔にかける"
+  ldstr         "口の中に出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #879
+  ld            local int $8f81a3a5 7
+  br.case       @block_5011
+
+ block_5011:
+  line          #880
+  ldc.i         1
+  bne.case      @block_5046
+
+ block_5021:
+  line          #881
+  ldc.i         -1202645760
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  br            @block_5079
+
+ block_5046:
+  line          #882
+  ldc.i         2
+  bne.case      @block_5079
+
+ block_5056:
+  line          #883
+  ldc.i         920523491
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #884
+
+ block_5079:
+  line          #885
+
+ block_507d:
+  line          #886
+  ldc.i         -2138957438
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #887
+  ldc.i         1
+  st.i          persistent int $0d9bef1c 
+  pop          
+  line          #888
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #889
+  ldc.i         -1029234945
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #890
+  ld            local int $555c3aaa 6
+  br.case       @block_50fc
+
+ block_50fc:
+  line          #891
+  ldc.i         1
+  bne.case      @block_51b0
+
+ block_510c:
+  line          #892
+  ldc.i         565926140
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #893
+  ld            local int $8f81a3a5 7
+  br.case       @block_5140
+
+ block_5140:
+  line          #894
+  ldc.i         1
+  bne.case      @block_5176
+
+ block_5150:
+  line          #895
+  ldc.i         -2116277819
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  br            @block_51aa
+
+ block_5176:
+  line          #896
+  ldc.i         2
+  bne.case      @block_51aa
+
+ block_5186:
+  line          #897
+  ldc.i         257109542
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #898
+
+ block_51aa:
+  br            @block_5262
+
+ block_51b0:
+  line          #899
+  ldc.i         2
+  bne.case      @block_5262
+
+ block_51c0:
+  line          #900
+  ldc.i         -1355522273
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #901
+  ld            local int $8f81a3a5 7
+  br.case       @block_51f4
+
+ block_51f4:
+  line          #902
+  ldc.i         1
+  bne.case      @block_522a
+
+ block_5204:
+  line          #903
+  ldc.i         -1202645760
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  br            @block_525e
+
+ block_522a:
+  line          #904
+  ldc.i         2
+  bne.case      @block_525e
+
+ block_523a:
+  line          #905
+  ldc.i         920523491
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #906
+
+ block_525e:
+  line          #907
+
+ block_5262:
+  line          #908
+  ldc.i         -2138957438
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #909
+  ldstr         "後ろに入れる"
+  ldstr         "前に入れる"
+  call          $$novel_select@MENU (2) ; $novel_select@MENU
+  br.case       @block_52b8
+
+ block_52b8:
+  line          #910
+  ldc.i         1
+  bne.case      @block_5338
+
+ block_52c8:
+  line          #911
+  ld            savefile int $57c34798 
+  ldc.i         3
+  cge.i        
+  brfalse       @block_530e
+
+ block_52e4:
+  line          #912
+  ldc.i         -1933420158
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #913
+  br            @block_5332
+
+ block_530e:
+  line          #914
+  ldc.i         38624865
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #915
+
+ block_5332:
+  br            @block_53b6
+
+ block_5338:
+  line          #916
+  ldc.i         2
+  bne.case      @block_53b6
+
+ block_5348:
+  line          #917
+  ld            savefile int $57c34798 
+  ldc.i         3
+  cge.i        
+  brfalse       @block_538e
+
+ block_5364:
+  line          #918
+  ldc.i         -1253087929
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #919
+  br            @block_53b2
+
+ block_538e:
+  line          #920
+  ldc.i         1002463908
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #921
+
+ block_53b2:
+  line          #922
+
+ block_53b6:
+  line          #923
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #924
+  ldc.i         1
+  st.i          persistent int $002bc677 
+  pop          
+  br            @block_5580
+
+ block_53e8:
+  line          #925
+  ldc.i         2
+  bne.case      @block_54b5
+
+ block_53f8:
+  line          #926
+  ldc.i         2
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #927
+  ldc.i         1
+  st.i          savefile int $939dd18a 
+  pop          
+  line          #928
+  ldstr         "snr005eb"
+  syscallp      $call (1)
+  line          #929
+  ldc.i         1
+  st.i          persistent int $8314e8ff 
+  pop          
+  line          #930
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #931
+  ldstr         "snr005ebz"
+  syscallp      $call (1)
+  line          #932
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #933
+  ldc.i         1
+  st.i          persistent int $39a6fab2 
+  pop          
+  br            @block_5580
+
+ block_54b5:
+  line          #934
+  ldc.i         3
+  bne.case      @block_5580
+
+ block_54c5:
+  line          #935
+  ldc.i         1
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #936
+  ldc.i         1
+  st.i          savefile int $5f37d114 
+  pop          
+  line          #937
+  ldstr         "snr005ec"
+  syscallp      $call (1)
+  line          #938
+  ldc.i         1
+  st.i          persistent int $4fbee861 
+  pop          
+  line          #939
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #940
+  ldstr         "snr005ecz"
+  syscallp      $call (1)
+  line          #941
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #942
+  ldc.i         1
+  st.i          persistent int $2eddeef1 
+  pop          
+  line          #943
+
+ block_5580:
+  line          #944
+
+ block_5584:
+  line          #946
+  ld            savefile int $78906df5 
+  br.case       @block_5598
+
+ block_5598:
+  line          #947
+  ldc.i         1
+  bne.case      @block_5645
+
+ block_55a8:
+  line          #948
+  ldc.i         926175332
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #949
+  ld            savefile int $dce0413f 
+  ldc.i         4
+  cge.i        
+  brfalse       @block_5608
+
+ block_55e1:
+  line          #950
+  ldc.i         -242107816
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #951
+  br            @block_5629
+
+ block_5608:
+  line          #952
+  ldc.i         1027324614
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #953
+
+ block_5629:
+  line          #954
+  ldc.i         1
+  st.i          persistent int $08c6409d 
+  pop          
+  br            @block_58f7
+
+ block_5645:
+  line          #955
+  ldc.i         2
+  bne.case      @block_56f2
+
+ block_5655:
+  line          #956
+  ldc.i         1647514656
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #957
+  ld            savefile int $62cd6078 
+  ldc.i         4
+  cge.i        
+  brfalse       @block_56b5
+
+ block_568e:
+  line          #958
+  ldc.i         -2139801451
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #959
+  br            @block_56d6
+
+ block_56b5:
+  line          #960
+  ldc.i         1289697291
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #961
+
+ block_56d6:
+  line          #962
+  ldc.i         1
+  st.i          persistent int $8649477e 
+  pop          
+  br            @block_58f7
+
+ block_56f2:
+  line          #963
+  ldc.i         3
+  bne.case      @block_579f
+
+ block_5702:
+  line          #964
+  ldc.i         1055201121
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #965
+  ld            savefile int $07a425c3 
+  ldc.i         4
+  cge.i        
+  brfalse       @block_5762
+
+ block_573b:
+  line          #966
+  ldc.i         -2114805872
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #967
+  br            @block_5783
+
+ block_5762:
+  line          #968
+  ldc.i         1297653518
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #969
+
+ block_5783:
+  line          #970
+  ldc.i         1
+  st.i          persistent int $4ae347e0 
+  pop          
+  br            @block_58f7
+
+ block_579f:
+  line          #971
+  ldc.i         4
+  bne.case      @block_584c
+
+ block_57af:
+  line          #972
+  ldc.i         -143443106
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #973
+  ld            savefile int $97a8c0bc 
+  ldc.i         4
+  cge.i        
+  brfalse       @block_580f
+
+ block_57e8:
+  line          #974
+  ldc.i         928851073
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #975
+  br            @block_5830
+
+ block_580f:
+  line          #976
+  ldc.i         -67689441
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #977
+
+ block_5830:
+  line          #978
+  ldc.i         1
+  st.i          persistent int $40264ef9 
+  pop          
+  br            @block_58f7
+
+ block_584c:
+  line          #979
+  ldc.i         5
+  bne.case      @block_58f7
+
+ block_585c:
+  line          #980
+  ldc.i         -1039337345
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #981
+  ld            savefile int $57c34798 
+  ldc.i         4
+  cge.i        
+  brfalse       @block_58bc
+
+ block_5895:
+  line          #982
+  ldc.i         2063682332
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #983
+  br            @block_58dd
+
+ block_58bc:
+  line          #984
+  ldc.i         -1213510782
+  ldstr         "snr006"
+  syscallp      $call_sub (2)
+  line          #985
+
+ block_58dd:
+  line          #986
+  ldc.i         1
+  st.i          persistent int $8c8c4e67 
+  pop          
+  line          #987
+
+ block_58f7:
+  line          #989
+  ldstr         "snr007"
+  syscallp      $call (1)
+  line          #990
+  ld            savefile int $dce0413f 
+  ld            savefile int $62cd6078 
+  add.i        
+  ld            savefile int $07a425c3 
+  add.i        
+  ld            savefile int $97a8c0bc 
+  add.i        
+  ld            savefile int $57c34798 
+  add.i        
+  ldc.i         12
+  cge.i        
+  brfalse       @block_5992
+
+ block_595a:
+  line          #991
+  ldc.i         1
+  st.i          savefile int $9347b495 
+  pop          
+  line          #992
+  ldstr         "snr008a"
+  syscallp      $call (1)
+  line          #993
+  br            @block_59c4
+
+ block_5992:
+  line          #994
+  ldc.i         1
+  st.i          savefile int $1dc8b376 
+  pop          
+  line          #995
+  ldstr         "snr008b"
+  syscallp      $call (1)
+  line          #996
+
+ block_59c4:
+  line          #997
+  ldstr         "snr008z"
+  syscallp      $call (1)
+  line          #999
+  ldstr         "松本璃乃"
+  ldstr         "桜井衣澄"
+  ldstr         "二宮未夏"
+  ldstr         "大野愛梨"
+  ldstr         "相葉希更"
+  call          $$select@MENU (5) ; $select@MENU
+  br.case       @block_5a33
+
+ block_5a33:
+  line          #1000
+  ldc.i         1
+  bne.case      @block_6599
+
+ block_5a43:
+  line          #1001
+  ld            savefile int $620853c2 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_605b
+
+ block_5a5f:
+  line          #1002
+  ldc.i         1
+  st.i          savefile int $843ca0d6 
+  pop          
+  line          #1004
+  ldc.i         -1029234945
+  ldstr         "snr009a"
+  syscallp      $call_sub (2)
+  line          #1005
+  ld            savefile int $dce0413f 
+  ldc.i         4
+  clt.i        
+  brfalse       @block_5ad7
+
+ block_5aaf:
+  line          #1006
+  ldc.i         565926140
+  ldstr         "snr009a"
+  syscallp      $call_sub (2)
+  line          #1007
+  br            @block_5af9
+
+ block_5ad7:
+  line          #1008
+  ldc.i         -1355522273
+  ldstr         "snr009a"
+  syscallp      $call_sub (2)
+  line          #1009
+
+ block_5af9:
+  line          #1010
+  ldc.i         -2138957438
+  ldstr         "snr009a"
+  syscallp      $call_sub (2)
+  line          #1011
+  ld            savefile int $ce718086 
+  ldc.i         1
+  ceq.i        
+  ld            savefile int $02db8018 
+  ldc.i         1
+  ceq.i        
+  orl          
+  ldstr         "浣腸して我慢させる"
+  ldc.i         1
+  ld            savefile int $02db8018 
+  sub.i        
+  ldstr         "電車にノーパンで乗車させる"
+  ldc.i         1
+  ld            savefile int $ce718086 
+  sub.i        
+  ldstr         "公園のジャングルジムに拘束する"
+  call          $$select_ex@MENU (6) ; $select_ex@MENU
+  br.case       @block_5bd0
+
+ block_5bd0:
+  line          #1012
+  ldc.i         1
+  bne.case      @block_5d2d
+
+ block_5be0:
+  line          #1013
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #1014
+  ldc.i         1
+  st.i          savefile int $ce718086 
+  pop          
+  line          #1015
+  ldstr         "snr005ab"
+  syscallp      $call (1)
+  line          #1016
+  ldc.i         1
+  st.i          persistent int $def8b9f3 
+  pop          
+  line          #1017
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1018
+  ldc.i         -534214020
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1019
+  ld            savefile int $dce0413f 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_5cb7
+
+ block_5c8d:
+  line          #1020
+  ldc.i         -693926550
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1021
+  br            @block_5cdb
+
+ block_5cb7:
+  line          #1022
+  ldc.i         -1777377802
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1023
+
+ block_5cdb:
+  line          #1024
+  ldc.i         -1303432407
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1025
+  ldc.i         1
+  st.i          persistent int $304d5ac8 
+  pop          
+  line          #1026
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_6051
+
+ block_5d2d:
+  line          #1027
+  ldc.i         2
+  bne.case      @block_5eee
+
+ block_5d3d:
+  line          #1028
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #1029
+  ldc.i         1
+  st.i          savefile int $02db8018 
+  pop          
+  line          #1030
+  ldc.i         -1029234945
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1031
+  ldc.i         -1355522273
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1032
+  ldc.i         -2138957438
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1033
+  ldc.i         1
+  st.i          persistent int $1252b96d 
+  pop          
+  line          #1034
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1035
+  ldc.i         1560211100
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1036
+  ld            savefile int $dce0413f 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_5e58
+
+ block_5e2e:
+  line          #1037
+  ldc.i         -1930840775
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1038
+  br            @block_5e7c
+
+ block_5e58:
+  line          #1039
+  ldc.i         1681332104
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1040
+
+ block_5e7c:
+  line          #1041
+  ldc.i         390215052
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1042
+  ldc.i         -965223762
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1043
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1044
+  ldc.i         1
+  st.i          persistent int $27364e8b 
+  pop          
+  br            @block_6051
+
+ block_5eee:
+  line          #1045
+  ldc.i         3
+  bne.case      @block_6051
+
+ block_5efe:
+  line          #1046
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #1047
+  ldc.i         1
+  st.i          savefile int $18e76096 
+  pop          
+  line          #1048
+  ldstr         "snr009ac"
+  syscallp      $call (1)
+  line          #1049
+  ldc.i         1
+  st.i          persistent int $086e59e3 
+  pop          
+  line          #1050
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1052
+  ldc.i         -1029234945
+  ldstr         "snr009acz"
+  syscallp      $call_sub (2)
+  line          #1053
+  ld            savefile int $dce0413f 
+  ldc.i         3
+  ldc.i         1
+  add.i        
+  clt.i        
+  brfalse       @block_5fdd
+
+ block_5fb3:
+  line          #1054
+  ldc.i         2106945711
+  ldstr         "snr009acz"
+  syscallp      $call_sub (2)
+  line          #1055
+  br            @block_6001
+
+ block_5fdd:
+  line          #1056
+  ldc.i         2108316988
+  ldstr         "snr009acz"
+  syscallp      $call_sub (2)
+  line          #1057
+
+ block_6001:
+  line          #1058
+  ldc.i         1277696284
+  ldstr         "snr009acz"
+  syscallp      $call_sub (2)
+  line          #1059
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1060
+  ldc.i         1
+  st.i          persistent int $2d2cdc4c 
+  pop          
+  line          #1061
+
+ block_6051:
+  line          #1062
+  br            @block_6593
+
+ block_605b:
+  line          #1063
+  ldc.i         1
+  st.i          savefile int $620853c2 
+  pop          
+  line          #1064
+  ldstr         "snr005a"
+  syscallp      $call (1)
+  line          #1065
+  ldstr         "電車にノーパンで乗車させる"
+  ldstr         "公園のジャングルジムに拘束する"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_60f4
+
+ block_60f4:
+  line          #1066
+  ldc.i         1
+  bne.case      @block_62fd
+
+ block_6104:
+  line          #1067
+  ldc.i         1
+  st.i          savefile int $40fe8765 
+  pop          
+  line          #1068
+  ldc.i         -1029234945
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  line          #1069
+  ldstr         "舐め方を指図する"
+  ldstr         "強引に喉の奥にねじ込む"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          savefile int $7024f652 
+  pop          
+  line          #1070
+  ld            savefile int $7024f652 
+  br.case       @block_6199
+
+ block_6199:
+  line          #1071
+  ldc.i         1
+  bne.case      @block_61ce
+
+ block_61a9:
+  line          #1072
+  ldc.i         -1355522273
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  br            @block_6201
+
+ block_61ce:
+  line          #1073
+  ldc.i         2
+  bne.case      @block_6201
+
+ block_61de:
+  line          #1074
+  ldc.i         1671323521
+  ldstr         "snr005aa"
+  syscallp      $call_sub (2)
+  line          #1075
+
+ block_6201:
+  line          #1076
+  ldc.i         1
+  st.i          persistent int $5077be10 
+  pop          
+  line          #1077
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1078
+  ldc.i         -1029234945
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  line          #1079
+  ld            savefile int $7024f652 
+  br.case       @block_6261
+
+ block_6261:
+  line          #1080
+  ldc.i         1
+  bne.case      @block_6297
+
+ block_6271:
+  line          #1081
+  ldc.i         -1355522273
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  br            @block_62cb
+
+ block_6297:
+  line          #1082
+  ldc.i         2
+  bne.case      @block_62cb
+
+ block_62a7:
+  line          #1083
+  ldc.i         1671323521
+  ldstr         "snr005aaz"
+  syscallp      $call_sub (2)
+  line          #1084
+
+ block_62cb:
+  line          #1085
+  ldc.i         1
+  st.i          persistent int $09c0660d 
+  pop          
+  line          #1086
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_658f
+
+ block_62fd:
+  line          #1087
+  ldc.i         2
+  bne.case      @block_645a
+
+ block_630d:
+  line          #1088
+  ldc.i         2
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #1089
+  ldc.i         1
+  st.i          savefile int $ce718086 
+  pop          
+  line          #1090
+  ldstr         "snr005ab"
+  syscallp      $call (1)
+  line          #1091
+  ldc.i         1
+  st.i          persistent int $def8b9f3 
+  pop          
+  line          #1092
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1093
+  ldc.i         640789682
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1094
+  ld            savefile int $dce0413f 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_63e4
+
+ block_63ba:
+  line          #1095
+  ldc.i         -693926550
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1096
+  br            @block_6408
+
+ block_63e4:
+  line          #1097
+  ldc.i         -1777377802
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1098
+
+ block_6408:
+  line          #1099
+  ldc.i         -1303432407
+  ldstr         "snr005abz"
+  syscallp      $call_sub (2)
+  line          #1100
+  ldc.i         1
+  st.i          persistent int $304d5ac8 
+  pop          
+  line          #1101
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_658f
+
+ block_645a:
+  line          #1102
+  ldc.i         3
+  bne.case      @block_658f
+
+ block_646a:
+  line          #1103
+  ldc.i         1
+  st.add.i      savefile int $dce0413f 
+  pop          
+  line          #1104
+  ldc.i         1
+  st.i          savefile int $02db8018 
+  pop          
+  line          #1105
+  ldc.i         -1029234945
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1106
+  ldc.i         565926140
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1107
+  ldc.i         -2138957438
+  ldstr         "snr005ac"
+  syscallp      $call_sub (2)
+  line          #1108
+  ldc.i         1
+  st.i          persistent int $1252b96d 
+  pop          
+  line          #1109
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1110
+  ldc.i         -104319801
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1111
+  ldc.i         -965223762
+  ldstr         "snr005acz"
+  syscallp      $call_sub (2)
+  line          #1112
+  ldc.i         1
+  st.i          persistent int $27364e8b 
+  pop          
+  line          #1113
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1114
+
+ block_658f:
+  line          #1115
+
+ block_6593:
+  br            @block_8bfe
+
+ block_6599:
+  line          #1116
+  ldc.i         2
+  bne.case      @block_7196
+
+ block_65a9:
+  line          #1117
+  ld            savefile int $ec875421 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_6b93
+
+ block_65c5:
+  line          #1118
+  ldc.i         1
+  st.i          savefile int $0ab3a735 
+  pop          
+  line          #1120
+  ldc.i         839099309
+  ldstr         "snr009b"
+  syscallp      $call_sub (2)
+  line          #1121
+  ld            savefile int $62cd6078 
+  ldc.i         4
+  clt.i        
+  brfalse       @block_663d
+
+ block_6615:
+  line          #1122
+  ldc.i         -1540436839
+  ldstr         "snr009b"
+  syscallp      $call_sub (2)
+  line          #1123
+  br            @block_665f
+
+ block_663d:
+  line          #1124
+  ldc.i         715246458
+  ldstr         "snr009b"
+  syscallp      $call_sub (2)
+  line          #1125
+
+ block_665f:
+  line          #1126
+  ldc.i         1881580752
+  ldstr         "snr009b"
+  syscallp      $call_sub (2)
+  line          #1127
+  ld            savefile int $f7fcbc43 
+  ldc.i         1
+  ceq.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         1
+  ceq.i        
+  orl          
+  ldstr         "拘束してバイブで責める"
+  ldc.i         1
+  ld            savefile int $3b56bcdd 
+  sub.i        
+  ldstr         "電車にノーパンで乗車させる"
+  ldc.i         1
+  ld            savefile int $f7fcbc43 
+  sub.i        
+  ldstr         "バイブをつけて散歩させる"
+  call          $$select_ex@MENU (6) ; $select_ex@MENU
+  br.case       @block_6734
+
+ block_6734:
+  line          #1128
+  ldc.i         1
+  bne.case      @block_68b1
+
+ block_6744:
+  line          #1129
+  ldc.i         3
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #1130
+  ldc.i         1
+  st.i          savefile int $f7fcbc43 
+  pop          
+  line          #1131
+  ldstr         "snr005bb"
+  syscallp      $call (1)
+  line          #1132
+  ldc.i         1
+  st.i          persistent int $e7758536 
+  pop          
+  line          #1133
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1134
+  ldc.i         -1766235174
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1135
+  ld            savefile int $62cd6078 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_681b
+
+ block_67f1:
+  line          #1136
+  ldc.i         2106945711
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1137
+  br            @block_683f
+
+ block_681b:
+  line          #1138
+  ldc.i         2108316988
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1139
+
+ block_683f:
+  line          #1140
+  ldc.i         971458884
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1141
+  ldc.i         1511220036
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1142
+  ldc.i         1
+  st.i          persistent int $db7ae1cb 
+  pop          
+  line          #1143
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_6b89
+
+ block_68b1:
+  line          #1144
+  ldc.i         2
+  bne.case      @block_6a2e
+
+ block_68c1:
+  line          #1145
+  ldc.i         2
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #1146
+  ldc.i         1
+  st.i          savefile int $3b56bcdd 
+  pop          
+  line          #1147
+  ldstr         "snr005bc"
+  syscallp      $call (1)
+  line          #1148
+  ldc.i         1
+  st.i          persistent int $2bdf85a8 
+  pop          
+  line          #1149
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1150
+  ldc.i         -1766235174
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1151
+  ld            savefile int $62cd6078 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_6998
+
+ block_696e:
+  line          #1152
+  ldc.i         2106945711
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1153
+  br            @block_69bc
+
+ block_6998:
+  line          #1154
+  ldc.i         2108316988
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1155
+
+ block_69bc:
+  line          #1156
+  ldc.i         971458884
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1157
+  ldc.i         1511220036
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1158
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1159
+  ldc.i         1
+  st.i          persistent int $cc01f588 
+  pop          
+  br            @block_6b89
+
+ block_6a2e:
+  line          #1160
+  ldc.i         3
+  bne.case      @block_6b89
+
+ block_6a3e:
+  line          #1161
+  ldc.i         1
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #1162
+  ldc.i         1
+  st.i          savefile int $216a5c53 
+  pop          
+  line          #1163
+  ldstr         "snr009bc"
+  syscallp      $call (1)
+  line          #1164
+  ldc.i         1
+  st.i          persistent int $31e36526 
+  pop          
+  line          #1165
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1166
+  ldc.i         -1029234945
+  ldstr         "snr009bcz"
+  syscallp      $call_sub (2)
+  line          #1167
+  ld            savefile int $62cd6078 
+  ldc.i         3
+  clt.i        
+  brfalse       @block_6b15
+
+ block_6aeb:
+  line          #1168
+  ldc.i         406217785
+  ldstr         "snr009bcz"
+  syscallp      $call_sub (2)
+  line          #1169
+  br            @block_6b39
+
+ block_6b15:
+  line          #1170
+  ldc.i         -1766235174
+  ldstr         "snr009bcz"
+  syscallp      $call_sub (2)
+  line          #1171
+
+ block_6b39:
+  line          #1172
+  ldc.i         1277696284
+  ldstr         "snr009bcz"
+  syscallp      $call_sub (2)
+  line          #1173
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1174
+  ldc.i         1
+  st.i          persistent int $c61b674f 
+  pop          
+  line          #1175
+
+ block_6b89:
+  line          #1176
+  br            @block_7190
+
+ block_6b93:
+  line          #1177
+  ldc.i         1
+  st.i          savefile int $ec875421 
+  pop          
+  line          #1178
+  ldstr         "snr005b"
+  syscallp      $call (1)
+  line          #1179
+  ldstr         "電車にノーパンで乗車させる"
+  ldstr         "バイブをつけて散歩させる"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_6c26
+
+ block_6c26:
+  line          #1180
+  ldc.i         1
+  bne.case      @block_6fa8
+
+ block_6c36:
+  line          #1181
+  ldc.i         1
+  st.i          savefile int $7973bba0 
+  pop          
+  line          #1182
+  ldc.i         -1029234945
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #1183
+  ldstr         "顔にかける"
+  ldstr         "口へ出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #1184
+  ld            local int $555c3aaa 6
+  br.case       @block_6cb7
+
+ block_6cb7:
+  line          #1185
+  ldc.i         1
+  bne.case      @block_6cec
+
+ block_6cc7:
+  line          #1186
+  ldc.i         565926140
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  br            @block_6d1f
+
+ block_6cec:
+  line          #1187
+  ldc.i         2
+  bne.case      @block_6d1f
+
+ block_6cfc:
+  line          #1188
+  ldc.i         -1355522273
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #1189
+
+ block_6d1f:
+  line          #1190
+  ldc.i         -2138957438
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #1191
+  ldstr         "後ろの穴"
+  ldstr         "前の穴"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #1192
+  ld            local int $8f81a3a5 7
+  br.case       @block_6d86
+
+ block_6d86:
+  line          #1193
+  ldc.i         1
+  bne.case      @block_6dbb
+
+ block_6d96:
+  line          #1194
+  ldc.i         1386291574
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  br            @block_6dee
+
+ block_6dbb:
+  line          #1195
+  ldc.i         2
+  bne.case      @block_6dee
+
+ block_6dcb:
+  line          #1196
+  ldc.i         -600955243
+  ldstr         "snr005ba"
+  syscallp      $call_sub (2)
+  line          #1197
+
+ block_6dee:
+  line          #1198
+  ldc.i         1
+  st.i          persistent int $69fa82d5 
+  pop          
+  line          #1199
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1200
+  ldc.i         406217785
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #1201
+  ldc.i         1277696284
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #1202
+  ld            local int $555c3aaa 6
+  br.case       @block_6e6e
+
+ block_6e6e:
+  line          #1203
+  ldc.i         1
+  bne.case      @block_6ea4
+
+ block_6e7e:
+  line          #1204
+  ldc.i         918572223
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  br            @block_6ed8
+
+ block_6ea4:
+  line          #1205
+  ldc.i         2
+  bne.case      @block_6ed8
+
+ block_6eb4:
+  line          #1206
+  ldc.i         -1202762916
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #1207
+
+ block_6ed8:
+  line          #1208
+  ldc.i         -1975054181
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #1209
+  ld            local int $8f81a3a5 7
+  br.case       @block_6f0c
+
+ block_6f0c:
+  line          #1210
+  ldc.i         1
+  bne.case      @block_6f42
+
+ block_6f1c:
+  line          #1211
+  ldc.i         1171928373
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  br            @block_6f76
+
+ block_6f42:
+  line          #1212
+  ldc.i         2
+  bne.case      @block_6f76
+
+ block_6f52:
+  line          #1213
+  ldc.i         -883608874
+  ldstr         "snr005baz"
+  syscallp      $call_sub (2)
+  line          #1214
+
+ block_6f76:
+  line          #1215
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1216
+  ldc.i         1
+  st.i          persistent int $e2f7dd0e 
+  pop          
+  br            @block_718c
+
+ block_6fa8:
+  line          #1217
+  ldc.i         2
+  bne.case      @block_709b
+
+ block_6fb8:
+  line          #1218
+  ldc.i         3
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #1219
+  ldc.i         1
+  st.i          savefile int $f7fcbc43 
+  pop          
+  line          #1220
+  ldstr         "snr005bb"
+  syscallp      $call (1)
+  line          #1221
+  ldc.i         1
+  st.i          persistent int $e7758536 
+  pop          
+  line          #1222
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1223
+  ldc.i         406217785
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1224
+  ldc.i         1511220036
+  ldstr         "snr005bbz"
+  syscallp      $call_sub (2)
+  line          #1225
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1226
+  ldc.i         1
+  st.i          persistent int $db7ae1cb 
+  pop          
+  br            @block_718c
+
+ block_709b:
+  line          #1227
+  ldc.i         3
+  bne.case      @block_718c
+
+ block_70ab:
+  line          #1228
+  ldc.i         2
+  st.add.i      savefile int $62cd6078 
+  pop          
+  line          #1229
+  ldc.i         1
+  st.i          savefile int $3b56bcdd 
+  pop          
+  line          #1230
+  ldstr         "snr005bc"
+  syscallp      $call (1)
+  line          #1231
+  ldc.i         1
+  st.i          persistent int $2bdf85a8 
+  pop          
+  line          #1232
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1233
+  ldc.i         406217785
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1234
+  ldc.i         1511220036
+  ldstr         "snr005bcz"
+  syscallp      $call_sub (2)
+  line          #1235
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1236
+  ldc.i         1
+  st.i          persistent int $cc01f588 
+  pop          
+  line          #1237
+
+ block_718c:
+  line          #1238
+
+ block_7190:
+  br            @block_8bfe
+
+ block_7196:
+  line          #1239
+  ldc.i         3
+  bne.case      @block_7794
+
+ block_71a6:
+  line          #1240
+  ld            savefile int $202d54bf 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_73ba
+
+ block_71c2:
+  line          #1241
+  ldc.i         1
+  st.i          savefile int $c619a7ab 
+  pop          
+  line          #1242
+  ldstr         "snr009c"
+  syscallp      $call (1)
+  line          #1243
+  ld            savefile int $e087a800 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_7331
+
+ block_720c:
+  line          #1244
+  ldc.i         1
+  st.i          savefile int $74344f6d 
+  pop          
+  line          #1245
+  ldc.i         -1029234945
+  ldstr         "snr009ca"
+  syscallp      $call_sub (2)
+  line          #1246
+  ldstr         "使わせない"
+  ldstr         "使わせる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_7273
+
+ block_7273:
+  line          #1247
+  ldc.i         1
+  bne.case      @block_72a8
+
+ block_7283:
+  line          #1248
+  ldc.i         -1766235174
+  ldstr         "snr009ca"
+  syscallp      $call_sub (2)
+  br            @block_72db
+
+ block_72a8:
+  line          #1249
+  ldc.i         2
+  bne.case      @block_72db
+
+ block_72b8:
+  line          #1250
+  ldc.i         1511220036
+  ldstr         "snr009ca"
+  syscallp      $call_sub (2)
+  line          #1251
+
+ block_72db:
+  line          #1252
+  ldc.i         1
+  st.i          persistent int $64bd7618 
+  pop          
+  line          #1253
+  ldc.i         -85966514
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1254
+  ldc.i         1
+  st.i          persistent int $072f24f7 
+  pop          
+  line          #1255
+  br            @block_73b0
+
+ block_7331:
+  line          #1256
+  ldc.i         1
+  st.i          savefile int $fabb488e 
+  pop          
+  line          #1257
+  ldstr         "snr009cb"
+  syscallp      $call (1)
+  line          #1258
+  ldc.i         1
+  st.i          persistent int $ea3271fb 
+  pop          
+  line          #1259
+  ldc.i         910836176
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1260
+  ldc.i         1
+  st.i          persistent int $3ea21832 
+  pop          
+  line          #1261
+
+ block_73b0:
+  line          #1262
+  br            @block_778e
+
+ block_73ba:
+  line          #1263
+  ldc.i         1
+  st.i          savefile int $202d54bf 
+  pop          
+  line          #1264
+  ldstr         "snr005c"
+  syscallp      $call (1)
+  line          #1265
+  ldstr         "二宮未夏を犯すという証拠を残してから"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_7438
+
+ block_7438:
+  line          #1266
+  ldc.i         1
+  bne.case      @block_7699
+
+ block_7448:
+  line          #1267
+  ldc.i         1
+  st.i          savefile int $6e08afe3 
+  pop          
+  line          #1268
+  ldc.i         -1029234945
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #1269
+  ldc.i         1
+  st.i          persistent int $7e819696 
+  pop          
+  line          #1270
+  ldstr         "二宮未夏を犯したという証拠を残す"
+  ldstr         "このまま立ち去る"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #1271
+  ld            local int $555c3aaa 6
+  br.case       @block_74fd
+
+ block_74fd:
+  line          #1272
+  ldc.i         1
+  bne.case      @block_75be
+
+ block_750d:
+  line          #1273
+  ldc.i         565926140
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #1274
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1275
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1276
+  ldc.i         1037754169
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1277
+  ldc.i         1791917693
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1278
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  br            @block_767d
+
+ block_75be:
+  line          #1279
+  ldc.i         2
+  bne.case      @block_767d
+
+ block_75ce:
+  line          #1280
+  ldc.i         -1355522273
+  ldstr         "snr005ca"
+  syscallp      $call_sub (2)
+  line          #1281
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1282
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1283
+  ldc.i         1037754169
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1284
+  ldc.i         -465471074
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1285
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1286
+
+ block_767d:
+  line          #1287
+  ldc.i         1
+  st.i          persistent int $0d35b630 
+  pop          
+  br            @block_778a
+
+ block_7699:
+  line          #1288
+  ldc.i         2
+  bne.case      @block_778a
+
+ block_76a9:
+  line          #1289
+  ldc.i         2
+  st.add.i      savefile int $07a425c3 
+  pop          
+  line          #1290
+  ldc.i         1
+  st.i          savefile int $e087a800 
+  pop          
+  line          #1291
+  ldstr         "snr005cb"
+  syscallp      $call (1)
+  line          #1292
+  ldc.i         1
+  st.i          persistent int $f00e9175 
+  pop          
+  line          #1293
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1295
+  ldc.i         1881580752
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1296
+  ldc.i         -244260953
+  ldstr         "snr002czz"
+  syscallp      $call_sub (2)
+  line          #1297
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1298
+  ldc.i         1
+  st.i          persistent int $34b88af5 
+  pop          
+  line          #1299
+
+ block_778a:
+  line          #1300
+
+ block_778e:
+  br            @block_8bfe
+
+ block_7794:
+  line          #1301
+  ldc.i         4
+  bne.case      @block_7fb2
+
+ block_77a4:
+  line          #1302
+  ld            savefile int $2ae85da6 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_7b82
+
+ block_77c0:
+  line          #1303
+  ldc.i         1
+  st.i          savefile int $ccdcaeb2 
+  pop          
+  line          #1304
+  ld            savefile int $97a8c0bc 
+  ldc.i         4
+  clt.i        
+  brfalse       @block_781a
+
+ block_77f2:
+  line          #1305
+  ldc.i         406217785
+  ldstr         "snr009d"
+  syscallp      $call_sub (2)
+  line          #1306
+  br            @block_783c
+
+ block_781a:
+  line          #1307
+  ldc.i         -1766235174
+  ldstr         "snr009d"
+  syscallp      $call_sub (2)
+  line          #1308
+
+ block_783c:
+  line          #1309
+  ldc.i         1277696284
+  ldstr         "snr009d"
+  syscallp      $call_sub (2)
+  line          #1310
+  ld            savefile int $84e6c5c9 
+  ldc.i         1
+  ceq.i        
+  ld            savefile int $484cc557 
+  ldc.i         1
+  ceq.i        
+  orl          
+  ldstr         "ヌードデッサンのモデルにする"
+  ldc.i         1
+  ld            savefile int $484cc557 
+  sub.i        
+  ldstr         "拘束してバイブで責める"
+  ldc.i         1
+  ld            savefile int $84e6c5c9 
+  sub.i        
+  ldstr         "バイブを入れて校内を散歩"
+  call          $$select_ex@MENU (6) ; $select_ex@MENU
+  br.case       @block_7913
+
+ block_7913:
+  line          #1311
+  ldc.i         1
+  bne.case      @block_79e0
+
+ block_7923:
+  line          #1312
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #1313
+  ldc.i         1
+  st.i          savefile int $84e6c5c9 
+  pop          
+  line          #1314
+  ldstr         "snr005db"
+  syscallp      $call (1)
+  line          #1315
+  ldc.i         1
+  st.i          persistent int $946ffcbc 
+  pop          
+  line          #1316
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1317
+  ldstr         "snr005dbz"
+  syscallp      $call (1)
+  line          #1318
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1319
+  ldc.i         1
+  st.i          persistent int $d664918c 
+  pop          
+  br            @block_7b78
+
+ block_79e0:
+  line          #1320
+  ldc.i         2
+  bne.case      @block_7aad
+
+ block_79f0:
+  line          #1321
+  ldc.i         1
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #1322
+  ldc.i         1
+  st.i          savefile int $484cc557 
+  pop          
+  line          #1323
+  ldstr         "snr005dc"
+  syscallp      $call (1)
+  line          #1324
+  ldc.i         1
+  st.i          persistent int $58c5fc22 
+  pop          
+  line          #1325
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1326
+  ldstr         "snr005dcz"
+  syscallp      $call (1)
+  line          #1327
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1328
+  ldc.i         1
+  st.i          persistent int $c11f85cf 
+  pop          
+  br            @block_7b78
+
+ block_7aad:
+  line          #1329
+  ldc.i         3
+  bne.case      @block_7b78
+
+ block_7abd:
+  line          #1330
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #1331
+  ldc.i         1
+  st.i          savefile int $527025d9 
+  pop          
+  line          #1332
+  ldstr         "snr009dc"
+  syscallp      $call (1)
+  line          #1333
+  ldc.i         1
+  st.i          persistent int $42f91cac 
+  pop          
+  line          #1334
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1335
+  ldstr         "snr009dcz"
+  syscallp      $call (1)
+  line          #1336
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1337
+  ldc.i         1
+  st.i          persistent int $cb051708 
+  pop          
+  line          #1338
+
+ block_7b78:
+  line          #1339
+  br            @block_7fac
+
+ block_7b82:
+  line          #1340
+  ldc.i         1
+  st.i          savefile int $2ae85da6 
+  pop          
+  line          #1341
+  ldstr         "snr005d"
+  syscallp      $call (1)
+  line          #1342
+  ldstr         "拘束してバイブで責める"
+  ldstr         "バイブを入れて校内を散歩"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_7c11
+
+ block_7c11:
+  line          #1343
+  ldc.i         1
+  bne.case      @block_7e10
+
+ block_7c21:
+  line          #1344
+  ldc.i         1
+  st.i          savefile int $0a69c22a 
+  pop          
+  line          #1345
+  ldc.i         -1029234945
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  line          #1346
+  ldstr         "後の穴に挿れる"
+  ldstr         "前の穴に挿れる"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          savefile int $7024f652 
+  pop          
+  line          #1347
+  ld            savefile int $7024f652 
+  br.case       @block_7cac
+
+ block_7cac:
+  line          #1348
+  ldc.i         1
+  bne.case      @block_7ce1
+
+ block_7cbc:
+  line          #1349
+  ldc.i         -1355522273
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  br            @block_7d14
+
+ block_7ce1:
+  line          #1350
+  ldc.i         2
+  bne.case      @block_7d14
+
+ block_7cf1:
+  line          #1351
+  ldc.i         1671323521
+  ldstr         "snr005da"
+  syscallp      $call_sub (2)
+  line          #1352
+
+ block_7d14:
+  line          #1353
+  ldc.i         1
+  st.i          persistent int $1ae0fb5f 
+  pop          
+  line          #1354
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1355
+  ldc.i         -1029234945
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  line          #1356
+  ld            savefile int $7024f652 
+  br.case       @block_7d74
+
+ block_7d74:
+  line          #1357
+  ldc.i         1
+  bne.case      @block_7daa
+
+ block_7d84:
+  line          #1358
+  ldc.i         -1355522273
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  br            @block_7dde
+
+ block_7daa:
+  line          #1359
+  ldc.i         2
+  bne.case      @block_7dde
+
+ block_7dba:
+  line          #1360
+  ldc.i         1671323521
+  ldstr         "snr005daz"
+  syscallp      $call_sub (2)
+  line          #1361
+
+ block_7dde:
+  line          #1362
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1363
+  ldc.i         1
+  st.i          persistent int $efe9ad49 
+  pop          
+  br            @block_7fa8
+
+ block_7e10:
+  line          #1364
+  ldc.i         2
+  bne.case      @block_7edd
+
+ block_7e20:
+  line          #1365
+  ldc.i         2
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #1366
+  ldc.i         1
+  st.i          savefile int $84e6c5c9 
+  pop          
+  line          #1367
+  ldstr         "snr005db"
+  syscallp      $call (1)
+  line          #1368
+  ldc.i         1
+  st.i          persistent int $946ffcbc 
+  pop          
+  line          #1369
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1370
+  ldstr         "snr005dbz"
+  syscallp      $call (1)
+  line          #1371
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1372
+  ldc.i         1
+  st.i          persistent int $d664918c 
+  pop          
+  br            @block_7fa8
+
+ block_7edd:
+  line          #1373
+  ldc.i         3
+  bne.case      @block_7fa8
+
+ block_7eed:
+  line          #1374
+  ldc.i         1
+  st.add.i      savefile int $97a8c0bc 
+  pop          
+  line          #1375
+  ldc.i         1
+  st.i          savefile int $484cc557 
+  pop          
+  line          #1376
+  ldstr         "snr005dc"
+  syscallp      $call (1)
+  line          #1377
+  ldc.i         1
+  st.i          persistent int $58c5fc22 
+  pop          
+  line          #1378
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1379
+  ldstr         "snr005dcz"
+  syscallp      $call (1)
+  line          #1380
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1381
+  ldc.i         1
+  st.i          persistent int $c11f85cf 
+  pop          
+  line          #1382
+
+ block_7fa8:
+  line          #1383
+
+ block_7fac:
+  br            @block_8bfe
+
+ block_7fb2:
+  line          #1384
+  ldc.i         5
+  bne.case      @block_8bfe
+
+ block_7fc2:
+  line          #1385
+  ld            local int postinc $f0367ae6 4
+  pop          
+  line          #1386
+  ld            savefile int $e6425d38 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_83e9
+
+ block_7fee:
+  line          #1387
+  ldc.i         1
+  st.i          savefile int $0076ae2c 
+  pop          
+  line          #1388
+  ldc.i         -1029234945
+  ldstr         "snr009e"
+  syscallp      $call_sub (2)
+  line          #1389
+  ld            savefile int $57c34798 
+  ldc.i         4
+  clt.i        
+  brfalse       @block_8066
+
+ block_803e:
+  line          #1390
+  ldc.i         565926140
+  ldstr         "snr009e"
+  syscallp      $call_sub (2)
+  line          #1391
+  br            @block_8088
+
+ block_8066:
+  line          #1392
+  ldc.i         -1355522273
+  ldstr         "snr009e"
+  syscallp      $call_sub (2)
+  line          #1393
+
+ block_8088:
+  line          #1394
+  ldc.i         -2138957438
+  ldstr         "snr009e"
+  syscallp      $call_sub (2)
+  line          #1395
+  ld            savefile int $939dd18a 
+  ldc.i         1
+  ceq.i        
+  ld            savefile int $5f37d114 
+  ldc.i         1
+  ceq.i        
+  orl          
+  ldstr         "雑木林に連れて行く"
+  ldc.i         1
+  ld            savefile int $5f37d114 
+  sub.i        
+  ldstr         "拘束してバイブで責める"
+  ldc.i         1
+  ld            savefile int $939dd18a 
+  sub.i        
+  ldstr         "目の前でおしっこさせる"
+  call          $$select_ex@MENU (6) ; $select_ex@MENU
+  br.case       @block_8153
+
+ block_8153:
+  line          #1396
+  ldc.i         1
+  bne.case      @block_8220
+
+ block_8163:
+  line          #1397
+  ldc.i         2
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #1398
+  ldc.i         1
+  st.i          savefile int $939dd18a 
+  pop          
+  line          #1399
+  ldstr         "snr005eb"
+  syscallp      $call (1)
+  line          #1400
+  ldc.i         1
+  st.i          persistent int $8314e8ff 
+  pop          
+  line          #1401
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1402
+  ldstr         "snr005ebz"
+  syscallp      $call (1)
+  line          #1403
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1404
+  ldc.i         1
+  st.i          persistent int $39a6fab2 
+  pop          
+  br            @block_83df
+
+ block_8220:
+  line          #1405
+  ldc.i         2
+  bne.case      @block_82ed
+
+ block_8230:
+  line          #1406
+  ldc.i         1
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #1407
+  ldc.i         1
+  st.i          savefile int $5f37d114 
+  pop          
+  line          #1408
+  ldstr         "snr005ec"
+  syscallp      $call (1)
+  line          #1409
+  ldc.i         1
+  st.i          persistent int $4fbee861 
+  pop          
+  line          #1410
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1411
+  ldstr         "snr005ecz"
+  syscallp      $call (1)
+  line          #1412
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1413
+  ldc.i         1
+  st.i          persistent int $2eddeef1 
+  pop          
+  br            @block_83df
+
+ block_82ed:
+  line          #1414
+  ldc.i         3
+  bne.case      @block_83df
+
+ block_82fd:
+  line          #1415
+  ldc.i         1
+  st.i          savefile int $450b319a 
+  pop          
+  line          #1416
+  ldc.i         -1029234945
+  ldstr         "snr009ec"
+  syscallp      $call_sub (2)
+  line          #1417
+  ldc.i         1
+  st.i          persistent int $558208ef 
+  pop          
+  line          #1418
+  ld            savefile int $57c34798 
+  ldc.i         4
+  cle.i        
+  brfalse       @block_837f
+
+ block_8364:
+  ldc.i         1277696284
+  ldstr         "snr009ec"
+  syscallp      $call_sub (2)
+
+ block_837f:
+  line          #1419
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1420
+  ldstr         "snr009ecz"
+  syscallp      $call (1)
+  line          #1421
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1422
+  ldc.i         1
+  st.i          persistent int $24c77c36 
+  pop          
+  line          #1423
+
+ block_83df:
+  line          #1424
+  br            @block_8bfa
+
+ block_83e9:
+  line          #1425
+  ldc.i         1
+  st.i          savefile int $e6425d38 
+  pop          
+  line          #1426
+  ldstr         "snr005e"
+  syscallp      $call (1)
+  line          #1427
+  ldstr         "拘束してバイブで責める"
+  ldstr         "目の前でおしっこさせる"
+  ldstr         "口で奉仕させる"
+  call          $$select@MENU (3) ; $select@MENU
+  br.case       @block_8476
+
+ block_8476:
+  line          #1428
+  ldc.i         1
+  bne.case      @block_8a5e
+
+ block_8486:
+  line          #1429
+  ldc.i         1
+  st.i          savefile int $1d12d669 
+  pop          
+  line          #1430
+  ldc.i         -1029234945
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1431
+  ldstr         "舐め方を指図する"
+  ldstr         "強引に喉の奥にねじ込む"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $555c3aaa 6
+  pop          
+  line          #1432
+  ld            local int $555c3aaa 6
+  br.case       @block_851b
+
+ block_851b:
+  line          #1433
+  ldc.i         1
+  bne.case      @block_8608
+
+ block_852b:
+  line          #1434
+  ldc.i         565926140
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1435
+  ldstr         "顔にかける"
+  ldstr         "口の中に出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #1436
+  ld            local int $8f81a3a5 7
+  br.case       @block_859a
+
+ block_859a:
+  line          #1437
+  ldc.i         1
+  bne.case      @block_85cf
+
+ block_85aa:
+  line          #1438
+  ldc.i         -2116277819
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  br            @block_8602
+
+ block_85cf:
+  line          #1439
+  ldc.i         2
+  bne.case      @block_8602
+
+ block_85df:
+  line          #1440
+  ldc.i         257109542
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1441
+
+ block_8602:
+  br            @block_86f3
+
+ block_8608:
+  line          #1442
+  ldc.i         2
+  bne.case      @block_86f3
+
+ block_8618:
+  line          #1443
+  ldc.i         -1355522273
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1444
+  ldstr         "顔にかける"
+  ldstr         "口の中に出す"
+  call          $$select@MENU (2) ; $select@MENU
+  st.i          local int $8f81a3a5 7
+  pop          
+  line          #1445
+  ld            local int $8f81a3a5 7
+  br.case       @block_8687
+
+ block_8687:
+  line          #1446
+  ldc.i         1
+  bne.case      @block_86bc
+
+ block_8697:
+  line          #1447
+  ldc.i         -1202645760
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  br            @block_86ef
+
+ block_86bc:
+  line          #1448
+  ldc.i         2
+  bne.case      @block_86ef
+
+ block_86cc:
+  line          #1449
+  ldc.i         920523491
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1450
+
+ block_86ef:
+  line          #1451
+
+ block_86f3:
+  line          #1452
+  ldc.i         -2138957438
+  ldstr         "snr005ea"
+  syscallp      $call_sub (2)
+  line          #1453
+  ldc.i         1
+  st.i          persistent int $0d9bef1c 
+  pop          
+  line          #1454
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1455
+  ldc.i         -1029234945
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1456
+  ld            local int $555c3aaa 6
+  br.case       @block_8772
+
+ block_8772:
+  line          #1457
+  ldc.i         1
+  bne.case      @block_8826
+
+ block_8782:
+  line          #1458
+  ldc.i         565926140
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1459
+  ld            local int $8f81a3a5 7
+  br.case       @block_87b6
+
+ block_87b6:
+  line          #1460
+  ldc.i         1
+  bne.case      @block_87ec
+
+ block_87c6:
+  line          #1461
+  ldc.i         -2116277819
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  br            @block_8820
+
+ block_87ec:
+  line          #1462
+  ldc.i         2
+  bne.case      @block_8820
+
+ block_87fc:
+  line          #1463
+  ldc.i         257109542
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1464
+
+ block_8820:
+  br            @block_88d8
+
+ block_8826:
+  line          #1465
+  ldc.i         2
+  bne.case      @block_88d8
+
+ block_8836:
+  line          #1466
+  ldc.i         -1355522273
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1467
+  ld            local int $8f81a3a5 7
+  br.case       @block_886a
+
+ block_886a:
+  line          #1468
+  ldc.i         1
+  bne.case      @block_88a0
+
+ block_887a:
+  line          #1469
+  ldc.i         -1202645760
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  br            @block_88d4
+
+ block_88a0:
+  line          #1470
+  ldc.i         2
+  bne.case      @block_88d4
+
+ block_88b0:
+  line          #1471
+  ldc.i         920523491
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1472
+
+ block_88d4:
+  line          #1473
+
+ block_88d8:
+  line          #1474
+  ldc.i         -2138957438
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1475
+  ldstr         "後ろに入れる"
+  ldstr         "前に入れる"
+  call          $$novel_select@MENU (2) ; $novel_select@MENU
+  br.case       @block_892e
+
+ block_892e:
+  line          #1476
+  ldc.i         1
+  bne.case      @block_89ae
+
+ block_893e:
+  line          #1477
+  ld            savefile int $57c34798 
+  ldc.i         3
+  cge.i        
+  brfalse       @block_8984
+
+ block_895a:
+  line          #1478
+  ldc.i         -1933420158
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1479
+  br            @block_89a8
+
+ block_8984:
+  line          #1480
+  ldc.i         38624865
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1481
+
+ block_89a8:
+  br            @block_8a2c
+
+ block_89ae:
+  line          #1482
+  ldc.i         2
+  bne.case      @block_8a2c
+
+ block_89be:
+  line          #1483
+  ld            savefile int $57c34798 
+  ldc.i         3
+  cge.i        
+  brfalse       @block_8a04
+
+ block_89da:
+  line          #1484
+  ldc.i         -1253087929
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1485
+  br            @block_8a28
+
+ block_8a04:
+  line          #1486
+  ldc.i         1002463908
+  ldstr         "snr005eaz"
+  syscallp      $call_sub (2)
+  line          #1487
+
+ block_8a28:
+  line          #1488
+
+ block_8a2c:
+  line          #1489
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1490
+  ldc.i         1
+  st.i          persistent int $002bc677 
+  pop          
+  br            @block_8bf6
+
+ block_8a5e:
+  line          #1491
+  ldc.i         2
+  bne.case      @block_8b2b
+
+ block_8a6e:
+  line          #1492
+  ldc.i         2
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #1493
+  ldc.i         1
+  st.i          savefile int $939dd18a 
+  pop          
+  line          #1494
+  ldstr         "snr005eb"
+  syscallp      $call (1)
+  line          #1495
+  ldc.i         1
+  st.i          persistent int $8314e8ff 
+  pop          
+  line          #1496
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1497
+  ldstr         "snr005ebz"
+  syscallp      $call (1)
+  line          #1498
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1499
+  ldc.i         1
+  st.i          persistent int $39a6fab2 
+  pop          
+  br            @block_8bf6
+
+ block_8b2b:
+  line          #1500
+  ldc.i         3
+  bne.case      @block_8bf6
+
+ block_8b3b:
+  line          #1501
+  ldc.i         1
+  st.add.i      savefile int $57c34798 
+  pop          
+  line          #1502
+  ldc.i         1
+  st.i          savefile int $5f37d114 
+  pop          
+  line          #1503
+  ldstr         "snr005ec"
+  syscallp      $call (1)
+  line          #1504
+  ldc.i         1
+  st.i          persistent int $4fbee861 
+  pop          
+  line          #1505
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1506
+  ldstr         "snr005ecz"
+  syscallp      $call (1)
+  line          #1507
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1508
+  ldc.i         1
+  st.i          persistent int $2eddeef1 
+  pop          
+  line          #1509
+
+ block_8bf6:
+  line          #1510
+
+ block_8bfa:
+  line          #1511
+
+ block_8bfe:
+  line          #1513
+  ld            local int $f0367ae6 4
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_8d10
+
+ block_8c1a:
+  line          #1514
+  ld            savefile int $dce0413f 
+  ldc.i         5
+  clt.i        
+  ld            savefile int $62cd6078 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $07a425c3 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $97a8c0bc 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $57c34798 
+  ldc.i         5
+  clt.i        
+  andl         
+  brfalse       @block_8d0c
+
+ block_8c86:
+  line          #1515
+  ld            savefile int $02db8018 
+  ldc.i         0
+  ceq.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  ceq.i        
+  orl          
+  brfalse       @block_8d08
+
+ block_8cb6:
+  line          #1516
+  ldc.i         1
+  st.i          persistent int $2284162f 
+  pop          
+  line          #1517
+  ldstr         "X_RinoYumiEnd"
+  syscallp      $call (1)
+  line          #1518
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1519
+
+ block_8d08:
+  line          #1520
+
+ block_8d0c:
+  line          #1521
+
+ block_8d10:
+  line          #1522
+  ldstr         "snr010"
+  syscallp      $call (1)
+  line          #1524
+  ld            savefile int $dce0413f 
+  ldc.i         5
+  clt.i        
+  ld            savefile int $62cd6078 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $07a425c3 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $97a8c0bc 
+  ldc.i         5
+  clt.i        
+  andl         
+  ld            savefile int $57c34798 
+  ldc.i         5
+  clt.i        
+  andl         
+  brfalse       @block_8f74
+
+ block_8d93:
+  line          #1525
+  ld            savefile int $02db8018 
+  ldc.i         0
+  ceq.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  ceq.i        
+  orl          
+  brfalse       @block_8f70
+
+ block_8dc3:
+  line          #1528
+  ldstr         "snr011"
+  syscallp      $call (1)
+  line          #1529
+  ld            persistent int $64172cc8 
+  ld            persistent int $86dd6daf 
+  add.i        
+  ld            persistent int $5f4110f7 
+  add.i        
+  ld            persistent int $2ed4ca4a 
+  add.i        
+  ld            persistent int $3d527787 
+  add.i        
+  ld            persistent int $8b01795c 
+  add.i        
+  ld            persistent int $446aeb2b 
+  add.i        
+  ld            persistent int $cae5ecc8 
+  add.i        
+  ldc.i         3
+  cgt.i        
+  ldstr         "夕実が望むなら、俺を殺せばいい"
+  ldc.i         1
+  ldstr         "おまえは誰だ。俺の夕実はもう死んだんだ！"
+  call          $$select_ex@MENU (4) ; $select_ex@MENU
+  br.case       @block_8eac
+
+ block_8eac:
+  line          #1530
+  ldc.i         1
+  bne.case      @block_8f0e
+
+ block_8ebc:
+  line          #1531
+  ldc.i         1
+  st.i          persistent int $cae5ecc8 
+  pop          
+  line          #1532
+  ldstr         "X_Sibou1End"
+  syscallp      $call (1)
+  line          #1533
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_8f6c
+
+ block_8f0e:
+  line          #1534
+  ldc.i         2
+  bne.case      @block_8f6c
+
+ block_8f1e:
+  line          #1535
+  ldc.i         1
+  st.i          persistent int $dc03a4e7 
+  pop          
+  line          #1536
+  ldstr         "X_YumiEnd"
+  syscallp      $call (1)
+  line          #1537
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1538
+
+ block_8f6c:
+  line          #1539
+
+ block_8f70:
+  line          #1540
+
+ block_8f74:
+  line          #1541
+  ld            savefile int $57c34798 
+  ldc.i         5
+  cge.i        
+  ld            savefile int $e6425d38 
+  ldc.i         0
+  cne.i        
+  ld            savefile int $0076ae2c 
+  ldc.i         0
+  cne.i        
+  andl         
+  orl          
+  ldstr         "これは松本璃乃だ"
+  ld            savefile int $97a8c0bc 
+  ldc.i         5
+  cge.i        
+  ldstr         "これは桜井衣澄だ"
+  ld            savefile int $07a425c3 
+  ldc.i         5
+  cge.i        
+  ldstr         "これは二宮未夏だ"
+  ld            savefile int $62cd6078 
+  ldc.i         5
+  cge.i        
+  ld            savefile int $02db8018 
+  ldc.i         0
+  cne.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  cne.i        
+  andl         
+  orl          
+  ldstr         "これは大野愛梨だ"
+  ld            savefile int $dce0413f 
+  ldc.i         5
+  cge.i        
+  ld            savefile int $02db8018 
+  ldc.i         0
+  cne.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  cne.i        
+  andl         
+  orl          
+  ldstr         "これは相葉希更だ"
+  ldc.i         1
+  ldstr         "電話の少女を呼び出す"
+  call          $$select_ex@MENU (12) ; $select_ex@MENU
+  br.case       @block_90e4
+
+ block_90e4:
+  line          #1542
+  ldc.i         1
+  bne.case      @block_9104
+
+ block_90f4:
+  line          #1543
+  br            @block_945e
+
+ block_90fe:
+  br            @block_945e
+
+ block_9104:
+  line          #1544
+  ldc.i         2
+  bne.case      @block_91e6
+
+ block_9114:
+  line          #1545
+  ld            savefile int $02db8018 
+  ldc.i         0
+  cne.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  cne.i        
+  andl         
+  brfalse       @block_9196
+
+ block_9144:
+  line          #1547
+  ldc.i         1
+  st.i          persistent int $505042fd 
+  pop          
+  line          #1548
+  ldstr         "X_KisaAiriEnd"
+  syscallp      $call (1)
+  line          #1549
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1550
+
+ block_9196:
+  line          #1551
+  ldc.i         1
+  st.i          persistent int $64172cc8 
+  pop          
+  line          #1552
+  ldstr         "X_KisaEnd"
+  syscallp      $call (1)
+  line          #1553
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_945e
+
+ block_91e6:
+  line          #1554
+  ldc.i         3
+  bne.case      @block_92c8
+
+ block_91f6:
+  line          #1555
+  ld            savefile int $02db8018 
+  ldc.i         0
+  cne.i        
+  ld            savefile int $3b56bcdd 
+  ldc.i         0
+  cne.i        
+  andl         
+  brfalse       @block_9278
+
+ block_9226:
+  line          #1557
+  ldc.i         1
+  st.i          persistent int $505042fd 
+  pop          
+  line          #1558
+  ldstr         "X_KisaAiriEnd"
+  syscallp      $call (1)
+  line          #1559
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1560
+
+ block_9278:
+  line          #1561
+  ldc.i         1
+  st.i          persistent int $86dd6daf 
+  pop          
+  line          #1562
+  ldstr         "X_AiriEnd"
+  syscallp      $call (1)
+  line          #1563
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_945e
+
+ block_92c8:
+  line          #1564
+  ldc.i         4
+  bne.case      @block_9328
+
+ block_92d8:
+  line          #1565
+  ldc.i         1
+  st.i          persistent int $5f4110f7 
+  pop          
+  line          #1566
+  ldstr         "X_MikaEnd"
+  syscallp      $call (1)
+  line          #1567
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_945e
+
+ block_9328:
+  line          #1568
+  ldc.i         5
+  bne.case      @block_9388
+
+ block_9338:
+  line          #1569
+  ldc.i         1
+  st.i          persistent int $2ed4ca4a 
+  pop          
+  line          #1570
+  ldstr         "X_IsumEnd"
+  syscallp      $call (1)
+  line          #1571
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_945e
+
+ block_9388:
+  line          #1572
+  ldc.i         6
+  bne.case      @block_945e
+
+ block_9398:
+  line          #1573
+  ld            savefile int $57c34798 
+  ldc.i         5
+  clt.i        
+  brfalse       @block_940c
+
+ block_93b4:
+  line          #1574
+  ldc.i         1
+  st.i          persistent int $2284162f 
+  pop          
+  line          #1575
+  ldstr         "X_RinoYumiEnd"
+  syscallp      $call (1)
+  line          #1576
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1577
+  br            @block_945a
+
+ block_940c:
+  line          #1578
+  ldc.i         1
+  st.i          persistent int $3d527787 
+  pop          
+  line          #1579
+  ldstr         "X_RinoEnd"
+  syscallp      $call (1)
+  line          #1580
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1581
+
+ block_945a:
+  line          #1582
+
+ block_945e:
+  line          #1585
+  ldstr         "snr011"
+  syscallp      $call (1)
+  line          #1586
+  ldstr         "夕実が望むなら、俺を殺せばいい"
+  ldstr         "おまえは誰だ。俺の夕実はもう死んだんだ！"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_94db
+
+ block_94db:
+  line          #1587
+  ldc.i         1
+  bne.case      @block_97ca
+
+ block_94eb:
+  line          #1588
+  ldc.i         -1029234945
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1589
+  ldstr         "荒縄で木々に縛りつける"
+  ldstr         "このまま犯す"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_9550
+
+ block_9550:
+  line          #1590
+  ldc.i         1
+  bne.case      @block_9589
+
+ block_9560:
+  line          #1591
+  ldc.i         565926140
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  br            @block_95c0
+
+ block_9589:
+  line          #1592
+  ldc.i         2
+  bne.case      @block_95c0
+
+ block_9599:
+  line          #1593
+  ldc.i         -1355522273
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1594
+
+ block_95c0:
+  line          #1595
+  ldc.i         1
+  st.i          persistent int $8b01795c 
+  pop          
+  line          #1596
+  ldstr         "ナイフを突き刺す"
+  ldstr         "縄で首をしめる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_9614
+
+ block_9614:
+  line          #1597
+  ldc.i         1
+  bne.case      @block_96e0
+
+ block_9624:
+  line          #1598
+  ldc.i         918572223
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1599
+  ldc.i         -1975054181
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1600
+  ldc.i         1171928373
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1601
+  callp         $4f80ca28 (0)
+  line          #1602
+  text          %{L1} ; "『心中ＥＮＤ１』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1603
+  ldc.i         1
+  st.i          persistent int $0286c3ca 
+  pop          
+  br            @block_97aa
+
+ block_96e0:
+  line          #1604
+  ldc.i         2
+  bne.case      @block_97aa
+
+ block_96f0:
+  line          #1605
+  ldc.i         -1202762916
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1606
+  ldc.i         -1975054181
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1607
+  ldc.i         -883608874
+  ldstr         "X_SinjyuuEnd"
+  syscallp      $call_sub (2)
+  line          #1608
+  callp         $4f80ca28 (0)
+  line          #1609
+  text          %{L2} ; "『心中ＥＮＤ２』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1610
+  ldc.i         1
+  st.i          persistent int $8c09c429 
+  pop          
+  line          #1611
+
+ block_97aa:
+  line          #1612
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_9a64
+
+ block_97ca:
+  line          #1613
+  ldc.i         2
+  bne.case      @block_9a64
+
+ block_97da:
+  line          #1614
+  ldc.i         1
+  st.i          persistent int $446aeb2b 
+  pop          
+  line          #1615
+  ldc.i         -1029234945
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1618
+  ld            savefile int $57c34798 
+  ld            savefile int $97a8c0bc 
+  ld            savefile int $07a425c3 
+  ld            savefile int $62cd6078 
+  ld            savefile int $dce0413f 
+  call          $d2b1d3a9 (5)
+  br.case       @block_985a
+
+ block_985a:
+  line          #1619
+  ldc.i         1
+  bne.case      @block_98c2
+
+ block_986a:
+  line          #1620
+  ldc.i         565926140
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1621
+  ldc.i         1
+  st.i          persistent int $56ccc5bc 
+  pop          
+  line          #1622
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_9a60
+
+ block_98c2:
+  line          #1623
+  ldc.i         2
+  bne.case      @block_992a
+
+ block_98d2:
+  line          #1624
+  ldc.i         -1355522273
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1625
+  ldc.i         1
+  st.i          persistent int $b5a84d2d 
+  pop          
+  line          #1626
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_9a60
+
+ block_992a:
+  line          #1627
+  ldc.i         3
+  bne.case      @block_9992
+
+ block_993a:
+  line          #1628
+  ldc.i         1671323521
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1629
+  ldc.i         1
+  st.i          persistent int $6c343075 
+  pop          
+  line          #1630
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_9a60
+
+ block_9992:
+  line          #1631
+  ldc.i         4
+  bne.case      @block_99fa
+
+ block_99a2:
+  line          #1632
+  ldc.i         1767593624
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1633
+  ldc.i         1
+  st.i          persistent int $2d515d66 
+  pop          
+  line          #1634
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  br            @block_9a60
+
+ block_99fa:
+  line          #1635
+  ldc.i         5
+  bne.case      @block_9a60
+
+ block_9a0a:
+  line          #1636
+  ldc.i         -1510910458
+  ldstr         "X_Sibou2End"
+  syscallp      $call_sub (2)
+  line          #1637
+  ldc.i         1
+  st.i          persistent int $bf2e8e81 
+  pop          
+  line          #1638
+  ldstr         "staffroll"
+  syscallp      $exec (1)
+  line          #1639
+
+ block_9a60:
+  line          #1641
+
+ block_9a64:
+  line          #1644
+  ldc.i         0
+  ret          
+}

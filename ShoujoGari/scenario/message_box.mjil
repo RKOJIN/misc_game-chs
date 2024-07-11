@@ -1,0 +1,638 @@
+readmark disable
+
+func $fbc029a8(int, int, int, int, int, int, int, int, int) {
+ entry:
+  line          #43
+  argcheck      [int, int, int, int, int, int, int, int, int]
+  alloca        [int, int]
+  line          #46
+  ld            local int $446f1c52 -5
+  ld            local int $d47c0f85 -10
+  ldc.i         0
+  ld            local int $70e8b20a -9
+  ld            local int $b8313802 -8
+  ld            local int $446f1c52 -5
+  ld            local int $2e6c9091 -4
+  ldc.i         0
+  ld            local int $6f4ac514 -3
+  ld            local int $a7934f1c -2
+  syscallp      $grp_modcopy (10)
+  line          #47
+  ld            local int $b8313802 -8
+  syscall       $page_len_y (1)
+  ld            local int $446f1c52 -5
+  sub.i        
+  ld            local int $76597ed0 -7
+  sub.i        
+  ld            local int $d47c0f85 -10
+  ld            local int $446f1c52 -5
+  ld            local int $70e8b20a -9
+  ld            local int $b8313802 -8
+  ld            local int $6f424f91 -6
+  ld            local int $2e6c9091 -4
+  ld            local int $446f1c52 -5
+  ld            local int $6f4ac514 -3
+  ld            local int $a7934f1c -2
+  syscallp      $grp_modcopy (10)
+  line          #48
+  ld            local int $76597ed0 -7
+  ld            local int $d47c0f85 -10
+  ld            local int $b8313802 -8
+  syscall       $page_len_y (1)
+  ld            local int $76597ed0 -7
+  sub.i        
+  ld            local int $70e8b20a -9
+  ld            local int $b8313802 -8
+  ld            local int $76597ed0 -7
+  ld            local int $2e6c9091 -4
+  ld            local int $446f1c52 -5
+  ld            local int $6f424f91 -6
+  add.i        
+  ld            local int $6f4ac514 -3
+  ld            local int $a7934f1c -2
+  syscallp      $grp_modcopy (10)
+  line          #49
+  ldc.i         0
+  ret          
+}
+
+func $03c6d638(int) {
+ entry:
+  line          #53
+  argcheck      [int]
+  alloca        [int, int]
+  line          #56
+  ldc.i         32
+  st.i          local int $2e6c9091 0
+  pop          
+  line          #57
+  ldc.i         32
+  st.i          local int $d47c0f85 1
+  pop          
+  line          #58
+  ld            local int $2e6c9091 0
+  ldc.i         0
+  ld            local int $c14288f9 -2
+  ldc.i         32
+  ldc.i         14
+  ldc.i         32
+  ld            local int $2e6c9091 0
+  ldc.i         0
+  ld            persistent int $07c4c11b 
+  callp         $fbc029a8 (9)
+  line          #61
+  ld            persistent int $07c4c11b 
+  syscall       $page_len_x (1)
+  ldc.i         32
+  ldc.i         32
+  add.i        
+  sub.i        
+  st.i          local int $2e6c9091 0
+  pop          
+  line          #62
+  ld            local int $c14288f9 -2
+  syscall       $page_len_x (1)
+  ldc.i         32
+  ldc.i         32
+  add.i        
+  sub.i        
+  st.i          local int $d47c0f85 1
+  pop          
+  line          #63
+  ld            local int $d47c0f85 1
+  ldc.i         32
+  ld            local int $c14288f9 -2
+  ldc.i         32
+  ldc.i         14
+  ldc.i         32
+  ld            local int $2e6c9091 0
+  ldc.i         32
+  ld            persistent int $07c4c11b 
+  callp         $fbc029a8 (9)
+  line          #66
+  ldc.i         32
+  st.i          local int $2e6c9091 0
+  pop          
+  line          #67
+  ldc.i         32
+  st.i          local int $d47c0f85 1
+  pop          
+  line          #68
+  ld            local int $d47c0f85 1
+  ld            local int $c14288f9 -2
+  syscall       $page_len_x (1)
+  ld            local int $d47c0f85 1
+  sub.i        
+  ld            local int $c14288f9 -2
+  ldc.i         32
+  ldc.i         14
+  ldc.i         32
+  ld            local int $2e6c9091 0
+  ldc.i         32
+  ldc.i         127
+  add.i        
+  ld            persistent int $07c4c11b 
+  callp         $fbc029a8 (9)
+  line          #70
+  ldc.i         0
+  ret          
+}
+
+func $b3a49ec7() { ; $message_close@MSG_BOX
+ entry:
+  line          #74
+  argcheck      []
+  alloca        []
+  line          #75
+  ld            savefile int $69a89c8f 
+  syscall       $sprite_is_exist (1)
+  brfalse       @block_03fc
+
+ block_03cc:
+  line          #76
+  ld            savefile int $69a89c8f 
+  syscallp      $sprite_release (1)
+  line          #77
+  ldc.i         0
+  st.i          savefile int $69a89c8f 
+  pop          
+  line          #78
+
+ block_03fc:
+  line          #79
+  ld            savefile int $10c0b2d6 
+  syscall       $page_is_exist (1)
+  brfalse       @block_045e
+
+ block_0418:
+  line          #80
+  ld            savefile int $10c0b2d6 
+  syscallp      $page_release (1)
+  line          #81
+  ld            savefile int $6070fab3 
+  syscallp      $page_release (1)
+  line          #82
+  ldc.i         0
+  st.i          savefile int $10c0b2d6 
+  pop          
+  line          #83
+
+ block_045e:
+  line          #84
+  ldc.i         0
+  syscallp      $wait (1)
+  line          #85
+  ldc.i         0
+  ret          
+}
+
+func $ed165c66(string) { ; $message_open@MSG_BOX
+ entry:
+  line          #86
+  argcheck      [string]
+  alloca        [int, int, int, int, int]
+  line          #89
+  callp         $$message_close@MSG_BOX (0) ; $message_close@MSG_BOX
+  line          #90
+  ldc.i         1
+  st.i          local int $58834f59 4
+  pop          
+  line          #91
+  ld            local int $a704bdbd -1
+  ldc.i         2
+  cge.i        
+  brfalse       @block_04e6
+
+ block_04d0:
+  ld            local int $e1ec0f0c -3
+  st.i          local int $58834f59 4
+  pop          
+
+ block_04e6:
+  line          #93
+  ldc.i         12
+  ld            local string $c674aa5d -2
+  syscall       $strlen (1)
+  mul.i        
+  ldc.i         2
+  mul.i        
+  ldc.i         32
+  add.i        
+  ldc.i         32
+  add.i        
+  st.i          local int $3f725dd6 0
+  pop          
+  line          #94
+  ldc.i         24
+  ld            local int $58834f59 4
+  mul.i        
+  ldc.i         32
+  add.i        
+  ldc.i         32
+  add.i        
+  st.i          local int $3eb037e1 1
+  pop          
+  line          #96
+  ldc.i         1
+  ld            local int $3eb037e1 1
+  ld            local int $3f725dd6 0
+  syscall       $page_create (3)
+  st.i          savefile int $10c0b2d6 
+  pop          
+  line          #97
+  ldc.i         0
+  ld            local int $3eb037e1 1
+  ld            local int $3f725dd6 0
+  syscall       $page_create (3)
+  st.i          savefile int $6070fab3 
+  pop          
+  line          #98
+  ld            savefile int $6070fab3 
+  ld            savefile int $10c0b2d6 
+  syscallp      $page_set_antidata (2)
+  line          #100
+  ld            savefile int $10c0b2d6 
+  callp         $03c6d638 (1)
+  line          #102
+  ldc.i         12
+  ldc.i         24
+  ldstr         "ＭＳ 明朝"
+  syscallp      $fontout_font (3)
+  line          #103
+  ldc.i         0
+  ldc.i         0
+  ldc.i         0
+  syscall       $rgb (3)
+  ldc.i         255
+  ldc.i         255
+  ldc.i         255
+  syscall       $rgb (3)
+  syscallp      $fontout_color (2)
+  line          #104
+  ldc.i         32
+  ldc.i         32
+  ld            savefile int $10c0b2d6 
+  syscallp      $fontout_locate (3)
+  line          #105
+  ldc.i         24
+  ld            local int $3f725dd6 0
+  ldc.i         32
+  sub.i        
+  ldc.i         32
+  sub.i        
+  ld            local string $c674aa5d -2
+  syscallp      $fontout (3)
+  line          #107
+  syscall       $client_width (0)
+  ldc.i         2
+  div.i        
+  ld            local int $3f725dd6 0
+  ldc.i         2
+  div.i        
+  sub.i        
+  st.i          local int $099b02f1 2
+  pop          
+  line          #108
+  syscall       $client_height (0)
+  ldc.i         2
+  div.i        
+  ldc.i         24
+  ldc.i         2
+  div.i        
+  sub.i        
+  ldc.i         100
+  sub.i        
+  st.i          local int $108033b0 3
+  pop          
+  line          #110
+  ld            local int $a704bdbd -1
+  ldc.i         3
+  cge.i        
+  brfalse       @block_078e
+
+ block_073e:
+  line          #111
+  ld            local int $d5470462 -4
+  ldc.i         0
+  cne.i        
+  brfalse       @block_0770
+
+ block_075a:
+  ld            local int $d5470462 -4
+  st.i          local int $099b02f1 2
+  pop          
+
+ block_0770:
+  line          #112
+  ld            local int $d4856e55 -5
+  st.i          local int $108033b0 3
+  pop          
+  line          #113
+
+ block_078e:
+  line          #115
+  ld            savefile int $10c0b2d6 
+  syscall       $sprite_create (1)
+  st.i          savefile int $69a89c8f 
+  pop          
+  line          #116
+  ld            local int $108033b0 3
+  ld            local int $099b02f1 2
+  ld            savefile int $69a89c8f 
+  syscallp      $sprite_move (3)
+  line          #117
+  ldc.i         0
+  ret          
+}
+
+func $e72d9f52(string) { ; $message@MSG_BOX
+ entry:
+  line          #118
+  argcheck      [string]
+  alloca        [int]
+  line          #121
+  ld            local int $a704bdbd -1
+  ldc.i         3
+  cge.i        
+  brfalse       @block_084e
+
+ block_0810:
+  line          #122
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ldc.i         1
+  ld            local string $c674aa5d -2
+  callp         $$message_open@MSG_BOX (4) ; $message_open@MSG_BOX
+  line          #123
+  br            @block_086c
+
+ block_084e:
+  line          #124
+  ld            local string $c674aa5d -2
+  callp         $$message_open@MSG_BOX (1) ; $message_open@MSG_BOX
+  line          #125
+
+ block_086c:
+  line          #127
+  syscall       $is_save_menu_disable (0)
+  st.i          local int $1e36aa22 0
+  pop          
+  line          #128
+  syscallp      $save_menu_disable (0)
+  line          #129
+  syscallp      $mk_unwait (0)
+  line          #130
+  syscallp      $mk_wait (0)
+  line          #131
+  ld            local int invert_boolean $1e36aa22 0
+  brfalse       @block_08c4
+
+ block_08bc:
+  syscallp      $save_menu_enable (0)
+
+ block_08c4:
+  line          #132
+  callp         $$message_close@MSG_BOX (0) ; $message_close@MSG_BOX
+  line          #133
+  ldc.i         0
+  ret          
+}
+
+func $efa43bbd() { ; $askyesno@MSG_BOX
+ entry:
+  line          #140
+  argcheck      []
+  alloca        [int, int, int, int, int, int, int, int, int, int]
+  line          #146
+  ldstr         "black"
+  syscall       $sprite_create_file (1)
+  st.i          local int $68d164de 9
+  pop          
+  line          #147
+  ldc.i         128
+  ld            local int $68d164de 9
+  syscallp      $sprite_alfa_set (2)
+  line          #148
+  ldc.i         0
+  ldc.i         0
+  ld            local int $68d164de 9
+  syscallp      $sprite_move (3)
+  line          #150
+  ld            savefile int $10c0b2d6 
+  st.i          local int $a6b26ee9 6
+  pop          
+  line          #151
+  ld            savefile int $6070fab3 
+  st.i          local int $b0f44831 7
+  pop          
+  line          #152
+  ld            savefile int $69a89c8f 
+  st.i          local int $72b3aa39 8
+  pop          
+  line          #154
+  syscall       $is_save_menu_disable (0)
+  st.i          local int $1e36aa22 0
+  pop          
+  line          #155
+  syscallp      $save_menu_disable (0)
+  line          #157
+  ld            local int $a704bdbd -1
+  ldc.i         1
+  cge.i        
+  brfalse       @block_0a0e
+
+ block_09e4:
+  line          #158
+  ldc.i         4
+  ld            local string $c674aa5d -2
+  callp         $$message_open@MSG_BOX (2) ; $message_open@MSG_BOX
+  line          #159
+  br            @block_0a3b
+
+ block_0a0e:
+  line          #160
+  ldc.i         2
+  ldstr         "　　　　　　　"
+  callp         $$message_open@MSG_BOX (2) ; $message_open@MSG_BOX
+  line          #161
+
+ block_0a3b:
+  line          #162
+  ld            savefile int $69a89c8f 
+  syscall       $sprite_get_pos_x (1)
+  ldc.i         32
+  add.i        
+  st.i          local int $099b02f1 2
+  pop          
+  line          #163
+  ld            savefile int $69a89c8f 
+  syscall       $sprite_get_pos_y (1)
+  ld            savefile int $10c0b2d6 
+  syscall       $page_len_y (1)
+  add.i        
+  ldc.i         32
+  sub.i        
+  ldc.i         24
+  ldc.i         2
+  mul.i        
+  sub.i        
+  st.i          local int $108033b0 3
+  pop          
+  line          #164
+  ld            savefile int $10c0b2d6 
+  syscall       $page_len_x (1)
+  ldc.i         32
+  sub.i        
+  ldc.i         32
+  sub.i        
+  st.i          local int $575c9c3b 4
+  pop          
+  line          #165
+  ldc.i         24
+  ldc.i         2
+  mul.i        
+  st.i          local int $569ef60c 5
+  pop          
+  line          #167
+  ldc.i         24
+  ldc.i         24
+  ld            local int $569ef60c 5
+  ld            local int $575c9c3b 4
+  ld            local int $108033b0 3
+  ld            local int $099b02f1 2
+  callp         $$set_extmenu@MENU (6) ; $set_extmenu@MENU
+  line          #169
+  ld            local int $a704bdbd -1
+  ldc.i         2
+  clt.i        
+  brfalse       @block_0b83
+
+ block_0b63:
+  line          #170
+  ldc.i         2
+  callp         $$select_mode_set@MENU (1) ; $select_mode_set@MENU
+  line          #171
+  br            @block_0b9d
+
+ block_0b83:
+  line          #172
+  ldc.i         1
+  callp         $$select_mode_set@MENU (1) ; $select_mode_set@MENU
+  line          #173
+
+ block_0b9d:
+  line          #174
+  ldstr         "いいえ"
+  ldstr         "はい"
+  ldc.i         2
+  call          $$inter_select@MENU (3) ; $inter_select@MENU
+  st.i          local int $cec433b9 1
+  pop          
+  line          #175
+  ld            local int $cec433b9 1
+  ldc.i         -1
+  ceq.i        
+  brfalse       @block_0c13
+
+ block_0bef:
+  line          #176
+  ld            local int $702b4c00 -3
+  st.i          local int $cec433b9 1
+  pop          
+  line          #177
+  br            @block_0c51
+
+ block_0c13:
+  line          #178
+  ld            local int $cec433b9 1
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_0c3b
+
+ block_0c2f:
+  ldc.i         1
+  br            @block_0c41
+
+ block_0c3b:
+  ldc.i         0
+
+ block_0c41:
+  st.i          local int $cec433b9 1
+  pop          
+  line          #179
+
+ block_0c51:
+  line          #181
+  callp         $$message_close@MSG_BOX (0) ; $message_close@MSG_BOX
+  line          #182
+  ld            local int invert_boolean $1e36aa22 0
+  brfalse       @block_0c7d
+
+ block_0c75:
+  syscallp      $save_menu_enable (0)
+
+ block_0c7d:
+  line          #184
+  ld            local int $a6b26ee9 6
+  st.i          savefile int $10c0b2d6 
+  pop          
+  line          #185
+  ld            local int $b0f44831 7
+  st.i          savefile int $6070fab3 
+  pop          
+  line          #186
+  ld            local int $72b3aa39 8
+  st.i          savefile int $69a89c8f 
+  pop          
+  line          #188
+  ld            local int $68d164de 9
+  syscallp      $sprite_release (1)
+  line          #189
+  ld            local int $cec433b9 1
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $65fbc976(string) { ; $message_box_renewal@MSG_BOX
+ entry:
+  line          #194
+  argcheck      [string]
+  alloca        [int]
+  line          #198
+  ld            local string $fa56454e -2
+  syscall       $page_create_file_withalfa (1)
+  st.i          local int $81d0f8d9 0
+  pop          
+  line          #199
+  ldc.i         0
+  ldc.i         0
+  ld            persistent int $07c4c11b 
+  ldc.i         9999
+  ldc.i         9999
+  ldc.i         0
+  ldc.i         0
+  ld            local int $81d0f8d9 0
+  syscallp      $grp_copy (8)
+  line          #200
+  ld            local int $81d0f8d9 0
+  syscallp      $page_release (1)
+  line          #201
+  ldc.i         0
+  ret          
+}
+
+func $7ceed271() entrypoint { ; $main@MSG_BOX
+ entry:
+  line          #206
+  argcheck      []
+  alloca        []
+  line          #207
+  ldstr         "システムメッセージ枠"
+  syscall       $page_create_file_withalfa (1)
+  st.i          persistent int $07c4c11b 
+  pop          
+  line          #208
+  ldc.i         0
+  ret          
+}

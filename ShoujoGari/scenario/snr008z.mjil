@@ -1,0 +1,65 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #12
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #13
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #14
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #15
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #17
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "…………そこで俺は目覚めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #18
+  text          %{L2} ; "ベッドから身を起こし、俺は大きく伸びをした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L3} ; "何日ぶりかの心地よい目覚めだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L4} ; "なんて素敵な夢だったろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L5} ; "くだらない脅しに屈している場合じゃない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L6} ; "俺にはやらなければならない使命があるんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L7} ; "夢を現実の物とするべく、俺は出かけることにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L8} ; "次のターゲットは誰にする？"
+  proc         
+  ctrl          "p"
+  line          #35
+  ldc.i         0
+  ret          
+}

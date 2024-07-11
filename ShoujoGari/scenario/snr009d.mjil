@@ -1,0 +1,681 @@
+readmark enable
+
+func $18366439() {
+ entry:
+  line          #21
+  argcheck      []
+  alloca        []
+  line          #25
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #26
+  ldstr         "ev53a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #27
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #29
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "公園の一角にある公衆トイレ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L2} ; "その個室の中で俺は呼び出した衣澄を乱暴に犯している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  ldstr         "b0251"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #33
+  text          %{L3} ; "【衣澄】「うぅっ……くぅっ……あぁ……んぅっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L4} ; "腰をぶつけるたびに衣澄の苦しげな声が上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L5} ; "壁に押し付けられて立ったままの衣澄は、苦悶に顔を歪めている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L6} ; "【貴城】「まったく、少しは感じてみせろよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L7} ; "胸に片手を伸ばす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L8} ; "もう一方の手は衣澄の足を抱えていて動かせない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  ldstr         "b0252"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #44
+  text          %{L9} ; "【衣澄】「あっ……あぁっ……んんっ……んっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L10} ; "ゆっくりと優しく胸を愛撫してみるが、腰の動きに反応して声を上げるだけで、感じている様子はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "b0253"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L11} ; "【衣澄】「んん……んくっ！　つぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L12} ; "無視されたような錯覚に苛立ち、今度は力を込めて握り潰すように揉んでみる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L13} ; "胸に走る激痛に、今度は衣澄も声を上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L14} ; "【貴城】「ったく、痛くしないと反応しないのかよ。本当にマゾだな、お前は」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L15} ; "衣澄の背中を個室の壁に打ちすえるような荒々しい動きで、腰を動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldstr         "b0254"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #59
+  text          %{L16} ; "【衣澄】「ひぐっ……はぐっ……くんっ……うあぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L17} ; "激しく責め立てても、衣澄はただ耐え続けている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L18} ; "いくら責めても機械的な反応を返すだけなので、人形か何かを相手にしているような気分になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L19} ; "だが、膣内の具合は、人形には不可能な締めつけで俺の肉棒に快感を与えてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L20} ; "【貴城】「本当、ダッチワイフよりはマシだってレベルだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  ldstr         "b0255"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #68
+  text          %{L21} ; "【衣澄】「んんっ……んぁ……ふぅ……うぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L22} ; "こうやって罵ったところで、衣澄は口答えもせずにじっと耐えている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L23} ; "その態度がまるで『所詮はこの程度ですか』と言わんばかりでシャクにさわる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L24} ; "【貴城】「クソ！　クソ！　クソ！　くそぉっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L25} ; "頭に浮かんだ妄想を振り払うように、がむしゃらに腰を動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  ldstr         "b0256"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #78
+  text          %{L26} ; "【衣澄】「んぐっ！　あぐっ！　んんんんぅっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L27} ; "そうだ、衣澄は俺に屈服している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L28} ; "ぐったりとした衣澄を犯し続けるうちに、射精感が急激に高まっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L29} ; "【貴城】「ほらっ！　膣内にたっぷりと注ぐからな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L30} ; "子宮口を亀頭でこじ開けんばかりの勢いで突くと、そこでそのまま限界を迎えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  ldstr         "ev53a"
+  callp         $3706a555 (1)
+  line          #90
+  text          %{L31} ; "突き抜けるような快感が走り、脳髄をしびれさせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L32} ; "肉棒から勢いよく吐き出された精液は、衣澄の膣内を白く汚していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  ldstr         "b0257"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #95
+  text          %{L33} ; "【衣澄】「うぅんっ……あ……あぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L34} ; "衣澄から力を失った肉棒を引き抜いても、小さく声を上げるだけで、やはり反応は薄い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #99
+  argcheck      []
+  alloca        []
+  line          #103
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #104
+  ldstr         "ev53b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #105
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #107
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L35} ; "公園の一角にある公衆トイレ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  text          %{L36} ; "その個室の中で俺は呼び出した衣澄を乱暴に犯している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  ldstr         "b0258"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #111
+  text          %{L37} ; "【衣澄】「あぁっ、いやぁっ、ん、んあぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L38} ; "狭い個室の中に衣澄の嬌声が響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  text          %{L39} ; "いやがる素振りをみせながらも、感じてしまっていることは隠しようがないほどに明白だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  text          %{L40} ; "【貴城】「いやと言いながら、ココはち○ぽを咥えこんで離さないのはどうしてなんだろうなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  ldstr         "b0258b"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #120
+  text          %{L41} ; "【衣澄】「そ、それはぁっ、た、立ったままですからぁ、逃げっ、ひぃんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #123
+  text          %{L42} ; "言い訳しようとする衣澄のクリトリスを摘まみあげて黙らせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L43} ; "片足を抱え上げられ、壁に押し付けられるように立ったまま犯されている衣澄に逃げ場所は無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  ldstr         "b0259"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #127
+  text          %{L44} ; "【衣澄】「だめぇ、そ、そこはぁ、つ、つままないでぇっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L45} ; "クリトリスを責めるのに合わせて、衣澄の膣内はキュッキュッと小気味良いリズムで締めあげてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L46} ; "その感覚が気持ち良くて、何度もクリトリスをしごき立てる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  ldstr         "b0260"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #134
+  text          %{L47} ; "【衣澄】「きゃひぃっ！　や、そればかりぃっ！　ひぃぁっ！　し、しないでぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L48} ; "クリトリスをしごかれる度に悲鳴にも似た嬌声が上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L49} ; "すでに二人の接合部は愛液とガマン汁がごしゃまぜになった淫汁でぐしょぐしょになっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L50} ; "【貴城】「そうは言ってもなぁ。お前は虐められた方が気持ち良いんだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L51} ; "クリトリスを弄る手を休めずに腰をぶつけていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L52} ; "もっと快楽を与えなければ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L53} ; "衣澄が快楽に溺れきって、日常生活が送れないほど色に狂わせてやりたい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  ldstr         "b0261"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #146
+  text          %{L54} ; "【衣澄】「はあぁんっ、ひぎっ、ゆ、ゆるしてっ、くださぃっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L55} ; "愛しい夕実のことではなく、こんなことで『許して』などと言われても、全然嬉しくもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L56} ; "むしろそれを判っていて、俺を内心嘲笑うためにわざと言っているのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L57} ; "夕実を殺してそ知らぬふりをし続ける衣澄なら、それぐらいやるに決まっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L58} ; "こんな性悪女に陥れられた夕実はどれほど辛かったことか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L59} ; "【貴城】「このっ！　貴様のような女はぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L60} ; "クリトリスを責めるのをやめて、空いた手でアヌスを撫でる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L61} ; "ゆっくりとしわの一つ一つをなぞるように、人差し指でアヌスをくすぐっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  ldstr         "b0262"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #160
+  text          %{L62} ; "【衣澄】「ひゃんっ！　そ、それだけはっ！　そんな汚い場所っ！　だめっ！　イヤですっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  text          %{L63} ; "俺の目的に気がついたのか、衣澄が取り乱したように暴れだす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L64} ; "そうだお前みたいな汚い女は、尻の穴を責められてよがっているのがお似合いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  ldstr         "b0263"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #167
+  text          %{L65} ; "【衣澄】「いやぁっ！　本当にぃっ！　くはぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L66} ; "かぶりを振って嫌がる衣澄を無視して、人差し指をアヌスに侵入させる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L67} ; "クリトリスを弄っていてついた愛液がローション代わりになって、第二関節まですんなりと腸内に入り込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  ldstr         "b0264"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #173
+  text          %{L68} ; "【衣澄】「はぁん、や、やあぁ……ぬ、抜いてくださいぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L69} ; "とたんに、クリトリスを弄っていた時よりも強く膣内が締めつけられる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L70} ; "そのあまりの気持ちよさに、あやうくイクところだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L71} ; "【貴城】「くぅ、そんなに尻穴が気持ち良いのか？　クリトリスの時よりずっと締めつけてきたぜ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  ldstr         "b0265"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #181
+  text          %{L72} ; "【衣澄】「やっ！　そんなことっ！　あ、ありませんんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L73} ; "指の腹で腸内を弄りながら、腰をぶつけていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L74} ; "さっきの急激な締めつけで、もうすぐにでもイってしまいそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L75} ; "【貴城】「ほらっ、イクぞっ、膣内に出してやるっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L76} ; "アナルのふちを指で引っ掛けるように引き抜く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  ldstr         "b0266"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #191
+  text          %{L77} ; "【衣澄】「あくぅっ！　ヤッ！　だめぇっ！　やああああぁぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L78} ; "大きく２、３回腰を動かすと、もう限界だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L79} ; "膣の奥深くまで肉棒を挿しこむと、堰を切ったように精液が吐き出されていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  ldstr         "ev53b"
+  callp         $3706a555 (1)
+  line          #198
+  text          %{L80} ; "肉棒から腰を伝わり、脳まで快感が襲いかかってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  ldstr         "b0267"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #202
+  text          %{L81} ; "【衣澄】「んんっ……はあぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L82} ; "射精を終え、元のサイズに戻った肉棒を、衣澄の膣内から引き抜く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L83} ; "あふれ出してきた精液が床にぽたぽたと落ちていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #208
+  argcheck      []
+  alloca        []
+  line          #212
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #213
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #214
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #215
+  ldstr         "bg02"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #216
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #218
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L84} ; "こんなものじゃダメだ。全然足りない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L85} ; "壁に沿って座り込んだ衣澄を見下ろしながらそう思う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #222
+  text          %{L86} ; "この女は俺の前では従順なふりをしてはいるが、陰で俺に悪戯電話を掛けてきている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L87} ; "しかも懲りないことに脅迫までしてくる始末だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  text          %{L88} ; "こうしてやったぐらいでは何の痛みも感じないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L89} ; "もっと苦痛と恥辱にまみれでもしない限り。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  text          %{L90} ; "この女にはもっと陵辱が必要だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  text          %{L91} ; "二度と脅迫なんてふざけた真似ができないよう、思い知らせてやらねばならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  text          %{L92} ; "そうでなければ……天国の夕実が安心して眠れない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  text          %{L93} ; "さぁ、どうするか？"
+  proc         
+  ctrl          "p"
+  line          #244
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #246
+  argcheck      []
+  alloca        []
+  line          #247
+  text          %{L94} ; "調教度"
+  proc         
+  ctrl          "p"
+  line          #248
+  ldstr         "たかい"
+  ldstr         "ひくい"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_20fc
+
+ block_20fc:
+  line          #249
+  ldc.i         1
+  bne.case      @block_2122
+
+ block_210c:
+  line          #250
+  callp         $18366439 (0)
+  br            @block_2146
+
+ block_2122:
+  line          #251
+  ldc.i         2
+  bne.case      @block_2146
+
+ block_2132:
+  line          #252
+  callp         $96b963da (0)
+  line          #253
+
+ block_2146:
+  line          #254
+  callp         $4c28191c (0)
+  line          #255
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #257
+  argcheck      []
+  alloca        []
+  line          #258
+  text          %{L95} ; "パターンを選択してください。\n"
+  line          #259
+  ldstr         "調教度高い"
+  ldstr         "調教度低い"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_21cf
+
+ block_21cf:
+  line          #260
+  ldc.i         1
+  bne.case      @block_21f5
+
+ block_21df:
+  line          #261
+  callp         $18366439 (0)
+  br            @block_2219
+
+ block_21f5:
+  line          #262
+  ldc.i         2
+  bne.case      @block_2219
+
+ block_2205:
+  line          #263
+  callp         $96b963da (0)
+  line          #264
+
+ block_2219:
+  line          #265
+  callp         $4c28191c (0)
+  line          #266
+  ldstr         "ヌードデッサンのモデルにする"
+  callp         $$select@MENU (1) ; $select@MENU
+  line          #267
+  ldstr         "snr009dc"
+  syscallp      $call (1)
+  line          #268
+  ldc.i         0
+  ret          
+}

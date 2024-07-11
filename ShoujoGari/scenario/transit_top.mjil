@@ -1,0 +1,4498 @@
+readmark disable
+
+func $4114df59(string, int, int) {
+ entry:
+  line          #16
+  argcheck      [string, int, int]
+  alloca        []
+  line          #17
+  ld            local int $a704bdbd -1
+  ldc.i         4
+  clt.i        
+  brfalse       @block_005b
+
+ block_002b:
+  line          #18
+  ld            local int $babb1448 -4
+  ld            local int $3acf92c1 -3
+  syscallp      $sprite_paste (2)
+  line          #19
+  ldc.i         0
+  ret          
+  line          #20
+
+ block_005b:
+  line          #21
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local string $a75141c4 -2
+  ld            local int $babb1448 -4
+  callp         $$pic_top_unpack_sepia@PIC (4) ; $pic_top_unpack_sepia@PIC
+  line          #22
+  ldc.i         0
+  ret          
+}
+
+func $50a6904d(int, int, string, int, int) {
+ entry:
+  line          #28
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #33
+  ld            local int $64da103a -2
+  ldc.i         -406
+  cne.i        
+  brfalse       @block_00d5
+
+ block_00cd:
+  ldc.i         0
+  ret          
+
+ block_00d5:
+  line          #36
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_00fd
+
+ block_00f5:
+  ldc.i         0
+  ret          
+
+ block_00fd:
+  line          #38
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #39
+  bsel.5        @block_0133
+
+ block_012d:
+  br            @block_01b5
+
+ block_0133:
+  bsel.clr     
+  line          #41
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #42
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #43
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #44
+  ldc.i         0
+  ret          
+
+ block_01b5:
+  line          #47
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #49
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #50
+  ld            local int $108033b0 -6
+  ldc.i         90
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #52
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #53
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #54
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #56
+
+ block_02b7:
+  ld            savefile int $1635363c 
+  brfalse       @block_02e3
+
+ block_02c7:
+  line          #57
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #58
+  br            @block_02b7
+
+ block_02e3:
+  line          #59
+  ldc.i         0
+  ret          
+}
+
+func $5b13ce7f(int, int, string, int, int) {
+ entry:
+  line          #60
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #65
+  ld            local int $64da103a -2
+  ldc.i         -409
+  cne.i        
+  brfalse       @block_0325
+
+ block_031d:
+  ldc.i         0
+  ret          
+
+ block_0325:
+  line          #68
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_034d
+
+ block_0345:
+  ldc.i         0
+  ret          
+
+ block_034d:
+  line          #70
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #71
+  bsel.5        @block_0383
+
+ block_037d:
+  br            @block_0405
+
+ block_0383:
+  bsel.clr     
+  line          #73
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #74
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #75
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #76
+  ldc.i         0
+  ret          
+
+ block_0405:
+  line          #79
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #81
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #82
+  ld            local int $108033b0 -6
+  ldc.i         90
+  add.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #84
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #85
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #86
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #88
+
+ block_0507:
+  ld            savefile int $1635363c 
+  brfalse       @block_0533
+
+ block_0517:
+  line          #89
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #90
+  br            @block_0507
+
+ block_0533:
+  line          #91
+  ldc.i         0
+  ret          
+}
+
+func $83d75722(int, int, string, int, int) {
+ entry:
+  line          #92
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #97
+  ld            local int $64da103a -2
+  ldc.i         -407
+  cne.i        
+  brfalse       @block_0575
+
+ block_056d:
+  ldc.i         0
+  ret          
+
+ block_0575:
+  line          #100
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_059d
+
+ block_0595:
+  ldc.i         0
+  ret          
+
+ block_059d:
+  line          #102
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #103
+  bsel.5        @block_05d3
+
+ block_05cd:
+  br            @block_0655
+
+ block_05d3:
+  bsel.clr     
+  line          #105
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #106
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #107
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #108
+  ldc.i         0
+  ret          
+
+ block_0655:
+  line          #111
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #113
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #114
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         90
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #116
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #117
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #118
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #119
+
+ block_0757:
+  ld            savefile int $1635363c 
+  brfalse       @block_0783
+
+ block_0767:
+  line          #120
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #121
+  br            @block_0757
+
+ block_0783:
+  line          #122
+  ldc.i         0
+  ret          
+}
+
+func $92e620b1(int, int, string, int, int) {
+ entry:
+  line          #123
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #128
+  ld            local int $64da103a -2
+  ldc.i         -408
+  cne.i        
+  brfalse       @block_07c5
+
+ block_07bd:
+  ldc.i         0
+  ret          
+
+ block_07c5:
+  line          #131
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_07ed
+
+ block_07e5:
+  ldc.i         0
+  ret          
+
+ block_07ed:
+  line          #133
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #134
+  bsel.5        @block_0823
+
+ block_081d:
+  br            @block_08a5
+
+ block_0823:
+  bsel.clr     
+  line          #136
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #137
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #138
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #139
+  ldc.i         0
+  ret          
+
+ block_08a5:
+  line          #142
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #144
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #145
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         90
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #147
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #148
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #149
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #151
+
+ block_09a7:
+  ld            savefile int $1635363c 
+  brfalse       @block_09d3
+
+ block_09b7:
+  line          #152
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #153
+  br            @block_09a7
+
+ block_09d3:
+  line          #154
+  ldc.i         0
+  ret          
+}
+
+func $2a1b24b3(int, int, string, int, int) {
+ entry:
+  line          #155
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #160
+  ld            local int $64da103a -2
+  ldc.i         -505
+  cne.i        
+  brfalse       @block_0a15
+
+ block_0a0d:
+  ldc.i         0
+  ret          
+
+ block_0a15:
+  line          #163
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_0a3d
+
+ block_0a35:
+  ldc.i         0
+  ret          
+
+ block_0a3d:
+  line          #165
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #166
+  bsel.5        @block_0a73
+
+ block_0a6d:
+  br            @block_0a97
+
+ block_0a73:
+  bsel.clr     
+  line          #168
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #169
+  ldc.i         0
+  ret          
+
+ block_0a97:
+  line          #172
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #174
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #176
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #177
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ldc.i         90
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #178
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #180
+
+ block_0b7d:
+  ld            savefile int $1635363c 
+  brfalse       @block_0ba9
+
+ block_0b8d:
+  line          #181
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #182
+  br            @block_0b7d
+
+ block_0ba9:
+  line          #184
+  ldc.i         0
+  ret          
+}
+
+func $e2c7c06d(int, int, string, int, int) {
+ entry:
+  line          #185
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #190
+  ld            local int $64da103a -2
+  ldc.i         -508
+  cne.i        
+  brfalse       @block_0beb
+
+ block_0be3:
+  ldc.i         0
+  ret          
+
+ block_0beb:
+  line          #193
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_0c13
+
+ block_0c0b:
+  ldc.i         0
+  ret          
+
+ block_0c13:
+  line          #195
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #196
+  bsel.5        @block_0c49
+
+ block_0c43:
+  br            @block_0c6d
+
+ block_0c49:
+  bsel.clr     
+  line          #198
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #199
+  ldc.i         0
+  ret          
+
+ block_0c6d:
+  line          #202
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #204
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #206
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #207
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ldc.i         90
+  add.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #208
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #210
+
+ block_0d53:
+  ld            savefile int $1635363c 
+  brfalse       @block_0d7f
+
+ block_0d63:
+  line          #211
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #212
+  br            @block_0d53
+
+ block_0d7f:
+  line          #213
+  ldc.i         0
+  ret          
+}
+
+func $f7c529bd(int, int, string, int, int) {
+ entry:
+  line          #214
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int]
+  line          #219
+  ld            local int $64da103a -2
+  ldc.i         -506
+  cne.i        
+  brfalse       @block_0dc2
+
+ block_0dba:
+  ldc.i         0
+  ret          
+
+ block_0dc2:
+  line          #222
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_0dea
+
+ block_0de2:
+  ldc.i         0
+  ret          
+
+ block_0dea:
+  line          #224
+  call          $c45106eb (0)
+  st.i          local int $532dd1f6 1
+  pop          
+  line          #225
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #226
+  bsel.5        @block_0e3c
+
+ block_0e36:
+  br            @block_0e60
+
+ block_0e3c:
+  bsel.clr     
+  line          #228
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #229
+  ldc.i         0
+  ret          
+
+ block_0e60:
+  line          #232
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #234
+  ld            local int $532dd1f6 1
+  ldc.i         1
+  cle.i        
+  brfalse       @block_0f52
+
+ block_0e9c:
+  line          #235
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #237
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #238
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         90
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #239
+  br            @block_100a
+
+ block_0f52:
+  line          #240
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         100
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #242
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #243
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         190
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #244
+
+ block_100a:
+  line          #245
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #247
+
+ block_1024:
+  ld            savefile int $1635363c 
+  brfalse       @block_1050
+
+ block_1034:
+  line          #248
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #249
+  br            @block_1024
+
+ block_1050:
+  line          #250
+  ldc.i         0
+  ret          
+}
+
+func $9ed2da34(int, int, string, int, int) {
+ entry:
+  line          #251
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int]
+  line          #256
+  ld            local int $64da103a -2
+  ldc.i         -507
+  cne.i        
+  brfalse       @block_1093
+
+ block_108b:
+  ldc.i         0
+  ret          
+
+ block_1093:
+  line          #259
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_10bb
+
+ block_10b3:
+  ldc.i         0
+  ret          
+
+ block_10bb:
+  line          #261
+  call          $c45106eb (0)
+  st.i          local int $532dd1f6 1
+  pop          
+  line          #262
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #263
+  bsel.5        @block_110d
+
+ block_1107:
+  br            @block_1131
+
+ block_110d:
+  bsel.clr     
+  line          #265
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #266
+  ldc.i         0
+  ret          
+
+ block_1131:
+  line          #269
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #271
+  ld            local int $532dd1f6 1
+  ldc.i         1
+  cle.i        
+  brfalse       @block_1223
+
+ block_116d:
+  line          #272
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #274
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #275
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         90
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #276
+  br            @block_12db
+
+ block_1223:
+  line          #277
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         100
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #279
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #280
+  ld            local int $283f6306 -3
+  ldc.i         400
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         190
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #281
+
+ block_12db:
+  line          #282
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #284
+
+ block_12f5:
+  ld            savefile int $1635363c 
+  brfalse       @block_1321
+
+ block_1305:
+  line          #285
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #286
+  br            @block_12f5
+
+ block_1321:
+  line          #287
+  ldc.i         0
+  ret          
+}
+
+func $c3c32ceb(int, int, string, int, int) {
+ entry:
+  line          #288
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #293
+  ld            local int $64da103a -2
+  ldc.i         -402
+  cne.i        
+  brfalse       @block_1363
+
+ block_135b:
+  ldc.i         0
+  ret          
+
+ block_1363:
+  line          #296
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_138b
+
+ block_1383:
+  ldc.i         0
+  ret          
+
+ block_138b:
+  line          #298
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #299
+  bsel.5        @block_13c1
+
+ block_13bb:
+  br            @block_1427
+
+ block_13c1:
+  bsel.clr     
+  line          #301
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #302
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #303
+  ldc.i         0
+  ret          
+
+ block_1427:
+  line          #306
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #308
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #310
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #311
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #313
+
+ block_14e7:
+  ld            savefile int $1635363c 
+  brfalse       @block_1513
+
+ block_14f7:
+  line          #314
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #315
+  br            @block_14e7
+
+ block_1513:
+  line          #316
+  ldc.i         0
+  ret          
+}
+
+func $61abb7c9(int, int, string, int, int) {
+ entry:
+  line          #317
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #322
+  ld            local int $64da103a -2
+  ldc.i         -405
+  cne.i        
+  brfalse       @block_1555
+
+ block_154d:
+  ldc.i         0
+  ret          
+
+ block_1555:
+  line          #325
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_157d
+
+ block_1575:
+  ldc.i         0
+  ret          
+
+ block_157d:
+  line          #327
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #328
+  bsel.5        @block_15b3
+
+ block_15ad:
+  br            @block_1619
+
+ block_15b3:
+  bsel.clr     
+  line          #330
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #331
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #332
+  ldc.i         0
+  ret          
+
+ block_1619:
+  line          #335
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #337
+  syscall       $client_height (0)
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #338
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #339
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #341
+
+ block_16bf:
+  ld            savefile int $1635363c 
+  brfalse       @block_16eb
+
+ block_16cf:
+  line          #342
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #343
+  br            @block_16bf
+
+ block_16eb:
+  line          #344
+  ldc.i         0
+  ret          
+}
+
+func $f36d5d9f(int, int, string, int, int) {
+ entry:
+  line          #345
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #350
+  ld            local int $64da103a -2
+  ldc.i         -403
+  cne.i        
+  brfalse       @block_172d
+
+ block_1725:
+  ldc.i         0
+  ret          
+
+ block_172d:
+  line          #353
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_1755
+
+ block_174d:
+  ldc.i         0
+  ret          
+
+ block_1755:
+  line          #355
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #356
+  bsel.5        @block_178b
+
+ block_1785:
+  br            @block_17f1
+
+ block_178b:
+  bsel.clr     
+  line          #358
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #359
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #360
+  ldc.i         0
+  ret          
+
+ block_17f1:
+  line          #363
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #365
+  ld            local int $108033b0 -6
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #367
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #368
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #370
+
+ block_18b1:
+  ld            savefile int $1635363c 
+  brfalse       @block_18dd
+
+ block_18c1:
+  line          #371
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #372
+  br            @block_18b1
+
+ block_18dd:
+  line          #373
+  ldc.i         0
+  ret          
+}
+
+func $7fc42544(int, int, string, int, int) {
+ entry:
+  line          #374
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #379
+  ld            local int $64da103a -2
+  ldc.i         -404
+  cne.i        
+  brfalse       @block_191f
+
+ block_1917:
+  ldc.i         0
+  ret          
+
+ block_191f:
+  line          #382
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_1947
+
+ block_193f:
+  ldc.i         0
+  ret          
+
+ block_1947:
+  line          #384
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #385
+  bsel.5        @block_197d
+
+ block_1977:
+  br            @block_19e3
+
+ block_197d:
+  bsel.clr     
+  line          #387
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #388
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #389
+  ldc.i         0
+  ret          
+
+ block_19e3:
+  line          #392
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #394
+  ld            local int $108033b0 -6
+  syscall       $client_width (0)
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #395
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #396
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #398
+
+ block_1a89:
+  ld            savefile int $1635363c 
+  brfalse       @block_1ab5
+
+ block_1a99:
+  line          #399
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #400
+  br            @block_1a89
+
+ block_1ab5:
+  line          #401
+  ldc.i         0
+  ret          
+}
+
+func $153d47d2(int, int, string, int, int) {
+ entry:
+  line          #402
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #407
+  ld            local int $64da103a -2
+  ldc.i         -501
+  cne.i        
+  brfalse       @block_1af7
+
+ block_1aef:
+  ldc.i         0
+  ret          
+
+ block_1af7:
+  line          #410
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_1b1f
+
+ block_1b17:
+  ldc.i         0
+  ret          
+
+ block_1b1f:
+  line          #412
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #413
+  bsel.5        @block_1b55
+
+ block_1b4f:
+  br            @block_1b79
+
+ block_1b55:
+  bsel.clr     
+  line          #415
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #416
+  ldc.i         0
+  ret          
+
+ block_1b79:
+  line          #419
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #421
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #422
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #424
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #426
+
+ block_1c39:
+  ld            savefile int $1635363c 
+  brfalse       @block_1c65
+
+ block_1c49:
+  line          #427
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #428
+  br            @block_1c39
+
+ block_1c65:
+  line          #429
+  ldc.i         0
+  ret          
+}
+
+func $c0ff6ead(int, int, string, int, int) {
+ entry:
+  line          #430
+  argcheck      [int, int, string, int, int]
+  alloca        [int]
+  line          #435
+  ld            local int $64da103a -2
+  ldc.i         -504
+  cne.i        
+  brfalse       @block_1ca7
+
+ block_1c9f:
+  ldc.i         0
+  ret          
+
+ block_1ca7:
+  line          #438
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_1ccf
+
+ block_1cc7:
+  ldc.i         0
+  ret          
+
+ block_1ccf:
+  line          #440
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #441
+  bsel.5        @block_1d05
+
+ block_1cff:
+  br            @block_1d29
+
+ block_1d05:
+  bsel.clr     
+  line          #443
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #444
+  ldc.i         0
+  ret          
+
+ block_1d29:
+  line          #447
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #449
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #450
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  syscall       $client_height (0)
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #451
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #453
+
+ block_1dcf:
+  ld            savefile int $1635363c 
+  brfalse       @block_1dfb
+
+ block_1ddf:
+  line          #454
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #455
+  br            @block_1dcf
+
+ block_1dfb:
+  line          #456
+  ldc.i         0
+  ret          
+}
+
+func $42655c86(int, int, string, int, int) {
+ entry:
+  line          #457
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int]
+  line          #462
+  ld            local int $64da103a -2
+  ldc.i         -502
+  cne.i        
+  brfalse       @block_1e3e
+
+ block_1e36:
+  ldc.i         0
+  ret          
+
+ block_1e3e:
+  line          #465
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_1e66
+
+ block_1e5e:
+  ldc.i         0
+  ret          
+
+ block_1e66:
+  line          #467
+  call          $c45106eb (0)
+  st.i          local int $532dd1f6 1
+  pop          
+  line          #468
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #469
+  bsel.5        @block_1eb8
+
+ block_1eb2:
+  br            @block_1edc
+
+ block_1eb8:
+  bsel.clr     
+  line          #471
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #472
+  ldc.i         0
+  ret          
+
+ block_1edc:
+  line          #475
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #480
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #482
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $108033b0 -6
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #484
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #486
+
+ block_1f9c:
+  ld            savefile int $1635363c 
+  brfalse       @block_1fc8
+
+ block_1fac:
+  line          #487
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #488
+  br            @block_1f9c
+
+ block_1fc8:
+  line          #489
+  ldc.i         0
+  ret          
+}
+
+func $53e8fea2(int, int, string, int, int) {
+ entry:
+  line          #490
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int]
+  line          #491
+
+ block_1feb:
+  ld            savefile int $1635363c 
+  brfalse       @block_2017
+
+ block_1ffb:
+  line          #492
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #493
+  br            @block_1feb
+
+ block_2017:
+  line          #499
+  ld            local int $64da103a -2
+  ldc.i         -503
+  cne.i        
+  brfalse       @block_203b
+
+ block_2033:
+  ldc.i         0
+  ret          
+
+ block_203b:
+  line          #502
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_2063
+
+ block_205b:
+  ldc.i         0
+  ret          
+
+ block_2063:
+  line          #504
+  call          $c45106eb (0)
+  st.i          local int $532dd1f6 1
+  pop          
+  line          #505
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #506
+  bsel.5        @block_20b5
+
+ block_20af:
+  br            @block_20d9
+
+ block_20b5:
+  bsel.clr     
+  line          #508
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #509
+  ldc.i         0
+  ret          
+
+ block_20d9:
+  line          #512
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #517
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #520
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         0
+  syscall       $client_width (0)
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #521
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #523
+
+ block_217b:
+  ld            savefile int $1635363c 
+  brfalse       @block_21a7
+
+ block_218b:
+  line          #524
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #525
+  br            @block_217b
+
+ block_21a7:
+  line          #526
+  ldc.i         0
+  ret          
+}
+
+func $d7b2b06c(int, int, string, int, int) {
+ entry:
+  line          #527
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #531
+  ld            local int $64da103a -2
+  ldc.i         -510
+  cne.i        
+  brfalse       @block_21eb
+
+ block_21e3:
+  ldc.i         0
+  ret          
+
+ block_21eb:
+  line          #534
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_2213
+
+ block_220b:
+  ldc.i         0
+  ret          
+
+ block_2213:
+  line          #536
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #537
+  bsel.5        @block_2249
+
+ block_2243:
+  br            @block_226d
+
+ block_2249:
+  bsel.clr     
+  line          #539
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #540
+  ldc.i         0
+  ret          
+
+ block_226d:
+  line          #543
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #545
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #547
+  syscall       $timer (0)
+  st.i          local int $7067ecad 2
+  pop          
+  line          #548
+
+ block_22d3:
+  line          #549
+  ldc.i         0
+  syscall       $client_height (0)
+  ld            local int $283f6306 -3
+  ldc.i         900
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ld            local int $7067ecad 2
+  call          $$get_time_parabora@KOEKOE (4) ; $get_time_parabora@KOEKOE
+  st.i          local int $e6a4e7df 1
+  pop          
+  line          #551
+  ldc.i         0
+  ld            local int $108033b0 -6
+  ld            local int $e6a4e7df 1
+  add.i        
+  ld            local int $099b02f1 -5
+  syscall       $timer (0)
+  ld            local int $7067ecad 2
+  sub.i        
+  conv.r       
+  syscall       $sin% (1)
+  ldc.r         12
+  mul.r        
+  conv.i       
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #552
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #553
+  ld            local int $e6a4e7df 1
+  syscall       $client_height (0)
+  clt.i        
+  brtrue        @block_22d3
+
+ block_23b7:
+  line          #555
+  ldc.i         0
+  ret          
+}
+
+func $1321efc6(int, int, string, int, int) {
+ entry:
+  line          #560
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #565
+  ld            local int $64da103a -2
+  ldc.i         -610
+  cne.i        
+  brfalse       @block_23fb
+
+ block_23f3:
+  ldc.i         0
+  ret          
+
+ block_23fb:
+  line          #568
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_2423
+
+ block_241b:
+  ldc.i         0
+  ret          
+
+ block_2423:
+  line          #570
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #571
+  bsel.5        @block_2459
+
+ block_2453:
+  br            @block_24bf
+
+ block_2459:
+  bsel.clr     
+  line          #573
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #574
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #575
+  ldc.i         0
+  ret          
+
+ block_24bf:
+  line          #578
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #580
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #581
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_2535
+
+ block_2511:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_2535:
+  line          #583
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_254b:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_2647
+
+ block_2567:
+  br            @block_257f
+
+ block_256d:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_254b
+
+ block_257f:
+  line          #584
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #585
+  ldc.i         250
+  ld            local int $108033b0 -6
+  ldc.i         18
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #586
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #587
+  ldc.i         250
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #588
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #589
+  br            @block_256d
+
+ block_2647:
+  line          #591
+
+ block_264b:
+  ld            savefile int $1635363c 
+  brfalse       @block_2677
+
+ block_265b:
+  line          #592
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #593
+  br            @block_264b
+
+ block_2677:
+  line          #594
+  ldc.i         0
+  ret          
+}
+
+func $9c4b9ee5(int, int, string, int, int) {
+ entry:
+  line          #595
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #600
+  ld            local int $64da103a -2
+  ldc.i         -611
+  cne.i        
+  brfalse       @block_26bb
+
+ block_26b3:
+  ldc.i         0
+  ret          
+
+ block_26bb:
+  line          #603
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_26e3
+
+ block_26db:
+  ldc.i         0
+  ret          
+
+ block_26e3:
+  line          #605
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #606
+  bsel.5        @block_2719
+
+ block_2713:
+  br            @block_277f
+
+ block_2719:
+  bsel.clr     
+  line          #608
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #609
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #610
+  ldc.i         0
+  ret          
+
+ block_277f:
+  line          #613
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #615
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #616
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_27f5
+
+ block_27d1:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_27f5:
+  line          #618
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_280b:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_2907
+
+ block_2827:
+  br            @block_283f
+
+ block_282d:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_280b
+
+ block_283f:
+  line          #619
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #620
+  ldc.i         300
+  ld            local int $108033b0 -6
+  ldc.i         38
+  sub.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #621
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #622
+  ldc.i         300
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #623
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #624
+  br            @block_282d
+
+ block_2907:
+  line          #626
+
+ block_290b:
+  ld            savefile int $1635363c 
+  brfalse       @block_2937
+
+ block_291b:
+  line          #627
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #628
+  br            @block_290b
+
+ block_2937:
+  line          #629
+  ldc.i         0
+  ret          
+}
+
+func $11f2e449(int, int, string, int, int) {
+ entry:
+  line          #630
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #635
+  ld            local int $64da103a -2
+  ldc.i         -612
+  cne.i        
+  brfalse       @block_297b
+
+ block_2973:
+  ldc.i         0
+  ret          
+
+ block_297b:
+  line          #638
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_29a3
+
+ block_299b:
+  ldc.i         0
+  ret          
+
+ block_29a3:
+  line          #640
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #641
+  bsel.5        @block_29d9
+
+ block_29d3:
+  br            @block_2a3f
+
+ block_29d9:
+  bsel.clr     
+  line          #643
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #644
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #645
+  ldc.i         0
+  ret          
+
+ block_2a3f:
+  line          #648
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #650
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #651
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_2ab5
+
+ block_2a91:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_2ab5:
+  line          #653
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_2acb:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_2bd9
+
+ block_2ae7:
+  br            @block_2aff
+
+ block_2aed:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_2acb
+
+ block_2aff:
+  line          #654
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #655
+  ldc.i         250
+  ld            local int $108033b0 -6
+  ldc.i         20
+  add.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #656
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #657
+  ldc.i         400
+  syscallp      $wait (1)
+  line          #658
+  ldc.i         250
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #659
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #660
+  br            @block_2aed
+
+ block_2bd9:
+  line          #662
+
+ block_2bdd:
+  ld            savefile int $1635363c 
+  brfalse       @block_2c09
+
+ block_2bed:
+  line          #663
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #664
+  br            @block_2bdd
+
+ block_2c09:
+  line          #665
+  ldc.i         0
+  ret          
+}
+
+func $e14ed35f(int, int, string, int, int) {
+ entry:
+  line          #666
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #671
+  ld            local int $64da103a -2
+  ldc.i         -613
+  cne.i        
+  brfalse       @block_2c4d
+
+ block_2c45:
+  ldc.i         0
+  ret          
+
+ block_2c4d:
+  line          #674
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_2c75
+
+ block_2c6d:
+  ldc.i         0
+  ret          
+
+ block_2c75:
+  line          #676
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #677
+  bsel.5        @block_2cab
+
+ block_2ca5:
+  br            @block_2d11
+
+ block_2cab:
+  bsel.clr     
+  line          #679
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #680
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #681
+  ldc.i         0
+  ret          
+
+ block_2d11:
+  line          #684
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #686
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #687
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_2d87
+
+ block_2d63:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_2d87:
+  line          #689
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_2d9d:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_2eab
+
+ block_2db9:
+  br            @block_2dd1
+
+ block_2dbf:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_2d9d
+
+ block_2dd1:
+  line          #690
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #691
+  ldc.i         300
+  ld            local int $108033b0 -6
+  ldc.i         80
+  add.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #692
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #693
+  ldc.i         800
+  syscallp      $wait (1)
+  line          #694
+  ldc.i         300
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #695
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #696
+  br            @block_2dbf
+
+ block_2eab:
+  line          #698
+
+ block_2eaf:
+  ld            savefile int $1635363c 
+  brfalse       @block_2edb
+
+ block_2ebf:
+  line          #699
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #700
+  br            @block_2eaf
+
+ block_2edb:
+  line          #701
+  ldc.i         0
+  ret          
+}
+
+func $ead3ee14(int, int, string, int, int) {
+ entry:
+  line          #702
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #707
+  ld            local int $64da103a -2
+  ldc.i         -614
+  cne.i        
+  brfalse       @block_2f1f
+
+ block_2f17:
+  ldc.i         0
+  ret          
+
+ block_2f1f:
+  line          #710
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_2f47
+
+ block_2f3f:
+  ldc.i         0
+  ret          
+
+ block_2f47:
+  line          #712
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #713
+  bsel.5        @block_2f7d
+
+ block_2f77:
+  br            @block_2fe3
+
+ block_2f7d:
+  bsel.clr     
+  line          #715
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #716
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #717
+  ldc.i         0
+  ret          
+
+ block_2fe3:
+  line          #720
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #722
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #723
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_3059
+
+ block_3035:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_3059:
+  line          #725
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_306f:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_316b
+
+ block_308b:
+  br            @block_30a3
+
+ block_3091:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_306f
+
+ block_30a3:
+  line          #726
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #727
+  ldc.i         200
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         40
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #728
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #729
+  ldc.i         200
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #730
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #731
+  br            @block_3091
+
+ block_316b:
+  line          #733
+
+ block_316f:
+  ld            savefile int $1635363c 
+  brfalse       @block_319b
+
+ block_317f:
+  line          #734
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #735
+  br            @block_316f
+
+ block_319b:
+  line          #736
+  ldc.i         0
+  ret          
+}
+
+func $f46fdf1c(int, int, string, int, int) {
+ entry:
+  line          #737
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #742
+  ld            local int $64da103a -2
+  ldc.i         -615
+  cne.i        
+  brfalse       @block_31df
+
+ block_31d7:
+  ldc.i         0
+  ret          
+
+ block_31df:
+  line          #745
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_3207
+
+ block_31ff:
+  ldc.i         0
+  ret          
+
+ block_3207:
+  line          #747
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #748
+  bsel.5        @block_323d
+
+ block_3237:
+  br            @block_32a3
+
+ block_323d:
+  bsel.clr     
+  line          #750
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #751
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #752
+  ldc.i         0
+  ret          
+
+ block_32a3:
+  line          #755
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #757
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #758
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_3319
+
+ block_32f5:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_3319:
+  line          #760
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_332f:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_342b
+
+ block_334b:
+  br            @block_3363
+
+ block_3351:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_332f
+
+ block_3363:
+  line          #761
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #762
+  ldc.i         220
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         60
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #763
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #764
+  ldc.i         220
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #765
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #766
+  br            @block_3351
+
+ block_342b:
+  line          #768
+
+ block_342f:
+  ld            savefile int $1635363c 
+  brfalse       @block_345b
+
+ block_343f:
+  line          #769
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #770
+  br            @block_342f
+
+ block_345b:
+  line          #771
+  ldc.i         0
+  ret          
+}
+
+func $51986208(int, int, string, int, int) {
+ entry:
+  line          #772
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #777
+  ld            local int $64da103a -2
+  ldc.i         -616
+  cne.i        
+  brfalse       @block_349f
+
+ block_3497:
+  ldc.i         0
+  ret          
+
+ block_349f:
+  line          #780
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_34c7
+
+ block_34bf:
+  ldc.i         0
+  ret          
+
+ block_34c7:
+  line          #782
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #783
+  bsel.5        @block_34fd
+
+ block_34f7:
+  br            @block_3563
+
+ block_34fd:
+  bsel.clr     
+  line          #785
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #786
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #787
+  ldc.i         0
+  ret          
+
+ block_3563:
+  line          #790
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #792
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #793
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_35d9
+
+ block_35b5:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_35d9:
+  line          #795
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_35ef:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_36eb
+
+ block_360b:
+  br            @block_3623
+
+ block_3611:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_35ef
+
+ block_3623:
+  line          #796
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #797
+  ldc.i         200
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         40
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #798
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #799
+  ldc.i         200
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #800
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #801
+  br            @block_3611
+
+ block_36eb:
+  line          #803
+
+ block_36ef:
+  ld            savefile int $1635363c 
+  brfalse       @block_371b
+
+ block_36ff:
+  line          #804
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #805
+  br            @block_36ef
+
+ block_371b:
+  line          #806
+  ldc.i         0
+  ret          
+}
+
+func $e0d5c8df(int, int, string, int, int) {
+ entry:
+  line          #807
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #812
+  ld            local int $64da103a -2
+  ldc.i         -617
+  cne.i        
+  brfalse       @block_375f
+
+ block_3757:
+  ldc.i         0
+  ret          
+
+ block_375f:
+  line          #815
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_3787
+
+ block_377f:
+  ldc.i         0
+  ret          
+
+ block_3787:
+  line          #817
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #818
+  bsel.5        @block_37bd
+
+ block_37b7:
+  br            @block_3823
+
+ block_37bd:
+  bsel.clr     
+  line          #820
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #821
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #822
+  ldc.i         0
+  ret          
+
+ block_3823:
+  line          #825
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #827
+  ldc.i         1
+  st.i          local int $a0adc96b 1
+  pop          
+  line          #828
+  ld            local int $283f6306 -3
+  ldc.i         50
+  clt.i        
+  brfalse       @block_3899
+
+ block_3875:
+  ldc.i         1
+  ld            local int $283f6306 -3
+  syscall       $max (2)
+  st.i          local int $a0adc96b 1
+  pop          
+
+ block_3899:
+  line          #830
+  ldc.i         0
+  st.i          local int $5a4221e1 2
+  pop          
+
+ block_38af:
+  ld            local int $5a4221e1 2
+  ld            local int $a0adc96b 1
+  clt.i        
+  brfalse       @block_39ab
+
+ block_38cb:
+  br            @block_38e3
+
+ block_38d1:
+  ld            local int postinc $5a4221e1 2
+  pop          
+  br            @block_38af
+
+ block_38e3:
+  line          #831
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #832
+  ldc.i         220
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ldc.i         60
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #833
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #834
+  ldc.i         220
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #835
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move_wait (1)
+  line          #836
+  br            @block_38d1
+
+ block_39ab:
+  line          #838
+
+ block_39af:
+  ld            savefile int $1635363c 
+  brfalse       @block_39db
+
+ block_39bf:
+  line          #839
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #840
+  br            @block_39af
+
+ block_39db:
+  line          #841
+  ldc.i         0
+  ret          
+}
+
+func $74e5ec0e(int, int, string, int, int) {
+ entry:
+  line          #842
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int, int]
+  line          #847
+  ld            local int $64da103a -2
+  ldc.i         -618
+  cne.i        
+  brfalse       @block_3a20
+
+ block_3a18:
+  ldc.i         0
+  ret          
+
+ block_3a20:
+  line          #850
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_3a48
+
+ block_3a40:
+  ldc.i         0
+  ret          
+
+ block_3a48:
+  line          #852
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #853
+  bsel.5        @block_3a7e
+
+ block_3a78:
+  br            @block_3ada
+
+ block_3a7e:
+  bsel.clr     
+  line          #859
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local string $a75141c4 -4
+  ld            savefile int $8fb11e3e 
+  callp         $$pic_top_unpack_sepia@PIC (4) ; $pic_top_unpack_sepia@PIC
+  line          #861
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #862
+  ldc.i         0
+  ret          
+
+ block_3ada:
+  line          #864
+  ldc.i         2
+  st.div.i      local int $283f6306 -3
+  pop          
+  line          #867
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #869
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #870
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #872
+  ld            local int $9bc4f892 2
+  st.i          local int $4569cee1 3
+  pop          
+  line          #873
+  ld            local int $9bc4f892 2
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  add.i        
+  syscall       $client_height (0)
+  clt.i        
+  brfalse       @block_3c40
+
+ block_3bf4:
+  line          #874
+  syscall       $client_height (0)
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  sub.i        
+  st.i          local int $4569cee1 3
+  pop          
+  line          #875
+
+ block_3c40:
+  line          #877
+  ld            local int $4569cee1 3
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #878
+  ld            local int $283f6306 -3
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #880
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #881
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #883
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.r         1
+  ldc.i         0
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (7)
+  line          #884
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.r         1
+  ldc.i         0
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (7)
+  line          #886
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #888
+
+ block_3d86:
+  ld            savefile int $1635363c 
+  brfalse       @block_3db2
+
+ block_3d96:
+  line          #889
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #890
+  br            @block_3d86
+
+ block_3db2:
+  line          #891
+  ldc.i         0
+  ret          
+}
+
+func $09931064(int, int, string, int, int) {
+ entry:
+  line          #892
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int, int]
+  line          #897
+  ld            local int $64da103a -2
+  ldc.i         -619
+  cne.i        
+  brfalse       @block_3df7
+
+ block_3def:
+  ldc.i         0
+  ret          
+
+ block_3df7:
+  line          #900
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_3e1f
+
+ block_3e17:
+  ldc.i         0
+  ret          
+
+ block_3e1f:
+  line          #902
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #903
+  bsel.5        @block_3e55
+
+ block_3e4f:
+  br            @block_3eb1
+
+ block_3e55:
+  bsel.clr     
+  line          #909
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local string $a75141c4 -4
+  ld            savefile int $8fb11e3e 
+  callp         $$pic_top_unpack_sepia@PIC (4) ; $pic_top_unpack_sepia@PIC
+  line          #911
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #912
+  ldc.i         0
+  ret          
+
+ block_3eb1:
+  line          #914
+  ldc.i         2
+  st.div.i      local int $283f6306 -3
+  pop          
+  line          #917
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #919
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #920
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #922
+  ld            local int $9bc4f892 2
+  st.i          local int $4569cee1 3
+  pop          
+  line          #923
+  ld            local int $9bc4f892 2
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  add.i        
+  syscall       $client_height (0)
+  clt.i        
+  brfalse       @block_4017
+
+ block_3fcb:
+  line          #924
+  syscall       $client_height (0)
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  sub.i        
+  st.i          local int $4569cee1 3
+  pop          
+  line          #925
+
+ block_4017:
+  line          #927
+  ld            local int $4569cee1 3
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #928
+  ld            local int $283f6306 -3
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #930
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #931
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (3)
+  line          #933
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         1
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.r         1.05
+  ldc.i         0
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (9)
+  line          #934
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         1
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  ldc.r         1.05
+  ldc.i         0
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (9)
+  line          #936
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #938
+
+ block_41bd:
+  ld            savefile int $1635363c 
+  brfalse       @block_41e9
+
+ block_41cd:
+  line          #939
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #940
+  br            @block_41bd
+
+ block_41e9:
+  line          #941
+  ldc.i         0
+  ret          
+}
+
+func $962e18f6(int, int, string, int, int) {
+ entry:
+  line          #942
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int, int]
+  line          #947
+  ld            local int $64da103a -2
+  ldc.i         -509
+  cne.i        
+  brfalse       @block_422e
+
+ block_4226:
+  ldc.i         0
+  ret          
+
+ block_422e:
+  line          #950
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_4256
+
+ block_424e:
+  ldc.i         0
+  ret          
+
+ block_4256:
+  line          #952
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #953
+  ldc.i         2
+  st.div.i      local int $283f6306 -3
+  pop          
+  line          #954
+  bsel.5        @block_42a2
+
+ block_429c:
+  br            @block_42c6
+
+ block_42a2:
+  bsel.clr     
+  line          #956
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #957
+  ldc.i         0
+  ret          
+
+ block_42c6:
+  line          #960
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #962
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #963
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #964
+  ld            local int $9bc4f892 2
+  st.i          local int $4569cee1 3
+  pop          
+  line          #965
+  ld            local int $9bc4f892 2
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  add.i        
+  syscall       $client_height (0)
+  clt.i        
+  brfalse       @block_4416
+
+ block_43ca:
+  line          #966
+  syscall       $client_height (0)
+  ldc.r         0.8
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  sub.i        
+  st.i          local int $4569cee1 3
+  pop          
+  line          #967
+
+ block_4416:
+  line          #969
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #970
+  ld            local int $283f6306 -3
+  ld            local int $4569cee1 3
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #972
+  ldc.i         -1
+  ldc.i         255
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.i         255
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.i         0
+  ldc.i         0
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_define (9)
+  line          #974
+  ldc.i         -1
+  ldc.r         0.8
+  ld            local int $283f6306 -3
+  ldc.r         0.8
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (7)
+  line          #975
+  ldc.i         -1
+  ldc.r         0.8
+  ld            local int $283f6306 -3
+  ldc.r         0.8
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (7)
+  line          #977
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #979
+
+ block_4570:
+  ld            savefile int $1635363c 
+  brfalse       @block_459c
+
+ block_4580:
+  line          #980
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #981
+  br            @block_4570
+
+ block_459c:
+  line          #982
+  ldc.i         0
+  ret          
+}
+
+func $7dd357d5(int, int, string, int, int) {
+ entry:
+  line          #983
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #988
+  ld            local int $64da103a -2
+  ldc.i         -620
+  cne.i        
+  brfalse       @block_45e0
+
+ block_45d8:
+  ldc.i         0
+  ret          
+
+ block_45e0:
+  line          #991
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_4608
+
+ block_4600:
+  ldc.i         0
+  ret          
+
+ block_4608:
+  line          #993
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #994
+  ld            local int $283f6306 -3
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  st.i          local int $283f6306 -3
+  pop          
+  line          #995
+  bsel.5        @block_4668
+
+ block_4662:
+  br            @block_468c
+
+ block_4668:
+  bsel.clr     
+  line          #997
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #998
+  ldc.i         0
+  ret          
+
+ block_468c:
+  line          #1001
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #1003
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #1004
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #1006
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #1008
+  ld            local int $283f6306 -3
+  syscall       $client_height (0)
+  ldc.i         4
+  mul.i        
+  ldc.i         3
+  div.i        
+  ld            local int $099b02f1 -5
+  ldc.i         300
+  sub.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1009
+  ld            local int $283f6306 -3
+  ldc.i         -45
+  conv.r       
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_rotate (3)
+  line          #1011
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #1013
+
+ block_47e6:
+  ld            savefile int $1635363c 
+  brfalse       @block_4812
+
+ block_47f6:
+  line          #1014
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1015
+  br            @block_47e6
+
+ block_4812:
+  line          #1016
+  ldc.i         0
+  ret          
+}
+
+func $bd6c9097(int, int, string, int, int) {
+ entry:
+  line          #1017
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int]
+  line          #1022
+  ld            local int $64da103a -2
+  ldc.i         -621
+  cne.i        
+  brfalse       @block_4856
+
+ block_484e:
+  ldc.i         0
+  ret          
+
+ block_4856:
+  line          #1025
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_487e
+
+ block_4876:
+  ldc.i         0
+  ret          
+
+ block_487e:
+  line          #1027
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #1028
+  ld            local int $283f6306 -3
+  ldc.i         3
+  mul.i        
+  ldc.i         4
+  div.i        
+  st.i          local int $283f6306 -3
+  pop          
+  line          #1029
+  bsel.5        @block_48de
+
+ block_48d8:
+  br            @block_4902
+
+ block_48de:
+  bsel.clr     
+  line          #1031
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #1032
+  ldc.i         0
+  ret          
+
+ block_4902:
+  line          #1035
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #1037
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #1038
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #1040
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #1042
+  ld            local int $283f6306 -3
+  syscall       $client_height (0)
+  ldc.i         4
+  mul.i        
+  ldc.i         3
+  div.i        
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  add.i        
+  ldc.i         300
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1043
+  ld            local int $283f6306 -3
+  ldc.i         45
+  conv.r       
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_rotate (3)
+  line          #1045
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #1047
+
+ block_4a78:
+  ld            savefile int $1635363c 
+  brfalse       @block_4aa4
+
+ block_4a88:
+  line          #1048
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1049
+  br            @block_4a78
+
+ block_4aa4:
+  line          #1050
+  ldc.i         0
+  ret          
+}
+
+func $cb5cc06f(int, int, string, int, int) {
+ entry:
+  line          #1051
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int]
+  line          #1056
+  ld            local int $64da103a -2
+  ldc.i         -622
+  cne.i        
+  brfalse       @block_4ae7
+
+ block_4adf:
+  ldc.i         0
+  ret          
+
+ block_4ae7:
+  line          #1059
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_4b0f
+
+ block_4b07:
+  ldc.i         0
+  ret          
+
+ block_4b0f:
+  line          #1061
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file@PIC (1) ; $top_sprite_create_file@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #1062
+  bsel.5        @block_4b45
+
+ block_4b3f:
+  br            @block_4bab
+
+ block_4b45:
+  bsel.clr     
+  line          #1064
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (5)
+  line          #1065
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #1066
+  ldc.i         0
+  ret          
+
+ block_4bab:
+  line          #1068
+  ldc.i         3
+  st.mul.i      local int $283f6306 -3
+  pop          
+  line          #1069
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #1070
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #1072
+  syscall       $timer (0)
+  st.i          local int $7067ecad 1
+  pop          
+  line          #1073
+
+ block_4c27:
+  line          #1074
+  ldc.i         0
+  ld            local int $108033b0 -6
+  syscall       $timer (0)
+  ld            local int $7067ecad 1
+  sub.i        
+  ldc.i         2
+  mul.i        
+  conv.r       
+  syscall       $sin% (1)
+  ldc.r         3
+  mul.r        
+  conv.i       
+  add.i        
+  ld            local int $099b02f1 -5
+  syscall       $timer (0)
+  ld            local int $7067ecad 1
+  sub.i        
+  ldc.i         4
+  mul.i        
+  conv.r       
+  syscall       $sin% (1)
+  ldc.r         6
+  mul.r        
+  conv.i       
+  add.i        
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1075
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1076
+  syscall       $timer (0)
+  ld            local int $7067ecad 1
+  sub.i        
+  syscall       $abs (1)
+  ld            local int $283f6306 -3
+  cle.i        
+  brtrue        @block_4c27
+
+ block_4cff:
+  line          #1078
+
+ block_4d03:
+  ld            savefile int $1635363c 
+  brfalse       @block_4d2f
+
+ block_4d13:
+  line          #1079
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1080
+  br            @block_4d03
+
+ block_4d2f:
+  line          #1081
+  ldc.i         0
+  ret          
+}
+
+func $967b06ee(int, int, string, int, int) {
+ entry:
+  line          #1082
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int, int]
+  line          #1087
+  ld            local int $64da103a -2
+  ldc.i         -623
+  cne.i        
+  brfalse       @block_4d74
+
+ block_4d6c:
+  ldc.i         0
+  ret          
+
+ block_4d74:
+  line          #1090
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_4d9c
+
+ block_4d94:
+  ldc.i         0
+  ret          
+
+ block_4d9c:
+  line          #1092
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #1093
+  ldc.i         2
+  st.div.i      local int $283f6306 -3
+  pop          
+  line          #1094
+  bsel.5        @block_4de8
+
+ block_4de2:
+  br            @block_4e3a
+
+ block_4de8:
+  bsel.clr     
+  line          #1096
+  ld            savefile int $8fb11e3e 
+  ld            local int $3acf92c1 0
+  ld            local string $a75141c4 -4
+  callp         $4114df59 (3)
+  line          #1097
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #1098
+  ldc.i         0
+  ret          
+
+ block_4e3a:
+  line          #1101
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #1103
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #1104
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #1106
+  ld            local int $9bc4f892 2
+  st.i          local int $4569cee1 3
+  pop          
+  line          #1107
+  ld            local int $9bc4f892 2
+  ldc.r         0.90000004
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  add.i        
+  syscall       $client_height (0)
+  clt.i        
+  brfalse       @block_4f8a
+
+ block_4f3e:
+  line          #1108
+  syscall       $client_height (0)
+  ldc.r         0.90000004
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  sub.i        
+  st.i          local int $4569cee1 3
+  pop          
+  line          #1109
+
+ block_4f8a:
+  line          #1111
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #1112
+  ld            local int $283f6306 -3
+  ld            local int $4569cee1 3
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1114
+  ldc.i         -1
+  ldc.r         0.90000004
+  ld            local int $283f6306 -3
+  ldc.r         0.90000004
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (7)
+  line          #1115
+  ldc.i         -1
+  ldc.r         0.90000004
+  ld            local int $283f6306 -3
+  ldc.r         0.90000004
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (7)
+  line          #1117
+  ld            local int $283f6306 -3
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #1119
+
+ block_5086:
+  ld            savefile int $1635363c 
+  brfalse       @block_50b2
+
+ block_5096:
+  line          #1120
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1121
+  br            @block_5086
+
+ block_50b2:
+  line          #1122
+  ldc.i         0
+  ret          
+}
+
+func $9f7cc255(int, int, string, int, int) {
+ entry:
+  line          #1123
+  argcheck      [int, int, string, int, int]
+  alloca        [int, int, int, int]
+  line          #1128
+  ld            local int $64da103a -2
+  ldc.i         -624
+  cne.i        
+  brfalse       @block_50f7
+
+ block_50ef:
+  ldc.i         0
+  ret          
+
+ block_50f7:
+  line          #1131
+  ld            local int $64da103a -2
+  call          $$trans_notice_top@PIC (1) ; $trans_notice_top@PIC
+  brfalse       @block_511f
+
+ block_5117:
+  ldc.i         0
+  ret          
+
+ block_511f:
+  line          #1133
+  ld            local string $a75141c4 -4
+  call          $$top_sprite_create_file_ext@PIC (1) ; $top_sprite_create_file_ext@PIC
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #1134
+  bsel.5        @block_5155
+
+ block_514f:
+  br            @block_51b1
+
+ block_5155:
+  bsel.clr     
+  line          #1136
+  ld            local int $108033b0 -6
+  ld            local int $099b02f1 -5
+  ld            local string $a75141c4 -4
+  ld            savefile int $8fb11e3e 
+  callp         $$pic_top_unpack_sepia@PIC (4) ; $pic_top_unpack_sepia@PIC
+  line          #1137
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #1138
+  ldc.i         0
+  ret          
+
+ block_51b1:
+  line          #1140
+  ldc.i         3
+  st.div.i      local int $283f6306 -3
+  pop          
+  line          #1142
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_priority_high_single (2)
+  line          #1144
+  ld            local int $099b02f1 -5
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_x (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9a0692a5 1
+  pop          
+  line          #1145
+  ld            local int $108033b0 -6
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  add.i        
+  st.i          local int $9bc4f892 2
+  pop          
+  line          #1147
+  ld            local int $9bc4f892 2
+  st.i          local int $4569cee1 3
+  pop          
+  line          #1148
+  ld            local int $9bc4f892 2
+  ldc.r         0.95000005
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  add.i        
+  syscall       $client_height (0)
+  clt.i        
+  brfalse       @block_5317
+
+ block_52cb:
+  line          #1149
+  syscall       $client_height (0)
+  ldc.r         0.95000005
+  ld            local int $3acf92c1 0
+  syscall       $sprite_get_page (1)
+  syscall       $page_len_y (1)
+  ldc.i         2
+  div.i        
+  conv.r       
+  mul.r        
+  conv.i       
+  sub.i        
+  st.i          local int $4569cee1 3
+  pop          
+  line          #1150
+
+ block_5317:
+  line          #1152
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #1153
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ld            local int $4569cee1 3
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1155
+  ldc.i         -1
+  ldc.r         0.95000005
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.r         0.95000005
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (7)
+  line          #1156
+  ldc.i         -1
+  ldc.r         0.95000005
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.r         0.95000005
+  ldc.i         0
+  ldc.r         1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (7)
+  line          #1158
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  syscallp      $wait (1)
+  line          #1159
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ld            local int $9bc4f892 2
+  ld            local int $9a0692a5 1
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (4)
+  line          #1161
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.r         1
+  ldc.i         0
+  ldc.r         0.95000005
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_xmodify_define (7)
+  line          #1162
+  ldc.i         -1
+  ldc.r         1
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.r         1
+  ldc.i         0
+  ldc.r         0.95000005
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_ymodify_define (7)
+  line          #1164
+  ld            local int $283f6306 -3
+  ldc.i         2
+  div.i        
+  ldc.i         100
+  add.i        
+  syscallp      $wait (1)
+  line          #1166
+
+ block_5519:
+  ld            savefile int $1635363c 
+  brfalse       @block_5545
+
+ block_5529:
+  line          #1167
+  ldc.i         5
+  syscallp      $wait (1)
+  line          #1168
+  br            @block_5519
+
+ block_5545:
+  line          #1169
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #1173
+  argcheck      []
+  alloca        []
+  line          #1175
+  ldc.i         1353093197
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1176
+  ldc.i         1528024703
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1177
+  ldc.i         -2083039454
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1178
+  ldc.i         -1830412111
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1179
+  ldc.i         706421939
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1180
+  ldc.i         -490225555
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1181
+  ldc.i         -138073667
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1182
+  ldc.i         -1630348748
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1183
+  ldc.i         -1010619157
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1184
+  ldc.i         1638643657
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1185
+  ldc.i         -210936417
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1186
+  ldc.i         2143561028
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1187
+  ldc.i         356337618
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1188
+  ldc.i         -1057001811
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1189
+  ldc.i         1113939078
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1190
+  ldc.i         1407778466
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1191
+  ldc.i         -1775363850
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1192
+  ldc.i         -676155284
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1196
+  ldc.i         320991174
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1197
+  ldc.i         -1672765723
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1198
+  ldc.i         301130825
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1199
+  ldc.i         -514927777
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1200
+  ldc.i         -355209708
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1201
+  ldc.i         -193994980
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1202
+  ldc.i         1368941064
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1203
+  ldc.i         -522860321
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1204
+  ldc.i         1961225230
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1205
+  ldc.i         160632932
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1206
+  ldc.i         2111002581
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1207
+  ldc.i         -1116958569
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1208
+  ldc.i         -883113873
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1209
+  ldc.i         -1770322194
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1210
+  ldc.i         -1619213739
+  ldstr         "DO_TOP_TRANSITION"
+  syscallp      $event_hook (2)
+  line          #1211
+  ldc.i         0
+  ret          
+}

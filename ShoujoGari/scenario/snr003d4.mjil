@@ -1,0 +1,3219 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #29
+  argcheck      []
+  alloca        []
+  line          #32
+  callp         $cbfb6fab (0)
+  line          #33
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #34
+  ldc.i         -114
+  ldstr         "bg06"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #36
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "【女教師】「ほら、そこ！　授業中に寝ない！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L2} ; "中年女のヒステリックながなり声に、彼は眠りを妨げられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L3} ; "目を擦りながら顔を上げると、ぼやけた視界にクラスメイト達の顔が現れる。皆、こちらを向いてクスクスと笑っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  ldc.i         0
+  ret          
+}
+
+func $21bb58fc() {
+ entry:
+  line          #41
+  argcheck      []
+  alloca        []
+  line          #45
+  text          %{L4} ; "相葉希更にいたっては、あからさまに見下すような表情を浮かべている。教師が手を叩いて皆の注意を引き戻すまでの僅かな間、少年は狭い空間を共有する一同の視線に晒されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L5} ; "このような状況下に置かれた少年の多くは焦り、後悔し、恥じ入ることだろう。しかし、彼――すなわち山口ユキノリにそのような感情は一つたりとも湧いてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L6} ; "良心や羞恥心が欠落しているからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L7} ; "ただ、こんなものとは比べようもないほどの恥辱が存在することを彼はよく知っており、そのような状況下に置かれたとあるクラスメイトのことが頭にこびりついて離れないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L8} ; "【山口】「（ああ……相葉さん……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L9} ; "今しがた彼を侮蔑の表情で見つめていた相葉希更は、恥辱極まるあられもない姿をネットで晒していた。写真の中の彼女は、何者かに強制されてそのような姿をさせられていた様子だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L10} ; "家畜同然の扱いを浮け、あまつさえそれを衆目に晒すような――或いは強制的に晒されるような畜生以下の女に軽蔑されたことで、山口は被虐的な興奮を味わっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L11} ; "授業中だというのに、彼の股間は今や爆発寸前だった。周囲にクラスメイトがいることなど、気にもならなかった。勘付かれるかもしれないと思うと、むしろ興奮を覚えるほどだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L12} ; "……みんなにバレたら、僕はまた虐められる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L13} ; "でも、相葉さんはすごくいやらしい奴隷のような女の子だから、変態の僕でも受け入れてくれるに違いない。僕のアソコを、受け入れてくれるに違いない――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L14} ; "しかし、それは妄想の世界の中でしか起こり得ないことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L15} ; "精液にまみれた希更の写真を、破瓜の血のこびりついたその秘所を、エロ画像専用の掲示板で見たからといって、現実の彼女に干渉する理由にはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L16} ; "現実の世界でリスクを犯して痛い目を見るよりも、妄想の世界で勝手気ままに遊ぶほうが幸せなのだと、山口は信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L17} ; "現実の世界で脅迫や強姦や監禁におよべば犯罪者として裁かれ、後ろ指をさされ続けるが、妄想の世界では殺人すら無罪なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L18} ; "【山口】「（なんだか、また眠くなってきちゃった……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L19} ; "最近は明け方までネットに夢中になっていることが多く、睡眠時間はほとんど取ることが出来ないのが実情だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L20} ; "こんなに夢中になったのは、あるネットアイドルのサイト以来のことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L21} ; "手の届きそうな距離にいる同年代の美少女のセルフプロデュースによる、アダルト系のネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L22} ; "そこで公開されていたのは、彼が未だ目にしたことのない、なまめかしくしなやかな少女の姿態と、彼女の手による背徳的な性体験告白手記だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L23} ; "そのサイトが更新されなくなってしまってから、どれほどの時が経つだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L24} ; "彼は更なる刺激を求め、ノイズの海を彷徨った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L25} ; "しかし、どれほど過激な性描写を目にしても、どれほど可憐な少女に出会っても、あの時のように心の底から熱狂することは、彼にはもうできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L26} ; "インターネットの閲覧は、彼の中で趣味から惰性に、惰性から作業になっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L27} ; "しかし、それも先日までのこと。山口はあの時の衝撃を上回るとんでもないものを見つけてしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L28} ; "エロ画像専用のアップロード掲示板。そこで目に飛び込んできた、見慣れた名前――希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L29} ; "最初は同名の別人に違いないと思った。あまりにも非現実的だったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L30} ; "希更という名の投稿者が、『私を犯しに来て』と書き込んでいる。『私はレイプじゃないと感じない変態女子校生です』と書き込んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L31} ; "そこには数枚の画像が添えられていた。左右に投げ出された痣だらけの白い太腿、その中心を覆い隠すはずの小さな布はなく、赤い媚肉が露わになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L32} ; "彼女の顔も写っていた。下からのアングルのため、彼の知る相葉希更本人なのかは判然としなかったが、ブリーチで傷んだ赤い髪は、彼の見知ったクラスメイトの相葉希更を思わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L33} ; "年齢も体型も相違ない。それに“彼女”は『Ｋ市Ｓ町の北斗学園に通ってます』と明言しているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L34} ; "Ｋ市の北斗学園に通う、希更という名の少女が、そう何人もいるだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L35} ; "山口とて、それを投稿したのが彼女自身だと完全に信じているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L36} ; "しかし写真の中の希更とされる少女とクラスメイトの希更が同一人物なのは確定で、そこから導き出されるのは、彼女が男の前で股を開き写真まで撮らせたとんでもない淫乱女だという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L37} ; "そして、そんな秘密を知っているのは、撮影者を除けば僕くらいのもの――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  text          %{L38} ; "優越感が、幸せな夢を山口にもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L39} ; "ああ……あんなに意地悪でいつも威張り散らしてばかりいる相葉さんみたいな女の子にも、あんなにいやらしいモノがついてるなんて……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #89
+  ldstr         "BUP02B"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #90
+  ldc.i         5
+  conv.r       
+  ldstr         "ラスター用パターン"
+  callp         $$dreamin@KOEKOE (2) ; $dreamin@KOEKOE
+  line          #93
+  ldstr         "c0304"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #94
+  text          %{L40} ; "【希更】「ちょっとなにするのよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L41} ; "【山口】「僕にそんな口をきいていいのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldstr         "c0305"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #99
+  text          %{L42} ; "【希更】「手を離して！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L43} ; "写真をネタに希更を呼び出した山口は密室へと連れ込むと、彼女の肩に手をまわした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L44} ; "途端に嫌悪感を丸出しにする希更に、山口は必死に怒りを抑えると出来るだけ冷静にふるまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L45} ; "【山口】「いいとも。手を離すのがお望みなら離してあげよう。そのかわり自分で脱いでくれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  ldstr         "BUP02C"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #109
+  ldstr         "c0306"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #110
+  text          %{L46} ; "【希更】「！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L47} ; "【山口】「どうした？　嫌なのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  ldstr         "BUP02B"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #116
+  ldstr         "c0307"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #117
+  text          %{L48} ; "【希更】「なんで私があなたの前で脱がなきゃいけないの！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L49} ; "【山口】「その理由は自分が一番判ってるんじゃないのかい？　でなければ、そもそもここへ１人で来るわけも無いしね！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  ldstr         "BUP02D"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #123
+  text          %{L50} ; "希更の体が小刻みに震えだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L51} ; "置かれている立場がやっと理解できたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  ldstr         "c0308"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #127
+  text          %{L52} ; "【希更】「きょ、脅迫する気？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L53} ; "【山口】「脅迫なんてとんでもない。ただ、僕は君と特別な関係になりたいんだ。２人だけの秘密を作りたいんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  ldstr         "c0309"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #132
+  text          %{L54} ; "【希更】「だ、だけど……脱ぐなんて……嫌よ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L55} ; "【山口】「ネットで沢山の人間に見られているんだ。今さら、僕１人増えても害は無いだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  ldstr         "c0310"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #137
+  text          %{L56} ; "【希更】「それとこれとは……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L57} ; "【山口】「嫌ならいいよ。君と僕は他人ってことだ。そして僕も他人の事なら別に隠す必要もないし……早速友達にでもあの掲示板の……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  ldstr         "c0311"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #142
+  text          %{L58} ; "【希更】「ま、待って……わかったわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L59} ; "【山口】「じゃあ早く、服を脱ぐんだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  ldstr         ""
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #148
+  text          %{L60} ; "希更は無言で頷くと制服に手を掛けて、ボタンを外した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L61} ; "そしてファスナーを降ろしてスカートを脱ぎ捨て、下着だけとなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L62} ; "【山口】「次はその下着だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  ldstr         "c0312"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #154
+  text          %{L63} ; "【希更】「もう許して！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L64} ; "【山口】「ダメだ！　全部脱ぐんだ！！　もう覚悟はできてるだろ？　脱ぐだけで終るわけでもないんだし、往生際が悪いよ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L65} ; "希更の想像する最悪のシナリオだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L66} ; "だが、あの画像を押えられている以上抵抗は無駄だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L67} ; "覚悟を決めて少しでも早くこの悪夢が終わることを祈るしかないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  ldstr         "BUP02Ez"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #165
+  text          %{L68} ; "希更は抵抗を諦めて、ブラのホックを外してパンティを脱いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L69} ; "と、山口の興奮はそれだけで頂点に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L70} ; "いくら平静を装っても、目の前に立つ一糸纏わぬ同級生の裸体があるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L71} ; "異性とキスをしたこともない彼にとって、それは理性を溶かす魔性の火酒だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L72} ; "覆い被さるように彼女を押し倒すと、激しく胸を揉みしだいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L73} ; "肌のぬくもりと柔らかい感触に眩暈がする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L74} ; "股間は極限まで膨張し、無意識のうちに腰を希更に擦り付けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  ldstr         "c0313"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #176
+  text          %{L75} ; "【希更】「や、やめて……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L76} ; "日頃は見下したような態度さえ見せる希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L77} ; "そんな彼女が肉体を蹂躙されて懇願している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L78} ; "それが山口を興奮させて獣へと変えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L79} ; "無言のまま唇を重ねて唾液を流し込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  ldstr         "c0314"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #185
+  text          %{L80} ; "【希更】「ふっむぅ、んっむぅんっんっむむむ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L81} ; "必死に抵抗してクビを振って拒む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L82} ; "それを力任せに押さえ込んで、口内に自分の舌を這わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  ldstr         "c0315"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #191
+  text          %{L83} ; "【希更】「んっふ、ううぅっんっっんんっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L84} ; "口内を蹂躙する山口の舌に、抵抗する希更の力が徐々に抜けていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  ldstr         "c0316"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #196
+  text          %{L85} ; "【希更】「ふぅ、っんっんっふぅ……んっんっんふっぅぅ………んっんっんんっんぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L86} ; "そして荒い息遣いには何時しか熱い吐息が混ざり、悦楽の色が濃くなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  ldstr         "c0317"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #201
+  text          %{L87} ; "【希更】「んっ、ふっぅ、んっふぅっあっっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #203
+  text          %{L88} ; "唇を離す時には希更の肉体は抵抗をしめす力が消えていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L89} ; "山口は唇を征服した実感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L90} ; "そして間髪入れず、今度は彼女の柔らかな胸に吸い付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  ldstr         "c0318"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #209
+  text          %{L91} ; "【希更】「ひっ、いぁ、あああっい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L92} ; "山口の舌が乳首を転がすと、感触に希更は身体を大きく仰け反らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  ldstr         "c0319"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #214
+  text          %{L93} ; "【希更】「あっ、あっ……ひっいっいいっ、あ、だ、だめぇ、あっ、あっう……ぅっひぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L94} ; "口ではかろうじて拒絶を示してはいるが、その声は完全に官能の虜だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L95} ; "舌先で乳首を念入りに転がしては激しく吸い上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  ldstr         "c0320"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #221
+  text          %{L96} ; "【希更】「ひっい、いっいぁっあっっっあああ！　あっあっふぅっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L97} ; "さらに左手で希更の股間をまさぐると、ねっとりとした熱い粘液の感触が伝わってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #225
+  text          %{L98} ; "山口の責めに希更の肉体が激しく反応し、肉棒を求めているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L99} ; "両手で太股を広げ、粘液を滴らせている秘部にねらいを定めて、山口は一気に挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  ldstr         "c0321"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #230
+  text          %{L100} ; "【希更】「あっひぃぁぁあああ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #232
+  text          %{L101} ; "突然の挿入。しかも山口は肉棒を根元まで一気に差し入れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  text          %{L102} ; "膣が激しく収縮して肉棒にからみつく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #234
+  text          %{L103} ; "強引に押し広げられた秘肉が小刻みに震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #236
+  text          %{L104} ; "股間に伝わる熱い感触。山口は背骨まで溶けそうなほどの快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #238
+  ldstr         "c0322"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #239
+  text          %{L105} ; "【希更】「あっふぅ、ふぁっうっふぁぁぁ………ああっふぅ、ふっぅっくぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  text          %{L106} ; "山口が腰を打ち付けるたびに、希更は快感に耐え切れず激しく喘いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #243
+  ldstr         "c0323"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #244
+  text          %{L107} ; "【希更】「あっひい、ひっいっいっひぃぁぁぁあ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #246
+  text          %{L108} ; "【山口】「どうだ？　僕の肉棒は美味いか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #248
+  ldstr         "c0324"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #249
+  text          %{L109} ; "【希更】「いいい、もっと、もっと、強く！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #251
+  text          %{L110} ; "【山口】「どうだ！　これでどうだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #253
+  text          %{L111} ; "山口は大きく腰をスライドさせては一気に根元まで突き入れて、さらに膣をかき回すように捻りを加えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  ldstr         "c0325"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #256
+  text          %{L112} ; "【希更】「ひぃぅぅぅっはぁ、はっぁ、ひっいぃっあああ！　あっ、いっいいいいっあああ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #258
+  text          %{L113} ; "【山口】「どうだ！　イキそうか！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #260
+  ldstr         "c0326"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #261
+  text          %{L114} ; "【希更】「ひぃ、いっいっあ、いっくぅ、いっちゃういっちゃうぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #263
+  text          %{L115} ; "希更は羞恥心をなくして、山口の肉棒が繰り出す快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #264
+  ldstr         "c0327"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #265
+  text          %{L116} ; "【希更】「ひっぐぅっいっぅぅ、いっひぃぅぅぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #267
+  text          %{L117} ; "膣が収縮して肉棒を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #268
+  text          %{L118} ; "愛液が溢れ出してアナルにまで滴り落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #269
+  text          %{L119} ; "そして全身を大きく痙攣させて希更は絶頂に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L120} ; "同時に、山口もまた限界に達して、肉棒を根元まで突き入れたまま射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #273
+  ldstr         "c0328"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #274
+  text          %{L121} ; "【希更】「だめぇぇ、中で出さないでぇぇぇぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #276
+  text          %{L122} ; "【山口】「もう手遅れだよ。ほら……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #278
+  text          %{L123} ; "山口が肉棒を引き抜くと、愛液に混じって膣内に放出した精液が溢れ出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  ldstr         "white"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #283
+  text          %{L124} ; "山口は至福の妄想に身を震わせるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #284
+  callp         $$dreamin_end@KOEKOE (0) ; $dreamin_end@KOEKOE
+  line          #286
+  ldc.i         200
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #287
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $af345f1f() {
+ entry:
+  line          #289
+  argcheck      []
+  alloca        []
+  line          #292
+  text          %{L125} ; "あからさまに見下すような表情を浮かべている者もいる。教師が手を叩いて皆の注意を引き戻すまでの僅かな間、少年は狭い空間を共有する一同の視線に晒されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  text          %{L126} ; "このような状況下に置かれた少年の多くは焦り、後悔し、恥じ入ることだろう。しかし、彼――すなわち山口ユキノリにそのような感情は一つたりとも湧いてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #294
+  text          %{L127} ; "良心や羞恥心が欠落しているからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #295
+  text          %{L128} ; "ただ、こんなものとは比べようもないほどの恥辱が存在することを彼はよく知っており、そのような状況下に置かれたとあるクラスメイトのことが頭にこびりついて離れないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #296
+  text          %{L129} ; "【山口】「（ああ……大野さん……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #297
+  text          %{L130} ; "山口の席からは、大野愛梨の姿を拝むことはできない。しかし、だからこそ想像力が刺激され、淫らな妄想が止めどなく沸き起こる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #298
+  text          %{L131} ; "ネットにアップされていたあられもない姿の愛梨の写真、そこから連想されるありとあらゆる性的なことが、縦横無尽に脳裏を駆け巡る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  text          %{L132} ; "授業中だというのに、山口の股間は爆発寸前だった。周囲にクラスメイトがいることなど、気にもならなかった。勘付かれるかもしれないと思うと、むしろ興奮を覚えるほどだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #300
+  text          %{L133} ; "……みんなにバレたら、僕はまた虐められる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #301
+  text          %{L134} ; "でも、大野さんはすごくいやらしい女の子だから、変態の僕でも受け入れてくれるに違いない。僕のアソコを、受け入れてくれるに違いない――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #302
+  text          %{L135} ; "しかし、それは妄想の世界の中でしか起こり得ないことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #303
+  text          %{L136} ; "精液にまみれた愛梨の写真を、大きく広げられたその秘所を、エロ画像専用の掲示板で見たからといって、現実の彼女に干渉する理由にはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #304
+  text          %{L137} ; "現実の世界でリスクを犯して痛い目を見るよりも、妄想の世界で勝手気ままに遊ぶほうが幸せなのだと、山口は信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #305
+  text          %{L138} ; "現実の世界で脅迫や強姦や監禁におよべば犯罪者として裁かれ、後ろ指をさされ続けるが、妄想の世界では殺人すら無罪なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #306
+  text          %{L139} ; "【山口】「（なんだか、また眠くなってきちゃった……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #307
+  text          %{L140} ; "最近は明け方までネットに夢中になっていることが多く、睡眠時間はほとんど取ることが出来ないのが実情だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #308
+  text          %{L141} ; "こんなに夢中になったのは、あるネットアイドルのサイト以来のことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #309
+  text          %{L142} ; "手の届きそうな距離にいる同年代の美少女のセルフプロデュースによる、アダルト系のネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #310
+  text          %{L143} ; "そこで公開されていたのは、彼が未だ目にしたことのない、なまめかしくしなやかな少女の姿態と、彼女の手による背徳的な性体験告白手記だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  text          %{L144} ; "そのサイトが更新されなくなってしまってから、どれほどの時が経つだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #312
+  text          %{L145} ; "彼は更なる刺激を求め、ノイズの海を彷徨った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #313
+  text          %{L146} ; "しかし、どれほど過激な性描写を目にしても、どれほど可憐な少女に出会っても、あの時のように心の底から熱狂することは、彼にはもうできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #314
+  text          %{L147} ; "インターネットの閲覧は、彼の中で趣味から惰性に、惰性から作業になっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #315
+  text          %{L148} ; "しかし、それも先日までのこと。山口はあの時の衝撃を上回るとんでもないものを見つけてしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #316
+  text          %{L149} ; "エロ画像専用のアップロード掲示板。そこで目に飛び込んできた、見慣れた名前――愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #317
+  text          %{L150} ; "最初は同名の別人に違いないと思った。あまりにも非現実的だったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #318
+  text          %{L151} ; "愛梨という名の投稿者が、『私を犯しに来て』と書き込んでいる。『私はレイプじゃないと感じない変態女子校生です』と書き込んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #319
+  text          %{L152} ; "そこには数枚の画像が添えられていた。左右に投げ出された痣だらけの白い太腿、その中心を覆い隠すはずの小さな布はなく、赤い媚肉が露わになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #320
+  text          %{L153} ; "彼女の顔も写っていた。下からのアングルのため、彼の知る大野愛梨本人なのかは判然としなかったが、柔らかそうな長い髪は、彼の見知ったクラスメイトの大野愛梨を思わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #321
+  text          %{L154} ; "たわわに実った胸の双丘も相違ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #322
+  text          %{L155} ; "それに“彼女”は『Ｋ市Ｍ町の北斗学園に通ってます』と明言しているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #323
+  text          %{L156} ; "Ｋ市Ｍ町の北斗学園に通う、巨乳でロングヘアの大野愛梨という名の少女が、そう何人もいるだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #324
+  text          %{L157} ; "山口とて、それを投稿したのが彼女自身だと完全に信じているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #325
+  text          %{L158} ; "しかし写真の中の大野愛梨とされる少女とクラスメイトの大野愛梨が同一人物なのは確定で、そこから導き出されるのは、彼女が男の前で股を開き写真まで撮らせたとんでもない淫乱女だという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #326
+  text          %{L159} ; "そして、そんな秘密を知っているのは、撮影者を除けば僕くらいのもの――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #327
+  text          %{L160} ; "優越感が、幸せな夢を山口にもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #328
+  text          %{L161} ; "ああ……、可愛くて美人で優しくて男女関係なくみんなに人気のある大野さんみたいな女の子にも、あんなにいやらしいモノがついてるなんて……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #332
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #333
+  ldstr         "BUP03A"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #334
+  ldc.i         5
+  conv.r       
+  ldstr         "ラスター用パターン"
+  callp         $$dreamin@KOEKOE (2) ; $dreamin@KOEKOE
+  line          #336
+  ldstr         "a0193"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #337
+  text          %{L162} ; "【愛梨】「それで一体何の御用ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #339
+  text          %{L163} ; "【山口】「僕にそんな口をきいていいのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #341
+  ldstr         "BUP03B"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #342
+  ldstr         "a0194"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #343
+  text          %{L164} ; "【愛梨】「ちょっと私に触らないでくださる？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #345
+  text          %{L165} ; "写真をネタに愛梨を呼び出した山口は、密室へと連れ込むと彼女の肩に手をまわした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #347
+  text          %{L166} ; "途端に嫌悪感を丸出しにする愛梨に、山口は必死に怒りを抑えると出来るだけ冷静にふるまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #349
+  text          %{L167} ; "【山口】「いいとも。手を離すのがお望みなら離してあげよう。そのかわり自分で脱いでくれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #351
+  ldstr         "BUP03D"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #352
+  ldstr         "a0195"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #353
+  text          %{L168} ; "【愛梨】「！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #355
+  text          %{L169} ; "【山口】「どうした？　嫌なのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #357
+  ldstr         "a0196"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #358
+  text          %{L170} ; "【愛梨】「なんで私があなたの前で脱ぐ必要があるのかしら？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #360
+  text          %{L171} ; "【山口】「その理由は自分が一番判ってるんじゃないのかい？　でなければ、そもそもここへ１人で来るわけも無いしね！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #362
+  text          %{L172} ; "愛梨の体が小刻みに震えだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #363
+  text          %{L173} ; "置かれている立場がやっと理解できたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #365
+  ldstr         "a0197"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #366
+  text          %{L174} ; "【愛梨】「私を脅迫する気ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #368
+  text          %{L175} ; "【山口】「脅迫なんてとんでもない。ただ、僕は君と特別な関係になりたいんだ。２人だけの秘密を作りたいんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #370
+  ldstr         "a0198"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #371
+  text          %{L176} ; "【愛梨】「で、ですけど……脱ぐなんて……絶対嫌ですわ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #373
+  text          %{L177} ; "【山口】「ネットで沢山の人間に見られているんだ。今さら、僕１人増えても害は無いだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #375
+  ldstr         "a0199"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #376
+  text          %{L178} ; "【愛梨】「それとこれとは……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #378
+  text          %{L179} ; "【山口】「嫌ならいいよ。君と僕は他人ってことだ。そして僕も他人の事なら別に隠す必要もないし……早速友達にでもあの掲示板の……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #380
+  ldstr         "a0200"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #381
+  text          %{L180} ; "【愛梨】「ま、待って……わかりましたわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #383
+  text          %{L181} ; "【山口】「じゃあ早く、服を脱ぐんだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #385
+  ldstr         ""
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #387
+  text          %{L182} ; "愛梨は無言で頷くと制服に手を掛けて、ボタンを外した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #388
+  text          %{L183} ; "そしてファスナーを降ろすとスカートを脱ぎ捨て、下着だけとなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #390
+  text          %{L184} ; "【山口】「次はその下着だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #392
+  ldstr         "a0201"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #393
+  text          %{L185} ; "【愛梨】「もう許して！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #395
+  text          %{L186} ; "【山口】「ダメだ！　全部脱ぐんだ！！　もう覚悟はできてるだろ？　脱ぐだけで終るわけでもないんだし、往生際が悪いよ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #397
+  text          %{L187} ; "愛梨の想像する最悪のシナリオだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #398
+  text          %{L188} ; "だが、あの画像を抑えられている以上抵抗は無駄だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #400
+  text          %{L189} ; "覚悟を決めて、少しでも早くこの悪夢が終わることを祈るしかないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #402
+  ldstr         "BUP03Cz"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #403
+  text          %{L190} ; "愛梨は抵抗を諦めて、ブラのホックを外してパンティを脱いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #404
+  text          %{L191} ; "と、山口の興奮はそれだけで頂点に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #406
+  text          %{L192} ; "いくら平静を装っても、目の前に立つ一糸纏わぬ同級生の裸体があるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #408
+  text          %{L193} ; "異性とキスした経験すらない彼にとって、それは理性を溶かす魔性の火酒だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #410
+  text          %{L194} ; "覆い被さるように彼女を押し倒すと、激しく胸を揉みしだいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #411
+  text          %{L195} ; "肌のぬくもりと柔らかい感触に眩暈がする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #412
+  text          %{L196} ; "股間は極限まで膨張し、無意識のうちに腰を愛梨に擦り付けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #413
+  ldstr         "a0202"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #414
+  text          %{L197} ; "【愛梨】「や、やめ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #416
+  text          %{L198} ; "日頃はいかにもお嬢様然としている愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #417
+  text          %{L199} ; "そんな彼女が肉体を蹂躙されて懇願している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #418
+  text          %{L200} ; "それが山口を興奮させて獣へと変えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #420
+  text          %{L201} ; "無言のまま唇を重ねて唾液を流し込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #422
+  ldstr         "a0203"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #423
+  text          %{L202} ; "【愛梨】「ふっむぅ、んっむぅんっんっむむむ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #425
+  text          %{L203} ; "必死に抵抗してクビを振って拒む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #426
+  text          %{L204} ; "それを力任せに押さえ込んで、口内に自分の舌を這わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #428
+  ldstr         "a0204"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #429
+  text          %{L205} ; "【愛梨】「んっふ、ううぅっんっっんんっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #431
+  text          %{L206} ; "口内を蹂躙する山口の舌に、抵抗する愛梨の力が徐々に抜けていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #433
+  ldstr         "a0205"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #434
+  text          %{L207} ; "【愛梨】「ふぅ、っんっんっふぅ……んっんっんふっぅぅ………んっんっんんっんぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #436
+  text          %{L208} ; "荒い息遣いには何時しか熱い吐息が混ざり、悦楽の色が濃くなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #438
+  ldstr         "a0206"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #439
+  text          %{L209} ; "【愛梨】「んっ、ふっぅ、んっふぅっあっっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #441
+  text          %{L210} ; "唇を離す時には愛梨の肉体からは抵抗を示す力が抜けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #442
+  text          %{L211} ; "山口は唇を征服した実感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #444
+  text          %{L212} ; "間髪入れず、今度は彼女の柔らかな胸に吸い付く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #446
+  ldstr         "a0207"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #447
+  text          %{L213} ; "【愛梨】「ひっ、いぁ、あああっい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #449
+  text          %{L214} ; "山口の舌が乳首を転がすと、感触に愛梨は身体を大きく仰け反らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #451
+  ldstr         "a0208"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #452
+  text          %{L215} ; "【愛梨】「あっ、あっ……ひっいっいいっあだ、だめぇ、あっ、あっう……ぅっひぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #454
+  text          %{L216} ; "口ではかろうじて拒絶を示してはいるが、その声は完全に官能の虜だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #456
+  text          %{L217} ; "舌先で乳首を念入りに転がしては激しく吸い上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #458
+  ldstr         "a0209"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #459
+  text          %{L218} ; "【愛梨】「ひっい、いっいぁっあっっっあああ！　あっあっふぅっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #461
+  text          %{L219} ; "さらに左手で愛梨の股間をまさぐると、ねっとりとした熱い粘液の感触が伝わってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #463
+  text          %{L220} ; "山口の責めに愛梨の肉体が激しく反応し、肉棒を求めているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #465
+  text          %{L221} ; "両手で太股を広げ、粘液を滴らせている秘部にねらいを定めて山口は一気に挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #467
+  ldstr         "a0210"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #468
+  text          %{L222} ; "【愛梨】「あっひぃぁぁあああ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #470
+  text          %{L223} ; "突然の挿入。しかも山口は肉棒を根元まで一気に差し入れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #471
+  text          %{L224} ; "膣が激しく収縮して肉棒にからみつく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #472
+  text          %{L225} ; "強引に押し広げられた秘肉が小刻みに震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #474
+  text          %{L226} ; "股間に伝わる熱い感触。山口は背骨まで溶けそうなほどの快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #476
+  ldstr         "a0211"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #477
+  text          %{L227} ; "【愛梨】「あっふぅ、ふぁっうっふぁぁぁ………ああっふぅ、ふっぅっくぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #479
+  text          %{L228} ; "山口が腰を打ち付けるたびに、愛梨は快感に耐え切れず激しく喘いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #481
+  ldstr         "a0212"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #482
+  text          %{L229} ; "【愛梨】「あっひい、ひっいっいっひぃぁぁぁあ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #484
+  text          %{L230} ; "【山口】「どうだ？　僕の肉棒は美味いか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #486
+  ldstr         "a0213"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #487
+  text          %{L231} ; "【愛梨】「いいい、もっと、もっと、強く！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #489
+  text          %{L232} ; "【山口】「どうだ！　これでどうだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #491
+  text          %{L233} ; "山口は大きく腰をスライドさせては一気に根元まで突き入れて、さらに膣をかき回すように捻りを加えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #493
+  ldstr         "a0214"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #494
+  text          %{L234} ; "【愛梨】「ひぃぅぅぅっはぁ、はっぁ、ひっいぃっあああ！　あっ、いっいいいいっあああ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #496
+  text          %{L235} ; "【山口】「どうだ！　イキそうか！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #498
+  ldstr         "a0215"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #499
+  text          %{L236} ; "【愛梨】「ひぃ、いっいっあ、いっくぅ、いっちゃういっちゃうぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #501
+  text          %{L237} ; "愛梨は羞恥心をなくして、山口の肉棒が繰り出す快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #502
+  ldstr         "a0216"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #503
+  text          %{L238} ; "【愛梨】「ひっぐぅっいっぅぅ、いっひぃぅぅぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #505
+  text          %{L239} ; "膣が収縮して肉棒を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #506
+  text          %{L240} ; "愛液が溢れ出してアナルにまで滴り落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #507
+  text          %{L241} ; "そして全身を大きく痙攣させて愛梨は絶頂に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #509
+  text          %{L242} ; "同時に山口もまた限界に達して、肉棒を根元まで突き入れたまま射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #511
+  ldstr         "a0217"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #512
+  text          %{L243} ; "【愛梨】「だめぇぇ、中で出さないでぇぇぇぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #514
+  text          %{L244} ; "【山口】「もう手遅れだよ。ほら……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #516
+  text          %{L245} ; "山口が肉棒を引き抜くと、愛液に混じって膣内に放出した精液が溢れ出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #518
+  ldstr         "white"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #519
+  text          %{L246} ; "山口は至福の妄想に身を震わせるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #520
+  callp         $$dreamin_end@KOEKOE (0) ; $dreamin_end@KOEKOE
+  line          #522
+  ldc.i         200
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #523
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $639e5f81() {
+ entry:
+  line          #525
+  argcheck      []
+  alloca        []
+  line          #529
+  text          %{L247} ; "あからさまに見下すような表情を浮かべている者もいる。教師が手を叩いて皆の注意を引き戻すまでの僅かな間、少年は狭い空間を共有する一同の視線に晒されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #530
+  text          %{L248} ; "このような状況下に置かれた少年の多くは焦り、後悔し、恥じ入ることだろう。しかし、彼――すなわち山口ユキノリにそのような感情は一つたりとも湧いてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #531
+  text          %{L249} ; "良心や羞恥心が欠落しているからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #532
+  text          %{L250} ; "ただ、こんなものとは比べようもないほどの恥辱が存在することを彼はよく知っており、そのような状況下に置かれたとあるクラスメイトのことが頭にこびりついて離れないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #533
+  text          %{L251} ; "【山口】「（ああ……二宮さん……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #534
+  text          %{L252} ; "山口の席からは、二宮未夏の姿を拝むことはできない。しかし、だからこそ想像力が刺激され、淫らな妄想が止めどなく沸き起こる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #535
+  text          %{L253} ; "ネットにアップされていたあられもない姿の未夏の写真、そこから連想されるありとあらゆる性的なことが、縦横無尽に脳裏を駆け巡る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #536
+  text          %{L254} ; "授業中だというのに、山口の股間は爆発寸前だった。周囲にクラスメイトがいることなど、気にもならなかった。勘付かれるかもしれないと思うと、むしろ興奮を覚えるほどだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #537
+  text          %{L255} ; "……みんなにバレたら、僕はまた虐められる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #538
+  text          %{L256} ; "でも、二宮さんはすごくいやらしい女の子だから、変態の僕でも受け入れてくれるに違いない。僕のアソコを、受け入れてくれるに違いない――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #539
+  text          %{L257} ; "しかし、それは妄想の世界の中でしか起こり得ないことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #540
+  text          %{L258} ; "精液にまみれた未夏の写真を、大きく広げられたその秘所を、エロ画像専用の掲示板で見たからといって、現実の彼女に干渉する理由にはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #541
+  text          %{L259} ; "現実の世界でリスクを犯して痛い目を見るよりも、妄想の世界で勝手気ままに遊ぶほうが幸せなのだと、山口は信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #542
+  text          %{L260} ; "現実の世界で脅迫や強姦や監禁におよべば犯罪者として裁かれ、後ろ指をさされ続けるが、妄想の世界では殺人すら無罪なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #543
+  text          %{L261} ; "【山口】「（なんだか、また眠くなってきちゃった……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #544
+  text          %{L262} ; "最近は明け方までネットに夢中になっていることが多く、睡眠時間はほとんど取ることが出来ないのが実情だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #545
+  text          %{L263} ; "こんなに夢中になったのは、あるネットアイドルのサイト以来のことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #546
+  text          %{L264} ; "手の届きそうな距離にいる同年代の美少女のセルフプロデュースによる、アダルト系のネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #547
+  text          %{L265} ; "そこで公開されていたのは、彼が未だ目にしたことのない、なまめかしくしなやかな少女の姿態と、彼女の手による背徳的な性体験告白手記だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #548
+  text          %{L266} ; "そのサイトが更新されなくなってから、どれほどの時が経つだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #549
+  text          %{L267} ; "彼は更なる刺激を求め、ノイズの海を彷徨った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #550
+  text          %{L268} ; "しかし、どれほど過激な性描写を目にしても、どれほど可憐な少女に出会っても、あの時のように心の底から熱狂することは、彼にはもうできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #551
+  text          %{L269} ; "インターネットの閲覧は、彼の中で趣味から惰性に、惰性から作業になっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #552
+  text          %{L270} ; "しかし、それも先日までのこと。山口はあの時の衝撃を上回るとんでもないものを見つけてしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #553
+  text          %{L271} ; "エロ画像専用のアップロード掲示板。そこで目に飛び込んできた、見慣れた名前――未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #554
+  text          %{L272} ; "最初は同名の別人に違いないと思った。あまりにも非現実的だったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #555
+  text          %{L273} ; "未夏という名の投稿者が、『私を犯しに来て』と書き込んでいる。『私はレイプじゃないと感じない変態女子校生です』と書き込んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #556
+  text          %{L274} ; "そこには数枚の画像が添えられていた。左右に投げ出された痣だらけの白い太腿、その中心を覆い隠すはずの小さな布はなく、赤い媚肉が露わになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #557
+  text          %{L275} ; "彼女の顔も写っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #558
+  text          %{L276} ; "下からのアングルのため、彼の知る二宮未夏本人なのかは判然としなかったが、少し長めのボブスタイルにカットされたサラサラの髪は、彼の見知ったクラスメイトの二宮未夏を思わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #559
+  text          %{L277} ; "年齢も体型も相違ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #560
+  text          %{L278} ; "それに“彼女”は『Ｋ市Ｍ町の北斗学園に通ってます』と明言しているのだ。Ｋ市Ｍ町の北斗学園に通う、ボブカットの未夏という名の少女が、そう何人もいるだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #561
+  text          %{L279} ; "山口とて、それを投稿したのが彼女自身だと完全に信じているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #562
+  text          %{L280} ; "しかし写真の中の二宮未夏とされる少女とクラスメイトの二宮未夏が同一人物なのは確定で、そこから導き出されるのは、彼女が男の前で股を開き写真まで撮らせたとんでもない淫乱女だという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #563
+  text          %{L281} ; "そして、そんな秘密を知っているのは、撮影者を除けば僕くらいのもの――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #564
+  text          %{L282} ; "優越感が、幸せな夢を山口にもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #565
+  text          %{L283} ; "ああ……、二宮さんみたいに明るく元気な女の子にも、あんなにいやらしいモノがついてるなんて……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #568
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #569
+  ldstr         "BUP05A"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #570
+  ldc.i         5
+  conv.r       
+  ldstr         "ラスター用パターン"
+  callp         $$dreamin@KOEKOE (2) ; $dreamin@KOEKOE
+  line          #573
+  ldstr         "d0139"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #574
+  text          %{L284} ; "【未夏】「それで一体何の用なわけ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #576
+  text          %{L285} ; "【山口】「僕にそんな口をきいていいのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #578
+  ldstr         "BUP05D"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #579
+  ldstr         "d0140"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #580
+  text          %{L286} ; "【未夏】「ちょ、ちょっと離してよ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #582
+  text          %{L287} ; "写真をネタに未夏を呼び出した山口は、密室へと連れ込むと彼女の肩に手をまわした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #584
+  text          %{L288} ; "友人といる時はいつも明るい未夏も山口には冷たい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #585
+  text          %{L289} ; "嫌悪感を丸出しにする未夏に、山口は必死に怒りを抑えると出来るだけ冷静にふるまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #587
+  text          %{L290} ; "【山口】「いいとも。手を離すのがお望みなら離してあげよう。そのかわり自分で脱いでくれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #589
+  ldstr         "d0141"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #590
+  text          %{L291} ; "【未夏】「！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #592
+  text          %{L292} ; "【山口】「どうした？　嫌なのかい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #594
+  ldstr         "d0142"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #595
+  text          %{L293} ; "【未夏】「なんで私があんたの前で脱ぐわけ？　チョーわけわかんない！」」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #597
+  text          %{L294} ; "【山口】「その理由は自分が一番判ってるんじゃないのかい？　でなければ、そもそもここへ１人で来るわけも無いしね！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #599
+  ldstr         "BUP05E"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #600
+  text          %{L295} ; "未夏の体が小刻みに震えだした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #601
+  text          %{L296} ; "置かれている立場がやっと理解できたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #603
+  ldstr         "d0143"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #604
+  text          %{L297} ; "【未夏】「脅す気？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #606
+  text          %{L298} ; "【山口】「脅すなんてとんでもない。ただ、僕は君と特別な関係になりたいんだ。２人だけの秘密を作りたいんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #608
+  ldstr         "d0144"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #609
+  text          %{L299} ; "【未夏】「だ、だけど……脱ぐなんて……絶対嫌よ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #611
+  text          %{L300} ; "【山口】「ネットで沢山の人間に見られているんだ。今さら、僕１人増えても害は無いだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #613
+  ldstr         "d0145"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #614
+  text          %{L301} ; "【未夏】「それとこれとは……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #616
+  text          %{L302} ; "【山口】「嫌ならいいよ。君と僕は他人ってことだ。そして僕も他人の事なら別に隠す必要もないし……早速友達にでもあの掲示板の……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #618
+  ldstr         "d0146"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #619
+  text          %{L303} ; "【未夏】「ま、待って……わかったわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #621
+  text          %{L304} ; "【山口】「じゃあ早く、服を脱ぐんだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #623
+  ldstr         ""
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #625
+  text          %{L305} ; "未夏は無言で頷くと制服に手を掛けて、ボタンを外した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #626
+  text          %{L306} ; "そしてファスナーを降ろすとスカートを脱ぎ捨て、下着だけとなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #628
+  text          %{L307} ; "【山口】「次はその下着だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #630
+  ldstr         "d0147"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #631
+  text          %{L308} ; "【未夏】「もう許して！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #633
+  text          %{L309} ; "【山口】「ダメだ！　全部脱ぐんだ！！　もう覚悟はできてるだろ？　脱ぐだけで終るわけでもないんだし、往生際が悪いよ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #635
+  text          %{L310} ; "未夏の想像する最悪のシナリオだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #636
+  text          %{L311} ; "だが、あの画像を押さえられている以上抵抗は無駄だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #638
+  text          %{L312} ; "覚悟を決めて少しでも早くこの悪夢が終わることを祈るしかないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #640
+  ldstr         "BUP05Ez"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #642
+  text          %{L313} ; "未夏は抵抗を諦めて、ブラのホックを外してパンティを脱いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #643
+  text          %{L314} ; "と、山口の興奮はそれだけで頂点に達した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #645
+  text          %{L315} ; "いくら平静を装っても、目の前に立つ一糸纏わぬ同級生の裸体があるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #647
+  text          %{L316} ; "異性とのキスの経験すらない彼にとって、それは理性を溶かす魔性の火酒だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #649
+  text          %{L317} ; "覆い被さるように彼女を押し倒すと、激しく胸を揉みしだいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #650
+  text          %{L318} ; "肌のぬくもりと柔らかい感触に眩暈がする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #651
+  text          %{L319} ; "股間は極限まで膨張し、無意識のうちに腰を未夏に擦り付けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #652
+  ldstr         "d0148"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #653
+  text          %{L320} ; "【未夏】「ちょ、や、やめて……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #655
+  text          %{L321} ; "日頃は彼を空気のように無視する未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #656
+  text          %{L322} ; "そんな彼女が肉体を蹂躙されて懇願している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #657
+  text          %{L323} ; "それが山口を興奮させて獣へと変えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #659
+  text          %{L324} ; "無言のまま唇を重ねて唾液を流し込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #661
+  ldstr         "d0149"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #662
+  text          %{L325} ; "【未夏】「ふっむぅ、んっむぅんっんっむむむ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #664
+  text          %{L326} ; "必死に抵抗してクビを振って拒む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #665
+  text          %{L327} ; "それを力任せに押さえ込んで、口内に自分の舌を這わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #667
+  ldstr         "d0150"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #668
+  text          %{L328} ; "【未夏】「んっふ、ううぅっんっっんんっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #670
+  text          %{L329} ; "口内を蹂躙する山口の舌に、抵抗する未夏の力が徐々に抜けていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #672
+  ldstr         "d0151"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #673
+  text          %{L330} ; "【未夏】「ふぅ、っんっんっふぅ……んっんっんふっぅぅ………んっんっんんっんぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #675
+  text          %{L331} ; "荒い息遣いには何時しか熱い吐息が混ざり、悦楽の色が濃くなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #677
+  ldstr         "d0152"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #678
+  text          %{L332} ; "【未夏】「んっ、ふっぅ、んっふぅっあっっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #680
+  text          %{L333} ; "唇を離す時には未夏の肉体からは抵抗をしめす力が抜けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #681
+  text          %{L334} ; "山口は唇を征服した実感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #683
+  text          %{L335} ; "そして間髪入れず今度は彼女の柔らかな胸に吸い付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #685
+  ldstr         "d0153"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #686
+  text          %{L336} ; "【未夏】「ひっ、いぁ、あああっい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #688
+  text          %{L337} ; "山口の舌が乳首を転がすと、感触に未夏は身体を大きく仰け反らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #690
+  ldstr         "d0154"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #691
+  text          %{L338} ; "【未夏】「あっ、あっ……ひっいっいいっあだ、だめぇ、あっ、あっう……ぅっひぃ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #693
+  text          %{L339} ; "口ではかろうじて拒絶を示してはいるが、その声は完全に官能の虜だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #695
+  text          %{L340} ; "舌先で乳首を念入りに転がしては激しく吸い上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #697
+  ldstr         "d0155"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #698
+  text          %{L341} ; "【未夏】「ひっい、いっいぁっあっっっあああ！　あっあっふぅっあああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #700
+  text          %{L342} ; "左手で未夏の股間をまさぐると、ねっとりとした熱い粘液の感触が伝わってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #702
+  text          %{L343} ; "山口の責めに未夏の肉体が激しく反応し、肉棒を求めているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #704
+  text          %{L344} ; "両手で太股を広げ、粘液を滴らせている秘部にねらいを定めて山口は一気に挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #706
+  ldstr         "d0156"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #707
+  text          %{L345} ; "【未夏】「あっひぃぁぁあああ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #709
+  text          %{L346} ; "突然の挿入。しかも山口は肉棒を根元まで一気に差し入れていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #710
+  text          %{L347} ; "膣が激しく収縮して肉棒にからみつく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #711
+  text          %{L348} ; "強引に押し広げられた秘肉が小刻みに震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #713
+  text          %{L349} ; "股間に伝わる熱い感触に山口は背骨まで溶けそうなほどの快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #715
+  ldstr         "d0157"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #716
+  text          %{L350} ; "【未夏】「あっふぅ、ふぁっうっふぁぁぁ………ああっふぅ、ふっぅっくぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #718
+  text          %{L351} ; "山口が腰を打ち付けるたびに未夏は快感に耐え切れず激しく喘いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #720
+  ldstr         "d0158"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #721
+  text          %{L352} ; "【未夏】「あっひい、ひっいっいっひぃぁぁぁあ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #723
+  text          %{L353} ; "【山口】「どうだ？　僕の肉棒は美味いか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #725
+  ldstr         "d0159"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #726
+  text          %{L354} ; "【未夏】「いいい、もっと、もっと、強く！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #728
+  text          %{L355} ; "【山口】「どうだ！　これでどうだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #730
+  text          %{L356} ; "山口は大きく腰をスライドさせては一気に根元まで突き入れて、さらに膣をかき回すように捻りを加えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #732
+  ldstr         "d0160"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #733
+  text          %{L357} ; "【未夏】「ひぃぅぅぅっはぁ、はっぁ、ひっいぃっあああ！　あっ、いっいいいいっあああ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #735
+  text          %{L358} ; "【山口】「どうだ！　イキそうか！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #737
+  ldstr         "d0161"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #738
+  text          %{L359} ; "【未夏】「ひぃ、いっいっあ、いっくぅ、いっちゃういっちゃうぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #740
+  text          %{L360} ; "未夏は羞恥心をなくして山口の肉棒が繰り出す快感に酔いしれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #741
+  ldstr         "d0162"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #742
+  text          %{L361} ; "【未夏】「ひっぐぅっいっぅぅ、いっひぃぅぅぅぅ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #744
+  text          %{L362} ; "膣が収縮して肉棒を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #745
+  text          %{L363} ; "愛液が溢れ出してアナルにまで滴り落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #746
+  text          %{L364} ; "そして全身を大きく痙攣させて未夏は絶頂した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #748
+  text          %{L365} ; "同時に山口もまた限界に達して、肉棒を根元まで突き入れたまま射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #750
+  ldstr         "d0163"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #751
+  text          %{L366} ; "【未夏】「だめぇぇ、中で出さないでぇぇぇぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #753
+  text          %{L367} ; "【山口】「もう手遅れだよ。ほら……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #755
+  text          %{L368} ; "山口が肉棒を引き抜くと、愛液に混じって膣内に放出した精液が溢れ出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #757
+  ldstr         "white"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #759
+  text          %{L369} ; "山口は至福の妄想に身を震わせるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #761
+  callp         $$dreamin_end@KOEKOE (0) ; $dreamin_end@KOEKOE
+  line          #763
+  ldc.i         200
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #765
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $695b5698() {
+ entry:
+  line          #767
+  argcheck      []
+  alloca        []
+  line          #769
+  text          %{L370} ; "あからさまに見下すような表情を浮かべている者もいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #770
+  text          %{L371} ; "教師が手を叩いて皆の注意を引き戻すまでの僅かな間、少年は狭い空間を共有する一同の視線に晒されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #771
+  text          %{L372} ; "このような状況下に置かれた少年の多くは焦り、後悔し、恥じ入ることだろう。しかし、彼――すなわち山口ユキノリにそのような感情は一つたりとも湧いてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #772
+  text          %{L373} ; "良心や羞恥心が欠落しているからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #773
+  text          %{L374} ; "ただ、こんなものとは比べようもないほどの恥辱が存在することを彼はよく知っており、そのような状況下に置かれたとある知り合いのことが頭にこびりついて離れないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #774
+  text          %{L375} ; "【山口】「（ああ……桜井さん……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #775
+  text          %{L376} ; "今は、桜井衣澄の姿を拝むことはできない。しかし、だからこそ想像力が刺激され、淫らな妄想が止めどなく沸き起こる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #776
+  text          %{L377} ; "ネットにアップされていたあられもない姿の衣澄の写真、そこから連想されるありとあらゆる性的なことが、縦横無尽に脳裏を駆け巡る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #777
+  text          %{L378} ; "授業中だというのに、山口の股間は爆発寸前だった。周囲にクラスメイトがいることなど、気にもならなかった。勘付かれるかもしれないと思うと、むしろ興奮を覚えるほどだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #778
+  text          %{L379} ; "……みんなにバレたら、僕はまた虐められる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #779
+  text          %{L380} ; "桜井さんは学校ではとても真面目だから、こんなになった僕のアソコを見れば眉を顰めるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #780
+  text          %{L381} ; "でも本当はすごくいやらしい桜井さんのことだから、みんなのいない場所では僕を受け入れてくれるに違いない。僕のアソコを、受け入れてくれるに違いない――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #781
+  text          %{L382} ; "しかし、それは妄想の世界の中でしか起こり得ないことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #782
+  text          %{L383} ; "精液にまみれた衣澄の写真を、破瓜の血のこびりついたその秘所を、エロ画像専用の掲示板で見たからといって、現実の彼女に干渉する理由にはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #783
+  text          %{L384} ; "現実の世界でリスクを犯して痛い目を見るよりも、妄想の世界で勝手気ままに遊ぶほうが幸せなのだと、山口は信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #784
+  text          %{L385} ; "現実の世界で脅迫や強姦や監禁におよべば犯罪者として裁かれ、後ろ指をさされ続けるが、妄想の世界では殺人すら無罪なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #785
+  text          %{L386} ; "【山口】「（なんだか、また眠くなってきちゃった……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #786
+  text          %{L387} ; "最近は明け方までネットに夢中になっていることが多く、睡眠時間はほとんど取ることが出来ないのが実情だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #787
+  text          %{L388} ; "こんなに夢中になったのは、あるネットアイドルのサイト以来のことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #788
+  text          %{L389} ; "手の届きそうな距離にいる同年代の美少女のセルフプロデュースによる、アダルト系のネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #789
+  text          %{L390} ; "そこで公開されていたのは、彼が未だ目にしたことのない、なまめかしくしなやかな少女の姿態と、彼女の手による背徳的な性体験告白手記だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #790
+  text          %{L391} ; "そのサイトが更新されなくなってしまってから、どれほどの時が経つだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #791
+  text          %{L392} ; "彼は更なる刺激を求め、ノイズの海を彷徨った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #792
+  text          %{L393} ; "しかし、どれほど過激な性描写を目にしても、どれほど可憐な少女に出会っても、あの時のように心の底から熱狂することは、彼にはもうできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #793
+  text          %{L394} ; "インターネットの閲覧は、彼の中で趣味から惰性に、惰性から作業になっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #794
+  text          %{L395} ; "しかし、それも先日までのこと。山口はあの時の衝撃を上回るとんでもないものを見つけてしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #795
+  text          %{L396} ; "エロ画像専用のアップロード掲示板。そこで目に飛び込んできた、見慣れた名前――衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #796
+  text          %{L397} ; "最初は同名の別人に違いないと思った。あまりにも非現実的だったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #797
+  text          %{L398} ; "衣澄という名の投稿者が、『私を犯しに来て』と書き込んでいる。『私はレイプじゃないと感じない変態女子校生です』と書き込んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #798
+  text          %{L399} ; "そこには数枚の画像が添えられていた。左右に投げ出された痣だらけの白い太腿、その中心を覆い隠すはずの小さな布はなく、赤い媚肉が露わになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #799
+  text          %{L400} ; "彼女の顔も写っていた。下からのアングルのため、彼の知る桜井衣澄本人なのかは判然としなかったが、長めの髪とリボンは、彼の見知った桜井衣澄を思わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #800
+  text          %{L401} ; "年齢も体型も相違ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #801
+  text          %{L402} ; "それに“彼女”は『Ｋ市Ｍ町の北斗学園に通ってます』と明言しているのだ。Ｋ市Ｍ町の北斗学園に通う、セミロングの衣澄という名の少女が、そう何人もいるだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #802
+  text          %{L403} ; "山口とて、それを投稿したのが彼女自身だと完全に信じているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #803
+  text          %{L404} ; "しかし写真の中の桜井衣澄とされる少女と知り合いの桜井衣澄が同一人物なのは確定で、そこから導き出されるのは、彼女が男の前で股を開き写真まで撮らせたとんでもない淫乱女だという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #804
+  text          %{L405} ; "学校では真面目な優等生の仮面を被っている桜井衣澄は、実はとんでもない変態女だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #805
+  text          %{L406} ; "そして、そんな秘密を知っているのは、撮影者を除けば僕くらいのもの――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #806
+  text          %{L407} ; "優越感が、幸せな夢を山口にもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #807
+  text          %{L408} ; "ああ……、真面目で成績優秀な桜井さんみたいな女の子にも、あんなにいやらしいモノがついてるなんて……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #811
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #812
+  ldc.i         5
+  conv.r       
+  ldstr         "ラスター用パターン"
+  callp         $$dreamin@KOEKOE (2) ; $dreamin@KOEKOE
+  line          #814
+  text          %{L409} ; "山口は桜井衣澄をいきなり押し倒した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #816
+  ldstr         "BUP04Fu"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #818
+  ldstr         "b0153"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #819
+  text          %{L410} ; "【衣澄】「や、やめてください。人を呼びますよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #821
+  text          %{L411} ; "【山口】「そんなことを言っていいのかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #823
+  text          %{L412} ; "やってきた人物が目にするのは衣澄の痴態。そう囁いてやると、衣澄の抵抗が弱くなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #824
+  ldstr         "BUP04Du"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #827
+  ldstr         "b0112"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #828
+  text          %{L413} ; "【衣澄】「わたしを……どうする気ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #830
+  text          %{L414} ; "【山口】「今さら、僕にされたところで、なにも失わないよね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #832
+  text          %{L415} ; "完璧な優等生である衣澄に憧れをいだいている男は少なくない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #833
+  text          %{L416} ; "どんな感情を持っても高嶺の花という意識が行動をためらわせ、誰もがその憧れを心の奥底に押しやっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #835
+  text          %{L417} ; "【山口】「僕にもしてよ……同じ事をさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #838
+  ldstr         "b0013"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #839
+  text          %{L418} ; "【衣澄】「な、なんのことですか……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #841
+  text          %{L419} ; "優等生のくせに物分かりの悪い衣澄が、山口の欲望に火をつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #843
+  text          %{L420} ; "衣澄の頭を押さえつけて、自分の股間にこすり付ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #845
+  text          %{L421} ; "【山口】「画像をばら撒かれたくなかったら……わかるよね？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #847
+  text          %{L422} ; "山口の言葉を聞いて、諦めたように、衣澄が山口に奉仕を始める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #848
+  ldstr         "BUP04Gu"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #850
+  ldstr         "b0168"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #851
+  text          %{L423} ; "【衣澄】「は、はい……ぺろ、れろ、こ、こんな感じですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #853
+  text          %{L424} ; "誰もが憧れる優等生が、自分の股間に顔を埋めている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #854
+  text          %{L425} ; "そのことだけで山口はすぐにイきそうになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #857
+  ldstr         "b0170"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #858
+  text          %{L426} ; "【衣澄】「あむっ、ちゅ、ちゅぶ、んむぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #860
+  text          %{L427} ; "だが、すぐに言いなりになった衣澄に対して、気持ちの良さとは裏腹に、馬鹿にされているような気になっているのも確かだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #862
+  text          %{L428} ; "【山口】「桜井さん……僕を舐めてるでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #865
+  ldstr         "b0169"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #866
+  text          %{L429} ; "【衣澄】「はい。ちゅ、ぺろ、はむぅ、れむ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #868
+  text          %{L430} ; "馬鹿にされていることが、逆に妄想にリアリズムをもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #870
+  text          %{L431} ; "【山口】「ふふふ……そうだよね……馬鹿にしてる相手に奉仕してるんだ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #872
+  text          %{L432} ; "唐突に訪れる性のカタストロフィ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #873
+  text          %{L433} ; "山口は全身を震わせて、衣澄の口の中に、全てを解き放っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #876
+  ldstr         "b0249"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #877
+  text          %{L434} ; "【衣澄】「ふぅんぐ、んぐぅ、うううう！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #879
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #881
+  text          %{L435} ; "山口は至福の妄想に身を震わせるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #883
+  callp         $$dreamin_end@KOEKOE (0) ; $dreamin_end@KOEKOE
+  line          #885
+  ldc.i         200
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #887
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $a5f15606() {
+ entry:
+  line          #889
+  argcheck      []
+  alloca        []
+  line          #890
+  text          %{L436} ; "あからさまに見下すような表情を浮かべている者もいる。教師が手を叩いて皆の注意を引き戻すまでの僅かな間、少年は狭い空間を共有する一同の視線に晒されていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #891
+  text          %{L437} ; "このような状況下に置かれた少年の多くは焦り、後悔し、恥じ入ることだろう。しかし、彼――すなわち山口ユキノリにそのような感情は一つたりとも湧いてこなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #892
+  text          %{L438} ; "良心や羞恥心が欠落しているからではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #893
+  text          %{L439} ; "ただ、こんなものとは比べようもないほどの恥辱が存在することを彼はよく知っており、そのような状況下に置かれた部活の後輩のことが頭にこびりついて離れないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #894
+  text          %{L440} ; "【山口】「（ああ……松本さん……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #895
+  text          %{L441} ; "松本璃乃は美術部に所属していて、山口の部活での後輩にあたる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #896
+  text          %{L442} ; "とはいえ幽霊部員である山口はここ数ヶ月というもの部活に顔を出しておらず、璃乃とはマトモに言葉を交わしたことすらないのが現実だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #897
+  text          %{L443} ; "しかし、だからこそ想像力が刺激され、淫らな妄想が止めどなく沸き起こる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #898
+  text          %{L444} ; "ネットにアップされていたあられもない姿の璃乃の写真、そこから連想されるありとあらゆる性的なことが、縦横無尽に脳裏を駆け巡る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #899
+  text          %{L445} ; "授業中だというのに、山口の股間は爆発寸前だった。周囲にクラスメイトがいることなど、気にもならなかった。勘付かれるかもしれないと思うと、むしろ興奮を覚えるほどだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #900
+  text          %{L446} ; "……みんなにバレたら、僕はまた虐められる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #901
+  text          %{L447} ; "でも、クラスに居場所がなくなっても、僕には部活がある。ここが辛くなったら、また部活に顔を出そう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #902
+  text          %{L448} ; "松本さんはすごくいやらしい女の子だから、変態の僕でも受け入れてくれるに違いない。小さな身体で、僕のアソコを受け入れてくれるに違いない――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #903
+  text          %{L449} ; "しかし、それは妄想の世界の中でしか起こり得ないことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #904
+  text          %{L450} ; "精液にまみれた璃乃の写真を、大きく広げられたその秘所を、エロ画像専用の掲示板で見たからといって、現実の彼女に干渉する理由にはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #905
+  text          %{L451} ; "現実の世界でリスクを犯して痛い目を見るよりも、妄想の世界で勝手気ままに遊ぶほうが幸せなのだと、山口は信じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #906
+  text          %{L452} ; "現実の世界で脅迫や強姦や監禁におよべば犯罪者として裁かれ、後ろ指をさされ続けるが、妄想の世界では殺人すら無罪なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #907
+  text          %{L453} ; "【山口】「（なんだか、また眠くなってきちゃった……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #908
+  text          %{L454} ; "最近は明け方までネットに夢中になっていることが多く、睡眠時間はほとんど取ることが出来ないのが実情だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #909
+  text          %{L455} ; "こんなに夢中になったのは、あるネットアイドルのサイト以来のことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #910
+  text          %{L456} ; "手の届きそうな距離にいる同年代の美少女のセルフプロデュースによる、アダルト系のネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #911
+  text          %{L457} ; "そこで公開されていたのは、彼が未だ目にしたことのない、なまめかしくしなやかな少女の姿態と、彼女の手による背徳的な性体験告白手記だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #912
+  text          %{L458} ; "そのサイトが更新されなくなってから、どれほどの時が経つだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #913
+  text          %{L459} ; "彼は更なる刺激を求め、ノイズの海を彷徨った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #914
+  text          %{L460} ; "しかし、どれほど過激な性描写を目にしても、どれほど可憐な少女に出会っても、あの時のように心の底から熱狂することは、彼にはもうできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #915
+  text          %{L461} ; "インターネットの閲覧は、彼の中で趣味から惰性に、惰性から作業になっていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #916
+  text          %{L462} ; "しかし、それも先日までのこと。山口はあの時の衝撃を上回るとんでもないものを見つけてしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #917
+  text          %{L463} ; "エロ画像専用のアップロード掲示板。そこで目に飛び込んできた、見慣れた名前――璃乃。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #918
+  text          %{L464} ; "最初は同名の別人に違いないと思った。あまりにも非現実的だったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #919
+  text          %{L465} ; "璃乃という名の投稿者が、『私を犯しに来て』と書き込んでいる。『私はレイプじゃないと感じない変態女子校生です』と書き込んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #920
+  text          %{L466} ; "そこには数枚の画像が添えられていた。左右に投げ出された痣だらけの細く白い太腿、その中心を覆い隠すはずの小さな布はなく、赤い媚肉が露わになっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #921
+  text          %{L467} ; "彼女の顔も写っていた。下からのアングルのため、彼の知る松本璃乃本人なのかは判然としなかったが、ツインテールに束ねられた長い髪は、美術部の後輩の松本璃乃を思わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #922
+  text          %{L468} ; "まるで小学生のような体型も相違ない。それに“彼女”は『Ｋ市Ｍ町の北斗学園に通ってます』と明言しているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #923
+  text          %{L469} ; "Ｋ市Ｍ町の北斗学園に通う、幼児体型でツインテールの松本璃乃という名の少女が、そう何人もいるだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #924
+  text          %{L470} ; "山口とて、それを投稿したのが彼女自身だと完全に信じているわけではない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #926
+  text          %{L471} ; "しかし写真の中の松本璃乃とされる少女と美術部所属一年の松本璃乃が同一人物なのは確定で、そこから導き出されるのは、"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #927
+  text          %{L472} ; "彼女が男の前で股を開き写真まで撮らせたとんでもない淫乱女だという事実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #928
+  text          %{L473} ; "そして、そんな秘密を知っているのは、撮影者を除けば僕くらいのもの――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #929
+  text          %{L474} ; "優越感が、幸せな夢を山口にもたらす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #930
+  text          %{L475} ; "ああ……、子供のように小さくて無邪気に笑う松本さんみたいな女の子にも、あんなにいやらしいモノがついてるなんて……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #933
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #934
+  ldc.i         5
+  conv.r       
+  ldstr         "ラスター用パターン"
+  callp         $$dreamin@KOEKOE (2) ; $dreamin@KOEKOE
+  line          #936
+  text          %{L476} ; "僕は松本さんのお兄さんなんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #937
+  text          %{L477} ; "それで、僕を信頼する松本さんを……僕は自分のものにするんだ……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #938
+  ldstr         "BUP06Du"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #940
+  ldstr         "f0015"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #941
+  text          %{L478} ; "【璃乃】「あ、あの……お兄ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #943
+  text          %{L479} ; "小動物のようにおびえてみせる璃乃を押し倒して、山口は服を荒々しく引きちぎった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #945
+  ldstr         "BUP06Cz"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #947
+  ldstr         "f0027"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #948
+  text          %{L480} ; "【璃乃】「いやぁ！　やめてよお兄ちゃん！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #950
+  text          %{L481} ; "【山口】「ふふふ……無防備に僕の家にくるからだよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #952
+  text          %{L482} ; "まだ幼さの残る肢体をまさぐり、全身、あますところなく口付けをする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #954
+  ldstr         "BUP06Ez"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #956
+  ldstr         "f0038"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #957
+  text          %{L483} ; "【璃乃】「あ、お兄ちゃんだめぇ……んん……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #959
+  text          %{L484} ; "【山口】「感じてるじゃないか。僕の可愛い璃乃……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #961
+  text          %{L485} ; "もうひとまわり舐めまわしたい、そんな欲望も頭を掠めたが、童貞の山口はもう我慢ができなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #962
+  text          %{L486} ; "両足を掴んで、璃乃の身体の中心に、自身の楔を打ち込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #964
+  ldstr         "f0058"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #965
+  text          %{L487} ; "【璃乃】「いっ、痛いぃぃ……！　はぁ、はぁ……くぅぅ……！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #967
+  text          %{L488} ; "目の端に涙を浮かべて、璃乃が山口を見上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #969
+  text          %{L489} ; "【山口】「ふふ……入ったよ、璃乃ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #971
+  text          %{L490} ; "山口は遠慮無しに、散らされたばかりの花弁をぐちゃぐちゃにかき混ぜる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #973
+  ldstr         "f0060"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #974
+  text          %{L491} ; "【璃乃】「はぐっ、あぁ！　いやぁ、動かないでぇ……！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #976
+  text          %{L492} ; "【山口】「痛いのかい？　でもね……ここでは僕の自由にならないことなんてないんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #977
+  text          %{L493} ; "山口が指を鳴らすと、璃乃の身体の奥底から、未経験の快楽が立ち上ってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #979
+  text          %{L494} ; "【山口】「ほおら……処女のくせに感じてきただろう？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #981
+  ldstr         "f0064"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #982
+  text          %{L495} ; "【璃乃】「いやぁ、あっ、いあぁ！　はぁ、あぁ、違う、違うも、んぁぁ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #984
+  text          %{L496} ; "首を横に振りながら、それでも璃乃は確かに感じていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #986
+  text          %{L497} ; "【山口】「淫乱だな……処女がそんなに乱れるなんて……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #988
+  ldstr         "f0065"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #989
+  text          %{L498} ; "【璃乃】「いや、いやぁ、そんなこと、なひぃっ！　あたし、ちがっ、あぁ、感じて、なぁ、あぁぁっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #991
+  text          %{L499} ; "必死に自分の高まりを否定するが、璃乃が快楽の渦に翻弄されているのは、誰の目にも明らかだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #993
+  text          %{L500} ; "【山口】「中に出してあげるよ。僕の子供を孕むんだ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #995
+  text          %{L501} ; "ぐいっと腰を突き出して、山口は璃乃の奥に、精液を吐き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #997
+  ldstr         "f0066"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #998
+  text          %{L502} ; "【璃乃】「あぁぁぁ、あぁ、はぁ、あああぁぁぁぁぁぁぁぁっっっっ！！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1000
+  text          %{L503} ; "山口の精液を胎内に感じ、璃乃も大きく身体を震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1002
+  ldstr         "f0067"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1003
+  text          %{L504} ; "【璃乃】「あっ……お兄ちゃんの、はぁ、中いっぱい……あ、ふぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1005
+  text          %{L505} ; "【山口】「ふふふ……たくさん出したよ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1007
+  text          %{L506} ; "終わって、落ち着いてみると、璃乃が恨みがましい顔で山口を見た。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1009
+  ldstr         "BUP06Gz"
+  callp         $$dreamin_top@KOEKOE (1) ; $dreamin_top@KOEKOE
+  line          #1011
+  ldstr         "f0035"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1012
+  text          %{L507} ; "【璃乃】「うっく…ひどいよお兄ちゃん……どうしてこんなことするの……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1014
+  text          %{L508} ; "【山口】「自分だって感じてた癖に……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1016
+  ldstr         "black"
+  callp         $$dreamin_back@KOEKOE (1) ; $dreamin_back@KOEKOE
+  line          #1017
+  text          %{L509} ; "山口はそっと璃乃に口付けをして、妄想の世界で遊び続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1019
+  callp         $$dreamin_end@KOEKOE (0) ; $dreamin_end@KOEKOE
+  line          #1021
+  ldc.i         200
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1023
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $80821982() {
+ entry:
+  line          #1025
+  argcheck      []
+  alloca        []
+  line          #1026
+  ldc.i         400
+  syscallp      $music_fadeout (1)
+  line          #1027
+  ldc.i         -114
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1029
+  ldstr         "BUP01By"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1030
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L510} ; "夕実……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1031
+  ldstr         "BUP01Ay"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1032
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L511} ; "夕実……夕実……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1033
+  ldstr         "BUP01Dy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1034
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L512} ; "夕実……夕実……夕実……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1035
+  ldstr         "BUP01Ey"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #1036
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L513} ; "夕実……夕実……夕実……夕実……！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1038
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #1039
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #1041
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L514} ; "ひどい寝汗をかいて俺は目を覚ました。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1043
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1044
+  text          %{L515} ; "くそっ！　やっぱり……まだ足りないんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1045
+  text          %{L516} ; "全員……全員犯らないと夕実は俺を許してくれない……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1047
+  text          %{L517} ; "残るは……"
+  proc         
+  ctrl          "p"
+  line          #1050
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #1052
+  argcheck      []
+  alloca        []
+  line          #1053
+  text          %{L518} ; "写真をアップされたのが"
+  proc         
+  ctrl          "p"
+  line          #1054
+  ldstr         "スーパーＲｉｎｏ"
+  ldstr         "いじゅみ"
+  ldstr         "みか"
+  ldstr         "あいり"
+  ldstr         "きさら"
+  call          $$select@MENU (5) ; $select@MENU
+  br.case       @block_cf95
+
+ block_cf95:
+  line          #1055
+  ldc.i         1
+  bne.case      @block_cfcb
+
+ block_cfa5:
+  line          #1056
+  callp         $c2a71eff (0)
+  line          #1057
+  callp         $21bb58fc (0)
+  br            @block_d0a1
+
+ block_cfcb:
+  line          #1058
+  ldc.i         2
+  bne.case      @block_d001
+
+ block_cfdb:
+  line          #1059
+  callp         $c2a71eff (0)
+  line          #1060
+  callp         $af345f1f (0)
+  br            @block_d0a1
+
+ block_d001:
+  line          #1061
+  ldc.i         3
+  bne.case      @block_d037
+
+ block_d011:
+  line          #1062
+  callp         $c2a71eff (0)
+  line          #1063
+  callp         $639e5f81 (0)
+  br            @block_d0a1
+
+ block_d037:
+  line          #1064
+  ldc.i         4
+  bne.case      @block_d06d
+
+ block_d047:
+  line          #1065
+  callp         $c2a71eff (0)
+  line          #1066
+  callp         $695b5698 (0)
+  br            @block_d0a1
+
+ block_d06d:
+  line          #1067
+  ldc.i         5
+  bne.case      @block_d0a1
+
+ block_d07d:
+  line          #1068
+  callp         $c2a71eff (0)
+  line          #1069
+  callp         $a5f15606 (0)
+  line          #1070
+
+ block_d0a1:
+  line          #1071
+  callp         $80821982 (0)
+  line          #1072
+  ldc.i         0
+  ret          
+}

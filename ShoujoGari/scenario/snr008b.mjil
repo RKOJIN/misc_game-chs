@@ -1,0 +1,51 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #16
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #18
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は狂ったように少女達を犯し続けていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L2} ; "心神喪失し、全身精液まみれで、口から涎を垂れ流している虚ろな瞳の少女達。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L3} ; "それでも俺はなおも狂ったように犯し続ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L4} ; "もっと徹底的にやらなければ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L5} ; "何度も何度も、少女達の膣に中出しする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L6} ; "子供が出来ようと知ったことじゃない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L7} ; "こいつらは死ぬまで俺にこうされていればいいんだ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  ldc.i         0
+  ret          
+}

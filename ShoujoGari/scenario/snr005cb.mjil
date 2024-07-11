@@ -1,0 +1,241 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #25
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #27
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "記憶に焼き付けるだけでは意味が無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L2} ; "恥辱にまみれた体験は一つでも多くの鮮明な記録として残さなければ駄目だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L3} ; "今求められているのは記憶より記録なのだ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L4} ; "無言で恐怖に打ち震えている未夏の四肢を俺は拘束した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L5} ; "それから、声をあげられないように猿轡を噛ます。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L6} ; "撮影会を叫び声で邪魔されたくはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L7} ; "邪魔が入らないようにしてから、俺は未夏の私物をゆっくりと物色することにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L8} ; "下着、参考書、漫画本、化粧品……他愛の無い物が大半だったが……やがて机の上に置かれていた携帯電話を見つけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L9} ; "最新モデルの高機能携帯電話というわけではないが、一応カメラつきだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L10} ; "撮影した画像はメールで添付すれば送信も可能。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "登録メモリを操作すると、案の定多数の友人知人の番号とアドレスが登録されている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L12} ; "よし、これを利用してやろう！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  ldstr         "ev36a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #50
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #51
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L13} ; "俺はおもむろに未夏の衣服を剥ぎ取った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L14} ; "一部は破き、一部を脱がす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L15} ; "拘束状態ではろくな抵抗もできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L16} ; "未夏はなすがまま、見る間に痴態をさらした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L17} ; "張りのある形の良い二つの肉丘と淡い乳首。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L18} ; "薄めの陰毛に覆われたピンクの秘裂。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L19} ; "小さくすぼまった紫色の菊門。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L20} ; "日頃、いや今までの人生でも他者の眼前に晒されることも視線を浴びることも無い肉体の恥部。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L21} ; "俺はそれと顔をワンセットで余すところ無く、未夏の携帯のカメラで撮影した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L22} ; "【貴城】「これで証人を作ることが出来るな。もうとぼけることも白を切ることも出来ないぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L23} ; "【貴城】「今夜の悪夢は俺とお前と、そして第３者に共有される公然の秘密になるんだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  ldstr         "d0211"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #71
+  text          %{L24} ; "【未夏】「むぅあぇぇぇぇ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L25} ; "いまひとつ事態を把握できず呆然としていた未夏だったが、携帯を操作する俺の指を見て、やっと意図を理解したらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L26} ; "懸命に絶叫しているが、猿轡がそれを言葉にすることさえ許さなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L27} ; "届かない叫びをよそに、俺は画像をメールに添付していくつかのメアドに送付した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L28} ; "未夏の痴態はこれで公然の秘密として完成したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #79
+  ldstr         "d0212"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #80
+  text          %{L29} ; "【未夏】「うんぁぁぁぁぁぁぁぁぁぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L30} ; "送信完了を告げる電子音。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L31} ; "それが未夏にとっての死亡宣告となった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  ldc.i         700
+  ldstr         "ev36b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #86
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #88
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L32} ; "身体を大きく仰け反らし、猿轡にさえぎられて声にならない絶叫をあげて、未夏はショックで気を失った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L33} ; "力なく崩れる未夏の肉体。だらしなく広げた股間には粘液が滴っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L34} ; "【貴城】「晒し者になって感じてるとは変態女だな。他の奴に見られて幸せ一杯だろう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L35} ; "俺は自身の成果に満足して、部屋を後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #97
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #99
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #101
+  argcheck      []
+  alloca        []
+  line          #102
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #103
+  ldstr         "bg03n2"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #104
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #105
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $$main@GLOBAL (0) ; $main@GLOBAL
+  line          #106
+  ldc.i         0
+  ret          
+}

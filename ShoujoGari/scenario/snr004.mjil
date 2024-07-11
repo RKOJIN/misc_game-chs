@@ -1,0 +1,646 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #10
+  argcheck      []
+  alloca        []
+  line          #13
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #14
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #15
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #17
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "ＵＰロード完了。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #18
+  text          %{L2} ; "パソコンのディスプレイに表示されたその文字をみて俺は満足げに１人笑みを浮かべた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L3} ; "復讐の標的である５人目の写真を画像アップローダー掲示板にアップしたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L4} ; "計画は順調そのもの、俺の目的は達成されつつある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #25
+  text          %{L5} ; "と、室内で１人優越感に浸りっていると沈黙を破るように電話の呼び出し音が鳴り響いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #28
+  text          %{L6} ; "【貴城】「はい、長瀬です」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L7} ; "至福の一時を妨害する無粋な電話に不満を覚えつつも、俺は受話器を取った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L8} ; "時間的に見てどうせいつもの悪戯電話だろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L9} ; "適当にあしらって早々に終らせてやろうという目算だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L10} ; "そして予想通り……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  ldstr         "e0022"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #38
+  text          %{L11} ; "【？？？】（夕実）「あなたにされたことが、忘れられない。殺してやりたいほど憎んでいる。でも、あの時のことを忘れさせてくれたら、あなたを殺さずに済むかも知れない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L12} ; "電話の向こうの少女の声が、怒りの篭った押しつぶした声で呪詛のように囁くのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L13} ; "懸命に記憶の糸を辿って声から相手を特定しようと試みる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L14} ; "だが、押し殺した声では誰だかいまひとつ判然としない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L15} ; "やむなく俺は怒りを込めて怒鳴り返した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L16} ; "【貴城】「ふざけるな、俺を脅迫できる立場だと思うな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L17} ; "イニシアチブを握っているのは俺だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L18} ; "支配者は俺なんだ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L19} ; "深夜の悪戯電話ごときでこの関係が逆転できるわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L20} ; "しかし、俺の言葉に対しても相手はまったく動揺する気配すらないまま、冷淡な声で応えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  ldstr         "e0023"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #56
+  text          %{L21} ; "【？？？】（夕実）「ふざけているのは貴方でしょ？　本当に自分の立場がわかっているの？　自分のしている事を理解しているの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L22} ; "【貴城】「俺はいたって冷静さ。自分の立場も、していることも、そしてこれからすべきことも全部判ってる。誰にも止められないし、止める権利も無いんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L23} ; "【貴城】「こんな電話ごときでは何も変えられやしない！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L24} ; "それから、怒りに任せて俺は受話器を叩きつけて電話を切った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L25} ; "暖簾に腕押しのような相手の飄々とした態度が怒りを倍増させているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #67
+  text          %{L26} ; "にもかかわらず、そんな俺をあざ笑うかのようにまた電話の呼び出し音が鳴り響いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #70
+  text          %{L27} ; "【貴城】「お前と話すことなんて何もない！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L28} ; "俺は受話器を取ると大声で怒鳴りつけて、相手の声を聞くことも無いまま受話器を叩きつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  ldc.i         1
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (2) ; $user_sound@KOEKOE
+  line          #76
+  text          %{L29} ; "それでもまたすぐに電話のベルが鳴る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L30} ; "リダイヤルですかさず掛けなおしているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L31} ; "ここで相手をすればつけあがるだけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #81
+  text          %{L32} ; "俺は今度は受話器を持ち上げてすぐに電話をきった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  ldc.i         1
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (2) ; $user_sound@KOEKOE
+  line          #84
+  text          %{L33} ; "それでもまた電話のベルが鳴り響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L34} ; "あとはその繰り返しだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #88
+  text          %{L35} ; "切る、掛かる、切る……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L36} ; "いつ終るかさえ予想できない、深夜の不毛なやり取り。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L37} ; "その連鎖を断ち切るために、俺は電話線を掴むとモジュラージャックから引き抜いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L38} ; "ざまあみろ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L39} ; "これで俺の完全勝利だ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L40} ; "こんな電話程度で俺が動揺するわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L41} ; "何も変わらない……何も！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #100
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #102
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L42} ; "そして数日後。俺は郵便受けに投げ込まれた一通の手紙をみつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L43} ; "この家に手紙など届くことはめったにない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L44} ; "時々、つまらないチラシと請求書が届く程度だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L45} ; "俺宛への手紙など入っていた試しが無い。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L46} ; "それだけに、俺の名前が宛名に書かれたその封書は一目で目についた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L47} ; "ひっくり返して裏の差出人を確認して、俺は凍りついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  syscallp      $music_stop (0)
+  line          #113
+  text          %{L48} ; "そこに書かれていた名前は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L49} ; "長瀬夕実………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L50} ; "長瀬……夕実………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L51} ; "長……瀬…………夕実………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #123
+  text          %{L52} ; "ありえない！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L53} ; "それはありえない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L54} ; "ありえるはずのない死者からの手紙だった……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L55} ; "動悸が激しく高鳴り、手紙を握る手に震えが走る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L56} ; "無我夢中で封筒を破くと、俺は震える手でもどかしい思いをしながら、中の便箋を引っ張り出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L57} ; "プリンターで印刷されたらしき文字が並んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  ldstr         "e0024"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #135
+  text          %{L58} ; "【手紙】「『お兄ちゃんごめんなさい。私を許して。私の気持ちは分かってるでしょ？』」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L59} ; "便箋には短く、それだけが書かれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L60} ; "………夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L61} ; "……………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L62} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L63} ; "こ、これは………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L64} ; "これは………よくも、よくも！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L65} ; "端的な文章で俺の動揺を誘おうとする罠だ！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L66} ; "俺を裏で陥れて抹殺しようとする策略だ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  text          %{L67} ; "夕実を騙り、遺族の心を踏みにじって俺を翻弄し、支配する側に回ろうと企んでいるんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #150
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #152
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L68} ; "手紙を握り締めたまま、怒りに打ち震えつつ、俺は自分の部屋へと戻る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L69} ; "誘蛾灯に引き寄せられる蛾のように電話のモジュラージャックを元に戻した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L70} ; "俺は動揺なんてしていない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L71} ; "俺はこんな姑息な手には騙されない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L72} ; "悪戯電話だろうと不幸の手紙だろうと、真っ向から受け止めてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  ldc.i         1
+  ldstr         "se0708"
+  callp         $$user_sound@KOEKOE (2) ; $user_sound@KOEKOE
+  line          #162
+  text          %{L73} ; "するとまるでどこかで監視していたのかのように電話のベルががけたたましく鳴り響いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L74} ; "それは新たな人生を与えられた、赤子の産声を連想させた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L75} ; "しかし、ここでうろたえれば相手の思う壺だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L76} ; "冷静に冷酷に、そして慎重に相手の策略に立ち向かわなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L77} ; "俺は大きく息を吸い込み、呼吸と動悸を抑えると、意を決して受話器をとった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #172
+  text          %{L78} ; "【貴城】「……はい、長瀬です」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L79} ; "あくまで日常的に電話に出たように装う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L80} ; "くだらない悪戯電話など、まったく意に介していないということを相手にわからせなくては。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L81} ; "そして予期した通り、電話はまた例の悪戯だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  ldstr         "e0025"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #180
+  text          %{L82} ; "【？？？】（夕実）「お兄ちゃん、ひどいよ……どうして私を拒絶するの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L83} ; "【貴城】「一晩中鳴らされては迷惑だからな。寝る時は鳴らないようにしてるだけさ。おかげでセールスの電話も掛かってこないし、快適だよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  ldstr         "e0026"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #185
+  text          %{L84} ; "【？？？】（夕実）「……そんな、私と話すのがそんなに嫌なの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L85} ; "だが、今回はいつもと異なり、受話器から聞こえる少女の声は涙に曇っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  ldstr         "e0027"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #190
+  text          %{L86} ; "【？？？】（夕実）「お、おにいちゃん……わ、私のこと……私のこと嫌いになった？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #192
+  text          %{L87} ; "夕実……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L88} ; "嗚咽まじりに聞こえてくるその声は紛れもなく、愛する夕実のものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L89} ; "いや。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  text          %{L90} ; "ありえない、ありえない、ありえない！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L91} ; "そんなことは絶対に！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L92} ; "絶対にありえない。夕実の真似をしているだけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L93} ; "声色を使って装っているだけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L94} ; "夕実はもう居ない。夕実はもう居ない……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #203
+  text          %{L95} ; "絶対にこれは誰かの策略だ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L96} ; "【貴城】「やめろ、やめろ、やめろぉぉぉぉぉぉぉ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L97} ; "絶叫に近い叫びをあげて受話器を叩き付けると、俺は激しい嘔吐感に襲われてそのままトイレに駆け込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #211
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L98} ; "【貴城】「うげぇぇぇぇぇぇぇぇぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L99} ; "胃が痙攣して内容物が便器にぶちまけられる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #214
+  text          %{L100} ; "食道を焼くような痛みが走り、涙が滲む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L101} ; "クソ、クソ、クソォォォォォォォ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L102} ; "いつまでも遺族の心を踏みにじって笑っていられると思うなよ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #219
+  text          %{L103} ; "絶対に己の愚考を後悔させてやる。地獄の苦痛を与えてやる！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #221
+  text          %{L104} ; "あの程度では懲りないというのならば、廃人になるまで犯してやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L105} ; "社会的に抹殺することも厭わない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  text          %{L106} ; "どの道、俺は既に犯罪者だ。後戻りはできないんだ！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L107} ; "俺の夕実はもうこの世にはいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L108} ; "俺の愛した夕実は、もうどこにもいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  text          %{L109} ; "二度と会えない。無くして惜しいものなどない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #230
+  text          %{L110} ; "やつらが裏で俺を嘲笑っているなら、徹底的に潰してやる！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #232
+  text          %{L111} ; "次のターゲットは誰にする？"
+  proc         
+  ctrl          "p"
+  line          #243
+  ldc.i         0
+  ret          
+}

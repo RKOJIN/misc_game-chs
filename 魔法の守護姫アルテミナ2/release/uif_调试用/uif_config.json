@@ -15,7 +15,7 @@
   "font_manager": {
     "enable": true,
     "resource_files": [
-      "delta_Mahou_font_tra.ttf"
+      "delta_Mahou_font.ttf"
     ],
     "spoof_enumeration": {
       "enable": false,

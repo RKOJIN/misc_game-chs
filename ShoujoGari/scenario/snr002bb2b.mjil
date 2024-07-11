@@ -1,0 +1,1202 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #29
+  ctrl          "w"
+  line          #30
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #31
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #32
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #33
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #35
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は背後から愛梨に抱きついて体を押さえ込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  ldstr         "a0114"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #38
+  text          %{L2} ; "【愛梨】「ひっ！　な、なにを！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L3} ; "突然のことに悲鳴をあげて抵抗する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L4} ; "だが、人影の無い公園の中心部ではその叫びは誰にも届かない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L5} ; "【貴城】「お前、痴漢されて感じていたよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  ldstr         "a0115"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #46
+  text          %{L6} ; "【愛梨】「馬鹿なことを……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L7} ; "【貴城】「馬鹿なことを言うなってか？\nじゃあ俺の手に染み付いてるこの匂いはなんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L8} ; "俺は乱暴に全身を拘束しながら先ほど電車の中で下半身を弄んだ掌を、愛梨の端正な鼻に擦りつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L9} ; "滴り落ちるほどの愛液をたっぷりと吸った手は独特のメス臭を放っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L10} ; "自然乾燥させただけに、匂いの強さもひとしおだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  ldstr         "a0116"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #57
+  text          %{L11} ; "【愛梨】「んっうううぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L12} ; "自身の淫蜜の匂いを嗅がされて、愛梨は嫌悪感丸出しの声をあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L13} ; "それでも俺は許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L14} ; "鼻が潰れそうになるほど掌を押しつけ続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  ldstr         "BUP03Bu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #65
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0117"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #66
+  text          %{L15} ; "【愛梨】「や、やめて……ください。誤解です……人を呼びますよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L16} ; "愛梨は堪え切れず、強引に振り解こうとする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L17} ; "それを力づくで制して、俺は言葉を続けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L18} ; "【貴城】「呼びたければ呼ぶがいいさ。お前を痴漢した俺が逮捕されれば、痴漢行為でお前が感じていたことも証明されるわけだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L19} ; "【貴城】「裁判で痴漢された時の光景をこと細かく聞かれて、お前はそれを衆目の前で自分の口で語らなければいけないんだ。それができるのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #77
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0118"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #78
+  text          %{L20} ; "【愛梨】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L21} ; "脅迫は完全に成功した。抵抗していた愛梨の身体から、魂が抜け落ちて人形になったかのように力が抜ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L22} ; "【貴城】「ようやく自分がどれだけ恥ずかしい変態女だか自覚できたようだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  ldstr         "a0119"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #85
+  text          %{L23} ; "【愛梨】「そ、そんな……違います！　誤解です。私は……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L24} ; "【貴城】「じゃあ人を呼んでみろよ。認めてるからこそ、悲鳴をあげないでいるんじゃないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  ldstr         "a0120"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #90
+  text          %{L25} ; "【愛梨】「それは……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L26} ; "【貴城】「いくら誤魔化したって証拠がここにあるんだよ！　くせぇ匂いがたっぷりと染み付いてるぜ。トイレでちゃんと拭いてるのか！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  ldstr         "BUP03Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #96
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0121"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #97
+  text          %{L27} ; "【愛梨】「やめて……おねがい、やめてください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L28} ; "自身のメス臭を嗅がされ、自身の性癖を指摘されることに耐え切れず、愛梨は顔をそむけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L29} ; "【貴城】「お前のメス豚のような破廉恥な性癖を俺がこれから満たしてやるぜ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L30} ; "ナイフを取り出して、愛梨の喉元に突きつける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L31} ; "【貴城】「さぁ、そこのトイレの個室へ入れ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #108
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #110
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "a0122"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #111
+  text          %{L32} ; "【愛梨】「えっ！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L33} ; "【貴城】「この距離で聞こえないって事は無いだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  ldstr         "a0123"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #116
+  text          %{L34} ; "【愛梨】「わ、わかり、わかりました……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  ldstr         "bg02n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #119
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #120
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #122
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L35} ; "俺はそのまま公園の公衆トイレの個室へと愛梨を連れ込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  ldstr         "a0124"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #125
+  text          %{L36} ; "【愛梨】「殺さないで……殺さないでください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L37} ; "どうやら愛梨は自分がこれから処刑されると思っているらしい。もっとも、俺は処刑より辛い思いをさせるつもりだが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L38} ; "夕実への償いはそれでも足りないくらいだ。徹底的に堕としめて、一生消えない心の傷を与えた上で、辛い人生を歩ませてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L39} ; "死という安易な解放など許さない。死という安易な安らぎなど与えない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L40} ; "人として女として最も辛く忌まわしい記憶を焼き付けて、それを背負わせ、生きさせてやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L41} ; "公園を見るたびに、男を見るたびに、そして夜の闇を見るたびに、この記憶を呼び覚まして打ち震えるがいい！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L42} ; "【貴城】「死にたくないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  ldstr         "a0125"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #140
+  text          %{L43} ; "【愛梨】「死にたくないです……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L44} ; "便所の床に膝をついて、神に祈るシスターのように愛梨は懇願した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L45} ; "そんな彼女の正面へと回り込むと、俺は全能の神を演ずるかのように尊大な態度で愛梨の頬をナイフで撫でた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #147
+  ldstr         "a0126"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #148
+  text          %{L46} ; "【愛梨】「ぅっぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  text          %{L47} ; "冷たい刃の感触に小さくうめく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #152
+  text          %{L48} ; "ほんの少し、ほんのちょっぴり力を加えでもすれば少女の端正な肌に無残な傷が出来上がることだろう。鏡を見るたびに今晩のことを思いださせてやるのも悪くない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L49} ; "だが、冷静に考えるならそれは愚策だ。顔を切り裂けば、警察が黙っていない。本人が口を閉ざしても、家族が確実に通報するだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L50} ; "消えない傷をくれてやりたいのはやまやまだが、傷は本人の心の奥深く、誰にも見えず、誰にも癒せない位置に刻むのが得策だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L51} ; "【貴城】「なんでも言うことを聞く……そうだったな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  ldstr         "a0127"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #161
+  text          %{L52} ; "【愛梨】「はい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L53} ; "【貴城】「じゃあ、俺に奉仕しろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  ldstr         "a0128"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #166
+  text          %{L54} ; "【愛梨】「え！？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L55} ; "【貴城】「その胸で俺に奉仕しろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L56} ; "俺はズボンから肉棒を取り出すと愛梨の眼前に突きつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L57} ; "そこでようやく言葉の意味を理解したのだろう。恐怖に染まった顔に恥辱の色が立ちこめる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L58} ; "しかし、拒絶する選択権は無い。愛梨は小さく頷くと、上半身の衣服を脱ぎはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #177
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #179
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L59} ; "下着姿になると巨乳がより一層際立つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L60} ; "ブラジャーに包まれた張りのある胸は形も整っていて、見ているだけでも男の本能を刺激する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L61} ; "ホックに手を掛けて外すと拘束されていた胸の肉が解放されて大きく揺れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  ldstr         "ev19a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #185
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #187
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L62} ; "一連の動作を眺めているだけで俺の肉棒は固くそそり立っていた。愛梨はをそれを恐る恐る掴むと自分の巨乳に挟んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L63} ; "胸による圧迫感が竿全体に伝わる。下手な膣よりはるかに心地良い。擦れる肉の感触と愛梨の鼓動が肉棒全体に広がった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L64} ; "【貴城】「いい乳をしてるな！　お前は男に奉仕するために生まれてきた女だな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  ldstr         "a0129"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #194
+  text          %{L65} ; "【愛梨】「そ、そんな……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  text          %{L66} ; "【貴城】「ほめてやってるんだ、感謝しろよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  ldstr         "a0130"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #199
+  text          %{L67} ; "【愛梨】「……ありがとうございます」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  text          %{L68} ; "【貴城】「さあ、もっと胸を動かせ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #203
+  ldstr         "a0131"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #204
+  text          %{L69} ; "【愛梨】「はい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L70} ; "愛梨はやむなく指示に従って自分で両胸を持ち上げると懸命に肉棒をしごいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L71} ; "すべすべとした柔らかい肉の感触が肉棒を刺激する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  text          %{L72} ; "【貴城】「いいぞ、その調子だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L73} ; "愛梨の巨乳に俺の肉棒は完全に馴染んでいった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L74} ; "【貴城】「次は口で先っぽにも奉仕しろ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  ldstr         "a0132"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #216
+  text          %{L75} ; "【愛梨】「それは……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L76} ; "【貴城】「これだけで俺が満足すると思ってるのか？　覚悟を決めて真面目に尽くしたほうがいいぞ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  ldstr         "a0133"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #221
+  text          %{L77} ; "【愛梨】「わかりました……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  ldc.i         700
+  ldstr         "ev19c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #224
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #226
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L78} ; "抵抗を示した愛梨もやっと自分の置かれた立場とこれからの運命に対して覚悟が決まったようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L79} ; "小振りの形の良い唇が開くと亀頭をパクリと咥えこんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  ldstr         "a0134"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #230
+  text          %{L80} ; "【愛梨】「ちゅぅ、ちゅうぱぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #232
+  text          %{L81} ; "舌と唾液の暖かい感触が先端に広がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #233
+  text          %{L82} ; "竿を包む胸の弾力と口の感覚が絶妙な快感を作り出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #235
+  ldstr         "a0135"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #236
+  text          %{L83} ; "【愛梨】「んっちゅ、むっちゅうっむっちゅるぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #238
+  text          %{L84} ; "肉棒を舐めまわす淫らな音が夜のトイレの個室の中に木霊する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L85} ; "よく見れば愛梨の乳首は明らかに硬直し、自身の行為に興奮していることが伺えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  ldstr         "a0136"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #242
+  text          %{L86} ; "【愛梨】「んっむ、むっちゅ、じゅるぅちゅっぷぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #244
+  text          %{L87} ; "恐怖に蒼白だった愛梨の顔も次第に紅潮して、恥辱と官能の気配を見せ始める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #246
+  text          %{L88} ; "どこの馬の骨とも分からない、頭のおかしな異常犯罪者に脅迫されて、深夜の公衆トイレでのパイズリとフェラの奉仕。それが愛梨の自虐的な感性を刺激しているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #248
+  text          %{L89} ; "元々が痴漢をされることに酔いしれて絶頂しているような少女なのだ。恐怖が官能にかわったのは当然のなりゆきなのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #250
+  ldstr         "a0137"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #251
+  text          %{L90} ; "【愛梨】「んっむ、むっちゅう、ちゅぱぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #253
+  text          %{L91} ; "愛梨は恍惚とした目をして、肉棒をしゃぶり、それを挟む乳房を動かしつづけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #255
+  ldstr         "a0138"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #256
+  text          %{L92} ; "【愛梨】「ちゅっぱ、ちゅるぅ、んっむ、んっむちゅうっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #258
+  text          %{L93} ; "絡みつく舌と擦れる胸。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L94} ; "断続的に続く刺激に、俺の快感も一気に高まる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #260
+  text          %{L95} ; "肉棒はびくびくと射精を求めていきりたった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #262
+  text          %{L96} ; "【貴城】「ほうら、ご褒美だ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #264
+  ldstr         "a0139"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #265
+  text          %{L97} ; "【愛梨】「ちゅっぱぁ、うぷぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #268
+  ldstr         "ev19d"
+  callp         $3706a555 (1)
+  line          #270
+  text          %{L98} ; "俺は熱い欲望のたぎりを愛梨の口の中に放出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L99} ; "昂ぶりを一気に放出された精液は容赦なく愛梨の口中を満たしていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #273
+  text          %{L100} ; "苦しげに顔をそむけようとするが、俺は愛梨の頭を両手で固定し、それを許さなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #274
+  text          %{L101} ; "どくどくと発射される精液を愛梨は口に受けとめつづける。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #276
+  ldstr         "a0140"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #277
+  text          %{L102} ; "【愛梨】「うっくぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #279
+  text          %{L103} ; "愛梨は精液に口の中を汚されて、ショックに唖然としたまま小さくうめいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  text          %{L104} ; "だが、一度の発射程度では俺は収まらない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #282
+  text          %{L105} ; "このいやらしい胸と身体をもっと貪ってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #284
+  text          %{L106} ; "【貴城】「よし、今度はお前の下の口を味見してやろう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #286
+  ldstr         "a0141"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #287
+  text          %{L107} ; "【愛梨】「う……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #289
+  ldstr         "ev18a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #290
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #292
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L108} ; "脱力状態で床に座り込んでいた愛梨を強引に立たせて、便器に手をつかせ、尻をこちらへ向けさせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  text          %{L109} ; "パンティとスカートを同時にずり下げて、秘部を露にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #295
+  text          %{L110} ; "予想通り、愛梨の陰毛も秘部も愛液まみれで、ぬめぬめと個室の薄暗い電灯の光に反射する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #297
+  text          %{L111} ; "【貴城】「くくく……思ったとおりだぜ。ご奉仕で下のお口から涎が出てるじゃないか。欲しくて欲しくて、たまらないんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  ldstr         "a0142"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #300
+  text          %{L112} ; "【愛梨】「ち、ちが、はぅぅっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #302
+  ldc.i         700
+  ldstr         "ev18b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #303
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #305
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L113} ; "反論を許さず、俺は尻を掴むと肉棒を一気に挿入した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #306
+  text          %{L114} ; "前戯で馴染ませていたわけでもないのに、愛梨の膣は簡単に肉棒を受け入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #308
+  ldstr         "a0143"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #309
+  text          %{L115} ; "【愛梨】「はっ、あっあっぅっぁっはぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  text          %{L116} ; "膣壁を押し広げて、肉棒は子宮を目指し押し進む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #312
+  text          %{L117} ; "愛梨の全身が激しく震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #314
+  ldstr         "a0144"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #315
+  text          %{L118} ; "【愛梨】「うっくぅ、ふぅっあっぁっぁぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #317
+  text          %{L119} ; "嫌がりつつも快感の誘惑に肉体が反応してしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #318
+  text          %{L120} ; "膣壁を肉棒が擦る度に、愛梨は大きく喘ぎ声を出しては自ら尻を振った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #320
+  ldstr         "a0145"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #321
+  text          %{L121} ; "【愛梨】「はぁっあっ、あっふぅ、んっぁっあああ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #323
+  text          %{L122} ; "膣は愛液が溢れ、肉棒と太股を伝って滴り落ちる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #324
+  text          %{L123} ; "俺が腰を打ちつけるたびに、大きな胸が下に向かってぶるぶると揺れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #326
+  text          %{L124} ; "それを両手で鷲掴みにして、さらに強く捻るように突き上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #328
+  ldstr         "a0146"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #329
+  text          %{L125} ; "【愛梨】「うっぁ、ふぅくっぅ、あっあっああっぁっうぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #331
+  text          %{L126} ; "愛梨は膣と子宮を突き上げられる快感に完全に酔っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #333
+  text          %{L127} ; "【貴城】「どうだ？　気持ちいいか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #335
+  ldstr         "a0147"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #336
+  text          %{L128} ; "【愛梨】「んっあ、あっあっああぁぁっいっあ、ぃぃっぁっああ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #338
+  text          %{L129} ; "やがて膣壁が収縮して肉棒を圧迫しはじめる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #339
+  text          %{L130} ; "膝がガクガクと震えて、その振動で胸が揺れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #340
+  text          %{L131} ; "愛梨は快楽の虜となって絶頂へと向かっているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #342
+  ldstr         "a0148"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #343
+  text          %{L132} ; "【愛梨】「いっ、ひぃっぁっああっくぅ、っぅっあああ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #345
+  text          %{L133} ; "公衆トイレの深夜の個室で、暴漢に背後から突かれて犯される。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #346
+  text          %{L134} ; "自虐的な性癖の少女の官能が燃え上がるには、最良のシチュエーションだったのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #348
+  ldstr         "a0149"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #349
+  text          %{L135} ; "【愛梨】「あっあっあ、ぁぁぁっひぃ、ぃっあっあっ、あっふぅ、あっいいっぁぁぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #351
+  text          %{L136} ; "【貴城】「もっと突いてほしいのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #353
+  ldstr         "a0150"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #354
+  text          %{L137} ; "【愛梨】「うっ、うっくぅ、んっぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #356
+  text          %{L138} ; "【貴城】「正直に言うんだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #358
+  ldstr         "a0151"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #359
+  text          %{L139} ; "【愛梨】「うっ、あっぁっ、ぃいいっ、もっと、ついてぇぇぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #361
+  text          %{L140} ; "遂に愛梨は本性を露にして、本音をこぼした。犯される快感に酔いしれている事実を認め、俺に背後から突かれることを懇願したのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #363
+  text          %{L141} ; "【貴城】「淫乱のメス豚め！！　お前は犯されて喜ぶメス豚だ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #365
+  ldstr         "a0152"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #366
+  text          %{L142} ; "【愛梨】「は、はい……あっ、あっふ、メス、あっあっぁっ……メス豚です……あっ、あっあああっひぃぃぃぅっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #368
+  text          %{L143} ; "自身で認めることで、愛梨の理性は完全に消失した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #369
+  text          %{L144} ; "便器を掴む手に力を込めると、より一層貪欲に肉棒の侵入を求めて自ら激しく尻を振った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #371
+  text          %{L145} ; "俺はフィニッシュを目指して、それに応えるように捻りを加えて愛梨の膣をかき混ぜる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #373
+  ldstr         "a0153"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #374
+  text          %{L146} ; "【愛梨】「ひぃっいいい、あっひぃ、いいっ、ああっいいいっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #376
+  text          %{L147} ; "突き上げて、広げて、貪るように擦りあげる肉棒。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #377
+  text          %{L148} ; "失禁したかのように溢れ出る愛液。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #378
+  text          %{L149} ; "快感に倒錯した肉体が本能のまま、欲望を剥き出しにする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #380
+  ldstr         "a0154"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #381
+  text          %{L150} ; "【愛梨】「あっひ、いっは、っいっぁぁっああっあっああぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #383
+  text          %{L151} ; "俺は大きく揺れる胸を掴みながらそれをこねるように揉みあげて腰を振りつづけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #385
+  ldstr         "a0155"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #386
+  text          %{L152} ; "【愛梨】「ふぅっあ、あっぁぁぁっあああ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #388
+  text          %{L153} ; "捻ねって広げれば広げるほど、膣壁は俺の肉棒を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #389
+  text          %{L154} ; "その感触に刺激されて射精欲が高まっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #399
+  ldc.i         0
+  ret          
+}
+
+func $18366439() {
+ entry:
+  line          #400
+  argcheck      []
+  alloca        []
+  line          #404
+  text          %{L155} ; "俺はそのまま胸を掴んで体重を預けるようにして肉棒を深く突き入れ、一気に発射した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #407
+  ldc.i         700
+  ldstr         "ev18c"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #408
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "ev18c"
+  callp         $3706a555 (1)
+  line          #409
+  ldstr         "a0156"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #410
+  text          %{L156} ; "【愛梨】「ひぃぁぁぁっぁっああああ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #412
+  text          %{L157} ; "同時に絶頂した愛梨が全身を激しく震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #413
+  text          %{L158} ; "収縮した膣内へ熱い精液が流し込まれていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #415
+  ldstr         "a0157"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #416
+  text          %{L159} ; "【愛梨】「ふぅっぁぁぁっぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #418
+  text          %{L160} ; "体内に広がる感触を愛梨も感じてうめき声を漏らす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #419
+  text          %{L161} ; "肉棒を拒むように尻を振って抜こうとするが俺は許さない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #421
+  text          %{L162} ; "根こそぎ愛梨の膣へ、子宮へと注ぎ込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #422
+  text          %{L163} ; "やがて脱力した愛梨は個室の床へと崩れ落ちる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #424
+  text          %{L164} ; "ようやく肉棒が抜けてそこから愛液にまじった精液がドロドロと滴り落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #427
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #428
+  argcheck      []
+  alloca        []
+  line          #431
+  ldstr         "a0158"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #432
+  text          %{L165} ; "【愛梨】「ひぃぁぁぁっぁっああああ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #434
+  text          %{L166} ; "絶頂した愛梨が全身を激しく震わせせると俺は肉棒を引き抜いて愛梨の尻と背中へ精液をぶちまけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #437
+  ldc.i         700
+  ldstr         "ev18d"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #438
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "ev18d"
+  callp         $3706a555 (1)
+  line          #439
+  text          %{L167} ; "ドクドクと熱いたぎりが愛梨の全身へと広がっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #441
+  ldstr         "a0159"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #442
+  text          %{L168} ; "【愛梨】「ふぅっぁぁぁっぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #444
+  text          %{L169} ; "精液に侵食される感触にうめき声を漏らして拒むように尻を振る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #445
+  text          %{L170} ; "だが、俺は余すことなく愛梨の全身にかけつづけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #447
+  ldstr         "a0160"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #448
+  text          %{L171} ; "【愛梨】「うっぁっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #450
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #451
+  argcheck      []
+  alloca        []
+  line          #453
+  callp         $c2a71eff (0)
+  line          #454
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_3ea5
+
+ block_3ea5:
+  line          #455
+  ldc.i         1
+  bne.case      @block_3ecb
+
+ block_3eb5:
+  line          #456
+  callp         $18366439 (0)
+  br            @block_3eef
+
+ block_3ecb:
+  line          #457
+  ldc.i         2
+  bne.case      @block_3eef
+
+ block_3edb:
+  line          #458
+  callp         $96b963da (0)
+  line          #459
+
+ block_3eef:
+  line          #460
+  ldc.i         0
+  ret          
+}
+
+func $e30714e6() {
+ entry:
+  line          #462
+  argcheck      []
+  alloca        []
+  line          #464
+  callp         $c2a71eff (0)
+  line          #465
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_3f43
+
+ block_3f43:
+  line          #466
+  ldc.i         1
+  bne.case      @block_3f69
+
+ block_3f53:
+  line          #467
+  callp         $18366439 (0)
+  br            @block_3f8d
+
+ block_3f69:
+  line          #468
+  ldc.i         2
+  bne.case      @block_3f8d
+
+ block_3f79:
+  line          #469
+  callp         $96b963da (0)
+  line          #470
+
+ block_3f8d:
+  line          #471
+  ldc.i         0
+  ret          
+}

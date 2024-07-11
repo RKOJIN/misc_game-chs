@@ -1,0 +1,895 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #14
+  argcheck      []
+  alloca        []
+  line          #32
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #33
+  ldc.i         -10029
+  ldstr         "bg09n"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #35
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "まるで、心臓を鷲づかみにされたようだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L2} ; "頭の中を少女達のセリフがぐるぐるとリフレインする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L3} ; "『……それにしても、長瀬のやつ、マジムカツク！　何よ、あのヤリマンブス！』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L4} ; "『どうせ、学校では誰にも相手にされなくなったから、相手を探してインターネットに変な写真を載せてるんでしょ。あいつ、馬鹿じゃないの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L5} ; "信じたくなかった。言葉の意味を理解したくなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L6} ; "なぜなら、俺の夕実はそこらのアイドルなんて話にならないほど可愛かったし、夕実の初めての相手は俺だったし、夕実は俺だけを愛してくれてたから、"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L7} ; "ヤリマンブスだなどと陰口を叩かれるようなことは有り得ない。断じて。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L8} ; "だからこの話は夕実と別の名字が同じだけの夕実とは関係のない長瀬さんのことで俺の夕実は関係なくてだって夕実は俺だけの夕実は俺だけのものだから……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L9} ; "『夕実ちゃんは少し頭がおかしいのよ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L10} ; "『体もおかしいのは確かだわ。人が来そうな場所でアブノーマルなＨをしてたみたいだし……、あんな写真に釣られる男の気が知れないけれど』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "『でも、相手の男って毎回変わってたみたいだったよね。長瀬さんなんかとしたがる人っているんだ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L12} ; "『穴があれば長瀬でもいいんじゃない？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L13} ; "『それにしても……、私たちの学校の制服って、特徴があるでしょ。制服を着たままＨして、その写真をネットで堂々と公開するなんて、神経を疑うわ』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L14} ; "『ホント。あたしたちまでもが長瀬なんかの同類だと思われたら、すっごく迷惑よね！』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L15} ; "『どうせ、わざとに決まってるわ。あたしたちの評判が悪くなるように、制服でＨしてる写真をわざと出したのよ！』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L16} ; "『そういえば……、あのホームページのことが話題になったのって、夕実ちゃんが学校に来なくなってからのことだものね』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L17} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L18} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  text          %{L19} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  ldstr         "se0201"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #55
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #56
+  text          %{L20} ; "あああ？　ふざけるなよ、おまえら！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #58
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #59
+  text          %{L21} ; "頭がおかしいのはどう考えても誰が見てもおまえらだろ妄言を吐き散らすヒステリー豚めが露出狂ってなんだよおまえら俺の夕実とヤッたことあるのかよ"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  ldstr         "se0201"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #61
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #62
+  text          %{L22} ; "俺の夕実の趣味を捏造すんじゃねえぞダボがぁ大体よお白昼堂々と路上で他人をネタに大声で猥談に興じてるやつは露出狂じゃねえのかよっつーか"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  ldstr         "se0201"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #64
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #65
+  text          %{L23} ; "どう考えてもてめえらのほうが露出狂のガイキチだろこの腐れメス豚どもが俺の可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い可愛い夕実に"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #67
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #68
+  text          %{L24} ; "嫉妬してゲスな捏造くれてんじゃねえよこの腐れ豚人の皮を被った僻み豚"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #70
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #71
+  text          %{L25} ; "人間に嫉妬するメス豚メス豚メス豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚豚あああああ！！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  ldstr         "se0224"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #73
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #75
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #79
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L26} ; "明かりの消えた暗い部屋に、鈍い音が響く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #81
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #82
+  text          %{L27} ; "何度、壁を殴ったかは分からない。俺の手はすりむけ、傷口からは血が溢れ出していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #84
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #85
+  text          %{L28} ; "しかし、痛みは感じなかった。もっと血を流したかった。心の痛みに比べれば、こんな傷などなきに等しい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L29} ; "……俺の妹の夕実は、何者かに凌辱されて自殺した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L30} ; "犯人は分からない。一人ではなく、複数のようだった。犯人の中に、夕実と同じ学校に通う生徒とおぼしき人物がいたところを見ると、陰湿な虐めの延長だったのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L31} ; "犯人どもを見つけ出して、殺してやりたかった。しかし、すべての証拠や証言は……そして俺の殺意は、夕実と共に失われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L32} ; "勿論、俺は今でも犯人を憎んでいる。憎んでも憎み切れないほどだ。しかし、それ以上に、俺は夕実を救うことが出来なかった自分自身を憎んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L33} ; "夕実を失ってからというもの、俺は喪失感と無力感に苛まれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L34} ; "夕実を救うことができなかった俺に、何ができるというのか？　俺は無力だ。俺の存在にはなんの意味もなく、なんの価値もない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L35} ; "そんな俺に、夕実を凌辱した犯人どもを見つけ出して殺すなど、できるはずがない！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L36} ; "そうして俺は、犯人に対する殺意は勿論のこと、攻撃的な感情すべてを放棄していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L37} ; "しかし、俺は甘かった。あまりにも甘すぎた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L38} ; "本来ならば夕実を助けなければならなかったはずのクラスメイトたちは、見て見ぬふりをしただけでは飽き足らず、事実を歪曲して笑っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L39} ; "深く傷つき、死を選ぶことしかできなかった夕実を、興味本位で笑いものにし、歪んだ欲望や嫉妬の捌け口にしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L40} ; "クソ、ふざけるな！　おまえらに夕実の何が分かるっていうんだ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  ldstr         "se0224"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #99
+  ldc.i         6
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #110
+  text          %{L41} ; "何度も何度も、俺は拳で壁を殴りつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L42} ; "あのとき、人の皮を被ったメス豚どもに、俺は何一つ抗議することができなかった。ショックのあまり、思考停止してしまい、その場に立ち尽くすことしかできなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L43} ; "俺は豚以下だ！　豚は人間様の食糧になることができるが、俺は誰の役にも立てない。夕実の役に立てなかった！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  ldstr         "se0224"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #114
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #115
+  text          %{L44} ; "　俺は壁に頭をぶつけた。何度も何度も、繰り返し。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #117
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #118
+  text          %{L45} ; "額が切れたのだろう、生暖かい液体が顔面を伝い落ちる。"
+  line          #119
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #120
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #121
+  text          %{L46} ; "視界が紅い。"
+  line          #122
+  ldstr         "se0223"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #123
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #124
+  text          %{L47} ; "血と汗と涙が混ざり合い、古びた畳にしみを作っていた。"
+  line          #125
+  ldstr         "se0224"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #126
+  ldc.i         3
+  callp         $$yure_big@KOEKOE (1) ; $yure_big@KOEKOE
+  line          #127
+  text          %{L48} ; "それでも俺は、壁に頭を叩きつけた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L49} ; "……一体、俺は今まで何をしていたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L50} ; "悲嘆に暮れ、悲劇のどん底にいるような気分で、誰かが救いの手を差し伸べてくれるのを期待していたのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L51} ; "夕実は死んだ。俺の愛した夕実は、もうどこにもいない――その事実から目を背け、ありもしない助けを待ち望んでいた結果がこれなのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  text          %{L52} ; "夕実を見殺しにしたやつらに、俺は一体何を期待していたのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L53} ; "夕実を失ってからというもの、犯人どもはおろか、夕実を見殺しにしたすべての人間を憎みながら生きてきた。しかし、彼らに復讐してやろうなどという気は起きなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L54} ; "愛する夕実一人救うことができなかった俺に、一体何ができる？　どうせまた惨めな思いをするだけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L55} ; "心を覆う無力感に従ったのは、これ以上傷つきたくなかったからだ。夕実を死に追いやった連中に関わって、これ以上失望したくなかったからだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L56} ; "だから、俺は攻撃的な感情をすべて放棄し、ただ救いの手を待ち望んでいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L57} ; "しかし、今なら分かる。それは間違いだったのだと。俺は自分の身を守ることばかり考えて、夕実の名誉を守ろうとはしなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L58} ; "だから、あんな人殺しのクソガキどもがのさばっているのだ。だから、俺の大切な大切な夕実の人生が、あんな腐り切った害虫どもに捏造されてしまうのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  text          %{L59} ; "そして強姦魔とその一味は今も夕実の名を騙り、卑猥なホームページを公開して、醜い白痴豚どもに夕実の体でオナニーさせている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L60} ; "絶対に許さん。俺の夕実を汚すやつは、誰であろうと絶対に許さん！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #140
+  text          %{L61} ; "俺は尚一層の力を込めて、壁に頭を打ちつけていた。誰よりも、何よりも、自分自身の甘さが許せなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L62} ; "夕実を亡くした時点で、失って惜しいものなど俺には何一つ残っていなかったというのに。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #142
+  text          %{L63} ; "もう傷つくことを恐れたりしない。むしろ、俺などもっと傷つくべきだ。俺の心は夕実と共に死んでしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L64} ; "肉体も早く死ぬべきだ――みずからの頭を壁に打ち据えるたびに、目眩のような恍惚に見舞われた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L65} ; "……どうせ死んだ身だ。やつらにも、同じ地獄を見せてやる！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #147
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #148
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1000
+  callp         $$wait_skip@KOEKOE (1) ; $wait_skip@KOEKOE
+  line          #149
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #150
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #151
+  ldc.i         1500
+  ldstr         "bg09"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #153
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L66} ; "一晩眠ると、極度の興奮状態は退いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  text          %{L67} ; "額や腕の傷口が、今更のように痛み出す。しかも、頭には大きなこぶができてしまったようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L68} ; "しかし、今の俺にとっては蚊に刺されたようなものでしかなかった。俺はもう、身体の痛みなど恐れてはいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #156
+  text          %{L69} ; "俺のすべては、夕実を死に追いやった人間に対する復讐のためだけに捧げられたのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L70} ; "ベッドに身を投げ出したまま、システム手帳のページを手繰る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L71} ; "この手帳は、夕実の遺したものだった。可憐な夕実によく似合う、ピンクの小さなシステム手帳。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L72} ; "しかし、この手帳の持ち主は、この手帳に可愛い文字を記した俺の夕実は、もうどこにもいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L73} ; "……あいつらに制裁を下してやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L74} ; "夕実の自殺の直因となった強姦魔どもは勿論のこと、夕実がどのような目にあっていたかを知りながら、見て見ぬふりをした連中も同罪だ。一人残らず探し出し、制裁を下してやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  ldc.i         0
+  ldc.i         12
+  ctrl          "o"
+  text          %{L75} ; "今、俺の視界を埋めているのは、システム手帳の中"
+  proc         
+  ldc.i         0
+  ctrl          "s"
+  ldc.i         0
+  ldc.i         12
+  neg.i        
+  ctrl          "o"
+  ldc.i         12
+  ldc.i         -1
+  ldc.i         -1
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L76} ; "　 くだん"
+  proc         
+  ctrl          "r"
+  ldc.i         -1
+  ctrl          "s"
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ldc.i         2
+  div.i        
+  ld            persistent int $bddd7da2  ; #confont_ystep@SYSTEM
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L77} ; "の件のアドレスページだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L78} ; "名前、住所、生年月日、血液型、電話番号、メールアドレスなどの個人データが記入され、その人物の写っているシールタイプの写真が貼られているページ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L79} ; "相葉希更が、大野愛梨が、二宮未夏が、シールの中から俺を見つめ、無邪気に笑っている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L80} ; "以前は可愛らしいと思えたはずの彼女たちの笑顔も、今では醜く歪んだ肉の塊にしか見えなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  text          %{L81} ; "くそっ、どいつもこいつも！　俺の夕実を返せ！　夕実の人生を返せ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L82} ; "世の中のすべてが憎かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L83} ; "夕実の死後に起きたことが、走馬灯のように現れては消える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L84} ; "今までは堪え、押し殺し、或いは忘れていたはずの怒りが、今しがた起きたばかりの出来事に対する感情のように、生々しく込み上げてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L85} ; "……そういえば、イタズラ電話をかけてきたやつもいたな。遺族の内心をよそに、興味本位でネタにしやがって。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L86} ; "他人の不幸は蜜の味だというわけか。自分たちは蚊帳の外だと思って、いい気なものだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L87} ; "この際だから、そいつも探し出して制裁を下してしてやる。いつまでもギャラリーの立場を満喫できると思ったら、大間違いだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  text          %{L88} ; "もう、後悔しても遅いぞ。正義の裁きを下すべき相手は、一人残らず見つけてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L89} ; "しかし、夕実が遺した手がかりは、このシステム手帳だけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #175
+  text          %{L90} ; "クラスメイト全員の現住所などが記載されているはずの名簿は、どこを探しても見当たらなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L91} ; "しかも、夕実のシステム手帳には、アドレス用のページが１枚しかセットされておらず、そこにはほんの少しのデータ――例の三人組のものもあった――しか記されていなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  text          %{L92} ; "少ない友達に裏切られて、辛かったことだろう。夕実の悔しさを思うと、怒りと悲しみで狂いそうになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L93} ; "ぱらぱらとページをめくる。手帳にセットされていたページは少ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #179
+  text          %{L94} ; "ページの最後にセットされた、ビニール製だかアクリル製だかの台紙に目が留まる。半透明の台紙には、プリクラという名で知られるシールタイプの写真が、所狭しと貼りつけられていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L95} ; "……俺は吐き気を覚えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #181
+  text          %{L96} ; "どの写真を見ても、相葉希更、大野愛梨、二宮未夏、この三人ばかりなのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  text          %{L97} ; "三匹のメス豚どもがわらわらと増殖し、夕実を死なせた無力な俺を、小窓の向こうからあざ笑っているかのようだった。クソ、醜く歪んだ肉の塊どもめが！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L98} ; "俺は手帳を投げ出そうとした。しかし、醜く歪んだ豚どもの中に幼い少女がいることに気付き、手を止めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L99} ; "その写真を見る。周りは見ずに、その一枚だけに神経を集中させる。小さなシールの中ではにかむ少女の顔を見ると、今まで忘れていた暖かい記憶が胸に甦る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #185
+  text          %{L100} ; "【貴城】「ああ、璃乃ちゃんか……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  ldc.i         0
+  ldc.i         12
+  ctrl          "o"
+  ldc.i         0
+  ctrl          "s"
+  ldc.i         0
+  ldc.i         12
+  neg.i        
+  ctrl          "o"
+  ldc.i         12
+  ldc.i         -1
+  ldc.i         -1
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L101} ; "まつもと り"
+  proc         
+  ctrl          "r"
+  ldc.i         -1
+  ctrl          "s"
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ldc.i         -1
+  ldc.i         -1
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L102} ; "松本璃"
+  proc         
+  ldc.i         0
+  ctrl          "s"
+  ldc.i         0
+  ldc.i         12
+  neg.i        
+  ctrl          "o"
+  ldc.i         12
+  ldc.i         -1
+  ldc.i         -1
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L103} ; " の"
+  proc         
+  ctrl          "r"
+  ldc.i         -1
+  ctrl          "s"
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ld            persistent int $65615b45  ; #confont_yl@SYSTEM
+  ldc.i         2
+  div.i        
+  ld            persistent int $bddd7da2  ; #confont_ystep@SYSTEM
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L104} ; "乃――夕実の所属していた美術部の後輩だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L105} ; "ともすれば子供に間違われかねない、童顔で小柄な少女だが、実年齢は夕実と一つしか違わない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #188
+  text          %{L106} ; "璃乃は、夕実と非常に仲が良かった。幾度となく俺たちの家に遊びに来ていたし、こんな俺のことも、実の兄のように慕ってくれていたっけ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L107} ; "夕実の死後は、疎遠になってしまったけれど……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  text          %{L108} ; "この復讐計画は、明らかに法に触れるものだ。俺が犯罪者になったと知れば、璃乃は悲しむだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L109} ; "俺を軽蔑するだけですめばいいが、夕実との思い出まで厭わしく思うようになるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #192
+  text          %{L110} ; "本当に夕実のことを思うのならば、こんなことはやめるべきなのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L111} ; "俺は夕実の名誉を守るために戦いたい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L112} ; "なにも、暴力的な手段に訴えることだけが、“戦い”じゃないじゃないか。夕実の名誉を守るためにできることを、もっと考えなければ――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L113} ; "俺は瞼を閉じた。いまいましい写真は見えなくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  text          %{L114} ; "しかし、今度は俺の心に焼きついた情景が見えるようになった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  text          %{L115} ; "『少し頭がおかしいのよ』"
+  proc         
+  ctrl          "p"
+  text          %{L116} ; "――大野愛梨が、呆れ顔で断言する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L117} ; "『でも、相手の男って毎回変わってたみたいだったよね。長瀬さんなんかとしたがる人っているんだ』"
+  proc         
+  ctrl          "p"
+  text          %{L118} ; "――二宮未夏は、まるで珍獣について語っているようだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L119} ; "相葉希更が、嫌悪も露わに顔を歪める。"
+  proc         
+  ctrl          "p"
+  text          %{L120} ; "――『あたしたちまでもが長瀬なんかの同類だと思われたら、すっごく迷惑よね！』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  text          %{L121} ; "ふざけるな！　黙って聞いてりゃ、言いたい放題言いやがって。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  text          %{L122} ; "おまえらが夕実について一体何を知ってるっていうんだ。傷ついた夕実に対して何もできなかったくせに、おまえらの理想に少しでも反した夕実の姿を見ただけで、口汚く罵りやがって。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  text          %{L123} ; "おまえたちの都合の良いように、夕実の人生を捏造しやがって。ふざけるな！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L124} ; "俺は瞼を開き、飛び起きた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L125} ; "汚れて曇った窓ガラスには、憔悴し、別人のようになった俺の姿が映っていた。ガラスに映し出されたもう一人の俺が、憎悪に満ちた暗い瞳で俺をねめつけていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L126} ; "【貴城】「……夕実の自殺を止められなかったという時点で、人殺しも同然だ。俺の夕実を殺したやつは、誰であろうと絶対に許さない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L127} ; "法も社会正義も人道も、俺が『正しい』と教えられてきたことは何一つとして、夕実を守ってはくれなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  text          %{L128} ; "そして夕実を死に追いやった連中は、何の罪に問われることもなく、のうのうと生きている。なんという不条理！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L129} ; "なぜ、俺の夕実がこんな目にあわねばならない？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L130} ; "復讐してやる。"
+  proc         
+  ctrl          "p"
+  text          %{L131} ; "復讐してやる。"
+  proc         
+  ctrl          "p"
+  text          %{L132} ; "復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる復讐してやる"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #212
+  text          %{L133} ; "復讐してやる復讐してやるあのメス豚どもに復讐してやる夕実とかかわりを持ったやつすべてに制裁を下してやる！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L134} ; "夕実が皆に愛される最高の美少女だったからといって、求められれば相手を選ばず自分から股を開いた変態女だったと妄想し、てめぇの変態性欲をあろうことか夕実に投影し、"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #214
+  text          %{L135} ; "てめぇの妄想に嫉妬して夕実を誹謗中傷した真性ガイキチ、相葉希更。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  text          %{L136} ; "同じく、夕実を醜い嫉妬の捌け口にするだけでは飽き足らず、頭がおかしいのは明らかにてめぇの方であるにもかかわらず、夕実を狂人に仕立て上げて安心しようとする腐れ豚、大野愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L137} ; "事実無根の情報を吹聴することで、男にモテないメス豚どもの嫉妬心や変態願望を煽り、被害者であるはずの夕実を救いようのない淫売女に仕立て上げようとした愉快犯的冤罪者、二宮未夏。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #217
+  text          %{L138} ; "この三者に悪質な情報提供をおこなっただけでは飽き足らず、無神経な言動で遺族の心を踏みにじり、"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L139} ; "しかもそれらすべての言動が天才的知能をもって計画的に仕組まれたものではないかという疑いも強い、桜井衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #219
+  text          %{L140} ; "そして、美辞麗句を並べ立てながら夕実に笑顔で付き纏いながら、傷ついた夕実を救うことができなかった、口先だけの薄っぺらな慕情しか持ち合わせない、松本璃乃。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L141} ; "まったく、どいつもこいつも！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #221
+  text          %{L142} ; "おまえらも、夕実と同じ思いをして苦しめばいい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #222
+  text          %{L143} ; "どうせ、強姦魔どもの犯行を知っていながら見て見ぬふりをしたり、最悪、強姦魔どもとつるんでるやつもいるだろうからな、やつらのことも吐かせてやるさ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L144} ; "さて……、まず手始めに、どいつを制裁してやろう？"
+  proc         
+  ctrl          "p"
+  line          #236
+  ldc.i         0
+  ret          
+}

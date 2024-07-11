@@ -1,0 +1,80 @@
+  Opcodes that control text display (e.g. furigana) and are not identified
+in Haeleth's mjdev toolkit ("text_control_XX").
+
+  0842 0200 XX, where XX:
+    6F  moves text to top-left corner of the msg box (to 0:0 pixel, no margins)
+    66  changes font size
+    72  moves text baseline slightly on top
+
+
+~ arc ~
+
+      ~HDR~
+
+magic [$1C]
+  MajiroArcV2.000 + #0
+
+[dw] FC  | file count (0 - no files)
+  alloc (* 12 + $100)   - what $100 is for ???
+
+[dw] FNO | file names offset
+[dw] DO  | data offset
+
+@1C:
+  TBL = read (FC * 12) bytes
+
+      ~TBL~
+[dw]
+[dw] offset
+[dw] size
+
+  MajiroArc v1 doesn't have size;
+  thus, record's size is 8 bytes.
+
+
+(@ FNO)
+  array[FC] of (shiftjis + #0)
+
+(@ DO)
+  data
+
+
+~ mjo ~
+
+magic [S16]
+  MajiroObjX1.000 + #0
+
+  @16:
+[dw] entry point (relative to script's beginning,
+     excluding header size)
+[dw] (bool) usually 0. non-zero value specify to
+     skip some kind of loop where it matches
+     script's being loaded name with some set of
+     other names (maybe scenario script names,
+     like 001[...].mjp). anyway, it doesn't find
+     a match for start.mjo there.
+       The loop is located at 0040AB1D in exe of
+     Akatsuki no Goei.
+      In Katahane this is just some unused field
+    (not bool), Haeleth's mjdev asm sets it to 0.
+
+  @24:
+[dw] OC | offsets count
+
+array[OC] of {
+  [dw] some hash?
+  [dw] offset (relative to script's beginning)
+}
+
+
+[dw] SS | script size (not count)
+
+  The following SS bytes will be decrypted
+if this file is ObjX (seems like ObjV is
+not encrypted format, like 'raw').
+
+  This also seems to be the only difference
+between ObjX and ObjV - the latter is not
+encrypted.
+
+  Note that max (hardcoded) str length is 400h.

@@ -1,0 +1,192 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #30
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #31
+  ldstr         "bg04"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #32
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #34
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "俺は公園の奥まった一角のベンチに座り、呼び出した衣澄がやって来るのを待っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L2} ; "この公園はこの辺りで一番大きな公園だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L3} ; "ジャングルジムやブランコといった遊具が一通り揃った児童広場や、業者の手でよく手入れされた並木通り、割と小奇麗な公衆トイレなどが整備されている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L4} ; "【貴城】「無駄に金をかけてあるわりには人が少ないな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L5} ; "ベンチはいい具合に木陰になっており、外回りのサラリーマンなんかが休憩するには絶好のポイントなのだが、他に人は居ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L6} ; "児童広場の方から元気にはしゃぐ子供の声が聞こえてくるぐらいだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #48
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0158"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L7} ; "【衣澄】「その……お待たせしました……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L8} ; "衣澄がいつの間にか近付いてきていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L9} ; "うなだれたその表情は暗く沈んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  ldstr         "b0159"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #55
+  text          %{L10} ; "【衣澄】「…………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L11} ; "無言でうつむき、俺の前に立ち尽くしている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L12} ; "この前はあれだけ陵辱してやったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L13} ; "いくら厚顔無恥なこの女でもこたえないわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L14} ; "待てよ……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L15} ; "悪戯電話を掛けてきた少女、アレは衣澄ではないだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L16} ; "この女なら、あんな陰湿な真似をしてきてもおかしくない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L17} ; "だから、自分の悪事がばれることを恐れて、暗い顔をしているのではないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L18} ; "それとも、俺の夕実を殺したことへの罪悪感を感じているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L19} ; "俺から復讐されることで、ようやく自分の犯した過ちの重大さを身をもって知って、うなだれているのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L20} ; "いや、待てよ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L21} ; "反省している演技をしてみせて、俺を欺こうとしているのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L22} ; "俺の正当な復讐を逆恨みして、何か企んでいる可能性もある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L23} ; "様々な考えが泡のように浮かんでは消えていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L24} ; "そのどれもがありえる話で、どれが真実でどれが間違っているのか見分ける術はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  ldstr         "b0160"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #79
+  text          %{L25} ; "【衣澄】「なんでも言うことを聞きます。だから、気が済むまで好きなようにしてください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L26} ; "疑心暗鬼にとらわれている俺に、衣澄が意を決したように言ってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L27} ; "衣澄が何を考えているのか、ますます怪しくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L28} ; "恐怖か反省か欺瞞か。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L29} ; "いや、今はもうそんなことはどうでもいい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L30} ; "この女の望みどおり、気の済むまで好きにしてやろうじゃないか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L31} ; "万が一罠か何か企んでいようと、そんなことできないくらいに陵辱してやれば良いだけの話だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L32} ; "さぁ、衣澄をどうしてやるか。"
+  proc         
+  ctrl          "p"
+  line          #97
+  ldc.i         0
+  ret          
+}

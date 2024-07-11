@@ -1,0 +1,677 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #20
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #23
+  ldstr         "bg17"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #24
+  ldstr         "BUP04Gu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #25
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #26
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0199"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #27
+  text          %{L1} ; "【衣澄】「んっ、こ、この辺りは、使われてない教室ですね。何年か前までは使われていたそうですが」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L2} ; "衣澄に学園内の案内をさせながら歩く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L3} ; "ちなみにバイブは既に挿入させてあるが、今はスイッチを切ってある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L4} ; "【貴城】「図書室はこの先になるわけか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  ldstr         "b0200"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #35
+  text          %{L5} ; "【衣澄】「はい。む、向こうの突き当りが、図書室になります」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L6} ; "しきりに股間の辺りを気にしながら、衣澄が答えてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L7} ; "歩くだけで快感を覚えるようだが、衣澄にとっては幸いなことに、廊下には誰も居ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L8} ; "【貴城】「じゃあ、そこへ行ってみるか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  ldstr         "b0201"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #43
+  text          %{L9} ; "【衣澄】「わ、判りました、兄さん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L10} ; "俺は帰省中の衣澄の兄で、今は妹の通う学園を興味本位に見に来たということになっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L11} ; "正直な話、愛しい夕実以外に、まして衣澄なんかに兄と呼ばれたくはなかったが、他に２人で学園をうろつき回る理由を思いつかなかったから仕方がない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L12} ; "俺達が図書室へ向かおうとした時、階段の方が騒がしくなってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L13} ; "【女子学生Ａ】「でさ～、ひよっちったら、そこで小銭ばらまいちゃってるのよ。もうあれは見てらんなかったわ～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L14} ; "【女子学生Ｂ】「何よ、美沙だって電車降りたら切符無くしてたじゃない！　人の事言えないよぉ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L15} ; "【女子学生Ｃ】「はぁ……あんた達と遊びに行かなくて本当に良かったわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L16} ; "見ると女子学生３人組がこちらへ向かって歩いてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldstr         "b0202"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #59
+  text          %{L17} ; "【衣澄】「このまま立ち止まっていてもらえますか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L18} ; "聞き取れないくらい小声で衣澄が呟く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L19} ; "歩いたらバイブに感じてしまって、怪しまれると思ったのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L20} ; "【貴城】「あぁ、判ってる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L21} ; "だから俺も簡単に答えを返す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L22} ; "【女子学生Ｃ】「それで肝心のコンサートはどうだったの？　まさかそっちまでチケット紛失したりしてないわよね？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L23} ; "【女子学生Ａ】「まさか。そんなひよっちみたいなヘマしないわよ。もうすっごく最高だったわよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L24} ; "【女子学生Ｂ】「……私みたいって、切符無くした美沙に言われたくないよぉ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L25} ; "３人組とすれ違う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L26} ; "彼女達はおしゃべりに夢中で、こちらにはほとんど注意を払っていない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L27} ; "俺はポケットの中のリモコンで、衣澄の秘所のバイブのスイッチを『中』に入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  ldstr         "se0241"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #82
+  ldstr         "BUP04Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #83
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0203"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #84
+  text          %{L28} ; "【衣澄】「んんっ！　ぁ……ぅぁ……くっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L29} ; "衣澄の体が電流でも走ったかのように震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L30} ; "なんとか悲鳴を噛み殺せはしたものの、バイブの振動が与える刺激に翻弄されているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  ldstr         "b0204"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #90
+  text          %{L31} ; "【衣澄】「ふぅんっ、くぅ、はぁっ、んっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L32} ; "ついに足に力が入らなくなったか、衣澄は俺にしがみついてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #95
+  text          %{L33} ; "【女子学生Ｂ】「あの、大丈夫ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L34} ; "先ほどの３人組の一人が心配そうに衣澄に声をかけてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L35} ; "この有様では気分が悪くなったように見えても仕方がない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L36} ; "見ると他の２人も少し先で立ち止まって、心配そうな目を衣澄に向けている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  ldstr         "b0205"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #102
+  text          %{L37} ; "【衣澄】「はい、だ、大丈夫です、んんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  text          %{L38} ; "ふと思いついてスイッチを『強』に変えたとたん、衣澄はビクンと肩を震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L39} ; "膣内で荒れ狂うバイブがもたらす刺激に耐えかねているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L40} ; "【女子学生Ｂ】「本当に大丈夫なんですか？　なんだか凄い汗もかいてますし、保健室に行った方がいいんじゃ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  ldstr         "b0206"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #110
+  text          %{L41} ; "【衣澄】「はぁっ、いえ、こうして、いれば治まるので。だっ、大丈夫です。そ、それより、お友達をッ、待たせ、ているんじゃ、ないのですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L42} ; "よほど具合が悪そうに見えるのか、食い下がってくる女子学生に大丈夫と答える衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L43} ; "途切れ途切れとは言え、きちんと会話できるとは、なかなか我慢強いな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  text          %{L44} ; "【女子学生Ｂ】「そ、そうですか。じゃあお大事にしてください」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L45} ; "やっと女子学生が諦めて離れていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  ldstr         "b0207"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #120
+  text          %{L46} ; "【衣澄】「くはぁぁぁぁっ、ひ、酷いです。スイッチをぉっ、入れるなんてぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L47} ; "女子学生が仲間の所に駆け寄っていく姿を見送ってから、衣澄が小声で文句を言ってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L48} ; "【貴城】「スイッチを入れないと言った覚えはないぞ。それより、それじゃ歩けないな。そこの教室にでも入るか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #127
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #129
+  ldstr         "BUP04Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #130
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L49} ; "【貴城】「使ってなくても机は並んでいるんだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L50} ; "衣澄を連れて近くの空き教室に入ると、ぱっと見には普通の教室と変わらない光景が広がっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L51} ; "【貴城】「まぁ、ここでいいか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  text          %{L52} ; "自力では立っていられないくらい感じている衣澄を、適当な机の上に乗せる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  ldstr         "ev51"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #140
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #141
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0208"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #142
+  text          %{L53} ; "【衣澄】「だめぇ、やあぁ、イイっ、イイのぉっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L54} ; "人目に付かない教室に来て安心したのだろうか、衣澄は心置きなく声を上げて乱れている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L55} ; "俺はポケットの中のリモコンを操作し、バイブのスイッチを切ってやった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  ldstr         "b0209"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #149
+  text          %{L56} ; "【衣澄】「あ…………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  text          %{L57} ; "衣澄があからさまに不満げな顔をしてこちらを見つめてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L58} ; "【貴城】「そんなに気持ちよくなりたかったら、自分でやればいいだろ。どうせここには俺しかいないんだ。遠慮することはない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L59} ; "そう言って力の入っていない脚を大きく開いて股間を丸出しにし、制服の前も開けてブラもたくし上げてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  ldstr         "b0210"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #158
+  text          %{L60} ; "【衣澄】「あぁ……はぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L61} ; "どこかぼーっとしながら自分が半裸にされるのを見ている衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  text          %{L62} ; "その瞳には弄られることへの期待があるようにも見えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #163
+  text          %{L63} ; "【貴城】「準備はしてやったんだ。あとは自分で胸を揉むなり、バイブをいじるなりすればいいだろ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L64} ; "俺はそう言うと手近な机に腰掛けて、見物を決め込む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  ldstr         "b0211"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #168
+  text          %{L65} ; "【衣澄】「あ……やぁ、ふあぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #170
+  text          %{L66} ; "衣澄は股間のバイブをいじるのは恐怖があるのか、自分の胸をやわやわと揉みしだきはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #172
+  text          %{L67} ; "初めて自慰をするみたいで、見ていて焦れったくなってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L68} ; "【貴城】「なんだ、そんな刺激じゃ全然物足りないだろう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L69} ; "仕方ない、楽しませてやるか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L70} ; "スイッチを再び『強』にセットする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  ldstr         "b0212"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #181
+  text          %{L71} ; "【衣澄】「ああんっ！　やあぁっ！　ふやぁっ！　いい、いいのっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L72} ; "とたんに狂ったように感じはじめる衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #185
+  text          %{L73} ; "【貴城】「まったく、我慢できずに教室でバイブ咥えてよがりやがって。恥ずかしくないのか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  ldstr         "b0213"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #188
+  text          %{L74} ; "【衣澄】「いやぁ、い、言わないでぇっ！　あっ！　やっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  text          %{L75} ; "かぶりを振りながら悶えていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L76} ; "この様子だとそろそろ絶頂に達しそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L77} ; "【女子学生Ｂ】「さっきの人、大丈夫だったかなぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  text          %{L78} ; "廊下から人の声が聞こえてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  text          %{L79} ; "さっき声を掛けてきた女子学生が戻ってきたようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #198
+  text          %{L80} ; "スイッチを切る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L81} ; "このまま大声で喘ぎ続けると、彼女達に見つかってしまいそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  ldstr         "b0214"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #202
+  text          %{L82} ; "【衣澄】「うぅ……ぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L83} ; "またも不満顔になる衣澄だが、近付いてくる話し声に気付いてか、納得したような顔になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L84} ; "【女子学生Ａ】「大丈夫なんじゃない？　彼氏も一緒に居たし」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L85} ; "【女子学生Ｂ】「やっぱりあの男の人、彼氏なのかなぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #211
+  text          %{L86} ; "【女子学生Ｃ】「私服だったけど、他の学校の生徒か大学生なんでしょうね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #213
+  text          %{L87} ; "話し声が近付いてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #214
+  text          %{L88} ; "図書室辺りで用事を終えて、再びこの教室の前を通ろうとしているのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  ldstr         "b0215"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #217
+  text          %{L89} ; "【衣澄】「ふぅ……んっ、やぁっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #219
+  text          %{L90} ; "絶頂寸前でお預けを喰らっている衣澄は、悩ましげに吐息を漏らしている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  text          %{L91} ; "股間からは愛液がしたたり落ちて、机の上に大きな水たまりを作っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #222
+  text          %{L92} ; "【貴城】「優等生が教室でこんなことしてるなんて、みんなが知ったらなんて言うかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  ldstr         "b0216"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #225
+  text          %{L93} ; "【衣澄】「やぁ、そ、そんなこと、い、言わな、はっ、やっ、あっ、あああぁぁぁぁああぁぁぁ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #227
+  text          %{L94} ; "バレないように絶頂に抗っていたのか、羞恥心を煽るような俺の言葉を引き金にして、衣澄はこらえきれなくなってイってしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #229
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #230
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #231
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #232
+  ldstr         "bg06"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #233
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #235
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L95} ; "結構声が大きかったが、廊下の学生に聞こえたかどうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #237
+  text          %{L96} ; "【女子学生Ｂ】「ねぇ、何か声がしなかった？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #239
+  text          %{L97} ; "【女子学生Ａ】「もしかしてさっきの２人がその辺の教室でエッチしてたりして」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #241
+  text          %{L98} ; "【女子学生Ｃ】「まっさかぁ。あの女の人いつも学年トップ取ってる桜井先輩でしょ？　真面目な優等生って評判だからそれは無いわよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #243
+  text          %{L99} ; "【女子学生Ｂ】「そっかあの人が桜井先輩なのかー。じゃあ気のせいかな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #245
+  text          %{L100} ; "話し声が遠ざかっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L101} ; "【貴城】「あ～ぁ。教室の机の上でバイブオナニーして机を愛液でぐしょぐしょに汚したし、さらに誰かに知られるところを想像しただけでイくとか、本当に大した優等生様だな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  text          %{L102} ; "【貴城】「今の学生達に教えてやろうか？　本当の桜井衣澄はこんなにいやらしいんです、って」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #251
+  ldstr         "b0217"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #252
+  text          %{L103} ; "【衣澄】「……ぁ、ふぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #254
+  text          %{L104} ; "具体的に煽ってみるが、激しい絶頂の余韻にひたる衣澄の耳には届かなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #256
+  text          %{L105} ; "どうやら衣澄は誰かに見られそうになるとか、そういった羞恥系のプレイに異常に興奮するようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  text          %{L106} ; "そういう感じで責めていった方が効率的だろうな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L107} ; "俺はどうやって衣澄を汚していくか考えながら、教室から去っていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #260
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #262
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #264
+  argcheck      []
+  alloca        []
+  line          #265
+  callp         $$main@GLOBAL (0) ; $main@GLOBAL
+  line          #266
+  ldc.i         0
+  ret          
+}

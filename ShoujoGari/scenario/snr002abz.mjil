@@ -1,0 +1,186 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #17
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #19
+  text          %{L1} ; "ギリギリとした怒りの視線を俺に向けていても、希更は完全に自分の身に起きたことへのショックから抜け出すことが出来なかったらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L2} ; "俺が俺への足がかりになりそうな物を総て回収している間もまだ俺が離れた時の姿のままでじっとしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L3} ; "この調子ならばこのまま帰っても『レイプされました』なんて吹聴することもないような気がするが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L4} ; "俺は念のために持ってきたデジタルカメラを取り出すと、無造作にそのシャッターを押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  callp         $413b2f3a (0)
+  line          #29
+  ldstr         "c0263"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #30
+  text          %{L5} ; "【希更】「キャッ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L6} ; "突然目の前でたかれたフラッシュに驚いて叫び声をあげた後、目がくらんだのか、希更は何度も瞬きを繰り返す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  ldstr         "c0264"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #35
+  text          %{L7} ; "【希更】「なっ、なに……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  callp         $413b2f3a (0)
+  line          #38
+  text          %{L8} ; "希更が現状を把握できないうちに、俺は何度もシャッターを押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L9} ; "俺の精液にどろどろに汚された希更の姿を余すことなく、デジタルカメラに収めていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L10} ; "成長してからは親にも見せたことがないだろう恥部はもちろん、怒りとも快楽ともつかないもので上気したその顔がはっきりと写るように何度もシャッターを押す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  ldstr         "c0265"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #45
+  text          %{L11} ; "【希更】「何するのよ？！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #47
+  text          %{L12} ; "【貴城】「口止め料だよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  ldstr         "c0266"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #50
+  text          %{L13} ; "【希更】「口止め料……？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L14} ; "【貴城】「この写真をばら撒かれたくなかったら、これからもちゃんと俺の言うことを聞くんだぞ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  ldstr         "c0267"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #55
+  text          %{L15} ; "【希更】「そっ、そんな写真、現像できるわけがないじゃない！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L16} ; "【貴城】「何のためにデジタルカメラで撮ったと思ってるんだ？　今のプリンターはいい性能してるよなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  ldstr         "c0268"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #60
+  text          %{L17} ; "【希更】「うっ、うぅううう……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L18} ; "陵辱は俺の力を希更に思い知らしめたのか、想像していたようにカメラを奪い返すとか、カメラを破壊しようとするわけでもなく、希更の顔は絶望の色に染まった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L19} ; "【貴城】「お前は俺の肉便器になるしかないんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L20} ; "俺は冷たく言い放つと、絶望に呆然としている希更をもう少しカメラに収めようとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #67
+  text          %{L21} ; "だが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  ldstr         "se0508"
+  callp         $$user_sound@KOEKOE (1) ; $user_sound@KOEKOE
+  line          #73
+  text          %{L22} ; "【？？？】「しょんべん、しょんべん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L23} ; "【？？？】「ったく、しょうがねぇなぁ……ツレションすっかぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L24} ; "通りのほうから明らかに上機嫌に酔っ払ったおっさんたちの声が聞こえてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  callp         $$user_sound_stop@KOEKOE (0) ; $user_sound_stop@KOEKOE
+  line          #81
+  text          %{L25} ; "【貴城】「マズイな……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L26} ; "思わずそう呟いたものの、希更は未だ絶望に心を閉ざして、俺の呟きもおっさんたちにも気づいていない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L27} ; "口止めの写真はもう撮ったし、荷物は回収した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L28} ; "このまま立ち去っても問題はないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L29} ; "俺は茫然自失のまま動かない希更を一人残して、その場を後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  ldc.i         0
+  ret          
+}

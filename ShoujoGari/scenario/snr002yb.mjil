@@ -1,0 +1,133 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #7
+  argcheck      []
+  alloca        []
+  line          #17
+  ldstr         "bg21y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #18
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #20
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "プラットホームに流れるくぐもったアナウンスが、列車の到来を告げている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #21
+  text          %{L2} ; "しかしその声は夕刻の雑踏にまぎれ、聞き取ることができない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  text          %{L3} ; "愛梨の目の前には既に列車待ちの列ができていた。すし詰め状態が必至であることは、毎日この路線を使って通学している愛梨にはよく判る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L4} ; "もう少しホームの奥まで行って待てば、少しは混雑をしのぐことができるかもしれないということも。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L5} ; "しかし、愛梨は移動しようとは思わなかった。不快と快感は紙一重、敢えて混雑に身を任せたほうが気持ち良い思いができることもあることを、愛梨の身体はよく知っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L6} ; "警笛の音が小さく聞こえる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L7} ; "【愛梨】「（ああ……、もうすぐ……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L8} ; "身体の芯が熱く疼く。愛梨は無意識のうちに太ももを擦り合わせていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L9} ; "【愛梨】「（ダメ……こんなことが誰かにバレたら……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L10} ; "頭ではそう思っても、身体は刺激を欲している。そして、そんな淫らな望みをいつもより強く肯定している自分がいることを、愛梨は認識していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L11} ; "……そう、逃げたい。すべてを忘れてのめり込めるものが欲しい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L12} ; "今日は一日気分が重かった。仲の良い友人の一人である希更に避けられているのではないかと感じたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L13} ; "ここ最近、希更は学校を休みがちになっていた。今日は久しぶりに登校してきたのだが、その左手首には包帯が幾重にも巻かれていた。話し掛けても妙によそよそしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L14} ; "本人は「体調が悪い」と言うのだが、愛梨から見れば、希更は体よりもむしろ心の具合が優れないように感じられた。腫れた瞳で宙を見つめては、溜め息ばかりついている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L15} ; "希更をおもんばかり、いつものように身体に触れようとすると、驚くほど強く拒絶された。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  text          %{L16} ; "唇を噛み締め、愛梨を睨みつけていた希更。そこには憎悪があった。愛梨は背筋が冷たくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L17} ; "あのときの希更の表情が、脳裏に焼き付いて離れない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L18} ; "何故？　どうして？　私が何をしたというの？　どうして私には力にならせてくれないの？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L19} ; "常日頃から周囲に一目置かれることが当たり前だった愛梨にとって、助力を拒絶する希更の態度は、絶望的なまでの無力感を抱かせるものだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L20} ; "普段ならば、途中までは愛梨や未夏と一緒なのだが、今日は一人で歩いてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L21} ; "制服のスカートの裾が風に揺れる。列車がホームに入ってきたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L22} ; "車内は既にすし詰め状態になっていた。この駅で降りる乗客は少ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  text          %{L23} ; "こんな状態で、また“いつものようなこと”になったら……愛梨は見ず知らずの男たちの指使いを思い出し、制服の下の豊満な肉体を震わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  ldc.i         0
+  ret          
+}

@@ -1,0 +1,2422 @@
+readmark disable
+
+func $b1bb8adc() {
+ entry:
+  line          #22
+  argcheck      []
+  alloca        []
+  line          #23
+  ldstr         "load_sysdata"
+  syscallp      $load_library (1)
+  line          #24
+  ldstr         "history"
+  syscallp      $load_library (1)
+  line          #25
+  ldstr         "console"
+  syscallp      $load_library (1)
+  line          #26
+  ldstr         "pic"
+  syscallp      $load_library (1)
+  line          #27
+  ldstr         "menu"
+  syscallp      $load_library (1)
+  line          #28
+  ldstr         "loadsave"
+  syscallp      $load_library (1)
+  line          #29
+  ldstr         "cgmode"
+  syscallp      $load_library (1)
+  line          #30
+  ldstr         "gaizi"
+  syscallp      $load_library (1)
+  line          #31
+  ldstr         "yazlib"
+  syscallp      $load_library (1)
+  line          #32
+  ldstr         "kazlib"
+  syscallp      $load_library (1)
+  line          #33
+  ldstr         "transit"
+  syscallp      $load_library (1)
+  line          #34
+  ldstr         "transit_top"
+  syscallp      $load_library (1)
+  line          #35
+  ldstr         "config"
+  syscallp      $load_library (1)
+  line          #37
+  ldstr         "message_box"
+  syscallp      $load_library (1)
+  line          #38
+  ldstr         "buttonmenu"
+  syscallp      $load_library (1)
+  line          #39
+  ldstr         "UserTrans"
+  syscallp      $load_library (1)
+  line          #40
+  ldc.i         0
+  ret          
+}
+
+func $61abdb3d() {
+ entry:
+  line          #44
+  argcheck      []
+  alloca        [int]
+  line          #46
+  ldc.i         1
+  st.i          persistent int $634ed10a 
+  pop          
+  line          #47
+  syscall       $get_effectspeed (0)
+  st.i          local int $8ef8a286 0
+  pop          
+  line          #48
+  ldc.i         1000
+  syscallp      $set_effectspeed (1)
+  line          #50
+  ld            persistent int $634ed10a 
+  brfalse       @block_0217
+
+ block_01ff:
+  line          #51
+  bsel.1        @block_03ea
+
+ block_0209:
+  line          #52
+  bsel.1        @block_03ea
+
+ block_0213:
+  line          #53
+
+ block_0217:
+  line          #55
+  ldstr         "black"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #56
+  ldc.i         0
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #59
+  ldstr         "white"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #60
+  ldc.i         1000
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #62
+  ldstr         "makerlogo"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #63
+  ldc.i         2000
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #64
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         2000
+  syscallp      $wait (1)
+  line          #67
+  ldc.i         900
+  ldstr         "logobase"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #68
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1100
+  syscallp      $wait (1)
+  line          #70
+  ldc.i         -619
+  ldstr         "logomoji"
+  callp         $$disp_top@PIC (2) ; $disp_top@PIC
+  line          #71
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1700
+  syscallp      $wait (1)
+  line          #73
+  ldc.i         -510
+  ldstr         "logomoji"
+  callp         $$disp_top@PIC (2) ; $disp_top@PIC
+  line          #74
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         700
+  syscallp      $wait (1)
+  line          #78
+  ldstr         "black"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #79
+  ldc.i         1000
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #81
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ld            local int $8ef8a286 0
+  syscallp      $set_effectspeed (1)
+  line          #82
+  ldc.i         0
+  ret          
+
+ block_03ea:
+  bsel.clr     
+  line          #85
+  ld            local int $8ef8a286 0
+  syscallp      $set_effectspeed (1)
+  line          #86
+  callp         $$dispose_pic@PIC (0) ; $dispose_pic@PIC
+  line          #87
+  syscallp      $sound_stop (0)
+  line          #88
+  ldc.i         1
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $6e31cb54(int) {
+ entry:
+  line          #93
+  argcheck      [int]
+  alloca        []
+  line          #94
+  ldc.i         1000
+  syscallp      $wait (1)
+  line          #95
+
+ block_0455:
+  ldc.i         -1
+  brfalse       @block_0537
+
+ block_0461:
+  br            @block_046d
+
+ block_0467:
+  br            @block_0455
+
+ block_046d:
+  line          #96
+  ldc.i         -1
+  ldc.i         255
+  ldc.i         3000
+  ldc.i         255
+  ldc.i         1000
+  ldc.i         255
+  ldc.i         1000
+  ldc.i         32
+  ldc.i         1000
+  ldc.i         32
+  ldc.i         0
+  ldc.i         255
+  ld            local int $3acf92c1 -2
+  syscallp      $sprite_alfa_define (13)
+  line          #97
+  ldc.i         400
+  syscallp      $wait (1)
+  line          #98
+  ldstr         "se_blur"
+  syscallp      $sound (1)
+  line          #99
+  ld            local int $3acf92c1 -2
+  syscallp      $sprite_alfa_wait (1)
+  line          #100
+  ldc.i         3
+  syscall       $rand (1)
+  ldc.i         1000
+  mul.i        
+  syscallp      $wait (1)
+  line          #101
+  br            @block_0467
+
+ block_0537:
+  line          #102
+  ldc.i         0
+  ret          
+}
+
+func $80cfdc10() {
+ entry:
+  line          #106
+  argcheck      []
+  alloca        [int, int, int, int, int, float]
+  line          #111
+  ldc.i         600
+  ldc.i         800
+  syscall       $page_create (2)
+  st.i          local int $159c68ff 1
+  pop          
+  line          #112
+  ld            local int $159c68ff 1
+  syscall       $sprite_create (1)
+  st.i          local int $3acf92c1 0
+  pop          
+  line          #115
+  ldc.i         255
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_alfa_set (2)
+  line          #116
+  ldc.i         0
+  ldc.i         0
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_move (3)
+  line          #117
+  ld            local int $3acf92c1 0
+  ldc.i         1848757076
+  syscallp      $thread_begin_child (2)
+  line          #118
+  bsel.5        @block_0605
+
+ block_05ff:
+  br            @block_063f
+
+ block_0605:
+  bsel.clr     
+  line          #120
+  ld            local int $3acf92c1 0
+  syscallp      $sprite_release (1)
+  line          #121
+  ld            local int $159c68ff 1
+  syscallp      $page_release (1)
+  line          #122
+  ldc.i         0
+  ret          
+
+ block_063f:
+  line          #124
+  syscall       $timer (0)
+  st.i          local int $283f6306 2
+  pop          
+  line          #125
+
+ block_065b:
+  ldc.i         -1
+  brfalse       @block_07af
+
+ block_0667:
+  br            @block_0673
+
+ block_066d:
+  br            @block_065b
+
+ block_0673:
+  line          #126
+  ld            local int $283f6306 2
+  ldc.i         6400
+  rem          
+  conv.r       
+  st.r          local float $7ffd9113 5
+  pop          
+  line          #127
+  ldc.r         360
+  ld            local float $7ffd9113 5
+  mul.r        
+  ldc.r         6400
+  div.r        
+  syscall       $sin% (1)
+  ldc.r         2
+  mul.r        
+  conv.i       
+  st.i          local int $099b02f1 3
+  pop          
+  line          #128
+  ld            local int $283f6306 2
+  ldc.i         3800
+  rem          
+  conv.r       
+  st.r          local float $7ffd9113 5
+  pop          
+  line          #129
+  ldc.r         360
+  ld            local float $7ffd9113 5
+  mul.r        
+  ldc.r         3800
+  div.r        
+  syscall       $cos% (1)
+  ldc.r         2
+  mul.r        
+  conv.i       
+  st.i          local int $108033b0 4
+  pop          
+  line          #131
+  ldc.i         0
+  ldc.i         0
+  ld            local int $159c68ff 1
+  ldc.i         600
+  ldc.i         800
+  ld            local int $108033b0 4
+  ld            local int $099b02f1 3
+  syscall       $get_frontbuffer (0)
+  syscallp      $grp_copy (8)
+  line          #133
+  ldc.i         50
+  ld            local int $283f6306 2
+  syscall       $timer_sync (2)
+  st.i          local int $283f6306 2
+  pop          
+  line          #134
+  br            @block_066d
+
+ block_07af:
+  line          #135
+  ldc.i         0
+  ret          
+}
+
+func $6528bc89() {
+ entry:
+  line          #140
+  argcheck      []
+  alloca        [string, int, int, int, int, int, int, int]
+  line          #147
+  ldc.i         -2133861360
+  syscall       $thread_begin (1)
+  st.i          local int $a416bdb6 7
+  pop          
+  line          #149
+  ld            persistent int $634ed10a 
+  brfalse       @block_0819
+
+ block_0801:
+  line          #150
+  bsel.1        @block_0ead
+
+ block_080b:
+  line          #151
+  bsel.1        @block_0ead
+
+ block_0815:
+  line          #152
+
+ block_0819:
+  line          #154
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_082f:
+  ld            local int $5a4221e1 1
+  ldc.i         6
+  clt.i        
+  brfalse       @block_0e75
+
+ block_0847:
+  br            @block_085f
+
+ block_084d:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_082f
+
+ block_085f:
+  line          #156
+  ld            local int $5a4221e1 1
+  switch        @block_0889, @block_089d, @block_08b1, @block_08c5, @block_08d9, @block_08ed
+
+ block_0889:
+  ldstr         "ev11_roll"
+  br            @block_08fb
+
+ block_089d:
+  ldstr         "ev17_roll"
+  br            @block_08fb
+
+ block_08b1:
+  ldstr         "ev36_roll"
+  br            @block_08fb
+
+ block_08c5:
+  ldstr         "ev50_roll"
+  br            @block_08fb
+
+ block_08d9:
+  ldstr         "ev67_roll"
+  br            @block_08fb
+
+ block_08ed:
+  ldstr         "ev77_roll"
+
+ block_08fb:
+  st.s          local string $a75141c4 0
+  pop          
+  line          #159
+  ld            local int $5a4221e1 1
+  switch        @block_0931, @block_093d, @block_0949, @block_0955, @block_0961, @block_096d
+
+ block_0931:
+  ldc.i         1
+  br            @block_0973
+
+ block_093d:
+  ldc.i         1
+  br            @block_0973
+
+ block_0949:
+  ldc.i         1
+  br            @block_0973
+
+ block_0955:
+  ldc.i         0
+  br            @block_0973
+
+ block_0961:
+  ldc.i         1
+  br            @block_0973
+
+ block_096d:
+  ldc.i         1
+
+ block_0973:
+  st.i          local int $6f4ac514 2
+  pop          
+  line          #160
+  ld            local int $5a4221e1 1
+  switch        @block_09a9, @block_09b5, @block_09c1, @block_09cd, @block_09d9, @block_09e5
+
+ block_09a9:
+  ldc.i         0
+  br            @block_09eb
+
+ block_09b5:
+  ldc.i         1
+  br            @block_09eb
+
+ block_09c1:
+  ldc.i         1
+  br            @block_09eb
+
+ block_09cd:
+  ldc.i         1
+  br            @block_09eb
+
+ block_09d9:
+  ldc.i         1
+  br            @block_09eb
+
+ block_09e5:
+  ldc.i         1
+
+ block_09eb:
+  st.i          local int $7651f455 4
+  pop          
+  line          #162
+  ld            local int $6f4ac514 2
+  brfalse       @block_0a51
+
+ block_0a0b:
+  line          #163
+  ld            local string $a75141c4 0
+  syscall       $pic_len_x (1)
+  ldc.i         800
+  sub.i        
+  st.i          local int $6f4ac514 2
+  pop          
+  ldc.i         0
+  st.i          local int $70e8b20a 3
+  pop          
+  line          #164
+  br            @block_0a91
+
+ block_0a51:
+  line          #165
+  ld            local string $a75141c4 0
+  syscall       $pic_len_x (1)
+  ldc.i         800
+  sub.i        
+  st.i          local int $70e8b20a 3
+  pop          
+  ldc.i         0
+  st.i          local int $6f4ac514 2
+  pop          
+  line          #166
+
+ block_0a91:
+  line          #167
+  ld            local int $7651f455 4
+  brfalse       @block_0aeb
+
+ block_0aa5:
+  line          #168
+  ld            local string $a75141c4 0
+  syscall       $pic_len_y (1)
+  ldc.i         600
+  sub.i        
+  st.i          local int $7651f455 4
+  pop          
+  ldc.i         0
+  st.i          local int $69f3834b 5
+  pop          
+  line          #169
+  br            @block_0b2b
+
+ block_0aeb:
+  line          #170
+  ld            local string $a75141c4 0
+  syscall       $pic_len_y (1)
+  ldc.i         600
+  sub.i        
+  st.i          local int $69f3834b 5
+  pop          
+  ldc.i         0
+  st.i          local int $7651f455 4
+  pop          
+  line          #171
+
+ block_0b2b:
+  line          #174
+  ldc.i         0
+  syscallp      $wait (1)
+  line          #177
+  ld            local string $a75141c4 0
+  syscall       $sprite_create_file (1)
+  st.i          local int $3acf92c1 6
+  pop          
+  line          #178
+  ld            savefile int $1541fee6 
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_priority_high (2)
+  line          #179
+  ldc.i         -1
+  ldc.i         255
+  ldc.i         2000
+  ldc.i         255
+  ldc.i         18000
+  ldc.i         0
+  ldc.i         2000
+  ldc.i         0
+  ldc.i         0
+  ldc.i         255
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_alfa_define (11)
+  line          #182
+  ld            local int invert_numeric $7651f455 4
+  ld            local int invert_numeric $6f4ac514 2
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_move (3)
+  line          #183
+  ldc.i         20000
+  ld            local int invert_numeric $69f3834b 5
+  ld            local int invert_numeric $70e8b20a 3
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_move (4)
+  line          #186
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_move_wait (1)
+  line          #189
+  ld            local int $5a4221e1 1
+  switch        @block_0c6b, @block_0c7b, @block_0c8b, @block_0c9b, @block_0cab, @block_0cbb
+
+ block_0c6b:
+  ldstr         "ev11a"
+  br            @block_0cc4
+
+ block_0c7b:
+  ldstr         "ev17a"
+  br            @block_0cc4
+
+ block_0c8b:
+  ldstr         "ev36a"
+  br            @block_0cc4
+
+ block_0c9b:
+  ldstr         "ev50a"
+  br            @block_0cc4
+
+ block_0cab:
+  ldstr         "ev67a"
+  br            @block_0cc4
+
+ block_0cbb:
+  ldstr         "ev77"
+
+ block_0cc4:
+  st.s          local string $a75141c4 0
+  pop          
+  line          #190
+  ld            local string $a75141c4 0
+  ld            savefile int $9c805929  ; @page_back@PIC
+  syscallp      $pic_unpack (2)
+  line          #191
+  ldc.i         600
+  ldc.i         800
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $9c805929  ; @page_back@PIC
+  syscallp      $grp_reverse (5)
+  line          #194
+  ld            local int $5a4221e1 1
+  switch        @block_0d48, @block_0d53, @block_0d71, @block_0d7c, @block_0d98, @block_0da3
+
+ block_0d48:
+  ldstr         ""
+  br            @block_0db9
+
+ block_0d53:
+  ldstr         "ＯＰ文字_この作品を"
+  br            @block_0db9
+
+ block_0d71:
+  ldstr         ""
+  br            @block_0db9
+
+ block_0d7c:
+  ldstr         "ＯＰ文字_塀の中の"
+  br            @block_0db9
+
+ block_0d98:
+  ldstr         ""
+  br            @block_0db9
+
+ block_0da3:
+  ldstr         "ＯＰ文字_兄に捧ぐ"
+
+ block_0db9:
+  st.s          local string $a75141c4 0
+  pop          
+  line          #195
+  ld            local string $a75141c4 0
+  brfalse       @block_0df5
+
+ block_0dd9:
+  ld            local string $a75141c4 0
+  ld            savefile int $9c805929  ; @page_back@PIC
+  syscallp      $pic_unpack (2)
+
+ block_0df5:
+  line          #198
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_alfa_wait (1)
+  line          #199
+  ldc.i         2000
+  syscallp      $wait (1)
+  line          #200
+  ld            local string $a75141c4 0
+  brfalse       @block_0e3f
+
+ block_0e31:
+  ldc.i         2000
+  syscallp      $wait (1)
+
+ block_0e3f:
+  line          #202
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_release (1)
+  line          #203
+  ldc.i         0
+  st.i          local int $3acf92c1 6
+  pop          
+  line          #204
+  br            @block_084d
+
+ block_0e75:
+  line          #207
+  ldc.i         1
+  st.i          persistent int $634ed10a 
+  pop          
+  line          #208
+  ld            local int $a416bdb6 7
+  syscallp      $thread_end (1)
+  line          #209
+  ldc.i         0
+  ret          
+
+ block_0ead:
+  bsel.clr     
+  line          #212
+  ld            local int $3acf92c1 6
+  brfalse       @block_0ed5
+
+ block_0ec3:
+  ld            local int $3acf92c1 6
+  syscallp      $sprite_release (1)
+
+ block_0ed5:
+  line          #213
+  ld            local int $a416bdb6 7
+  syscallp      $thread_end (1)
+  line          #214
+  ldc.i         1
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $3be2b53c(int) {
+ entry:
+  line          #237
+  argcheck      [int]
+  alloca        [int, int, int]
+  line          #242
+  ld            savefile int $ed20bd03 
+  ldc.i         3
+  cne.i        
+  brfalse       @block_1163
+
+ block_0f2b:
+  line          #243
+  ldc.i         700
+  ldstr         "title0"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #244
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         700
+  syscallp      $wait (1)
+  line          #245
+  ldstr         "titlep1"
+  syscall       $sprite_create_file (1)
+  st.i          local int $7ea3db1e 1
+  pop          
+  line          #246
+  ldc.i         0
+  ldc.i         300
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move (3)
+  line          #247
+  ldc.i         255
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_alfa_set (2)
+  line          #248
+  ldc.i         700
+  ldc.i         0
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_alfa_set (3)
+  line          #249
+  ldc.i         700
+  ldc.i         0
+  ldc.i         0
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move (4)
+  line          #250
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move_wait (1)
+  line          #252
+  ldstr         "titlep2"
+  syscall       $sprite_create_file (1)
+  st.i          local int $558e88dd 2
+  pop          
+  line          #253
+  ldc.i         0
+  ldc.i         -300
+  ld            local int $558e88dd 2
+  syscallp      $sprite_move (3)
+  line          #254
+  ldc.i         255
+  ld            local int $558e88dd 2
+  syscallp      $sprite_alfa_set (2)
+  line          #255
+  ldc.i         700
+  ldc.i         0
+  ld            local int $558e88dd 2
+  syscallp      $sprite_alfa_set (3)
+  line          #256
+  ldc.i         700
+  ldc.i         0
+  ldc.i         0
+  ld            local int $558e88dd 2
+  syscallp      $sprite_move (4)
+  line          #257
+  ld            local int $558e88dd 2
+  syscallp      $sprite_move_wait (1)
+  line          #258
+  ldc.i         -1
+  ldstr         "title1"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #259
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         50
+  syscallp      $wait (1)
+  line          #260
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_release (1)
+  line          #261
+  ld            local int $558e88dd 2
+  syscallp      $sprite_release (1)
+  line          #262
+  br            @block_117d
+
+ block_1163:
+  line          #263
+  ldc.i         0
+  st.i          savefile int $ed20bd03 
+  pop          
+  line          #264
+
+ block_117d:
+  line          #265
+  ldstr         "title2"
+  callp         $$buttonmenu_file_set@BUTONMENU (1) ; $buttonmenu_file_set@BUTONMENU
+  line          #267
+  ldc.i         32
+  ldc.i         187
+  ldc.i         400
+  ldc.i         562
+  ldc.i         1
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #268
+  ldc.i         32
+  ldc.i         187
+  ldc.i         440
+  ldc.i         562
+  ldc.i         2
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #269
+  ldc.i         32
+  ldc.i         187
+  ldc.i         480
+  ldc.i         562
+  ldc.i         3
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #270
+  ld            local int $12be42d6 -2
+  brfalse       @block_1260
+
+ block_1236:
+  ldc.i         32
+  ldc.i         187
+  ldc.i         520
+  ldc.i         562
+  ldc.i         4
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+
+ block_1260:
+  line          #271
+  ldc.i         32
+  ldc.i         187
+  ldc.i         560
+  ldc.i         562
+  ldc.i         5
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #274
+  ldc.i         0
+  call          $$button_menu@BUTONMENU (1) ; $button_menu@BUTONMENU
+  st.i          local int $f463cc85 0
+  pop          
+  line          #276
+  ld            local int $f463cc85 0
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $f698f3c0(int) {
+ entry:
+  line          #280
+  argcheck      [int]
+  alloca        [int, int]
+  line          #283
+  ldc.i         0
+  st.i          local int $12be42d6 1
+  pop          
+  line          #284
+  ld            persistent int $64172cc8 
+  brfalse       @block_1313
+
+ block_1301:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1313:
+  line          #285
+  ld            persistent int $86dd6daf 
+  brfalse       @block_1339
+
+ block_1327:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1339:
+  line          #286
+  ld            persistent int $505042fd 
+  brfalse       @block_135f
+
+ block_134d:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_135f:
+  line          #287
+  ld            persistent int $5f4110f7 
+  brfalse       @block_1385
+
+ block_1373:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1385:
+  line          #288
+  ld            persistent int $2ed4ca4a 
+  brfalse       @block_13ab
+
+ block_1399:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_13ab:
+  line          #289
+  ld            persistent int $3d527787 
+  brfalse       @block_13d1
+
+ block_13bf:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_13d1:
+  line          #290
+  ld            persistent int $8b01795c 
+  brfalse       @block_13f7
+
+ block_13e5:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_13f7:
+  line          #291
+  ld            persistent int $cae5ecc8 
+  brfalse       @block_141d
+
+ block_140b:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_141d:
+  line          #292
+  ld            persistent int $dc03a4e7 
+  brfalse       @block_1443
+
+ block_1431:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1443:
+  line          #293
+  ld            persistent int $0286c3ca 
+  brfalse       @block_1469
+
+ block_1457:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1469:
+  line          #294
+  ld            persistent int $8c09c429 
+  brfalse       @block_148f
+
+ block_147d:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_148f:
+  line          #295
+  ld            persistent int $56ccc5bc 
+  brfalse       @block_14b5
+
+ block_14a3:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_14b5:
+  line          #296
+  ld            persistent int $b5a84d2d 
+  brfalse       @block_14db
+
+ block_14c9:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_14db:
+  line          #297
+  ld            persistent int $6c343075 
+  brfalse       @block_1501
+
+ block_14ef:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1501:
+  line          #298
+  ld            persistent int $2d515d66 
+  brfalse       @block_1527
+
+ block_1515:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_1527:
+  line          #299
+  ld            persistent int $bf2e8e81 
+  brfalse       @block_154d
+
+ block_153b:
+  ldc.i         1
+  st.i          local int $12be42d6 1
+  pop          
+
+ block_154d:
+  line          #301
+  syscallp      $reset_fast_mode (0)
+  line          #302
+  callp         $$reset_fast_disp@CONSOLE (0) ; $reset_fast_disp@CONSOLE
+  line          #304
+  syscallp      $mk_read (0)
+  line          #319
+  ldc.i         2
+  callp         $$select_mode_set@MENU (1) ; $select_mode_set@MENU
+  line          #321
+  ld            local int $12be42d6 1
+  call          $3be2b53c (1)
+  st.i          local int $f463cc85 0
+  pop          
+  line          #323
+  ldc.i         100
+  syscallp      $wait (1)
+  line          #324
+  ld            local int $f463cc85 0
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $f2f1eb53() {
+ entry:
+  line          #330
+  argcheck      []
+  alloca        []
+  line          #332
+  syscallp      $reset_fast_mode (0)
+  line          #333
+  callp         $$reset_fast_disp@CONSOLE (0) ; $reset_fast_disp@CONSOLE
+  line          #335
+  ldstr         "music_mode_off"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #336
+  ldc.i         2
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #338
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+
+ block_164c:
+  line          #339
+  ldstr         "music_mode_off"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #340
+  ldc.i         -1
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #341
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "music_mode_on"
+  callp         $$buttonmenu_file_set@BUTONMENU (1) ; $buttonmenu_file_set@BUTONMENU
+  line          #342
+  ldc.i         1200
+  callp         $$button_menu_setsprite@BUTONMENU (1) ; $button_menu_setsprite@BUTONMENU
+  line          #344
+  ldc.i         51
+  ldc.i         444
+  ldc.i         42
+  ldc.i         182
+  ldc.i         1
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #345
+  ldc.i         51
+  ldc.i         444
+  ldc.i         93
+  ldc.i         182
+  ldc.i         2
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #346
+  ldc.i         51
+  ldc.i         444
+  ldc.i         144
+  ldc.i         182
+  ldc.i         3
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #347
+  ldc.i         51
+  ldc.i         444
+  ldc.i         195
+  ldc.i         182
+  ldc.i         4
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #348
+  ldc.i         51
+  ldc.i         444
+  ldc.i         246
+  ldc.i         182
+  ldc.i         5
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #349
+  ldc.i         51
+  ldc.i         444
+  ldc.i         297
+  ldc.i         182
+  ldc.i         6
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #350
+  ldc.i         51
+  ldc.i         444
+  ldc.i         348
+  ldc.i         182
+  ldc.i         7
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #351
+  ldc.i         51
+  ldc.i         444
+  ldc.i         399
+  ldc.i         182
+  ldc.i         8
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #352
+  ldc.i         51
+  ldc.i         444
+  ldc.i         450
+  ldc.i         182
+  ldc.i         9
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #353
+  ldc.i         51
+  ldc.i         444
+  ldc.i         501
+  ldc.i         182
+  ldc.i         10
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #354
+  ldc.i         67
+  ldc.i         100
+  ldc.i         524
+  ldc.i         681
+  ldc.i         11
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #356
+  ldc.i         -1
+  call          $$button_menu@BUTONMENU (1) ; $button_menu@BUTONMENU
+  br.case       @block_18df
+
+ block_18df:
+  line          #357
+  ldc.i         1
+  bne.case      @block_1909
+
+ block_18ef:
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1909:
+  line          #358
+  ldc.i         2
+  bne.case      @block_1933
+
+ block_1919:
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1933:
+  line          #359
+  ldc.i         3
+  bne.case      @block_195d
+
+ block_1943:
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_195d:
+  line          #360
+  ldc.i         4
+  bne.case      @block_1987
+
+ block_196d:
+  ldstr         "m04"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1987:
+  line          #361
+  ldc.i         5
+  bne.case      @block_19b1
+
+ block_1997:
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_19b1:
+  line          #362
+  ldc.i         6
+  bne.case      @block_19db
+
+ block_19c1:
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_19db:
+  line          #363
+  ldc.i         7
+  bne.case      @block_1a05
+
+ block_19eb:
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1a05:
+  line          #364
+  ldc.i         8
+  bne.case      @block_1a2f
+
+ block_1a15:
+  ldstr         "m08"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1a2f:
+  line          #365
+  ldc.i         9
+  bne.case      @block_1a59
+
+ block_1a3f:
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1a59:
+  line          #366
+  ldc.i         10
+  bne.case      @block_1a83
+
+ block_1a69:
+  ldstr         "m10"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  br            @block_1adb
+
+ block_1a83:
+  line          #367
+  ldc.i         11
+  bne.case      @block_1a99
+
+ block_1a93:
+  br            @block_1aa9
+
+ block_1a99:
+  line          #368
+  ldc.i         -1
+  bne.case      @block_1adb
+
+ block_1aa9:
+  line          #369
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #370
+  ldc.i         0
+  ret          
+  line          #371
+  br            @block_1adb
+
+ block_1ad7:
+  line          #372
+
+ block_1adb:
+  line          #373
+  br            @block_164c
+
+ block_1ae5:
+  ldc.i         0
+  ret          
+}
+
+func $caa7d443() {
+ entry:
+  line          #375
+  argcheck      []
+  alloca        [int, int]
+  line          #395
+  ld            persistent int $64172cc8 
+  ld            persistent int $86dd6daf 
+  orl          
+  ld            persistent int $505042fd 
+  orl          
+  ld            persistent int $5f4110f7 
+  orl          
+  ld            persistent int $2ed4ca4a 
+  orl          
+  ld            persistent int $3d527787 
+  orl          
+  ld            persistent int $2284162f 
+  orl          
+  ld            persistent int $cae5ecc8 
+  orl          
+  ld            persistent int $0286c3ca 
+  orl          
+  ld            persistent int $8c09c429 
+  orl          
+  ld            persistent int $56ccc5bc 
+  orl          
+  ld            persistent int $b5a84d2d 
+  orl          
+  ld            persistent int $6c343075 
+  orl          
+  ld            persistent int $2d515d66 
+  orl          
+  ld            persistent int $bf2e8e81 
+  orl          
+  ld            persistent int $dc03a4e7 
+  orl          
+  brfalse       @block_1c04
+
+ block_1bc3:
+  line          #397
+  ctrl          "w"
+  text          %{L1} ; "貴方が見たエンディングは…"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #398
+  br            @block_1c57
+
+ block_1c04:
+  line          #399
+  ctrl          "w"
+  text          %{L2} ; "貴方は未だエンディングを見ていません。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #400
+  ldc.i         0
+  ret          
+  line          #401
+
+ block_1c57:
+  line          #403
+  ldc.i         0
+  st.i          local int $fed490ae 0
+  pop          
+  line          #404
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  line          #405
+  ld            persistent int $64172cc8 
+  brfalse       @block_1d04
+
+ block_1c97:
+  line          #406
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #407
+  text          %{L3} ; "『希更ＥＮＤ』\n"
+  line          #408
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1d00
+
+ block_1ce2:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1d00:
+  line          #409
+
+ block_1d04:
+  line          #410
+  ld            persistent int $86dd6daf 
+  brfalse       @block_1d85
+
+ block_1d18:
+  line          #411
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #412
+  text          %{L4} ; "『愛梨ＥＮＤ』\n"
+  line          #413
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1d81
+
+ block_1d63:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1d81:
+  line          #414
+
+ block_1d85:
+  line          #415
+  ld            persistent int $505042fd 
+  brfalse       @block_1e0c
+
+ block_1d99:
+  line          #416
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #417
+  text          %{L5} ; "『希更＆愛梨ＥＮＤ』\n"
+  line          #418
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1e08
+
+ block_1dea:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1e08:
+  line          #419
+
+ block_1e0c:
+  line          #420
+  ld            persistent int $5f4110f7 
+  brfalse       @block_1e8d
+
+ block_1e20:
+  line          #421
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #422
+  text          %{L6} ; "『未夏ＥＮＤ』\n"
+  line          #423
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1e89
+
+ block_1e6b:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1e89:
+  line          #424
+
+ block_1e8d:
+  line          #425
+  ld            persistent int $2ed4ca4a 
+  brfalse       @block_1f0e
+
+ block_1ea1:
+  line          #426
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #427
+  text          %{L7} ; "『衣澄ＥＮＤ』\n"
+  line          #428
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1f0a
+
+ block_1eec:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1f0a:
+  line          #429
+
+ block_1f0e:
+  line          #430
+  ld            persistent int $3d527787 
+  brfalse       @block_1f8f
+
+ block_1f22:
+  line          #431
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #432
+  text          %{L8} ; "『璃乃ＥＮＤ』\n"
+  line          #433
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_1f8b
+
+ block_1f6d:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_1f8b:
+  line          #434
+
+ block_1f8f:
+  line          #435
+  ld            persistent int $2284162f 
+  brfalse       @block_2016
+
+ block_1fa3:
+  line          #436
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #437
+  text          %{L9} ; "『璃乃＆夕実ＥＮＤ』\n"
+  line          #438
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_2012
+
+ block_1ff4:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_2012:
+  line          #439
+
+ block_2016:
+  line          #440
+  ld            persistent int $cae5ecc8 
+  brfalse       @block_209b
+
+ block_202a:
+  line          #441
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #442
+  text          %{L10} ; "『貴城死亡ＥＮＤ』\n"
+  line          #443
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_2097
+
+ block_2079:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_2097:
+  line          #444
+
+ block_209b:
+  line          #445
+  ld            persistent int $0286c3ca 
+  brfalse       @block_211e
+
+ block_20af:
+  line          #446
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #447
+  text          %{L11} ; "『心中ＥＮＤ１』\n"
+  line          #448
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_211a
+
+ block_20fc:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_211a:
+  line          #449
+
+ block_211e:
+  line          #450
+  ld            persistent int $8c09c429 
+  brfalse       @block_21a1
+
+ block_2132:
+  line          #451
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #452
+  text          %{L12} ; "『心中ＥＮＤ２』\n"
+  line          #453
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_219d
+
+ block_217f:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_219d:
+  line          #454
+
+ block_21a1:
+  line          #455
+  ld            persistent int $56ccc5bc 
+  brfalse       @block_2228
+
+ block_21b5:
+  line          #456
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #457
+  text          %{L13} ; "『死亡ＥＮＤ希更編』\n"
+  line          #458
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_2224
+
+ block_2206:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_2224:
+  line          #459
+
+ block_2228:
+  line          #460
+  ld            persistent int $b5a84d2d 
+  brfalse       @block_22af
+
+ block_223c:
+  line          #461
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #462
+  text          %{L14} ; "『死亡ＥＮＤ愛梨編』\n"
+  line          #463
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_22ab
+
+ block_228d:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_22ab:
+  line          #464
+
+ block_22af:
+  line          #465
+  ld            persistent int $6c343075 
+  brfalse       @block_2336
+
+ block_22c3:
+  line          #466
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #467
+  text          %{L15} ; "『死亡ＥＮＤ未夏編』\n"
+  line          #468
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_2332
+
+ block_2314:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_2332:
+  line          #469
+
+ block_2336:
+  line          #470
+  ld            persistent int $2d515d66 
+  brfalse       @block_23bd
+
+ block_234a:
+  line          #471
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #472
+  text          %{L16} ; "『死亡ＥＮＤ衣澄編』\n"
+  line          #473
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_23b9
+
+ block_239b:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_23b9:
+  line          #474
+
+ block_23bd:
+  line          #475
+  ld            persistent int $bf2e8e81 
+  brfalse       @block_2444
+
+ block_23d1:
+  line          #476
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #477
+  text          %{L17} ; "『死亡ＥＮＤ璃乃編』\n"
+  line          #478
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_2440
+
+ block_2422:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_2440:
+  line          #479
+
+ block_2444:
+  line          #480
+  ld            persistent int $dc03a4e7 
+  brfalse       @block_24c9
+
+ block_2458:
+  line          #481
+  ld            local int postinc $fed490ae 0
+  pop          
+  line          #482
+  text          %{L18} ; "『ＴｒｕｅＥＮＤ』\n"
+  line          #483
+  ld            local int preinc $7ae9011c 1
+  ldc.i         3
+  ceq.i        
+  brfalse       @block_24c5
+
+ block_24a7:
+  ldc.i         0
+  st.i          local int $7ae9011c 1
+  pop          
+  ctrl          "p"
+  ctrl          "w"
+
+ block_24c5:
+  line          #484
+
+ block_24c9:
+  line          #486
+  ld            local int $fed490ae 0
+  ldc.i         16
+  ceq.i        
+  brfalse       @block_253e
+
+ block_24e5:
+  line          #487
+  ctrl          "p"
+  ctrl          "w"
+  line          #488
+  text          %{L19} ; "１６種類全てのエンディングを見ています。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #489
+  br            @block_25aa
+
+ block_253e:
+  line          #490
+  ctrl          "p"
+  ctrl          "w"
+  line          #491
+  text          %{L20} ; "16種類中、"
+  proc         
+  ld            local int $fed490ae 0
+  ctrl          "d"
+  text          %{L21} ; "種類のエンディングを見ています。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #492
+
+ block_25aa:
+  line          #493
+  ldc.i         0
+  ret          
+}
+
+func $5f7ad7d9() {
+ entry:
+  line          #500
+  argcheck      []
+  alloca        [int, int, int]
+  line          #504
+  ld            savefile int $5a6ef5c9 
+  ldc.i         1
+  cne.i        
+  brfalse       @block_282e
+
+ block_25e1:
+  line          #505
+  ldstr         "titlep2"
+  syscall       $sprite_create_file (1)
+  st.i          local int $7ea3db1e 1
+  pop          
+  line          #506
+  ldstr         "titlep3"
+  syscall       $sprite_create_file (1)
+  st.i          local int $558e88dd 2
+  pop          
+  line          #507
+  ldc.i         0
+  ldc.i         0
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move (3)
+  line          #508
+  ldstr         "title0b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #509
+  ldc.i         -1
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #510
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         255
+  ld            local int $558e88dd 2
+  syscallp      $sprite_alfa_set (2)
+  line          #511
+  ldc.i         0
+  ldc.i         350
+  ld            local int $558e88dd 2
+  syscallp      $sprite_move (3)
+  line          #512
+  ldc.i         700
+  ldc.i         0
+  ld            local int $558e88dd 2
+  syscallp      $sprite_alfa_set (3)
+  line          #513
+  ldc.i         700
+  ldc.i         255
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_alfa_set (3)
+  line          #514
+  ldc.i         700
+  ldc.i         0
+  ldc.i         0
+  ld            local int $558e88dd 2
+  syscallp      $sprite_move (4)
+  line          #515
+  ldc.i         700
+  ldc.i         0
+  ldc.i         -350
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move (4)
+  line          #516
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_move_wait (1)
+  line          #517
+  ldstr         "title3"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #518
+  ldc.i         -1
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #519
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1200
+  ldc.i         255
+  ld            local int $558e88dd 2
+  syscallp      $sprite_alfa_set (3)
+  line          #520
+  ldc.i         1700
+  syscallp      $wait (1)
+  line          #521
+  ld            local int $7ea3db1e 1
+  syscallp      $sprite_release (1)
+  line          #522
+  ld            local int $558e88dd 2
+  syscallp      $sprite_release (1)
+  line          #523
+  ldc.i         0
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  line          #524
+  br            @block_2848
+
+ block_282e:
+  line          #525
+  ldc.i         0
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  line          #526
+
+ block_2848:
+  line          #529
+  ldstr         "title4"
+  callp         $$buttonmenu_file_set@BUTONMENU (1) ; $buttonmenu_file_set@BUTONMENU
+  line          #532
+  ldc.i         32
+  ldc.i         237
+  ldc.i         400
+  ldc.i         512
+  ldc.i         1
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #533
+  ldc.i         32
+  ldc.i         237
+  ldc.i         440
+  ldc.i         512
+  ldc.i         2
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #534
+  ldc.i         32
+  ldc.i         237
+  ldc.i         480
+  ldc.i         512
+  ldc.i         3
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #535
+  ldc.i         32
+  ldc.i         237
+  ldc.i         520
+  ldc.i         512
+  ldc.i         4
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #536
+  ldc.i         32
+  ldc.i         237
+  ldc.i         560
+  ldc.i         512
+  ldc.i         5
+  callp         $$buttonmenu_set@BUTONMENU (5) ; $buttonmenu_set@BUTONMENU
+  line          #539
+  ldc.i         5
+  call          $$button_menu@BUTONMENU (1) ; $button_menu@BUTONMENU
+  st.i          local int $f463cc85 0
+  pop          
+  line          #540
+  ld            local int $f463cc85 0
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $99fe2c07() {
+ entry:
+  line          #543
+  argcheck      []
+  alloca        [int, int]
+  line          #546
+  ldstr         "titlep3"
+  syscall       $sprite_create_file (1)
+  st.i          local int $7ea3db1e 0
+  pop          
+  line          #547
+  ldstr         "titlep2"
+  syscall       $sprite_create_file (1)
+  st.i          local int $558e88dd 1
+  pop          
+  line          #548
+  ldc.i         0
+  ldc.i         0
+  ld            local int $7ea3db1e 0
+  syscallp      $sprite_move (3)
+  line          #549
+  ldc.i         0
+  ldc.i         -350
+  ld            local int $558e88dd 1
+  syscallp      $sprite_move (3)
+  line          #550
+  ldc.i         255
+  ld            local int $558e88dd 1
+  syscallp      $sprite_alfa_set (2)
+  line          #551
+  ldstr         "title0b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #552
+  ldc.i         -1
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #553
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         700
+  ldc.i         255
+  ld            local int $7ea3db1e 0
+  syscallp      $sprite_alfa_set (3)
+  line          #554
+  ldc.i         700
+  ldc.i         0
+  ld            local int $558e88dd 1
+  syscallp      $sprite_alfa_set (3)
+  line          #555
+  ldc.i         700
+  ldc.i         0
+  ldc.i         350
+  ld            local int $7ea3db1e 0
+  syscallp      $sprite_move (4)
+  line          #556
+  ldc.i         700
+  ldc.i         0
+  ldc.i         0
+  ld            local int $558e88dd 1
+  syscallp      $sprite_move (4)
+  line          #557
+  ld            local int $7ea3db1e 0
+  syscallp      $sprite_move_wait (1)
+  line          #558
+  ldstr         "title1"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #559
+  ldc.i         -1
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #560
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ld            local int $7ea3db1e 0
+  syscallp      $sprite_move_wait (1)
+  line          #561
+  ld            local int $558e88dd 1
+  syscallp      $sprite_release (1)
+  line          #563
+  ldc.i         3
+  st.i          savefile int $ed20bd03 
+  pop          
+  line          #564
+  ldc.i         0
+  ret          
+}
+
+func $e021c497() {
+ entry:
+  line          #567
+  argcheck      []
+  alloca        [int]
+
+ block_2bb9:
+  line          #571
+  syscallp      $console_off (0)
+  line          #573
+  syscallp      $reset_fast_mode (0)
+  line          #574
+  callp         $$reset_fast_disp@CONSOLE (0) ; $reset_fast_disp@CONSOLE
+  line          #576
+  syscallp      $mk_read (0)
+  line          #578
+  ldc.i         1
+  callp         $$select_mode_set@MENU (1) ; $select_mode_set@MENU
+  line          #580
+  call          $5f7ad7d9 (0)
+  br.case       @block_2c19
+
+ block_2c19:
+  line          #581
+  ldc.i         1
+  bne.case      @block_2c55
+
+ block_2c29:
+  line          #582
+  callp         $$cg_mode@CGMODE (0) ; $cg_mode@CGMODE
+  line          #583
+  ldc.i         1
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  br            @block_2db4
+
+ block_2c55:
+  line          #584
+  ldc.i         2
+  bne.case      @block_2c91
+
+ block_2c65:
+  line          #585
+  callp         $$kaisou_mode@CGMODE (0) ; $kaisou_mode@CGMODE
+  line          #586
+  ldc.i         1
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  br            @block_2db4
+
+ block_2c91:
+  line          #587
+  ldc.i         3
+  bne.case      @block_2ccd
+
+ block_2ca1:
+  line          #588
+  callp         $f2f1eb53 (0)
+  line          #589
+  ldc.i         1
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  br            @block_2db4
+
+ block_2ccd:
+  line          #590
+  ldc.i         4
+  bne.case      @block_2d6e
+
+ block_2cdd:
+  line          #591
+  ldc.i         -1
+  ldstr         "title0b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #592
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $caa7d443 (0)
+  line          #593
+  ldc.i         -1
+  ldstr         "title3"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #594
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1
+  st.i          savefile int $5a6ef5c9 
+  pop          
+  line          #595
+  br            @block_2bb9
+
+ block_2d68:
+  br            @block_2db4
+
+ block_2d6e:
+  line          #596
+  ldc.i         -1
+  bne.case      @block_2d84
+
+ block_2d7e:
+  br            @block_2d94
+
+ block_2d84:
+  line          #597
+  ldc.i         5
+  bne.case      @block_2db4
+
+ block_2d94:
+  line          #598
+  callp         $99fe2c07 (0)
+  line          #599
+  ldc.i         0
+  ret          
+  line          #600
+
+ block_2db4:
+  line          #601
+  ldstr         "title3"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #602
+  ldc.i         2
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #603
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  br            @block_2bb9
+
+ block_2dfb:
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #608
+  argcheck      []
+  alloca        [int, int, string]
+  line          #612
+  ldc.i         0
+  syscallp      $auto_mode_config (1)
+  line          #614
+  syscall       $is_testplay (0)
+  brfalse       @block_2ed9
+
+ block_2e36:
+  line          #615
+  syscall       $get_drag_filename$ (0)
+  brfalse       @block_2ec3
+
+ block_2e48:
+  line          #618
+  syscall       $get_drag_filename$ (0)
+  st.s          local string $a75141c4 2
+  pop          
+  line          #619
+  ldc.i         2
+  syscallp      $drag_accept_files (1)
+  line          #620
+  syscallp      $save_menu_enable (0)
+  line          #621
+  ldstr         "ドラッグスタート"
+  syscallp      $save_point (1)
+  line          #622
+  ctrl          "w"
+  line          #623
+  ld            local string $a75141c4 2
+  syscallp      $exec (1)
+  line          #624
+
+ block_2ec3:
+  line          #625
+  ldc.i         2
+  syscallp      $drag_accept_files (1)
+  line          #626
+
+ block_2ed9:
+  line          #628
+  call          $61abdb3d (0)
+  st.i          local int $a1e69b50 1
+  pop          
+  line          #629
+  syscallp      $sound_stop (0)
+  line          #631
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #632
+  call          $6528bc89 (0)
+  st.i          local int $a1e69b50 1
+  pop          
+
+ block_2f35:
+  line          #635
+  syscallp      $console_off (0)
+  line          #637
+  ld            local int $a1e69b50 1
+  call          $f698f3c0 (1)
+  st.i          local int $f463cc85 0
+  pop          
+  line          #638
+  ldc.i         1
+  st.i          local int $a1e69b50 1
+  pop          
+  line          #640
+  ld            local int $f463cc85 0
+  br.case       @block_2f91
+
+ block_2f91:
+  line          #641
+  ldc.i         1
+  bne.case      @block_2fc1
+
+ block_2fa1:
+  line          #642
+  callp         $$load_menu@LOADSAVE (0) ; $load_menu@LOADSAVE
+  line          #643
+  br            @block_315c
+
+ block_2fbb:
+  br            @block_315c
+
+ block_2fc1:
+  line          #644
+  ldc.i         2
+  bne.case      @block_3041
+
+ block_2fd1:
+  line          #645
+  syscallp      $save_menu_enable (0)
+  line          #646
+  ldc.i         1000
+  syscallp      $music_fadeout (1)
+  line          #647
+  ldstr         "イニシャルスタート"
+  syscallp      $save_point (1)
+  line          #649
+  ctrl          "w"
+  line          #650
+  ldstr         "game"
+  syscallp      $exec (1)
+  line          #651
+  br            @block_315c
+
+ block_303b:
+  br            @block_315c
+
+ block_3041:
+  line          #652
+  ldc.i         3
+  bne.case      @block_3071
+
+ block_3051:
+  line          #653
+  callp         $$config_menu@CONFIG (0) ; $config_menu@CONFIG
+  line          #654
+  br            @block_315c
+
+ block_306b:
+  br            @block_315c
+
+ block_3071:
+  line          #655
+  ldc.i         4
+  bne.case      @block_30a1
+
+ block_3081:
+  line          #656
+  callp         $e021c497 (0)
+  line          #657
+  br            @block_315c
+
+ block_309b:
+  br            @block_315c
+
+ block_30a1:
+  line          #658
+  ldc.i         5
+  bne.case      @block_315c
+
+ block_30b1:
+  line          #660
+  ldc.i         0
+  ldstr         "ゲームを終了します。よろしいですか？"
+  call          $$askyesno@MSG_BOX (2) ; $askyesno@MSG_BOX
+  brfalse       @block_314e
+
+ block_30f6:
+  line          #662
+  syscallp      $console_off (0)
+  line          #663
+  ldstr         "black"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #664
+  ldc.i         1000
+  callp         $$trans@PIC (1) ; $trans@PIC
+  line          #665
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  syscallp      $system_end (0)
+  line          #666
+
+ block_314e:
+  line          #667
+  br            @block_315c
+
+ block_3158:
+  line          #668
+
+ block_315c:
+  line          #669
+  br            @block_2f35
+
+ block_3166:
+  ldc.i         0
+  ret          
+}

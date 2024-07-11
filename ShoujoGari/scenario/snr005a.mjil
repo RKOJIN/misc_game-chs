@@ -1,0 +1,344 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #21
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #22
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #23
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #26
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "電話をかけ、希更を呼び出すことにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L2} ; "非通知でかけたにもかかわらず、意外にも希更はコール３回で電話に出る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L3} ; "まるで俺からの電話を待ち構えていたような反応にほくそえみながら、俺は用件を切り出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L4} ; "【貴城】「今からすぐ、公園に来い」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  ldstr         "c0355"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #34
+  text          %{L5} ; "【希更】「だっ、誰があんたの指図なんて……馬鹿じゃないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L6} ; "【貴城】「ほう、名乗ってもいないのに。俺が誰だか判ってるのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  ldstr         "c0356"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #39
+  text          %{L7} ; "【希更】「わっ、忘れられるわけ、ないでしょ。もういい加減にして！　あたしのことは放っておいて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L8} ; "【貴城】「俺が優しくしてるうちに、その態度は改めたほうがいいんじゃないのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  ldstr         "c0357"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #44
+  text          %{L9} ; "【希更】「くっ……どうせ、写真をばら撒くとか、そういうテイノーなこと言うんでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L10} ; "【貴城】「そうとは言ってないが……お前が是非そうして欲しいと言うのなら、リクエストに答えてやるよ。今から１時間後だ。」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "c0358"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L11} ; "【希更】「ちょっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L12} ; "希更の抗議の声を最後まで聞きもせずに、俺は電話を切った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #54
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #55
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #56
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #57
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #63
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L13} ; "俺が公園についたのは、希更に指定した時間よりも１０分ほど遅れてのことだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L14} ; "出ようとした時に叔父に呼び止められたものだから、俺が見積もった時間よりも時間がかかってしまったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L15} ; "気性の激しい希更のことだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L16} ; "きっとすっぽかすか、遅刻するか、はたまたもう帰ってしまっただろうと思っていたのだが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  ldstr         "BUP02DBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #73
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L17} ; "予想に反して希更はそこにいた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L18} ; "ひどく不安げな顔で、携帯電話を見たり、辺りを見回したりしている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L19} ; "何も知らない奴が見たら、まるで初めてのデートで待ち合わせをしているかのように思うだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L20} ; "そのわりにはその顔色はひどく青ざめ、これから愛しい男とのデートというにはかけ離れている顔つきをしているが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L21} ; "ただ、最初に希更を陵辱した時にはなかった左腕の包帯が気になった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L22} ; "遠目だからよくはわからないが、たった今巻いて出てきましたと言わんばかりに真新しい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #83
+  text          %{L23} ; "これが夕実だとしたら、夕実がどんなに誤魔化そうとしてもリストカットをしたのではないかと心配するところだが……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L24} ; "こんなに気が強くて、人一人を死に追いやっても罪悪感すら抱いていないような女が、そんなことをするわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L25} ; "その怪我が何によるものだかわからないが、その包帯が『私はこんなに苦しんだよ、お兄ちゃん』という夕実の叫び声のように感じて、俺は希更への怒りを新たにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L26} ; "奥歯をギリギリとかみ締める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L27} ; "だが、すぐに襲い掛かろうとする自分を押さえつける理性だけは働かせて、俺は希更の前に姿を現した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #93
+  text          %{L28} ; "【貴城】「ほぉ、感心だな。ちゃんと来るとは思わなかったよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #95
+  text          %{L29} ; "声をかけられるまで俺にまったく気づかなかったらしく、希更は俺に対する嫌悪感を全身で示すかのように体を一瞬すくませる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #97
+  text          %{L30} ; "【貴城】「（少しは自分の態度を改めることを覚えたらしいな。）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #99
+  text          %{L31} ; "そう俺が思ったのもつかの間。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  ldstr         "BUP02BBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #102
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L32} ; "ここで気を飲まれたら負けだとでも思い直したのか、すぐに俺をきつく睨みつけてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #104
+  ldstr         "c0359"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #105
+  text          %{L33} ; "【希更】「こんなことをして、ただで済むと思ってるの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L34} ; "【貴城】「ただで済むと思ってたら、口止めの写真を撮ると思うか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  ldstr         "c0360"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #110
+  text          %{L35} ; "【希更】「くっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L36} ; "【貴城】「そしてお前はここに来た。それが事実だろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  ldstr         "c0361"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #115
+  text          %{L37} ; "【希更】「ふざけないで！　あたしはあんたから写真を取り戻すだけに来たんだから」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L38} ; "【貴城】「俺に力で勝てるとでも？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  ldstr         "c0362"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #120
+  text          %{L39} ; "【希更】「そんなの、やってみなきゃわからないじゃない。返して！！　さもなければ、警察に訴えてやるわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L40} ; "【貴城】「警察、警察って……警察が何をしてくれるっていうんだ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L41} ; "希更の言葉は、俺の逆鱗に触れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L42} ; "もし警察が何かをしてくれるというのであれば、夕実を死に追い込んだ奴らを罰してくれるはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #127
+  text          %{L43} ; "けれど警察は何もしてくれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L44} ; "だから俺が夕実を死に追い込んだ希更を罰するのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #130
+  text          %{L45} ; "希更は俺の怒鳴り声に、一瞬、ビクリと体を震わせたが、それでもキツイ目をして黙って俺を見返している。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L46} ; "その強気な態度が、俺の嗜虐心に火を点けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L47} ; "【貴城】「言いたければ言えばいいじゃないか。でも言えない。そして言ったところで何もしてくれない。だからお前はここへ来た。そうだろう？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #136
+  ldstr         "c0363"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #137
+  text          %{L48} ; "【希更】「ばっ、馬鹿じゃないの？　マジであんた、頭おかしいわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L49} ; "【貴城】「俺がおかしいのはとうにわかってるだろ？　それなのにここへ来たって言うことは……俺に犯られたいんだろ？　淫乱女」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  ldstr         "c0364"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #142
+  text          %{L50} ; "【希更】「馬鹿なこと言わないでよ。あたしは写真を返してもらいに来ただけ。それだけよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L51} ; "【貴城】「力づくで？　俺に力で敵わないってことは、最初の時に充分、身に染みたと思ったが……そうじゃないのなら、もう一度教えてやる必要があるな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  ldstr         "BUP02DBu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #147
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L52} ; "俺が冷たくニヤリと笑うと、さすがに強気な表情を崩さなかった希更の顔に不安が横切る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #149
+  text          %{L53} ; "それを興味深く見ながら、俺はどうしてやろうかと思いをめぐらせた。"
+  proc         
+  ctrl          "p"
+  line          #170
+  ldc.i         0
+  ret          
+}

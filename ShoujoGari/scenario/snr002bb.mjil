@@ -1,0 +1,674 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #19
+  ldstr         "bg21y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #20
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #22
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "電車を降りた愛梨は、改札を出ようとはせずに反対方向行き……つまり今来た方面行きの乗り場ホームに移動した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #23
+  text          %{L2} ; "どうやら、痴漢されることに陶酔するあまり、下車駅を乗り過ごしたらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L3} ; "まったくお嬢様が聞いてあきれるぜ。この変態のメス豚が。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #27
+  ldstr         "ev16a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #28
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #30
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L4} ; "俺は愛梨の後を追って、同じ電車に乗り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L5} ; "すし詰め状態の満員電車。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L6} ; "愛梨の背後から追いかける形で乗り込んだ為、周りに押されて俺と愛梨の体が密着する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L7} ; "俺の手が、ちょうど愛梨の尻の位置にきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L8} ; "形の良い柔らかな少女の尻の感触が手に広がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L9} ; "満員電車の中で身動きこそ出来ないが、かろうじて手を動かすことはできそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  text          %{L10} ; "単純な手の甲による接触から、手首を返して掌を当てる。スカート越しに下着の形まではっきりと感じ取れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L11} ; "ゆっくりと円を描くように滑らせて撫でていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #42
+  ldstr         "a0084"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #43
+  text          %{L12} ; "【愛梨】「ぁっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L13} ; "尻を擦る掌の感触に、愛梨の身体が反応を示す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L14} ; "尻の割れ目に中指を食い込ませると、ビクリと震えが走った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "a0085"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L15} ; "【愛梨】「んっ……ふぅ、ふぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L16} ; "愛梨は、頬はおろか耳まで真赤に染めて目を伏せる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L17} ; "敏感なところをさわられる感覚に反応して、愛梨は官能的な吐息を漏らした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  ldstr         "a0086"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #55
+  text          %{L18} ; "【愛梨】「んっふっくぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L19} ; "尻の肉を持ち上げるように大胆に撫であげて、全体にまんべんなく掌を這わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L20} ; "俺の手の動きにあわせて、愛梨も小刻みに尻を振った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #60
+  text          %{L21} ; "間違いなくこいつ……さわられることで感じている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L22} ; "さわられることを望んでいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #63
+  text          %{L23} ; "尻を撫でる手の感触に歓喜しているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #65
+  text          %{L24} ; "俺はさらにそこから行為をエスカレートさせていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L25} ; "スカートを捲り上げると、下着に指をそえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L26} ; "尻の割れ目に沿って指をゆっくりと下ろし、そこからカーブにあわせて秘部を狙う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L27} ; "薄い下着の生地を通して染み出す愛液の湿った感触があった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  ldstr         "a0087"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #72
+  text          %{L28} ; "【愛梨】「うっ、あっぁぁぁ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L29} ; "生地の上から中指を軽く押し込んでみると、愛梨は身体を震わせて悶えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L30} ; "満員電車の中で見知らぬ男に身体を触られる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L31} ; "満員電車の中で見知らぬ男に下着を触られる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L32} ; "そんな異常事態が愛梨の自虐的な性癖を刺激して、甘美な快感を呼び起こしているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  ldc.i         0
+  ret          
+}
+
+func $18366439() {
+ entry:
+  line          #91
+  argcheck      []
+  alloca        []
+  line          #101
+  ldstr         "ev16b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #102
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #104
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L33} ; "パンティの上からしばらく湿った秘部の感触を楽しんでから、俺は指を横へスライドさせ、隙間へと差し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  ldstr         "a0088"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #107
+  text          %{L34} ; "【愛梨】「ふっ、はっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L35} ; "下着の内部へと侵入する指の感触に、一瞬身を硬直させる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  text          %{L36} ; "だが湿った陰毛の感触を掻き分けて秘部へと到達すると、愛梨はすぐさま感じ始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L37} ; "ぬめぬめと液体を分泌する熱い肉襞の間へ指先を執拗に差し入れていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #114
+  text          %{L38} ; "侵入を待ちかねていたかのように肉が収縮して指を包み込む。指先を左右に振って擦ってやると、愛梨の身体が弾かれたように揺れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #116
+  ldstr         "a0089"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #117
+  text          %{L39} ; "【愛梨】「あっひっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L40} ; "他の乗客に気付かれかねないほどのリアクション。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L41} ; "それほどまでに愛梨の快感は高まっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #122
+  text          %{L42} ; "このまま刺激を強めてクリトリスを転がしてやれば、愛梨は簡単に絶頂を迎えることだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L43} ; "しかし、それでは面白味がない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #125
+  text          %{L44} ; "痴漢に感じて絶頂しているなど、愛梨にとっては日常。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L45} ; "簡素なオナニーの一種なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  text          %{L46} ; "クリトリスの周辺を指で撫でまわし、弄るように思わせつつも膣壁と入り口を擦るだけに留める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #129
+  text          %{L47} ; "焦らしてやると、愛梨は膝を震わせて指を求めるように腰を振った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #131
+  ldstr         "a0090"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #132
+  text          %{L48} ; "【愛梨】「ふっふっふ、ふぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L49} ; "溢れ出した愛液が愛梨の太股まで流れていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L50} ; "俺の掌はぐっしょりと濡れそぼった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #138
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #139
+  argcheck      []
+  alloca        []
+  line          #149
+  ldstr         "ev16c"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #150
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #152
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L51} ; "パンティの上からしばらく湿った秘部の感触を楽しんでから、俺はパンティをつまむと上に持ち上げ、生地を割れ目に食い込ませた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #154
+  ldstr         "a0091"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #155
+  text          %{L52} ; "【愛梨】「はっぅっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L53} ; "食い込んだ感触に身悶える愛梨。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #158
+  text          %{L54} ; "引っ張った生地を指先で叩いて振動を与える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L55} ; "布越しに伝わるクリトリスへの刺激が愛梨を狂わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #161
+  ldstr         "a0092"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #162
+  text          %{L56} ; "【愛梨】「はっふ、はっふぅ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L57} ; "荒い息遣いで焦れったそうに腰を動かす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L58} ; "直接さわるのではなく、布を食い込まされて、半端な刺激が与えられている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L59} ; "焦らされることで、愛梨の秘部は際限なしに愛液を分泌する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #168
+  text          %{L60} ; "溢れ出した愛液は、愛梨の太股を伝って流れ落ち、俺の掌はぐっしょりと濡れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #173
+  argcheck      []
+  alloca        []
+  line          #180
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #181
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #183
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L61} ; "そこで電車は駅に到着して停車する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L62} ; "異常な快楽に陶酔していた愛梨だが、はっと思い出したように正気に返り、俺の手から逃れて、足早に電車を降りた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #188
+  text          %{L63} ; "ここで逃がすわけにはいかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L64} ; "俺の目的はこんな痴漢などというちっぽけなことではないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L65} ; "夕実の無念を晴らす為に、愛梨の心に恥辱という名の烙印を刻む。これを達成しなければ今までの苦労はすべて水泡と帰す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L66} ; "痴漢に悶える変態メス豚に鉄槌を下してやるのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #195
+  ldstr         "bg21n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #196
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #198
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L67} ; "俺は愛梨の後を追って電車を降りると追跡を開始した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #199
+  text          %{L68} ; "改札を通り、駅を出る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #201
+  ldstr         "bg20n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #202
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #203
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #204
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #205
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #207
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L69} ; "帰路に付く人込みを抜けて、やがて人通りの少ない公園に差し掛かった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #208
+  text          %{L70} ; "夕闇に霞む公園には人影もなく絶好のロケーション。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L71} ; "俺は足を速めると、愛梨との距離を一気に詰めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #212
+  text          %{L72} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #219
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #220
+  argcheck      []
+  alloca        []
+  line          #222
+  callp         $c2a71eff (0)
+  line          #223
+  ldstr         "パンティを食い込ませて遊ぶ"
+  ldstr         "パンティの中に手を入れる"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1972
+
+ block_1972:
+  line          #224
+  ldc.i         1
+  bne.case      @block_1998
+
+ block_1982:
+  line          #225
+  callp         $18366439 (0)
+  br            @block_19bc
+
+ block_1998:
+  line          #226
+  ldc.i         2
+  bne.case      @block_19bc
+
+ block_19a8:
+  line          #227
+  callp         $96b963da (0)
+  line          #228
+
+ block_19bc:
+  line          #229
+  callp         $5a136344 (0)
+  line          #230
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #232
+  argcheck      []
+  alloca        []
+  line          #234
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #235
+  callp         $c2a71eff (0)
+  line          #236
+  ld            persistent int $9f4b3ec5 
+  ldstr         "パンティを食い込ませて遊ぶ"
+  ld            persistent int $11c43926 
+  ldstr         "パンティの中に手を入れる"
+  call          $$select_ex@MENU (4) ; $select_ex@MENU
+  br.case       @block_1a72
+
+ block_1a72:
+  line          #237
+  ldc.i         1
+  bne.case      @block_1a98
+
+ block_1a82:
+  line          #238
+  callp         $18366439 (0)
+  br            @block_1abc
+
+ block_1a98:
+  line          #239
+  ldc.i         2
+  bne.case      @block_1abc
+
+ block_1aa8:
+  line          #240
+  callp         $96b963da (0)
+  line          #241
+
+ block_1abc:
+  line          #242
+  callp         $5a136344 (0)
+  line          #243
+  ld            persistent int $a6c60200 
+  ldstr         "手のにおいを嗅がせてやろう"
+  ld            persistent int $284905e3 
+  ldstr         "ナイフで脅し、茂みの中に引きずり込む"
+  call          $$select_ex@MENU (4) ; $select_ex@MENU
+  br.case       @block_1b3e
+
+ block_1b3e:
+  line          #244
+  ldc.i         1
+  bne.case      @block_1c0d
+
+ block_1b4e:
+  line          #245
+  ldc.i         -1029234945
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  line          #246
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1b9b
+
+ block_1b9b:
+  line          #247
+  ldc.i         1
+  bne.case      @block_1bd2
+
+ block_1bab:
+  line          #248
+  ldc.i         -1766235174
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  br            @block_1c07
+
+ block_1bd2:
+  line          #249
+  ldc.i         2
+  bne.case      @block_1c07
+
+ block_1be2:
+  line          #250
+  ldc.i         1511220036
+  ldstr         "snr002bb2a"
+  syscallp      $call_sub (2)
+  line          #251
+
+ block_1c07:
+  br            @block_1cda
+
+ block_1c0d:
+  line          #252
+  ldc.i         2
+  bne.case      @block_1cda
+
+ block_1c1d:
+  line          #253
+  ldc.i         -1029234945
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  line          #254
+  ldstr         "外出し"
+  ldstr         "中出し"
+  call          $$select@MENU (2) ; $select@MENU
+  br.case       @block_1c6a
+
+ block_1c6a:
+  line          #255
+  ldc.i         1
+  bne.case      @block_1ca1
+
+ block_1c7a:
+  line          #256
+  ldc.i         -1766235174
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  br            @block_1cd6
+
+ block_1ca1:
+  line          #257
+  ldc.i         2
+  bne.case      @block_1cd6
+
+ block_1cb1:
+  line          #258
+  ldc.i         1511220036
+  ldstr         "snr002bb2b"
+  syscallp      $call_sub (2)
+  line          #259
+
+ block_1cd6:
+  line          #260
+
+ block_1cda:
+  line          #262
+  ldc.i         0
+  ret          
+}

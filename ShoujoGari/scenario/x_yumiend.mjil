@@ -1,0 +1,2901 @@
+readmark enable
+
+func $c2a71eff() {
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #68
+  ldstr         "BUP01F"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #70
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L2} ; "俺に剥き出しの殺意を向けてくる夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L3} ; "夕実の視線がまっすぐに俺を貫く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #73
+  text          %{L4} ; "今、わかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L5} ; "どれだけ夕実が俺を愛していたのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #75
+  text          %{L6} ; "どれだけ夕実が俺を必要としていたのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L7} ; "そして、どれだけ俺が夕実を裏切ってきたのか……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L8} ; "強い愛ほど、裏切られたときに、強い殺意へと変わるものなのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #87
+  text          %{L9} ; "【貴城】「……兄としても恋人としても、俺は夕実に何一つしてやれなかった。夕実が俺を殺して少しでも救われるのならば、好きにすればいい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L10} ; "むしろ穏やかな気持ちで俺は夕実の殺意を受け入れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L11} ; "いや、夕実が救われるのならば、早くそのナイフをこの胸に受け止めたいとすら思った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  ldstr         "BUP01G"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #93
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L12} ; "しかし夕実にとっては俺の反応が予想外だったらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L13} ; "怯んで、一瞬握っていたナイフを取り落としそうになり、また再びそれを強く握りなおした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  ldstr         "BUP01F"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #97
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0092"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #98
+  text          %{L14} ; "【夕実】「私、本気だから。本気なんだからね、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L15} ; "そこに今までさんざん俺を脅迫してきた女の姿はない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #101
+  text          %{L16} ; "いや、言葉やその目に浮かぶものこそ脅迫ではあったけれども、その奥に潜むのは逆に怯えだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L17} ; "【貴城】「ああ、わかってるよ、夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L18} ; "夕実はただじっとナイフを握り締めたまま、立ち尽くしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #106
+  text          %{L19} ; "夕実にナイフを向けられているうちに、俺は夕実に殺されなければ気がすまないような気分になっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #107
+  text          %{L20} ; "夕実に殺されることが、ひどく価値のあるようなことに思えてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #109
+  text          %{L21} ; "それが俺に残された夕実への最後の愛情表現なのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #111
+  text          %{L22} ; "それなのに、夕実は動こうとしない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L23} ; "夕実、俺は殺す価値もない男なのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L24} ; "俺の愛情表現を受け入れてくれないのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #117
+  text          %{L25} ; "愛する妹を救うことが出来ない、無力な自分。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #118
+  text          %{L26} ; "こんな自分が生きているなんて、耐えられない。早く殺してほしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L27} ; "このまま夕実が手の届かないところに行ってしまうなんて、耐えられない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #120
+  text          %{L28} ; "夕実に何もしてやれないなんて耐えられない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #132
+  text          %{L29} ; "【貴城】「夕実、夕実、夕実！　俺をお前のものにしてくれ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L30} ; "俺はすがるように夕実に抱きついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L31} ; "いや、夕実が俺を刺しにこれないのならば、俺の方から向けられたナイフの刃を受け入れようとしたのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  ldstr         "BUP01G"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #138
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L32} ; "だが、夕実はそれまであんなにギラギラとした殺意を俺に向けていたというのに、慌てたようにナイフを引いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  text          %{L33} ; "やはり俺は夕実に殺される価値もない男だというのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #141
+  text          %{L34} ; "【貴城】「夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #143
+  text          %{L35} ; "夕実に向かうと、夕実は慌てたようにナイフの刃を俺から遠ざけようとする。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L36} ; "どうして殺してくれないんだ、夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L37} ; "俺は夕実に抱きついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #151
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #152
+  argcheck      []
+  alloca        []
+  line          #153
+  ldstr         "ev79"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #154
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #156
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L38} ; "俺達はもみ合い、そのまま縺れあって転倒する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L39} ; "ナイフが地面に落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  text          %{L40} ; "懐かしい夕実の匂いがした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #160
+  text          %{L41} ; "愛しい……俺の夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #162
+  ldstr         "e0093"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #163
+  text          %{L42} ; "【夕実】「おっ、お兄ちゃん、やめて……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #165
+  text          %{L43} ; "その声は拒絶というより、俺を誘っているかのように響いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #167
+  text          %{L44} ; "【貴城】「夕実……夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L45} ; "俺は狂ったように夕実の顔に何度も口付けをした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  ldstr         "e0094"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #172
+  text          %{L46} ; "【夕実】「お兄ちゃんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #174
+  text          %{L47} ; "俺を跳ね除けようと夕実は俺の下で必死にもがく。だが、俺は夕実が必死にもがけばもがくほど、押さえつける力を強めていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  text          %{L48} ; "と、夕実のワンピースの裾がめくれ上がり、雑木林の中でも鮮やかに白い太ももが露になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #178
+  text          %{L49} ; "その瞬間、俺は自分が押さえ込んでいた暗い欲望を思い出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L50} ; "あぁ、そうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #181
+  text          %{L51} ; "俺はあいつらになりたかったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #183
+  text          %{L52} ; "夕実が開設していたアダルト系ネットアイドルサイト。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #184
+  text          %{L53} ; "日記のコンテンツの中に記されていた、夕実の相手をした何人もの男たち。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #185
+  text          %{L54} ; "夕実の身体をむさぼり、穢し、夕実を殺した男たち。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L55} ; "俺の夕実が俺の知らないところでそんなことをしていたのが信じられなくて、信じたくなくて、俺は現実から目をそむけた。夕実は死んだのだと思い込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L56} ; "だけれども、今、わかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #190
+  text          %{L57} ; "あいつらに俺はなりたかったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #191
+  text          %{L58} ; "あの日記の中身を俺は再演したかったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #193
+  text          %{L59} ; "俺は夕実を押さえつけたまま、家から持ってきた荒縄を取り出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  text          %{L60} ; "これがあれば、もう、夕実を逃がさなくてすむんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #196
+  ldstr         "m06"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #197
+  ldstr         "ev80a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #198
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #201
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0095"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #202
+  text          %{L61} ; "【夕実】「おっ、お兄ちゃん、やめて！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #204
+  text          %{L62} ; "夕実は焦った声を出して抵抗したが、俺は意に介さず、手にした荒縄で夕実を後ろ手に縛りあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  text          %{L63} ; "この荒縄を解いたら、夕実はどこかへ消えてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #206
+  text          %{L64} ; "俺の夕実がまた消えてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #207
+  text          %{L65} ; "そんな恐怖すら感じて、ぎりぎりと縄を締め上げる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #209
+  text          %{L66} ; "ワンピースの胸をはだけさせ、無理やりパンティを剥ぎ取る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #210
+  text          %{L67} ; "後ろから夕実を抱きかかえるようにして、夕実の秘部に己の肉棒を当てた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #212
+  ldstr         "e0096"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #213
+  text          %{L68} ; "【夕実】「いやぁああああ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #215
+  text          %{L69} ; "前戯も何もせず、当然濡れてもいない夕実の秘裂に俺は肉棒を差し込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #216
+  text          %{L70} ; "ギチギチと、まるで処女のように俺を拒む夕実の膣。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #218
+  text          %{L71} ; "【貴城】「知ってるぞ……こうされて感じたんだろ？　俺以外の男にこうされて嬉しかったんだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #220
+  ldstr         "e0097"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #221
+  text          %{L72} ; "【夕実】「いっ、痛い……やめて、ふざけないで！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #223
+  text          %{L73} ; "俺の肉棒に犯されながらも、バタバタと暴れる夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  text          %{L74} ; "夕実が暴れるほど、俺はしっかりとその身体を抱きかかえ、腰を激しく動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #226
+  text          %{L75} ; "【貴城】「ふざけてこんなことができるか？　俺以外の男に抱かれるなんて……夕実、夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #228
+  ldstr         "e0098"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #229
+  text          %{L76} ; "【夕実】「いやぁあああ……あっ、あぁあああ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #231
+  ldc.i         700
+  ldstr         "ev80b"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #232
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #235
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L77} ; "最初は激しく抵抗したものの、夕実を女として仕込んだのはこの俺なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #236
+  text          %{L78} ; "夕実の性感帯は本人よりも熟知している自信がある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #238
+  text          %{L79} ; "拒んでいた夕実の膣壁も俺を受け入れるように肉棒を包み込み始め、顔もだんだんと怒りから快楽へととろけてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #240
+  text          %{L80} ; "【貴城】「夕実……おまえ、ここが好きだったよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #242
+  text          %{L81} ; "そう言いながら俺は、夕実のＧスポットをえぐるように腰を動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #244
+  ldstr         "e0099"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #245
+  text          %{L82} ; "【夕実】「ひゃうぅっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #247
+  text          %{L83} ; "【貴城】「それからここも……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #249
+  ldstr         "e0100"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #250
+  text          %{L84} ; "【夕実】「あぁあああ……そぉ、好きぃ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #252
+  text          %{L85} ; "【貴城】「どうだ？　俺が一番だろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #254
+  ldstr         "e0101"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #255
+  text          %{L86} ; "【夕実】「あっ、くぅううんっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #257
+  text          %{L87} ; "まるで愛玩犬が鳴くような声をあげて、今の今まで俺を拒絶して暴れていたことなど嘘のように、夕実は俺を受け入れ始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #259
+  text          %{L88} ; "【貴城】「お前をこんなに感じさせる男はいないだろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #261
+  ldstr         "e0102"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #262
+  text          %{L89} ; "【夕実】「あふぅ……いないっ、いないよぉ、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #264
+  text          %{L90} ; "その言葉が俺を満足させる。しかし、次の瞬間、脳裏に夕実のサイトの日記のことが頭に浮かぶ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #266
+  text          %{L91} ; "【貴城】「そうだよな。それなのに……それなのに、お前はっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #268
+  ldstr         "e0103"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #269
+  text          %{L92} ; "【夕実】「ひゃあああぁ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #271
+  text          %{L93} ; "急に激しくなった突き上げに、夕実は悲鳴のようなあえぎ声をあげた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #273
+  ldstr         "e0104"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #274
+  text          %{L94} ; "【夕実】「ひゃっくぅう……もぉ……お腹がゆれるぅうう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #278
+  text          %{L95} ; "【貴城】「でもそれがいいんだろ？　夕実。お前はこうやって一番奥を突かれたり、Ｇスポットを抉られるのが好きだもんな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #280
+  ldstr         "e0105"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #281
+  text          %{L96} ; "【夕実】「はふぅう、好きぃい……もっろぉ、お兄ちゃん、もっろ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #283
+  text          %{L97} ; "【貴城】「どっちをして欲しい？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #285
+  ldstr         "e0106"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #286
+  text          %{L98} ; "【夕実】「あはぁ、抉ってへぇ……抉って、お兄ちゃんっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #288
+  text          %{L99} ; "その言葉を待ちかねたように、俺は夕実のＧスポットに先端を当てて、抉るように腰を動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #290
+  ldstr         "e0107"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #291
+  text          %{L100} ; "【夕実】「はふはふっ……くぅうう、そこぉお」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #293
+  text          %{L101} ; "ざらざらとした天井の粒々が、俺の亀頭を刺激して、急激に欲望が高まる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #295
+  text          %{L102} ; "それは弱点であるＧスポットを抉るように腰を動かされる夕実にとっても同じこと。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #297
+  text          %{L103} ; "快感は快感を呼んで、夕実の内壁は俺をギュッと締め上げてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  text          %{L104} ; "【貴城】「馬鹿、夕実。そんなに締め付けたんじゃ……動き辛い」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #301
+  ldstr         "e0108"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #302
+  text          %{L105} ; "【夕実】「むりひぃ、きもっ……気持ちよすぎぃ。お兄ちゃんの、気持ちいい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #304
+  text          %{L106} ; "【貴城】「あぁ、お前のおま○こもサイコーだよ、夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #306
+  ldstr         "e0109"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #307
+  text          %{L107} ; "【夕実】「あぁああ……うれひぃ……くふぅ、ダメ、お兄ちゃん。イッちゃううう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #309
+  text          %{L108} ; "【貴城】「まだだ。まだダメだぞ、夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #311
+  ldstr         "e0110"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #312
+  text          %{L109} ; "【夕実】「あくぅうう……イクゥウウ。お兄ちゃん、もう許して……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #314
+  text          %{L110} ; "【貴城】「あぁ、夕実……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #316
+  text          %{L111} ; "俺の絶頂を促すように、ギュッと締め付けてくる夕実の膣。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #318
+  text          %{L112} ; "俺はその刺激に耐え切れず、夕実の一番奥まで貫くと、その壁にぶち当てるように思いっきり射精した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #320
+  ldstr         "ev80c"
+  callp         $3706a555 (1)
+  line          #322
+  ldstr         "e0111"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #323
+  text          %{L113} ; "【夕実】「あふぅううっ！　お兄ちゃんっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #325
+  text          %{L114} ; "その刺激に耐え切れなかったのか、夕実も絶頂に達する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #327
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #329
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L115} ; "そして弛緩。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #331
+  text          %{L116} ; "ぐったりとした夕実を抱きしめ、俺は耳元で囁く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #333
+  text          %{L117} ; "【貴城】「夕実、もう離さない。このまま、ずっと一緒にいよう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #335
+  text          %{L118} ; "一瞬の迷いを見せたものの、夕実は黙って頷いてくれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #336
+  text          %{L119} ; "そして俺はまだ快楽の余韻から完全に醒め切れていない夕実を抱くようにして、叔父の家へと戻った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #338
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #339
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #340
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         0
+  ret          
+}
+
+func $80821982() {
+ entry:
+  line          #341
+  argcheck      []
+  alloca        []
+  line          #342
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #343
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #344
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #346
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L120} ; "………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #347
+  text          %{L121} ; "………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #348
+  text          %{L122} ; "………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #351
+  text          %{L123} ; "そして幸せな数日が過ぎていった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #352
+  text          %{L124} ; "だが、夕実は発作のように何かに怯えることがある。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #353
+  text          %{L125} ; "裏の雑木林でガサリと物音がするだけで、まるで命が縮まるかのような驚き方をするのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #355
+  text          %{L126} ; "当たり前と言えば当たり前の話なのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #356
+  text          %{L127} ; "何が理由で夕実がそうしたのはわからないが、人一人を殺してしまっているのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #358
+  text          %{L128} ; "ふと気がつくと、夕実は暗い顔をして物思いにふけっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #359
+  text          %{L129} ; "幸せになればなるほど、夕実の心に過去の罪が影を落としているのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #361
+  text          %{L130} ; "【貴城】「（聞いてもいいものだろうか……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #363
+  text          %{L131} ; "しばし迷った後、俺は思い切って夕実に聞くことにした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #365
+  text          %{L132} ; "【貴城】「なぁ……夕実」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #367
+  ldstr         "BUP01By"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #368
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0112"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #369
+  text          %{L133} ; "【夕実】「なぁに？　お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #371
+  text          %{L134} ; "【貴城】「あの……さぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #373
+  ldstr         "e0113"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #374
+  text          %{L135} ; "【夕実】「変なお兄ちゃん。どうしたの？　私に何か聞きたいことでもあるの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #376
+  text          %{L136} ; "【貴城】「山口の死体……どこに始末したんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #378
+  ldstr         "BUP01Dy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #379
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0114"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #380
+  text          %{L137} ; "【夕実】「えっ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #382
+  text          %{L138} ; "きょとんと不思議そうに俺を見ていた夕実の顔が、一瞬のうちにこわばる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #384
+  text          %{L139} ; "けれどもそれは幻のようにすぐに消えて、屈託のない笑みが浮かぶ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #386
+  ldstr         "BUP01Cy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #387
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0115"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #388
+  text          %{L140} ; "【夕実】「やぁだ、お兄ちゃん、信じちゃった？　あれ、人間のじゃないよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #390
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #392
+  text          %{L141} ; "にこにこと笑う笑顔はいつもと同じ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #393
+  text          %{L142} ; "だが、その目の奥に光る不安げな表情はなんなんだ？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #395
+  text          %{L143} ; "それに夕実、お前は動物を虐待できるような子じゃなかっただろう？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #397
+  text          %{L144} ; "お前は人見知りが激しい分、動植物には惜しみなく……この俺が嫉妬を覚えるほどの愛情を注いでいたのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #398
+  text          %{L145} ; "それとも……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #400
+  text          %{L146} ; "この俺と離れている間に、そんなことが出来るほどまでに夕実は変わってしまったのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #402
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #403
+  ldstr         "ev83a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #404
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #407
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L147} ; "いや、そんなはずはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #408
+  text          %{L148} ; "ここ数日夕実と一緒に寝ているが、夕実は毎晩悪夢に襲われている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #409
+  text          %{L149} ; "ひどくうなされて、全身汗びっしょりになって、ぶるぶると身体を震わせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #410
+  text          %{L150} ; "俺には悪夢にうなされる夕実を抱きしめてやることしかできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #411
+  text          %{L151} ; "きっと人を殺してしまった罪悪感が、悪夢となって、夕実を苦しめているに違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #412
+  text          %{L152} ; "夕実、夕実、かわいそうな夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #413
+  text          %{L153} ; "その罪悪感から夕実を救うために、俺にできることは何かあるのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #416
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #417
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #418
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #419
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #420
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #423
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L154} ; "そんな物思いから俺を覚ましたのは、夕実の声だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #425
+  ldstr         "BUP01By"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #426
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0116"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #427
+  text          %{L155} ; "【夕実】「今日の晩御飯、何にする？　お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #429
+  text          %{L156} ; "【貴城】「そうだな……久しぶりにお前の作った肉じゃががいいかな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #431
+  ldstr         "BUP01Cy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #432
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0117"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #433
+  text          %{L157} ; "【夕実】「うん♪　じゃあ、おジャガとニンジンとタマネギはあったから、さやえんどうとお肉とシラタキ、買わなきゃだね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #435
+  text          %{L158} ; "【貴城】「そうだな。後で一緒に買いに行こう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #437
+  text          %{L159} ; "そうにこやかに二人で笑いあったその時。つけっぱなしだったＴＶから、ニュースが飛び込んできた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #439
+  text          %{L160} ; "それは、郊外の山の中で少年と見られる腐乱死体が発見されたというニュースだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #440
+  text          %{L161} ; "警察では行方不明中の学生との関連を目下捜査中だという。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #442
+  ldstr         "BUP01Dy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #443
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L162} ; "そのニュースを聞いたとたん、夕実の顔が明らかに青ざめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #445
+  text          %{L163} ; "【貴城】「夕実？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #447
+  ldstr         "BUP01By"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #448
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0118"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #449
+  text          %{L164} ; "【夕実】「えっ？　あっ、うん。一緒に買いに行こうね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #451
+  text          %{L165} ; "青ざめた顔のままムリに微笑んで、夕実は俺の顔を見る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #452
+  text          %{L166} ; "それがあまりにもいとおしくて……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #454
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #456
+  text          %{L167} ; "俺は思わず夕実を抱きしめていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #458
+  ldstr         "BUP01Dy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #459
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0119"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #460
+  text          %{L168} ; "【夕実】「おっ、お兄ちゃん？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #462
+  text          %{L169} ; "戸惑う夕実の声。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #463
+  text          %{L170} ; "愛しい夕実を救うために、俺はいったい何をしたらいい？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #464
+  text          %{L171} ; "夕実にのしかかっている罪から……警察に捕まるのではないかという恐怖から夕実を救うにはどうしたらいい？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #466
+  text          %{L172} ; "【貴城】「（この世に夕実と俺と、二人だけしかいなければいいのに……）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #468
+  ldstr         "e0120"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #469
+  text          %{L173} ; "【夕実】「お兄ちゃん、どうしたの？　おかしいよ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #471
+  text          %{L174} ; "心配げな夕実の声が耳に聞こえる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #472
+  text          %{L175} ; "その時、俺にはある考えと決意が浮かんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #477
+  ldstr         "e0121"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #478
+  text          %{L176} ; "【夕実】「お兄ちゃんってば」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #480
+  text          %{L177} ; "【貴城】「夕実、二人で生活しよう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #482
+  ldstr         "e0122"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #483
+  text          %{L178} ; "【夕実】「えっ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #485
+  text          %{L179} ; "【貴城】「叔父さんも俺たちを煙たがっているようだし、いつ俺達の親に知られるかわからない。このままここにいても幸せにはなれない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #487
+  text          %{L180} ; "【貴城】「名前を変え、過去を捨て、俺たちのことを誰も知らない、見知らぬ土地で二人で生活するんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #489
+  ldstr         "e0123"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #490
+  text          %{L181} ; "【夕実】「それが……それが出来たら嬉しいけど、でも」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #492
+  text          %{L182} ; "【貴城】「でもなんだ？　イヤなのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #494
+  ldstr         "e0124"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #495
+  text          %{L183} ; "【夕実】「イヤじゃない。イヤなんかじゃないよ。私もお兄ちゃんと二人っきりで生活したい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #497
+  text          %{L184} ; "【貴城】「あぁ、長瀬貴城と長瀬夕実は法的に死亡が認められるまで失踪しよう。そしてそのまま別人に生まれ変わるんだ。実の兄妹ではなく、夫婦になれるように」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #499
+  ldstr         "e0125"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #500
+  text          %{L185} ; "【夕実】「夫婦？　私、お兄ちゃんと結婚できるの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #502
+  text          %{L186} ; "【貴城】「あぁ。うまく行くかどうかはわからない。でも前に読んだ本に別人になる方法が載ってたんだ。それがうまく行けば法的に結婚することだって可能だろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #504
+  text          %{L187} ; "【貴城】「それが無理だったとしても、俺たちが兄妹とわからないような土地なら、例え法的に結婚することができなくても、周りの人間には夫婦と認めさせることができる」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #506
+  ldstr         "BUP01Cy"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #507
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0126"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #508
+  text          %{L188} ; "【夕実】「ホントに？　本当に？　お兄ちゃん。私、嬉しいよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #510
+  text          %{L189} ; "明るい夕実の笑み。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #511
+  text          %{L190} ; "それは久しぶりに見る夕実の心からの笑みだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #513
+  text          %{L191} ; "その笑みを見た時、俺の選択は間違っていない、そう俺は一人確信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #515
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #516
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #517
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #519
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L192} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #520
+  text          %{L193} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #521
+  text          %{L194} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #523
+  text          %{L195} ; "本を熟読して準備をするのに1週間ほどを費やしたが、やっと全ての用意が整った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #525
+  text          %{L196} ; "焦る心には過ぎる時間はとても早く感じたが、そのかけた時間の分だけ絶対に成功する自信ができたのは朗報なのかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #527
+  text          %{L197} ; "決行は明日の朝。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #528
+  text          %{L198} ; "今日が叔父の家で過ごす最後の夜だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #530
+  ldstr         "e0127"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #531
+  text          %{L199} ; "【夕実】「とうとう明日だね、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #533
+  text          %{L200} ; "布団の中で夕実がつぶやく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #534
+  text          %{L201} ; "その声は少し不安げであり……同時に期待に満ちていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #536
+  text          %{L202} ; "【貴城】「あぁ、明日から俺たちは他人になる。長瀬の姓とは今日でお別れだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #538
+  ldstr         "e0128"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #539
+  text          %{L203} ; "【夕実】「そうだね、お兄ちゃん。……もうお兄ちゃんって呼んだらおかしいかな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #541
+  text          %{L204} ; "【貴城】「別にいいんじゃないか？　ほら、璃乃ちゃんだって俺のこと、お兄ちゃんって呼んでただろ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #543
+  ldstr         "e0129"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #544
+  text          %{L205} ; "【夕実】「そうだけどぉ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #546
+  text          %{L206} ; "言いながら夕実の声が少し不機嫌になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #547
+  text          %{L207} ; "俺が璃乃の名前を出したから、焼きもちを妬いているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #549
+  text          %{L208} ; "そう思うと逆に愛しくなって、俺は夕実を抱きしめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #551
+  ldstr         "m08"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #553
+  ldstr         "e0130"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #554
+  text          %{L209} ; "【夕実】「おっ、お兄ちゃん？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #556
+  text          %{L210} ; "【貴城】「バカだな、夕実。もう俺をお兄ちゃんって呼んでいいのは、お前だけなんだぞ。他の奴に『お兄ちゃん』って呼ばれてた長瀬貴城はいなくなるんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #558
+  ldstr         "e0131"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #559
+  text          %{L211} ; "【夕実】「そう……そうだよね。ごめんね、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #561
+  text          %{L212} ; "【貴城】「何を謝るんだ？　悪いことなんか何もしてないのに。それとも悪い子にはお仕置きが必要かな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #563
+  ldstr         "e0132"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #564
+  text          %{L213} ; "【夕実】「えっ？　お仕置き？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #566
+  text          %{L214} ; "【貴城】「そう、お仕置き」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #568
+  text          %{L215} ; "そう言いながら俺は夕実を抱き寄せ、その唇にやわらかくついばむような口付けをした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #569
+  text          %{L216} ; "何度も、何度も。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #571
+  text          %{L217} ; "それは徐々にねっとりとした口付けに変わり、より濃厚なものに変わっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #573
+  ldstr         "e0133"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #574
+  text          %{L218} ; "【夕実】「あぁ……お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #576
+  text          %{L219} ; "離れた唇でうっとりと俺を呼ぶ夕実がいとおしくて、俺は夕実が着ていた服に手を差し入れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #577
+  text          %{L220} ; "とたん。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #579
+  ldstr         "e0134"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #580
+  text          %{L221} ; "【夕実】「待って」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #582
+  text          %{L222} ; "【貴城】「イヤなのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #584
+  ldstr         "e0135"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #585
+  text          %{L223} ; "【夕実】「そっ、そんなんじゃないよ。その……お兄ちゃんも脱いで」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #587
+  text          %{L224} ; "真っ赤に顔を染めながら言う夕実がいとおしくて、俺はすぐに衣服を脱ぎ捨て、裸になった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #589
+  ldstr         "BUP01Az"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #590
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L225} ; "夕実は恥ずかしそうに俺の目から隠れるようにしていたが、一糸まとわぬ姿になる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #592
+  text          %{L226} ; "【貴城】「キレイだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #594
+  ldstr         "BUP01Dz"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #595
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0136"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #596
+  text          %{L227} ; "【夕実】「そっ、そんなに見られたら恥ずかしいよ、お兄ちゃん。お願い、電気、消して？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #598
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #599
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L228} ; "体まで上気したように赤い夕実の姿をずっと見ていたかったが、俺はすぐに夕実の意にそって電気を消してやった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #601
+  text          %{L229} ; "幸い今日は満月。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #602
+  text          %{L230} ; "部屋に差し込む月明かりだけでも充分に夕実の姿を堪能できるほど明るい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #604
+  ldstr         "ev81"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #605
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #608
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0137"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #609
+  text          %{L231} ; "【夕実】「お兄ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #611
+  text          %{L232} ; "まるで初めてのときのように、小さく震えながら俺の名を呼ぶいとおしい夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #613
+  text          %{L233} ; "思ったとおり月明かりがベッドに寝転んだ夕実の白い裸体を照らし出して、無粋な蛍光灯の灯りよりもより色っぽく、艶っぽい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #615
+  text          %{L234} ; "【貴城】「これが、最後のエッチだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #617
+  ldstr         "e0138"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #618
+  text          %{L235} ; "【夕実】「えっ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #620
+  text          %{L236} ; "【貴城】「明日から夕実は、俺の奥さんだろ？　だから、お前を妹として抱くのは今日が最後だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #622
+  text          %{L237} ; "そう言いながら俺は誘うような夕実の唇にもう一度ねっとりとした口付けをした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #624
+  text          %{L238} ; "何度もいとおしむように互いの舌を絡ませあい、同時に寝転んで少し平たくなった胸を優しくもみあげる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #626
+  ldstr         "e0139"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #627
+  text          %{L239} ; "【夕実】「あふぅ……お兄ちゃんんっ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #629
+  text          %{L240} ; "唇を解放し、耳たぶを甘噛みして首筋へと舌を這わせた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #630
+  text          %{L241} ; "もちろん、乳首をコロコロと指先でもてあそぶことも忘れない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #632
+  text          %{L242} ; "それだけで夕実の体は欲情の火がついて、いとおしげに俺の肉棒に指を絡ませてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #634
+  text          %{L243} ; "【貴城】「なんだ？　もう欲しいのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #636
+  ldstr         "e0140"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #637
+  text          %{L244} ; "【夕実】「だっ、だって……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #639
+  text          %{L245} ; "【貴城】「正直に言わないと、いい奥さんになれないぞ。俺の奥さんはちゃんと欲しい時には欲しいって言える、素直でかわいい奥さんのはずだからな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #641
+  ldstr         "e0141"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #642
+  text          %{L246} ; "【夕実】「そっ、そんな……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #644
+  text          %{L247} ; "【貴城】「いらない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #646
+  ldstr         "e0142"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #647
+  text          %{L248} ; "【夕実】「あぁああ……欲しい、欲しいよ、お兄ちゃん。早く夕実の中にきて」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #649
+  text          %{L249} ; "【貴城】「よく言えました。じゃあご褒美に」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #651
+  ldstr         "ev82a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #652
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #655
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L250} ; "ベッドに腰掛けると、夕実の体を膝の上に抱いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #656
+  text          %{L251} ; "そしてそのまま一気に夕実の中へと押し入る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #658
+  ldstr         "e0143"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #659
+  text          %{L252} ; "【夕実】「あぁあああっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #661
+  text          %{L253} ; "前戯とも呼べないほどの前戯しかしていないのに、夕実の膣内はもうドロドロに濡れていて、俺をすぐさま歓待してくれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #663
+  text          %{L254} ; "【貴城】「スケベなところも俺の奥さんとして理想だよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #665
+  ldstr         "e0144"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #666
+  text          %{L255} ; "【夕実】「あぁ、だって……お兄ちゃんが……お兄ちゃんが私を。くぅううう、こんなにしたんだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #668
+  text          %{L256} ; "【貴城】「あぁ。だから責任とって、いっぱいしてやるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #670
+  text          %{L257} ; "そう言いながら俺は夕実の体を更に抱えなおして、腰を突き上げるように動かした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #672
+  ldstr         "e0145"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #673
+  text          %{L258} ; "【夕実】「あふぅう……お兄ちゃんっ！　お兄ちゃんっ！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #675
+  text          %{L259} ; "幾度も交わり、知り尽くしたと思っていた夕実の体。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #676
+  text          %{L260} ; "けれど、抱くたびにその姿を変えるように、新しい快楽を俺に与えてくれるのだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #678
+  text          %{L261} ; "【貴城】「いいか？　夕実。もう俺以外の男に抱かれるな。俺もお前以外の女は抱かないから」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #680
+  ldstr         "e0146"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #681
+  text          %{L262} ; "【夕実】「くふぅう……お兄ちゃん。夕実は……夕実はお兄ちゃんだけのぉ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #683
+  text          %{L263} ; "【貴城】「俺だけの女だ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #685
+  ldstr         "e0147"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #686
+  text          %{L264} ; "【夕実】「うっ、うれ……しひぃいい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #688
+  text          %{L265} ; "夕実は俺にしがみついて泣くような、鳴くようなあえぎ声をあげた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #690
+  text          %{L266} ; "それと同時に膣壁が今まで味わったことがないほど、俺に絡み付いてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #692
+  text          %{L267} ; "まるで夕実と俺が一つに溶け合ったような……これまでにない一体感だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #694
+  text          %{L268} ; "兄も妹もなく、恋人や夫婦というほど他人でもなく、夕実と俺だけの世界。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #696
+  ldstr         "e0148"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #697
+  text          %{L269} ; "【夕実】「はひぃい……はくぅうふう……おにい……ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #699
+  text          %{L270} ; "激しく突いてやることもしていないのに、夕実は昇りつめていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #700
+  text          %{L271} ; "その快感が俺にも流れ込んでくるかのようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #702
+  text          %{L272} ; "【貴城】「夕実……夕実……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #704
+  ldstr         "e0149"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #705
+  text          %{L273} ; "【夕実】「いいよぉお……お兄ちゃん、いいよぉおお」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #707
+  text          %{L274} ; "ビクビクと震える膣壁。いや、ビクビクと震えているのは俺の肉棒か？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #709
+  text          %{L275} ; "今までに感じたこともないとろけるような、どちらの快感なのかもわからない快楽を分け合いながら、俺たちは同時にイッた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #711
+  ldstr         "ev82b"
+  callp         $3706a555 (1)
+  line          #713
+  text          %{L276} ; "ドクドクと夕実の中に注ぎ込まれる俺の欲望。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #715
+  text          %{L277} ; "たった一度イッただけだというのに、この満足感はなんだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #717
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #719
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0150"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #720
+  text          %{L278} ; "【夕実】「はふぅうう……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #722
+  text          %{L279} ; "崩れ落ちるようにベッドに横たわると、夕実はそのまますやすやと眠り込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #724
+  ldstr         "ev83b"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #725
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #728
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L280} ; "いつものように悪夢に侵されることのない安らかな眠り。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #729
+  text          %{L281} ; "それは俺と一つになったという安心感からくるものだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #731
+  text          %{L282} ; "無邪気な子供のような寝顔だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #733
+  text          %{L283} ; "それがいとおしくて、裸のままの夕実が風邪をひかないように布団をかけてやると、俺はその横にもぐりこむようにして寝転がった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #735
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #737
+  text          %{L284} ; "明日からの生活がうまくいくとは限らない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #738
+  text          %{L285} ; "同じ犯罪でも親告罪である強姦と殺人では、警察の捜査も力の入れようが違うだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #740
+  text          %{L286} ; "そもそも俺は確かに強姦犯ではあるが、彼女らが親告しない限り、俺の罪が世に出ることはない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #741
+  text          %{L287} ; "しかし殺人は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #743
+  ldstr         "ev83a"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #744
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #747
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0151"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #748
+  text          %{L288} ; "【夕実】「うっ、うぅううん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #750
+  text          %{L289} ; "安らかだった寝顔だったのもつかの間、まるで俺の不安を嗅ぎ取ったかのように、また悪夢を見始めたのか、夕実の顔が苦痛にゆがむ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #752
+  text          %{L290} ; "俺はそんな夕実を思わず抱きしめていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #754
+  text          %{L291} ; "夕実の寝顔を見つめながら考える。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #755
+  text          %{L292} ; "俺は兄として夕実に何一つしてやれることはなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #756
+  text          %{L293} ; "夕実を愛したことすら、夕実を傷つける結果になってしまった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #757
+  text          %{L294} ; "愛する夕実のために、俺は何をすればいいのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #758
+  text          %{L295} ; "夕実の罪を肩代わりすることが出来ればいいのに。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #759
+  text          %{L296} ; "夕実の罪を………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #760
+  text          %{L297} ; "…………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #762
+  ldstr         "e0152"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #763
+  text          %{L298} ; "【夕実】「いや……助けて……お兄ちゃん……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #766
+  text          %{L299} ; "どんな悪夢が夕実を襲っているのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #767
+  text          %{L300} ; "夕実、夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #768
+  text          %{L301} ; "俺が必ずお前を守ってやるからな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #769
+  text          %{L302} ; "俺は固い決意を胸に秘めて、夕実を抱きしめたまま眠りに落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #771
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #772
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #774
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L303} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #775
+  text          %{L304} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #776
+  text          %{L305} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #778
+  ldstr         "m08"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #779
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #780
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #782
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L306} ; "チュン、チュン"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #784
+  text          %{L307} ; "スズメすらやっと起き出したような早朝……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #785
+  text          %{L308} ; "俺たちは家を出る準備を済ませて、ほんの少しの荷物を持った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #787
+  text          %{L309} ; "もう二度と帰ることのない家。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #788
+  text          %{L310} ; "ここで過ごした月日は波乱に満ち過ぎていて、一生忘れられないような気もするが、忘れなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #790
+  text          %{L311} ; "これから俺は、夕実との未来だけを見据えて生きていくのだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #792
+  ldstr         "BUP01C"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #793
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0153"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #794
+  text          %{L312} ; "【夕実】「そろそろ行こうよ、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #796
+  text          %{L313} ; "夜な夜な悪夢にうなされていることなど嘘のような、とろけるような笑みを浮かべて夕実が俺を見上げてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #797
+  text          %{L314} ; "いや、起きてからずっと、朝食を食べている間も夕実はずっと笑顔のままだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #798
+  text          %{L315} ; "俺と夫婦として一緒に暮せることが嬉しくて仕方がないらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #800
+  text          %{L316} ; "【貴城】「あぁ……そうだな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #802
+  text          %{L317} ; "そう答えながら、俺は昨夜固めた決意を新たに誓う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #803
+  text          %{L318} ; "夕実のこの笑顔をずっと守っていくと。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #805
+  text          %{L319} ; "【貴城】「ごめん……でも、まだ少しだけ用意があるんだよ。だから、夕実、先に向こうに行っていてくれないか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #807
+  ldstr         "BUP01A"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #808
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0154"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #809
+  text          %{L320} ; "【夕実】「えっ？　どうして？　私、お兄ちゃんの用事が済むまで待ってるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #811
+  text          %{L321} ; "【貴城】「二人で行動したら、目立つだろ？　向こうの家はもう行けばすぐに生活できるようになってるんだし。夕実、一人で行けるよな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #813
+  ldstr         "BUP01D"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #814
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0155"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #815
+  text          %{L322} ; "【夕実】「うっ、うん。でも……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #817
+  text          %{L323} ; "【貴城】「夕実はもう俺の妹じゃなくて、俺のかわいい奥さんだろ？　だったらできるよな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #819
+  text          %{L324} ; "すねた顔で言いよどむ夕実が愛しくて、けれど、ここで抱きしめたら全ての計画がなし崩しになりそうな予感が怖くて、俺はわざと夕実を突き放すような言い方をした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #821
+  ldstr         "e0156"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #822
+  text          %{L325} ; "【夕実】「ズルイよ、お兄ちゃん。そんな言い方されたら、私、ガマンしなきゃになっちゃう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #824
+  text          %{L326} ; "【貴城】「ごめんな。でも俺たちは法的に死を認められるまで、ガマンしなきゃいけなくなることも沢山あるんだ。これくらいガマンできなくてどうするんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #826
+  ldstr         "e0157"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #827
+  text          %{L327} ; "【夕実】「……わかった」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #829
+  text          %{L328} ; "しぶしぶというように夕実はやっと頷いてくれた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #830
+  text          %{L329} ; "そんな夕実を俺は髪に口づけするように抱き寄せる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #832
+  text          %{L330} ; "【貴城】「どうせ一度は捨てた人生だ、何があっても絶対に振り返るな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #834
+  ldstr         "BUP01C"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #835
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0158"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #836
+  text          %{L331} ; "【夕実】「うん、わかったよ。お兄ちゃん。そのかわり、早く来てね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #838
+  text          %{L332} ; "【貴城】「あぁ、できるだけ早くお前の元に行くよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #840
+  text          %{L333} ; "にっこりと微笑みながら離れた夕実の目には、もう未来しか映っていないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #842
+  text          %{L334} ; "【貴城】「（俺が絶対に守るから）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #844
+  text          %{L335} ; "口に出せない言葉の代わりに、俺は違うことを口にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #846
+  text          %{L336} ; "【貴城】「向こうで会おう」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #848
+  ldstr         "e0159"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #849
+  text          %{L337} ; "【夕実】「うん♪　お兄ちゃん。きっとだよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #851
+  text          %{L338} ; "満面の笑顔で答える夕実の顔をその目に焼き付けるように。そして夕実が俺の笑顔をいつまでも覚えていてくれるように。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #853
+  text          %{L339} ; "そう心から願いながら、俺は夕実の背中を見送った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #855
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #856
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #858
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L340} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #859
+  text          %{L341} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #860
+  text          %{L342} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #864
+  text          %{L343} ; "数日後……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #866
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #867
+  ldstr         "bg27"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #868
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #871
+  ldstr         "BUP01D"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #872
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L344} ; "すぐに来るって言ったのに、お兄ちゃんはずっと来てくれなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #874
+  text          %{L345} ; "少しだけ用事があるって言ってたのに……１日待っても、２日待っても、お兄ちゃんは私の元に来てくれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #876
+  text          %{L346} ; "もしかしてお兄ちゃんは私に嘘をついたの？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #878
+  text          %{L347} ; "ううん、そんなことないよね。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #879
+  text          %{L348} ; "お兄ちゃんが私に嘘をつくわけないもの。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #881
+  text          %{L349} ; "でも、じゃあどうして？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #882
+  text          %{L350} ; "来る途中で何か事故にでも遭ったの？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #884
+  text          %{L351} ; "不安が私の心を埋め尽くす。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #886
+  text          %{L352} ; "新生活のためにお兄ちゃんと選んだインテリアだけが、お兄ちゃんが本気で私と一緒に暮らすつもりだったと私を支えてくれる全てだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #888
+  text          %{L353} ; "だけど……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #890
+  text          %{L354} ; "私の心が不安に押しつぶされそうになったとき、玄関のチャイムが鳴った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #892
+  ldstr         "BUP01A"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #893
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0160"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #894
+  text          %{L355} ; "【夕実】「お兄ちゃん？！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #896
+  text          %{L356} ; "やっと来てくれた！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #897
+  text          %{L357} ; "その喜びで私は外に立つ人が誰かも確かめずに、飛び出すようにドアを開けた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #899
+  text          %{L358} ; "と……そこに立っていたのは冴えないおじさん。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #900
+  text          %{L359} ; "見るからに新聞の勧誘だとすぐにわかる格好をしていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #902
+  text          %{L360} ; "【勧誘員】「毎朝新聞ですが、３ヶ月でいいんで、取ってもらえませんかね？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #904
+  ldstr         "BUP01D"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #905
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0161"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #906
+  text          %{L361} ; "【夕実】「そういうことは主人に相談しないと……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #908
+  text          %{L362} ; "私はお兄ちゃんではなかった落胆も隠せず、体よくおじさんを追い返そうとした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #910
+  text          %{L363} ; "私が必要としてるのは新聞なんかじゃない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #911
+  text          %{L364} ; "お兄ちゃん、ただ一人なんだから。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #913
+  text          %{L365} ; "【勧誘員】「そんなこと言わずに。今なら１ヶ月間、サービスで入れますから、お願いしますよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #915
+  ldstr         "e0162"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #916
+  text          %{L366} ; "【夕実】「えっ、でも……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #918
+  text          %{L367} ; "【勧誘員】「じゃあ、参考に今日の新聞を置いていきますので、ご主人とご相談ください。それならいいでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #920
+  text          %{L368} ; "強引な勧誘員に新聞を突き出され、私は戸惑いを隠せなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #921
+  text          %{L369} ; "でもこれを受け取らないと勧誘員は帰ってくれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #923
+  text          %{L370} ; "仕方なく私は新聞を受け取り、勧誘員を帰すことに成功した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #924
+  text          %{L371} ; "新聞なんて興味ないのに……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #926
+  text          %{L372} ; "そう思いながらもふと手にした新聞を見ると、１面に『男子学生殺人事件』の文字が踊っているのが見えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #928
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #930
+  text          %{L373} ; "体がゾクッと震えた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #931
+  text          %{L374} ; "あれからニュースは見ていない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #932
+  text          %{L375} ; "警察は犯人を追っているのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #934
+  text          %{L376} ; "発見された死体は山口のものだったと判明したのだろうか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #936
+  text          %{L377} ; "私はもどかしげに新聞を開くと、『男子学生殺人事件』という見出しの後に、『犯人逮捕』と言う信じられない文字が続いているのを見た。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #938
+  text          %{L378} ; "ううん、そんなはずない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #939
+  text          %{L379} ; "だって、犯人はここにいるもの。私が手にかけたのだもの。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #941
+  text          %{L380} ; "貪るように記事を読む。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #942
+  text          %{L381} ; "殺されたのは北斗学園に通っていた山口ユキノリであることがＤＮＡ鑑定で判明した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #943
+  text          %{L382} ; "そして逮捕された犯人の名前は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #945
+  ldstr         "e0163"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #946
+  text          %{L383} ; "【夕実】「長瀬貴城？！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #948
+  text          %{L384} ; "お兄ちゃん……お兄ちゃんがなんで？！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #950
+  text          %{L385} ; "報道されていない『犯人しか知りえない事実』……つまり私が山口の局部を切断したことをを知っていることが決め手となって、逮捕されたらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #952
+  text          %{L386} ; "お兄ちゃんが捕まったのは、死体が発見され、怖くなって自首してきたからだということ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #953
+  text          %{L387} ; "そして自首した日は……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #954
+  text          %{L388} ; "私達が叔父さんの家を出たあの日だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #956
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #958
+  ldstr         "e0164"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #959
+  text          %{L389} ; "【夕実】「お兄ちゃんが言ってた用事って、これだったの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #961
+  text          %{L390} ; "ぐしゃぐしゃと新聞を握り締めながら、私はその場に泣き崩れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #963
+  text          %{L391} ; "容疑者として新聞に載っているお兄ちゃんの写真の上に、幾つもの涙が零れ落ちる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #967
+  ldstr         "e0165"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #968
+  text          %{L392} ; "【夕実】「なんで？　なんでお兄ちゃん。山口を殺したのは私だよ、私なんだよ。それなのになんで？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #970
+  text          %{L393} ; "新聞の写真のお兄ちゃんは何一つ答えてはくれなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #971
+  text          %{L394} ; "だけど、私の脳裏に、お兄ちゃんの言葉がよみがえった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #973
+  text          %{L395} ; "【貴城】「俺たちは法的に死ぬんだ。どうせ一度は捨てた人生だ、何があっても振り返るな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #975
+  ldstr         "e0166"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #976
+  text          %{L396} ; "【夕実】「何があってもって、このことを意味してたの？　ねぇ、お兄ちゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #978
+  text          %{L397} ; "私の涙は止まることを知らないかのように流れ落ちた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #979
+  text          %{L398} ; "もう新聞もびしょびしょになってしまっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #981
+  text          %{L399} ; "お兄ちゃんに私の罪を肩代わりさせるわけにはいかない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #982
+  text          %{L400} ; "これは私がやったこと。私の罪なんだもの。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #983
+  text          %{L401} ; "私も出頭して裁かれたい。でも……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #985
+  text          %{L402} ; "私が出頭すれば、この失踪計画も露見してしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #986
+  text          %{L403} ; "そうしたら、お兄ちゃんは今度は犯人隠匿の罪で裁かれることになるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #988
+  text          %{L404} ; "ううん、それよりも自分が身代わりになることで、私の幸せを願ってくれたお兄ちゃんの行動を無駄にしてしまうことになる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #990
+  text          %{L405} ; "お兄ちゃんの気持ちを裏切ってはいけない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #991
+  text          %{L406} ; "私は公的に裁かれることのない罪と秘密を抱えたまま、生きなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #993
+  text          %{L407} ; "それが私に科せられた罰なんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #995
+  ldstr         "e0167"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #996
+  text          %{L408} ; "【夕実】「でも……でもひどいよ、こんなの。お兄ちゃん、これからはずっと一緒だって言ったじゃない……。私を奥さんにするって言ったじゃない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #998
+  text          %{L409} ; "もう涙でふやけて見えなくなったお兄ちゃんの写真に向かって、私はいつまでも泣き止むことが出来なかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1000
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #1001
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1004
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L410} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1005
+  text          %{L411} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1006
+  text          %{L412} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1010
+  text          %{L413} ; "数年後……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #1020
+  ldstr         "m08"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1022
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #1023
+  ldc.i         1500
+  ldstr         "bg22"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1027
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L414} ; "　『ふぅ……』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1029
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L415} ; "　たった今書き上げたばかりのテキストを前にして、僕はため息をついた。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1030
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L416} ; "　駆け出しのシナリオライターである僕が持ち込んだ企画がすんなり通り、ゲーム化されることになったのはありがたかったが、やっぱり締め切り間際の徹夜連続は辛い。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1033
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L417} ; "　『まぁ、それもこれも、彼女のおかげなんだけどなぁ』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1035
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L418} ; "　眠気覚ましに入れたコーヒーをすすろうとして、僕は彼女にメールを書かなければならないことを思い出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1036
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L419} ; "　彼女は自らの数奇な人生を聞かせてくれた上に、一切の見返りを求めることなく、それを創作に取り入れることを快諾してくれたのだ。そのことへのお礼がまず一つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1037
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L420} ; "　それから……アダルトゲームという性格上、やっぱり外せない過激なエロシーンは彼女を不愉快にするかもしれない。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1040
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L421} ; "　『う～ん……やっぱり、お礼とお詫びメールしとこ』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1042
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L422} ; "　僕はたった今テキストができあがったことの報告と、お礼とお詫びを兼ねたメールを彼女に送信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1043
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L423} ; "　それまで数ヶ月の付き合いがあったけれども、単なるメル友に過ぎない僕にこんな話を聞かせてくれるなんて、思ってもみなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1044
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L424} ; "　事実は小説よりも奇なりとは言うけれども、こんな話、普通なら単なる作り話だと思うだろう。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1045
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L425} ; "　けれども、話を聞くために何度か会った彼女の印象は、とても作り話をするような人には思えなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1046
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L426} ; "　下手な女優なら裸足で逃げ出すような美人だけれど、人との距離のとり方が独特で、恋人もいないようだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1047
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L427} ; "　そして時折見せる淋しげな笑顔が実に印象的で……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1051
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L428} ; "　と、僕が彼女を思い出してる間に、当の彼女から返信が返ってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1052
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L429} ; "　まだ彼女も起きていたらしい。"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1054
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L430} ; "　彼女からのメールにはこう書いてあった。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1058
+  ldstr         "e0168"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1059
+  ldstr         "夕実"
+  callp         $8e803141 (1)
+  line          #1061
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L431} ; "　『私のことは気にしないで欲しい。あなたは信じてくれたけれど、事実をそのまま世に訴えたところで、人々に受け入れられるとは思っていないもの』"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #1063
+  ldstr         "e0169"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #1064
+  ldstr         "夕実"
+  callp         $8e803141 (1)
+  line          #1066
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L432} ; "　『フィクションという仮面を被ることによって、兄の思いが誰かの心に少しでも残るのなら、私にとってこれに優る喜びはないから……』"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1068
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1069
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #1071
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $4f80ca28 (0)
+  line          #1072
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  ctrl          "n"
+  line          #1073
+  text          %{L433} ; "　　　　　　　　　　　　　　　　　『ＴｒｕｅＥＮＤ』"
+  proc         
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  line          #1074
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #1077
+  argcheck      []
+  alloca        []
+  line          #1078
+  callp         $c2a71eff (0)
+  line          #1079
+  callp         $4c28191c (0)
+  line          #1080
+  callp         $80821982 (0)
+  line          #1081
+  ldc.i         0
+  ret          
+}
+
+func $21315593() {
+ entry:
+  line          #1082
+  argcheck      []
+  alloca        []
+  line          #1083
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #1084
+  callp         $4c28191c (0)
+  line          #1085
+  ldc.i         0
+  ret          
+}

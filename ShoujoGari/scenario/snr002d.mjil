@@ -1,0 +1,270 @@
+readmark enable
+
+func $18366439() {
+ entry:
+  line          #18
+  argcheck      []
+  alloca        []
+  line          #19
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #20
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #21
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #26
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "桜井衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L2} ; "最初に裁かれる女はこいつだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #30
+  argcheck      []
+  alloca        []
+  line          #32
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #33
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #34
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #36
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L3} ; "桜井衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L4} ; "お前の番だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #39
+  ldc.i         0
+  ret          
+}
+
+func $5a136344() {
+ entry:
+  line          #40
+  argcheck      []
+  alloca        []
+  line          #42
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #43
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #44
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #46
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L5} ; "最後はこの女しかいない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L6} ; "桜井衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #49
+  text          %{L7} ; "この女があいつらにネットを見せなければ夕実は死なずに済んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L8} ; "そう、この女こそ夕実の生命を奪った元凶なのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L9} ; "だからこそ俺は最後にお前を陵辱することに決めていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L10} ; "【貴城】「ようやくお前に会えるな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L11} ; "システム手帳に張られた写真を見るうちに、空虚な心の中を暗い愉悦にも似た憎悪が満たしていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  ldc.i         0
+  ret          
+}
+
+func $4c28191c() {
+ entry:
+  line          #59
+  argcheck      []
+  alloca        []
+  line          #61
+  text          %{L12} ; "アドレス帳のページには桜井衣澄の住所・氏名・自宅電話番号・パソコン用のメールアドレスが記されている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L13} ; "夕実らしい几帳面な字を眺めるうちに、夕実への愛しさとそれを奪った者への怒りが湧き上がる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L14} ; "【貴城】「夕実の残してくれた情報、決して無駄にはしないからな……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L15} ; "復讐への決意も新たに衣澄のパーソナルデータを記憶に焼き付けていくうちに、携帯電話の番号が無いことに気が付いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L16} ; "聡明な夕実が記入漏れなどという単純なミスを犯すわけがない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #69
+  text          %{L17} ; "メールアドレスもパソコン用のものだし、どうやらこの女は携帯電話その物を持っていないようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #71
+  text          %{L18} ; "校門前で声を掛けてきた衣澄の姿を思い返す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L19} ; "いかにも真面目で清楚な優等生といった感じだった。携帯を持っていなくても不思議ではないタイプだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L20} ; "【貴城】「まずは尾行して、この女の身辺を調べるか」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L21} ; "衣澄の普段の行動が判れば、こちらとしても随分と行動しやすくなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L22} ; "それに上手くすれば、何か衣澄の弱みでも掴めるかもしれない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #78
+  text          %{L23} ; "そうすれば弱みをネタに脅してやることもできるだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L24} ; "…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #81
+  text          %{L25} ; "……………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L26} ; "…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L27} ; "【貴城】「いや、それはリスクが大きすぎるな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #86
+  text          %{L28} ; "しかし、冷静に考えてみて、そのアイデアを却下する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L29} ; "あの時校門の前で、衣澄とは普通に会話を交わしてしまっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #88
+  text          %{L30} ; "衣澄の方から話し掛けてきたくらいだ。俺は顔と名前をしっかりと覚えられている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L31} ; "夕実の兄だと知られている以上、うかつな真似はできない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #91
+  text          %{L32} ; "下手に尾行して向こうに勘付かれると、衣澄を警戒させてしまうことにもなりかねない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L33} ; "そうなってしまったら近付くどころではなく、復讐しようにもかなり難しくなってしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L34} ; "【貴城】「それに、向こうから本を返して欲しいと言ってきているんだ。接触する口実もあることだし、こちらから出向けばいい……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L35} ; "図書委員としての責任感か、衣澄は本を返して欲しいと言ってきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L36} ; "ならば、夕実の本を返しに行くと言って行動を聞き出すことも出来るし、逆に向こうを呼び出すことも出来るだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L37} ; "さて、どうするか。"
+  proc         
+  ctrl          "p"
+  line          #106
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #107
+  argcheck      []
+  alloca        []
+  line          #108
+  callp         $18366439 (0)
+  line          #109
+  callp         $96b963da (0)
+  line          #110
+  callp         $5a136344 (0)
+  line          #111
+  callp         $4c28191c (0)
+  line          #112
+  ldc.i         0
+  ret          
+}

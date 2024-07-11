@@ -1,0 +1,469 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #26
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #27
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #28
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #30
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L1} ; "【貴城】「これで準備は出来たな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L2} ; "ノートパソコンのディスプレイに映し出された登録完了の文字。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L3} ; "携帯からもメールは可能だが、足がつきやすい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #34
+  text          %{L4} ; "パソコンからフリーメールを利用して送った方がいいだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #36
+  text          %{L5} ; "俺はメーラーを立ち上げ、キーボードを叩いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #37
+  text          %{L6} ; "『おまえも夕実と同じ思いをして苦しめばいい』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L7} ; "ただの悪戯メールだと思われないために、未夏の学校名、学年、クラス、フルネームを書き添え、長瀬夕実の代理人の名でメールを送信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  text          %{L8} ; "今の時間は……授業中か。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #41
+  text          %{L9} ; "休み時間になって携帯をチェックした時の、未夏のうろたえぶりが楽しみだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #43
+  text          %{L10} ; "俺は暗い笑いを浮かべながら、未夏の返信がきたらすぐに対処できるように、メーラーのオプション設定で新着メールを５分置きにチェックするように設定しなおした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #45
+  text          %{L11} ; "しばらくして……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  text          %{L12} ; "新着メールの到着を知らせるアラームの音。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #50
+  text          %{L13} ; "開いた受信トレイには、少し前にメールを送った二宮未夏の名があった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #52
+  text          %{L14} ; "『久しぶりね。突然のメールでとっても驚いちゃった。今どうしてるの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #54
+  text          %{L15} ; "返信されたメールの内容は他愛のない会話だった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #55
+  text          %{L16} ; "俺が出したメールの文面には全く触れていない、受け取ったのがまるで普通の挨拶メールであったかのような返事。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #56
+  text          %{L17} ; "わざとなのか、それとも天然の馬鹿なのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #57
+  text          %{L18} ; "しかも、きちんと代理人と書いたのに、夕実本人から受け取ったと思っているらしい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #58
+  text          %{L19} ; "【貴城】「（俺はおまえも苦しめばいいと書いたんだぞ！？　なんだその能天気なメールは！）」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #59
+  text          %{L20} ; "未夏のメールに、俺は恐怖を煽る為に少し意味深に言葉を添えて返した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #61
+  text          %{L21} ; "『今の私がどうなっているかは貴方が一番分かってるんじゃないの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #62
+  text          %{L22} ; "この言葉にどう反応するかが見物だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #64
+  text          %{L23} ; "すると、今度はすぐに到着のアラーム音。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #66
+  text          %{L24} ; "キーボード操作ならともかく、携帯でこれだけ早く反応するということはそれだけ動揺している証拠だと思うのだが……。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #68
+  text          %{L25} ; "さて、どんな返事が返ってきているか……俺はマウスを操作して新着メールを開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #70
+  text          %{L26} ; "『どういう意味？　私は何もわからないよ？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #72
+  text          %{L27} ; "どうやら未夏は知らぬ存ぜぬで誤魔化そうとしているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #74
+  text          %{L28} ; "『つまらない嘘はやめて。そんなことで誤魔化せると思ってるの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #76
+  text          %{L29} ; "チャットのような短い言葉のやり取り。しかし、そのほうが余計に相手の不安感を煽れる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #77
+  text          %{L30} ; "俺は再度メールを送信した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #80
+  text          %{L31} ; "またもやすぐに新着メールが送られてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #82
+  text          %{L32} ; "『誤魔化してなんかいない。なんでそんなことを言うの？　どうして信じてくれないの？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #84
+  text          %{L33} ; "どうやら心底不安になっているようだ。これなら上手く誘い出せるだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #85
+  text          %{L34} ; "俺はいよいよ本題をメールに書き込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #87
+  text          %{L35} ; "『メールでいくら話しても信じられないわ。それなら直接会って話しましょう。時間は夜２３時過ぎ。学校と駅の間にあるあの公園の噴水前でどうかしら？』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #89
+  text          %{L36} ; "この誘いに上手く乗ってくれれば、いよいよ計画に本格着手だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #90
+  text          %{L37} ; "俺は期待に胸を膨らませてメールの送信ボタンを押した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #92
+  text          %{L38} ; "そして待つこと１０分。流石に指定の時間帯と場所から返答に悩んだのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #94
+  text          %{L39} ; "新着メールを告げるアラームが鳴った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #96
+  text          %{L40} ; "俺は駄菓子のクジに期待する子供のように興奮した面持ちで、マウス操作ももどかしくメールを開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #98
+  text          %{L41} ; "『分かったわ。じゃあその時間に行くね！』"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #100
+  text          %{L42} ; "よし！　作戦は成功だ。俺は一人歓喜の声をあげた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #102
+  text          %{L43} ; "これで遂に復讐の時が来る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #103
+  text          %{L44} ; "これで夕実の無念が晴らせる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #105
+  text          %{L45} ; "万が一にも失敗は許されない。俺は入念に準備を始めた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #110
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #111
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L46} ; "………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #112
+  text          %{L47} ; "…………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #113
+  text          %{L48} ; "………………………………………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #115
+  ldstr         "bg04n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #116
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #118
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  text          %{L49} ; "深夜の公園は予想通り完全に静まり返っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #119
+  text          %{L50} ; "通りを走り抜ける車の音さえ聞こえない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #121
+  text          %{L51} ; "静寂と孤独が支配する暗闇の世界。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #124
+  text          %{L52} ; "俺は１人、無人の公園の噴水の前で未夏が来るのを無言で待った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #126
+  text          %{L53} ; "時計の針が約束の時刻５分過ぎを告げた時、ふと背後に人の気配が……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #128
+  ldstr         "BUP05Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #130
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0021"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #131
+  text          %{L54} ; "【未夏】「やっほー、夕実！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #133
+  text          %{L55} ; "元気のいい場違いな声と共に、未夏は俺に後ろから抱きついてきた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #134
+  text          %{L56} ; "辺りの暗さで俺の事を夕実だと思い込んでいたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #135
+  text          %{L57} ; "落ち着いて見れば、身長も体格も全く違うのがわかるはずなのだが。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #137
+  text          %{L58} ; "俺は動じることなく無言のまま、ゆっくりと振り返った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #139
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #141
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0022"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #142
+  text          %{L59} ; "【未夏】「あっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #144
+  text          %{L60} ; "ようやく間違いに気付いて、さすがに未夏の表情が硬直する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #145
+  text          %{L61} ; "決まりの悪そうな態度でそのまま立ち去ろうと後ずさりした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #146
+  text          %{L62} ; "それを止める合図のように、俺は静かに口を開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #148
+  text          %{L63} ; "【貴城】「君が二宮未夏だね？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #150
+  ldstr         "d0023"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #151
+  text          %{L64} ; "【未夏】「え！？　わ、私を知ってるの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #153
+  text          %{L65} ; "【貴城】「俺は長瀬夕実の代理人だよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #155
+  text          %{L66} ; "静寂の支配する公園に、俺達の声だけが異様に大きく木霊していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #157
+  text          %{L67} ; "【貴城】「つまり君をここへ今夜呼び出したのは俺なんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #159
+  ldstr         "BUP05Eu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #161
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0024"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #162
+  text          %{L68} ; "【未夏】「で、でも……夕実が会って話そうって……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #164
+  text          %{L69} ; "【貴城】「そうさ、だから夕実の代理で話をしようと言ってるんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #166
+  ldstr         "d0025"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #167
+  text          %{L70} ; "【未夏】「な、なによそれ……意味わからないわ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #169
+  text          %{L71} ; "未夏にとっては予想だにしなかった事態。どうやら混乱して激しく狼狽しているようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #171
+  text          %{L72} ; "【貴城】「意味か……それはこれからじっくり知ってもらうさ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #173
+  ldstr         "d0026"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #174
+  text          %{L73} ; "【未夏】「………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #176
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #178
+  text          %{L74} ; "【貴城】「もっとも、体で味わうことになるかもしれないがな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #180
+  text          %{L75} ; "俺は戸惑い、立ち尽くしている未夏に、さらに追い討ちをかけるように凄みの聞いた声で怒鳴るとナイフを抜いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #182
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #183
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "d0027"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #184
+  text          %{L76} ; "【未夏】「ひっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #186
+  text          %{L77} ; "僅かに差し込む街灯の光を白刃が照り返す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #187
+  text          %{L78} ; "身に迫る危機に未夏の顔面が蒼白となった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #189
+  text          %{L79} ; "さて、どうする？"
+  proc         
+  ctrl          "p"
+  line          #196
+  ldc.i         0
+  ret          
+}

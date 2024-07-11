@@ -1,0 +1,4931 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #24
+  argcheck      []
+  alloca        [int, int]
+  line          #34
+  ldc.i         1
+  st.i          persistent int $5f4110f7 
+  pop          
+  line          #35
+  ldc.i         1
+  st.i          persistent int $2ed4ca4a 
+  pop          
+  line          #36
+  ldc.i         1
+  st.i          persistent int $3d527787 
+  pop          
+  line          #37
+  ldc.i         1
+  st.i          persistent int $8b01795c 
+  pop          
+  line          #38
+  ldc.i         1
+  st.i          persistent int $cae5ecc8 
+  pop          
+  line          #39
+  ldc.i         1
+  st.i          persistent int $dc03a4e7 
+  pop          
+  line          #40
+  ldc.i         1
+  st.i          persistent int $0286c3ca 
+  pop          
+  line          #41
+  ldc.i         1
+  st.i          persistent int $8c09c429 
+  pop          
+  line          #44
+  ldc.i         2
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #46
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #47
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #48
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #50
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L1} ; "　最大は"
+  proc         
+  ldc.i         3
+  ldc.i         2
+  ldc.i         1
+  call          $d2b1d3a9 (3)
+  ctrl          "d"
+  text          %{L2} ; "だ"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #51
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L3} ; "　最大は"
+  proc         
+  ldc.i         9
+  ldc.i         4
+  ldc.i         3
+  ldc.i         2
+  ldc.i         1
+  call          $d2b1d3a9 (5)
+  ctrl          "d"
+  text          %{L4} ; "だ"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #52
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L5} ; "　最大は"
+  proc         
+  ldc.i         3
+  ldc.i         2
+  ldc.i         3
+  ldc.i         9
+  ldc.i         2
+  ldc.i         1
+  call          $d2b1d3a9 (6)
+  ctrl          "d"
+  text          %{L6} ; "だ"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #54
+  ldstr         "これ"
+  ldstr         "これ"
+  callp         $$novel_select@MENU (2) ; $novel_select@MENU
+  line          #58
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L7} ; "　ぐったりしていることを確認して、衣澄を縛る縄をほどいて自由にしてやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #59
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L8} ; "　とはいえ逃げ出せないよう、首輪だけは残しておくが。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #60
+  ldstr         "ev34f"
+  callp         $3706a555 (1)
+  line          #62
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L9} ; "　【貴城】「愛しい夕実を殺した報い、少しは思い知ったか」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #64
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L10} ; "　精液まみれの衣澄を見て、いい気味だと思いながら罵ってやる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #66
+  ldstr         "b0310"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #67
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L11} ; "　【衣澄】「ぁ……私、は……償い、たいです……」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #69
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L12} ; "　性欲処理に激しく身体を使われた衝撃に息を乱しながら、衣澄はそんなことを言ってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #71
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L13} ; "　【貴城】「何をだ？　何を償いたいんだ？　俺から愛しい夕実を奪ったことか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #73
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L14} ; "　何故だか判らないが、無性に苛立ってくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #74
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L15} ; "　この女は何を言っているんだ？"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #76
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L16} ; "　そうとも、これは単なる聞き間違いに過ぎないはずだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #77
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L17} ; "　ほら今『何を言ってるんですか？』と言い出すに違いな"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #79
+  ldstr         "b0311"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #80
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L18} ; "　【衣澄】「はい、私は償いたいんです……」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #82
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L19} ; "　また聞こえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #83
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L20} ; "　聞き間違いでも、ましてや幻聴などでもない。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #85
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L21} ; "　正体不明のイライラが限界に達し、今にもこの女の首を絞めて永久に黙らせてしまいたくなる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #87
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L22} ; "　【貴城】「脅迫電話を掛けてきたのも、やはりお前なんだな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #89
+  ldstr         "b0312"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #90
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L23} ; "　【衣澄】「そうかもしれないけれど、もっと詳しい話を聞かせてくれないと、はっきりしたことは答えられないです」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #92
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L24} ; "　はっきりしたこと？　お前が掛けてきているのは明白なのにはっきりしたことも何もないだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #94
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L25} ; "　【貴城】「じゃあ教えてやるよ。お前が俺にどんなことをしてきたのかを！　お前は死んだ夕実の名前を騙って、何度もイタズラ電話を掛けてきたんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #96
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L26} ; "　怒りが心の底からあふれ出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #97
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L27} ; "　こうなったらこの女のしてきた悪行を、全て突きつけてやらないと気が済まない。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #99
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L28} ; "　【貴城】「電話口でオナニーをした！　俺を殺してやるとも叫んだ！　誰のとも知らないペニスを切り取って送りつけてきた！」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #101
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L29} ; "　衣澄の顔が強張る。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #102
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L30} ; "　やはりこのおんなが犯人か。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #103
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L31} ; "　愛しい夕実を死に追いやっただけに飽き足らず、自らも手を汚して生命をもてあそび、俺も殺そうとしていたのだな。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #105
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L32} ; "　【貴城】「だが、俺が一番許せないのは、夕実が陵辱されているサイトを希更たちに見せたこと！　くだらない誹謗中傷を人に広めて、愛しい夕実を陥れて死に追いやったことだ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #107
+  ldstr         "b0313"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #108
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L33} ; "　【衣澄】「それは……確かに私の罪です。どうすれば償えるのですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #110
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L34} ; "　真剣な表情で問うてくる衣澄。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #111
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L35} ; "　その姿はまるで、主に許しを請う修道女にも似た真摯さを持っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #113
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L36} ; "　あぁ……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #115
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L37} ; "　唐突に理解する。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #117
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L38} ; "　衣澄は、『復讐すべき性悪女』などではなかったのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #119
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L39} ; "　夕実を殺した性悪女たちは、決して自分の罪を認めようとしない。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #120
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L40} ; "　だから俺が、夕実の名誉のためにも奴らを罰しなければならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #122
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L41} ; "　だが、衣澄は違う。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #123
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L42} ; "　衣澄は自分の罪を悔やみ、償いたいと言ってきているのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #125
+  callp         $413b2f3a (0)
+  line          #126
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L43} ; "　【貴城】「あぁっ、ああぁぁぁぁっ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #135
+  callp         $ec62ec6e (0)
+  line          #136
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L44} ; "　頭の中で何もかもが渦のようにグルグルと回っていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #138
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L45} ; "　どこからどこまでが現実で、どこからどこまでが妄想なのか……境界が曖昧になっていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #141
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L46} ; "　現実から目を背けた俺は、妄想の中に逃げ込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #142
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L47} ; "　俺の妄想に付き合った少女がいる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #143
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L48} ; "　現実世界の少女は、妄想世界の中の少女とは当然だが違う。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #145
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L49} ; "　しかし少女は俺の前で、妄想世界の登場人物であるかのように振舞い続ける。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #146
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L50} ; "　細かな差異は積み重ねられていき、いつしかそれは決定的な違いとなって俺に突きつけられた。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #148
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L51} ; "　現実世界の住人が妄想世界の中の登場人物を演じてみせることで、はからずも妄想世界の登場人物とは、まったくの別人であるということを証明したのだ……"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #151
+  ldstr         "BUP04Fz"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #152
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "b0314"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #153
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L52} ; "　【衣澄】「だっ、大丈夫ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #155
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L53} ; "　頭を抱えて座り込んだ俺に、衣澄が心配そうな声を掛けてくる。"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #157
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L54} ; "　【貴城】「俺は……君に……取り返しの付かないことをした……」"
+  proc         
+  ctrl          "p"
+  ctrl          "n"
+  line          #159
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #160
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #162
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  syscallp      $console_off (0)
+  line          #163
+  ldc.i         1000
+  syscallp      $wait (1)
+  line          #164
+  callp         $1a8a046e (0)
+  line          #165
+  ldc.i         1000
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #167
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  line          #168
+  ldc.i         0
+  callp         $$console_mode@CONSOLE (1) ; $console_mode@CONSOLE
+  line          #174
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L55} ; "　【？？？】（衣澄）「突然お声かけてすみません。何度か夕実さんとご一緒しているのをお見かけしていたので……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #177
+  ldstr         "ev50a"
+  callp         $$disp_back@PIC (1) ; $disp_back@PIC
+  line          #178
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1
+  syscallp      $wait (1)
+  line          #179
+  ldstr         "BUP06"
+  callp         $$disp_back@PIC (1) ; $disp_back@PIC
+  line          #180
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1
+  syscallp      $wait (1)
+  line          #181
+  ldstr         "ev70"
+  callp         $$disp_back@PIC (1) ; $disp_back@PIC
+  line          #182
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         1
+  syscallp      $wait (1)
+  line          #185
+  callp         $ec62ec6e (0)
+  line          #189
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #190
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #191
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #192
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L56} ; "　さ～んに～んで～て～"
+  line          #193
+  callp         $$pause_set_altwink@CONSOLE (0) ; $pause_set_altwink@CONSOLE
+  callp         $$pause@CONSOLE (0) ; $pause@CONSOLE
+  ctrl          "w"
+  text          %{L57} ; "さ～んに～んで～て～"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #194
+  ldstr         "BUP03"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #195
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L58} ; "　ひ～とり～き～えて～"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #197
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #198
+  ldstr         "BUP05"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #199
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L59} ; "　ち～がう～のきえ～て～"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #200
+  ldstr         "BUP02"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #201
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L60} ; "　ま～たひとり～き～えて～"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #202
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #203
+  ldstr         "BUP03"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #204
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L61} ; "　こ～うな～って～"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #205
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #206
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #207
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #208
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L62} ; "　でん"
+  line          #209
+  ldc.i         200
+  syscallp      $wait (1)
+  line          #210
+  ldstr         "BUP05"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #211
+  ldstr         "BUP03"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #212
+  ldstr         "BUP02"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #213
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L63} ; "　でん"
+  line          #214
+  ldc.i         200
+  syscallp      $wait (1)
+  line          #215
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #216
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L64} ; "　で"
+  line          #217
+  ldc.i         200
+  syscallp      $wait (1)
+  line          #218
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #219
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L65} ; "　で"
+  line          #220
+  ldc.i         200
+  syscallp      $wait (1)
+  line          #221
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #222
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L66} ; "　でん"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #224
+  ldc.i         1000
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #225
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  syscallp      $console_off (0)
+  line          #227
+  ldc.i         1000
+  syscallp      $wait (1)
+  line          #229
+  callp         $1a8a046e (0)
+  line          #269
+  ldstr         "m01"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #271
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L67} ; "　自分の存在ってなんだろう？\n"
+  line          #272
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L68} ; "　生きることってなんだろう……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #274
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L69} ; "　人生の意味って……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #276
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L70} ; "　この世界には沢山の人間が生きている。\n"
+  line          #277
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L71} ; "　それぞれがそれぞれの想いを持って生きている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #279
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L72} ; "　そしてひとつひとつの想いは互いに触れ合って互いを確認しあっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #281
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L73} ; "　だけど、俺の想いはそんな繋がりの糸が断たれてしまった。\n"
+  line          #282
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L74} ; "　広大な湖に舞落ちてゆらゆらと揺れる孤独な木の葉のように……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #284
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L75} ; "　誰にも伝えられない、いや、伝える相手が居ない。\n"
+  line          #285
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L76} ; "　伝える術もない……\n"
+  line          #286
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L77} ; "　湖面に漂う孤独な木の葉はやがて散りとなって消え行くだけ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #288
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L78} ; "　想いは誰にも伝えられず、存在は誰にも知られることもなく、俺はただ、時間というゆりかごに委ねて消え行くのを待つしかないのだろうか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #290
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L79} ; "　例え姿が行き交う人の瞳に写ろうと、誰一人として記憶に留まらないのならそれは路傍の石と同じ事なんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #292
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L80} ; "　俺を想う糸はこの世に存在せず、そして俺の想う糸もまたこの世には存在しない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #294
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L81} ; "　空虚な絶望感と孤独感だけが、延々と俺の心を埋め尽くし、凍てつかせて行く。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #296
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L82} ; "　夕実……俺はこれからどうしたらいい？\n"
+  line          #297
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L83} ; "　お前のいるところへどうしたら行ける？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #299
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L84} ; "　会いたい……もう一度お前の温もりが欲しい。\n"
+  line          #300
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L85} ; "　逢いたい……もう一度お前の笑顔が見たい。\n"
+  line          #301
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L86} ; "　遇いたい……もう一度お前の声が聞きたい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #303
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L87} ; "　お前の居ない世界で俺はこれからどうすればいい？\n"
+  line          #304
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L88} ; "　お前の居ない世界で俺は明日も明後日も来年も１０年後も……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #306
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L89} ; "　糸の断ち切れた想いをだけを胸に生きていかなくてはいけないのか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #308
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L90} ; "　公園で楽しそうに遊ぶ幼い兄妹を見ているだけで悲しみで胸が押しつぶされそうだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #310
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L91} ; "　耐えがたい孤独感。耐えがたい絶望感。\n"
+  line          #311
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L92} ; "　俺はこれからどうすればいい………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #313
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L93} ; "　夕実、夕実、夕実……脳裏に浮かぶのは彼女の笑顔と彼女の姿。\n"
+  line          #314
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L94} ; "　この世で唯一愛した女……\n"
+  line          #315
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L95} ; "　この世で唯一愛した妹……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #317
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L96} ; "　…………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #319
+  ldstr         "bg05y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #321
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L97} ; "　そして気が付けば俺は幻影を追い求めるかのように夕実が生前通っていた学校の前に来ていた。\n"
+  line          #322
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L98} ; "　夕日の差し込む下校時刻の校門。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #324
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L99} ; "　家路を急ぐ学生の姿に目線は無意識に釘付けとなり、あるはずもない夕実の姿を追い求める。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #326
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L100} ; "　もしかすると……\n"
+  line          #327
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L101} ; "　もしかするとこの中に夕実の姿があるんじゃないか……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #329
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L102} ; "　起こり得るはずもない奇跡にすがり、今までのことが他愛もない悪夢ではなかったのかと夢想してしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #331
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L103} ; "　夕実が逝ったあの日からもう幾度となく繰り返してきた必ず裏切られる幻想だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #333
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L104} ; "　しかし、それは有り得ない。いつものように希望は絶望に変わり、俺はさらにありもしない幻影を追い求めて、生きていれば夕実が歩くであろう彼女の通学路をまた一人歩き出した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #335
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L105} ; "　彼女の死を理解していても、俺は気がつくと妹と関わりのある場所に足が向いてしまう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #337
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L106} ; "　クラス名簿、年賀状の差出人、システム手帳に残されたクラスメイトの住所……遺品にあった住所にはすべて足を運んだ。\n"
+  line          #338
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L107} ; "　亡き妹夕実の影を追い求め……ありえるはずのない奇跡を願う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #340
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L108} ; "　おかげで俺は夕実のクラスメイトの一部に関しては、顔や住居まではっきりと把握しているほどだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #342
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L109} ; "　それほどまでに俺は無意味にただひたすらありもしない幻想にすがるしか成す術がないのだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #344
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L110} ; "　そんな亡者のように彷徨う俺の日々に、今日は意外な転機が訪れた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #346
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L111} ; "　俺を更なる悪夢の深遠へと誘う悪魔からの招待状だったのかもしれない。\n"
+  line          #347
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L112} ; "　だが、今の俺に誘いを拒む事など出来るはずもなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #351
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L113} ; "　【？？？】（衣澄）「長瀬夕実さんのお兄さんですよね？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #353
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L114} ; "　ふと背後より声を掛けられて俺は夢から醒めたかのようにはっと体を硬直させて振り返った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #355
+  ldstr         "BUP04Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #357
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L115} ; "　そこには夕実と同じ学校の制服をきた一人の女学生が立っていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #359
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L116} ; "　【貴城】「そ、そうだけど……君は？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #361
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L117} ; "　特に面識のある顔ではない。\n"
+  line          #362
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L118} ; "　慌てて記憶を辿ってみるが間違いなく初対面だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #364
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #366
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L119} ; "　釈然としない表情の俺に彼女は少し戸惑うような顔をしつつも一呼吸置いてから口を開いた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #368
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L120} ; "　【？？？】（衣澄）「突然お声かけてすみません。何度か夕実さんとご一緒しているのをお見かけしていたので……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #370
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L121} ; "　【貴城】「は、はあ……それでどういったご用件ですか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #372
+  ldstr         "BUP04Bu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #374
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L122} ; "　【衣澄】「はい。私は桜井衣澄といいまして、長瀬夕実さんと同じ北斗学園で図書委員をしているんです」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #376
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L123} ; "　【衣澄】「それで実は彼女が図書室から借りている本があるんですが、もう返却期限がだいぶ過ぎていまして……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #378
+  ldstr         "BUP04Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #380
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L124} ; "　【衣澄】「同じ学園には在籍していますがクラスも違いますし、探してはいるのですが、特に面識がないものですから……。なかなか会えなくて困っていたんです」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #382
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L125} ; "　【衣澄】「そこで大変ぶしつけで失礼だとは思ったのですが、お兄さんからその事をお伝えいただけますか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #384
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L126} ; "　【貴城】「つまり君は、夕実に俺から図書室で借りた本を返却するように伝えて欲しい……ってことかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #386
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L127} ; "　【衣澄】「あ……は、はい。そ、そうですけど……ご、ご迷惑……でしょうか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #388
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L128} ; "　ああ、この娘は夕実がもう他界していることを知らないのか……夕実が本を返却することは永遠に有り得ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #390
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L129} ; "　と、すれば代わりに俺が返却すべきなのだろうが……夕実の部屋に入るのは辛すぎる。\n"
+  line          #391
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L130} ; "　この、真面目そうな少女に真実を伝えるべきだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #393
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L131} ; "　真実を伝えれば、少女は何と言うだろうか。\n"
+  line          #394
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L132} ; "　礼儀正しく真面目そうな少女。\n"
+  line          #395
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L133} ; "　きっと、礼儀正しく非の打ち所のない社交辞令が――"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #397
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L134} ; "　しかしそれさえ耳にするのは俺にとっては耐えがたい苦痛だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #399
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L135} ; "　【衣澄】「あ、あの……ご、ご迷惑……ですよね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #401
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L136} ; "　葛藤に苛まれ、深い影を浮かべているであろう俺の顔と声色と態度と……それを感じ取ったらしく桜井衣澄は困惑して頭を下げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #403
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L137} ; "　【貴城】「いや、君が謝ることじゃない。決して迷惑でもないし……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #405
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L138} ; "　【貴城】「ただ今はちょっと事情があって……すまないがもうしばらく待たせることになると思う。でも、必ず返却するからそれでいいかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #407
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L139} ; "　【衣澄】「はい。事情は存じませんがよろしくお願いいたします」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #409
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L140} ; "　そう言うと彼女はどうにも俺と居ずらいらしく、足早に去って行った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #411
+  ldstr         ""
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #413
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L141} ; "　【貴城】「代理……返却か」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #415
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L142} ; "　俺は１人差し込む朱色の夕日に目を伏せながら小さくつぶやいた。本来であれば当然の行為だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #417
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L143} ; "　だが、夕実の思い出と遺品に囲まれたあの部屋へ入ることは、俺にとっては焼け爛れた傷口へ塩を刷り込むに等しい行為だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #419
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L144} ; "　【？？？】（未夏）「にしてもさぁ、地味な顔して夕実もやるわよね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #421
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L145} ; "　！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #423
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L146} ; "　夕実！？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #425
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L147} ; "　唐突に耳へと流れ込んできた声にさっと周囲を見回す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #427
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #428
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #429
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #431
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L148} ; "　そこには校門から出てくる少女達の中に、まじって見知った顔があった。『相葉希更』『大野愛梨』『二宮未夏』の三人だ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #433
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L149} ; "　【愛梨】「そうですわね。まさに人は見かけによらないとはこのことですわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #435
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L150} ; "　何の話だ？\n"
+  line          #436
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L151} ; "　夕実という名前が出た時点で、俺は無意識的に３人を尾行しはじめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #438
+  ldstr         "bg10y"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #439
+  ldc.i         2
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #441
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L152} ; "　俺が勝手に夕実の手帳に張られていたプリクラで知っているだけでむこうはこちらの顔をまったく知らない。\n"
+  line          #442
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L153} ; "　人の往来も多く、近距離を歩いても特に不自然ではなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #445
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #446
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #447
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #449
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L154} ; "　【未夏】「ちょうびっくりって感じ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #451
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L155} ; "　【希更】「モザイクもなしで顔出しだからね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #453
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L156} ; "　【未夏】「エロ過ぎよねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #455
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L157} ; "　【愛梨】「というよりはもう病気のレベルですわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #457
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L158} ; "　【希更】「言えてるね。あれは好きものとか男好きってレベルじゃないわ。１枚や２枚じゃないし、しかも相手だって大勢いたし」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #459
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L159} ; "　【未夏】「そうそう、それがますます信じらんない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #461
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L160} ; "　【希更】「全身ギトギトなのもあったよ。見た？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #463
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L161} ; "　【愛梨】「あら、私はそれはみてないですわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #465
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L162} ; "　【希更】「ああ、でも見ない方がいいかもよ。はっきりいってグロイし」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #467
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #469
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L163} ; "　【未夏】「マジでぇ？　でもちょっと興味あるかも」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #471
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L164} ; "　【愛梨】「まあ、図書委員の桜井さんに頼めばきっとまた見せてくれますわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #473
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L165} ; "　【未夏】「でもさ、あれって援交なのかな？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #475
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L166} ; "　【希更】「見た感じでは援交ってよりは乱交って感じゃない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #477
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L167} ; "　【愛梨】「大勢の男性を相手に１人でなんて獣ですわねc」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #479
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L168} ; "　【未夏】「しかもそれネットで公開だし……超デンジャアよねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #481
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #483
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L169} ; "　ど、どういう事だ……\n"
+  line          #484
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L170} ; "　彼女たちの話す言葉を聞いているうちに俺の思考は激しく混乱し、全身の毛が逆立った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #486
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L171} ; "　必死に理性で興奮を抑えて、冷静にその会話を理解しようと試みる。\n"
+  line          #487
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L172} ; "　しかし、呼吸が荒くなり心臓はドラムのように激しく高鳴った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #489
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L173} ; "　【希更】「というよりは、ネットなんて誰が見るかわからないわけだし……やば過ぎるよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #491
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L174} ; "　【愛梨】「現にこうして夕実ちゃんを知っている私たちも見てしまったわけですからね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #493
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L175} ; "　【未夏】「大勢の男にかわるがわるなんてぞっとするなぁ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #495
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L176} ; "　【希更】「だね。でも案外楽しんでいたんじゃない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #497
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L177} ; "　【未夏】「うぁ、それってもう病気だよぉ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #499
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L178} ; "　【愛梨】「でも……病気をうつされる危険性とか、考えないのかしら？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #501
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L179} ; "　【希更】「あんなの公開してるなんて、もともと病気だとしか思えないじゃない。いまさら病気の一つや二つ増えたところで、長瀬なら気にしないんじゃないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #503
+  ldstr         "BUP05Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #505
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L180} ; "　【未夏】「やっだ、希更。それ言いすぎぃ～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #507
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L181} ; "　【希更】「でもそう思うでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #509
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L182} ; "　きゃらきゃらとした女子学生特有の笑い声をあげながら、未夏は希更の肩を叩いた。\n"
+  line          #510
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L183} ; "　しかし、希更はそれに悪びれたふうもなく、しらっと返答する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #512
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L184} ; "　【未夏】「まぁ～ねぇ～～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #514
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L185} ; "　【希更】「案外最近来てないのだって、それが原因じゃないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #516
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L186} ; "　【愛梨】「えぇ。こんなに噂になってるんですもの。いくら自分で蒔いた種とはいえ……私でしたらとても登校する気にはなれませんわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #518
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L187} ; "　【希更】「やだ。愛梨ちゃんならともかく、長瀬がそんなこと気にするような女だと思ってるの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #520
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L188} ; "　【希更】「不特定多数の男とあんなことするような奴なんて、頭がおかしいとしか思えないじゃない。というか、もうネットで公開してる時点で、100パー頭がおかしいこと、確定よね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #522
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L189} ; "　【未夏】「それはそうかもしれないけど。じゃあ、希更は夕実がこない理由、他にあるって言うの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #524
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L190} ; "　【希更】「だからぁ、長瀬は登校しないんじゃなくて、病気をうつされて登校できないんじゃないか？　ってことよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #526
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #528
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L191} ; "　【未夏】「えぇえええ？？　まぁ、ネットで公開されてる以外のこともしてそうだしぃ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #530
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L192} ; "　【未夏】「公開されてるのだってアレだもの。公開できないようなことまで考えたら……ねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #532
+  ldstr         "BUP03Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #534
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L193} ; "　【愛梨】「それは確かに考えられなくもないですけど……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #536
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L194} ; "　一応口ごもってはいるものの、愛梨の目は楽しくて仕方がないというように、キラキラと光っていた。\n"
+  line          #537
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L195} ; "　希更は一瞬、キョロキョロと辺りを見回した後で、少し声を潜めるように……けれども俺にはっきりと聞こえるほど大きな声で、悪意に満ちた言葉をささやく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #539
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L196} ; "　【希更】「妊娠……とか、しちゃったのかもよ。避妊とか、そういうの、全然してないっぽいじゃん」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #541
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L197} ; "　【未夏】「うわぁ、やば過ぎ～～！！　じゃあ今は中絶手術で入院中ってわけぇ？？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #543
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L198} ; "　【愛梨】「確かに学生であるうちに子供を産むわけには、いきませんけど。そんなことをするくらいなら、最初からちゃんとしていればいいのに」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #545
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L199} ; "　【希更】「そんな頭があるくらいなら、ネットでなんか公開しないだろうし、そもそも不特定多数の男とあんなこと、するわけないでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #547
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L200} ; "　【未夏】「それもそうだよねぇ。あぁ、でも、やばい男に捕まって、監禁されちゃったりしてぇ～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #549
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L201} ; "　【希更】「うわぁ！　ありえる、ありえる！！　もう、男なら見境なしに誘ってるってカンジだもんねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #551
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L202} ; "　【愛梨】「最近、物騒ですしねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #553
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L203} ; "　【希更】「でも、縛られたりなんだりしたのもあったもの。そういうの、だぁいすきなんじゃない？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #555
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L204} ; "　【未夏】「うっそぉ。そんなのもあったのぉ？　マジやばすぎ～～～！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #557
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L205} ; "　誰の目を気にするわけでもなく、２ｍほど離れた俺の耳にもはっきりと届くような大きな声で話しながら、三人は俺の前を歩いている。\n"
+  line          #558
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L206} ; "　その様はまるで他愛もないことを話しているかのようだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #560
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L207} ; "　ケラケラと笑いあう少女たちの声が俺に突き刺さる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #562
+  ldstr         "m02"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #564
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L208} ; "　だが……\n"
+  line          #565
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L209} ; "　なんて言った？\n"
+  line          #566
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L210} ; "　今なんて言った？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #568
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L211} ; "　俺の夕実の頭がおかしい？\n"
+  line          #569
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L212} ; "　あれが夕実の意思によるものだと言うのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #571
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L213} ; "　夕実は純然たる被害者なのに、なぜそうやって笑える？\n"
+  line          #572
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L214} ; "　夕実は一人苦しんで、苦しんで、苦しみぬいて逝ってしまったというのに、なぜ事実無根の卑劣な噂話を冗長して楽しめるんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #574
+  ldstr         "BUP05Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #576
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L215} ; "　【未夏】「そう言えばさぁ、今日の古典のテスト、どうだったぁ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #578
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L216} ; "　【希更】「抜き打ちなんて、ホント陰険だよねぇ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #580
+  ldstr         "BUP03Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #582
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L217} ; "　【愛梨】「日ごろからお勉強をしっかりしていれば、抜き打ちされてもあわてることはありませんでしょ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #584
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L218} ; "　【未夏】「それはそうだけどぉ。あ～あ。マジ、テストのない国に行きたぁあい」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #586
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L219} ; "　憤りの目でにらみつけている俺に気づかず、少女たちはすでに遊び飽きたおもちゃを捨てて次のおもちゃへ移っていくように、次の会話へと移っていく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #588
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L220} ; "　おまえらは夕実の友達じゃなかったのか？\n"
+  line          #589
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L221} ; "　苦しんでいる夕実を見て見ぬふりをしていただけでは飽き足らず、傷ついて死んだ夕実を笑いものにするのが友達と言うのか？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #591
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L222} ; "　許せない。\n"
+  line          #592
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L223} ; "　許せない、許せない、許せない！！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #594
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L224} ; "　あんなに純粋でかわいい夕実が、不特定多数の男に抱かれることを喜ぶ女なわけがないだろう？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #596
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L225} ; "　夕実は被害者なのに……\n"
+  line          #597
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L226} ; "　なんで友達面したおまえらなんかに、嘲られなければならない？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #599
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L227} ; "　ふざけるな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #601
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L228} ; "　かわいそうな夕実。\n"
+  line          #602
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L229} ; "　周りがこんな奴らばかりだったから、誰にも相談できずに逝ってしまったんだよな。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #604
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L230} ; "　たった二人の兄妹で、何でも俺に話してくれたのに……\n"
+  line          #605
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L231} ; "　こんなことだからこそ、逆に俺に何も言えなくて。そして周りはこんな奴らばっかりで。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #607
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L232} ; "　なんてかわいそうな夕実。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #609
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L233} ; "　俺は……\n"
+  line          #610
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L234} ; "　俺はいったい何をしていたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #612
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L235} ; "　悲嘆にくれ、悲劇のどん底にいる俺を誰かが救ってくれるとでも期待してたのか？\n"
+  line          #613
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L236} ; "　夕実さえも救ってくれなかった世間に、何を期待していたんだ、俺は。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #615
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L237} ; "　夕実の不登校＝死ではなく、夕実が男と遊び歩いているようなふしだらな女だと陰口に興じ、死者を敬うではなく、冒涜するだけの世間に、俺はなぜ期待していたのだろう。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #617
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L238} ; "　これ以上傷つくのが怖くて、攻撃的な感情をすべて放棄し、夕実を陵辱して死に追いやった奴らをのさばらせ、夕実の名誉を守ろうとしなかった。\n"
+  line          #618
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L239} ; "　その結果がこれか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #620
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L240} ; "　なんて甘いんだ。\n"
+  line          #621
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L241} ; "　俺がしていたことは、不幸に酔っていただけ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #623
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L242} ; "　夕実にしてやれることはもう何もないと、ただ悲しみに浸っていただけだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #625
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L243} ; "　その間にもあいつらは夕実への根も葉もない許し難い悪質な陰口を垂れ流し、夕実を嘲笑し、死んだ夕実の名誉を穢している。\n"
+  line          #626
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L244} ; "　気づかなかったこととはいえ、放置していたなんて……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #628
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L245} ; "　無責任に興味本位で死者を笑いものにする奴らにも腹がたったが、それ以上にそれを放置していた自分が許せなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #630
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L246} ; "　ならばどうする？\n"
+  line          #631
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L247} ; "　夕実を亡くした俺に、失って惜しいものなど何もない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #633
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L248} ; "　夕実が俺のすべてだった。\n"
+  line          #634
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L249} ; "　夕実がいたからこそ、俺にも夢や希望があった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #636
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L250} ; "　その夢や希望がなくなった今の俺が、いとおしい夕実にしてやれることは、たった一つ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #638
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L251} ; "　復讐……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #640
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L252} ; "　残念ながら直接夕実を陵辱した奴らはどこの誰だかわからない。\n"
+  line          #641
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L253} ; "　けれど、苦しんでいた夕実を救わず、死に追い込んでいった共犯者たちはわかっている。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #643
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L254} ; "　こいつらを同じ目にあわせてやる。\n"
+  line          #644
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L255} ; "　夕実が受けた苦しみを、身をもって体験し、償うがいい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #646
+  ldstr         "BUP02Cu"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #648
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L256} ; "　【希更】「いっけない。バイト遅れちゃう！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #650
+  ldstr         "BUP05Du"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #652
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L257} ; "　【未夏】「え～？　もうそんな時間？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #654
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L258} ; "　【愛梨】「がんばってね♪」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #656
+  ldstr         "BUP02Au"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #658
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L259} ; "　【希更】「ありがとう、愛梨ちゃん。じゃあ、また明日ね～」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #660
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L260} ; "　にこやかに手を振って別れていく少女たち。\n"
+  line          #661
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L261} ; "　そんな幸せな光景も今日この日限りだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #663
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L262} ; "　俺はどす黒い情熱で身を焦がしながら、ずっと自分たちの罪が暴かれることなく、明日も明後日も同じ幸せが続くと信じ込んでいる彼女らを見つめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #669
+  ldc.i         0
+  st.i          local int $2e957d55 0
+  pop          
+  line          #671
+  ldc.i         0
+  st.i          savefile int $dce0413f 
+  pop          
+  line          #672
+  ldc.i         0
+  st.i          savefile int $62cd6078 
+  pop          
+  line          #673
+  ldc.i         0
+  st.i          savefile int $07a425c3 
+  pop          
+  line          #674
+  ldc.i         0
+  st.i          savefile int $97a8c0bc 
+  pop          
+  line          #675
+  ldc.i         0
+  st.i          savefile int $57c34798 
+  pop          
+  line          #679
+  ldstr         "snr001"
+  syscallp      $call (1)
+  line          #681
+  ldc.i         0
+  st.i          local int $611168d9 1
+  pop          
+  line          #690
+  ldstr         "kosihata"
+  syscallp      $exec (1)
+  line          #691
+  ldc.i         0
+  ret          
+}
+
+func $e091878d() {
+ entry:
+  line          #692
+  argcheck      []
+  alloca        []
+
+ block_839d:
+  line          #695
+  ldstr         "snr002azz"
+  syscallp      $call (1)
+  line          #696
+  br            @block_839d
+
+ block_83c1:
+  line          #698
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #700
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L263} ; "　俺は覚悟を決めた。"
+  line          #702
+  ldstr         "あっち"
+  ldstr         "こっち"
+  callp         $$select@MENU (2) ; $select@MENU
+  line          #712
+  callp         $$trans_ahead@PIC (0) ; $trans_ahead@PIC
+  line          #713
+  ldstr         "title1"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #714
+  ldstr         "nf6"
+  ldc.i         0
+  ldc.i         4000
+  ldc.i         600
+  ldc.i         -2
+  callp         $$trans@PIC (5) ; $trans@PIC
+  line          #715
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  callp         $$trans_wait@PIC (0) ; $trans_wait@PIC
+  line          #717
+  ldc.i         5000
+  syscall       $get_effectspeed (0)
+  mul.i        
+  ldc.i         1000
+  div.i        
+  ldc.i         300
+  ldc.i         0
+  callp         $$pic_scroll_to@PIC (3) ; $pic_scroll_to@PIC
+  line          #720
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L264} ; "　アヘッドだぞ！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #722
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #723
+  ldstr         "nf6"
+  ldc.i         0
+  ldc.i         4000
+  ldc.i         600
+  ldc.i         -2
+  callp         $$trans@PIC (5) ; $trans@PIC
+  line          #724
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L265} ; "　これ以上こんなことを続けていても何の進展も解決も望めない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #757
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L266} ; "　かけ直して真意を聞こうにも、こちらからは相手の電話番号はわからない。\n"
+  line          #758
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L267} ; "　俺は釈然としない思いに胸をもやもやさせながら、受話器を戻した……"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #760
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #761
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #762
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #763
+  ldstr         "bg09"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #764
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #767
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L268} ; "　そして、翌日。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #769
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L269} ; "　……現在の俺が暮らしているのは、叔父の家だ。\n"
+  line          #770
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L270} ; "　夕実の死をきっかけに両親との関係が悪化し、夕実を侮辱するいたずら電話などに心底嫌気がさした俺は、逃げ込むように叔父の家に転がり込んだのだった。\n"
+  line          #771
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L271} ; "　叔父は非常に気難しい人で、縁者との行き来もほとんどない。\n"
+  line          #772
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L272} ; "　そんな叔父だったが、何も聞かず、何も言わずに、俺をこの家に置いてくれていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #774
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L273} ; "　ほとんど来訪者のないこの家に、来客を告げるチャイムが鳴り響いた。\n"
+  line          #775
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L274} ; "　階下で、叔父がぶつぶつ言いながらも出ていく気配がした。\n"
+  line          #776
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L275} ; "　少しして、玄関のほうから言い争うような声が聞こえた。\n"
+  line          #777
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L276} ; "　それは叔父と……少女の声。\n"
+  line          #778
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L277} ; "　その声を聞いたとたん、俺は弾かれたように立ち上がっていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #780
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L278} ; "　もしかして、電話の少女が本当に来たのだろうか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #782
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L279} ; "　俺は急いで玄関へと向かう。\n"
+  line          #783
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L280} ; "　言い争う声が聞こえなくなっているのが、気にかかる。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #788
+  ldstr         "bg28"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #789
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #791
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L281} ; "　玄関へ向かう廊下で、苦虫を噛み潰したような顔をした叔父と鉢合わせした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #793
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L282} ; "　【貴城】｢叔父貴、誰か来たのか？｣"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #795
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L283} ; "　【叔父】「来たけど、もう帰った……お前も部屋へ戻れ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #797
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L284} ; "　俺は叔父の言葉を無視してなおも尋ねた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #799
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L285} ; "　【貴城】｢誰が来たんだ？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #801
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L286} ; "　【叔父】｢夕実だ。すごい剣幕でおまえを殺してやりたいだのなんだの言ってたんで帰した｣"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #803
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L287} ; "　なんだって？"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #805
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L288} ; "　【貴城】｢叔父貴、何を言ってるんだ。夕実は死んだんだ。ここに尋ねてくるはずがないだろ｣"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #807
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L289} ; "　そう言うと、叔父は得体の知れないようなものを見るような目で俺をまじまじと見つめた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #809
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L290} ; "　【叔父】｢おまえは何を言っとるんだ……？｣"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #811
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L291} ; "　もういい。\n"
+  line          #812
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L292} ; "　ぼけたことを言っている叔父の相手をしている暇はない。\n"
+  line          #813
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L293} ; "　悪戯電話の女を捕まえなくてはならない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #815
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L294} ; "　俺は叔父を半ば突き飛ばすようにして、玄関を飛び出した。\n"
+  line          #816
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L295} ; "　背後で叔父の舌打ちする音が聞こえた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #818
+  ldstr         "bg23"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #819
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #821
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m09"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #823
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L296} ; "　すぐそばに悪戯電話の少女がいる。\n"
+  line          #824
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L297} ; "　動悸が高鳴るのを感じる。\n"
+  line          #825
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L298} ; "　足が小刻みに震える。\n"
+  line          #826
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L299} ; "　期待と、恐怖と、歓喜と、激昂と……様々な激情が交錯して倒錯して湧き上がる。\n"
+  line          #827
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L300} ; "　そうだ、逃がさないように縛るものが必要だ。\n"
+  line          #828
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L301} ; "　玄関の横にある物置からロープを手に取る。\n"
+  line          #829
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L302} ; "　絶対に逃がさない……絶対に……絶対に………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #831
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L303} ; "　門を飛び出すと、俺は周囲へ視線を走らせた。\n"
+  line          #832
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L304} ; "　少女はそこにいた。\n"
+  line          #833
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L305} ; "　まるで俺が出てくるのを待っていたかのように。\n"
+  line          #834
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L306} ; "　俺に気付いた少女がこちらを見据える。\n"
+  line          #835
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L307} ; "　視線が絡み合い、俺の胸に言い様のない懐かしさがこみ上げた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #837
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L308} ; "　少女の名を呼びたい。\n"
+  line          #838
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L309} ; "　だが、どうしても呼ぶことが出来ない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #840
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L310} ; "　呼んだら少女がぱちんと音をたてて、幻のように消え失せてしまいそうな気がして。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #842
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L311} ; "　やがて、少女は静かに振り返ると、そのまま立ち去ろうとした。\n"
+  line          #843
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L312} ; "　俺の知らないどこかに向かって。\n"
+  line          #844
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L313} ; "　今見失ってしまったら、きっともう会えない――そう思うと、いても立ってもいられなくなった。\n"
+  line          #845
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L314} ; "　俺は少女の後を追って、走り出す。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #848
+  ldstr         "bg10"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #849
+  ldstr         "BUP01H"
+  callp         $$pic_top@PIC (1) ; $pic_top@PIC
+  line          #850
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #852
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L315} ; "　少女も俺が走り出したのを見て、逃げようというのか、走り出した。\n"
+  line          #853
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L316} ; "　俺は夢中で後を追う。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #855
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L317} ; "　少女は雑木林の中に駆け込んでいく。\n"
+  line          #856
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L318} ; "　俺も少女を追って雑木林へ駆け込んだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #859
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #862
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L319} ; "　『お前の妹はネットでこんなことをしているんだぞ』と書かれた一枚の紙片。\n"
+  line          #863
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L320} ; "　それを渡してきた相手が誰なのか、俺は知らない。\n"
+  line          #864
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L321} ; "　まだ顔に幼さを残した少年で……夕実と同じ学校の制服を着ていた。\n"
+  line          #865
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L322} ; "　俺が質問しようとすると、不意にすごい勢いで走り去っていってしまった。\n"
+  line          #866
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L323} ; "　その場で破り捨ててしまえばよかったのかもしれない。\n"
+  line          #867
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L324} ; "　だけど、俺には好奇心を抑えることができなかった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #869
+  ldc.i         -10028
+  ldstr         "ev76"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #870
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L325} ; "　メモに記されていたアドレスにアクセスすると、ネットアイドルのサイトが表示された。\n"
+  line          #871
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L326} ; "　自分の妹である夕実の媚びた顔が画面一杯に広がる。\n"
+  line          #872
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L327} ; "　ただのネットアイドルだったらまだ良かった。だが、そこには……。\n"
+  line          #873
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L328} ; "　俺の知らない夕実の姿が、どこかの男と淫らに絡み合う夕実の写真がアップされていた。\n"
+  line          #874
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L329} ; "　震える手で、日記と書かれた分部をクリックすると……赤裸々な性体験日記が表示された。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #876
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L330} ; "　俺の夕実が。\n"
+  line          #877
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L331} ; "　俺の知らないヤツと。\n"
+  line          #878
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L332} ; "　時には複数の相手と。\n"
+  line          #879
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L333} ; "　いろんな場所で。\n"
+  line          #880
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L334} ; "　さまざまな淫らな行為におよんでいた、よがっていた、汚らしい精液を受け止めて悦んでいた！\n"
+  line          #881
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L335} ; "　そこには俺の知らない夕実が並んでいた。\n"
+  line          #882
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L336} ; "　俺の知らない顔で俺を見つめ、挑発していた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #884
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L337} ; "　ああ、そうだ、思い出した……\n"
+  line          #885
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L338} ; "　全てをはっきりと思い出した……\n"
+  line          #886
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L339} ; "　俺は夕実の日記に登場する『相手の男』になりたかったんだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #889
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L340} ; "　夕実。\n"
+  line          #890
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L341} ; "　夕実。\n"
+  line          #891
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L342} ; "　夕実、どうしてあんなことをしたんだ。\n"
+  line          #892
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L343} ; "　俺の夕実。俺だけの夕実。\n"
+  line          #893
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L344} ; "　ずっと俺に対して笑顔を向けてくれていたのに。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #895
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L345} ; "　どうして、他の男とあんなことをしたんだ。\n"
+  line          #896
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L346} ; "　どうして、ネットでそんなに媚びた笑顔を見せてるんだ。\n"
+  line          #897
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L347} ; "　俺のことは、もう忘れてしまったのか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #899
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L348} ; "　もうどうでもいいのか。俺は今でもこんなに苦しいのに。\n"
+  line          #900
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L349} ; "　俺の愛した夕実は、俺を愛してくれた夕実は、もうどこにもいない。俺の夕実はいなくなった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #902
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L350} ; "　俺の夕実は死んでしまった。\n"
+  line          #903
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L351} ; "　俺の夕実にこんなことをさせたやつは、絶対に許さない。\n"
+  line          #904
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L352} ; "　みんな死んでしまえばいい。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #906
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L353} ; "　俺は世界を憎んだ。\n"
+  line          #907
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L354} ; "　夕実のいない世界を憎んだ。\n"
+  line          #908
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L355} ; "　俺から夕実を奪った全てのものを憎んだ。\n"
+  line          #909
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L356} ; "　夕実、夕実、夕実、夕実、夕実…………。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #911
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L357} ; "　…………\n"
+  line          #912
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L358} ; "　……………………\n"
+  line          #913
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L359} ; "　…………………………………………"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #929
+  ldc.i         1500
+  ldstr         "black"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #930
+  ldc.i         -10029
+  ldstr         "bg08"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #931
+  ldstr         "BUP01H"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #933
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L360} ; "　雑木林の中で、俺は少女に追いついた。\n"
+  line          #934
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L361} ; "　歩み寄る俺に背を向けて、少女は木にもたれて息を弾ませていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #936
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L362} ; "　【貴城】「今まで電話をかけていたのは、おまえだったのか？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #938
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L363} ; "　喉から振り絞り出した声は意外なほど落ち着いていた。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #940
+  ldstr         "BUP01I"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #941
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0041"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #942
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L364} ; "　【？？？】（夕実）「……やっと気付いてくれたのね。嬉しいわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #944
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L365} ; "　【貴城】「あの、切断されたブツを送りつけてきたのも……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #946
+  ldstr         "e0042"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #947
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L366} ; "　【？？？】（夕実）「私以外に誰がいると思う？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #949
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L367} ; "　【貴城】「一体どういうつもりなんだ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #951
+  ldstr         "BUP01C"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #952
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0043"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #953
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L368} ; "　【？？？】（夕実）「別に……余計なことをした奴を消しただけ。アハハハハ、アハハハハハハハ！！！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #955
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L369} ; "　少女は狂ったように笑い出した。\n"
+  line          #956
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L370} ; "　花咲く春の野原を駆け回るような無邪気な笑顔で心底楽しそうに笑った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #958
+  ldstr         "e0044"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #959
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L371} ; "　【？？？】（夕実）「私のお兄ちゃんに、余計なことをしたやつを消しただけ。私からお兄ちゃんを取り上げたやつは、みんな死んでしまえばいいのよ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #961
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L372} ; "　【貴城】「夕実………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #963
+  ldstr         "BUP01B"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #964
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0045"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #965
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L373} ; "　【夕実】「アハ、やっと私の名前を呼んでくれたね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #967
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L374} ; "　【貴城】「…………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #969
+  ldstr         "BUP01E"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #970
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0046"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #971
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L375} ; "　【夕実】「でも、もう遅い。お兄ちゃんは私の行動の表面だけを見て私を非難して、私の言葉にちっとも耳を傾けてくれなかったね」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #972
+  ldstr         "e0047"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #973
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L376} ; "　【夕実】「それどころか、夕実はもう死んだなんて言い出して……、私の存在を否定したお兄ちゃんが許せない」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #975
+  ldstr         "m07"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #976
+  ldstr         "BUP01F"
+  callp         $$disp_top@PIC (1) ; $disp_top@PIC
+  line          #977
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0048"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #978
+  ldc.i         28
+  ldc.i         14
+  ldc.i         48
+  ldstr         ""
+  ldc.i         -1
+  ctrl          "f"
+  text          %{L377} ; "　【夕実】「殺してやる！　私は山口を殺したのよ、一人殺そうと二人殺そうと、同じことだわ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #994
+  ldstr         "ev01a"
+  syscallp      $set_view (1)
+  line          #995
+  ldstr         "ev01b"
+  syscallp      $set_view (1)
+  line          #996
+  ldstr         "ev01c"
+  syscallp      $set_view (1)
+  line          #997
+  ldstr         "ev01d"
+  syscallp      $set_view (1)
+  line          #998
+  ldstr         "ev01e"
+  syscallp      $set_view (1)
+  line          #999
+  ldstr         "ev02a"
+  syscallp      $set_view (1)
+  line          #1000
+  ldstr         "ev02b"
+  syscallp      $set_view (1)
+  line          #1001
+  ldstr         "ev02c"
+  syscallp      $set_view (1)
+  line          #1002
+  ldstr         "ev02d"
+  syscallp      $set_view (1)
+  line          #1003
+  ldstr         "ev02e"
+  syscallp      $set_view (1)
+  line          #1004
+  ldstr         "ev02f"
+  syscallp      $set_view (1)
+  line          #1005
+  ldstr         "ev03a"
+  syscallp      $set_view (1)
+  line          #1006
+  ldstr         "ev03b"
+  syscallp      $set_view (1)
+  line          #1007
+  ldstr         "ev03c"
+  syscallp      $set_view (1)
+  line          #1008
+  ldstr         "ev03d"
+  syscallp      $set_view (1)
+  line          #1009
+  ldstr         "ev03e"
+  syscallp      $set_view (1)
+  line          #1010
+  ldstr         "ev04a"
+  syscallp      $set_view (1)
+  line          #1011
+  ldstr         "ev04b"
+  syscallp      $set_view (1)
+  line          #1012
+  ldstr         "ev04c"
+  syscallp      $set_view (1)
+  line          #1013
+  ldstr         "ev04d"
+  syscallp      $set_view (1)
+  line          #1014
+  ldstr         "ev04e"
+  syscallp      $set_view (1)
+  line          #1015
+  ldstr         "ev04f"
+  syscallp      $set_view (1)
+  line          #1016
+  ldstr         "ev05a"
+  syscallp      $set_view (1)
+  line          #1017
+  ldstr         "ev05b"
+  syscallp      $set_view (1)
+  line          #1018
+  ldstr         "ev05c"
+  syscallp      $set_view (1)
+  line          #1019
+  ldstr         "ev06a"
+  syscallp      $set_view (1)
+  line          #1020
+  ldstr         "ev06b"
+  syscallp      $set_view (1)
+  line          #1021
+  ldstr         "ev07a"
+  syscallp      $set_view (1)
+  line          #1022
+  ldstr         "ev07b"
+  syscallp      $set_view (1)
+  line          #1023
+  ldstr         "ev07c"
+  syscallp      $set_view (1)
+  line          #1024
+  ldstr         "ev08a"
+  syscallp      $set_view (1)
+  line          #1025
+  ldstr         "ev08b"
+  syscallp      $set_view (1)
+  line          #1026
+  ldstr         "ev09a"
+  syscallp      $set_view (1)
+  line          #1027
+  ldstr         "ev09b"
+  syscallp      $set_view (1)
+  line          #1028
+  ldstr         "ev09c"
+  syscallp      $set_view (1)
+  line          #1029
+  ldstr         "ev10a"
+  syscallp      $set_view (1)
+  line          #1030
+  ldstr         "ev10b"
+  syscallp      $set_view (1)
+  line          #1031
+  ldstr         "ev11a"
+  syscallp      $set_view (1)
+  line          #1032
+  ldstr         "ev11b"
+  syscallp      $set_view (1)
+  line          #1033
+  ldstr         "ev12"
+  syscallp      $set_view (1)
+  line          #1034
+  ldstr         "ev13a"
+  syscallp      $set_view (1)
+  line          #1035
+  ldstr         "ev13b"
+  syscallp      $set_view (1)
+  line          #1036
+  ldstr         "ev14"
+  syscallp      $set_view (1)
+  line          #1037
+  ldstr         "ev29"
+  syscallp      $set_view (1)
+  line          #1038
+  ldstr         "ev30"
+  syscallp      $set_view (1)
+  line          #1039
+  ldstr         "ev31"
+  syscallp      $set_view (1)
+  line          #1040
+  ldstr         "ev15a"
+  syscallp      $set_view (1)
+  line          #1041
+  ldstr         "ev15b"
+  syscallp      $set_view (1)
+  line          #1042
+  ldstr         "ev16a"
+  syscallp      $set_view (1)
+  line          #1043
+  ldstr         "ev16b"
+  syscallp      $set_view (1)
+  line          #1044
+  ldstr         "ev16c"
+  syscallp      $set_view (1)
+  line          #1045
+  ldstr         "ev17a"
+  syscallp      $set_view (1)
+  line          #1046
+  ldstr         "ev17b"
+  syscallp      $set_view (1)
+  line          #1047
+  ldstr         "ev17c"
+  syscallp      $set_view (1)
+  line          #1048
+  ldstr         "ev18a"
+  syscallp      $set_view (1)
+  line          #1049
+  ldstr         "ev18b"
+  syscallp      $set_view (1)
+  line          #1050
+  ldstr         "ev18c"
+  syscallp      $set_view (1)
+  line          #1051
+  ldstr         "ev18d"
+  syscallp      $set_view (1)
+  line          #1052
+  ldstr         "ev19a"
+  syscallp      $set_view (1)
+  line          #1053
+  ldstr         "ev19b"
+  syscallp      $set_view (1)
+  line          #1054
+  ldstr         "ev19c"
+  syscallp      $set_view (1)
+  line          #1055
+  ldstr         "ev19d"
+  syscallp      $set_view (1)
+  line          #1056
+  ldstr         "ev20a"
+  syscallp      $set_view (1)
+  line          #1057
+  ldstr         "ev20b"
+  syscallp      $set_view (1)
+  line          #1058
+  ldstr         "ev21a"
+  syscallp      $set_view (1)
+  line          #1059
+  ldstr         "ev21b"
+  syscallp      $set_view (1)
+  line          #1060
+  ldstr         "ev22a"
+  syscallp      $set_view (1)
+  line          #1061
+  ldstr         "ev22b"
+  syscallp      $set_view (1)
+  line          #1062
+  ldstr         "ev22c"
+  syscallp      $set_view (1)
+  line          #1063
+  ldstr         "ev22d"
+  syscallp      $set_view (1)
+  line          #1064
+  ldstr         "ev23"
+  syscallp      $set_view (1)
+  line          #1065
+  ldstr         "ev24a"
+  syscallp      $set_view (1)
+  line          #1066
+  ldstr         "ev24b"
+  syscallp      $set_view (1)
+  line          #1067
+  ldstr         "ev25"
+  syscallp      $set_view (1)
+  line          #1068
+  ldstr         "ev26"
+  syscallp      $set_view (1)
+  line          #1069
+  ldstr         "ev27"
+  syscallp      $set_view (1)
+  line          #1070
+  ldstr         "ev28"
+  syscallp      $set_view (1)
+  line          #1071
+  ldstr         "ev29"
+  syscallp      $set_view (1)
+  line          #1072
+  ldstr         "ev30"
+  syscallp      $set_view (1)
+  line          #1073
+  ldstr         "ev31"
+  syscallp      $set_view (1)
+  line          #1074
+  ldstr         "ev85"
+  syscallp      $set_view (1)
+  line          #1075
+  ldstr         "ev32a"
+  syscallp      $set_view (1)
+  line          #1076
+  ldstr         "ev32b"
+  syscallp      $set_view (1)
+  line          #1077
+  ldstr         "ev33a"
+  syscallp      $set_view (1)
+  line          #1078
+  ldstr         "ev33b"
+  syscallp      $set_view (1)
+  line          #1079
+  ldstr         "ev33c"
+  syscallp      $set_view (1)
+  line          #1080
+  ldstr         "ev34a"
+  syscallp      $set_view (1)
+  line          #1081
+  ldstr         "ev34b"
+  syscallp      $set_view (1)
+  line          #1082
+  ldstr         "ev34c"
+  syscallp      $set_view (1)
+  line          #1083
+  ldstr         "ev34d"
+  syscallp      $set_view (1)
+  line          #1084
+  ldstr         "ev34e"
+  syscallp      $set_view (1)
+  line          #1085
+  ldstr         "ev34f"
+  syscallp      $set_view (1)
+  line          #1086
+  ldstr         "ev34g"
+  syscallp      $set_view (1)
+  line          #1087
+  ldstr         "ev34h"
+  syscallp      $set_view (1)
+  line          #1088
+  ldstr         "ev34i"
+  syscallp      $set_view (1)
+  line          #1089
+  ldstr         "ev35a"
+  syscallp      $set_view (1)
+  line          #1090
+  ldstr         "ev35b"
+  syscallp      $set_view (1)
+  line          #1091
+  ldstr         "ev36a"
+  syscallp      $set_view (1)
+  line          #1092
+  ldstr         "ev36b"
+  syscallp      $set_view (1)
+  line          #1093
+  ldstr         "ev37"
+  syscallp      $set_view (1)
+  line          #1094
+  ldstr         "ev38a"
+  syscallp      $set_view (1)
+  line          #1095
+  ldstr         "ev38b"
+  syscallp      $set_view (1)
+  line          #1096
+  ldstr         "ev38c"
+  syscallp      $set_view (1)
+  line          #1097
+  ldstr         "ev39a"
+  syscallp      $set_view (1)
+  line          #1098
+  ldstr         "ev39b"
+  syscallp      $set_view (1)
+  line          #1099
+  ldstr         "ev39c"
+  syscallp      $set_view (1)
+  line          #1100
+  ldstr         "ev39d"
+  syscallp      $set_view (1)
+  line          #1101
+  ldstr         "ev40"
+  syscallp      $set_view (1)
+  line          #1102
+  ldstr         "ev41a"
+  syscallp      $set_view (1)
+  line          #1103
+  ldstr         "ev41b"
+  syscallp      $set_view (1)
+  line          #1104
+  ldstr         "ev41c"
+  syscallp      $set_view (1)
+  line          #1105
+  ldstr         "ev41d"
+  syscallp      $set_view (1)
+  line          #1106
+  ldstr         "ev42"
+  syscallp      $set_view (1)
+  line          #1107
+  ldstr         "ev43"
+  syscallp      $set_view (1)
+  line          #1108
+  ldstr         "ev44"
+  syscallp      $set_view (1)
+  line          #1109
+  ldstr         "ev45"
+  syscallp      $set_view (1)
+  line          #1110
+  ldstr         "ev46a"
+  syscallp      $set_view (1)
+  line          #1111
+  ldstr         "ev46b"
+  syscallp      $set_view (1)
+  line          #1112
+  ldstr         "ev47"
+  syscallp      $set_view (1)
+  line          #1113
+  ldstr         "ev48a"
+  syscallp      $set_view (1)
+  line          #1114
+  ldstr         "ev48b"
+  syscallp      $set_view (1)
+  line          #1115
+  ldstr         "ev48c"
+  syscallp      $set_view (1)
+  line          #1116
+  ldstr         "ev48d"
+  syscallp      $set_view (1)
+  line          #1117
+  ldstr         "ev49a"
+  syscallp      $set_view (1)
+  line          #1118
+  ldstr         "ev49b"
+  syscallp      $set_view (1)
+  line          #1119
+  ldstr         "ev50a"
+  syscallp      $set_view (1)
+  line          #1120
+  ldstr         "ev50b"
+  syscallp      $set_view (1)
+  line          #1121
+  ldstr         "ev51"
+  syscallp      $set_view (1)
+  line          #1122
+  ldstr         "ev52a"
+  syscallp      $set_view (1)
+  line          #1123
+  ldstr         "ev52b"
+  syscallp      $set_view (1)
+  line          #1124
+  ldstr         "ev53a"
+  syscallp      $set_view (1)
+  line          #1125
+  ldstr         "ev53b"
+  syscallp      $set_view (1)
+  line          #1126
+  ldstr         "ev54a"
+  syscallp      $set_view (1)
+  line          #1127
+  ldstr         "ev54b"
+  syscallp      $set_view (1)
+  line          #1128
+  ldstr         "ev55a"
+  syscallp      $set_view (1)
+  line          #1129
+  ldstr         "ev55b"
+  syscallp      $set_view (1)
+  line          #1130
+  ldstr         "ev55c"
+  syscallp      $set_view (1)
+  line          #1131
+  ldstr         "ev55d"
+  syscallp      $set_view (1)
+  line          #1132
+  ldstr         "ev56"
+  syscallp      $set_view (1)
+  line          #1133
+  ldstr         "ev57"
+  syscallp      $set_view (1)
+  line          #1134
+  ldstr         "ev58a"
+  syscallp      $set_view (1)
+  line          #1135
+  ldstr         "ev58b"
+  syscallp      $set_view (1)
+  line          #1137
+  ldstr         "ev59"
+  syscallp      $set_view (1)
+  line          #1138
+  ldstr         "ev60a"
+  syscallp      $set_view (1)
+  line          #1139
+  ldstr         "ev60b"
+  syscallp      $set_view (1)
+  line          #1140
+  ldstr         "ev60c"
+  syscallp      $set_view (1)
+  line          #1141
+  ldstr         "ev61a"
+  syscallp      $set_view (1)
+  line          #1142
+  ldstr         "ev61b"
+  syscallp      $set_view (1)
+  line          #1143
+  ldstr         "ev61c"
+  syscallp      $set_view (1)
+  line          #1144
+  ldstr         "ev62a"
+  syscallp      $set_view (1)
+  line          #1145
+  ldstr         "ev62b"
+  syscallp      $set_view (1)
+  line          #1146
+  ldstr         "ev63a"
+  syscallp      $set_view (1)
+  line          #1147
+  ldstr         "ev63b"
+  syscallp      $set_view (1)
+  line          #1148
+  ldstr         "ev63c"
+  syscallp      $set_view (1)
+  line          #1149
+  ldstr         "ev63d"
+  syscallp      $set_view (1)
+  line          #1150
+  ldstr         "ev64"
+  syscallp      $set_view (1)
+  line          #1151
+  ldstr         "ev65a"
+  syscallp      $set_view (1)
+  line          #1152
+  ldstr         "ev65b"
+  syscallp      $set_view (1)
+  line          #1153
+  ldstr         "ev65c"
+  syscallp      $set_view (1)
+  line          #1154
+  ldstr         "ev66a"
+  syscallp      $set_view (1)
+  line          #1155
+  ldstr         "ev66b"
+  syscallp      $set_view (1)
+  line          #1156
+  ldstr         "ev66c"
+  syscallp      $set_view (1)
+  line          #1157
+  ldstr         "ev66d"
+  syscallp      $set_view (1)
+  line          #1158
+  ldstr         "ev67a"
+  syscallp      $set_view (1)
+  line          #1159
+  ldstr         "ev67b"
+  syscallp      $set_view (1)
+  line          #1160
+  ldstr         "ev67c"
+  syscallp      $set_view (1)
+  line          #1161
+  ldstr         "ev68a"
+  syscallp      $set_view (1)
+  line          #1162
+  ldstr         "ev68b"
+  syscallp      $set_view (1)
+  line          #1163
+  ldstr         "ev68c"
+  syscallp      $set_view (1)
+  line          #1164
+  ldstr         "ev68d"
+  syscallp      $set_view (1)
+  line          #1165
+  ldstr         "ev69"
+  syscallp      $set_view (1)
+  line          #1166
+  ldstr         "ev70"
+  syscallp      $set_view (1)
+  line          #1167
+  ldstr         "ev71"
+  syscallp      $set_view (1)
+  line          #1168
+  ldstr         "ev72"
+  syscallp      $set_view (1)
+  line          #1169
+  ldstr         "ev73a"
+  syscallp      $set_view (1)
+  line          #1170
+  ldstr         "ev73b"
+  syscallp      $set_view (1)
+  line          #1171
+  ldstr         "ev74a"
+  syscallp      $set_view (1)
+  line          #1172
+  ldstr         "ev74b"
+  syscallp      $set_view (1)
+  line          #1173
+  ldstr         "ev75"
+  syscallp      $set_view (1)
+  line          #1175
+  ldstr         "ev14"
+  syscallp      $set_view (1)
+  line          #1176
+  ldstr         "ev28"
+  syscallp      $set_view (1)
+  line          #1177
+  ldstr         "ev44"
+  syscallp      $set_view (1)
+  line          #1178
+  ldstr         "ev58a"
+  syscallp      $set_view (1)
+  line          #1179
+  ldstr         "ev58b"
+  syscallp      $set_view (1)
+  line          #1180
+  ldstr         "ev72"
+  syscallp      $set_view (1)
+  line          #1181
+  ldstr         "ev75"
+  syscallp      $set_view (1)
+  line          #1182
+  ldstr         "ev76"
+  syscallp      $set_view (1)
+  line          #1183
+  ldstr         "ev77"
+  syscallp      $set_view (1)
+  line          #1184
+  ldstr         "ev78a"
+  syscallp      $set_view (1)
+  line          #1185
+  ldstr         "ev78b"
+  syscallp      $set_view (1)
+  line          #1186
+  ldstr         "ev78c"
+  syscallp      $set_view (1)
+  line          #1187
+  ldstr         "ev79"
+  syscallp      $set_view (1)
+  line          #1188
+  ldstr         "ev80a"
+  syscallp      $set_view (1)
+  line          #1189
+  ldstr         "ev80b"
+  syscallp      $set_view (1)
+  line          #1190
+  ldstr         "ev80c"
+  syscallp      $set_view (1)
+  line          #1191
+  ldstr         "ev81"
+  syscallp      $set_view (1)
+  line          #1192
+  ldstr         "ev82a"
+  syscallp      $set_view (1)
+  line          #1193
+  ldstr         "ev82b"
+  syscallp      $set_view (1)
+  line          #1194
+  ldstr         "ev83a"
+  syscallp      $set_view (1)
+  line          #1195
+  ldstr         "ev83b"
+  syscallp      $set_view (1)
+  line          #1196
+  ldstr         "ev84"
+  syscallp      $set_view (1)
+  line          #1197
+  ldstr         "ev85"
+  syscallp      $set_view (1)
+  line          #1199
+  callp         $$cg_mode@CGMODE (0) ; $cg_mode@CGMODE
+  line          #1219
+  ldc.i         0
+  ret          
+}

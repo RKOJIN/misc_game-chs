@@ -10,4 +10,3 @@ def repack(oripath,outpath):
 
 if __name__=='__main__':
     f=MEDFile("md_scr.med",key)
-    f.repack("md_scr_test\\")

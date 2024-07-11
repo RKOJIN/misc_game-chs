@@ -1,0 +1,125 @@
+readmark enable
+
+func $18366439() {
+ entry:
+  line          #16
+  argcheck      []
+  alloca        []
+  line          #17
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #18
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #19
+  ldstr         "bg02n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #20
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #21
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #23
+  text          %{L1} ; "さて、仕上げだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #24
+  text          %{L2} ; "俺は無言のまま、用意してきたデジカメを取り出し、愛梨の姿を撮影する。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  ldstr         "a0082"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #27
+  text          %{L3} ; "【愛梨】「ぅっ、ぁっ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #29
+  text          %{L4} ; "【貴城】「これを撒かれたくなかったら、これからも言うことを聞けよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #31
+  text          %{L5} ; "シャッターを切る音とフラッシュの光に微かな反応を示したものの、絶頂の疲労のせいなのか、愛梨はぼんやりとした視線を向けるだけだった。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  ldc.i         0
+  ret          
+}
+
+func $96b963da() {
+ entry:
+  line          #34
+  argcheck      []
+  alloca        []
+  line          #36
+  ldc.i         1500
+  syscallp      $music_fadeout (1)
+  line          #37
+  ldc.i         1500
+  ldstr         "white"
+  callp         $$disp_back@PIC (2) ; $disp_back@PIC
+  line          #38
+  ldstr         "bg02n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #39
+  ldc.i         1
+  callp         $$trans_osumesu@KOEKOE (1) ; $trans_osumesu@KOEKOE
+  line          #40
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "m05"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #42
+  text          %{L6} ; "愛梨ががくりと個室の床へ崩れ落ちると、俺は用意してきたデジカメでその痴態を撮影していく。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #44
+  text          %{L7} ; "【貴城】「淫乱女がトイレで犯されて絶頂した精液まみれの記念写真だな」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #46
+  text          %{L8} ; "【貴城】「これを撒かれたくなかったら、これからも言うことを聞けよ」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldstr         "a0083"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #49
+  text          %{L9} ; "【愛梨】「ぅぅぅ……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #51
+  text          %{L10} ; "うなだれる愛梨を他所に俺はそう告げると、笑いながら公衆トイレを後にした。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #53
+  ldc.i         0
+  ret          
+}
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #55
+  argcheck      []
+  alloca        []
+  line          #56
+  callp         $18366439 (0)
+  line          #57
+  callp         $96b963da (0)
+  line          #58
+  ldc.i         0
+  ret          
+}

@@ -1,0 +1,2546 @@
+readmark disable
+
+func $f3036778(int) {
+ entry:
+  line          #51
+  argcheck      [int]
+  alloca        []
+  line          #52
+  ld            persistent int $30b6a7d9 
+  ld            local int $1503b726 -2
+  ld            persistent int $b51b948b 
+  ldc.i         1
+  sub.i        
+  ceq.i        
+  andl         
+  brfalse       @block_0049
+
+ block_0041:
+  ldc.i         1
+  ret          
+
+ block_0049:
+  line          #53
+  ldc.i         0
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $55c38ed6(int, int, int, int, int) { ; $on@LOADSAVE
+ entry:
+  line          #59
+  argcheck      [int, int, int, int, int]
+  alloca        [string, string, int, int, int]
+  line          #63
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $310898bc 
+  syscallp      $grp_copy (8)
+  line          #65
+  ld            local int $1503b726 -2
+  ldc.i         60
+  clt.i        
+  brfalse       @block_071b
+
+ block_00eb:
+  line          #66
+  ld            local int $1503b726 -2
+  call          $f3036778 (1)
+  brfalse       @block_012b
+
+ block_010b:
+  line          #67
+  ldc.i         -1
+  st.i          local int $693f1158 2
+  pop          
+  line          #68
+  br            @block_0155
+
+ block_012b:
+  line          #69
+  ld            local int $1503b726 -2
+  ld            persistent int $c73a0e23 
+  add.i        
+  st.i          local int $693f1158 2
+  pop          
+  line          #70
+
+ block_0155:
+  line          #72
+  ld            local int $693f1158 2
+  syscall       $get_save_info$ (1)
+  st.s          local string $e25d0781 1
+  pop          
+  line          #73
+  ld            local string $e25d0781 1
+  ldstr         ""
+  ceq.s        
+  brfalse       @block_01b8
+
+ block_0192:
+  line          #74
+  ldstr         "-- No Data --"
+  st.s          local string $e25d0781 1
+  pop          
+  line          #75
+
+ block_01b8:
+  line          #76
+  ld            local int $693f1158 2
+  syscall       $get_save_time$ (1)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #77
+  ld            local string $2b14994c 0
+  brfalse       @block_0220
+
+ block_01ee:
+  line          #78
+  ldc.i         14
+  ld            local string $2b14994c 0
+  syscall       $strleft$ (2)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #79
+  br            @block_0247
+
+ block_0220:
+  line          #80
+  ldstr         "              "
+  st.s          local string $2b14994c 0
+  pop          
+  line          #81
+
+ block_0247:
+  line          #83
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $d2a0647c 
+  st.i          local int $099b02f1 -3
+  pop          
+  line          #84
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $132ebbbc 
+  st.i          local int $108033b0 -4
+  pop          
+  line          #86
+  ld            persistent int $a3dc5846 
+  ld            persistent int $dbb7f303 
+  syscallp      $fontout_color (2)
+  line          #87
+  ld            persistent int $c53f69b4 
+  ld            persistent int $5cc62704 
+  ldc.i         2
+  div.i        
+  ld            persistent int $5cc62704 
+  ld            persistent string $ea213e78 
+  syscallp      $fontout_font (4)
+  line          #89
+  ld            persistent int $a5dd3d05 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_041d
+
+ block_0307:
+  line          #90
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #91
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #93
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  add.i        
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #94
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #95
+  br            @block_051f
+
+ block_041d:
+  line          #96
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #97
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #99
+  ld            local int $108033b0 -4
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  add.i        
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #100
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #101
+
+ block_051f:
+  line          #103
+  ld            persistent int $7e4c5cf8 
+  brfalse       @block_05c1
+
+ block_0533:
+  line          #104
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $531db00d 
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $c09e48d1 
+  syscallp      $grp_copy (8)
+  line          #105
+  br            @block_0717
+
+ block_05c1:
+  line          #106
+  ld            local int $693f1158 2
+  syscall       $get_save_info$ (1)
+  brfalse       @block_0713
+
+ block_05dd:
+  line          #109
+  ld            savefile int $a8d75b83 
+  brfalse       @block_063b
+
+ block_05f1:
+  line          #110
+  ldc.i         0
+  ldelem        persistent int dim1 $c1599049 
+  st.i          local int $bb86a1fd 3
+  pop          
+  line          #111
+  ldc.i         0
+  ldelem        persistent int dim1 $00d74f89 
+  st.i          local int $a29d90bc 4
+  pop          
+  line          #112
+  br            @block_067f
+
+ block_063b:
+  line          #113
+  ldc.i         2
+  ldelem        persistent int dim1 $c1599049 
+  st.i          local int $bb86a1fd 3
+  pop          
+  line          #114
+  ldc.i         2
+  ldelem        persistent int dim1 $00d74f89 
+  st.i          local int $a29d90bc 4
+  pop          
+  line          #115
+
+ block_067f:
+  line          #116
+  ld            local int $a29d90bc 4
+  ld            local int $bb86a1fd 3
+  ld            savefile int $531db00d 
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  ld            local int $a29d90bc 4
+  ld            local int $bb86a1fd 3
+  ld            savefile int $310898bc 
+  syscallp      $grp_copy (8)
+  line          #117
+  ld            local int $a29d90bc 4
+  ld            local int $bb86a1fd 3
+  ld            savefile int $531db00d 
+  ld            local int $693f1158 2
+  syscallp      $copy_thumbnail (4)
+  line          #118
+
+ block_0713:
+  line          #119
+
+ block_0717:
+  line          #120
+
+ block_071b:
+  line          #121
+  ldc.i         0
+  ret          
+}
+
+func $7bce42d7(int, int, int, int, int) { ; $off@LOADSAVE
+ entry:
+  line          #122
+  argcheck      [int, int, int, int, int]
+  alloca        [string, string, int, int, int]
+  line          #127
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $d6cd0187 
+  syscallp      $grp_copy (8)
+  line          #128
+  ld            local int $1503b726 -2
+  ldc.i         60
+  clt.i        
+  brfalse       @block_0d91
+
+ block_07b5:
+  line          #129
+  ld            local int $1503b726 -2
+  call          $f3036778 (1)
+  brfalse       @block_07f5
+
+ block_07d5:
+  line          #130
+  ldc.i         -1
+  st.i          local int $693f1158 4
+  pop          
+  line          #131
+  br            @block_081f
+
+ block_07f5:
+  line          #132
+  ld            local int $1503b726 -2
+  ld            persistent int $c73a0e23 
+  add.i        
+  st.i          local int $693f1158 4
+  pop          
+  line          #133
+
+ block_081f:
+  line          #135
+  ld            local int $693f1158 4
+  syscall       $get_save_info$ (1)
+  st.s          local string $e25d0781 1
+  pop          
+  line          #136
+  ld            local string $e25d0781 1
+  ldstr         ""
+  ceq.s        
+  brfalse       @block_0882
+
+ block_085c:
+  line          #137
+  ldstr         "-- No Data --"
+  st.s          local string $e25d0781 1
+  pop          
+  line          #138
+
+ block_0882:
+  line          #139
+  ld            local int $693f1158 4
+  syscall       $get_save_time$ (1)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #140
+  ld            local string $2b14994c 0
+  brfalse       @block_08ea
+
+ block_08b8:
+  line          #141
+  ldc.i         14
+  ld            local string $2b14994c 0
+  syscall       $strleft$ (2)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #142
+  br            @block_0911
+
+ block_08ea:
+  line          #143
+  ldstr         "              "
+  st.s          local string $2b14994c 0
+  pop          
+  line          #144
+
+ block_0911:
+  line          #146
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $d2a0647c 
+  st.i          local int $099b02f1 -3
+  pop          
+  line          #147
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $132ebbbc 
+  st.i          local int $108033b0 -4
+  pop          
+  line          #149
+  ld            persistent int $f0398595 
+  ld            persistent int $8df910f1 
+  syscallp      $fontout_color (2)
+  line          #150
+  ld            persistent int $c53f69b4 
+  ld            persistent int $5cc62704 
+  ldc.i         2
+  div.i        
+  ld            persistent int $5cc62704 
+  ld            persistent string $ea213e78 
+  syscallp      $fontout_font (4)
+  line          #152
+  ld            persistent int $a5dd3d05 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_0ae7
+
+ block_09d1:
+  line          #153
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #154
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #156
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  add.i        
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #157
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #158
+  br            @block_0be9
+
+ block_0ae7:
+  line          #159
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #160
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #162
+  ld            local int $108033b0 -4
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  add.i        
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #163
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #164
+
+ block_0be9:
+  line          #166
+  ld            savefile int $a8d75b83 
+  brfalse       @block_0c47
+
+ block_0bfd:
+  line          #167
+  ldc.i         0
+  ldelem        persistent int dim1 $c1599049 
+  st.i          local int $bb86a1fd 2
+  pop          
+  line          #168
+  ldc.i         0
+  ldelem        persistent int dim1 $00d74f89 
+  st.i          local int $a29d90bc 3
+  pop          
+  line          #169
+  br            @block_0c8b
+
+ block_0c47:
+  line          #170
+  ldc.i         2
+  ldelem        persistent int dim1 $c1599049 
+  st.i          local int $bb86a1fd 2
+  pop          
+  line          #171
+  ldc.i         2
+  ldelem        persistent int dim1 $00d74f89 
+  st.i          local int $a29d90bc 3
+  pop          
+  line          #172
+
+ block_0c8b:
+  line          #174
+  ld            persistent int $7e4c5cf8 
+  brfalse       @block_0d2d
+
+ block_0c9f:
+  line          #175
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $531db00d 
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $c09e48d1 
+  syscallp      $grp_copy (8)
+  line          #176
+  br            @block_0d8d
+
+ block_0d2d:
+  line          #177
+  ld            local int $a29d90bc 3
+  ld            local int $bb86a1fd 2
+  ld            savefile int $531db00d 
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  ld            local int $a29d90bc 3
+  ld            local int $bb86a1fd 2
+  ld            savefile int $d6cd0187 
+  syscallp      $grp_copy (8)
+  line          #178
+
+ block_0d8d:
+  line          #179
+
+ block_0d91:
+  line          #180
+  ldc.i         0
+  ret          
+}
+
+func $dd763669(int, int, int, int, int) { ; $click@LOADSAVE
+ entry:
+  line          #181
+  argcheck      [int, int, int, int, int]
+  alloca        [string, string, int]
+  line          #185
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  ld            local int $569ef60c -6
+  ld            local int $575c9c3b -5
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $c09e48d1 
+  syscallp      $grp_copy (8)
+  line          #187
+  ld            local int $1503b726 -2
+  ldc.i         60
+  clt.i        
+  brfalse       @block_1261
+
+ block_0e29:
+  line          #188
+  ld            local int $1503b726 -2
+  call          $f3036778 (1)
+  brfalse       @block_0e69
+
+ block_0e49:
+  line          #189
+  ldc.i         -1
+  st.i          local int $693f1158 2
+  pop          
+  line          #190
+  br            @block_0e93
+
+ block_0e69:
+  line          #191
+  ld            local int $1503b726 -2
+  ld            persistent int $c73a0e23 
+  add.i        
+  st.i          local int $693f1158 2
+  pop          
+  line          #192
+
+ block_0e93:
+  line          #194
+  ld            local int $693f1158 2
+  syscall       $get_save_info$ (1)
+  st.s          local string $e25d0781 1
+  pop          
+  line          #195
+  ld            local string $e25d0781 1
+  ldstr         ""
+  ceq.s        
+  brfalse       @block_0ef6
+
+ block_0ed0:
+  line          #196
+  ldstr         "-- No Data --"
+  st.s          local string $e25d0781 1
+  pop          
+  line          #197
+
+ block_0ef6:
+  line          #198
+  ld            local int $693f1158 2
+  syscall       $get_save_time$ (1)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #199
+  ld            local string $2b14994c 0
+  brfalse       @block_0f5e
+
+ block_0f2c:
+  line          #200
+  ldc.i         14
+  ld            local string $2b14994c 0
+  syscall       $strleft$ (2)
+  st.s          local string $2b14994c 0
+  pop          
+  line          #201
+  br            @block_0f85
+
+ block_0f5e:
+  line          #202
+  ldstr         "              "
+  st.s          local string $2b14994c 0
+  pop          
+  line          #203
+
+ block_0f85:
+  line          #205
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $d2a0647c 
+  st.i          local int $099b02f1 -3
+  pop          
+  line          #206
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $132ebbbc 
+  st.i          local int $108033b0 -4
+  pop          
+  line          #208
+  ld            persistent int $f0398595 
+  ld            persistent int $8df910f1 
+  syscallp      $fontout_color (2)
+  line          #209
+  ld            persistent int $c53f69b4 
+  ld            persistent int $5cc62704 
+  ldc.i         2
+  div.i        
+  ld            persistent int $5cc62704 
+  ld            persistent string $ea213e78 
+  syscallp      $fontout_font (4)
+  line          #211
+  ld            persistent int $a5dd3d05 
+  ldc.i         1
+  ceq.i        
+  brfalse       @block_115b
+
+ block_1045:
+  line          #212
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #213
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #215
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  add.i        
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  sub.i        
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #216
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ld            persistent int $5cc62704 
+  ldc.i         7
+  mul.i        
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #217
+  br            @block_125d
+
+ block_115b:
+  line          #218
+  ld            local int $108033b0 -4
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #219
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $e25d0781 1
+  syscallp      $fontout (3)
+  line          #221
+  ld            local int $108033b0 -4
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  add.i        
+  ld            local int $099b02f1 -3
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #222
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $510fe72c 
+  ldc.i         2
+  div.i        
+  ld            local int $1503b726 -2
+  ldelem        persistent int dim1 $caaaab43 
+  ld            local string $2b14994c 0
+  syscallp      $fontout (3)
+  line          #223
+
+ block_125d:
+  line          #224
+
+ block_1261:
+  line          #226
+  syscallp      $mk_unwait (0)
+  line          #228
+  ldc.i         1
+  st.i          savefile int $cd05cda7 
+  pop          
+  line          #229
+  ld            local int $1503b726 -2
+  st.i          savefile int $9d8a29d9 
+  pop          
+  line          #230
+  ldc.i         0
+  ret          
+}
+
+func $660031de() {
+ entry:
+  line          #231
+  argcheck      []
+  alloca        []
+  line          #232
+  ldc.i         1
+  st.i          savefile int $cd05cda7 
+  pop          
+  line          #233
+  ldc.i         -1
+  st.i          savefile int $9d8a29d9 
+  pop          
+  line          #234
+  ldc.i         0
+  ret          
+}
+
+func $e5b9b00c(int, int) {
+ entry:
+  line          #235
+  argcheck      [int, int]
+  alloca        []
+  line          #236
+  ldc.i         0
+  ret          
+}
+
+func $897379e1(int, int) {
+ entry:
+  line          #237
+  argcheck      [int, int]
+  alloca        []
+  line          #238
+  ldc.i         -1
+  st.i          savefile int $cd05cda7 
+  pop          
+  line          #239
+  ldc.i         -1
+  st.i          savefile int $9d8a29d9 
+  pop          
+  line          #240
+  ldc.i         0
+  ret          
+}
+
+func $443894b6() { ; $do_autosave@LOADSAVE
+ entry:
+  line          #244
+  argcheck      []
+  alloca        []
+  line          #245
+  ld            persistent int invert_boolean $30b6a7d9 
+  brfalse       @block_1375
+
+ block_136d:
+  ldc.i         0
+  ret          
+
+ block_1375:
+  line          #247
+  call          $$is_after_picback@PIC (0) ; $is_after_picback@PIC
+  brfalse       @block_13d3
+
+ block_138b:
+  line          #248
+  ldc.i         0
+  syscallp      $wait (1)
+  line          #249
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  syscallp      $capture_thumbnail (2)
+  line          #250
+  ldc.i         -1
+  syscallp      $do_save (1)
+  line          #251
+
+ block_13d3:
+  line          #252
+  ldc.i         0
+  ret          
+}
+
+func $e57b2864(string) {
+ entry:
+  line          #256
+  argcheck      [string]
+  alloca        [int]
+  line          #259
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  syscall       $page_create (2)
+  st.i          local int $cec433b9 0
+  pop          
+  line          #260
+  ldc.i         0
+  ldc.i         0
+  ld            local int $cec433b9 0
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  ldc.i         0
+  ldc.i         0
+  syscall       $get_frontbuffer (0)
+  syscallp      $grp_copy (8)
+  line          #261
+  ld            local string $a75141c4 -2
+  ld            local int $cec433b9 0
+  syscallp      $pic_unpack (2)
+  line          #262
+  ld            local int $cec433b9 0
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $b9221189() {
+ entry:
+  line          #267
+  argcheck      []
+  alloca        [int, int, string, string, int, int, int, int, int]
+  line          #274
+  syscallp      $enter_loadsave_menu (0)
+  line          #275
+  syscallp      $draw_wait (0)
+  line          #276
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  syscallp      $capture_thumbnail (2)
+  line          #277
+  syscallp      $sprite_push (0)
+  line          #280
+  ldc.i         1
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  syscall       $page_create (3)
+  st.i          savefile int $531db00d 
+  pop          
+  line          #281
+  ld            savefile int $531db00d 
+  syscall       $sprite_create (1)
+  st.i          local int $3acf92c1 4
+  pop          
+  line          #284
+  ld            savefile int $a8d75b83 
+  brfalse       @block_15cc
+
+ block_1550:
+  line          #285
+  ld            persistent string $07965c43 
+  call          $e57b2864 (1)
+  st.i          savefile int $d6cd0187 
+  pop          
+  line          #286
+  ld            persistent string $120df0b5 
+  call          $e57b2864 (1)
+  st.i          savefile int $310898bc 
+  pop          
+  line          #287
+  ld            persistent string $64221453 
+  call          $e57b2864 (1)
+  st.i          savefile int $c09e48d1 
+  pop          
+  line          #288
+  br            @block_1642
+
+ block_15cc:
+  line          #289
+  ld            persistent string $3c4b41a6 
+  call          $e57b2864 (1)
+  st.i          savefile int $d6cd0187 
+  pop          
+  line          #290
+  ld            persistent string $a130dd95 
+  call          $e57b2864 (1)
+  st.i          savefile int $310898bc 
+  pop          
+  line          #291
+  ld            persistent string $b479dfb9 
+  call          $e57b2864 (1)
+  st.i          savefile int $c09e48d1 
+  pop          
+  line          #292
+
+ block_1642:
+  line          #294
+  ld            persistent int $c629d460 
+  brfalse       @block_17a4
+
+ block_1656:
+  line          #295
+  ld            savefile int $a8d75b83 
+  brfalse       @block_1708
+
+ block_166a:
+  line          #296
+  ld            persistent string $ca09e0c0 
+  syscall       $page_create_file (1)
+  st.i          local int $9a8485bf 5
+  pop          
+  line          #297
+  ld            persistent string $ca09e0c0 
+  ldstr         "_"
+  add.s        
+  syscall       $pic_is_exist (1)
+  brfalse       @block_16fe
+
+ block_16b0:
+  line          #298
+  ld            persistent string $ca09e0c0 
+  ldstr         "_"
+  add.s        
+  syscall       $page_create_file (1)
+  st.i          local int $32c08a1b 6
+  pop          
+  line          #299
+  ld            local int $32c08a1b 6
+  ld            local int $9a8485bf 5
+  syscallp      $page_set_antidata (2)
+  line          #300
+
+ block_16fe:
+  line          #301
+  br            @block_17a0
+
+ block_1708:
+  line          #302
+  ld            persistent string $b9c7bf59 
+  syscall       $page_create_file (1)
+  st.i          local int $9a8485bf 5
+  pop          
+  line          #303
+  ld            persistent string $b9c7bf59 
+  ldstr         "_"
+  add.s        
+  syscall       $pic_is_exist (1)
+  brfalse       @block_179c
+
+ block_174e:
+  line          #304
+  ld            persistent string $b9c7bf59 
+  ldstr         "_"
+  add.s        
+  syscall       $page_create_file (1)
+  st.i          local int $32c08a1b 6
+  pop          
+  line          #305
+  ld            local int $32c08a1b 6
+  ld            local int $9a8485bf 5
+  syscallp      $page_set_antidata (2)
+  line          #306
+
+ block_179c:
+  line          #307
+
+ block_17a0:
+  line          #308
+
+ block_17a4:
+  line          #310
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $531db00d 
+  syscall       $client_height (0)
+  syscall       $client_width (0)
+  ldc.i         0
+  ldc.i         0
+  ld            savefile int $d6cd0187 
+  syscallp      $grp_copy (8)
+  line          #312
+  ld            persistent int $7e4c5cf8 
+  brfalse       @block_199c
+
+ block_1800:
+  line          #313
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_1816:
+  ld            local int $5a4221e1 1
+  ld            persistent int $b51b948b 
+  clt.i        
+  brfalse       @block_1998
+
+ block_1832:
+  br            @block_184a
+
+ block_1838:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_1816
+
+ block_184a:
+  line          #316
+  ld            local int $5a4221e1 1
+  call          $f3036778 (1)
+  brfalse       @block_1876
+
+ block_186a:
+  ldc.i         -1
+  br            @block_188c
+
+ block_1876:
+  ld            local int $5a4221e1 1
+  ld            persistent int $c73a0e23 
+  add.i        
+
+ block_188c:
+  st.i          local int $693f1158 8
+  pop          
+  line          #318
+  ld            local int $693f1158 8
+  syscall       $get_save_info$ (1)
+  brfalse       @block_1906
+
+ block_18b4:
+  line          #319
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $c09e48d1 
+  ld            local int $693f1158 8
+  syscallp      $copy_thumbnail (4)
+  line          #320
+  br            @block_198e
+
+ block_1906:
+  line          #321
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $c09e48d1 
+  ld            persistent int $9e985fd5 
+  ld            persistent int $715a34eb 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $00d74f89 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $d6cd0187 
+  syscallp      $grp_copy (8)
+  line          #322
+
+ block_198e:
+  line          #323
+  br            @block_1838
+
+ block_1998:
+  line          #324
+
+ block_199c:
+  line          #327
+  ld            persistent int $c629d460 
+  brfalse       @block_1a28
+
+ block_19b0:
+  line          #328
+  ld            persistent int $7a34933e 
+  ld            persistent int $95f6f800 
+  ld            savefile int $531db00d 
+  ld            persistent int $78d1ae0c 
+  ld            persistent int $b95f71cc 
+  ldc.i         0
+  ld            persistent int $b95f71cc 
+  ld            persistent int $c73a0e23 
+  ldc.i         100
+  div.i        
+  ldc.i         1
+  sub.i        
+  mul.i        
+  ld            local int $9a8485bf 5
+  syscallp      $grp_extcopy (8)
+  line          #329
+
+ block_1a28:
+  line          #332
+  ld            savefile int invert_boolean $a8d75b83 
+  brfalse       @block_1b5a
+
+ block_1a3c:
+  line          #333
+  ld            persistent int invert_boolean $7e4c5cf8 
+  brfalse       @block_1a8a
+
+ block_1a50:
+  line          #334
+  ldc.i         1
+  ldelem        persistent int dim1 $00d74f89 
+  ldc.i         1
+  ldelem        persistent int dim1 $c1599049 
+  ld            savefile int $531db00d 
+  syscallp      $copy_current_thumbnail (3)
+  line          #335
+
+ block_1a8a:
+  line          #337
+  ld            persistent int $3092c98c 
+  ld            persistent int $9cd9a48e 
+  syscallp      $fontout_color (2)
+  line          #338
+  ld            persistent int $c53f69b4 
+  ld            persistent int $5cc62704 
+  ldc.i         2
+  div.i        
+  ld            persistent int $5cc62704 
+  ld            persistent string $ea213e78 
+  syscallp      $fontout_font (4)
+  line          #340
+  ld            persistent int $88a7155c 
+  ld            persistent int $67657e62 
+  ld            savefile int $531db00d 
+  syscallp      $fontout_locate (3)
+  line          #341
+  ld            persistent int $db9f3dfe 
+  ld            persistent int $1a11e23e 
+  ldstr         "【"
+  syscall       $get_current_info$ (0)
+  add.s        
+  ldstr         "】を保存します"
+  add.s        
+  syscallp      $fontout (3)
+  line          #342
+
+ block_1b5a:
+  line          #344
+  ldc.i         0
+  ldc.i         0
+  ld            local int $3acf92c1 4
+  syscallp      $sprite_move (3)
+  line          #346
+  syscallp      $areaevent_reset (0)
+  line          #347
+  ldc.i         -1988920863
+  ldc.i         -440815604
+  syscallp      $areaevent_setdefault (2)
+  line          #348
+  ld            persistent int $30b6a7d9 
+  brfalse       @block_1bcc
+
+ block_1bb4:
+  ld            persistent int $b51b948b 
+  ldc.i         1
+  sub.i        
+  br            @block_1bd6
+
+ block_1bcc:
+  ld            persistent int $b51b948b 
+
+ block_1bd6:
+  st.i          local int $9826a503 7
+  pop          
+  line          #349
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_1bf8:
+  ld            local int $5a4221e1 1
+  ld            local int $9826a503 7
+  clt.i        
+  brfalse       @block_1dde
+
+ block_1c14:
+  br            @block_1c2c
+
+ block_1c1a:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_1bf8
+
+ block_1c2c:
+  line          #350
+  ld            savefile int $a8d75b83 
+  brfalse       @block_1cee
+
+ block_1c40:
+  line          #351
+  ld            local int $5a4221e1 1
+  ld            persistent int $c73a0e23 
+  add.i        
+  syscall       $get_save_time$ (1)
+  brfalse       @block_1ce4
+
+ block_1c68:
+  line          #352
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $aa78cdfe 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $31dd8191 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b0480ce3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $71c6d323 
+  ld            local int $5a4221e1 1
+  syscallp      $areaevent_set (8)
+  line          #354
+
+ block_1ce4:
+  line          #355
+  br            @block_1d6a
+
+ block_1cee:
+  line          #356
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $aa78cdfe 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $31dd8191 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b0480ce3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $71c6d323 
+  ld            local int $5a4221e1 1
+  syscallp      $areaevent_set (8)
+  line          #358
+
+ block_1d6a:
+  line          #359
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $aa78cdfe 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $31dd8191 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b0480ce3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $71c6d323 
+  ld            local int $5a4221e1 1
+  callp         $$off@LOADSAVE (5) ; $off@LOADSAVE
+  line          #360
+  br            @block_1c1a
+
+ block_1dde:
+  line          #361
+  ld            persistent int $30b6a7d9 
+  brfalse       @block_1f2e
+
+ block_1df2:
+  line          #362
+  ld            savefile int $a8d75b83 
+  brfalse       @block_1f2a
+
+ block_1e06:
+  line          #363
+  ldc.i         -1
+  syscall       $get_save_time$ (1)
+  brfalse       @block_1f26
+
+ block_1e1e:
+  line          #364
+  ld            persistent int $b51b948b 
+  ldc.i         1
+  sub.i        
+  st.i          local int $5a4221e1 1
+  pop          
+  line          #366
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $aa78cdfe 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $31dd8191 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b0480ce3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $71c6d323 
+  ld            local int $5a4221e1 1
+  syscallp      $areaevent_set (8)
+  line          #368
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $aa78cdfe 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $31dd8191 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b0480ce3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $71c6d323 
+  ld            local int $5a4221e1 1
+  callp         $$off@LOADSAVE (5) ; $off@LOADSAVE
+  line          #370
+
+ block_1f26:
+  line          #371
+
+ block_1f2a:
+  line          #372
+
+ block_1f2e:
+  line          #373
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_1f44:
+  ld            local int $5a4221e1 1
+  ld            persistent int $f68bcd63 
+  clt.i        
+  brfalse       @block_20d8
+
+ block_1f60:
+  br            @block_1f78
+
+ block_1f66:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_1f44
+
+ block_1f78:
+  line          #374
+  ld            local int $5a4221e1 1
+  ld            persistent int $c73a0e23 
+  ldc.i         100
+  div.i        
+  ldc.i         1
+  sub.i        
+  ceq.i        
+  brfalse       @block_204a
+
+ block_1fa8:
+  line          #375
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $77d8d584 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b6560a44 
+  ld            savefile int $531db00d 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $7969a9dc 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $e2cce5b3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $77d8d584 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b6560a44 
+  ld            savefile int $c09e48d1 
+  syscallp      $grp_copy (8)
+  line          #376
+  br            @block_20ce
+
+ block_204a:
+  line          #377
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $7969a9dc 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $e2cce5b3 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $77d8d584 
+  ld            local int $5a4221e1 1
+  ldelem        persistent int dim1 $b6560a44 
+  ld            local int $5a4221e1 1
+  ldc.i         60
+  add.i        
+  syscallp      $areaevent_set (8)
+  line          #378
+
+ block_20ce:
+  line          #379
+  br            @block_1f66
+
+ block_20d8:
+  line          #381
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            persistent int $6c265c9f 
+  ld            persistent int $ada8835f 
+  ld            persistent int $8c9a4f22 
+  ld            persistent int $6358241c 
+  ldc.i         101
+  syscallp      $areaevent_set (8)
+  line          #382
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            persistent int $a1e709f0 
+  ld            persistent int $6069d630 
+  ld            persistent int $9ac9b3d7 
+  ld            persistent int $750bd8e9 
+  ldc.i         102
+  syscallp      $areaevent_set (8)
+  line          #383
+  ldc.i         -579455383
+  ldc.i         2077115095
+  ldc.i         1438879446
+  ld            persistent int $d10cd2d5 
+  ld            persistent int $10820d15 
+  ld            persistent int $1be619d2 
+  ld            persistent int $f42472ec 
+  ldc.i         103
+  syscallp      $areaevent_set (8)
+  line          #386
+  ld            persistent int $c73a0e23 
+  ldstr         "LOADSAVE_PAGE"
+  syscallp      $reg_write (2)
+  line          #388
+  syscallp      $mk_unwait (0)
+  line          #389
+  ldc.i         0
+  st.i          savefile int $cd05cda7 
+  pop          
+  line          #390
+
+ block_220a:
+  line          #391
+  syscallp      $areaevent_check (0)
+  line          #392
+  ldc.i         10
+  syscallp      $wait (1)
+  line          #393
+  ld            savefile int $cd05cda7 
+  ldc.i         0
+  ceq.i        
+  brtrue        @block_220a
+
+ block_2244:
+  line          #395
+  ld            savefile int $9d8a29d9 
+  br.case       @block_2258
+
+ block_2258:
+  line          #396
+  ldc.i         -1
+  bne.case      @block_2278
+
+ block_2268:
+  line          #397
+  br            @block_25e7
+
+ block_2272:
+  br            @block_25e7
+
+ block_2278:
+  line          #398
+  ldc.i         60
+  bge.case      @block_245d
+
+ block_2288:
+  line          #399
+  ld            savefile int $a8d75b83 
+  brfalse       @block_2376
+
+ block_229c:
+  line          #400
+  ldstr         "load"
+  callp         $$guide_voice@KOEKOE (1) ; $guide_voice@KOEKOE
+  line          #401
+  ldc.i         0
+  ldstr         "データをロードします。よろしいですか？"
+  call          $$askyesno@MSG_BOX (2) ; $askyesno@MSG_BOX
+  ldc.i         1
+  cne.i        
+  brfalse       @block_230a
+
+ block_2304:
+  br            @block_17a4
+
+ block_230a:
+  line          #403
+  ld            savefile int $9d8a29d9 
+  call          $f3036778 (1)
+  brfalse       @block_2346
+
+ block_232a:
+  line          #404
+  ldc.i         -1
+  syscallp      $do_load (1)
+  line          #405
+  br            @block_236c
+
+ block_2346:
+  line          #406
+  ld            savefile int $9d8a29d9 
+  ld            persistent int $c73a0e23 
+  add.i        
+  syscallp      $do_load (1)
+  line          #407
+
+ block_236c:
+  line          #408
+  br            @block_2443
+
+ block_2376:
+  line          #409
+  ld            savefile int $9d8a29d9 
+  ld            persistent int $c73a0e23 
+  add.i        
+  syscall       $get_save_info$ (1)
+  ldstr         ""
+  cne.s        
+  brfalse       @block_2404
+
+ block_23a5:
+  line          #410
+  ldc.i         0
+  ldstr         "データを上書きセーブします。よろしいですか？"
+  call          $$askyesno@MSG_BOX (2) ; $askyesno@MSG_BOX
+  ldc.i         1
+  cne.i        
+  brfalse       @block_2400
+
+ block_23fa:
+  br            @block_17a4
+
+ block_2400:
+  line          #411
+
+ block_2404:
+  line          #413
+  ld            savefile int $9d8a29d9 
+  ld            persistent int $c73a0e23 
+  add.i        
+  syscallp      $do_save (1)
+  line          #414
+  ldstr         "save"
+  callp         $$guide_voice@KOEKOE (1) ; $guide_voice@KOEKOE
+  line          #415
+
+ block_2443:
+  line          #416
+  br            @block_17a4
+
+ block_244d:
+  line          #417
+  br            @block_25e7
+
+ block_2457:
+  br            @block_25e7
+
+ block_245d:
+  line          #418
+  ldc.i         60
+  blt.case      @block_24c3
+
+ block_246d:
+  ldc.i         100
+  bgt.case      @block_24c3
+
+ block_2479:
+  line          #419
+  ld            savefile int $9d8a29d9 
+  ldc.i         60
+  sub.i        
+  ldc.i         1
+  add.i        
+  ldc.i         100
+  mul.i        
+  ldc.i         1
+  add.i        
+  st.i          persistent int $c73a0e23 
+  pop          
+  line          #420
+  br            @block_17a4
+
+ block_24bd:
+  br            @block_25e7
+
+ block_24c3:
+  line          #421
+  ldc.i         101
+  bne.case      @block_253b
+
+ block_24d3:
+  line          #422
+  ldc.i         100
+  st.sub.i      persistent int $c73a0e23 
+  pop          
+  line          #423
+  ld            persistent int $c73a0e23 
+  ldc.i         100
+  cle.i        
+  brfalse       @block_252b
+
+ block_2505:
+  ld            persistent int $f68bcd63 
+  ldc.i         100
+  mul.i        
+  ldc.i         1
+  add.i        
+  st.i          persistent int $c73a0e23 
+  pop          
+
+ block_252b:
+  line          #424
+  br            @block_17a4
+
+ block_2535:
+  br            @block_25e7
+
+ block_253b:
+  line          #425
+  ldc.i         102
+  bne.case      @block_25b3
+
+ block_254b:
+  line          #426
+  ldc.i         100
+  st.add.i      persistent int $c73a0e23 
+  pop          
+  line          #427
+  ld            persistent int $c73a0e23 
+  ld            persistent int $f68bcd63 
+  ldc.i         100
+  mul.i        
+  ldc.i         1
+  add.i        
+  cgt.i        
+  brfalse       @block_25a3
+
+ block_2591:
+  ldc.i         101
+  st.i          persistent int $c73a0e23 
+  pop          
+
+ block_25a3:
+  line          #428
+  br            @block_17a4
+
+ block_25ad:
+  br            @block_25e7
+
+ block_25b3:
+  line          #429
+  ldc.i         103
+  bne.case      @block_25e7
+
+ block_25c3:
+  line          #430
+  ldc.i         -1
+  st.i          savefile int $9d8a29d9 
+  pop          
+  line          #431
+  br            @block_25e7
+
+ block_25e3:
+  line          #432
+
+ block_25e7:
+  line          #434
+  ld            local int $3acf92c1 4
+  syscallp      $sprite_release (1)
+  line          #435
+  syscallp      $sprite_pop (0)
+  line          #437
+  ld            persistent int $c629d460 
+  brfalse       @block_265d
+
+ block_261d:
+  line          #438
+  ld            local int $9a8485bf 5
+  syscallp      $page_release (1)
+  line          #439
+  ld            local int $32c08a1b 6
+  brfalse       @block_2659
+
+ block_2647:
+  ld            local int $32c08a1b 6
+  syscallp      $page_release (1)
+
+ block_2659:
+  line          #440
+
+ block_265d:
+  line          #441
+  ld            savefile int $531db00d 
+  syscallp      $page_release (1)
+  line          #442
+  ld            savefile int $d6cd0187 
+  syscallp      $page_release (1)
+  line          #443
+  ld            savefile int $c09e48d1 
+  syscallp      $page_release (1)
+  line          #444
+  ld            savefile int $310898bc 
+  syscallp      $page_release (1)
+  line          #446
+  syscallp      $leave_loadsave_menu (0)
+  line          #448
+  ld            savefile int $9d8a29d9 
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $9c5795d9() { ; $save_menu@LOADSAVE
+ entry:
+  line          #454
+  argcheck      []
+  alloca        []
+  line          #455
+  ldc.i         0
+  st.i          savefile int $a8d75b83 
+  pop          
+  line          #456
+  call          $b9221189 (0)
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $a78a883c() { ; $load_menu@LOADSAVE
+ entry:
+  line          #458
+  argcheck      []
+  alloca        []
+  line          #459
+  ldc.i         1
+  st.i          savefile int $a8d75b83 
+  pop          
+  line          #460
+  call          $b9221189 (0)
+  ret          
+  ldc.i         0
+  ret          
+}
+
+func $22cf763e() entrypoint { ; $main@LOADSAVE
+ entry:
+  line          #465
+  argcheck      []
+  alloca        [int, int, int, int, int, int]
+  line          #470
+  ldstr         "loadsave.cfg"
+  syscall       $file_open (1)
+  st.i          local int $a7934f1c 0
+  pop          
+  line          #472
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $715a34eb 
+  pop          
+  line          #473
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $9e985fd5 
+  pop          
+  line          #474
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $7e4c5cf8 
+  pop          
+  line          #475
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $30b6a7d9 
+  pop          
+  line          #476
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b51b948b 
+  pop          
+  line          #477
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $f68bcd63 
+  pop          
+  line          #478
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a5dd3d05 
+  pop          
+  line          #479
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $c629d460 
+  pop          
+  line          #481
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $07965c43 
+  pop          
+  line          #482
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $120df0b5 
+  pop          
+  line          #483
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $64221453 
+  pop          
+  line          #484
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $3c4b41a6 
+  pop          
+  line          #485
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $a130dd95 
+  pop          
+  line          #486
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $b479dfb9 
+  pop          
+  line          #488
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $ea213e78 
+  pop          
+  line          #489
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $c53f69b4 
+  pop          
+  line          #490
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $5cc62704 
+  pop          
+  line          #492
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #493
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #494
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #495
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  st.i          persistent int $8df910f1 
+  pop          
+  line          #497
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #498
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #499
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #500
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $2c24b203 5
+  pop          
+  line          #501
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  ld            local int $2c24b203 5
+  ldc.i         24
+  shl          
+  or           
+  st.i          persistent int $f0398595 
+  pop          
+  line          #503
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #504
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #505
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #506
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  st.i          persistent int $dbb7f303 
+  pop          
+  line          #508
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #509
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #510
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #511
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $2c24b203 5
+  pop          
+  line          #512
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  ld            local int $2c24b203 5
+  ldc.i         24
+  shl          
+  or           
+  st.i          persistent int $a3dc5846 
+  pop          
+  line          #514
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $71c6d323 
+  pop          
+  line          #515
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $b0480ce3 
+  pop          
+  line          #516
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $31dd8191 
+  pop          
+  line          #517
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $aa78cdfe 
+  pop          
+  line          #519
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $d2a0647c 
+  pop          
+  line          #520
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $132ebbbc 
+  pop          
+  line          #521
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $caaaab43 
+  pop          
+  line          #522
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $510fe72c 
+  pop          
+  line          #524
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_2dd0:
+  ld            local int $5a4221e1 1
+  ld            persistent int $b51b948b 
+  clt.i        
+  brfalse       @block_2f6e
+
+ block_2dec:
+  br            @block_2e04
+
+ block_2df2:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_2dd0
+
+ block_2e04:
+  line          #525
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $71c6d323 
+  pop          
+  line          #526
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $b0480ce3 
+  pop          
+  line          #527
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $31dd8191 
+  pop          
+  line          #528
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $aa78cdfe 
+  pop          
+  line          #530
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $d2a0647c 
+  pop          
+  line          #531
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $132ebbbc 
+  pop          
+  line          #532
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $caaaab43 
+  pop          
+  line          #533
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $510fe72c 
+  pop          
+  line          #534
+  br            @block_2df2
+
+ block_2f6e:
+  line          #536
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  ldstr         "PARAM_CHK1"
+  cne.s        
+  brfalse       @block_2ff9
+
+ block_2f9b:
+  line          #537
+  ldstr         "[ loadsave.cfg ] PARAM_CHK1の時点でパラメータ数が合いません。"
+  syscallp      $dialog_error_ok (1)
+  line          #538
+  syscallp      $system_end (0)
+  line          #539
+
+ block_2ff9:
+  line          #540
+  ld            persistent int $7e4c5cf8 
+  brfalse       @block_3107
+
+ block_300d:
+  line          #541
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $c1599049 
+  pop          
+  line          #542
+  ld            persistent int $b51b948b 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $00d74f89 
+  pop          
+  line          #543
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_3067:
+  ld            local int $5a4221e1 1
+  ld            persistent int $b51b948b 
+  clt.i        
+  brfalse       @block_30fd
+
+ block_3083:
+  br            @block_309b
+
+ block_3089:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_3067
+
+ block_309b:
+  line          #544
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $c1599049 
+  pop          
+  line          #545
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $00d74f89 
+  pop          
+  line          #546
+  br            @block_3089
+
+ block_30fd:
+  line          #547
+  br            @block_3237
+
+ block_3107:
+  line          #548
+  ldc.i         3
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $c1599049 
+  pop          
+  line          #549
+  ldc.i         3
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $00d74f89 
+  pop          
+  line          #551
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         0
+  stelem.i      persistent int dim1 $c1599049 
+  pop          
+  line          #552
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         0
+  stelem.i      persistent int dim1 $00d74f89 
+  pop          
+  line          #553
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         1
+  stelem.i      persistent int dim1 $c1599049 
+  pop          
+  line          #554
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         1
+  stelem.i      persistent int dim1 $00d74f89 
+  pop          
+  line          #555
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         2
+  stelem.i      persistent int dim1 $c1599049 
+  pop          
+  line          #556
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ldc.i         2
+  stelem.i      persistent int dim1 $00d74f89 
+  pop          
+  line          #557
+
+ block_3237:
+  line          #559
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  ldstr         "PARAM_CHK2"
+  cne.s        
+  brfalse       @block_32c2
+
+ block_3264:
+  line          #560
+  ldstr         "[ loadsave.cfg ] PARAM_CHK2の時点でパラメータ数が合いません。"
+  syscallp      $dialog_error_ok (1)
+  line          #561
+  syscallp      $system_end (0)
+  line          #562
+
+ block_32c2:
+  line          #564
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6358241c 
+  pop          
+  line          #565
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $8c9a4f22 
+  pop          
+  line          #566
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $ada8835f 
+  pop          
+  line          #567
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6c265c9f 
+  pop          
+  line          #569
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $750bd8e9 
+  pop          
+  line          #570
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $9ac9b3d7 
+  pop          
+  line          #571
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $6069d630 
+  pop          
+  line          #572
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $a1e709f0 
+  pop          
+  line          #574
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $f42472ec 
+  pop          
+  line          #575
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1be619d2 
+  pop          
+  line          #576
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $10820d15 
+  pop          
+  line          #577
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $d10cd2d5 
+  pop          
+  line          #579
+  ld            persistent int $f68bcd63 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $b6560a44 
+  pop          
+  line          #580
+  ld            persistent int $f68bcd63 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $77d8d584 
+  pop          
+  line          #581
+  ld            persistent int $f68bcd63 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $e2cce5b3 
+  pop          
+  line          #582
+  ld            persistent int $f68bcd63 
+  syscall       $dim_create# (1)
+  st.iarr       persistent intarray $7969a9dc 
+  pop          
+  line          #584
+  ldc.i         0
+  st.i          local int $5a4221e1 1
+  pop          
+
+ block_34f8:
+  ld            local int $5a4221e1 1
+  ld            persistent int $f68bcd63 
+  clt.i        
+  brfalse       @block_35e6
+
+ block_3514:
+  br            @block_352c
+
+ block_351a:
+  ld            local int postinc $5a4221e1 1
+  pop          
+  br            @block_34f8
+
+ block_352c:
+  line          #585
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $b6560a44 
+  pop          
+  line          #586
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $77d8d584 
+  pop          
+  line          #587
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $e2cce5b3 
+  pop          
+  line          #588
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  ld            local int $5a4221e1 1
+  stelem.i      persistent int dim1 $7969a9dc 
+  pop          
+  line          #589
+  br            @block_351a
+
+ block_35e6:
+  line          #591
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #592
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #593
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #594
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  st.i          persistent int $9cd9a48e 
+  pop          
+  line          #596
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $51534646 2
+  pop          
+  line          #597
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $7a7e1585 3
+  pop          
+  line          #598
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $636524c4 4
+  pop          
+  line          #599
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          local int $2c24b203 5
+  pop          
+  line          #600
+  ld            local int $636524c4 4
+  ld            local int $7a7e1585 3
+  ld            local int $51534646 2
+  syscall       $rgb (3)
+  ld            local int $2c24b203 5
+  ldc.i         24
+  shl          
+  or           
+  st.i          persistent int $3092c98c 
+  pop          
+  line          #602
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $67657e62 
+  pop          
+  line          #603
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $88a7155c 
+  pop          
+  line          #604
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $1a11e23e 
+  pop          
+  line          #605
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $db9f3dfe 
+  pop          
+  line          #607
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $ca09e0c0 
+  pop          
+  line          #608
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  st.s          persistent string $b9c7bf59 
+  pop          
+  line          #609
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $95f6f800 
+  pop          
+  line          #610
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $7a34933e 
+  pop          
+  line          #611
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $b95f71cc 
+  pop          
+  line          #612
+  ld            local int $a7934f1c 0
+  syscall       $file_read (1)
+  st.i          persistent int $78d1ae0c 
+  pop          
+  line          #614
+  ld            local int $a7934f1c 0
+  syscall       $file_read$ (1)
+  ldstr         "PARAM_CHK3"
+  cne.s        
+  brfalse       @block_3933
+
+ block_38d5:
+  line          #615
+  ldstr         "[ loadsave.cfg ] PARAM_CHK3の時点でパラメータ数が合いません。"
+  syscallp      $dialog_error_ok (1)
+  line          #616
+  syscallp      $system_end (0)
+  line          #617
+
+ block_3933:
+  line          #618
+  ld            local int $a7934f1c 0
+  syscallp      $file_close (1)
+  line          #620
+  ldc.i         101
+  ldstr         "LOADSAVE_PAGE"
+  syscall       $reg_read (2)
+  st.i          persistent int $c73a0e23 
+  pop          
+  line          #623
+  ldc.i         -1484093380
+  ldstr         "LOADMENU"
+  syscallp      $event_hook (2)
+  line          #624
+  ldc.i         -1671981607
+  ldstr         "SAVEMENU"
+  syscallp      $event_hook (2)
+  line          #625
+  ldc.i         1711288798
+  ldstr         "LOADSAVEMENU_EXIT"
+  syscallp      $event_hook (2)
+  line          #626
+  ldc.i         0
+  ret          
+}

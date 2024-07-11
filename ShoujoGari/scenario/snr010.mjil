@@ -1,0 +1,102 @@
+readmark enable
+
+func $1d128f30() entrypoint { ; $main@GLOBAL
+ entry:
+  line          #9
+  argcheck      []
+  alloca        []
+  line          #12
+  ldstr         "m03"
+  callp         $$user_music@KOEKOE (1) ; $user_music@KOEKOE
+  line          #13
+  ldstr         "bg09n"
+  callp         $$pic_back@PIC (1) ; $pic_back@PIC
+  line          #14
+  callp         $$trans_osumesu@KOEKOE (0) ; $trans_osumesu@KOEKOE
+  line          #16
+  callp         $$trans_autoexec@PIC (0) ; $trans_autoexec@PIC
+  ldstr         "e0036"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #17
+  text          %{L1} ; "【？？？】（夕実）「どうして私を見てくれないの？」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #19
+  text          %{L2} ; "深夜の電話が鳴る。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #20
+  text          %{L3} ; "受話器をとるなり、少女はすがるような声でそう言った。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #22
+  ldstr         "e0037"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #23
+  text          %{L4} ; "【？？？】（夕実）「あなたのことがどうしても忘れられない……もう一度会いたい……どうしても……どうしても会いたいの……」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #25
+  text          %{L5} ; "調子に乗りやがって、まるで別れた恋人同士のような口ぶりだ。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #26
+  text          %{L6} ; "俺をからかってるつもりか。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #27
+  text          %{L7} ; "脅かしたり、からかったり、そうやって俺を混乱させ、正気を失わせようって魂胆に違いない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #28
+  text          %{L8} ; "俺は声を荒げて言い返した。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #30
+  text          %{L9} ; "【貴城】「淫乱女がなにを勘違いしてやがるんだ？　俺はおまえの出張ホストじゃねえ！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #32
+  text          %{L10} ; "脅しには屈しない。こんなくだらない電話で俺は脅えない。"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #33
+  text          %{L11} ; "こいつの正体を逆に暴いてやる！"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #35
+  ldstr         "e0038"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #36
+  text          %{L12} ; "【？？？】（夕実）「…………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #38
+  text          %{L13} ; "【貴城】「お前は人殺しの蛆虫なんだ！　法の目をかいくぐって生きる人殺しの淫売女に、俺が粛清を下してやる！！　おまえに、快楽を求める資格などあると思うな！」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #40
+  ldstr         "e0039"
+  callp         $$user_voice@KOEKOE (1) ; $user_voice@KOEKOE
+  line          #41
+  text          %{L14} ; "【？？？】（夕実）「…………」"
+  proc         
+  ctrl          "p"
+  ctrl          "w"
+  line          #48
+  ldc.i         0
+  ret          
+}
