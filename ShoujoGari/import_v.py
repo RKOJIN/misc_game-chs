@@ -53,7 +53,7 @@ def dengchang(trans:bytes,ori_length:int)->bytes:
 
     if len(trans)>ori_length:#第三步处理：去除标点符号
         text=trans.decode(encoding='sjis')
-        text=text.replace('，','').replace('…','').replace('。','').replace('、','').replace('～','').replace('」','').replace('「','')
+        text=text.replace('，','').replace('…','').replace('。','').replace('、','').replace('～','').replace('」','')
         trans=text.encode(encoding='sjis')
 
     if len(trans)>ori_length:#第四步处理：暴力截断

@@ -56,7 +56,7 @@ for i in name_and_message_matches:
         dic={}
 
 #输出提取的文本
-outf=open('CODE1.json','w',encoding='utf8')
+outf=open('CODE2.json','w',encoding='utf8')
 json.dump(outjson,outf,indent=4,ensure_ascii=False)
 
 print(len(outjson))#33185行

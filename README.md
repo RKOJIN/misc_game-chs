@@ -21,7 +21,7 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - 魔法の守護姫アルテミナ1-3
 - ふたなりカノンち
 - 少女狩り
-
+- 借金姐妹
 
 ### 说明
 
