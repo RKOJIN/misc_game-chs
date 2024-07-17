@@ -129,9 +129,9 @@ ChangeTextOutput ChangeText(LPCSTR ori_text, int y,int len, LPCSTR idx,int print
             output.flag = FALSE;
             return output;
         }
-        output.transed_text_= SubString(transed ->second, 48);
+        output.transed_text_= SubString(transed ->second, 52);
         output.idx_ = o_text;
-        output.printed_len_ = 48;
+        output.printed_len_ = 52;
         output.flag = TRUE;
         return output;
     }
@@ -141,15 +141,16 @@ ChangeTextOutput ChangeText(LPCSTR ori_text, int y,int len, LPCSTR idx,int print
             output.flag = FALSE;
             return output;
         }
-        output.transed_text_ = GetSubstring(transed->second, printed_l, printed_l+ 48);
+        output.transed_text_ = GetSubstring(transed->second, printed_l, printed_l+ 50);
         if (output.transed_text_ == nullptr) {
             output.transed_text_ = " ";
         }
         output.idx_ = idx;
-        output.printed_len_ = printed_l + 48;
+        output.printed_len_ = printed_l + 52;
         output.flag = TRUE;
         return output;
     }
+    output.flag = FALSE;
     output.transed_text_ = ori_text;
     output.idx_ = idx;
     output.printed_len_ = printed_l;

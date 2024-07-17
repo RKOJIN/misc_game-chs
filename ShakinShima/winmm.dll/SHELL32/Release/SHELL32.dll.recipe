@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\learn_hook\winmm.dll\Release\SHELL32.dll</FullPath>
+      <FullPath>D:\misc_game-chs\ShakinShima\winmm.dll\Release\SHELL32.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -33,6 +33,12 @@
     <ClCompile Include="..\LIB\dump_text.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\LIB\changetext.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LIB\changefont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\LIB\convert.h">
@@ -48,6 +54,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\LIB\dump_text.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIB\changefont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIB\changetext.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LIB\readconfig.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

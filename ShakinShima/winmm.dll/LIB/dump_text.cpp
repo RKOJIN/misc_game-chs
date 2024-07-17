@@ -176,15 +176,8 @@ int WINAPI newExtTextOutA_changetxt(
 		  (char*)"黑体"
 	);
 	HFONT hPrevFont = (HFONT)SelectObject(hdc, hNewFont);
-	TEXTMETRIC tm;
-	GetTextMetrics(hdc, &tm);
-	SIZE size;
-	GetTextExtentPoint32A(hdc, transed_text, c, &size);
-	int pairs = GetKerningPairs(hdc, 0, NULL);
-	KERNINGPAIR* kerningPairs = new KERNINGPAIR[pairs];
-	GetKerningPairs(hdc, pairs, kerningPairs);
-	int extraSpace = 2; // 根据需要调整
-	SetTextCharacterExtra(hdc, extraSpace);
+	//int extraSpace = 2; // 根据需要调整
+	//SetTextCharacterExtra(hdc, extraSpace);
 
 	BOOL result = T_ExtTextOutA(hdc, x, y, options, lprect, transed_text, c, lpDx);
 	SelectObject(hdc, hPrevFont);
