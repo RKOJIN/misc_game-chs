@@ -1,8 +1,9 @@
-﻿  changetext.cpp
+﻿  dllmain.cpp
+D:\misc_game-chs\ShakinShima\winmm.dll\winmm.dll\dllmain.cpp(451,7): warning C4101: “szProcName”: 未引用的局部变量
     正在创建库 D:\misc_game-chs\ShakinShima\winmm.dll\Release\winmm.lib 和对象 D:\misc_game-chs\ShakinShima\winmm.dll\Release\winmm.exp
   正在生成代码
-  2 of 1204 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  1 of 1204 functions (<0.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   winmm.dll.vcxproj -> D:\misc_game-chs\ShakinShima\winmm.dll\Release\winmm.dll

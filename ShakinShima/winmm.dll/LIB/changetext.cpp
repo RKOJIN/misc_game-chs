@@ -141,7 +141,7 @@ ChangeTextOutput ChangeText(LPCSTR ori_text, int y,int len, LPCSTR idx,int print
             output.flag = FALSE;
             return output;
         }
-        output.transed_text_ = GetSubstring(transed->second, printed_l, printed_l+ 50);
+        output.transed_text_ = GetSubstring(transed->second, printed_l, printed_l+ 52);
         if (output.transed_text_ == nullptr) {
             output.transed_text_ = " ";
         }

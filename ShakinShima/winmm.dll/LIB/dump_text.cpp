@@ -158,7 +158,7 @@ int WINAPI newExtTextOutA_changetxt(
 	printed_len = out.printed_len_;
 	LPCSTR transed_text = out.transed_text_;
 	c = strlen(out.transed_text_);
-
+	/*
 	HFONT hNewFont = CreateFontA(
 		  0,//高度
 		  0,//宽度
@@ -174,14 +174,23 @@ int WINAPI newExtTextOutA_changetxt(
 		  PROOF_QUALITY,
 		  DEFAULT_PITCH | FF_MODERN,
 		  (char*)"黑体"
-	);
-	HFONT hPrevFont = (HFONT)SelectObject(hdc, hNewFont);
+	);*/
+
+	HFONT hNewFont_ = (HFONT)GetStockObject(ANSI_VAR_FONT);
+	HFONT hPrevFont = ( HFONT ) SelectObject(hdc, hNewFont_);
+	LOGFONT lf = { 0 };
+	GetObject(hPrevFont, sizeof(LOGFONT), &lf);
+	lf.lfCharSet = GB2312_CHARSET;
+	HFONT hNewFont = CreateFontIndirect(&lf);
+	SelectObject(hdc, hNewFont);
+	
 	//int extraSpace = 2; // 根据需要调整
-	//SetTextCharacterExtra(hdc, extraSpace);
+	//SetTextCharacterExtra(hdc, extraSpace);//会导致回想界面崩溃
 
 	BOOL result = T_ExtTextOutA(hdc, x, y, options, lprect, transed_text, c, lpDx);
 	SelectObject(hdc, hPrevFont);
 	DeleteObject(hNewFont);
+	DeleteObject(hNewFont_);
 	return result;
 }
 
