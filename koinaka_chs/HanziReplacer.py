@@ -40,7 +40,7 @@ def GetInvalidChars(text,tempdict,charlist):#返回输入文本中不受支持�
             if char not in tempdict:
                 tempdict[char]=len(tempdict)
         if char in charlist:
-            charlist.replace(char,'')
+            charlist = charlist.replace(char,'')
     return tempdict,charlist
     
 def Createhanzidict(tempdict,replacelist):#输出hanzidic,target_chars,source_chars

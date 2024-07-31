@@ -1,0 +1,81 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: 中间目录(Release\)包含从另一个项目(winmm.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  hook_LoadLib.cpp
+  HOOK_main.cpp
+  process_text.cpp
+  trans_map.cpp
+  dllmain.cpp
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcaa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcac 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcad 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcb0 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcb1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcb5 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcbc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcbd 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcc1 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcc6 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcc7 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xcc9 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xccb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd06 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd07 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd0b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd10 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd12 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd13 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd63 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd65 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd66 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd6a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd71 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xd72 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xdfe 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe00 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe01 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe02 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe04 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe05 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe08 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe09 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe0e 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe0f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe11 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe15 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe16 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe18 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe19 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe1a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xe1c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xff8 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xffa 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xffb 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xffc 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xffe 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0xfff 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1000 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1001 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1002 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1009 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x100a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x100c 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1010 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1011 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1013 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1014 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1015 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1017 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x177f 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1781 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1782 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x178a 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x178b 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1792 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\ddraw\dllmain.cpp(1,1): warning C4828: 文件包含在偏移 0x1793 处开始的字符，该字符在当前源字符集中无效(代码页 65001)。
+dllmain.obj : warning LNK4104: 导出符号“DllCanUnloadNow”应为 PRIVATE
+dllmain.obj : warning LNK4104: 导出符号“DllGetClassObject”应为 PRIVATE
+    正在创建库 D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\Release\ddraw.lib 和对象 D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\Release\ddraw.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 563 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  ddraw.vcxproj -> D:\misc_game-chs\ShakinShima2\hook\ShakinShima2_hook\Release\ddraw.dll

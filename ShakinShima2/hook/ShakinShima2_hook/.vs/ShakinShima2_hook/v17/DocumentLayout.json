@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\process_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|solutionrelative:LIB\\process_text.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\hook_LoadLib.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{72C90DC0-8EF3-4C42-8232-565ABAEDE808}|ddraw\\ddraw.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\ddraw\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72C90DC0-8EF3-4C42-8232-565ABAEDE808}|ddraw\\ddraw.vcxproj|solutionrelative:ddraw\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\HOOK_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{21E8C6B1-C7D9-43F6-913A-224F8F64EA5A}|dxgi\\dxgi.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\dxgi\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E8C6B1-C7D9-43F6-913A-224F8F64EA5A}|dxgi\\dxgi.vcxproj|solutionrelative:dxgi\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\hook_LoadLib.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|solutionrelative:LIB\\HOOK_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\AudioSes\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A7DEDCA-8E34-479E-BBB7-B7A173BF5E22}|AudioSes\\AudioSes.vcxproj|solutionrelative:AudioSes\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21E8C6B1-C7D9-43F6-913A-224F8F64EA5A}|dxgi\\dxgi.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{21E8C6B1-C7D9-43F6-913A-224F8F64EA5A}|dxgi\\dxgi.vcxproj|solutionrelative:LIB\\process_text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\HOOK_main.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0EAB42CC-221C-4A50-A6A9-199B5B917D1A}|winmm\\winmm.vcxproj|solutionrelative:LIB\\process_text.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,20 +38,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "process_text.h",
-              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h",
-              "RelativeDocumentMoniker": "LIB\\process_text.h",
-              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h",
-              "RelativeToolTip": "LIB\\process_text.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T18:44:42.539Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,56 +48,81 @@
               "RelativeDocumentMoniker": "LIB\\process_text.cpp",
               "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.cpp",
               "RelativeToolTip": "LIB\\process_text.cpp",
-              "ViewState": "AQIAACoAAAAAAAAAAAAYwE0AAAA8AAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAADIAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T18:37:21.422Z",
+              "WhenOpened": "2024-07-31T04:38:22.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "hook_LoadLib.cpp",
-              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.cpp",
-              "RelativeDocumentMoniker": "LIB\\hook_LoadLib.cpp",
-              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.cpp",
-              "RelativeToolTip": "LIB\\hook_LoadLib.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAKAAAA",
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\ddraw\\dllmain.cpp",
+              "RelativeDocumentMoniker": "ddraw\\dllmain.cpp",
+              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\ddraw\\dllmain.cpp",
+              "RelativeToolTip": "ddraw\\dllmain.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-18T18:34:23.232Z"
+              "WhenOpened": "2024-07-30T15:15:00.191Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "hook_LoadLib.h",
-              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.h",
-              "RelativeDocumentMoniker": "LIB\\hook_LoadLib.h",
-              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\hook_LoadLib.h",
-              "RelativeToolTip": "LIB\\hook_LoadLib.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-18T18:34:00.642Z"
+              "DocumentIndex": 4,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\AudioSes\\dllmain.cpp",
+              "RelativeDocumentMoniker": "AudioSes\\dllmain.cpp",
+              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\AudioSes\\dllmain.cpp",
+              "RelativeToolTip": "AudioSes\\dllmain.cpp",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAAAMgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-20T05:44:44.553Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\dxgi\\dllmain.cpp",
+              "RelativeDocumentMoniker": "dxgi\\dllmain.cpp",
+              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\dxgi\\dllmain.cpp",
+              "RelativeToolTip": "dxgi\\dllmain.cpp",
+              "ViewState": "AQIAAJwAAAAAAAAAAAAAAKUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-20T05:40:14.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "process_text.h",
+              "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h",
+              "RelativeDocumentMoniker": "LIB\\process_text.h",
+              "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\process_text.h",
+              "RelativeToolTip": "LIB\\process_text.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-20T05:37:16.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "HOOK_main.cpp",
               "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.cpp",
               "RelativeDocumentMoniker": "LIB\\HOOK_main.cpp",
               "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.cpp",
               "RelativeToolTip": "LIB\\HOOK_main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-17T18:02:32.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "HOOK_main.h",
               "DocumentMoniker": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.h",
               "RelativeDocumentMoniker": "LIB\\HOOK_main.h",
               "ToolTip": "D:\\misc_game-chs\\ShakinShima2\\hook\\ShakinShima2_hook\\LIB\\HOOK_main.h",
               "RelativeToolTip": "LIB\\HOOK_main.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-17T18:01:49.726Z"
             }

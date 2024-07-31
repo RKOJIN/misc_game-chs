@@ -4,6 +4,7 @@
 #include <map>
 #include <Windows.h>
 #include "process_text.h"
+#include "trans_map.h"
 
 
 //提取
@@ -37,10 +38,10 @@ void __declspec(naked) HookFunction_dump()
         // 保存所有寄存器
         pushad
 
-        // 保存 edi（包含 wchar_t* 指针）
+        // 保存 edi
         push edi
         call appendToFile
-        add esp, 4 // 恢复栈平衡
+        add esp, 4 
 
         // 恢复所有寄存器
         popad
@@ -49,11 +50,9 @@ void __declspec(naked) HookFunction_dump()
         push ebx
         push edi
 
-        // 模拟原始的 call 指令
-        push ReturnAddress // 保存返回地址
+        push ReturnAddress
         jmp dword ptr[originalCallTarget] // 跳转到原始 call 的目标
 
-        // 这里不需要 ret，因为原始的 call 指令会返回到 ReturnAddress
     }
 }
 
@@ -64,19 +63,20 @@ typedef void (*OriginalFunction)(wchar_t* str);
 // 保存原始函数地址
 OriginalFunction originalFunction = nullptr;
 
-std::map<std::wstring, std::wstring> replacementMap;
+std::map <std::wstring, std::wstring, CompareWideString> t_map;
 
 // 自定义的替换函数
 void ReplaceString(wchar_t* str) {
     std::wstring originalStr(str);
-    auto it = replacementMap.find(originalStr);
-    if (it != replacementMap.end()) {
+    auto it = t_map.find(originalStr);
+    if (it != t_map.end()) {
         wcscpy_s(str, wcslen(it->second.c_str()) + 1, it->second.c_str());
     }
     else {
+        appendToFile(str);
         //测试用
-        std::wstring t = std::wstring(L"汉化测试汉化测试汉化测试汉化测试汉化测试");
-        wcscpy_s(str, wcslen(t.c_str()) + 1, t.c_str());
+        //std::wstring t = std::wstring(L"汉化测试汉化测试汉化测试汉化测试汉化测试");
+        //wcscpy_s(str, wcslen(t.c_str()) + 1, t.c_str());
     }
 }
 
@@ -84,9 +84,6 @@ void ReplaceString(wchar_t* str) {
 void __declspec(naked) HookFunction_replace()
 {
     __asm {
-
-
-
         // 保存寄存器
         pushad
         pushfd
@@ -112,8 +109,14 @@ void __declspec(naked) HookFunction_replace()
     }
 }
 
+
 void replace_text_main()
 {
+    initTransMap(t_map);
+    //std::wstring test(L"香純「わたくし、宮森香純は……」");
+    //std::wstring aa = t_map.find(test)->second;
+    //MessageBoxW(NULL, aa.c_str(), NULL, NULL);
+
     DWORD baseAddress = (DWORD)GetModuleHandle("Flash Asset.x32");
     // 计算Hook地址
     DWORD hookAddress = baseAddress + 0x3D51D;
