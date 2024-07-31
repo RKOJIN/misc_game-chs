@@ -21,7 +21,9 @@ https://github.com/jyxjyx1234/misc_game-chs/
 - 魔法の守護姫アルテミナ1-3
 - ふたなりカノンち
 - 少女狩り
-- 借金姐妹
+- 借金姐妹1\2
+- 犠妹 ～背徳の契り
+- S.I.S.T.A.R.S:KISS OF TRINITY
 
 ### 说明
 
